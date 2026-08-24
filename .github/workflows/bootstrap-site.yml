@@ -1,0 +1,56 @@
+name: Bootstrap Public Site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/bootstrap-site.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bootstrap-public-site
+  cancel-in-progress: true
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Clone public site repository
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git clone "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" site
+
+      - name: Copy only public presentation layer
+        run: |
+          git clone --depth 1 https://github.com/anilcix/finans-bot.git core-public
+          cp -R core-public/docs/. site/
+          cp core-public/LICENSE site/LICENSE
+          cp core-public/TERMS.md site/TERMS.md
+          touch site/.nojekyll
+          rm -rf core-public
+
+      - name: Verify private core code was not copied
+        run: |
+          test ! -d site/agents
+          test ! -d site/common
+          test ! -f site/generate_site_data.py
+          test ! -f site/main.py
+
+      - name: Commit public site snapshot
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd site
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          if git diff --cached --quiet; then
+            echo "No site changes."
+            exit 0
+          fi
+          git commit -m "chore: import public site layer"
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
