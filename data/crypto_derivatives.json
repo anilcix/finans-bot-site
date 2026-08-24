@@ -1,0 +1,539 @@
+{
+  "fear_greed": {
+    "value": 73,
+    "label": "Greed"
+  },
+  "max_pain": {
+    "strike": 77500.0,
+    "spot": 78632.17,
+    "expiry": "2026-08-25T08:00:00+00:00",
+    "days_left": 0,
+    "put_call_ratio": 1.1809117598183128
+  },
+  "gex_musd": 245.67692862716507,
+  "iv_rank_pct": 100.0,
+  "current_iv": 45.12326502517473,
+  "funding": {
+    "avg_pct": 0.007654969592770476,
+    "annualized_pct": 8.382191704083672,
+    "positive_pct": 95.23809523809523,
+    "source": "OKX",
+    "samples": 21
+  },
+  "positioning": null,
+  "oi_zscore": 1.2590291698446758,
+  "open_interest_btc": 29410.898000000136,
+  "open_interest_source": "OKX",
+  "spot_perp_basis_pct": -0.03750899580153545,
+  "basis_source": "OKX",
+  "binance_status": {
+    "ok": false,
+    "status": 451,
+    "message": "HTTP 451 — GitHub runner üzerinden Binance Futures erişimi reddedildi"
+  },
+  "kraken": {
+    "source": "Kraken Futures public analytics",
+    "ok": true,
+    "symbol": "PI_XBTUSD",
+    "errors": [],
+    "open_interest_latest": 3497347.0,
+    "open_interest_change_1h_pct": 0.07938022757001395,
+    "open_interest_change_24h_pct": 2.271207326769553,
+    "open_interest_zscore_48h": 1.2590291698446758,
+    "cvd_latest": -156912.0,
+    "cvd_change_24h": -198665.0,
+    "long_short_latest": 0.48,
+    "long_short_ratio": 0.48,
+    "funding_latest": -3.57958533e-10,
+    "basis_latest": 0.0005,
+    "aggressor_latest": 5612.0,
+    "aggressor_diff_latest": 5612.0,
+    "liquidations_latest": 0.0,
+    "liquidation_volume_24h": 0.0
+  },
+  "hyperliquid": {
+    "source": "Hyperliquid public API",
+    "ok": true,
+    "error": null,
+    "mark_price": 78636.3,
+    "open_interest_btc": 38575.0599,
+    "open_interest_usd": 3033399982.81437,
+    "funding_pct": 0.00125,
+    "volume_24h_usd": 5167939631.651664,
+    "premium_pct": -0.00890064,
+    "funding_24h_avg_pct": 0.0019360866666666666,
+    "funding_positive_pct": 100.0,
+    "funding_samples": 24
+  },
+  "okx": {
+    "source": "OKX",
+    "ok": true,
+    "open_interest_btc": 29410.898000000136,
+    "funding_pct": 0.01
+  },
+  "coinalyze": {
+    "source": "Coinalyze",
+    "configured": true,
+    "ok": true,
+    "markets": [
+      {
+        "exchange": "Binance",
+        "exchange_code": "A",
+        "symbol": "BTCUSDT_PERP.A",
+        "symbol_on_exchange": "BTCUSDT",
+        "open_interest_usd": 8477252085.697199,
+        "open_interest_24h_ago_usd": 8186402757.721801,
+        "open_interest_change_24h_pct": 3.552834334971555,
+        "funding_pct": 0.01,
+        "long_short_ratio": 0.9402,
+        "long_liquidations_24h_usd": 25425579.0225,
+        "short_liquidations_24h_usd": 38681609.504200004,
+        "total_liquidations_24h_usd": 64107188.526700005
+      },
+      {
+        "exchange": "Bybit",
+        "exchange_code": "6",
+        "symbol": "BTCUSDT.6",
+        "symbol_on_exchange": "BTCUSDT",
+        "open_interest_usd": 3745352454.096,
+        "open_interest_24h_ago_usd": 3719622172.8448,
+        "open_interest_change_24h_pct": 0.6917444852072574,
+        "funding_pct": 0.01,
+        "long_short_ratio": 1.0859407592824364,
+        "long_liquidations_24h_usd": 7074502.400099999,
+        "short_liquidations_24h_usd": 11552102.150299998,
+        "total_liquidations_24h_usd": 18626604.550399996
+      },
+      {
+        "exchange": "OKX",
+        "exchange_code": "3",
+        "symbol": "BTCUSDT_PERP.3",
+        "symbol_on_exchange": "BTC-USDT-SWAP",
+        "open_interest_usd": 2311674622.906331,
+        "open_interest_24h_ago_usd": 2288560067.048886,
+        "open_interest_change_24h_pct": 1.0100043337403664,
+        "funding_pct": 0.00652047906719,
+        "long_short_ratio": null,
+        "long_liquidations_24h_usd": 3519172.6734699993,
+        "short_liquidations_24h_usd": 5185187.073930001,
+        "total_liquidations_24h_usd": 8704359.7474
+      },
+      {
+        "exchange": "Hyperliquid",
+        "exchange_code": "H",
+        "symbol": "BTC.H",
+        "symbol_on_exchange": "BTC",
+        "open_interest_usd": 3035952519.8300004,
+        "open_interest_24h_ago_usd": 2817094663.7400002,
+        "open_interest_change_24h_pct": 7.768920899500142,
+        "funding_pct": 0.00125,
+        "long_short_ratio": null,
+        "long_liquidations_24h_usd": 0,
+        "short_liquidations_24h_usd": 0,
+        "total_liquidations_24h_usd": 0
+      },
+      {
+        "exchange": "Kraken",
+        "exchange_code": "K",
+        "symbol": "pf_xbtusd.K",
+        "symbol_on_exchange": "pf_xbtusd",
+        "open_interest_usd": 147036462.9012,
+        "open_interest_24h_ago_usd": 162379432.6319,
+        "open_interest_change_24h_pct": -9.448838120700408,
+        "funding_pct": -0.0008658770833333,
+        "long_short_ratio": null,
+        "long_liquidations_24h_usd": 0,
+        "short_liquidations_24h_usd": 0,
+        "total_liquidations_24h_usd": 0
+      },
+      {
+        "exchange": "Deribit",
+        "exchange_code": "2",
+        "symbol": "BTC_USDC-PERPETUAL.2",
+        "symbol_on_exchange": "BTC_USDC-PERPETUAL",
+        "open_interest_usd": null,
+        "open_interest_24h_ago_usd": null,
+        "open_interest_change_24h_pct": null,
+        "funding_pct": 0.0,
+        "long_short_ratio": null,
+        "long_liquidations_24h_usd": 0,
+        "short_liquidations_24h_usd": 0,
+        "total_liquidations_24h_usd": 0
+      },
+      {
+        "exchange": "Aster",
+        "exchange_code": "S",
+        "symbol": "BTCUSDT.S",
+        "symbol_on_exchange": "BTCUSDT",
+        "open_interest_usd": null,
+        "open_interest_24h_ago_usd": null,
+        "open_interest_change_24h_pct": null,
+        "funding_pct": 0.008268,
+        "long_short_ratio": null,
+        "long_liquidations_24h_usd": 0,
+        "short_liquidations_24h_usd": 0,
+        "total_liquidations_24h_usd": 0
+      }
+    ],
+    "by_exchange": {
+      "Binance": {
+        "exchange": "Binance",
+        "exchange_code": "A",
+        "symbol": "BTCUSDT_PERP.A",
+        "symbol_on_exchange": "BTCUSDT",
+        "open_interest_usd": 8477252085.697199,
+        "open_interest_24h_ago_usd": 8186402757.721801,
+        "open_interest_change_24h_pct": 3.552834334971555,
+        "funding_pct": 0.01,
+        "long_short_ratio": 0.9402,
+        "long_liquidations_24h_usd": 25425579.0225,
+        "short_liquidations_24h_usd": 38681609.504200004,
+        "total_liquidations_24h_usd": 64107188.526700005
+      },
+      "Bybit": {
+        "exchange": "Bybit",
+        "exchange_code": "6",
+        "symbol": "BTCUSDT.6",
+        "symbol_on_exchange": "BTCUSDT",
+        "open_interest_usd": 3745352454.096,
+        "open_interest_24h_ago_usd": 3719622172.8448,
+        "open_interest_change_24h_pct": 0.6917444852072574,
+        "funding_pct": 0.01,
+        "long_short_ratio": 1.0859407592824364,
+        "long_liquidations_24h_usd": 7074502.400099999,
+        "short_liquidations_24h_usd": 11552102.150299998,
+        "total_liquidations_24h_usd": 18626604.550399996
+      },
+      "OKX": {
+        "exchange": "OKX",
+        "exchange_code": "3",
+        "symbol": "BTCUSDT_PERP.3",
+        "symbol_on_exchange": "BTC-USDT-SWAP",
+        "open_interest_usd": 2311674622.906331,
+        "open_interest_24h_ago_usd": 2288560067.048886,
+        "open_interest_change_24h_pct": 1.0100043337403664,
+        "funding_pct": 0.00652047906719,
+        "long_short_ratio": null,
+        "long_liquidations_24h_usd": 3519172.6734699993,
+        "short_liquidations_24h_usd": 5185187.073930001,
+        "total_liquidations_24h_usd": 8704359.7474
+      },
+      "Hyperliquid": {
+        "exchange": "Hyperliquid",
+        "exchange_code": "H",
+        "symbol": "BTC.H",
+        "symbol_on_exchange": "BTC",
+        "open_interest_usd": 3035952519.8300004,
+        "open_interest_24h_ago_usd": 2817094663.7400002,
+        "open_interest_change_24h_pct": 7.768920899500142,
+        "funding_pct": 0.00125,
+        "long_short_ratio": null,
+        "long_liquidations_24h_usd": 0,
+        "short_liquidations_24h_usd": 0,
+        "total_liquidations_24h_usd": 0
+      },
+      "Kraken": {
+        "exchange": "Kraken",
+        "exchange_code": "K",
+        "symbol": "pf_xbtusd.K",
+        "symbol_on_exchange": "pf_xbtusd",
+        "open_interest_usd": 147036462.9012,
+        "open_interest_24h_ago_usd": 162379432.6319,
+        "open_interest_change_24h_pct": -9.448838120700408,
+        "funding_pct": -0.0008658770833333,
+        "long_short_ratio": null,
+        "long_liquidations_24h_usd": 0,
+        "short_liquidations_24h_usd": 0,
+        "total_liquidations_24h_usd": 0
+      },
+      "Deribit": {
+        "exchange": "Deribit",
+        "exchange_code": "2",
+        "symbol": "BTC_USDC-PERPETUAL.2",
+        "symbol_on_exchange": "BTC_USDC-PERPETUAL",
+        "open_interest_usd": null,
+        "open_interest_24h_ago_usd": null,
+        "open_interest_change_24h_pct": null,
+        "funding_pct": 0.0,
+        "long_short_ratio": null,
+        "long_liquidations_24h_usd": 0,
+        "short_liquidations_24h_usd": 0,
+        "total_liquidations_24h_usd": 0
+      },
+      "Aster": {
+        "exchange": "Aster",
+        "exchange_code": "S",
+        "symbol": "BTCUSDT.S",
+        "symbol_on_exchange": "BTCUSDT",
+        "open_interest_usd": null,
+        "open_interest_24h_ago_usd": null,
+        "open_interest_change_24h_pct": null,
+        "funding_pct": 0.008268,
+        "long_short_ratio": null,
+        "long_liquidations_24h_usd": 0,
+        "short_liquidations_24h_usd": 0,
+        "total_liquidations_24h_usd": 0
+      }
+    },
+    "binance": {
+      "exchange": "Binance",
+      "exchange_code": "A",
+      "symbol": "BTCUSDT_PERP.A",
+      "symbol_on_exchange": "BTCUSDT",
+      "open_interest_usd": 8477252085.697199,
+      "open_interest_24h_ago_usd": 8186402757.721801,
+      "open_interest_change_24h_pct": 3.552834334971555,
+      "funding_pct": 0.01,
+      "long_short_ratio": 0.9402,
+      "long_liquidations_24h_usd": 25425579.0225,
+      "short_liquidations_24h_usd": 38681609.504200004,
+      "total_liquidations_24h_usd": 64107188.526700005
+    },
+    "binance_available": true,
+    "aggregate_oi_usd": 20846834394.117283,
+    "oi_change_24h_pct": 3.162962514980072,
+    "oi_weighted_funding_pct": 0.006399520865575054,
+    "liquidations_24h": {
+      "long_usd": 36019254.09607,
+      "short_usd": 55418898.72843,
+      "total_usd": 91438152.8245,
+      "dominant_side": "short"
+    },
+    "long_short_ratio_avg": 1.0130703796412182,
+    "total_all_exchanges": {
+      "aggregate_oi_usd": 20846834394.117283,
+      "oi_weighted_funding_pct": 0.006399520865575054,
+      "exchange_count": 17,
+      "market_count": 17,
+      "markets": [
+        {
+          "exchange": "Aster",
+          "symbol": "BTCUSDT.S",
+          "symbol_on_exchange": "BTCUSDT",
+          "open_interest_usd": null,
+          "funding_pct": 0.008268
+        },
+        {
+          "exchange": "Binance",
+          "symbol": "BTCUSDT_PERP.A",
+          "symbol_on_exchange": "BTCUSDT",
+          "open_interest_usd": 8477252085.697199,
+          "funding_pct": 0.01
+        },
+        {
+          "exchange": "BitMEX",
+          "symbol": "BTCUSDT_PERP.0",
+          "symbol_on_exchange": "XBTUSDT",
+          "open_interest_usd": 6648694.36166,
+          "funding_pct": 0.01
+        },
+        {
+          "exchange": "Bitfinex",
+          "symbol": "BTCUSDT_PERP.F",
+          "symbol_on_exchange": "BTCF0:USTF0",
+          "open_interest_usd": 704093505.9514316,
+          "funding_pct": 0.0
+        },
+        {
+          "exchange": "Bybit",
+          "symbol": "BTCUSDT.6",
+          "symbol_on_exchange": "BTCUSDT",
+          "open_interest_usd": 3745352454.096,
+          "funding_pct": 0.01
+        },
+        {
+          "exchange": "Coinbase",
+          "symbol": "BTC-PERP.C",
+          "symbol_on_exchange": "BTC-PERP",
+          "open_interest_usd": null,
+          "funding_pct": -0.00030000000000000003
+        },
+        {
+          "exchange": "Deribit",
+          "symbol": "BTC_USDC-PERPETUAL.2",
+          "symbol_on_exchange": "BTC_USDC-PERPETUAL",
+          "open_interest_usd": null,
+          "funding_pct": 0.0
+        },
+        {
+          "exchange": "Gate.io",
+          "symbol": "BTC_USDT.Y",
+          "symbol_on_exchange": "BTC_USDT",
+          "open_interest_usd": null,
+          "funding_pct": -0.0027
+        },
+        {
+          "exchange": "Huobi",
+          "symbol": "BTCUSDT_PERP.4",
+          "symbol_on_exchange": "BTC-USDT",
+          "open_interest_usd": 2384274332.1131,
+          "funding_pct": -0.0032659045592947
+        },
+        {
+          "exchange": "Hyperliquid",
+          "symbol": "BTC.H",
+          "symbol_on_exchange": "BTC",
+          "open_interest_usd": 3035952519.8300004,
+          "funding_pct": 0.00125
+        },
+        {
+          "exchange": "Kraken",
+          "symbol": "pf_xbtusd.K",
+          "symbol_on_exchange": "pf_xbtusd",
+          "open_interest_usd": 147036462.9012,
+          "funding_pct": -0.0008658770833333
+        },
+        {
+          "exchange": "Lighter",
+          "symbol": "1.T",
+          "symbol_on_exchange": "1",
+          "open_interest_usd": null,
+          "funding_pct": 0.0012
+        },
+        {
+          "exchange": "OKX",
+          "symbol": "BTCUSDT_PERP.3",
+          "symbol_on_exchange": "BTC-USDT-SWAP",
+          "open_interest_usd": 2311674622.906331,
+          "funding_pct": 0.00652047906719
+        },
+        {
+          "exchange": "Phemex",
+          "symbol": "BTCUSD.7",
+          "symbol_on_exchange": "BTCUSD",
+          "open_interest_usd": null,
+          "funding_pct": 0.01
+        },
+        {
+          "exchange": "Polymarket",
+          "symbol": "6.O",
+          "symbol_on_exchange": "6",
+          "open_interest_usd": null,
+          "funding_pct": 0.00125
+        },
+        {
+          "exchange": "WOO X",
+          "symbol": "PERP_BTC_USDT.W",
+          "symbol_on_exchange": "PERP_BTC_USDT",
+          "open_interest_usd": 16272368.80016,
+          "funding_pct": 0.01
+        },
+        {
+          "exchange": "dYdX",
+          "symbol": "BTC-USD.8",
+          "symbol_on_exchange": "BTC-USD",
+          "open_interest_usd": 18277347.4602,
+          "funding_pct": 2.5e-05
+        }
+      ],
+      "definition": "Her desteklenen borsadan bir ana BTC perpetual kontratı; OI USD olarak toplanır, funding OI-ağırlıklı ortalamadır."
+    },
+    "core_exchanges": {
+      "aggregate_oi_usd": 14534279162.699532,
+      "oi_weighted_funding_pct": 0.009446582788853335,
+      "exchange_count": 3,
+      "market_count": 3,
+      "markets": [
+        {
+          "exchange": "Binance",
+          "symbol": "BTCUSDT_PERP.A",
+          "symbol_on_exchange": "BTCUSDT",
+          "open_interest_usd": 8477252085.697199,
+          "funding_pct": 0.01
+        },
+        {
+          "exchange": "Bybit",
+          "symbol": "BTCUSDT.6",
+          "symbol_on_exchange": "BTCUSDT",
+          "open_interest_usd": 3745352454.096,
+          "funding_pct": 0.01
+        },
+        {
+          "exchange": "OKX",
+          "symbol": "BTCUSDT_PERP.3",
+          "symbol_on_exchange": "BTC-USDT-SWAP",
+          "open_interest_usd": 2311674622.906331,
+          "funding_pct": 0.00652047906719
+        }
+      ],
+      "exchanges": [
+        "Binance",
+        "OKX",
+        "Bybit"
+      ],
+      "definition": "Yalnız Binance + OKX + Bybit ana BTC perpetual kontratları; OI USD toplamı ve OI-ağırlıklı funding."
+    },
+    "note": "Tüm-borsa görünümü her desteklenen borsadan bir ana BTC perpetual kontratını kapsar; Binance+OKX+Bybit ayrıca core-3 olarak hesaplanır.",
+    "error": null,
+    "exchange_codes": {
+      "P": "Poloniex",
+      "O": "Polymarket",
+      "D": "Bitforex",
+      "K": "Kraken",
+      "U": "Bithumb",
+      "B": "Bitstamp",
+      "H": "Hyperliquid",
+      "L": "BitFlyer",
+      "M": "BtcMarkets",
+      "I": "Bit2c",
+      "E": "MercadoBitcoin",
+      "N": "Independent Reserve",
+      "G": "Gemini",
+      "Y": "Gate.io",
+      "2": "Deribit",
+      "3": "OKX",
+      "C": "Coinbase",
+      "F": "Bitfinex",
+      "J": "Luno",
+      "0": "BitMEX",
+      "7": "Phemex",
+      "W": "WOO X",
+      "4": "Huobi",
+      "8": "dYdX",
+      "6": "Bybit",
+      "A": "Binance",
+      "T": "Lighter",
+      "S": "Aster"
+    },
+    "market_count": 7,
+    "all_exchange_count": 17
+  },
+  "cross_venue_oi": {
+    "total_btc": 67985.95790000014,
+    "venues": [
+      {
+        "venue": "OKX",
+        "oi_btc": 29410.898000000136
+      },
+      {
+        "venue": "Hyperliquid",
+        "oi_btc": 38575.0599
+      }
+    ],
+    "coverage": "Kısmi agregasyon; Kraken OI birimi normalize edilmediği için toplamın dışında tutulur."
+  },
+  "derivatives_reading": [
+    "Kraken CVD 24s negatif: agresif satıcı akışı baskın.",
+    "Kraken long/short 0.48: short tarafı kalabalık; ters squeeze riski var.",
+    "OKX ve Hyperliquid funding aynı anda pozitif: long carry talebi çapraz-borsada teyit ediliyor.",
+    "Coinalyze çoklu-borsa BTC OI 24s %+3.16.",
+    "Coinalyze OI-ağırlıklı funding %+0.0064.",
+    "Coinalyze 24s tasfiye toplamı $91.4M; baskın taraf short.",
+    "Binance (Coinalyze) · OI 24s %+3.55 · funding %+0.0100 · L/S 0.94."
+  ],
+  "data_quality": {
+    "sources": {
+      "deribit": true,
+      "kraken": true,
+      "hyperliquid": true,
+      "okx": true,
+      "coinalyze": true
+    },
+    "ok_count": 5,
+    "source_count": 5,
+    "grade": "A",
+    "coinalyze_configured": true
+  },
+  "oi_zscore_source": "Kraken 48s public analytics",
+  "generated_at": "2026-08-24T20:11:44.124951+00:00"
+}

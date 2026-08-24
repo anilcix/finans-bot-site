@@ -1,0 +1,22 @@
+{
+  "movers": [],
+  "window": "10m",
+  "rule": "Top 200 → TradingView uyumlu 10dk BASE volume Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
+  "source": "Binance Spot public market-data-only API",
+  "universe_source": "CoinGecko Top 200",
+  "scan_meta": {
+    "top200_received": 200,
+    "non_stable_universe": 189,
+    "binance_spot_matched": 103,
+    "scanned": 103,
+    "failed": 0,
+    "signal_count_before_cap": 0,
+    "max_results": 10,
+    "source_endpoint": "https://data-api.binance.vision"
+  },
+  "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Z-score, TradingView Pine'daki z_len=20; ta.sma(volume,20); ta.stdev(volume,20) mantığına paralel olarak son bar dahil son 20 adet 10dk BASE asset volume ile population stdev kullanılarak hesaplanır. Spot CVD ise gerçek Binance taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
+  "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
+  "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
+  "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
+  "generated_at": "2026-08-24T20:11:44.124951+00:00"
+}

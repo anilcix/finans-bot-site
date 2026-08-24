@@ -1,0 +1,592 @@
+{
+  "tech": [
+    {
+      "symbol": "QQQ",
+      "market_symbol": "QQQ",
+      "label": "QQQ",
+      "price": 706.32,
+      "change_pct": -3.2266019976160076
+    },
+    {
+      "symbol": "SPY",
+      "market_symbol": "SPY",
+      "label": "SPY",
+      "price": 763.54,
+      "change_pct": -1.1816169904357612
+    },
+    {
+      "symbol": "NVDA",
+      "market_symbol": "NVDA",
+      "label": "NVIDIA",
+      "price": 208.48,
+      "change_pct": -7.3463401626594385
+    },
+    {
+      "symbol": "MSFT",
+      "market_symbol": "MSFT",
+      "label": "Microsoft",
+      "price": 487.31,
+      "change_pct": 1.4489434787134337
+    },
+    {
+      "symbol": "AMZN",
+      "market_symbol": "AMZN",
+      "label": "Amazon",
+      "price": 262.07,
+      "change_pct": 0.29084229459262595
+    },
+    {
+      "symbol": "META",
+      "market_symbol": "META",
+      "label": "Meta",
+      "price": 559.02,
+      "change_pct": -1.7487741005677004
+    },
+    {
+      "symbol": "GOOGL",
+      "market_symbol": "GOOGL",
+      "label": "Alphabet",
+      "price": 348.06,
+      "change_pct": 1.1802325581395356
+    },
+    {
+      "symbol": "AAPL",
+      "market_symbol": "AAPL",
+      "label": "Apple",
+      "price": 310.34,
+      "change_pct": 1.5543702346280965
+    },
+    {
+      "symbol": "AMD",
+      "market_symbol": "AMD",
+      "label": "AMD",
+      "price": 456.745,
+      "change_pct": -9.734189723320156
+    },
+    {
+      "symbol": "AVGO",
+      "market_symbol": "AVGO",
+      "label": "Broadcom",
+      "price": 358.76,
+      "change_pct": -8.579874117677042
+    },
+    {
+      "symbol": "ORCL",
+      "market_symbol": "ORCL",
+      "label": "Oracle",
+      "price": 142.449,
+      "change_pct": -2.86464370951244
+    },
+    {
+      "symbol": "PLTR",
+      "market_symbol": "PLTR",
+      "label": "Palantir",
+      "price": 175.89,
+      "change_pct": 1.9356708200521444
+    }
+  ],
+  "fundamentals": [
+    {
+      "symbol": "NVDA",
+      "label": "NVIDIA",
+      "company": "NVIDIA",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "403 Client Error: Forbidden for url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json"
+    },
+    {
+      "symbol": "MSFT",
+      "label": "Microsoft",
+      "company": "Microsoft",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "403 Client Error: Forbidden for url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json"
+    },
+    {
+      "symbol": "AMZN",
+      "label": "Amazon",
+      "company": "Amazon",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "403 Client Error: Forbidden for url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json"
+    },
+    {
+      "symbol": "META",
+      "label": "Meta",
+      "company": "Meta",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "403 Client Error: Forbidden for url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json"
+    },
+    {
+      "symbol": "GOOGL",
+      "label": "Alphabet",
+      "company": "Alphabet",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "403 Client Error: Forbidden for url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json"
+    },
+    {
+      "symbol": "AAPL",
+      "label": "Apple",
+      "company": "Apple",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "403 Client Error: Forbidden for url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json"
+    },
+    {
+      "symbol": "AMD",
+      "label": "AMD",
+      "company": "AMD",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "403 Client Error: Forbidden for url: https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json"
+    },
+    {
+      "symbol": "AVGO",
+      "label": "Broadcom",
+      "company": "Broadcom",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "403 Client Error: Forbidden for url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001730168.json"
+    },
+    {
+      "symbol": "ORCL",
+      "label": "Oracle",
+      "company": "Oracle",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "403 Client Error: Forbidden for url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001341439.json"
+    },
+    {
+      "symbol": "PLTR",
+      "label": "Palantir",
+      "company": "Palantir",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "403 Client Error: Forbidden for url: https://data.sec.gov/api/xbrl/companyfacts/CIK0001321655.json"
+    }
+  ],
+  "fundamental_policy": {
+    "primary_source": "SEC Companyfacts / XBRL",
+    "market_price_source": "Yahoo Finance chart (tek kaynak; tam doğrulanmış sayılmaz)",
+    "verification": "SEC metriklerinde aynı dönem hizalama + bilanço eşitliği. Doğrulanamayan metrik skora girmez.",
+    "valuation_note": "P/E son doğrulanmış mali yıl diluted EPS ile hesaplanan FY proxy'dir; TTM değildir ve tek fiyat kaynağı nedeniyle tam doğrulanmış sayılmaz."
+  },
+  "bist": [
+    {
+      "symbol": "ASELS",
+      "market_symbol": "ASELS.IS",
+      "label": "ASELSAN",
+      "price": 399.75,
+      "change_pct": 4.852459016393443
+    },
+    {
+      "symbol": "BIMAS",
+      "market_symbol": "BIMAS.IS",
+      "label": "BİM",
+      "price": 412.25,
+      "change_pct": 1.7901234567901234
+    },
+    {
+      "symbol": "TUPRS",
+      "market_symbol": "TUPRS.IS",
+      "label": "Tüpraş",
+      "price": 400.5,
+      "change_pct": 7.0855614973262036
+    },
+    {
+      "symbol": "THYAO",
+      "market_symbol": "THYAO.IS",
+      "label": "Türk Hava Yolları",
+      "price": 300.5,
+      "change_pct": 0.0
+    },
+    {
+      "symbol": "EREGL",
+      "market_symbol": "EREGL.IS",
+      "label": "Ereğli Demir Çelik",
+      "price": 38.18,
+      "change_pct": 1.2732095490716098
+    },
+    {
+      "symbol": "ASTOR",
+      "market_symbol": "ASTOR.IS",
+      "label": "Astor Enerji",
+      "price": 341.25,
+      "change_pct": 6.4742589703588145
+    },
+    {
+      "symbol": "PGSUS",
+      "market_symbol": "PGSUS.IS",
+      "label": "Pegasus",
+      "price": 149.6,
+      "change_pct": 0.20093770931010244
+    },
+    {
+      "symbol": "FROTO",
+      "market_symbol": "FROTO.IS",
+      "label": "Ford Otosan",
+      "price": 80.1,
+      "change_pct": 1.5209125475285026
+    },
+    {
+      "symbol": "TCELL",
+      "market_symbol": "TCELL.IS",
+      "label": "Turkcell",
+      "price": 103.1,
+      "change_pct": -0.3864734299516963
+    },
+    {
+      "symbol": "SISE",
+      "market_symbol": "SISE.IS",
+      "label": "Şişecam",
+      "price": 39.74,
+      "change_pct": 4.249737670514178
+    },
+    {
+      "symbol": "TOASO",
+      "market_symbol": "TOASO.IS",
+      "label": "Tofaş",
+      "price": 277.25,
+      "change_pct": 4.425612052730696
+    },
+    {
+      "symbol": "KCHOL",
+      "market_symbol": "KCHOL.IS",
+      "label": "Koç Holding",
+      "price": 218.8,
+      "change_pct": 5.242905242905246
+    },
+    {
+      "symbol": "SAHOL",
+      "market_symbol": "SAHOL.IS",
+      "label": "Sabancı Holding",
+      "price": 94.25,
+      "change_pct": 5.958403597526697
+    },
+    {
+      "symbol": "AKBNK",
+      "market_symbol": "AKBNK.IS",
+      "label": "Akbank",
+      "price": 72.1,
+      "change_pct": 6.57797487065778
+    },
+    {
+      "symbol": "GARAN",
+      "market_symbol": "GARAN.IS",
+      "label": "Garanti BBVA",
+      "price": 131.6,
+      "change_pct": 1.778808971384364
+    },
+    {
+      "symbol": "ISCTR",
+      "market_symbol": "ISCTR.IS",
+      "label": "İş Bankası C",
+      "price": 12.59,
+      "change_pct": 1.696284329563805
+    },
+    {
+      "symbol": "YKBNK",
+      "market_symbol": "YKBNK.IS",
+      "label": "Yapı Kredi",
+      "price": 36.52,
+      "change_pct": 4.7619047619047725
+    }
+  ],
+  "bist_fundamentals": [
+    {
+      "symbol": "ASELS",
+      "label": "ASELSAN",
+      "company": "ASELSAN",
+      "model": "industrial",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "symbol": "BIMAS",
+      "label": "BİM",
+      "company": "BİM",
+      "model": "industrial",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "symbol": "TUPRS",
+      "label": "Tüpraş",
+      "company": "Tüpraş",
+      "model": "industrial",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "symbol": "THYAO",
+      "label": "Türk Hava Yolları",
+      "company": "Türk Hava Yolları",
+      "model": "industrial",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "symbol": "EREGL",
+      "label": "Ereğli Demir Çelik",
+      "company": "Ereğli Demir Çelik",
+      "model": "industrial",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "symbol": "ASTOR",
+      "label": "Astor Enerji",
+      "company": "Astor Enerji",
+      "model": "industrial",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "symbol": "PGSUS",
+      "label": "Pegasus",
+      "company": "Pegasus",
+      "model": "industrial",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "symbol": "FROTO",
+      "label": "Ford Otosan",
+      "company": "Ford Otosan",
+      "model": "industrial",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "symbol": "TCELL",
+      "label": "Turkcell",
+      "company": "Turkcell",
+      "model": "industrial",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "symbol": "SISE",
+      "label": "Şişecam",
+      "company": "Şişecam",
+      "model": "industrial",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "symbol": "TOASO",
+      "label": "Tofaş",
+      "company": "Tofaş",
+      "model": "industrial",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "symbol": "KCHOL",
+      "label": "Koç Holding",
+      "company": "Koç Holding",
+      "model": "industrial",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "symbol": "SAHOL",
+      "label": "Sabancı Holding",
+      "company": "Sabancı Holding",
+      "model": "industrial",
+      "metrics": {},
+      "checks": [],
+      "score": null,
+      "score_label": "Doğrulanamadı",
+      "verification_rate_pct": 0,
+      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+    },
+    {
+      "symbol": "AKBNK",
+      "model": "bank",
+      "score": null,
+      "score_label": "Banka modeli gerekli",
+      "metrics": {},
+      "checks": [],
+      "verification_rate_pct": 0,
+      "note": "Bankalar sanayi şirketi oranlarıyla analiz edilmez; ayrı banka modeli kullanılmalıdır.",
+      "interpretation": {
+        "headline": "Banka modeli gerekli.",
+        "summary": "ROE, NIM, sermaye yeterliliği ve takipteki kredi oranı kullanan ayrı model gerekir.",
+        "risks": []
+      },
+      "label": "Akbank"
+    },
+    {
+      "symbol": "GARAN",
+      "model": "bank",
+      "score": null,
+      "score_label": "Banka modeli gerekli",
+      "metrics": {},
+      "checks": [],
+      "verification_rate_pct": 0,
+      "note": "Bankalar sanayi şirketi oranlarıyla analiz edilmez; ayrı banka modeli kullanılmalıdır.",
+      "interpretation": {
+        "headline": "Banka modeli gerekli.",
+        "summary": "ROE, NIM, sermaye yeterliliği ve takipteki kredi oranı kullanan ayrı model gerekir.",
+        "risks": []
+      },
+      "label": "Garanti BBVA"
+    },
+    {
+      "symbol": "ISCTR",
+      "model": "bank",
+      "score": null,
+      "score_label": "Banka modeli gerekli",
+      "metrics": {},
+      "checks": [],
+      "verification_rate_pct": 0,
+      "note": "Bankalar sanayi şirketi oranlarıyla analiz edilmez; ayrı banka modeli kullanılmalıdır.",
+      "interpretation": {
+        "headline": "Banka modeli gerekli.",
+        "summary": "ROE, NIM, sermaye yeterliliği ve takipteki kredi oranı kullanan ayrı model gerekir.",
+        "risks": []
+      },
+      "label": "İş Bankası C"
+    },
+    {
+      "symbol": "YKBNK",
+      "model": "bank",
+      "score": null,
+      "score_label": "Banka modeli gerekli",
+      "metrics": {},
+      "checks": [],
+      "verification_rate_pct": 0,
+      "note": "Bankalar sanayi şirketi oranlarıyla analiz edilmez; ayrı banka modeli kullanılmalıdır.",
+      "interpretation": {
+        "headline": "Banka modeli gerekli.",
+        "summary": "ROE, NIM, sermaye yeterliliği ve takipteki kredi oranı kullanan ayrı model gerekir.",
+        "risks": []
+      },
+      "label": "Yapı Kredi"
+    }
+  ],
+  "bist_policy": {
+    "primary_source": "KAP resmi şirket finansal bilgileri",
+    "member_resolution": "KAP /tr/api/member/filter/{ticker}",
+    "market_price_source": "Yahoo Finance .IS (tek kaynak; tam doğrulanmış sayılmaz)",
+    "verification": "KAP görünür metin akışı + sunum para birimi ölçeği + aynı dönem oranları + bilanço eşitliği + brüt kâr aritmetik kontrolü. Doğrulanamayan metrik skora girmez.",
+    "bank_note": "Bankalar sanayi şirketi oranlarıyla puanlanmaz; ayrı banka temel analiz modeli gerekir."
+  },
+  "commodities": [
+    {
+      "symbol": "GC=F",
+      "market_symbol": "GC=F",
+      "label": "Altın",
+      "price": 4710.8,
+      "change_pct": 4.931616697108757
+    },
+    {
+      "symbol": "SI=F",
+      "market_symbol": "SI=F",
+      "label": "Gümüş",
+      "price": 68.865,
+      "change_pct": 4.7631362765083525
+    },
+    {
+      "symbol": "BZ=F",
+      "market_symbol": "BZ=F",
+      "label": "Brent Petrol",
+      "price": 92.02,
+      "change_pct": 0.4365858982754764
+    },
+    {
+      "symbol": "CL=F",
+      "market_symbol": "CL=F",
+      "label": "WTI Petrol",
+      "price": 85.01,
+      "change_pct": -0.9553769078410733
+    }
+  ],
+  "unavailable": [
+    "AI ETF Flows",
+    "Hyperscaler CAPEX",
+    "Central Bank Gold Buying"
+  ],
+  "generated_at": "2026-08-24T20:11:44.124951+00:00"
+}
