@@ -4,6 +4,7 @@
   const get=()=>valid(localStorage.getItem(KEY))?localStorage.getItem(KEY):'tr';
   window.marketLang=get();
   const TERMINAL_URL='https://project-alpha-terminal.onrender.com';
+  window.marketLang=get();
   const D={
     tr:{back:'← Ana Ağa Dön',loading:'Yükleniyor…',update:'Güncelleme',sources:'Veri Kaynakları',dataQuality:'Veri Kalitesi',active:'aktif',unavailable:'erişilemedi',terminal:'🔒 TRADE TERMINAL'},
     en:{back:'← Back to Network',loading:'Loading…',update:'Updated',sources:'Data Sources',dataQuality:'Data Quality',active:'active',unavailable:'unavailable',terminal:'🔒 TRADE TERMINAL'}
