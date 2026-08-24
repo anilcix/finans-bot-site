@@ -3,9 +3,10 @@
   const valid=x=>x==='en'||x==='tr';
   const get=()=>valid(localStorage.getItem(KEY))?localStorage.getItem(KEY):'tr';
   window.marketLang=get();
+  const TERMINAL_URL='https://project-alpha-terminal.onrender.com';
   const D={
-    tr:{back:'← Ana Ağa Dön',loading:'Yükleniyor…',update:'Güncelleme',sources:'Veri Kaynakları',dataQuality:'Veri Kalitesi',active:'aktif',unavailable:'erişilemedi'},
-    en:{back:'← Back to Network',loading:'Loading…',update:'Updated',sources:'Data Sources',dataQuality:'Data Quality',active:'active',unavailable:'unavailable'}
+    tr:{back:'← Ana Ağa Dön',loading:'Yükleniyor…',update:'Güncelleme',sources:'Veri Kaynakları',dataQuality:'Veri Kalitesi',active:'aktif',unavailable:'erişilemedi',terminal:'🔒 TRADE TERMINAL'},
+    en:{back:'← Back to Network',loading:'Loading…',update:'Updated',sources:'Data Sources',dataQuality:'Data Quality',active:'active',unavailable:'unavailable',terminal:'🔒 TRADE TERMINAL'}
   };
   window.marketT=(k)=>D[get()][k]||k;
 
@@ -25,10 +26,15 @@
     tr:{title:'PİYASA İSTİHBARAT AĞI',sub:'9 AJAN · GERÇEK VERİ · OTOMATİK GÜNCELLEME',status:'GitHub Actions ile her 15 dakikada bir güncelleniyor',nodes:[['Haberler','Fed · piyasa · kripto · son 72 saat'],['Makro','faiz · enflasyon · büyüme'],['Kredi','spread · SLOOS · temerrüt'],['Tarayıcı','hacim · OI · momentum'],['Harmanlayıcı','9 ajan → tek piyasa görüşü'],['Kripto','BTC · ETH · ETF · funding · OI'],['Gizli Baskı','özel izleme · baskı sinyalleri'],['Hisse / Emtia','SPY · QQQ · BIST · altın · petrol'],['Opsiyon','VIX · contango · term structure'],['Kripto Türev','GEX · max pain · basis · funding']]},
     en:{title:'MARKET INTELLIGENCE NETWORK',sub:'9 AGENTS · REAL DATA · AUTOMATIC UPDATES',status:'Updated every 15 minutes via GitHub Actions',nodes:[['News','Fed · markets · crypto · last 72 hours'],['Macro','rates · inflation · growth'],['Credit','spreads · SLOOS · defaults'],['Screener','volume · OI · momentum'],['Harmonizer','9 agents → one market view'],['Crypto','BTC · ETH · ETF · funding · OI'],['Hidden Pressure','special monitoring · pressure signals'],['Equities / Commodities','SPY · QQQ · BIST · gold · oil'],['Options','VIX · contango · term structure'],['Crypto Derivatives','GEX · max pain · basis · funding']]}
   };
+  function ensureTerminalEntry(){
+    if(!document.querySelector('.board')||document.getElementById('tradeTerminalEntry'))return;
+    const a=document.createElement('a');a.id='tradeTerminalEntry';a.className='trade-terminal-entry';a.href=TERMINAL_URL;a.target='_blank';a.rel='noopener noreferrer';a.textContent=D[get()].terminal;a.setAttribute('aria-label','Open private Trade Terminal');document.body.appendChild(a);
+  }
   function applyHome(lang){
     if(!document.querySelector('.board'))return;
     const x=home[lang];const h=document.querySelector('header h1'),p=document.querySelector('header p'),s=document.querySelector('.status');if(h)h.textContent=x.title;if(p)p.textContent=x.sub;if(s){const i=s.querySelector('i');s.textContent=' '+x.status;if(i)s.prepend(i)}
     document.querySelectorAll('.node').forEach((n,i)=>{const h3=n.querySelector('h3'),sub=n.querySelector('.sub');if(x.nodes[i]){if(h3)h3.textContent=x.nodes[i][0];if(sub)sub.textContent=x.nodes[i][1]}})
+    ensureTerminalEntry();const t=document.getElementById('tradeTerminalEntry');if(t)t.textContent=D[lang].terminal;
   }
   function applyLang(){
     const lang=get();window.marketLang=lang;document.documentElement.lang=lang;
@@ -41,8 +47,8 @@
   }
   function selector(){
     if(document.getElementById('marketLangToggle'))return;
-    const st=document.createElement('style');st.textContent='.market-lang-toggle{position:fixed;right:12px;top:10px;z-index:9999;background:#07100a;border:1px solid var(--green-dim,#175c3a);color:var(--green,#39ff88);border-radius:999px;padding:6px 10px;font:600 10px IBM Plex Mono,monospace;cursor:pointer;box-shadow:0 0 14px rgba(57,255,136,.08)}';document.head.appendChild(st);
-    const b=document.createElement('button');b.id='marketLangToggle';b.className='market-lang-toggle';b.onclick=()=>{localStorage.setItem(KEY,get()==='tr'?'en':'tr');applyLang()};document.body.appendChild(b);applyLang();
+    const st=document.createElement('style');st.textContent='.market-lang-toggle{position:fixed;right:12px;top:10px;z-index:9999;background:#07100a;border:1px solid var(--green-dim,#175c3a);color:var(--green,#39ff88);border-radius:999px;padding:6px 10px;font:600 10px IBM Plex Mono,monospace;cursor:pointer;box-shadow:0 0 14px rgba(57,255,136,.08)}.trade-terminal-entry{position:fixed;left:12px;top:10px;z-index:9999;background:#07100a;border:1px solid #39ff88;color:#39ff88;border-radius:999px;padding:6px 11px;font:700 10px IBM Plex Mono,monospace;text-decoration:none;letter-spacing:.04em;box-shadow:0 0 16px rgba(57,255,136,.12)}.trade-terminal-entry:hover{background:rgba(57,255,136,.08);box-shadow:0 0 22px rgba(57,255,136,.2)}@media(max-width:640px){.trade-terminal-entry{top:auto;bottom:8px;left:8px;font-size:8px;padding:5px 8px}.market-lang-toggle{right:8px;top:8px}}';document.head.appendChild(st);
+    const b=document.createElement('button');b.id='marketLangToggle';b.className='market-lang-toggle';b.onclick=()=>{localStorage.setItem(KEY,get()==='tr'?'en':'tr');applyLang()};document.body.appendChild(b);ensureTerminalEntry();applyLang();
   }
 
   async function injectETF(){
