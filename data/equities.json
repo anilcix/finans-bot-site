@@ -11,8 +11,8 @@
       "symbol": "SPY",
       "market_symbol": "SPY",
       "label": "SPY",
-      "price": 763.54,
-      "change_pct": -1.1816169904357612
+      "price": 763.47,
+      "change_pct": -1.1906764854336176
     },
     {
       "symbol": "NVDA",
@@ -74,8 +74,8 @@
       "symbol": "ORCL",
       "market_symbol": "ORCL",
       "label": "Oracle",
-      "price": 142.449,
-      "change_pct": -2.86464370951244
+      "price": 142.45,
+      "change_pct": -2.8639618138424936
     },
     {
       "symbol": "PLTR",
@@ -327,159 +327,2044 @@
   "bist_fundamentals": [
     {
       "symbol": "ASELS",
-      "label": "ASELSAN",
-      "company": "ASELSAN",
+      "company": "ASELSAN ELEKTRONİK SANAYİ VE TİCARET A.Ş.",
       "model": "industrial",
-      "metrics": {},
-      "checks": [],
-      "score": null,
-      "score_label": "Doğrulanamadı",
-      "verification_rate_pct": 0,
-      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+      "kap_url": "https://www.kap.org.tr/tr/sirket-finansal-bilgileri/866-aselsan-elektronik-sanayi-ve-ticaret-a-s",
+      "periods": [
+        "2023/12",
+        "2024/12",
+        "2025/12",
+        "2026/06"
+      ],
+      "latest_period": "2026/06",
+      "presentation_scale": 1000.0,
+      "metrics": {
+        "revenue": {
+          "value": 88494252000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Hasılat"
+        },
+        "net_income": {
+          "value": 14449834000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Net Dönem Kârı (Zararı)"
+        },
+        "gross_margin_pct": {
+          "value": 31.749735564746057,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr kontrolü"
+        },
+        "operating_margin_pct": {
+          "value": 25.460371143653486,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "net_margin_pct": {
+          "value": 16.328556571109274,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "assets": {
+          "value": 549748035000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "equity": {
+          "value": 306744183000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "cash": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "KAP özet sayfasında nakit kalemi bulunamadı"
+        },
+        "liabilities_to_equity": {
+          "value": 0.7863993495844059,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "current_ratio": {
+          "value": 1.4719553774366607,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "annual_revenue_growth_pct": {
+          "value": 50.11359454702249,
+          "verified": false,
+          "source": "KAP özet dönem karşılaştırması",
+          "period": "2025/12",
+          "note": "KAP önceki dönem düzeltme uyarısı nedeniyle yalnız referans."
+        },
+        "price_try": {
+          "value": 399.75,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        },
+        "daily_change_pct": {
+          "value": 4.852459016393443,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        }
+      },
+      "matched_rows": {
+        "revenue": "Hasılat",
+        "cost_of_sales": "Satışların Maliyeti",
+        "gross_profit": "Ticari Faaliyetlerden Brüt Kar (Zarar)",
+        "operating_profit": "Esas Faaliyet Kârı (Zararı)",
+        "net_income": "Net Dönem Kârı (Zararı)",
+        "assets": "Toplam Varlıklar",
+        "current_assets": "Dönen Varlıklar",
+        "liabilities": "Toplam Yükümlülükler",
+        "current_liabilities": "Kısa Vadeli Yükümlülükler",
+        "equity": "Ana Ortaklığa Ait Özkaynaklar",
+        "cash": null
+      },
+      "checks": [
+        {
+          "name": "KAP ticker eşleşmesi",
+          "passed": true
+        },
+        {
+          "name": "Bilanço eşitliği",
+          "passed": true,
+          "value_pct": 0.3238621853373246,
+          "rule": "|Varlıklar-(Yükümlülükler+Özkaynaklar)| / Varlıklar <= %0.5"
+        },
+        {
+          "name": "Brüt kâr aritmetik kontrolü",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr"
+        },
+        {
+          "name": "Gelir tablosu ana kalemleri",
+          "passed": true,
+          "rule": "Hasılat ve Net Dönem Kârı aynı KAP döneminden bulunmalı"
+        }
+      ],
+      "score": 71.2,
+      "score_label": "İyi",
+      "verified_metric_count": 9,
+      "metric_count": 13,
+      "verification_rate_pct": 69.2,
+      "interpretation": {
+        "headline": "Temel kalite 71/100 (İyi).",
+        "summary": "Brüt marj %31.7; güçlü kârlılık tabanı. Faaliyet marjı %25.5; operasyonel kârlılık güçlü. Net kâr marjı %16.3; net kârlılık güçlü. Yükümlülük/özkaynak 0.79x; bilanço kaldıraç seviyesi kontrollü. Cari oran 1.47x; likidite yeterli fakat tampon sınırlı.",
+        "risks": [
+          "KAP özet finansal sayfasında nakit kalemi bulunmadığı için net nakit/borç analizi yapılmadı."
+        ]
+      },
+      "source_warning": "KAP özet sayfası gecikmeli güncellenebilir. Önceki dönem düzeltmeleri nedeniyle yıllık büyüme referanstır; cari dönem aynı-tablotan oranlar ve aritmetik/bilanço kontrolleri daha yüksek güvenle kullanılır.",
+      "label": "ASELSAN"
     },
     {
       "symbol": "BIMAS",
-      "label": "BİM",
-      "company": "BİM",
+      "company": "BİM BİRLEŞİK MAĞAZALAR A.Ş.",
       "model": "industrial",
-      "metrics": {},
-      "checks": [],
-      "score": null,
-      "score_label": "Doğrulanamadı",
-      "verification_rate_pct": 0,
-      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+      "kap_url": "https://www.kap.org.tr/tr/sirket-finansal-bilgileri/1406-bim-birlesik-magazalar-a-s",
+      "periods": [
+        "2023/12",
+        "2024/12",
+        "2025/12",
+        "2026/06"
+      ],
+      "latest_period": "2026/06",
+      "presentation_scale": 1000.0,
+      "metrics": {
+        "revenue": {
+          "value": 449695235000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Hasılat"
+        },
+        "net_income": {
+          "value": 15094815000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Net Dönem Kârı (Zararı)"
+        },
+        "gross_margin_pct": {
+          "value": 19.081682731194604,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr kontrolü"
+        },
+        "operating_margin_pct": {
+          "value": 1.7899949506914388,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "net_margin_pct": {
+          "value": 3.3566766612503693,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "assets": {
+          "value": 428574350000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "equity": {
+          "value": 201353398000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "cash": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "KAP özet sayfasında nakit kalemi bulunamadı"
+        },
+        "liabilities_to_equity": {
+          "value": 1.1196085551036987,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "current_ratio": {
+          "value": 1.0319166177384926,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "annual_revenue_growth_pct": {
+          "value": 38.78152679600577,
+          "verified": false,
+          "source": "KAP özet dönem karşılaştırması",
+          "period": "2025/12",
+          "note": "KAP önceki dönem düzeltme uyarısı nedeniyle yalnız referans."
+        },
+        "price_try": {
+          "value": 412.25,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        },
+        "daily_change_pct": {
+          "value": 1.7901234567901234,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        }
+      },
+      "matched_rows": {
+        "revenue": "Hasılat",
+        "cost_of_sales": "Satışların Maliyeti",
+        "gross_profit": "Ticari Faaliyetlerden Brüt Kar (Zarar)",
+        "operating_profit": "Esas Faaliyet Kârı (Zararı)",
+        "net_income": "Net Dönem Kârı (Zararı)",
+        "assets": "Toplam Varlıklar",
+        "current_assets": "Dönen Varlıklar",
+        "liabilities": "Toplam Yükümlülükler",
+        "current_liabilities": "Kısa Vadeli Yükümlülükler",
+        "equity": "Ana Ortaklığa Ait Özkaynaklar",
+        "cash": null
+      },
+      "checks": [
+        {
+          "name": "KAP ticker eşleşmesi",
+          "passed": true
+        },
+        {
+          "name": "Bilanço eşitliği",
+          "passed": true,
+          "value_pct": 0.41625566252390045,
+          "rule": "|Varlıklar-(Yükümlülükler+Özkaynaklar)| / Varlıklar <= %0.5"
+        },
+        {
+          "name": "Brüt kâr aritmetik kontrolü",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr"
+        },
+        {
+          "name": "Gelir tablosu ana kalemleri",
+          "passed": true,
+          "rule": "Hasılat ve Net Dönem Kârı aynı KAP döneminden bulunmalı"
+        }
+      ],
+      "score": 56.2,
+      "score_label": "Orta",
+      "verified_metric_count": 9,
+      "metric_count": 13,
+      "verification_rate_pct": 69.2,
+      "interpretation": {
+        "headline": "Temel kalite 56/100 (Orta).",
+        "summary": "Brüt marj %19.1; makul kârlılık tabanı. Faaliyet marjı %1.8; operasyonel kârlılık pozitif. Net kâr marjı %3.4; net kârlılık pozitif. Yükümlülük/özkaynak 1.12x; borçluluk dikkat gerektiriyor. Cari oran 1.03x; likidite yeterli fakat tampon sınırlı.",
+        "risks": [
+          "KAP özet finansal sayfasında nakit kalemi bulunmadığı için net nakit/borç analizi yapılmadı."
+        ]
+      },
+      "source_warning": "KAP özet sayfası gecikmeli güncellenebilir. Önceki dönem düzeltmeleri nedeniyle yıllık büyüme referanstır; cari dönem aynı-tablotan oranlar ve aritmetik/bilanço kontrolleri daha yüksek güvenle kullanılır.",
+      "label": "BİM"
     },
     {
       "symbol": "TUPRS",
-      "label": "Tüpraş",
-      "company": "Tüpraş",
+      "company": "TÜPRAŞ-TÜRKİYE PETROL RAFİNERİLERİ A.Ş.",
       "model": "industrial",
-      "metrics": {},
-      "checks": [],
+      "kap_url": "https://www.kap.org.tr/tr/sirket-finansal-bilgileri/1105-tupras-turkiye-petrol-rafinerileri-a-s",
+      "periods": [
+        "2023/12",
+        "2024/12",
+        "2025/12",
+        "2026/06"
+      ],
+      "latest_period": "2026/06",
+      "presentation_scale": 1000.0,
+      "metrics": {
+        "revenue": {
+          "value": 662788010000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Hasılat"
+        },
+        "net_income": {
+          "value": 50272473000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Net Dönem Kârı (Zararı)"
+        },
+        "gross_margin_pct": {
+          "value": 12.692698529655056,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr kontrolü"
+        },
+        "operating_margin_pct": {
+          "value": 8.905599242810684,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "net_margin_pct": {
+          "value": 7.585000368368161,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "assets": {
+          "value": 859987516000.0,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "equity": {
+          "value": 456139125000.0,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "cash": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "KAP özet sayfasında nakit kalemi bulunamadı"
+        },
+        "liabilities_to_equity": {
+          "value": 0.8696485639112848,
+          "verified": false,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "current_ratio": {
+          "value": 1.3507139291721975,
+          "verified": false,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "annual_revenue_growth_pct": {
+          "value": 2.464326031424924,
+          "verified": false,
+          "source": "KAP özet dönem karşılaştırması",
+          "period": "2025/12",
+          "note": "KAP önceki dönem düzeltme uyarısı nedeniyle yalnız referans."
+        },
+        "price_try": {
+          "value": 400.5,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        },
+        "daily_change_pct": {
+          "value": 7.0855614973262036,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        }
+      },
+      "matched_rows": {
+        "revenue": "Hasılat",
+        "cost_of_sales": "Satışların Maliyeti",
+        "gross_profit": "Ticari Faaliyetlerden Brüt Kar (Zarar)",
+        "operating_profit": "Esas Faaliyet Kârı (Zararı)",
+        "net_income": "Net Dönem Kârı (Zararı)",
+        "assets": "Toplam Varlıklar",
+        "current_assets": "Dönen Varlıklar",
+        "liabilities": "Toplam Yükümlülükler",
+        "current_liabilities": "Kısa Vadeli Yükümlülükler",
+        "equity": "Ana Ortaklığa Ait Özkaynaklar",
+        "cash": null
+      },
+      "checks": [
+        {
+          "name": "KAP ticker eşleşmesi",
+          "passed": true
+        },
+        {
+          "name": "Bilanço eşitliği",
+          "passed": false,
+          "value_pct": 0.8334604708378115,
+          "rule": "|Varlıklar-(Yükümlülükler+Özkaynaklar)| / Varlıklar <= %0.5"
+        },
+        {
+          "name": "Brüt kâr aritmetik kontrolü",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr"
+        },
+        {
+          "name": "Gelir tablosu ana kalemleri",
+          "passed": true,
+          "rule": "Hasılat ve Net Dönem Kârı aynı KAP döneminden bulunmalı"
+        }
+      ],
       "score": null,
       "score_label": "Doğrulanamadı",
-      "verification_rate_pct": 0,
-      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+      "verified_metric_count": 5,
+      "metric_count": 13,
+      "verification_rate_pct": 38.5,
+      "interpretation": {
+        "headline": "Temel kalite skoru için yeterli doğrulanmış veri yok.",
+        "summary": "Brüt marj %12.7; zayıf kârlılık tabanı. Faaliyet marjı %8.9; operasyonel kârlılık pozitif. Net kâr marjı %7.6; net kârlılık pozitif.",
+        "risks": [
+          "KAP özet finansal sayfasında nakit kalemi bulunmadığı için net nakit/borç analizi yapılmadı."
+        ]
+      },
+      "source_warning": "KAP özet sayfası gecikmeli güncellenebilir. Önceki dönem düzeltmeleri nedeniyle yıllık büyüme referanstır; cari dönem aynı-tablotan oranlar ve aritmetik/bilanço kontrolleri daha yüksek güvenle kullanılır.",
+      "label": "Tüpraş"
     },
     {
       "symbol": "THYAO",
-      "label": "Türk Hava Yolları",
-      "company": "Türk Hava Yolları",
+      "company": "TÜRK HAVA YOLLARI A.O.",
       "model": "industrial",
-      "metrics": {},
-      "checks": [],
-      "score": null,
-      "score_label": "Doğrulanamadı",
-      "verification_rate_pct": 0,
-      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+      "kap_url": "https://www.kap.org.tr/tr/sirket-finansal-bilgileri/1107-turk-hava-yollari-a-o",
+      "periods": [
+        "2023/12",
+        "2024/12",
+        "2025/12",
+        "2026/06"
+      ],
+      "latest_period": "2026/06",
+      "presentation_scale": 1000000.0,
+      "metrics": {
+        "revenue": {
+          "value": 585069000000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Hasılat"
+        },
+        "net_income": {
+          "value": 18766000000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Net Dönem Kârı (Zararı)"
+        },
+        "gross_margin_pct": {
+          "value": 7.278970514588877,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr kontrolü"
+        },
+        "operating_margin_pct": {
+          "value": -0.8713502168120342,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "net_margin_pct": {
+          "value": 3.2074849291280176,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "assets": {
+          "value": 2360037000000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "equity": {
+          "value": 1018517000000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "cash": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "KAP özet sayfasında nakit kalemi bulunamadı"
+        },
+        "liabilities_to_equity": {
+          "value": 1.3171935274521682,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "current_ratio": {
+          "value": 0.9037319740062214,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "annual_revenue_growth_pct": {
+          "value": 28.177293642595558,
+          "verified": false,
+          "source": "KAP özet dönem karşılaştırması",
+          "period": "2025/12",
+          "note": "KAP önceki dönem düzeltme uyarısı nedeniyle yalnız referans."
+        },
+        "price_try": {
+          "value": 300.5,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        },
+        "daily_change_pct": {
+          "value": 0.0,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        }
+      },
+      "matched_rows": {
+        "revenue": "Hasılat",
+        "cost_of_sales": "Satışların Maliyeti",
+        "gross_profit": "Ticari Faaliyetlerden Brüt Kar (Zarar)",
+        "operating_profit": "Esas Faaliyet Kârı (Zararı)",
+        "net_income": "Net Dönem Kârı (Zararı)",
+        "assets": "Toplam Varlıklar",
+        "current_assets": "Dönen Varlıklar",
+        "liabilities": "Toplam Yükümlülükler",
+        "current_liabilities": "Kısa Vadeli Yükümlülükler",
+        "equity": "Ana Ortaklığa Ait Özkaynaklar",
+        "cash": null
+      },
+      "checks": [
+        {
+          "name": "KAP ticker eşleşmesi",
+          "passed": true
+        },
+        {
+          "name": "Bilanço eşitliği",
+          "passed": true,
+          "value_pct": 0.0027118218909279812,
+          "rule": "|Varlıklar-(Yükümlülükler+Özkaynaklar)| / Varlıklar <= %0.5"
+        },
+        {
+          "name": "Brüt kâr aritmetik kontrolü",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr"
+        },
+        {
+          "name": "Gelir tablosu ana kalemleri",
+          "passed": true,
+          "rule": "Hasılat ve Net Dönem Kârı aynı KAP döneminden bulunmalı"
+        }
+      ],
+      "score": 45.0,
+      "score_label": "Orta",
+      "verified_metric_count": 9,
+      "metric_count": 13,
+      "verification_rate_pct": 69.2,
+      "interpretation": {
+        "headline": "Temel kalite 45/100 (Orta).",
+        "summary": "Brüt marj %7.3; zayıf kârlılık tabanı. Faaliyet marjı %-0.9; operasyonel kârlılık zayıf. Net kâr marjı %3.2; net kârlılık pozitif. Yükümlülük/özkaynak 1.32x; borçluluk dikkat gerektiriyor. Cari oran 0.90x; kısa vadeli likidite zayıf.",
+        "risks": [
+          "KAP özet finansal sayfasında nakit kalemi bulunmadığı için net nakit/borç analizi yapılmadı."
+        ]
+      },
+      "source_warning": "KAP özet sayfası gecikmeli güncellenebilir. Önceki dönem düzeltmeleri nedeniyle yıllık büyüme referanstır; cari dönem aynı-tablotan oranlar ve aritmetik/bilanço kontrolleri daha yüksek güvenle kullanılır.",
+      "label": "Türk Hava Yolları"
     },
     {
       "symbol": "EREGL",
-      "label": "Ereğli Demir Çelik",
-      "company": "Ereğli Demir Çelik",
+      "company": "EREĞLİ DEMİR VE ÇELİK FABRİKALARI T.A.Ş.",
       "model": "industrial",
-      "metrics": {},
-      "checks": [],
+      "kap_url": "https://www.kap.org.tr/tr/sirket-finansal-bilgileri/944-eregli-demir-ve-celik-fabrikalari-t-a-s",
+      "periods": [
+        "2023/12",
+        "2024/12",
+        "2025/12",
+        "2026/06"
+      ],
+      "latest_period": "2026/06",
+      "presentation_scale": 1000.0,
+      "metrics": {
+        "revenue": {
+          "value": 124567404000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Hasılat"
+        },
+        "net_income": {
+          "value": 9217143000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Net Dönem Kârı (Zararı)"
+        },
+        "gross_margin_pct": {
+          "value": 8.577097745410187,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr kontrolü"
+        },
+        "operating_margin_pct": {
+          "value": 4.20312042466583,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "net_margin_pct": {
+          "value": 7.399321735885255,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "assets": {
+          "value": 599099345000.0,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "equity": {
+          "value": 318646912000.0,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "cash": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "KAP özet sayfasında nakit kalemi bulunamadı"
+        },
+        "liabilities_to_equity": {
+          "value": 0.84833175474175,
+          "verified": false,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "current_ratio": {
+          "value": 1.7842748136752207,
+          "verified": false,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "annual_revenue_growth_pct": {
+          "value": 2.376734992669305,
+          "verified": false,
+          "source": "KAP özet dönem karşılaştırması",
+          "period": "2025/12",
+          "note": "KAP önceki dönem düzeltme uyarısı nedeniyle yalnız referans."
+        },
+        "price_try": {
+          "value": 38.18,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        },
+        "daily_change_pct": {
+          "value": 1.2732095490716098,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        }
+      },
+      "matched_rows": {
+        "revenue": "Hasılat",
+        "cost_of_sales": "Satışların Maliyeti",
+        "gross_profit": "Ticari Faaliyetlerden Brüt Kar (Zarar)",
+        "operating_profit": "Esas Faaliyet Kârı (Zararı)",
+        "net_income": "Net Dönem Kârı (Zararı)",
+        "assets": "Toplam Varlıklar",
+        "current_assets": "Dönen Varlıklar",
+        "liabilities": "Toplam Yükümlülükler",
+        "current_liabilities": "Kısa Vadeli Yükümlülükler",
+        "equity": "Ana Ortaklığa Ait Özkaynaklar",
+        "cash": null
+      },
+      "checks": [
+        {
+          "name": "KAP ticker eşleşmesi",
+          "passed": true
+        },
+        {
+          "name": "Bilanço eşitliği",
+          "passed": false,
+          "value_pct": 1.6915623568241425,
+          "rule": "|Varlıklar-(Yükümlülükler+Özkaynaklar)| / Varlıklar <= %0.5"
+        },
+        {
+          "name": "Brüt kâr aritmetik kontrolü",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr"
+        },
+        {
+          "name": "Gelir tablosu ana kalemleri",
+          "passed": true,
+          "rule": "Hasılat ve Net Dönem Kârı aynı KAP döneminden bulunmalı"
+        }
+      ],
       "score": null,
       "score_label": "Doğrulanamadı",
-      "verification_rate_pct": 0,
-      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+      "verified_metric_count": 5,
+      "metric_count": 13,
+      "verification_rate_pct": 38.5,
+      "interpretation": {
+        "headline": "Temel kalite skoru için yeterli doğrulanmış veri yok.",
+        "summary": "Brüt marj %8.6; zayıf kârlılık tabanı. Faaliyet marjı %4.2; operasyonel kârlılık pozitif. Net kâr marjı %7.4; net kârlılık pozitif.",
+        "risks": [
+          "KAP özet finansal sayfasında nakit kalemi bulunmadığı için net nakit/borç analizi yapılmadı."
+        ]
+      },
+      "source_warning": "KAP özet sayfası gecikmeli güncellenebilir. Önceki dönem düzeltmeleri nedeniyle yıllık büyüme referanstır; cari dönem aynı-tablotan oranlar ve aritmetik/bilanço kontrolleri daha yüksek güvenle kullanılır.",
+      "label": "Ereğli Demir Çelik"
     },
     {
       "symbol": "ASTOR",
-      "label": "Astor Enerji",
-      "company": "Astor Enerji",
+      "company": "ASTOR ENERJİ A.Ş.",
       "model": "industrial",
-      "metrics": {},
-      "checks": [],
-      "score": null,
-      "score_label": "Doğrulanamadı",
-      "verification_rate_pct": 0,
-      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+      "kap_url": "https://www.kap.org.tr/tr/sirket-finansal-bilgileri/4680-astor-enerji-a-s",
+      "periods": [
+        "2023/12",
+        "2024/12",
+        "2025/12",
+        "2026/06"
+      ],
+      "latest_period": "2026/06",
+      "presentation_scale": 1.0,
+      "metrics": {
+        "revenue": {
+          "value": 19214635242.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Hasılat"
+        },
+        "net_income": {
+          "value": 4646038622.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Net Dönem Kârı (Zararı)"
+        },
+        "gross_margin_pct": {
+          "value": 40.87460337957739,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr kontrolü"
+        },
+        "operating_margin_pct": {
+          "value": 33.09449478437307,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "net_margin_pct": {
+          "value": 24.179686803757438,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "assets": {
+          "value": 70575633952.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "equity": {
+          "value": 43796220222.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "cash": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "KAP özet sayfasında nakit kalemi bulunamadı"
+        },
+        "liabilities_to_equity": {
+          "value": 0.6114549062512018,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "current_ratio": {
+          "value": 2.0087280354985073,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "annual_revenue_growth_pct": {
+          "value": 32.55211489672107,
+          "verified": false,
+          "source": "KAP özet dönem karşılaştırması",
+          "period": "2025/12",
+          "note": "KAP önceki dönem düzeltme uyarısı nedeniyle yalnız referans."
+        },
+        "price_try": {
+          "value": 341.25,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        },
+        "daily_change_pct": {
+          "value": 6.4742589703588145,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        }
+      },
+      "matched_rows": {
+        "revenue": "Hasılat",
+        "cost_of_sales": "Satışların Maliyeti",
+        "gross_profit": "Ticari Faaliyetlerden Brüt Kar (Zarar)",
+        "operating_profit": "Esas Faaliyet Kârı (Zararı)",
+        "net_income": "Net Dönem Kârı (Zararı)",
+        "assets": "Toplam Varlıklar",
+        "current_assets": "Dönen Varlıklar",
+        "liabilities": "Toplam Yükümlülükler",
+        "current_liabilities": "Kısa Vadeli Yükümlülükler",
+        "equity": "Ana Ortaklığa Ait Özkaynaklar",
+        "cash": null
+      },
+      "checks": [
+        {
+          "name": "KAP ticker eşleşmesi",
+          "passed": true
+        },
+        {
+          "name": "Bilanço eşitliği",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "|Varlıklar-(Yükümlülükler+Özkaynaklar)| / Varlıklar <= %0.5"
+        },
+        {
+          "name": "Brüt kâr aritmetik kontrolü",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr"
+        },
+        {
+          "name": "Gelir tablosu ana kalemleri",
+          "passed": true,
+          "rule": "Hasılat ve Net Dönem Kârı aynı KAP döneminden bulunmalı"
+        }
+      ],
+      "score": 78.8,
+      "score_label": "Güçlü",
+      "verified_metric_count": 9,
+      "metric_count": 13,
+      "verification_rate_pct": 69.2,
+      "interpretation": {
+        "headline": "Temel kalite 79/100 (Güçlü).",
+        "summary": "Brüt marj %40.9; güçlü kârlılık tabanı. Faaliyet marjı %33.1; operasyonel kârlılık güçlü. Net kâr marjı %24.2; net kârlılık güçlü. Yükümlülük/özkaynak 0.61x; bilanço kaldıraç seviyesi kontrollü. Cari oran 2.01x; kısa vadeli likidite rahat.",
+        "risks": [
+          "KAP özet finansal sayfasında nakit kalemi bulunmadığı için net nakit/borç analizi yapılmadı."
+        ]
+      },
+      "source_warning": "KAP özet sayfası gecikmeli güncellenebilir. Önceki dönem düzeltmeleri nedeniyle yıllık büyüme referanstır; cari dönem aynı-tablotan oranlar ve aritmetik/bilanço kontrolleri daha yüksek güvenle kullanılır.",
+      "label": "Astor Enerji"
     },
     {
       "symbol": "PGSUS",
-      "label": "Pegasus",
-      "company": "Pegasus",
+      "company": "PEGASUS HAVA TAŞIMACILIĞI A.Ş.",
       "model": "industrial",
-      "metrics": {},
-      "checks": [],
-      "score": null,
-      "score_label": "Doğrulanamadı",
-      "verification_rate_pct": 0,
-      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+      "kap_url": "https://www.kap.org.tr/tr/sirket-finansal-bilgileri/1710-pegasus-hava-tasimaciligi-a-s",
+      "periods": [
+        "2023/12",
+        "2024/12",
+        "2025/12",
+        "2026/06"
+      ],
+      "latest_period": "2026/06",
+      "presentation_scale": 1000.0,
+      "metrics": {
+        "revenue": {
+          "value": 78468731000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Hasılat"
+        },
+        "net_income": {
+          "value": -12551835000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Net Dönem Kârı (Zararı)"
+        },
+        "gross_margin_pct": {
+          "value": -2.8231372825437946,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr kontrolü"
+        },
+        "operating_margin_pct": {
+          "value": -8.306650199300407,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "net_margin_pct": {
+          "value": -15.995970420370377,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "assets": {
+          "value": 440473656000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "equity": {
+          "value": 112660264000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "cash": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "KAP özet sayfasında nakit kalemi bulunamadı"
+        },
+        "liabilities_to_equity": {
+          "value": 2.9097516760656625,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "current_ratio": {
+          "value": 0.8446238744416237,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "annual_revenue_growth_pct": {
+          "value": 37.83230006279612,
+          "verified": false,
+          "source": "KAP özet dönem karşılaştırması",
+          "period": "2025/12",
+          "note": "KAP önceki dönem düzeltme uyarısı nedeniyle yalnız referans."
+        },
+        "price_try": {
+          "value": 149.6,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        },
+        "daily_change_pct": {
+          "value": 0.20093770931010244,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        }
+      },
+      "matched_rows": {
+        "revenue": "Hasılat",
+        "cost_of_sales": "Satışların Maliyeti",
+        "gross_profit": "Ticari Faaliyetlerden Brüt Kar (Zarar)",
+        "operating_profit": "Esas Faaliyet Kârı (Zararı)",
+        "net_income": "Net Dönem Kârı (Zararı)",
+        "assets": "Toplam Varlıklar",
+        "current_assets": "Dönen Varlıklar",
+        "liabilities": "Toplam Yükümlülükler",
+        "current_liabilities": "Kısa Vadeli Yükümlülükler",
+        "equity": "Ana Ortaklığa Ait Özkaynaklar",
+        "cash": null
+      },
+      "checks": [
+        {
+          "name": "KAP ticker eşleşmesi",
+          "passed": true
+        },
+        {
+          "name": "Bilanço eşitliği",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "|Varlıklar-(Yükümlülükler+Özkaynaklar)| / Varlıklar <= %0.5"
+        },
+        {
+          "name": "Brüt kâr aritmetik kontrolü",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr"
+        },
+        {
+          "name": "Gelir tablosu ana kalemleri",
+          "passed": true,
+          "rule": "Hasılat ve Net Dönem Kârı aynı KAP döneminden bulunmalı"
+        }
+      ],
+      "score": 28.8,
+      "score_label": "Zayıf",
+      "verified_metric_count": 9,
+      "metric_count": 13,
+      "verification_rate_pct": 69.2,
+      "interpretation": {
+        "headline": "Temel kalite 29/100 (Zayıf).",
+        "summary": "Brüt marj %-2.8; zayıf kârlılık tabanı. Faaliyet marjı %-8.3; operasyonel kârlılık zayıf. Net kâr marjı %-16.0; net zarar var. Yükümlülük/özkaynak 2.91x; borçluluk dikkat gerektiriyor. Cari oran 0.84x; kısa vadeli likidite zayıf.",
+        "risks": [
+          "KAP özet finansal sayfasında nakit kalemi bulunmadığı için net nakit/borç analizi yapılmadı."
+        ]
+      },
+      "source_warning": "KAP özet sayfası gecikmeli güncellenebilir. Önceki dönem düzeltmeleri nedeniyle yıllık büyüme referanstır; cari dönem aynı-tablotan oranlar ve aritmetik/bilanço kontrolleri daha yüksek güvenle kullanılır.",
+      "label": "Pegasus"
     },
     {
       "symbol": "FROTO",
-      "label": "Ford Otosan",
-      "company": "Ford Otosan",
+      "company": "FORD OTOMOTİV SANAYİ A.Ş.",
       "model": "industrial",
-      "metrics": {},
-      "checks": [],
-      "score": null,
-      "score_label": "Doğrulanamadı",
-      "verification_rate_pct": 0,
-      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+      "kap_url": "https://www.kap.org.tr/tr/sirket-finansal-bilgileri/956-ford-otomotiv-sanayi-a-s",
+      "periods": [
+        "2023/12",
+        "2024/12",
+        "2025/12",
+        "2026/06"
+      ],
+      "latest_period": "2026/06",
+      "presentation_scale": 1000.0,
+      "metrics": {
+        "revenue": {
+          "value": 427069180000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Hasılat"
+        },
+        "net_income": {
+          "value": 10336713000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Net Dönem Kârı (Zararı)"
+        },
+        "gross_margin_pct": {
+          "value": 6.866682817055541,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr kontrolü"
+        },
+        "operating_margin_pct": {
+          "value": 2.7267593976226525,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "net_margin_pct": {
+          "value": 2.420383742043853,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "assets": {
+          "value": 489237014000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "equity": {
+          "value": 179191213000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "cash": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "KAP özet sayfasında nakit kalemi bulunamadı"
+        },
+        "liabilities_to_equity": {
+          "value": 1.7302511423927913,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "current_ratio": {
+          "value": 1.2834276426205067,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "annual_revenue_growth_pct": {
+          "value": 39.63608774900611,
+          "verified": false,
+          "source": "KAP özet dönem karşılaştırması",
+          "period": "2025/12",
+          "note": "KAP önceki dönem düzeltme uyarısı nedeniyle yalnız referans."
+        },
+        "price_try": {
+          "value": 80.1,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        },
+        "daily_change_pct": {
+          "value": 1.5209125475285026,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        }
+      },
+      "matched_rows": {
+        "revenue": "Hasılat",
+        "cost_of_sales": "Satışların Maliyeti",
+        "gross_profit": "Ticari Faaliyetlerden Brüt Kar (Zarar)",
+        "operating_profit": "Esas Faaliyet Kârı (Zararı)",
+        "net_income": "Net Dönem Kârı (Zararı)",
+        "assets": "Toplam Varlıklar",
+        "current_assets": "Dönen Varlıklar",
+        "liabilities": "Toplam Yükümlülükler",
+        "current_liabilities": "Kısa Vadeli Yükümlülükler",
+        "equity": "Ana Ortaklığa Ait Özkaynaklar",
+        "cash": null
+      },
+      "checks": [
+        {
+          "name": "KAP ticker eşleşmesi",
+          "passed": true
+        },
+        {
+          "name": "Bilanço eşitliği",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "|Varlıklar-(Yükümlülükler+Özkaynaklar)| / Varlıklar <= %0.5"
+        },
+        {
+          "name": "Brüt kâr aritmetik kontrolü",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr"
+        },
+        {
+          "name": "Gelir tablosu ana kalemleri",
+          "passed": true,
+          "rule": "Hasılat ve Net Dönem Kârı aynı KAP döneminden bulunmalı"
+        }
+      ],
+      "score": 51.2,
+      "score_label": "Orta",
+      "verified_metric_count": 9,
+      "metric_count": 13,
+      "verification_rate_pct": 69.2,
+      "interpretation": {
+        "headline": "Temel kalite 51/100 (Orta).",
+        "summary": "Brüt marj %6.9; zayıf kârlılık tabanı. Faaliyet marjı %2.7; operasyonel kârlılık pozitif. Net kâr marjı %2.4; net kârlılık pozitif. Yükümlülük/özkaynak 1.73x; borçluluk dikkat gerektiriyor. Cari oran 1.28x; likidite yeterli fakat tampon sınırlı.",
+        "risks": [
+          "KAP özet finansal sayfasında nakit kalemi bulunmadığı için net nakit/borç analizi yapılmadı."
+        ]
+      },
+      "source_warning": "KAP özet sayfası gecikmeli güncellenebilir. Önceki dönem düzeltmeleri nedeniyle yıllık büyüme referanstır; cari dönem aynı-tablotan oranlar ve aritmetik/bilanço kontrolleri daha yüksek güvenle kullanılır.",
+      "label": "Ford Otosan"
     },
     {
       "symbol": "TCELL",
-      "label": "Turkcell",
-      "company": "Turkcell",
+      "company": "TURKCELL İLETİŞİM HİZMETLERİ A.Ş.",
       "model": "industrial",
-      "metrics": {},
-      "checks": [],
+      "kap_url": "https://www.kap.org.tr/tr/sirket-finansal-bilgileri/1103-turkcell-iletisim-hizmetleri-a-s",
+      "periods": [
+        "2023/12",
+        "2024/12",
+        "2025/12",
+        "2026/06"
+      ],
+      "latest_period": "2026/06",
+      "presentation_scale": 1000.0,
+      "metrics": {
+        "revenue": {
+          "value": 137467389000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Hasılat"
+        },
+        "net_income": {
+          "value": 10194669000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Net Dönem Kârı (Zararı)"
+        },
+        "gross_margin_pct": {
+          "value": 25.26098317034304,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr kontrolü"
+        },
+        "operating_margin_pct": {
+          "value": 19.24043963619619,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "net_margin_pct": {
+          "value": 7.4160636018190464,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "assets": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "equity": {
+          "value": 309560267000.0,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "cash": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "KAP özet sayfasında nakit kalemi bulunamadı"
+        },
+        "liabilities_to_equity": {
+          "value": null,
+          "verified": false,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "current_ratio": {
+          "value": 1.4909039501820098,
+          "verified": false,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "annual_revenue_growth_pct": {
+          "value": 44.16650692355528,
+          "verified": false,
+          "source": "KAP özet dönem karşılaştırması",
+          "period": "2025/12",
+          "note": "KAP önceki dönem düzeltme uyarısı nedeniyle yalnız referans."
+        },
+        "price_try": {
+          "value": 103.1,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        },
+        "daily_change_pct": {
+          "value": -0.3864734299516963,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        }
+      },
+      "matched_rows": {
+        "revenue": "Hasılat",
+        "cost_of_sales": "Satışların Maliyeti",
+        "gross_profit": "Ticari Faaliyetlerden Brüt Kâr (Zarar)",
+        "operating_profit": "Esas Faaliyet Kârı (Zararı)",
+        "net_income": "Net Dönem Kârı (Zararı)",
+        "assets": null,
+        "current_assets": "Dönen Varlıklar",
+        "liabilities": null,
+        "current_liabilities": "Kısa Vadeli Yükümlülükler",
+        "equity": "Ana Ortaklığa Ait Özkaynaklar",
+        "cash": null
+      },
+      "checks": [
+        {
+          "name": "KAP ticker eşleşmesi",
+          "passed": true
+        },
+        {
+          "name": "Bilanço eşitliği",
+          "passed": false,
+          "value_pct": null,
+          "rule": "|Varlıklar-(Yükümlülükler+Özkaynaklar)| / Varlıklar <= %0.5"
+        },
+        {
+          "name": "Brüt kâr aritmetik kontrolü",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr"
+        },
+        {
+          "name": "Gelir tablosu ana kalemleri",
+          "passed": true,
+          "rule": "Hasılat ve Net Dönem Kârı aynı KAP döneminden bulunmalı"
+        }
+      ],
       "score": null,
       "score_label": "Doğrulanamadı",
-      "verification_rate_pct": 0,
-      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+      "verified_metric_count": 5,
+      "metric_count": 13,
+      "verification_rate_pct": 38.5,
+      "interpretation": {
+        "headline": "Temel kalite skoru için yeterli doğrulanmış veri yok.",
+        "summary": "Brüt marj %25.3; makul kârlılık tabanı. Faaliyet marjı %19.2; operasyonel kârlılık pozitif. Net kâr marjı %7.4; net kârlılık pozitif.",
+        "risks": [
+          "KAP özet finansal sayfasında nakit kalemi bulunmadığı için net nakit/borç analizi yapılmadı."
+        ]
+      },
+      "source_warning": "KAP özet sayfası gecikmeli güncellenebilir. Önceki dönem düzeltmeleri nedeniyle yıllık büyüme referanstır; cari dönem aynı-tablotan oranlar ve aritmetik/bilanço kontrolleri daha yüksek güvenle kullanılır.",
+      "label": "Turkcell"
     },
     {
       "symbol": "SISE",
-      "label": "Şişecam",
-      "company": "Şişecam",
+      "company": "TÜRKİYE ŞİŞE VE CAM FABRİKALARI A.Ş.",
       "model": "industrial",
-      "metrics": {},
-      "checks": [],
+      "kap_url": "https://www.kap.org.tr/tr/sirket-finansal-bilgileri/1087-turkiye-sise-ve-cam-fabrikalari-a-s",
+      "periods": [
+        "2023/12",
+        "2024/12",
+        "2025/12",
+        "2026/06"
+      ],
+      "latest_period": "2026/06",
+      "presentation_scale": 1000.0,
+      "metrics": {
+        "revenue": {
+          "value": 122325387000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Hasılat"
+        },
+        "net_income": {
+          "value": 4550540000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Net Dönem Kârı (Zararı)"
+        },
+        "gross_margin_pct": {
+          "value": 26.746757809153713,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr kontrolü"
+        },
+        "operating_margin_pct": {
+          "value": 0.008219062491091894,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "net_margin_pct": {
+          "value": 3.7200291056508163,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "assets": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "equity": {
+          "value": 270067115000.0,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "cash": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "KAP özet sayfasında nakit kalemi bulunamadı"
+        },
+        "liabilities_to_equity": {
+          "value": null,
+          "verified": false,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "current_ratio": {
+          "value": 1.8100099018393592,
+          "verified": false,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "annual_revenue_growth_pct": {
+          "value": 20.980644328789253,
+          "verified": false,
+          "source": "KAP özet dönem karşılaştırması",
+          "period": "2025/12",
+          "note": "KAP önceki dönem düzeltme uyarısı nedeniyle yalnız referans."
+        },
+        "price_try": {
+          "value": 39.74,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        },
+        "daily_change_pct": {
+          "value": 4.249737670514178,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        }
+      },
+      "matched_rows": {
+        "revenue": "Hasılat",
+        "cost_of_sales": "Satışların Maliyeti",
+        "gross_profit": "Ticari Faaliyetlerden Brüt Kâr (Zarar)",
+        "operating_profit": "Esas Faaliyet Kârı (Zararı)",
+        "net_income": "Net Dönem Kârı (Zararı)",
+        "assets": null,
+        "current_assets": "Dönen Varlıklar",
+        "liabilities": null,
+        "current_liabilities": "Kısa Vadeli Yükümlülükler",
+        "equity": "Ana Ortaklığa Ait Özkaynaklar",
+        "cash": null
+      },
+      "checks": [
+        {
+          "name": "KAP ticker eşleşmesi",
+          "passed": true
+        },
+        {
+          "name": "Bilanço eşitliği",
+          "passed": false,
+          "value_pct": null,
+          "rule": "|Varlıklar-(Yükümlülükler+Özkaynaklar)| / Varlıklar <= %0.5"
+        },
+        {
+          "name": "Brüt kâr aritmetik kontrolü",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr"
+        },
+        {
+          "name": "Gelir tablosu ana kalemleri",
+          "passed": true,
+          "rule": "Hasılat ve Net Dönem Kârı aynı KAP döneminden bulunmalı"
+        }
+      ],
       "score": null,
       "score_label": "Doğrulanamadı",
-      "verification_rate_pct": 0,
-      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+      "verified_metric_count": 5,
+      "metric_count": 13,
+      "verification_rate_pct": 38.5,
+      "interpretation": {
+        "headline": "Temel kalite skoru için yeterli doğrulanmış veri yok.",
+        "summary": "Brüt marj %26.7; makul kârlılık tabanı. Faaliyet marjı %0.0; operasyonel kârlılık pozitif. Net kâr marjı %3.7; net kârlılık pozitif.",
+        "risks": [
+          "KAP özet finansal sayfasında nakit kalemi bulunmadığı için net nakit/borç analizi yapılmadı."
+        ]
+      },
+      "source_warning": "KAP özet sayfası gecikmeli güncellenebilir. Önceki dönem düzeltmeleri nedeniyle yıllık büyüme referanstır; cari dönem aynı-tablotan oranlar ve aritmetik/bilanço kontrolleri daha yüksek güvenle kullanılır.",
+      "label": "Şişecam"
     },
     {
       "symbol": "TOASO",
-      "label": "Tofaş",
-      "company": "Tofaş",
+      "company": "TOFAŞ TÜRK OTOMOBİL FABRİKASI A.Ş.",
       "model": "industrial",
-      "metrics": {},
-      "checks": [],
-      "score": null,
-      "score_label": "Doğrulanamadı",
-      "verification_rate_pct": 0,
-      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+      "kap_url": "https://www.kap.org.tr/tr/sirket-finansal-bilgileri/1096-tofas-turk-otomobil-fabrikasi-a-s",
+      "periods": [
+        "2023/12",
+        "2024/12",
+        "2025/12",
+        "2026/06"
+      ],
+      "latest_period": "2026/06",
+      "presentation_scale": 1000.0,
+      "metrics": {
+        "revenue": {
+          "value": 201797108000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Hasılat"
+        },
+        "net_income": {
+          "value": 6290532000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Net Dönem Kârı (Zararı)"
+        },
+        "gross_margin_pct": {
+          "value": 5.993644368778566,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr kontrolü"
+        },
+        "operating_margin_pct": {
+          "value": 1.4293331696309541,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "net_margin_pct": {
+          "value": 3.117255773556477,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "assets": {
+          "value": 215813377000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "equity": {
+          "value": 65740826000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "cash": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "KAP özet sayfasında nakit kalemi bulunamadı"
+        },
+        "liabilities_to_equity": {
+          "value": 2.282790772966558,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "current_ratio": {
+          "value": 1.5032734169229247,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "annual_revenue_growth_pct": {
+          "value": 165.58793964450854,
+          "verified": false,
+          "source": "KAP özet dönem karşılaştırması",
+          "period": "2025/12",
+          "note": "KAP önceki dönem düzeltme uyarısı nedeniyle yalnız referans."
+        },
+        "price_try": {
+          "value": 277.25,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        },
+        "daily_change_pct": {
+          "value": 4.425612052730696,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        }
+      },
+      "matched_rows": {
+        "revenue": "Hasılat",
+        "cost_of_sales": "Satışların Maliyeti",
+        "gross_profit": "Ticari Faaliyetlerden Brüt Kar (Zarar)",
+        "operating_profit": "Esas Faaliyet Kârı (Zararı)",
+        "net_income": "Net Dönem Kârı (Zararı)",
+        "assets": "Toplam Varlıklar",
+        "current_assets": "Dönen Varlıklar",
+        "liabilities": "Toplam Yükümlülükler",
+        "current_liabilities": "Kısa Vadeli Yükümlülükler",
+        "equity": "Ana Ortaklığa Ait Özkaynaklar",
+        "cash": null
+      },
+      "checks": [
+        {
+          "name": "KAP ticker eşleşmesi",
+          "passed": true
+        },
+        {
+          "name": "Bilanço eşitliği",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "|Varlıklar-(Yükümlülükler+Özkaynaklar)| / Varlıklar <= %0.5"
+        },
+        {
+          "name": "Brüt kâr aritmetik kontrolü",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr"
+        },
+        {
+          "name": "Gelir tablosu ana kalemleri",
+          "passed": true,
+          "rule": "Hasılat ve Net Dönem Kârı aynı KAP döneminden bulunmalı"
+        }
+      ],
+      "score": 55.0,
+      "score_label": "Orta",
+      "verified_metric_count": 9,
+      "metric_count": 13,
+      "verification_rate_pct": 69.2,
+      "interpretation": {
+        "headline": "Temel kalite 55/100 (Orta).",
+        "summary": "Brüt marj %6.0; zayıf kârlılık tabanı. Faaliyet marjı %1.4; operasyonel kârlılık pozitif. Net kâr marjı %3.1; net kârlılık pozitif. Yükümlülük/özkaynak 2.28x; borçluluk dikkat gerektiriyor. Cari oran 1.50x; kısa vadeli likidite rahat.",
+        "risks": [
+          "KAP özet finansal sayfasında nakit kalemi bulunmadığı için net nakit/borç analizi yapılmadı."
+        ]
+      },
+      "source_warning": "KAP özet sayfası gecikmeli güncellenebilir. Önceki dönem düzeltmeleri nedeniyle yıllık büyüme referanstır; cari dönem aynı-tablotan oranlar ve aritmetik/bilanço kontrolleri daha yüksek güvenle kullanılır.",
+      "label": "Tofaş"
     },
     {
       "symbol": "KCHOL",
-      "label": "Koç Holding",
-      "company": "Koç Holding",
+      "company": "KOÇ HOLDİNG A.Ş.",
       "model": "industrial",
-      "metrics": {},
-      "checks": [],
+      "kap_url": "https://www.kap.org.tr/tr/sirket-finansal-bilgileri/1005-koc-holding-a-s",
+      "periods": [
+        "2023/12",
+        "2024/12",
+        "2025/12",
+        "2026/06"
+      ],
+      "latest_period": "2026/06",
+      "presentation_scale": 1000000.0,
+      "metrics": {
+        "revenue": {
+          "value": 1180496000000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Hasılat"
+        },
+        "net_income": {
+          "value": 46868000000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Net Dönem Kârı (Zararı)"
+        },
+        "gross_margin_pct": {
+          "value": 16.82131917431317,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr kontrolü"
+        },
+        "operating_margin_pct": {
+          "value": 8.129718355674225,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "net_margin_pct": {
+          "value": 3.970195578807552,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "assets": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "equity": {
+          "value": 792639000000.0,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "cash": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "KAP özet sayfasında nakit kalemi bulunamadı"
+        },
+        "liabilities_to_equity": {
+          "value": null,
+          "verified": false,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "current_ratio": {
+          "value": 0.9048676619884142,
+          "verified": false,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "annual_revenue_growth_pct": {
+          "value": 14.094356213415038,
+          "verified": false,
+          "source": "KAP özet dönem karşılaştırması",
+          "period": "2025/12",
+          "note": "KAP önceki dönem düzeltme uyarısı nedeniyle yalnız referans."
+        },
+        "price_try": {
+          "value": 218.8,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        },
+        "daily_change_pct": {
+          "value": 5.242905242905246,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        }
+      },
+      "matched_rows": {
+        "revenue": "Hasılat",
+        "cost_of_sales": "Satışların Maliyeti",
+        "gross_profit": "Ticari Faaliyetlerden Brüt Kâr (Zarar)",
+        "operating_profit": "Esas Faaliyet Kârı (Zararı)",
+        "net_income": "Net Dönem Kârı (Zararı)",
+        "assets": null,
+        "current_assets": "Dönen Varlıklar",
+        "liabilities": null,
+        "current_liabilities": "Kısa Vadeli Yükümlülükler",
+        "equity": "Ana Ortaklığa Ait Özkaynaklar",
+        "cash": null
+      },
+      "checks": [
+        {
+          "name": "KAP ticker eşleşmesi",
+          "passed": true
+        },
+        {
+          "name": "Bilanço eşitliği",
+          "passed": false,
+          "value_pct": null,
+          "rule": "|Varlıklar-(Yükümlülükler+Özkaynaklar)| / Varlıklar <= %0.5"
+        },
+        {
+          "name": "Brüt kâr aritmetik kontrolü",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr"
+        },
+        {
+          "name": "Gelir tablosu ana kalemleri",
+          "passed": true,
+          "rule": "Hasılat ve Net Dönem Kârı aynı KAP döneminden bulunmalı"
+        }
+      ],
       "score": null,
       "score_label": "Doğrulanamadı",
-      "verification_rate_pct": 0,
-      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+      "verified_metric_count": 5,
+      "metric_count": 13,
+      "verification_rate_pct": 38.5,
+      "interpretation": {
+        "headline": "Temel kalite skoru için yeterli doğrulanmış veri yok.",
+        "summary": "Brüt marj %16.8; makul kârlılık tabanı. Faaliyet marjı %8.1; operasyonel kârlılık pozitif. Net kâr marjı %4.0; net kârlılık pozitif.",
+        "risks": [
+          "KAP özet finansal sayfasında nakit kalemi bulunmadığı için net nakit/borç analizi yapılmadı."
+        ]
+      },
+      "source_warning": "KAP özet sayfası gecikmeli güncellenebilir. Önceki dönem düzeltmeleri nedeniyle yıllık büyüme referanstır; cari dönem aynı-tablotan oranlar ve aritmetik/bilanço kontrolleri daha yüksek güvenle kullanılır.",
+      "label": "Koç Holding"
     },
     {
       "symbol": "SAHOL",
-      "label": "Sabancı Holding",
-      "company": "Sabancı Holding",
+      "company": "HACI ÖMER SABANCI HOLDİNG A.Ş.",
       "model": "industrial",
-      "metrics": {},
-      "checks": [],
+      "kap_url": "https://www.kap.org.tr/tr/sirket-finansal-bilgileri/976-haci-omer-sabanci-holding-a-s",
+      "periods": [
+        "2023/12",
+        "2024/12",
+        "2025/12",
+        "2026/06"
+      ],
+      "latest_period": "2026/06",
+      "presentation_scale": 1000.0,
+      "metrics": {
+        "revenue": {
+          "value": 135127912000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Hasılat"
+        },
+        "net_income": {
+          "value": 17917816000.0,
+          "verified": true,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "Net Dönem Kârı (Zararı)"
+        },
+        "gross_margin_pct": {
+          "value": 16.313319486502536,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr kontrolü"
+        },
+        "operating_margin_pct": {
+          "value": 42.17064569161699,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "net_margin_pct": {
+          "value": 13.259892597171191,
+          "verified": true,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "assets": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "equity": {
+          "value": 419322964000.0,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": null
+        },
+        "cash": {
+          "value": null,
+          "verified": false,
+          "source": "KAP özet finansal",
+          "period": "2026/06",
+          "note": "KAP özet sayfasında nakit kalemi bulunamadı"
+        },
+        "liabilities_to_equity": {
+          "value": null,
+          "verified": false,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "current_ratio": {
+          "value": 0.8215136152550667,
+          "verified": false,
+          "source": "KAP aynı dönem türetilmiş",
+          "period": "2026/06",
+          "note": null
+        },
+        "annual_revenue_growth_pct": {
+          "value": 26.214538648016106,
+          "verified": false,
+          "source": "KAP özet dönem karşılaştırması",
+          "period": "2025/12",
+          "note": "KAP önceki dönem düzeltme uyarısı nedeniyle yalnız referans."
+        },
+        "price_try": {
+          "value": 94.25,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        },
+        "daily_change_pct": {
+          "value": 5.958403597526697,
+          "verified": false,
+          "source": "Yahoo Finance .IS",
+          "period": null,
+          "note": "Tek fiyat kaynağı; tam doğrulanmış sayılmaz."
+        }
+      },
+      "matched_rows": {
+        "revenue": "Hasılat",
+        "cost_of_sales": "Satışların Maliyeti",
+        "gross_profit": "Ticari Faaliyetlerden Brüt Kâr (Zarar)",
+        "operating_profit": "Esas Faaliyet Kârı (Zararı)",
+        "net_income": "Net Dönem Kârı (Zararı)",
+        "assets": null,
+        "current_assets": "Dönen Varlıklar",
+        "liabilities": null,
+        "current_liabilities": "Kısa Vadeli Yükümlülükler",
+        "equity": "Ana Ortaklığa Ait Özkaynaklar",
+        "cash": null
+      },
+      "checks": [
+        {
+          "name": "KAP ticker eşleşmesi",
+          "passed": true
+        },
+        {
+          "name": "Bilanço eşitliği",
+          "passed": false,
+          "value_pct": null,
+          "rule": "|Varlıklar-(Yükümlülükler+Özkaynaklar)| / Varlıklar <= %0.5"
+        },
+        {
+          "name": "Brüt kâr aritmetik kontrolü",
+          "passed": true,
+          "value_pct": 0.0,
+          "rule": "Hasılat + Satışların Maliyeti ≈ Brüt Kâr"
+        },
+        {
+          "name": "Gelir tablosu ana kalemleri",
+          "passed": true,
+          "rule": "Hasılat ve Net Dönem Kârı aynı KAP döneminden bulunmalı"
+        }
+      ],
       "score": null,
       "score_label": "Doğrulanamadı",
-      "verification_rate_pct": 0,
-      "error": "HTTPSConnectionPool(host='www.kap.org.tr', port=443): Read timed out. (read timeout=20)"
+      "verified_metric_count": 5,
+      "metric_count": 13,
+      "verification_rate_pct": 38.5,
+      "interpretation": {
+        "headline": "Temel kalite skoru için yeterli doğrulanmış veri yok.",
+        "summary": "Brüt marj %16.3; makul kârlılık tabanı. Faaliyet marjı %42.2; operasyonel kârlılık güçlü. Net kâr marjı %13.3; net kârlılık pozitif.",
+        "risks": [
+          "KAP özet finansal sayfasında nakit kalemi bulunmadığı için net nakit/borç analizi yapılmadı."
+        ]
+      },
+      "source_warning": "KAP özet sayfası gecikmeli güncellenebilir. Önceki dönem düzeltmeleri nedeniyle yıllık büyüme referanstır; cari dönem aynı-tablotan oranlar ve aritmetik/bilanço kontrolleri daha yüksek güvenle kullanılır.",
+      "label": "Sabancı Holding"
     },
     {
       "symbol": "AKBNK",
@@ -558,29 +2443,29 @@
       "symbol": "GC=F",
       "market_symbol": "GC=F",
       "label": "Altın",
-      "price": 4710.8,
-      "change_pct": 4.931616697108757
+      "price": 4705.0,
+      "change_pct": 4.802423486434721
     },
     {
       "symbol": "SI=F",
       "market_symbol": "SI=F",
       "label": "Gümüş",
-      "price": 68.865,
-      "change_pct": 4.7631362765083525
+      "price": 68.87,
+      "change_pct": 4.770742690236423
     },
     {
       "symbol": "BZ=F",
       "market_symbol": "BZ=F",
       "label": "Brent Petrol",
-      "price": 92.02,
-      "change_pct": 0.4365858982754764
+      "price": 91.88,
+      "change_pct": 0.2837808338790557
     },
     {
       "symbol": "CL=F",
       "market_symbol": "CL=F",
       "label": "WTI Petrol",
-      "price": 85.01,
-      "change_pct": -0.9553769078410733
+      "price": 84.87,
+      "change_pct": -1.1184900384480878
     }
   ],
   "unavailable": [
@@ -588,5 +2473,5 @@
     "Hyperscaler CAPEX",
     "Central Bank Gold Buying"
   ],
-  "generated_at": "2026-08-24T20:11:44.124951+00:00"
+  "generated_at": "2026-08-24T20:53:42.884667+00:00"
 }
