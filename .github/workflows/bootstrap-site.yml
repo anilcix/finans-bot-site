@@ -36,10 +36,17 @@ jobs:
 
       - name: Verify private core code was not copied
         run: |
-          test ! -d site/agents
           test ! -d site/common
           test ! -f site/generate_site_data.py
           test ! -f site/main.py
+          if find site -type f -name '*.py' -print -quit | grep -q .; then
+            echo "Python source detected in public site; aborting."
+            exit 1
+          fi
+          if find site/agents -type f ! -name '*.html' -print -quit 2>/dev/null | grep -q .; then
+            echo "Unexpected non-HTML file detected under public agents/."
+            exit 1
+          fi
 
       - name: Commit public site snapshot
         env:
