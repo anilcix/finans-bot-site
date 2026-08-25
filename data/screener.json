@@ -1,96 +1,50 @@
 {
   "movers": [
     {
-      "symbol": "INJ",
-      "name": "Injective",
-      "coingecko_id": "injective-protocol",
+      "symbol": "GRT",
+      "name": "The Graph",
+      "coingecko_id": "the-graph",
       "exchange": "Binance Spot",
-      "exchange_symbol": "INJUSDT",
-      "price": 5.96,
-      "change_24h": 12.90697,
-      "volume_zscore_10m": 3.968430643916387,
+      "exchange_symbol": "GRTUSDT",
+      "price": 0.01863921,
+      "change_24h": 7.8942,
+      "volume_zscore_10m": 2.674185050155779,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 148795.72999999998,
-      "base_volume_mean_20": 27710.8535,
-      "base_volume_stdev_20": 30512.030413237375,
-      "volume_10m_usd": 893009.4839400001,
-      "buyer_share_pct": 59.29318276149191,
-      "taker_buy_10m_usd": 529493.74539,
-      "taker_sell_10m_usd": 363515.73855,
-      "spot_delta_10m_usd": 165978.00684000005,
-      "price_change_10m_pct": -0.3677085074377251,
+      "base_volume_10m": 4276821.0,
+      "base_volume_mean_20": 1365579.0,
+      "base_volume_stdev_20": 1088646.427004149,
+      "volume_10m_usd": 79956.94663,
+      "buyer_share_pct": 57.17758807318777,
+      "taker_buy_10m_usd": 45717.453579999994,
+      "taker_sell_10m_usd": 34239.49305000001,
+      "spot_delta_10m_usd": 11477.960529999982,
+      "price_change_10m_pct": -0.797448165869219,
       "price_candle_green": false,
       "cvd_last3": [
         {
-          "ts": 1787644800000,
-          "delta_usd": -12147.885450000002,
-          "green": false
-        },
-        {
-          "ts": 1787645400000,
-          "delta_usd": 21629.66911999999,
+          "ts": 1787646000000,
+          "delta_usd": 2832.7445700000007,
           "green": true
         },
         {
-          "ts": 1787646000000,
-          "delta_usd": 165978.00684000005,
+          "ts": 1787646600000,
+          "delta_usd": 5123.730780000002,
+          "green": true
+        },
+        {
+          "ts": 1787647200000,
+          "delta_usd": 11477.960529999982,
           "green": true
         }
       ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 175459.79051000002,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 5.597748920065579,
+      "cvd_green_count_3": 3,
+      "cvd_green_streak": 3,
+      "cvd_30m_delta_usd": 19434.435879999983,
+      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
+      "signal_score": 4.441943857474556,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-25T08:20:00+00:00"
-    },
-    {
-      "symbol": "DOT",
-      "name": "Polkadot",
-      "coingecko_id": "polkadot",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "DOTUSDT",
-      "price": 0.906509,
-      "change_24h": 1.39622,
-      "volume_zscore_10m": 2.33565272743493,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 127966.95999999999,
-      "base_volume_mean_20": 43681.282,
-      "base_volume_stdev_20": 36086.56244567853,
-      "volume_10m_usd": 116114.56903999999,
-      "buyer_share_pct": 64.90331321303763,
-      "taker_buy_10m_usd": 75362.20243,
-      "taker_sell_10m_usd": 40752.36660999998,
-      "spot_delta_10m_usd": 34609.83582000002,
-      "price_change_10m_pct": 0.0,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787644800000,
-          "delta_usd": -8371.22178,
-          "green": false
-        },
-        {
-          "ts": 1787645400000,
-          "delta_usd": 31611.708320000005,
-          "green": true
-        },
-        {
-          "ts": 1787646000000,
-          "delta_usd": 34609.83582000002,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 57850.32236000003,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 4.525984048738693,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-25T08:20:00+00:00"
+      "signal_time_utc": "2026-08-25T08:40:00+00:00"
     }
   ],
   "window": "10m",
@@ -103,7 +57,7 @@
     "binance_spot_matched": 102,
     "scanned": 102,
     "failed": 0,
-    "signal_count_before_cap": 2,
+    "signal_count_before_cap": 1,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision"
   },
@@ -111,5 +65,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-25T08:31:25.430499+00:00"
+  "generated_at": "2026-08-25T08:54:55.539071+00:00"
 }
