@@ -1,144 +1,5 @@
 {
-  "movers": [
-    {
-      "symbol": "NEO",
-      "name": "NEO",
-      "coingecko_id": "neo",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "NEOUSDT",
-      "price": 2.21,
-      "change_24h": 1.08542,
-      "volume_zscore_10m": 2.8514687167895896,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 11084.220000000001,
-      "base_volume_mean_20": 3632.431,
-      "base_volume_stdev_20": 2613.316062744612,
-      "volume_10m_usd": 24470.07155,
-      "buyer_share_pct": 74.7992423830898,
-      "taker_buy_10m_usd": 18303.42813,
-      "taker_sell_10m_usd": 6166.64342,
-      "spot_delta_10m_usd": 12136.78471,
-      "price_change_10m_pct": 0.09045680687471691,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787656200000,
-          "delta_usd": -1073.3425799999998,
-          "green": false
-        },
-        {
-          "ts": 1787656800000,
-          "delta_usd": -6320.408749999999,
-          "green": false
-        },
-        {
-          "ts": 1787657400000,
-          "delta_usd": 12136.78471,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 1,
-      "cvd_green_streak": 1,
-      "cvd_30m_delta_usd": 4743.033380000002,
-      "cvd_note": "CVD devam teyidi henüz yok",
-      "signal_score": 5.68139295509857,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-25T11:30:00+00:00"
-    },
-    {
-      "symbol": "POL",
-      "name": "POL (ex-MATIC)",
-      "coingecko_id": "polygon-ecosystem-token",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "POLUSDT",
-      "price": 0.12224,
-      "change_24h": 6.97764,
-      "volume_zscore_10m": 2.9558821582520904,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 2708416.5,
-      "base_volume_mean_20": 1016468.87,
-      "base_volume_stdev_20": 572400.2309349517,
-      "volume_10m_usd": 327352.18402299995,
-      "buyer_share_pct": 63.146835440534666,
-      "taker_buy_10m_usd": 206712.544956,
-      "taker_sell_10m_usd": 120639.63906699995,
-      "spot_delta_10m_usd": 86072.90588900005,
-      "price_change_10m_pct": 1.6290726817042467,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787656200000,
-          "delta_usd": -1986.1602520000015,
-          "green": false
-        },
-        {
-          "ts": 1787656800000,
-          "delta_usd": 13024.807133000024,
-          "green": true
-        },
-        {
-          "ts": 1787657400000,
-          "delta_usd": 86072.90588900005,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 97111.55277000007,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 4.970565702305557,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-25T11:30:00+00:00"
-    },
-    {
-      "symbol": "CAKE",
-      "name": "PancakeSwap",
-      "coingecko_id": "pancakeswap-token",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "CAKEUSDT",
-      "price": 1.75,
-      "change_24h": -0.7148,
-      "volume_zscore_10m": 2.138563879601444,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 21064.04,
-      "base_volume_mean_20": 6178.557,
-      "base_volume_stdev_20": 6960.504262689665,
-      "volume_10m_usd": 36915.72104,
-      "buyer_share_pct": 61.835036935255815,
-      "taker_buy_10m_usd": 22826.84974,
-      "taker_sell_10m_usd": 14088.871299999995,
-      "spot_delta_10m_usd": 8737.978440000006,
-      "price_change_10m_pct": 0.22883295194509046,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787656200000,
-          "delta_usd": 4304.3821400000015,
-          "green": true
-        },
-        {
-          "ts": 1787656800000,
-          "delta_usd": 644.9496399999998,
-          "green": true
-        },
-        {
-          "ts": 1787657400000,
-          "delta_usd": 8737.978440000006,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 13687.310220000007,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 4.372067573127025,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-25T11:30:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "10m",
   "rule": "Top 200 → TradingView uyumlu 10dk BASE volume Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -149,7 +10,7 @@
     "binance_spot_matched": 103,
     "scanned": 103,
     "failed": 0,
-    "signal_count_before_cap": 3,
+    "signal_count_before_cap": 0,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision"
   },
@@ -157,5 +18,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-25T11:47:13.223539+00:00"
+  "generated_at": "2026-08-25T11:59:22.018909+00:00"
 }
