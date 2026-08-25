@@ -1,52 +1,5 @@
 {
-  "movers": [
-    {
-      "symbol": "GRT",
-      "name": "The Graph",
-      "coingecko_id": "the-graph",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "GRTUSDT",
-      "price": 0.01863921,
-      "change_24h": 7.8942,
-      "volume_zscore_10m": 2.674185050155779,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 4276821.0,
-      "base_volume_mean_20": 1365579.0,
-      "base_volume_stdev_20": 1088646.427004149,
-      "volume_10m_usd": 79956.94663,
-      "buyer_share_pct": 57.17758807318777,
-      "taker_buy_10m_usd": 45717.453579999994,
-      "taker_sell_10m_usd": 34239.49305000001,
-      "spot_delta_10m_usd": 11477.960529999982,
-      "price_change_10m_pct": -0.797448165869219,
-      "price_candle_green": false,
-      "cvd_last3": [
-        {
-          "ts": 1787646000000,
-          "delta_usd": 2832.7445700000007,
-          "green": true
-        },
-        {
-          "ts": 1787646600000,
-          "delta_usd": 5123.730780000002,
-          "green": true
-        },
-        {
-          "ts": 1787647200000,
-          "delta_usd": 11477.960529999982,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 19434.435879999983,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 4.441943857474556,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-25T08:40:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "10m",
   "rule": "Top 200 → TradingView uyumlu 10dk BASE volume Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -57,7 +10,7 @@
     "binance_spot_matched": 102,
     "scanned": 102,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 0,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision"
   },
@@ -65,5 +18,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-25T08:54:55.539071+00:00"
+  "generated_at": "2026-08-25T09:24:40.142801+00:00"
 }
