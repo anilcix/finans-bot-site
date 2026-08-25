@@ -1,52 +1,5 @@
 {
-  "movers": [
-    {
-      "symbol": "POL",
-      "name": "POL (ex-MATIC)",
-      "coingecko_id": "polygon-ecosystem-token",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "POLUSDT",
-      "price": 0.124639,
-      "change_24h": 6.66625,
-      "volume_zscore_10m": 3.8637591519046612,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 4972721.7,
-      "base_volume_mean_20": 1311253.34,
-      "base_volume_stdev_20": 947644.0471697258,
-      "volume_10m_usd": 613052.426605,
-      "buyer_share_pct": 64.94606161171545,
-      "taker_buy_10m_usd": 398153.406695,
-      "taker_sell_10m_usd": 214899.01991000003,
-      "spot_delta_10m_usd": 183254.38678499998,
-      "price_change_10m_pct": 2.01441205371764,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787671800000,
-          "delta_usd": -5060.262328000012,
-          "green": false
-        },
-        {
-          "ts": 1787672400000,
-          "delta_usd": 30263.392342999985,
-          "green": true
-        },
-        {
-          "ts": 1787673000000,
-          "delta_usd": 183254.38678499998,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 208457.51679999995,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 6.058365313076206,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-25T15:50:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "10m",
   "rule": "Top 200 → TradingView uyumlu 10dk BASE volume Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -57,7 +10,7 @@
     "binance_spot_matched": 103,
     "scanned": 103,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 0,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision"
   },
@@ -65,5 +18,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-25T16:01:39.815954+00:00"
+  "generated_at": "2026-08-25T17:33:43.606050+00:00"
 }
