@@ -1,142 +1,50 @@
 {
   "movers": [
     {
-      "symbol": "DCR",
-      "name": "Decred",
-      "coingecko_id": "decred",
+      "symbol": "COMP",
+      "name": "Compound",
+      "coingecko_id": "compound-governance-token",
       "exchange": "Binance Spot",
-      "exchange_symbol": "DCRUSDT",
-      "price": 13.99,
-      "change_24h": 0.96118,
-      "volume_zscore_10m": 3.741427246346513,
+      "exchange_symbol": "COMPUSDT",
+      "price": 20.05,
+      "change_24h": -0.4116,
+      "volume_zscore_10m": 2.3512542587826446,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 568.9830000000001,
-      "base_volume_mean_20": 85.27465000000001,
-      "base_volume_stdev_20": 129.28444632254687,
-      "volume_10m_usd": 8005.260490000001,
-      "buyer_share_pct": 83.0453644613381,
-      "taker_buy_10m_usd": 6647.9977499999995,
-      "taker_sell_10m_usd": 1357.262740000001,
-      "spot_delta_10m_usd": 5290.7350099999985,
-      "price_change_10m_pct": 0.5714285714285783,
+      "base_volume_10m": 449.049,
+      "base_volume_mean_20": 153.4821,
+      "base_volume_stdev_20": 125.70605620211781,
+      "volume_10m_usd": 8994.65344,
+      "buyer_share_pct": 69.36941730575447,
+      "taker_buy_10m_usd": 6239.53868,
+      "taker_sell_10m_usd": 2755.1147600000004,
+      "spot_delta_10m_usd": 3484.4239199999993,
+      "price_change_10m_pct": 0.20010005002502051,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1787635200000,
-          "delta_usd": 503.83215999999993,
-          "green": true
-        },
-        {
-          "ts": 1787635800000,
-          "delta_usd": 1811.3532800000003,
-          "green": true
-        },
-        {
-          "ts": 1787636400000,
-          "delta_usd": 5290.7350099999985,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 7605.920449999999,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 8.095963692480321,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-25T05:40:00+00:00"
-    },
-    {
-      "symbol": "GNO",
-      "name": "Gnosis",
-      "coingecko_id": "gnosis",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "GNOUSDT",
-      "price": 123.71,
-      "change_24h": 0.41156,
-      "volume_zscore_10m": 2.8838498236870884,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 44.018,
-      "base_volume_mean_20": 9.8383,
-      "base_volume_stdev_20": 11.852108150451548,
-      "volume_10m_usd": 5457.5327099999995,
-      "buyer_share_pct": 97.75370343130753,
-      "taker_buy_10m_usd": 5334.94034,
-      "taker_sell_10m_usd": 122.59236999999939,
-      "spot_delta_10m_usd": 5212.347970000001,
-      "price_change_10m_pct": 0.5092966855295034,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787635200000,
-          "delta_usd": -562.32037,
+          "ts": 1787637600000,
+          "delta_usd": -451.83081000000004,
           "green": false
         },
         {
-          "ts": 1787635800000,
-          "delta_usd": -2990.88774,
+          "ts": 1787638200000,
+          "delta_usd": -233.33631,
           "green": false
         },
         {
-          "ts": 1787636400000,
-          "delta_usd": 5212.347970000001,
+          "ts": 1787638800000,
+          "delta_usd": 3484.4239199999993,
           "green": true
         }
       ],
       "cvd_green_count_3": 1,
       "cvd_green_streak": 1,
-      "cvd_30m_delta_usd": 1659.1398600000007,
+      "cvd_30m_delta_usd": 2799.256799999999,
       "cvd_note": "CVD devam teyidi henüz yok",
-      "signal_score": 8.00922016681784,
+      "signal_score": 4.638195989358091,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-25T05:40:00+00:00"
-    },
-    {
-      "symbol": "BCH",
-      "name": "Bitcoin Cash",
-      "coingecko_id": "bitcoin-cash",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "BCHUSDT",
-      "price": 277.87,
-      "change_24h": 2.91692,
-      "volume_zscore_10m": 2.7030265000109686,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 1534.945,
-      "base_volume_mean_20": 597.6616,
-      "base_volume_stdev_20": 346.75331521766304,
-      "volume_10m_usd": 427797.7273,
-      "buyer_share_pct": 61.40953792766911,
-      "taker_buy_10m_usd": 262708.6076,
-      "taker_sell_10m_usd": 165089.11970000004,
-      "spot_delta_10m_usd": 97619.48789999995,
-      "price_change_10m_pct": -0.3941239699032706,
-      "price_candle_green": false,
-      "cvd_last3": [
-        {
-          "ts": 1787635200000,
-          "delta_usd": 2508.964800000016,
-          "green": true
-        },
-        {
-          "ts": 1787635800000,
-          "delta_usd": 104696.4266,
-          "green": true
-        },
-        {
-          "ts": 1787636400000,
-          "delta_usd": 97619.48789999995,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 204824.87929999997,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 4.893980292777879,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-25T05:40:00+00:00"
+      "signal_time_utc": "2026-08-25T06:20:00+00:00"
     }
   ],
   "window": "10m",
@@ -149,7 +57,7 @@
     "binance_spot_matched": 104,
     "scanned": 104,
     "failed": 0,
-    "signal_count_before_cap": 3,
+    "signal_count_before_cap": 1,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision"
   },
@@ -157,5 +65,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-25T05:54:56.715796+00:00"
+  "generated_at": "2026-08-25T06:28:27.287901+00:00"
 }
