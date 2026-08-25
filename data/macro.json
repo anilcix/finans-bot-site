@@ -168,10 +168,10 @@
     "desc": "Spreadler düşük ve düşmeye devam ediyor - hisseler için en olumlu evre"
   },
   "yield_curve": {
-    "regime": null,
-    "emoji": null,
-    "desc": null,
-    "spread": null
+    "regime": "Normal - Dikleşiyor",
+    "emoji": "🟢",
+    "desc": "Sağlıklı büyüme beklentisi",
+    "spread": 0.5
   },
   "early_warnings": [
     {
@@ -10293,8 +10293,8 @@
       },
       {
         "date": "2026-08-25",
-        "value": 180.96805762542138,
-        "raw": 79247.53125
+        "value": 181.11822083447177,
+        "raw": 79313.2890625
       }
     ]
   },
@@ -10545,5 +10545,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-08-25T11:02:39.969160+00:00"
+  "generated_at": "2026-08-25T11:40:52.578672+00:00"
 }
