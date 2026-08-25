@@ -1,52 +1,5 @@
 {
-  "movers": [
-    {
-      "symbol": "COMP",
-      "name": "Compound",
-      "coingecko_id": "compound-governance-token",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "COMPUSDT",
-      "price": 20.05,
-      "change_24h": -0.4116,
-      "volume_zscore_10m": 2.3512542587826446,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 449.049,
-      "base_volume_mean_20": 153.4821,
-      "base_volume_stdev_20": 125.70605620211781,
-      "volume_10m_usd": 8994.65344,
-      "buyer_share_pct": 69.36941730575447,
-      "taker_buy_10m_usd": 6239.53868,
-      "taker_sell_10m_usd": 2755.1147600000004,
-      "spot_delta_10m_usd": 3484.4239199999993,
-      "price_change_10m_pct": 0.20010005002502051,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787637600000,
-          "delta_usd": -451.83081000000004,
-          "green": false
-        },
-        {
-          "ts": 1787638200000,
-          "delta_usd": -233.33631,
-          "green": false
-        },
-        {
-          "ts": 1787638800000,
-          "delta_usd": 3484.4239199999993,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 1,
-      "cvd_green_streak": 1,
-      "cvd_30m_delta_usd": 2799.256799999999,
-      "cvd_note": "CVD devam teyidi henüz yok",
-      "signal_score": 4.638195989358091,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-25T06:20:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "10m",
   "rule": "Top 200 → TradingView uyumlu 10dk BASE volume Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -54,10 +7,10 @@
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 190,
-    "binance_spot_matched": 104,
-    "scanned": 104,
+    "binance_spot_matched": 103,
+    "scanned": 103,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 0,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision"
   },
@@ -65,5 +18,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-25T06:28:27.287901+00:00"
+  "generated_at": "2026-08-25T06:56:28.243382+00:00"
 }
