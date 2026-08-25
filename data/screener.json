@@ -1,50 +1,142 @@
 {
   "movers": [
     {
-      "symbol": "NEO",
-      "name": "NEO",
-      "coingecko_id": "neo",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "coingecko_id": "chainlink",
       "exchange": "Binance Spot",
-      "exchange_symbol": "NEOUSDT",
-      "price": 2.18,
-      "change_24h": -0.32705,
-      "volume_zscore_10m": 3.390690805142781,
+      "exchange_symbol": "LINKUSDT",
+      "price": 11.46,
+      "change_24h": -0.83361,
+      "volume_zscore_10m": 3.7815835967346625,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 6458.18,
-      "base_volume_mean_20": 1434.907,
-      "base_volume_stdev_20": 1481.4895514450989,
-      "volume_10m_usd": 14090.52562,
-      "buyer_share_pct": 85.30958222692618,
-      "taker_buy_10m_usd": 12020.56854,
-      "taker_sell_10m_usd": 2069.95708,
-      "spot_delta_10m_usd": 9950.61146,
-      "price_change_10m_pct": 0.18365472910928382,
-      "price_candle_green": true,
+      "base_volume_10m": 29974.41,
+      "base_volume_mean_20": 10399.262,
+      "base_volume_stdev_20": 5176.441958575987,
+      "volume_10m_usd": 345486.26826,
+      "buyer_share_pct": 71.34124113567165,
+      "taker_buy_10m_usd": 246474.19173000002,
+      "taker_sell_10m_usd": 99012.07652999996,
+      "spot_delta_10m_usd": 147462.11520000006,
+      "price_change_10m_pct": -0.631433267018422,
+      "price_candle_green": false,
       "cvd_last3": [
         {
-          "ts": 1787682600000,
-          "delta_usd": 3293.89973,
+          "ts": 1787684400000,
+          "delta_usd": 42260.19512999999,
           "green": true
         },
         {
-          "ts": 1787683200000,
-          "delta_usd": 7036.350639999999,
-          "green": true
+          "ts": 1787685000000,
+          "delta_usd": -8323.730709999989,
+          "green": false
         },
         {
-          "ts": 1787683800000,
-          "delta_usd": 9950.61146,
+          "ts": 1787685600000,
+          "delta_usd": 147462.11520000006,
           "green": true
         }
       ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 20280.861829999998,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 7.971649027835399,
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 181398.57962000006,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 6.265707710301827,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-25T18:50:00+00:00"
+      "signal_time_utc": "2026-08-25T19:20:00+00:00"
+    },
+    {
+      "symbol": "AXS",
+      "name": "Axie Infinity",
+      "coingecko_id": "axie-infinity",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "AXSUSDT",
+      "price": 0.963054,
+      "change_24h": -0.57853,
+      "volume_zscore_10m": 3.0976152262801255,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 17034.39,
+      "base_volume_mean_20": 4752.7835,
+      "base_volume_stdev_20": 3964.85864215898,
+      "volume_10m_usd": 16500.79584,
+      "buyer_share_pct": 69.9023419951604,
+      "taker_buy_10m_usd": 11534.442739999999,
+      "taker_sell_10m_usd": 4966.3531,
+      "spot_delta_10m_usd": 6568.089639999998,
+      "price_change_10m_pct": -0.10351966873706209,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1787684400000,
+          "delta_usd": 2374.0589200000013,
+          "green": true
+        },
+        {
+          "ts": 1787685000000,
+          "delta_usd": -62.2479400000002,
+          "green": false
+        },
+        {
+          "ts": 1787685600000,
+          "delta_usd": 6568.089639999998,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 8879.90062,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 5.4378494257961645,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-25T19:20:00+00:00"
+    },
+    {
+      "symbol": "AAVE",
+      "name": "Aave",
+      "coingecko_id": "aave",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "AAVEUSDT",
+      "price": 127.95,
+      "change_24h": -4.60418,
+      "volume_zscore_10m": 2.0354589551883344,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 3927.893,
+      "base_volume_mean_20": 1196.9904000000001,
+      "base_volume_stdev_20": 1341.6642929787392,
+      "volume_10m_usd": 505921.72371000005,
+      "buyer_share_pct": 80.02666894613866,
+      "taker_buy_10m_usd": 404872.30296,
+      "taker_sell_10m_usd": 101049.42075000005,
+      "spot_delta_10m_usd": 303822.88220999995,
+      "price_change_10m_pct": -0.4504154694416451,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1787684400000,
+          "delta_usd": 18544.47148,
+          "green": true
+        },
+        {
+          "ts": 1787685000000,
+          "delta_usd": -37047.405450000006,
+          "green": false
+        },
+        {
+          "ts": 1787685600000,
+          "delta_usd": 303822.88220999995,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 285319.94823999994,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 5.3881258498022,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-25T19:20:00+00:00"
     }
   ],
   "window": "10m",
@@ -53,11 +145,11 @@
   "universe_source": "CoinGecko Top 200",
   "scan_meta": {
     "top200_received": 200,
-    "non_stable_universe": 190,
-    "binance_spot_matched": 104,
-    "scanned": 104,
+    "non_stable_universe": 189,
+    "binance_spot_matched": 102,
+    "scanned": 102,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 3,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision"
   },
@@ -65,5 +157,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-25T18:59:27.691301+00:00"
+  "generated_at": "2026-08-25T19:33:14.375053+00:00"
 }
