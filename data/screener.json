@@ -1,5 +1,52 @@
 {
-  "movers": [],
+  "movers": [
+    {
+      "symbol": "CHZ",
+      "name": "Chiliz",
+      "coingecko_id": "chiliz",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "CHZUSDT",
+      "price": 0.0145576,
+      "change_24h": 1.11255,
+      "volume_zscore_10m": 2.7677943995385994,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 2310650.0,
+      "base_volume_mean_20": 718579.1,
+      "base_volume_stdev_20": 575212.8482756536,
+      "volume_10m_usd": 33683.21355,
+      "buyer_share_pct": 64.59744263326085,
+      "taker_buy_10m_usd": 21758.49455,
+      "taker_sell_10m_usd": 11924.719000000001,
+      "spot_delta_10m_usd": 9833.775549999998,
+      "price_change_10m_pct": 0.0,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1787631600000,
+          "delta_usd": 1612.5692099999997,
+          "green": true
+        },
+        {
+          "ts": 1787632200000,
+          "delta_usd": -6764.86075,
+          "green": false
+        },
+        {
+          "ts": 1787632800000,
+          "delta_usd": 9833.775549999998,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 4681.484009999998,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 4.577538662864685,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-25T04:40:00+00:00"
+    }
+  ],
   "window": "10m",
   "rule": "Top 200 → TradingView uyumlu 10dk BASE volume Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -7,10 +54,10 @@
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 190,
-    "binance_spot_matched": 103,
-    "scanned": 103,
+    "binance_spot_matched": 104,
+    "scanned": 104,
     "failed": 0,
-    "signal_count_before_cap": 0,
+    "signal_count_before_cap": 1,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision"
   },
@@ -18,5 +65,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-25T04:07:54.478995+00:00"
+  "generated_at": "2026-08-25T04:50:25.795597+00:00"
 }
