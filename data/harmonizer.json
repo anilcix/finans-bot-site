@@ -1,14 +1,14 @@
 {
-  "market_score": 57.5,
+  "market_score": 57.6,
   "stance": "Temkinli Risk-On",
   "confidence": 75.0,
   "component_scores": {
-    "macro": 54.9,
+    "macro": 55.0,
     "credit": 65,
     "options": 78,
-    "crypto": 60.7,
+    "crypto": 61.8,
     "crypto_derivatives": 48,
-    "equities": 55.1,
+    "equities": 54.7,
     "news": 50
   },
   "plain_summary": [
@@ -31,9 +31,9 @@
         "topic": "Bitcoin",
         "tone": "karışık",
         "count": 10,
-        "digest": "Crypto Long & Short: Tokenized equities: the model underneath the trade | Ethereum developers propose first step to protect ETH staking from quantum attacks",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-1.0; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0051."
+        "digest": "Nvidia shares rise after earnings top estimates, guides to $108 billion in revenue next quarter | Crypto Long & Short: Tokenized equities: the model underneath the trade",
+        "interpretation": "Kazanç beklentisi, teknoloji genişliği ve volatilite üzerinden hisse risk iştahını etkiler.",
+        "data_confirmation": "Hisse skoru 55/100; VIX 15.2."
       },
       {
         "topic": "Makro / Fed / Hazine",
@@ -41,7 +41,7 @@
         "count": 3,
         "digest": "Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the second estimate released today by the U.S. In the first quarter, real GDP increased 2.1 percent. | Personal income increased $115.1 billion (0.4 percent at a monthly rate) in July, according to estimates released today by the U.S. Disposable personal income (DPI)—personal income less personal current taxes—increased $125.9 billion (0.5 percent), and personal consumption expenditures (PCE)…",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 55/100; 30Y değişim +0.07 puan."
+        "data_confirmation": "Makro skor 55/100; 30Y değişim +0.05 puan."
       }
     ],
     "important_news": [
@@ -57,9 +57,9 @@
         "brief_summary": "Ethereum developers propose first step to protect ETH staking from quantum attacks",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.0; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0051.",
+        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.0; çoklu-borsa OI 24s %+1.2; OI-ağırlıklı funding %+0.0044.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-1.0; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0051."
+        "data_confirmation": "BTC 24s %-0.0; çoklu-borsa OI 24s %+1.2; OI-ağırlıklı funding %+0.0044."
       },
       {
         "title": "XRP’s 44% rally brings leverage back, raising risk of sharper pullback",
@@ -73,9 +73,25 @@
         "brief_summary": "XRP’s 44% rally brings leverage back, raising risk of sharper pullback",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada destekleyici. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 55/100; 30Y değişim +0.07 puan.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 55/100; 30Y değişim +0.05 puan.",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 55/100; 30Y değişim +0.07 puan."
+        "data_confirmation": "Makro skor 55/100; 30Y değişim +0.05 puan."
+      },
+      {
+        "title": "Nvidia shares rise after earnings top estimates, guides to $108 billion in revenue next quarter",
+        "source": "CoinDesk",
+        "link": "https://www.coindesk.com/markets/2026/08/26/nvidia-tops-earnings-estimates-guides-to-usd108-billion-in-revenue-next-quarter",
+        "published_at": "2026-08-26T20:24:31+00:00",
+        "topic": "Bitcoin",
+        "theme": "equities",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Nvidia shares rise after earnings top estimates, guides to $108 billion in revenue next quarter",
+        "summary_mode": "headline_only",
+        "read_mode": "trusted_feed_headline",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Kazanç beklentisi ve risk iştahını etkiler; endeks genişliği ve VIX aynı yönde teyit verirse piyasa etkisi daha güvenilir olur. Veri teyidi: Hisse skoru 55/100; VIX 15.2.",
+        "interpretation": "Kazanç beklentisi, teknoloji genişliği ve volatilite üzerinden hisse risk iştahını etkiler.",
+        "data_confirmation": "Hisse skoru 55/100; VIX 15.2."
       },
       {
         "title": "Crypto Long & Short: Tokenized equities: the model underneath the trade",
@@ -89,9 +105,9 @@
         "brief_summary": "Crypto Long & Short: Tokenized equities: the model underneath the trade",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.0; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0051.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.0; çoklu-borsa OI 24s %+1.2; OI-ağırlıklı funding %+0.0044.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-1.0; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0051."
+        "data_confirmation": "BTC 24s %-0.0; çoklu-borsa OI 24s %+1.2; OI-ağırlıklı funding %+0.0044."
       },
       {
         "title": "GDP (Second Estimate) and Corporate Profits, 2nd Quarter 2026",
@@ -105,9 +121,9 @@
         "brief_summary": "Real gross domestic product (GDP) increased at an annual rate of 1.5 percent in the second quarter of 2026 (April, May, and June), according to the second estimate released today by the U.S. In the first quarter, real GDP increased 2.1 percent.",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 55/100; 30Y değişim +0.07 puan.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 55/100; 30Y değişim +0.05 puan.",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 55/100; 30Y değişim +0.07 puan."
+        "data_confirmation": "Makro skor 55/100; 30Y değişim +0.05 puan."
       },
       {
         "title": "Personal Income and Outlays, July 2026",
@@ -121,9 +137,9 @@
         "brief_summary": "Personal income increased $115.1 billion (0.4 percent at a monthly rate) in July, according to estimates released today by the U.S. Disposable personal income (DPI)—personal income less personal current taxes—increased $125.9 billion (0.5 percent), and personal consumption expenditures (PCE)…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 55/100; 30Y değişim +0.07 puan.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 55/100; 30Y değişim +0.05 puan.",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 55/100; 30Y değişim +0.07 puan."
+        "data_confirmation": "Makro skor 55/100; 30Y değişim +0.05 puan."
       },
       {
         "title": "The 3 catalysts that could define bitcoin's next move",
@@ -137,25 +153,9 @@
         "brief_summary": "The 3 catalysts that could define bitcoin's next move",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.0; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0051.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.0; çoklu-borsa OI 24s %+1.2; OI-ağırlıklı funding %+0.0044.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-1.0; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0051."
-      },
-      {
-        "title": "Bitcoin takes a breather after adding 23% in 7 days as ETF demand holds steady",
-        "source": "CoinDesk",
-        "link": "https://www.coindesk.com/markets/2026/08/26/bitcoin-takes-a-breather-after-adding-23-in-7-days-as-etf-demand-holds-steady",
-        "published_at": "2026-08-26T10:45:29+00:00",
-        "topic": "Bitcoin",
-        "theme": "crypto",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Bitcoin takes a breather after adding 23% in 7 days as ETF demand holds steady",
-        "summary_mode": "headline_only",
-        "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.0; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0051.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-1.0; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0051."
+        "data_confirmation": "BTC 24s %-0.0; çoklu-borsa OI 24s %+1.2; OI-ağırlıklı funding %+0.0044."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -164,8 +164,8 @@
     "HY spread son 3 ayda daralıyor; kredi koşulları kısa vadede riskli varlıkları destekliyor.",
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
-    "VIX 15.36 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
-    "Stablecoin piyasa değeri 7 günde %+1.06; kripto içi dolar likiditesi genişliyor.",
+    "VIX 15.21 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "Stablecoin piyasa değeri 7 günde %+1.07; kripto içi dolar likiditesi genişliyor.",
     "OKX ve Hyperliquid funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü."
   ],
   "risk_factors": [
@@ -181,7 +181,7 @@
     "Funding örneklerinin %100'ı pozitif; long tarafında kalabalıklaşma riski artmış."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %-1.0, ETH %+0.1.",
+    "Kriptoda spot momentum: BTC 24s %-0.0, ETH %+2.2.",
     "On-chain kullanım teyidi pozitif: BTC aktif adres 7g %+4.9, ETH %+9.0.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 1 risk artırıcı, 11 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
@@ -219,7 +219,6 @@
     "issues": [
       "Gizli Baskı ajanında veri kapsamı dar; özel akışların bir bölümü henüz yok.",
       "Opsiyon ajanında SPX dealer GEX/wall gibi ücretli metrikler eksik.",
-      "Binance Futures doğrudan erişilemiyor; alternatif türev kaynakları çalıştığı için ek kalite cezası uygulanmadı.",
       "Treasury buyback sonuç tablosunun bazı alanları otomatik çekilemeyebilir; tentative schedule ve haber teyidi ayrı tutuluyor."
     ]
   },
@@ -381,7 +380,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-26T19:23:59.269996+00:00"
+    "generated_at": "2026-08-26T22:14:35.118455+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -396,5 +395,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-26T19:14:52.704576+00:00"
+  "generated_at": "2026-08-26T22:10:51.504728+00:00"
 }
