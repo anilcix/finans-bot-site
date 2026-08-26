@@ -308,10 +308,6 @@
   "macro_market_history": {
     "core_pce": [
       {
-        "date": "2021-06-01",
-        "value": 3.86171
-      },
-      {
         "date": "2021-07-01",
         "value": 3.92712
       },
@@ -541,15 +537,19 @@
       },
       {
         "date": "2026-04-01",
-        "value": 3.31549
+        "value": 3.32983
       },
       {
         "date": "2026-05-01",
-        "value": 3.42158
+        "value": 3.46371
       },
       {
         "date": "2026-06-01",
-        "value": 3.28653
+        "value": 3.34361
+      },
+      {
+        "date": "2026-07-01",
+        "value": 3.34414
       }
     ],
     "fed_funds": [
@@ -10288,13 +10288,13 @@
       },
       {
         "date": "2026-08-01",
-        "value": 180.3216975132798,
-        "raw": 78964.484375
+        "value": 179.4093895625598,
+        "raw": 78564.9765625
       },
       {
         "date": "2026-08-26",
-        "value": 178.9844653243321,
-        "raw": 78378.8984375
+        "value": 178.36283209917445,
+        "raw": 78106.6796875
       }
     ]
   },
@@ -10545,5 +10545,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-08-26T12:17:08.078957+00:00"
+  "generated_at": "2026-08-26T13:19:13.654431+00:00"
 }
