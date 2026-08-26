@@ -1,5 +1,98 @@
 {
-  "movers": [],
+  "movers": [
+    {
+      "symbol": "AERO",
+      "name": "Aerodrome Finance",
+      "coingecko_id": "aerodrome-finance",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "AEROUSDT",
+      "price": 0.506834,
+      "change_24h": -6.67307,
+      "volume_zscore_10m": 2.5311386746259292,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 80855.6,
+      "base_volume_mean_20": 31742.655000000002,
+      "base_volume_stdev_20": 19403.498311785817,
+      "volume_10m_usd": 41188.64934,
+      "buyer_share_pct": 76.24833596934839,
+      "taker_buy_10m_usd": 31405.65973,
+      "taker_sell_10m_usd": 9782.989610000004,
+      "spot_delta_10m_usd": 21622.670119999995,
+      "price_change_10m_pct": -0.27553631174964677,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1787764800000,
+          "delta_usd": 3614.6103799999983,
+          "green": true
+        },
+        {
+          "ts": 1787765400000,
+          "delta_usd": 1592.1964200000002,
+          "green": true
+        },
+        {
+          "ts": 1787766000000,
+          "delta_usd": 21622.670119999995,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 3,
+      "cvd_green_streak": 3,
+      "cvd_30m_delta_usd": 26829.476919999994,
+      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
+      "signal_score": 6.205972271560769,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-26T17:40:00+00:00"
+    },
+    {
+      "symbol": "POL",
+      "name": "POL (ex-MATIC)",
+      "coingecko_id": "polygon-ecosystem-token",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "POLUSDT",
+      "price": 0.108553,
+      "change_24h": -9.93988,
+      "volume_zscore_10m": 3.493527050394486,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 3545086.5999999996,
+      "base_volume_mean_20": 1233941.785,
+      "base_volume_stdev_20": 661550.5710021701,
+      "volume_10m_usd": 386483.572455,
+      "buyer_share_pct": 55.911257229221576,
+      "taker_buy_10m_usd": 216087.82434400002,
+      "taker_sell_10m_usd": 170395.748111,
+      "spot_delta_10m_usd": 45692.07623300003,
+      "price_change_10m_pct": -0.6026846863300128,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1787764800000,
+          "delta_usd": -19778.128485999987,
+          "green": false
+        },
+        {
+          "ts": 1787765400000,
+          "delta_usd": -70369.90107800002,
+          "green": false
+        },
+        {
+          "ts": 1787766000000,
+          "delta_usd": 45692.07623300003,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 1,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": -44455.95333099998,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 4.434652773316643,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-26T17:40:00+00:00"
+    }
+  ],
   "window": "10m",
   "rule": "Top 200 → TradingView uyumlu 10dk BASE volume Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -10,7 +103,7 @@
     "binance_spot_matched": 102,
     "scanned": 102,
     "failed": 0,
-    "signal_count_before_cap": 0,
+    "signal_count_before_cap": 2,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision"
   },
@@ -18,5 +111,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-26T16:16:58.444282+00:00"
+  "generated_at": "2026-08-26T17:51:09.517389+00:00"
 }
