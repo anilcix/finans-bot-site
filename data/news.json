@@ -82,7 +82,7 @@
           "source_type": "news"
         },
         {
-          "title": "Live updates: Zcash pulls back 8% as its Grayscale ETF goes live, capping a 60% rally",
+          "title": "Live updates: Bitcoin flat near $78,500 ahead of inflation data, Nvidia earnings",
           "title_tr": null,
           "source": "CoinDesk",
           "link": "https://www.coindesk.com/business/2026/08/26/live-updates-zcash-pulls-back-8-as-its-grayscale-etf-goes-live-capping-a-60-rally",
@@ -101,9 +101,12 @@
           "translation_ok": false,
           "trusted": true,
           "primary_source": false,
-          "category": "GENERAL",
-          "category_label": "Genel Piyasa",
-          "secondary_categories": [],
+          "category": "EQUITIES",
+          "category_label": "Hisse",
+          "secondary_categories": [
+            "MACRO",
+            "CRYPTO"
+          ],
           "importance_score": 45,
           "source_type": "news"
         },
@@ -160,7 +163,7 @@
           "secondary_categories": [
             "CRYPTO"
           ],
-          "importance_score": 51,
+          "importance_score": 46,
           "source_type": "news"
         },
         {
@@ -357,10 +360,11 @@
   },
   "errors": [],
   "method": "Discovery is broad across trusted sources. Full article reads receive 3-4 sentence summaries. Thin RSS blurbs remain discoverable as headline-only items instead of being deleted or mislabeled as summaries.",
-  "generated_at": "2026-08-26T11:46:39.419871+00:00",
+  "generated_at": "2026-08-26T12:17:08.078957+00:00",
   "category_counts": {
     "Kripto": 5,
-    "Genel Piyasa": 3,
+    "Genel Piyasa": 2,
+    "Hisse": 1,
     "Vol / Opsiyon": 1,
     "Likidite": 1,
     "Makro": 1
