@@ -1,142 +1,234 @@
 {
   "movers": [
     {
-      "symbol": "RLUSD",
-      "name": "Ripple USD",
-      "coingecko_id": "ripple-usd",
+      "symbol": "CAKE",
+      "name": "PancakeSwap",
+      "coingecko_id": "pancakeswap-token",
       "exchange": "Binance Spot",
-      "exchange_symbol": "RLUSDUSDT",
-      "price": 1.0,
-      "change_24h": 0.0039,
-      "volume_zscore_10m": 3.7652473812183986,
+      "exchange_symbol": "CAKEUSDT",
+      "price": 1.74,
+      "change_24h": 0.82165,
+      "volume_zscore_10m": 3.1496271683875436,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 2210955.0,
-      "base_volume_mean_20": 231126.55,
-      "base_volume_stdev_20": 525816.3009091174,
-      "volume_10m_usd": 2211838.8197,
-      "buyer_share_pct": 99.7457008688923,
-      "taker_buy_10m_usd": 2206214.1328,
-      "taker_sell_10m_usd": 5624.686900000088,
-      "spot_delta_10m_usd": 2200589.4458999997,
-      "price_change_10m_pct": 0.009997000899719666,
+      "base_volume_10m": 32848.98,
+      "base_volume_mean_20": 7090.966,
+      "base_volume_stdev_20": 8178.115257110529,
+      "volume_10m_usd": 57056.13561,
+      "buyer_share_pct": 81.66978348921518,
+      "taker_buy_10m_usd": 46597.62242,
+      "taker_sell_10m_usd": 10458.513189999998,
+      "spot_delta_10m_usd": 36139.10923,
+      "price_change_10m_pct": 0.6354708261120612,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1787799000000,
-          "delta_usd": 47627.52140000001,
+          "ts": 1787838600000,
+          "delta_usd": 529.374170000001,
           "green": true
         },
         {
-          "ts": 1787799600000,
-          "delta_usd": 141827.854,
+          "ts": 1787839200000,
+          "delta_usd": -23734.992539999992,
+          "green": false
+        },
+        {
+          "ts": 1787839800000,
+          "delta_usd": 36139.10923,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 12933.49086000001,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 6.666605517309061,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-27T14:10:00+00:00"
+    },
+    {
+      "symbol": "TRUMP",
+      "name": "Official Trump",
+      "coingecko_id": "official-trump",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "TRUMPUSDT",
+      "price": 2.47,
+      "change_24h": 11.10455,
+      "volume_zscore_10m": 3.438603183104247,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 655319.108,
+      "base_volume_mean_20": 161279.5387,
+      "base_volume_stdev_20": 143674.49309867702,
+      "volume_10m_usd": 1602178.133714,
+      "buyer_share_pct": 59.72435681872885,
+      "taker_buy_10m_usd": 956890.585451,
+      "taker_sell_10m_usd": 645287.548263,
+      "spot_delta_10m_usd": 311603.03718800005,
+      "price_change_10m_pct": 2.900953170327414,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1787838600000,
+          "delta_usd": 5913.309140000027,
           "green": true
         },
         {
-          "ts": 1787800200000,
-          "delta_usd": 2200589.4458999997,
+          "ts": 1787839200000,
+          "delta_usd": 40507.08096800023,
+          "green": true
+        },
+        {
+          "ts": 1787839800000,
+          "delta_usd": 311603.03718800005,
           "green": true
         }
       ],
       "cvd_green_count_3": 3,
       "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 2390044.8212999995,
+      "cvd_30m_delta_usd": 358023.4272960003,
       "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 9.789817468107628,
+      "signal_score": 5.461038864977132,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-27T03:10:00+00:00"
+      "signal_time_utc": "2026-08-27T14:10:00+00:00"
     },
     {
-      "symbol": "XAUT",
-      "name": "Tether Gold",
-      "coingecko_id": "tether-gold",
+      "symbol": "SUI",
+      "name": "Sui",
+      "coingecko_id": "sui",
       "exchange": "Binance Spot",
-      "exchange_symbol": "XAUTUSDT",
-      "price": 4619.1,
-      "change_24h": -0.26913,
-      "volume_zscore_10m": 3.736693766707655,
+      "exchange_symbol": "SUIUSDT",
+      "price": 0.773776,
+      "change_24h": 3.26551,
+      "volume_zscore_10m": 2.6882866228210305,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 109.40939999999999,
-      "base_volume_mean_20": 29.141205,
-      "base_volume_stdev_20": 21.48107391490181,
-      "volume_10m_usd": 505395.469111,
-      "buyer_share_pct": 96.88101701767769,
-      "taker_buy_10m_usd": 489632.27043599996,
-      "taker_sell_10m_usd": 15763.19867500005,
-      "spot_delta_10m_usd": 473869.0717609999,
-      "price_change_10m_pct": 0.057606431129997304,
-      "price_candle_green": true,
+      "base_volume_10m": 1643134.9000000001,
+      "base_volume_mean_20": 615545.8250000001,
+      "base_volume_stdev_20": 382246.8431292754,
+      "volume_10m_usd": 1269062.05706,
+      "buyer_share_pct": 66.62000079402169,
+      "taker_buy_10m_usd": 845449.15249,
+      "taker_sell_10m_usd": 423612.90457,
+      "spot_delta_10m_usd": 421836.24792,
+      "price_change_10m_pct": -0.0903808908973458,
+      "price_candle_green": false,
       "cvd_last3": [
         {
-          "ts": 1787799000000,
-          "delta_usd": -16757.941495999996,
-          "green": false
-        },
-        {
-          "ts": 1787799600000,
-          "delta_usd": 35721.47654599999,
+          "ts": 1787838600000,
+          "delta_usd": 65857.06599999999,
           "green": true
         },
         {
-          "ts": 1787800200000,
-          "delta_usd": 473869.0717609999,
+          "ts": 1787839200000,
+          "delta_usd": 62181.65385,
+          "green": true
+        },
+        {
+          "ts": 1787839800000,
+          "delta_usd": 421836.24792,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 3,
+      "cvd_green_streak": 3,
+      "cvd_30m_delta_usd": 549874.96777,
+      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
+      "signal_score": 5.400286702223199,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-27T14:10:00+00:00"
+    },
+    {
+      "symbol": "XRP",
+      "name": "XRP",
+      "coingecko_id": "ripple",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "XRPUSDT",
+      "price": 1.45,
+      "change_24h": 4.35492,
+      "volume_zscore_10m": 2.8620323942914947,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 3228956.7,
+      "base_volume_mean_20": 996904.69,
+      "base_volume_stdev_20": 779883.5591281111,
+      "volume_10m_usd": 4676203.2826499995,
+      "buyer_share_pct": 56.577472923518776,
+      "taker_buy_10m_usd": 2645677.64609,
+      "taker_sell_10m_usd": 2030525.6365599995,
+      "spot_delta_10m_usd": 615152.0095300004,
+      "price_change_10m_pct": 0.581677169171102,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1787838600000,
+          "delta_usd": -212115.24313999992,
+          "green": false
+        },
+        {
+          "ts": 1787839200000,
+          "delta_usd": 135125.38308000006,
+          "green": true
+        },
+        {
+          "ts": 1787839800000,
+          "delta_usd": 615152.0095300004,
           "green": true
         }
       ],
       "cvd_green_count_3": 2,
       "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 492832.6068109999,
+      "cvd_30m_delta_usd": 538162.1494700005,
       "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 9.124795468475423,
+      "signal_score": 4.219779686643372,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-27T03:10:00+00:00"
+      "signal_time_utc": "2026-08-27T14:10:00+00:00"
     },
     {
-      "symbol": "JST",
-      "name": "JUST",
-      "coingecko_id": "just",
+      "symbol": "EIGEN",
+      "name": "EigenCloud (prev. EigenLayer)",
+      "coingecko_id": "eigenlayer",
       "exchange": "Binance Spot",
-      "exchange_symbol": "JSTUSDT",
-      "price": 0.100523,
-      "change_24h": 0.4838,
-      "volume_zscore_10m": 2.70094201228385,
+      "exchange_symbol": "EIGENUSDT",
+      "price": 0.207741,
+      "change_24h": 2.43235,
+      "volume_zscore_10m": 2.7110317890524516,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 423626.19999999995,
-      "base_volume_mean_20": 109199.73,
-      "base_volume_stdev_20": 116413.6321957274,
-      "volume_10m_usd": 42576.313133,
-      "buyer_share_pct": 85.79753059380525,
-      "taker_buy_10m_usd": 36529.425286,
-      "taker_sell_10m_usd": 6046.887847000005,
-      "spot_delta_10m_usd": 30482.537438999992,
-      "price_change_10m_pct": 0.2988345452734409,
+      "base_volume_10m": 223849.47999999998,
+      "base_volume_mean_20": 57414.2165,
+      "base_volume_stdev_20": 61391.85242020778,
+      "volume_10m_usd": 46341.98553,
+      "buyer_share_pct": 58.35242242586752,
+      "taker_buy_10m_usd": 27041.671157,
+      "taker_sell_10m_usd": 19300.314372999997,
+      "spot_delta_10m_usd": 7741.356784000003,
+      "price_change_10m_pct": 0.6283228612856462,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1787799000000,
-          "delta_usd": 2846.17416,
+          "ts": 1787838600000,
+          "delta_usd": 3431.549361000003,
           "green": true
         },
         {
-          "ts": 1787799600000,
-          "delta_usd": 8959.547243,
-          "green": true
+          "ts": 1787839200000,
+          "delta_usd": -99.97881500000221,
+          "green": false
         },
         {
-          "ts": 1787800200000,
-          "delta_usd": 30482.537438999992,
+          "ts": 1787839800000,
+          "delta_usd": 7741.356784000003,
           "green": true
         }
       ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 42288.258841999996,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 7.330695071664374,
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 11072.927330000004,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 3.8962740316392037,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-27T03:10:00+00:00"
+      "signal_time_utc": "2026-08-27T14:10:00+00:00"
     }
   ],
   "window": "10m",
@@ -149,7 +241,7 @@
     "binance_spot_matched": 102,
     "scanned": 102,
     "failed": 0,
-    "signal_count_before_cap": 3,
+    "signal_count_before_cap": 5,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision"
   },
@@ -157,5 +249,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-27T03:19:45.054843+00:00"
+  "generated_at": "2026-08-27T14:19:44.062242+00:00"
 }
