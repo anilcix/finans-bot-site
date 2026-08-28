@@ -1,109 +1,16 @@
 {
-  "movers": [
-    {
-      "symbol": "AXS",
-      "name": "Axie Infinity",
-      "coingecko_id": "axie-infinity",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "AXSUSDT",
-      "price": 0.919415,
-      "change_24h": -1.98503,
-      "volume_zscore_10m": 2.8900149572557767,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 13002.619999999999,
-      "base_volume_mean_20": 3908.609,
-      "base_volume_stdev_20": 3146.7003231828417,
-      "volume_10m_usd": 11953.080759999999,
-      "buyer_share_pct": 70.20208361747906,
-      "taker_buy_10m_usd": 8391.31175,
-      "taker_sell_10m_usd": 3561.769009999998,
-      "spot_delta_10m_usd": 4829.542740000003,
-      "price_change_10m_pct": -0.10869565217391797,
-      "price_candle_green": false,
-      "cvd_last3": [
-        {
-          "ts": 1787922000000,
-          "delta_usd": 282.1734799999999,
-          "green": true
-        },
-        {
-          "ts": 1787922600000,
-          "delta_usd": 6241.9444,
-          "green": true
-        },
-        {
-          "ts": 1787923200000,
-          "delta_usd": 4829.542740000003,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 11353.660620000002,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 5.960223319003682,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-28T13:20:00+00:00"
-    },
-    {
-      "symbol": "WLD",
-      "name": "Worldcoin",
-      "coingecko_id": "worldcoin-wld",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "WLDUSDT",
-      "price": 0.396078,
-      "change_24h": -1.92837,
-      "volume_zscore_10m": 2.458336299439142,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 437546.60000000003,
-      "base_volume_mean_20": 172095.17500000002,
-      "base_volume_stdev_20": 107980.1103944003,
-      "volume_10m_usd": 172637.08492,
-      "buyer_share_pct": 56.01790539084597,
-      "taker_buy_10m_usd": 96707.6789,
-      "taker_sell_10m_usd": 75929.40602,
-      "spot_delta_10m_usd": 20778.272880000004,
-      "price_change_10m_pct": -0.2272727272727315,
-      "price_candle_green": false,
-      "cvd_last3": [
-        {
-          "ts": 1787922000000,
-          "delta_usd": 11278.107340000002,
-          "green": true
-        },
-        {
-          "ts": 1787922600000,
-          "delta_usd": -21245.72744999999,
-          "green": false
-        },
-        {
-          "ts": 1787923200000,
-          "delta_usd": 20778.272880000004,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 1,
-      "cvd_30m_delta_usd": 10810.652770000015,
-      "cvd_note": "CVD devam teyidi henüz yok",
-      "signal_score": 3.410126838523739,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-28T13:20:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "10m",
   "rule": "Top 200 → TradingView uyumlu 10dk BASE volume Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
   "universe_source": "CoinGecko Top 200",
   "scan_meta": {
     "top200_received": 200,
-    "non_stable_universe": 190,
+    "non_stable_universe": 189,
     "binance_spot_matched": 101,
     "scanned": 101,
     "failed": 0,
-    "signal_count_before_cap": 2,
+    "signal_count_before_cap": 0,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision"
   },
@@ -111,5 +18,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-28T13:35:34.517444+00:00"
+  "generated_at": "2026-08-28T19:23:50.364430+00:00"
 }
