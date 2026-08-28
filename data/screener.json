@@ -1,52 +1,5 @@
 {
-  "movers": [
-    {
-      "symbol": "DCR",
-      "name": "Decred",
-      "coingecko_id": "decred",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "DCRUSDT",
-      "price": 13.95,
-      "change_24h": 1.95239,
-      "volume_zscore_10m": 3.606970119282017,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 990.5999999999999,
-      "base_volume_mean_20": 144.74945,
-      "base_volume_stdev_20": 234.5044516665888,
-      "volume_10m_usd": 13852.545839999999,
-      "buyer_share_pct": 94.99174810166159,
-      "taker_buy_10m_usd": 13158.775450000001,
-      "taker_sell_10m_usd": 693.7703899999979,
-      "spot_delta_10m_usd": 12465.005060000003,
-      "price_change_10m_pct": 0.4307250538406304,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787914800000,
-          "delta_usd": 165.14897000000002,
-          "green": true
-        },
-        {
-          "ts": 1787915400000,
-          "delta_usd": 5933.05143,
-          "green": true
-        },
-        {
-          "ts": 1787916000000,
-          "delta_usd": 12465.005060000003,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 18563.205460000005,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 9.156144929448175,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-28T11:20:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "10m",
   "rule": "Top 200 → TradingView uyumlu 10dk BASE volume Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -54,10 +7,10 @@
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 190,
-    "binance_spot_matched": 102,
-    "scanned": 102,
+    "binance_spot_matched": 101,
+    "scanned": 101,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 0,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision"
   },
@@ -65,5 +18,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-28T11:30:28.326794+00:00"
+  "generated_at": "2026-08-28T13:22:38.813014+00:00"
 }
