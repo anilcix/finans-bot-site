@@ -1,5 +1,144 @@
 {
-  "movers": [],
+  "movers": [
+    {
+      "symbol": "RUNE",
+      "name": "THORChain",
+      "coingecko_id": "thorchain",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "RUNEUSDT",
+      "price": 0.467464,
+      "change_24h": -1.79032,
+      "volume_zscore_10m": 3.5836841005447932,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 36433.4,
+      "base_volume_mean_20": 5945.42,
+      "base_volume_stdev_20": 8507.440707557122,
+      "volume_10m_usd": 17037.8284,
+      "buyer_share_pct": 98.79445493182689,
+      "taker_buy_10m_usd": 16832.4297,
+      "taker_sell_10m_usd": 205.39869999999792,
+      "spot_delta_10m_usd": 16627.031000000003,
+      "price_change_10m_pct": 0.6451612903225712,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1788040800000,
+          "delta_usd": 802.8251,
+          "green": true
+        },
+        {
+          "ts": 1788041400000,
+          "delta_usd": 111.2013,
+          "green": true
+        },
+        {
+          "ts": 1788042000000,
+          "delta_usd": 16627.031000000003,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 3,
+      "cvd_green_streak": 3,
+      "cvd_30m_delta_usd": 17541.0574,
+      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
+      "signal_score": 9.51312959372748,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-29T22:20:00+00:00"
+    },
+    {
+      "symbol": "IOTA",
+      "name": "IOTA",
+      "coingecko_id": "iota",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "IOTAUSDT",
+      "price": 0.03990975,
+      "change_24h": 1.63346,
+      "volume_zscore_10m": 3.618098206941646,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 1778761.0,
+      "base_volume_mean_20": 250460.55,
+      "base_volume_stdev_20": 422404.3579214678,
+      "volume_10m_usd": 70976.37150000001,
+      "buyer_share_pct": 82.17359153109143,
+      "taker_buy_10m_usd": 58323.8336,
+      "taker_sell_10m_usd": 12652.53790000001,
+      "spot_delta_10m_usd": 45671.29569999999,
+      "price_change_10m_pct": 1.0101010101009944,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1788040800000,
+          "delta_usd": 623.2586999999999,
+          "green": true
+        },
+        {
+          "ts": 1788041400000,
+          "delta_usd": 21639.120000000003,
+          "green": true
+        },
+        {
+          "ts": 1788042000000,
+          "delta_usd": 45671.29569999999,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 3,
+      "cvd_green_streak": 3,
+      "cvd_30m_delta_usd": 67933.67439999999,
+      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
+      "signal_score": 7.885457360050789,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-29T22:20:00+00:00"
+    },
+    {
+      "symbol": "LUNC",
+      "name": "Terra Luna Classic",
+      "coingecko_id": "terra-luna",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "LUNCUSDT",
+      "price": 5.25e-05,
+      "change_24h": -0.02565,
+      "volume_zscore_10m": 2.160541743331841,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 165691788.58,
+      "base_volume_mean_20": 59710271.5315,
+      "base_volume_stdev_20": 49053214.25776412,
+      "volume_10m_usd": 8698.96511381,
+      "buyer_share_pct": 95.04106335574136,
+      "taker_buy_10m_usd": 8267.58894511,
+      "taker_sell_10m_usd": 431.37616870000056,
+      "spot_delta_10m_usd": 7836.212776409999,
+      "price_change_10m_pct": 0.09521995810322093,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1788040800000,
+          "delta_usd": -2089.94930699,
+          "green": false
+        },
+        {
+          "ts": 1788041400000,
+          "delta_usd": -167.46580229999995,
+          "green": false
+        },
+        {
+          "ts": 1788042000000,
+          "delta_usd": 7836.212776409999,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 1,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 5578.797667119999,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 7.014648078905976,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-29T22:20:00+00:00"
+    }
+  ],
   "window": "10m",
   "rule": "Top 200 → TradingView uyumlu 10dk BASE volume Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -10,7 +149,7 @@
     "binance_spot_matched": 101,
     "scanned": 101,
     "failed": 0,
-    "signal_count_before_cap": 0,
+    "signal_count_before_cap": 3,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision"
   },
@@ -18,5 +157,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-29T19:59:49.293402+00:00"
+  "generated_at": "2026-08-29T22:28:48.886722+00:00"
 }
