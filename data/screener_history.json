@@ -1,6 +1,32 @@
 {
-  "version": "screener_15m_followthrough_v1",
+  "version": "screener_15m_30m_followthrough_v2",
   "events": [
+    {
+      "id": "BFUSD:2026-08-30T22:42:00.031544+00:00",
+      "symbol": "BFUSD",
+      "name": "BFUSD",
+      "exchange_symbol": "BFUSDUSDT",
+      "detected_at": "2026-08-30T22:42:00.031544+00:00",
+      "entry_price": 1.0001,
+      "signal_time_utc": "2026-08-30T22:30:00+00:00",
+      "volume_zscore_10m": 4.274942928439673,
+      "buyer_share_pct": 99.50072185058751,
+      "spot_delta_10m_usd": 20622.0724,
+      "cvd_green_streak": 1,
+      "signal_score": 9.575015113498424,
+      "last_seen_at": "2026-08-30T22:42:00.031544+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-08-30T22:57:00.031544+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-08-30T23:12:00.031544+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
     {
       "id": "KAIA:2026-08-30T19:49:06.353030+00:00",
       "symbol": "KAIA",
@@ -9,10 +35,10 @@
       "detected_at": "2026-08-30T19:49:06.353030+00:00",
       "target_15m_at": "2026-08-30T20:04:06.353030+00:00",
       "entry_price": 0.0297,
-      "price_15m": null,
-      "change_15m_pct": null,
-      "direction_15m": "BEKLIYOR",
-      "evaluated_at": null,
+      "price_15m": 0.0297,
+      "change_15m_pct": 0.0,
+      "direction_15m": "YATAY",
+      "evaluated_at": "2026-08-30T22:42:06.988905+00:00",
       "signal_time_utc": "2026-08-30T19:40:00+00:00",
       "volume_zscore_10m": 2.245536925038591,
       "buyer_share_pct": 83.38802725364022,
@@ -20,7 +46,13 @@
       "cvd_green_streak": 1,
       "signal_score": 5.934339650402612,
       "last_seen_at": "2026-08-30T19:49:06.353030+00:00",
-      "ended_at": null
+      "ended_at": "2026-08-30T22:42:00.031544+00:00",
+      "evaluated_15m_at": "2026-08-30T22:42:06.988905+00:00",
+      "target_30m_at": "2026-08-30T20:19:06.353030+00:00",
+      "price_30m": 0.0297,
+      "change_30m_pct": 0.0,
+      "direction_30m": "YATAY",
+      "evaluated_30m_at": "2026-08-30T22:42:06.988905+00:00"
     },
     {
       "id": "STX:2026-08-30T19:49:06.353030+00:00",
@@ -30,10 +62,10 @@
       "detected_at": "2026-08-30T19:49:06.353030+00:00",
       "target_15m_at": "2026-08-30T20:04:06.353030+00:00",
       "entry_price": 0.2422,
-      "price_15m": null,
-      "change_15m_pct": null,
-      "direction_15m": "BEKLIYOR",
-      "evaluated_at": null,
+      "price_15m": 0.2423,
+      "change_15m_pct": 0.041288191577204536,
+      "direction_15m": "YUKARI",
+      "evaluated_at": "2026-08-30T22:42:06.988905+00:00",
       "signal_time_utc": "2026-08-30T19:40:00+00:00",
       "volume_zscore_10m": 4.22714149214561,
       "buyer_share_pct": 88.9799597260419,
@@ -41,28 +73,62 @@
       "cvd_green_streak": 3,
       "signal_score": 9.175137464749799,
       "last_seen_at": "2026-08-30T19:49:06.353030+00:00",
-      "ended_at": null
+      "ended_at": "2026-08-30T22:42:00.031544+00:00",
+      "evaluated_15m_at": "2026-08-30T22:42:06.988905+00:00",
+      "target_30m_at": "2026-08-30T20:19:06.353030+00:00",
+      "price_30m": 0.2431,
+      "change_30m_pct": 0.37159372419488523,
+      "direction_30m": "YUKARI",
+      "evaluated_30m_at": "2026-08-30T22:42:06.988905+00:00"
     }
   ],
   "meta": {
     "active_symbols": [
-      "KAIA",
-      "STX"
+      "BFUSD"
     ],
-    "updated_at": "2026-08-30T19:52:11.782545+00:00",
-    "measurement": "Coin first screen appearance -> Binance Spot price at detection -> exact target timestamp +15m from 1m kline close.",
+    "updated_at": "2026-08-30T22:42:06.988905+00:00",
+    "measurement": "Coin first screen appearance -> Binance Spot entry price -> exact +15m and +30m target-minute closes from 1m historical klines.",
+    "horizons_minutes": [
+      15,
+      30
+    ],
     "max_events": 500
   },
   "summary": {
-    "completed": 0,
-    "pending": 2,
-    "up": 0,
-    "down": 0,
-    "flat": 0,
-    "up_rate_pct": null,
-    "avg_change_15m_pct": null,
-    "median_change_15m_pct": null,
-    "best_change_15m_pct": null,
-    "worst_change_15m_pct": null
+    "15m": {
+      "completed": 2,
+      "pending": 1,
+      "up": 1,
+      "down": 0,
+      "flat": 1,
+      "up_rate_pct": 50.0,
+      "avg_change_pct": 0.020644095788602268,
+      "median_change_pct": 0.020644095788602268,
+      "best_change_pct": 0.041288191577204536,
+      "worst_change_pct": 0.0
+    },
+    "30m": {
+      "completed": 2,
+      "pending": 1,
+      "up": 1,
+      "down": 0,
+      "flat": 1,
+      "up_rate_pct": 50.0,
+      "avg_change_pct": 0.18579686209744262,
+      "median_change_pct": 0.18579686209744262,
+      "best_change_pct": 0.37159372419488523,
+      "worst_change_pct": 0.0
+    },
+    "completed": 2,
+    "pending": 1,
+    "up_rate_pct": 50.0,
+    "avg_change_15m_pct": 0.020644095788602268,
+    "median_change_15m_pct": 0.020644095788602268,
+    "best_change_15m_pct": 0.041288191577204536,
+    "worst_change_15m_pct": 0.0,
+    "avg_change_30m_pct": 0.18579686209744262,
+    "median_change_30m_pct": 0.18579686209744262,
+    "best_change_30m_pct": 0.37159372419488523,
+    "worst_change_30m_pct": 0.0
   }
 }
