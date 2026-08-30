@@ -1,0 +1,68 @@
+{
+  "version": "screener_15m_followthrough_v1",
+  "events": [
+    {
+      "id": "KAIA:2026-08-30T19:49:06.353030+00:00",
+      "symbol": "KAIA",
+      "name": "Kaia",
+      "exchange_symbol": "KAIAUSDT",
+      "detected_at": "2026-08-30T19:49:06.353030+00:00",
+      "target_15m_at": "2026-08-30T20:04:06.353030+00:00",
+      "entry_price": 0.0297,
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_at": null,
+      "signal_time_utc": "2026-08-30T19:40:00+00:00",
+      "volume_zscore_10m": 2.245536925038591,
+      "buyer_share_pct": 83.38802725364022,
+      "spot_delta_10m_usd": 3373.2716899999987,
+      "cvd_green_streak": 1,
+      "signal_score": 5.934339650402612,
+      "last_seen_at": "2026-08-30T19:49:06.353030+00:00",
+      "ended_at": null
+    },
+    {
+      "id": "STX:2026-08-30T19:49:06.353030+00:00",
+      "symbol": "STX",
+      "name": "Stacks",
+      "exchange_symbol": "STXUSDT",
+      "detected_at": "2026-08-30T19:49:06.353030+00:00",
+      "target_15m_at": "2026-08-30T20:04:06.353030+00:00",
+      "entry_price": 0.2422,
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_at": null,
+      "signal_time_utc": "2026-08-30T19:40:00+00:00",
+      "volume_zscore_10m": 4.22714149214561,
+      "buyer_share_pct": 88.9799597260419,
+      "spot_delta_10m_usd": 43330.04983999999,
+      "cvd_green_streak": 3,
+      "signal_score": 9.175137464749799,
+      "last_seen_at": "2026-08-30T19:49:06.353030+00:00",
+      "ended_at": null
+    }
+  ],
+  "meta": {
+    "active_symbols": [
+      "KAIA",
+      "STX"
+    ],
+    "updated_at": "2026-08-30T19:52:11.782545+00:00",
+    "measurement": "Coin first screen appearance -> Binance Spot price at detection -> exact target timestamp +15m from 1m kline close.",
+    "max_events": 500
+  },
+  "summary": {
+    "completed": 0,
+    "pending": 2,
+    "up": 0,
+    "down": 0,
+    "flat": 0,
+    "up_rate_pct": null,
+    "avg_change_15m_pct": null,
+    "median_change_15m_pct": null,
+    "best_change_15m_pct": null,
+    "worst_change_15m_pct": null
+  }
+}

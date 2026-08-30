@@ -1,50 +1,96 @@
 {
   "movers": [
     {
-      "symbol": "COMP",
-      "name": "Compound",
-      "coingecko_id": "compound-governance-token",
+      "symbol": "STX",
+      "name": "Stacks",
+      "coingecko_id": "blockstack",
       "exchange": "Binance Spot",
-      "exchange_symbol": "COMPUSDT",
-      "price": 18.52,
-      "change_24h": 0.84681,
-      "volume_zscore_10m": 4.109714170460493,
+      "exchange_symbol": "STXUSDT",
+      "price": 0.242256,
+      "change_24h": -1.11517,
+      "volume_zscore_10m": 4.22714149214561,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 2321.9610000000002,
-      "base_volume_mean_20": 245.92190000000002,
-      "base_volume_stdev_20": 505.1541333268392,
-      "volume_10m_usd": 42796.17116,
-      "buyer_share_pct": 77.86165347694623,
-      "taker_buy_10m_usd": 33321.80649,
-      "taker_sell_10m_usd": 9474.364669999995,
-      "spot_delta_10m_usd": 23847.441820000007,
-      "price_change_10m_pct": 0.5988023952095745,
-      "price_candle_green": true,
+      "base_volume_10m": 229952.0,
+      "base_volume_mean_20": 28584.345,
+      "base_volume_stdev_20": 47636.83812670059,
+      "volume_10m_usd": 55579.90586,
+      "buyer_share_pct": 88.9799597260419,
+      "taker_buy_10m_usd": 49454.977849999996,
+      "taker_sell_10m_usd": 6124.928010000003,
+      "spot_delta_10m_usd": 43330.04983999999,
+      "price_change_10m_pct": -0.5349794238683092,
+      "price_candle_green": false,
       "cvd_last3": [
         {
-          "ts": 1788112800000,
-          "delta_usd": 300.12626000000023,
+          "ts": 1788117600000,
+          "delta_usd": 140.07661999999982,
           "green": true
         },
         {
-          "ts": 1788113400000,
-          "delta_usd": 417.8151599999999,
+          "ts": 1788118200000,
+          "delta_usd": 965.6769100000001,
           "green": true
         },
         {
-          "ts": 1788114000000,
-          "delta_usd": 23847.441820000007,
+          "ts": 1788118800000,
+          "delta_usd": 43330.04983999999,
           "green": true
         }
       ],
       "cvd_green_count_3": 3,
       "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 24565.383240000006,
+      "cvd_30m_delta_usd": 44435.803369999994,
       "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 7.945879518155116,
+      "signal_score": 9.175137464749799,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-30T18:20:00+00:00"
+      "signal_time_utc": "2026-08-30T19:40:00+00:00"
+    },
+    {
+      "symbol": "KAIA",
+      "name": "Kaia",
+      "coingecko_id": "kaia",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "KAIAUSDT",
+      "price": 0.02968296,
+      "change_24h": 0.11764,
+      "volume_zscore_10m": 2.245536925038591,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 170494.6,
+      "base_volume_mean_20": 59212.03,
+      "base_volume_stdev_20": 49557.221152392114,
+      "volume_10m_usd": 5051.618750000001,
+      "buyer_share_pct": 83.38802725364022,
+      "taker_buy_10m_usd": 4212.44522,
+      "taker_sell_10m_usd": 839.1735300000009,
+      "spot_delta_10m_usd": 3373.2716899999987,
+      "price_change_10m_pct": 0.6756756756756799,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1788117600000,
+          "delta_usd": -781.64477,
+          "green": false
+        },
+        {
+          "ts": 1788118200000,
+          "delta_usd": -776.8083000000001,
+          "green": false
+        },
+        {
+          "ts": 1788118800000,
+          "delta_usd": 3373.2716899999987,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 1,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 1814.8186199999986,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 5.934339650402612,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-30T19:40:00+00:00"
     }
   ],
   "window": "10m",
@@ -57,7 +103,7 @@
     "binance_spot_matched": 101,
     "scanned": 101,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 2,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision"
   },
@@ -65,5 +111,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-30T18:34:19.221202+00:00"
+  "generated_at": "2026-08-30T19:49:06.353030+00:00"
 }
