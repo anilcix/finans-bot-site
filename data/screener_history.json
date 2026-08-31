@@ -2,6 +2,32 @@
   "version": "screener_15m_30m_followthrough_v2",
   "events": [
     {
+      "id": "ASTER:2026-08-31T06:16:18.337085+00:00",
+      "symbol": "ASTER",
+      "name": "Aster",
+      "exchange_symbol": "ASTERUSDT",
+      "detected_at": "2026-08-31T06:16:18.337085+00:00",
+      "entry_price": 0.698,
+      "signal_time_utc": "2026-08-31T06:00:00+00:00",
+      "volume_zscore_10m": 3.4057652387584483,
+      "buyer_share_pct": 69.14844747016974,
+      "spot_delta_10m_usd": 71180.36581000002,
+      "cvd_green_streak": 2,
+      "signal_score": 6.0206099857754225,
+      "last_seen_at": "2026-08-31T06:16:18.337085+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-08-31T06:31:18.337085+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-08-31T06:46:18.337085+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "币安人生:2026-08-31T00:49:08.568952+00:00",
       "symbol": "币安人生",
       "name": "币安人生 (BinanceLife)",
@@ -15,17 +41,18 @@
       "cvd_green_streak": 2,
       "signal_score": 5.463512660219516,
       "last_seen_at": "2026-08-31T00:49:08.568952+00:00",
-      "ended_at": null,
+      "ended_at": "2026-08-31T06:16:18.337085+00:00",
       "target_15m_at": "2026-08-31T01:04:08.568952+00:00",
-      "price_15m": null,
-      "change_15m_pct": null,
-      "direction_15m": "BEKLIYOR",
-      "evaluated_15m_at": null,
+      "price_15m": 0.4812,
+      "change_15m_pct": -0.47569803516028797,
+      "direction_15m": "AŞAĞI",
+      "evaluated_15m_at": "2026-08-31T06:16:28.344087+00:00",
       "target_30m_at": "2026-08-31T01:19:08.568952+00:00",
-      "price_30m": null,
-      "change_30m_pct": null,
-      "direction_30m": "BEKLIYOR",
-      "evaluated_30m_at": null
+      "price_30m": 0.4809,
+      "change_30m_pct": -0.5377456049638019,
+      "direction_30m": "AŞAĞI",
+      "evaluated_30m_at": "2026-08-31T06:16:28.344087+00:00",
+      "evaluated_at": "2026-08-31T06:16:28.344087+00:00"
     },
     {
       "id": "BFUSD:2026-08-30T22:42:00.031544+00:00",
@@ -111,9 +138,9 @@
   ],
   "meta": {
     "active_symbols": [
-      "币安人生"
+      "ASTER"
     ],
-    "updated_at": "2026-08-31T00:49:20.583104+00:00",
+    "updated_at": "2026-08-31T06:16:28.344087+00:00",
     "measurement": "Coin first screen appearance -> Binance Spot entry price -> exact +15m and +30m target-minute closes from 1m historical klines.",
     "horizons_minutes": [
       15,
@@ -123,39 +150,39 @@
   },
   "summary": {
     "15m": {
-      "completed": 3,
+      "completed": 4,
       "pending": 1,
       "up": 1,
-      "down": 0,
+      "down": 1,
       "flat": 2,
-      "up_rate_pct": 33.33333333333333,
-      "avg_change_pct": 0.013762730525734845,
+      "up_rate_pct": 25.0,
+      "avg_change_pct": -0.10860246089577086,
       "median_change_pct": 0.0,
       "best_change_pct": 0.041288191577204536,
-      "worst_change_pct": 0.0
+      "worst_change_pct": -0.47569803516028797
     },
     "30m": {
-      "completed": 3,
+      "completed": 4,
       "pending": 1,
       "up": 1,
-      "down": 0,
+      "down": 1,
       "flat": 2,
-      "up_rate_pct": 33.33333333333333,
-      "avg_change_pct": 0.12386457473162842,
+      "up_rate_pct": 25.0,
+      "avg_change_pct": -0.04153797019222916,
       "median_change_pct": 0.0,
       "best_change_pct": 0.37159372419488523,
-      "worst_change_pct": 0.0
+      "worst_change_pct": -0.5377456049638019
     },
-    "completed": 3,
+    "completed": 4,
     "pending": 1,
-    "up_rate_pct": 33.33333333333333,
-    "avg_change_15m_pct": 0.013762730525734845,
+    "up_rate_pct": 25.0,
+    "avg_change_15m_pct": -0.10860246089577086,
     "median_change_15m_pct": 0.0,
     "best_change_15m_pct": 0.041288191577204536,
-    "worst_change_15m_pct": 0.0,
-    "avg_change_30m_pct": 0.12386457473162842,
+    "worst_change_15m_pct": -0.47569803516028797,
+    "avg_change_30m_pct": -0.04153797019222916,
     "median_change_30m_pct": 0.0,
     "best_change_30m_pct": 0.37159372419488523,
-    "worst_change_30m_pct": 0.0
+    "worst_change_30m_pct": -0.5377456049638019
   }
 }
