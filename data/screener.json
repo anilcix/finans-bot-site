@@ -1,50 +1,50 @@
 {
   "movers": [
     {
-      "symbol": "BFUSD",
-      "name": "BFUSD",
-      "coingecko_id": "bfusd",
+      "symbol": "币安人生",
+      "name": "币安人生 (BinanceLife)",
+      "coingecko_id": "bianrensheng",
       "exchange": "Binance Spot",
-      "exchange_symbol": "BFUSDUSDT",
-      "price": 0.999977,
-      "change_24h": 0.04074,
-      "volume_zscore_10m": 4.274942928439673,
+      "exchange_symbol": "币安人生USDT",
+      "price": 0.483661,
+      "change_24h": -4.60424,
+      "volume_zscore_10m": 2.1291424790662505,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 20828.0,
-      "base_volume_mean_20": 1365.1,
-      "base_volume_stdev_20": 4552.785926221438,
-      "volume_10m_usd": 20830.0724,
-      "buyer_share_pct": 99.50072185058751,
-      "taker_buy_10m_usd": 20726.0724,
-      "taker_sell_10m_usd": 104.0,
-      "spot_delta_10m_usd": 20622.0724,
-      "price_change_10m_pct": 0.009999999999998899,
-      "price_candle_green": true,
+      "base_volume_10m": 188236.30000000002,
+      "base_volume_mean_20": 43358.76,
+      "base_volume_stdev_20": 68045.01879251265,
+      "volume_10m_usd": 90866.92427,
+      "buyer_share_pct": 76.34370181153265,
+      "taker_buy_10m_usd": 69371.17371,
+      "taker_sell_10m_usd": 21495.75056,
+      "spot_delta_10m_usd": 47875.42315,
+      "price_change_10m_pct": -0.309342132398438,
+      "price_candle_green": false,
       "cvd_last3": [
         {
-          "ts": 1788127800000,
-          "delta_usd": -100.0,
+          "ts": 1788135000000,
+          "delta_usd": -160.6853799999999,
           "green": false
         },
         {
-          "ts": 1788128400000,
-          "delta_usd": 0.0,
-          "green": false
+          "ts": 1788135600000,
+          "delta_usd": 7441.7697499999995,
+          "green": true
         },
         {
-          "ts": 1788129000000,
-          "delta_usd": 20622.0724,
+          "ts": 1788136200000,
+          "delta_usd": 47875.42315,
           "green": true
         }
       ],
-      "cvd_green_count_3": 1,
-      "cvd_green_streak": 1,
-      "cvd_30m_delta_usd": 20522.0724,
-      "cvd_note": "CVD devam teyidi henüz yok",
-      "signal_score": 9.575015113498424,
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 2,
+      "cvd_30m_delta_usd": 55156.50752,
+      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
+      "signal_score": 5.463512660219516,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-30T22:30:00+00:00"
+      "signal_time_utc": "2026-08-31T00:30:00+00:00"
     }
   ],
   "window": "10m",
@@ -65,5 +65,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-30T22:42:00.031544+00:00"
+  "generated_at": "2026-08-31T00:49:08.568952+00:00"
 }
