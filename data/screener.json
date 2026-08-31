@@ -1,69 +1,24 @@
 {
-  "movers": [
-    {
-      "symbol": "ASTER",
-      "name": "Aster",
-      "coingecko_id": "aster-2",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "ASTERUSDT",
-      "price": 0.696014,
-      "change_24h": -0.29553,
-      "volume_zscore_10m": 3.4057652387584483,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 266634.2,
-      "base_volume_mean_20": 57113.275,
-      "base_volume_stdev_20": 61519.4854347564,
-      "volume_10m_usd": 185864.58750999998,
-      "buyer_share_pct": 69.14844747016974,
-      "taker_buy_10m_usd": 128522.47666,
-      "taker_sell_10m_usd": 57342.11084999998,
-      "spot_delta_10m_usd": 71180.36581000002,
-      "price_change_10m_pct": 0.14388489208632116,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1788154800000,
-          "delta_usd": -10911.68857,
-          "green": false
-        },
-        {
-          "ts": 1788155400000,
-          "delta_usd": 11679.144779999999,
-          "green": true
-        },
-        {
-          "ts": 1788156000000,
-          "delta_usd": 71180.36581000002,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 71947.82202000002,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 6.0206099857754225,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-31T06:00:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "10m",
   "rule": "Top 200 → TradingView uyumlu 10dk BASE volume Z-score >= 2.0 + taker alıcı payı >= %65 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
-  "universe_source": "CoinGecko Top 200",
+  "universe_source": "CoinGecko piyasa değeri Top 200",
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 190,
     "binance_spot_matched": 101,
     "scanned": 101,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 0,
     "max_results": 10,
-    "source_endpoint": "https://data-api.binance.vision"
+    "source_endpoint": "https://data-api.binance.vision",
+    "universe_mode": "coingecko_market_cap_top200",
+    "coingecko_cache_hours": 6
   },
-  "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Z-score, TradingView Pine'daki z_len=20; ta.sma(volume,20); ta.stdev(volume,20) mantığına paralel olarak son bar dahil son 20 adet 10dk BASE asset volume ile population stdev kullanılarak hesaplanır. Spot CVD ise gerçek Binance taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
+  "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Z-score, TradingView Pine'daki z_len=20; ta.sma(volume,20); ta.stdev(volume,20) mantığına paralel olarak son bar dahil son 20 adet 10dk BASE asset volume ile population stdev kullanılarak hesaplanır. Spot CVD gerçek Binance taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-31T06:16:18.337085+00:00"
+  "generated_at": "2026-08-31T13:53:52.239237+00:00"
 }
