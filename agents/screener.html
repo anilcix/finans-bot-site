@@ -39,7 +39,7 @@ function historyCard(h){let s=h.summary||{},s15=s['15m']||{completed:s.completed
 function methodCard(){return `<div class="card"><h2>Aktif Strateji</h2><div class="note">Top 200 → Binance Spot USDT → 5dk mumları 10dk birleştir → 20 periyot BASE volume Z-score → taker buyer payı → Spot CVD. Eşikler: <b>Z ≥ 2.0</b>, <b>alıcı payı ≥ %65</b>, <b>10dk Spot CVD delta &gt; 0</b>. Son 2 veya 3 CVD mumu art arda yeşilse teyit notu eklenir. En fazla 10 nitelikli sinyal gösterilir; liste 10'a zorla doldurulmaz.</div></div>`}
 async function fetchLive(){let c=new AbortController(),t=setTimeout(()=>c.abort(),35000);try{let r=await fetch(LIVE_SCREENER+'?t='+Date.now(),{cache:'no-store',signal:c.signal});if(!r.ok)throw new Error('canlı tarayıcı alınamadı');let d=await r.json();if(!d||!d.generated_at)throw new Error('canlı tarayıcı yanıtı geçersiz');return d}finally{clearTimeout(t)}}
 async function load(){try{let hr=await fetch('../data/screener_history.json?t='+Date.now(),{cache:'no-store'}).catch(()=>null);let d;let fallback=false;try{d=await fetchLive()}catch(e){fallback=true;let dr=await fetch('../data/screener.json?t='+Date.now(),{cache:'no-store'});if(!dr.ok)throw new Error('canlı ve yedek tarayıcı verisi alınamadı');d=await dr.json()}let h={events:[],summary:{}};if(hr&&hr.ok)h=await hr.json();updated.textContent=(fallback?'Yedek veri: ':'Canlı: ')+new Date(d.generated_at).toLocaleString('tr-TR');content.innerHTML=activeCard(d)+historyCard(h)+methodCard()+src()}catch(e){content.innerHTML=`<div class="error-box">⚠️ ${e.message}</div>`+src()}}
-load();setInterval(load,300000);
+load();setInterval(load,600000);
 </script>
 </body>
 </html>
