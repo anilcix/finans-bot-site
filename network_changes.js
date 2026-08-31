@@ -7,7 +7,7 @@
   ];
   let changed={};
   const st=document.createElement('style');
-  st.textContent='.flow-line.data-changed{stroke:#ff5c5c!important;filter:drop-shadow(0 0 5px rgba(255,92,92,.85))!important}.flow-halo.data-changed{stroke:rgba(255,92,92,.20)!important}.pulse.data-changed{fill:#ff5c5c!important;filter:drop-shadow(0 0 6px #ff5c5c)!important}';
+  st.textContent='.status{display:none!important}.flow-line.data-changed{stroke:#ff5c5c!important;filter:drop-shadow(0 0 5px rgba(255,92,92,.85))!important}.flow-halo.data-changed{stroke:rgba(255,92,92,.20)!important}.pulse.data-changed{fill:#ff5c5c!important;filter:drop-shadow(0 0 6px #ff5c5c)!important}';
   document.head.appendChild(st);
 
   function apply(){
