@@ -4,86 +4,86 @@
       "symbol": "QQQ",
       "market_symbol": "QQQ",
       "label": "QQQ",
-      "price": 707.42,
-      "change_pct": -0.4643178748311667
+      "price": 707.64,
+      "change_pct": -0.4333633498424191
     },
     {
       "symbol": "SPY",
       "market_symbol": "SPY",
       "label": "SPY",
-      "price": 761.03,
-      "change_pct": -0.6371505790497572
+      "price": null,
+      "change_pct": null,
+      "error": "400 Client Error: Bad Request for url: https://query1.finance.yahoo.com/v8/finance/chart/SPY?interval=1d&range=5d"
     },
     {
       "symbol": "NVDA",
       "market_symbol": "NVDA",
       "label": "NVIDIA",
-      "price": null,
-      "change_pct": null,
-      "error": "400 Client Error: Bad Request for url: https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&range=5d"
+      "price": 217.44,
+      "change_pct": 2.0605491668622324
     },
     {
       "symbol": "MSFT",
       "market_symbol": "MSFT",
       "label": "Microsoft",
-      "price": 500.575,
-      "change_pct": 1.8028919485062351
+      "price": 501.02,
+      "change_pct": 1.893392446767404
     },
     {
       "symbol": "AMZN",
       "market_symbol": "AMZN",
       "label": "Amazon",
-      "price": 254.26,
-      "change_pct": -2.604765188079373
+      "price": 254.92,
+      "change_pct": -2.351949743354024
     },
     {
       "symbol": "META",
       "market_symbol": "META",
       "label": "Meta",
-      "price": 579.045,
-      "change_pct": 1.5779317603718983
+      "price": 578.54,
+      "change_pct": 1.4893430400842047
     },
     {
       "symbol": "GOOGL",
       "market_symbol": "GOOGL",
       "label": "Alphabet",
-      "price": 334.29,
-      "change_pct": -3.6517177772653793
+      "price": 335.02,
+      "change_pct": -3.4413188840212126
     },
     {
       "symbol": "AAPL",
       "market_symbol": "AAPL",
       "label": "Apple",
-      "price": 325.35,
-      "change_pct": 4.985479186834478
+      "price": 325.13,
+      "change_pct": 4.914488544691842
     },
     {
       "symbol": "AMD",
       "market_symbol": "AMD",
       "label": "AMD",
-      "price": 459.7,
-      "change_pct": -4.065278183563591
+      "price": 459.61,
+      "change_pct": -4.084060269627279
     },
     {
       "symbol": "AVGO",
       "market_symbol": "AVGO",
       "label": "Broadcom",
-      "price": 369.715,
-      "change_pct": 3.637102651791211
+      "price": 369.68,
+      "change_pct": 3.6272915849077756
     },
     {
       "symbol": "ORCL",
       "market_symbol": "ORCL",
       "label": "Oracle",
-      "price": 141.01,
-      "change_pct": -2.590494611771208
+      "price": 141.32,
+      "change_pct": -2.3763470571981196
     },
     {
       "symbol": "PLTR",
       "market_symbol": "PLTR",
       "label": "Palantir",
-      "price": 181.5,
-      "change_pct": 5.077288253343375
+      "price": 179.92,
+      "change_pct": 4.162565854223353
     }
   ],
   "fundamentals": [
@@ -2444,29 +2444,29 @@
       "symbol": "GC=F",
       "market_symbol": "GC=F",
       "label": "Altın",
-      "price": 4378.1,
-      "change_pct": -5.024188125040664
+      "price": 4374.8,
+      "change_pct": -5.095776297806791
     },
     {
       "symbol": "SI=F",
       "market_symbol": "SI=F",
       "label": "Gümüş",
-      "price": 64.775,
-      "change_pct": -6.703250802978578
+      "price": 64.695,
+      "change_pct": -6.818476429157857
     },
     {
       "symbol": "BZ=F",
       "market_symbol": "BZ=F",
       "label": "Brent Petrol",
-      "price": 95.0,
-      "change_pct": 5.908584169453731
+      "price": 95.25,
+      "change_pct": 6.187290969899662
     },
     {
       "symbol": "CL=F",
       "market_symbol": "CL=F",
       "label": "WTI Petrol",
-      "price": 90.47,
-      "change_pct": 8.308392194421163
+      "price": 90.77,
+      "change_pct": 8.667544594756368
     }
   ],
   "unavailable": [
@@ -2474,5 +2474,5 @@
     "Hyperscaler CAPEX",
     "Central Bank Gold Buying"
   ],
-  "generated_at": "2026-09-01T19:43:30.815833+00:00"
+  "generated_at": "2026-09-01T20:27:47.990876+00:00"
 }
