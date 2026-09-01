@@ -4,85 +4,86 @@
       "symbol": "QQQ",
       "market_symbol": "QQQ",
       "label": "QQQ",
-      "price": 704.97,
-      "change_pct": -0.8090387212967131
+      "price": 707.42,
+      "change_pct": -0.4643178748311667
     },
     {
       "symbol": "SPY",
       "market_symbol": "SPY",
       "label": "SPY",
-      "price": 759.72,
-      "change_pct": -0.8081889517045008
+      "price": 761.03,
+      "change_pct": -0.6371505790497572
     },
     {
       "symbol": "NVDA",
       "market_symbol": "NVDA",
       "label": "NVIDIA",
-      "price": 216.4,
-      "change_pct": 1.572400844872093
+      "price": null,
+      "change_pct": null,
+      "error": "400 Client Error: Bad Request for url: https://query1.finance.yahoo.com/v8/finance/chart/NVDA?interval=1d&range=5d"
     },
     {
       "symbol": "MSFT",
       "market_symbol": "MSFT",
       "label": "Microsoft",
-      "price": 500.7,
-      "change_pct": 1.828313436781845
+      "price": 500.575,
+      "change_pct": 1.8028919485062351
     },
     {
       "symbol": "AMZN",
       "market_symbol": "AMZN",
       "label": "Amazon",
-      "price": 254.27,
-      "change_pct": -2.6009346510380724
+      "price": 254.26,
+      "change_pct": -2.604765188079373
     },
     {
       "symbol": "META",
       "market_symbol": "META",
       "label": "Meta",
-      "price": 577.1,
-      "change_pct": 1.2367336198579193
+      "price": 579.045,
+      "change_pct": 1.5779317603718983
     },
     {
       "symbol": "GOOGL",
       "market_symbol": "GOOGL",
       "label": "Alphabet",
-      "price": 333.52,
-      "change_pct": -3.8736453769887014
+      "price": 334.29,
+      "change_pct": -3.6517177772653793
     },
     {
       "symbol": "AAPL",
       "market_symbol": "AAPL",
       "label": "Apple",
-      "price": 324.69,
-      "change_pct": 4.77250726040659
+      "price": 325.35,
+      "change_pct": 4.985479186834478
     },
     {
       "symbol": "AMD",
       "market_symbol": "AMD",
       "label": "AMD",
-      "price": 454.05,
-      "change_pct": -5.244375808673149
+      "price": 459.7,
+      "change_pct": -4.065278183563591
     },
     {
       "symbol": "AVGO",
       "market_symbol": "AVGO",
       "label": "Broadcom",
-      "price": 368.115,
-      "change_pct": 3.188596737119471
+      "price": 369.715,
+      "change_pct": 3.637102651791211
     },
     {
       "symbol": "ORCL",
       "market_symbol": "ORCL",
       "label": "Oracle",
-      "price": 140.105,
-      "change_pct": -3.2156673114119934
+      "price": 141.01,
+      "change_pct": -2.590494611771208
     },
     {
       "symbol": "PLTR",
       "market_symbol": "PLTR",
       "label": "Palantir",
-      "price": 180.685,
-      "change_pct": 4.60545359810109
+      "price": 181.5,
+      "change_pct": 5.077288253343375
     }
   ],
   "fundamentals": [
@@ -2443,29 +2444,29 @@
       "symbol": "GC=F",
       "market_symbol": "GC=F",
       "label": "Altın",
-      "price": 4379.6,
-      "change_pct": -4.9916480465106075
+      "price": 4378.1,
+      "change_pct": -5.024188125040664
     },
     {
       "symbol": "SI=F",
       "market_symbol": "SI=F",
       "label": "Gümüş",
-      "price": 64.885,
-      "change_pct": -6.544815566982093
+      "price": 64.775,
+      "change_pct": -6.703250802978578
     },
     {
       "symbol": "BZ=F",
       "market_symbol": "BZ=F",
       "label": "Brent Petrol",
-      "price": 94.93,
-      "change_pct": 5.830546265328878
+      "price": 95.0,
+      "change_pct": 5.908584169453731
     },
     {
       "symbol": "CL=F",
       "market_symbol": "CL=F",
       "label": "WTI Petrol",
-      "price": 90.49,
-      "change_pct": 8.332335687776839
+      "price": 90.47,
+      "change_pct": 8.308392194421163
     }
   ],
   "unavailable": [
@@ -2473,5 +2474,5 @@
     "Hyperscaler CAPEX",
     "Central Bank Gold Buying"
   ],
-  "generated_at": "2026-09-01T18:45:16.700159+00:00"
+  "generated_at": "2026-09-01T19:43:30.815833+00:00"
 }
