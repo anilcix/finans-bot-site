@@ -1,96 +1,96 @@
 {
   "movers": [
     {
-      "symbol": "ENA",
-      "name": "Ethena",
-      "coingecko_id": "ethena",
+      "symbol": "GRT",
+      "name": "The Graph",
+      "coingecko_id": "the-graph",
       "exchange": "Binance Spot",
-      "exchange_symbol": "ENAUSDT",
-      "price": 0.15631,
-      "change_24h": 3.34543,
-      "volume_zscore_10m": 3.9501769291969606,
+      "exchange_symbol": "GRTUSDT",
+      "price": 0.01633434,
+      "change_24h": -0.01383,
+      "volume_zscore_10m": 2.4424096757881038,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 8968242.93,
-      "base_volume_mean_20": 1974438.192,
-      "base_volume_stdev_20": 1770504.173194537,
-      "volume_10m_usd": 1384253.121085,
-      "buyer_share_pct": 66.23295272936588,
-      "taker_buy_10m_usd": 916831.7153429999,
-      "taker_sell_10m_usd": 467421.4057420001,
-      "spot_delta_10m_usd": 449410.3096009998,
-      "price_change_10m_pct": 1.512163050624582,
+      "base_volume_10m": 1048577.0,
+      "base_volume_mean_20": 348411.6,
+      "base_volume_stdev_20": 286669.9255824371,
+      "volume_10m_usd": 17156.87526,
+      "buyer_share_pct": 80.23720025577664,
+      "taker_buy_10m_usd": 13766.19636,
+      "taker_sell_10m_usd": 3390.678900000001,
+      "spot_delta_10m_usd": 10375.51746,
+      "price_change_10m_pct": 0.24449877750611915,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1788256200000,
-          "delta_usd": 117776.45071599999,
-          "green": true
-        },
-        {
-          "ts": 1788256800000,
-          "delta_usd": 35100.871603999985,
-          "green": true
-        },
-        {
-          "ts": 1788257400000,
-          "delta_usd": 449410.3096009998,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 602287.6319209998,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 6.623472202133548,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-01T10:10:00+00:00"
-    },
-    {
-      "symbol": "QNT",
-      "name": "Quant",
-      "coingecko_id": "quant-network",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "QNTUSDT",
-      "price": 61.59,
-      "change_24h": -0.19296,
-      "volume_zscore_10m": 2.2633582160132035,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 346.71299999999997,
-      "base_volume_mean_20": 138.8698,
-      "base_volume_stdev_20": 91.82956481634876,
-      "volume_10m_usd": 21279.82141,
-      "buyer_share_pct": 84.07780528455102,
-      "taker_buy_10m_usd": 17891.60681,
-      "taker_sell_10m_usd": 3388.2145999999993,
-      "spot_delta_10m_usd": 14503.392210000002,
-      "price_change_10m_pct": 0.09787928221860476,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1788256200000,
-          "delta_usd": 179.79796999999962,
-          "green": true
-        },
-        {
-          "ts": 1788256800000,
-          "delta_usd": -2486.93543,
+          "ts": 1788273000000,
+          "delta_usd": -416.5985700000002,
           "green": false
         },
         {
-          "ts": 1788257400000,
-          "delta_usd": 14503.392210000002,
+          "ts": 1788273600000,
+          "delta_usd": -735.3203999999996,
+          "green": false
+        },
+        {
+          "ts": 1788274200000,
+          "delta_usd": 10375.51746,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 1,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 9223.598489999998,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 5.816129701365767,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-09-01T14:50:00+00:00"
+    },
+    {
+      "symbol": "SEI",
+      "name": "Sei",
+      "coingecko_id": "sei-network",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "SEIUSDT",
+      "price": 0.04549714,
+      "change_24h": 3.0143,
+      "volume_zscore_10m": 2.742925120474785,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 1877729.4,
+      "base_volume_mean_20": 615071.24,
+      "base_volume_stdev_20": 460332.7121746003,
+      "volume_10m_usd": 85972.18585600001,
+      "buyer_share_pct": 67.11646854442867,
+      "taker_buy_10m_usd": 57701.495077,
+      "taker_sell_10m_usd": 28270.69077900001,
+      "spot_delta_10m_usd": 29430.80429799999,
+      "price_change_10m_pct": -0.7605388961321125,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1788273000000,
+          "delta_usd": -18182.402873,
+          "green": false
+        },
+        {
+          "ts": 1788273600000,
+          "delta_usd": 5347.888606,
+          "green": true
+        },
+        {
+          "ts": 1788274200000,
+          "delta_usd": 29430.80429799999,
           "green": true
         }
       ],
       "cvd_green_count_3": 2,
-      "cvd_green_streak": 1,
-      "cvd_30m_delta_usd": 12196.254750000002,
-      "cvd_note": "CVD devam teyidi henüz yok",
-      "signal_score": 6.021138744468304,
+      "cvd_green_streak": 2,
+      "cvd_30m_delta_usd": 16596.29003099999,
+      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
+      "signal_score": 5.154571974917652,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-01T10:10:00+00:00"
+      "signal_time_utc": "2026-09-01T14:50:00+00:00"
     }
   ],
   "window": "10m",
@@ -113,5 +113,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-09-01T10:29:50.676913+00:00"
+  "generated_at": "2026-09-01T15:07:04.144563+00:00"
 }
