@@ -1,63 +1,16 @@
 {
-  "movers": [
-    {
-      "symbol": "ONDO",
-      "name": "Ondo",
-      "coingecko_id": "ondo-finance",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "ONDOUSDT",
-      "price": 0.338732,
-      "change_24h": -2.35085,
-      "volume_zscore_10m": 2.4029720035115267,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 175537.8,
-      "base_volume_mean_20": 84919.30500000001,
-      "base_volume_stdev_20": 37711.00739732996,
-      "volume_10m_usd": 59572.52106,
-      "buyer_share_pct": 68.8499135174925,
-      "taker_buy_10m_usd": 41015.62923,
-      "taker_sell_10m_usd": 18556.89183,
-      "spot_delta_10m_usd": 22458.737399999998,
-      "price_change_10m_pct": 0.08849557522123686,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1788307800000,
-          "delta_usd": 3428.9497199999987,
-          "green": true
-        },
-        {
-          "ts": 1788308400000,
-          "delta_usd": 1394.7935500000021,
-          "green": true
-        },
-        {
-          "ts": 1788309000000,
-          "delta_usd": 22458.737399999998,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 27282.480669999997,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 5.337963355260777,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-02T00:30:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "10m",
   "rule": "Top 200 → TradingView uyumlu 10dk BASE volume Z-score >= 2.0 + taker alıcı payı >= %65 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
   "universe_source": "CoinGecko piyasa değeri Top 200",
   "scan_meta": {
     "top200_received": 200,
-    "non_stable_universe": 189,
-    "binance_spot_matched": 101,
-    "scanned": 101,
+    "non_stable_universe": 190,
+    "binance_spot_matched": 102,
+    "scanned": 102,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 0,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision",
     "universe_mode": "coingecko_market_cap_top200",
@@ -67,5 +20,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-09-02T00:45:01.436882+00:00"
+  "generated_at": "2026-09-02T05:08:10.518803+00:00"
 }
