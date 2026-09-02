@@ -1,50 +1,50 @@
 {
   "movers": [
     {
-      "symbol": "RENDER",
-      "name": "Render",
-      "coingecko_id": "render-token",
+      "symbol": "ONDO",
+      "name": "Ondo",
+      "coingecko_id": "ondo-finance",
       "exchange": "Binance Spot",
-      "exchange_symbol": "RENDERUSDT",
-      "price": 1.42,
-      "change_24h": 0.30709,
-      "volume_zscore_10m": 2.651375297805648,
+      "exchange_symbol": "ONDOUSDT",
+      "price": 0.338732,
+      "change_24h": -2.35085,
+      "volume_zscore_10m": 2.4029720035115267,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 29120.88,
-      "base_volume_mean_20": 9961.7755,
-      "base_volume_stdev_20": 7226.100550856233,
-      "volume_10m_usd": 41314.302339999995,
-      "buyer_share_pct": 80.93058136341267,
-      "taker_buy_10m_usd": 33435.90507,
-      "taker_sell_10m_usd": 7878.397269999994,
-      "spot_delta_10m_usd": 25557.507800000007,
-      "price_change_10m_pct": 0.6364922206506529,
+      "base_volume_10m": 175537.8,
+      "base_volume_mean_20": 84919.30500000001,
+      "base_volume_stdev_20": 37711.00739732996,
+      "volume_10m_usd": 59572.52106,
+      "buyer_share_pct": 68.8499135174925,
+      "taker_buy_10m_usd": 41015.62923,
+      "taker_sell_10m_usd": 18556.89183,
+      "spot_delta_10m_usd": 22458.737399999998,
+      "price_change_10m_pct": 0.08849557522123686,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1788301200000,
-          "delta_usd": -4898.512190000001,
-          "green": false
+          "ts": 1788307800000,
+          "delta_usd": 3428.9497199999987,
+          "green": true
         },
         {
-          "ts": 1788301800000,
-          "delta_usd": -569.9077099999995,
-          "green": false
+          "ts": 1788308400000,
+          "delta_usd": 1394.7935500000021,
+          "green": true
         },
         {
-          "ts": 1788302400000,
-          "delta_usd": 25557.507800000007,
+          "ts": 1788309000000,
+          "delta_usd": 22458.737399999998,
           "green": true
         }
       ],
-      "cvd_green_count_3": 1,
-      "cvd_green_streak": 1,
-      "cvd_30m_delta_usd": 20089.087900000006,
-      "cvd_note": "CVD devam teyidi henüz yok",
-      "signal_score": 6.094433434146914,
+      "cvd_green_count_3": 3,
+      "cvd_green_streak": 3,
+      "cvd_30m_delta_usd": 27282.480669999997,
+      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
+      "signal_score": 5.337963355260777,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-01T22:40:00+00:00"
+      "signal_time_utc": "2026-09-02T00:30:00+00:00"
     }
   ],
   "window": "10m",
@@ -67,5 +67,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-09-01T22:55:01.260377+00:00"
+  "generated_at": "2026-09-02T00:45:01.436882+00:00"
 }
