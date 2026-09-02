@@ -2,6 +2,32 @@
   "version": "screener_15m_30m_followthrough_v2",
   "events": [
     {
+      "id": "AAVE:2026-09-02T09:08:41.538948+00:00",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "exchange_symbol": "AAVEUSDT",
+      "detected_at": "2026-09-02T09:08:41.538948+00:00",
+      "entry_price": 128.81,
+      "signal_time_utc": "2026-09-02T08:50:00+00:00",
+      "volume_zscore_10m": 3.609555687603757,
+      "buyer_share_pct": 73.79789140419159,
+      "spot_delta_10m_usd": 517475.2455200001,
+      "cvd_green_streak": 1,
+      "signal_score": 6.339344828022915,
+      "last_seen_at": "2026-09-02T09:08:41.538948+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-02T09:23:41.538948+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-02T09:38:41.538948+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "ONDO:2026-09-02T00:45:01.436882+00:00",
       "symbol": "ONDO",
       "name": "Ondo",
@@ -759,8 +785,10 @@
     }
   ],
   "meta": {
-    "active_symbols": [],
-    "updated_at": "2026-09-02T05:08:21.424809+00:00",
+    "active_symbols": [
+      "AAVE"
+    ],
+    "updated_at": "2026-09-02T09:08:48.199536+00:00",
     "measurement": "Coin first screen appearance -> Binance Spot entry price -> exact +15m and +30m target-minute closes from 1m historical klines.",
     "horizons_minutes": [
       15,
@@ -771,7 +799,7 @@
   "summary": {
     "15m": {
       "completed": 28,
-      "pending": 0,
+      "pending": 1,
       "up": 16,
       "down": 8,
       "flat": 4,
@@ -783,7 +811,7 @@
     },
     "30m": {
       "completed": 28,
-      "pending": 0,
+      "pending": 1,
       "up": 16,
       "down": 10,
       "flat": 2,
@@ -794,7 +822,7 @@
       "worst_change_pct": -0.6587615283267456
     },
     "completed": 28,
-    "pending": 0,
+    "pending": 1,
     "up_rate_pct": 57.14285714285714,
     "avg_change_15m_pct": 0.11069236302685216,
     "median_change_15m_pct": 0.0586047328423156,
