@@ -2,6 +2,32 @@
   "version": "screener_15m_30m_followthrough_v2",
   "events": [
     {
+      "id": "WIF:2026-09-02T13:38:49.136401+00:00",
+      "symbol": "WIF",
+      "name": "dogwifhat",
+      "exchange_symbol": "WIFUSDT",
+      "detected_at": "2026-09-02T13:38:49.136401+00:00",
+      "entry_price": 0.1943,
+      "signal_time_utc": "2026-09-02T13:20:00+00:00",
+      "volume_zscore_10m": 3.6977088151759374,
+      "buyer_share_pct": 75.63946255717443,
+      "spot_delta_10m_usd": 15754.870990000003,
+      "cvd_green_streak": 3,
+      "signal_score": 7.311655070893379,
+      "last_seen_at": "2026-09-02T13:38:49.136401+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-02T13:53:49.136401+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-02T14:08:49.136401+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "AAVE:2026-09-02T09:08:41.538948+00:00",
       "symbol": "AAVE",
       "name": "Aave",
@@ -15,17 +41,18 @@
       "cvd_green_streak": 1,
       "signal_score": 6.339344828022915,
       "last_seen_at": "2026-09-02T09:08:41.538948+00:00",
-      "ended_at": null,
+      "ended_at": "2026-09-02T13:38:49.136401+00:00",
       "target_15m_at": "2026-09-02T09:23:41.538948+00:00",
-      "price_15m": null,
-      "change_15m_pct": null,
-      "direction_15m": "BEKLIYOR",
-      "evaluated_15m_at": null,
+      "price_15m": 126.96,
+      "change_15m_pct": -1.4362238956602824,
+      "direction_15m": "AŞAĞI",
+      "evaluated_15m_at": "2026-09-02T13:38:59.110169+00:00",
       "target_30m_at": "2026-09-02T09:38:41.538948+00:00",
-      "price_30m": null,
-      "change_30m_pct": null,
-      "direction_30m": "BEKLIYOR",
-      "evaluated_30m_at": null
+      "price_30m": 126.51,
+      "change_30m_pct": -1.7855756540641199,
+      "direction_30m": "AŞAĞI",
+      "evaluated_30m_at": "2026-09-02T13:38:59.110169+00:00",
+      "evaluated_at": "2026-09-02T13:38:59.110169+00:00"
     },
     {
       "id": "ONDO:2026-09-02T00:45:01.436882+00:00",
@@ -786,9 +813,9 @@
   ],
   "meta": {
     "active_symbols": [
-      "AAVE"
+      "WIF"
     ],
-    "updated_at": "2026-09-02T09:08:48.199536+00:00",
+    "updated_at": "2026-09-02T13:38:59.110169+00:00",
     "measurement": "Coin first screen appearance -> Binance Spot entry price -> exact +15m and +30m target-minute closes from 1m historical klines.",
     "horizons_minutes": [
       15,
@@ -798,39 +825,39 @@
   },
   "summary": {
     "15m": {
-      "completed": 28,
+      "completed": 29,
       "pending": 1,
       "up": 16,
-      "down": 8,
+      "down": 9,
       "flat": 4,
-      "up_rate_pct": 57.14285714285714,
-      "avg_change_pct": 0.11069236302685216,
-      "median_change_pct": 0.0586047328423156,
+      "up_rate_pct": 55.172413793103445,
+      "avg_change_pct": 0.05735042307212339,
+      "median_change_pct": 0.05822981366458979,
       "best_change_pct": 2.1695533272561462,
-      "worst_change_pct": -0.47569803516028797
+      "worst_change_pct": -1.4362238956602824
     },
     "30m": {
-      "completed": 28,
+      "completed": 29,
       "pending": 1,
       "up": 16,
-      "down": 10,
+      "down": 11,
       "flat": 2,
-      "up_rate_pct": 57.14285714285714,
-      "avg_change_pct": 0.18915153844081622,
-      "median_change_pct": 0.13040822344861924,
+      "up_rate_pct": 55.172413793103445,
+      "avg_change_pct": 0.12105749731995638,
+      "median_change_pct": 0.11795930404010502,
       "best_change_pct": 1.7502278942570726,
-      "worst_change_pct": -0.6587615283267456
+      "worst_change_pct": -1.7855756540641199
     },
-    "completed": 28,
+    "completed": 29,
     "pending": 1,
-    "up_rate_pct": 57.14285714285714,
-    "avg_change_15m_pct": 0.11069236302685216,
-    "median_change_15m_pct": 0.0586047328423156,
+    "up_rate_pct": 55.172413793103445,
+    "avg_change_15m_pct": 0.05735042307212339,
+    "median_change_15m_pct": 0.05822981366458979,
     "best_change_15m_pct": 2.1695533272561462,
-    "worst_change_15m_pct": -0.47569803516028797,
-    "avg_change_30m_pct": 0.18915153844081622,
-    "median_change_30m_pct": 0.13040822344861924,
+    "worst_change_15m_pct": -1.4362238956602824,
+    "avg_change_30m_pct": 0.12105749731995638,
+    "median_change_30m_pct": 0.11795930404010502,
     "best_change_30m_pct": 1.7502278942570726,
-    "worst_change_30m_pct": -0.6587615283267456
+    "worst_change_30m_pct": -1.7855756540641199
   }
 }
