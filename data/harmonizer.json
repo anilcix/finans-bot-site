@@ -1,14 +1,14 @@
 {
-  "market_score": 57.1,
+  "market_score": 57.5,
   "stance": "Temkinli Risk-On",
   "confidence": 75.0,
   "component_scores": {
     "macro": 53.7,
     "credit": 65,
     "options": 78,
-    "crypto": 55.0,
-    "crypto_derivatives": 56,
-    "equities": 51.7,
+    "crypto": 55.5,
+    "crypto_derivatives": 58,
+    "equities": 53.7,
     "news": 50
   },
   "plain_summary": [
@@ -31,9 +31,9 @@
         "topic": "Bitcoin",
         "tone": "karışık",
         "count": 10,
-        "digest": "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline | CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years",
+        "digest": "Crypto made new friends in U.S. primaries, but focus now shifts to general election | New Jersey becomes first state to ask Supreme Court to weigh in on prediction markets",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.4; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %+0.0036."
+        "data_confirmation": "BTC 24s %-0.1; çoklu-borsa OI 24s %+0.2; OI-ağırlıklı funding %+0.0041."
       },
       {
         "topic": "Makro / Fed / Hazine",
@@ -46,6 +46,38 @@
     ],
     "important_news": [
       {
+        "title": "Crypto made new friends in U.S. primaries, but focus now shifts to general election",
+        "source": "CoinDesk",
+        "link": "https://www.coindesk.com/news-analysis/2026/09/02/crypto-made-new-friends-in-u-s-primaries-but-focus-now-shifts-to-general-election",
+        "published_at": "2026-09-02T17:39:00+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Crypto made new friends in U.S. primaries, but focus now shifts to general election",
+        "summary_mode": "headline_only",
+        "read_mode": "trusted_feed_headline",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.1; çoklu-borsa OI 24s %+0.2; OI-ağırlıklı funding %+0.0041.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %-0.1; çoklu-borsa OI 24s %+0.2; OI-ağırlıklı funding %+0.0041."
+      },
+      {
+        "title": "New Jersey becomes first state to ask Supreme Court to weigh in on prediction markets",
+        "source": "CoinDesk",
+        "link": "https://www.coindesk.com/policy/2026/09/02/new-jersey-becomes-first-state-to-ask-supreme-court-to-weigh-in-on-prediction-markets",
+        "published_at": "2026-09-02T17:23:48+00:00",
+        "topic": "Bitcoin",
+        "theme": "macro",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "New Jersey becomes first state to ask Supreme Court to weigh in on prediction markets",
+        "summary_mode": "headline_only",
+        "read_mode": "trusted_feed_headline",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 54/100; 30Y değişim -0.02 puan.",
+        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
+        "data_confirmation": "Makro skor 54/100; 30Y değişim -0.02 puan."
+      },
+      {
         "title": "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline",
         "source": "CoinDesk",
         "link": "https://www.coindesk.com/coindesk-indices/2026/09/02/crypto-long-and-short-crypto-vcs-are-mistaking-consensus-for-discipline",
@@ -57,9 +89,9 @@
         "brief_summary": "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.4; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %+0.0036.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.1; çoklu-borsa OI 24s %+0.2; OI-ağırlıklı funding %+0.0041.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.4; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %+0.0036."
+        "data_confirmation": "BTC 24s %-0.1; çoklu-borsa OI 24s %+0.2; OI-ağırlıklı funding %+0.0041."
       },
       {
         "title": "Major Economic Indicators Latest Numbers",
@@ -89,9 +121,9 @@
         "brief_summary": "CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.4; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %+0.0036.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.1; çoklu-borsa OI 24s %+0.2; OI-ağırlıklı funding %+0.0041.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.4; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %+0.0036."
+        "data_confirmation": "BTC 24s %-0.1; çoklu-borsa OI 24s %+0.2; OI-ağırlıklı funding %+0.0041."
       },
       {
         "title": "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back",
@@ -105,9 +137,9 @@
         "brief_summary": "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.4; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %+0.0036.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.1; çoklu-borsa OI 24s %+0.2; OI-ağırlıklı funding %+0.0041.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.4; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %+0.0036."
+        "data_confirmation": "BTC 24s %-0.1; çoklu-borsa OI 24s %+0.2; OI-ağırlıklı funding %+0.0041."
       },
       {
         "title": "Capital B aims to add 376 BTC to bitcoin treasury following $8.8 million Adam Back investment",
@@ -121,41 +153,9 @@
         "brief_summary": "Capital B aims to add 376 BTC to bitcoin treasury following $8.8 million Adam Back investment",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.4; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %+0.0036.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.1; çoklu-borsa OI 24s %+0.2; OI-ağırlıklı funding %+0.0041.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.4; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %+0.0036."
-      },
-      {
-        "title": "A Fed rate increase would be a mistake, some observers say as bitcoin, gold, stocks fall",
-        "source": "CoinDesk",
-        "link": "https://www.coindesk.com/daybook-us/2026/09/02/a-fed-rate-increase-would-be-a-mistake-some-observers-say-as-bitcoin-gold-stocks-fall",
-        "published_at": "2026-09-02T11:14:58+00:00",
-        "topic": "Bitcoin",
-        "theme": "crypto",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "A Fed rate increase would be a mistake, some observers say as bitcoin, gold, stocks fall",
-        "summary_mode": "headline_only",
-        "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.4; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %+0.0036.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.4; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %+0.0036."
-      },
-      {
-        "title": "Lawsuit challenges Tether for allegedly freezing $42.4 million USDT before U.S. warrant",
-        "source": "CoinDesk",
-        "link": "https://www.coindesk.com/business/2026/09/02/tether-sued-over-usd42-4-million-usdt-freeze-allegedly-made-months-before-u-s-warrant",
-        "published_at": "2026-09-02T11:03:46+00:00",
-        "topic": "Bitcoin",
-        "theme": "macro",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Lawsuit challenges Tether for allegedly freezing $42.4 million USDT before U.S. warrant",
-        "summary_mode": "headline_only",
-        "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 54/100; 30Y değişim -0.02 puan.",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 54/100; 30Y değişim -0.02 puan."
+        "data_confirmation": "BTC 24s %-0.1; çoklu-borsa OI 24s %+0.2; OI-ağırlıklı funding %+0.0041."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -164,7 +164,7 @@
     "HY spread son 3 ayda daralıyor; kredi koşulları kısa vadede riskli varlıkları destekliyor.",
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
-    "VIX 15.30 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "VIX 15.26 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
     "OKX ve Hyperliquid funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü."
   ],
   "risk_factors": [
@@ -180,9 +180,9 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %-0.4, ETH %-2.2.",
+    "Kriptoda spot momentum: BTC 24s %-0.1, ETH %-1.2.",
     "On-chain kullanım teyidi pozitif: BTC aktif adres 7g %+0.6, ETH %+3.8.",
-    "Kraken BTC OI 24 saatte %-6.8; piyasa deleveraging yaşıyor.",
+    "Kraken BTC OI 24 saatte %-8.5; piyasa deleveraging yaşıyor.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 0 risk artırıcı, 11 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
@@ -381,7 +381,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-09-02T17:23:11.772502+00:00"
+    "generated_at": "2026-09-02T19:56:57.104980+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -396,5 +396,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-09-02T17:18:21.626876+00:00"
+  "generated_at": "2026-09-02T19:51:45.627709+00:00"
 }

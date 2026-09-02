@@ -1,96 +1,96 @@
 {
   "movers": [
     {
-      "symbol": "DOGE",
-      "name": "Dogecoin",
-      "coingecko_id": "dogecoin",
+      "symbol": "AXS",
+      "name": "Axie Infinity",
+      "coingecko_id": "axie-infinity",
       "exchange": "Binance Spot",
-      "exchange_symbol": "DOGEUSDT",
-      "price": 0.080876,
-      "change_24h": -1.84306,
-      "volume_zscore_10m": 3.6367074123047445,
+      "exchange_symbol": "AXSUSDT",
+      "price": 0.912217,
+      "change_24h": -0.17315,
+      "volume_zscore_10m": 2.224852919620614,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 19522876.0,
-      "base_volume_mean_20": 5159283.1,
-      "base_volume_stdev_20": 3949614.6573136463,
-      "volume_10m_usd": 1581997.77888,
-      "buyer_share_pct": 82.48513579796764,
-      "taker_buy_10m_usd": 1304913.01623,
-      "taker_sell_10m_usd": 277084.76265000016,
-      "spot_delta_10m_usd": 1027828.2535799998,
-      "price_change_10m_pct": -0.1848428835489746,
+      "base_volume_10m": 21936.77,
+      "base_volume_mean_20": 7587.821,
+      "base_volume_stdev_20": 6449.392170358304,
+      "volume_10m_usd": 20025.40606,
+      "buyer_share_pct": 88.72809074014852,
+      "taker_buy_10m_usd": 17768.16046,
+      "taker_sell_10m_usd": 2257.245600000002,
+      "spot_delta_10m_usd": 15510.914859999997,
+      "price_change_10m_pct": -0.10952902519167917,
       "price_candle_green": false,
       "cvd_last3": [
         {
-          "ts": 1788367800000,
-          "delta_usd": 24935.954280000005,
-          "green": true
-        },
-        {
-          "ts": 1788368400000,
-          "delta_usd": -19315.14731000003,
+          "ts": 1788376800000,
+          "delta_usd": -788.0743599999998,
           "green": false
         },
         {
-          "ts": 1788369000000,
-          "delta_usd": 1027828.2535799998,
+          "ts": 1788377400000,
+          "delta_usd": -2697.24683,
+          "green": false
+        },
+        {
+          "ts": 1788378000000,
+          "delta_usd": 15510.914859999997,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 1,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 12025.593669999997,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 6.4476619936354655,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-09-02T19:40:00+00:00"
+    },
+    {
+      "symbol": "RUNE",
+      "name": "THORChain",
+      "coingecko_id": "thorchain",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "RUNEUSDT",
+      "price": 0.472235,
+      "change_24h": 0.53134,
+      "volume_zscore_10m": 2.8577606310505588,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 40884.0,
+      "base_volume_mean_20": 9870.25,
+      "base_volume_stdev_20": 10852.465970391246,
+      "volume_10m_usd": 19338.250500000002,
+      "buyer_share_pct": 73.4024998797073,
+      "taker_buy_10m_usd": 14194.7593,
+      "taker_sell_10m_usd": 5143.491200000002,
+      "spot_delta_10m_usd": 9051.268099999998,
+      "price_change_10m_pct": -0.21141649048626032,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1788376800000,
+          "delta_usd": 177.1858,
+          "green": true
+        },
+        {
+          "ts": 1788377400000,
+          "delta_usd": -406.8499999999999,
+          "green": false
+        },
+        {
+          "ts": 1788378000000,
+          "delta_usd": 9051.268099999998,
           "green": true
         }
       ],
       "cvd_green_count_3": 2,
       "cvd_green_streak": 1,
-      "cvd_30m_delta_usd": 1033449.0605499998,
+      "cvd_30m_delta_usd": 8821.603899999998,
       "cvd_note": "CVD devam teyidi henüz yok",
-      "signal_score": 7.2352209921015085,
+      "signal_score": 5.548010619021289,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-02T17:10:00+00:00"
-    },
-    {
-      "symbol": "EIGEN",
-      "name": "EigenCloud (prev. EigenLayer)",
-      "coingecko_id": "eigenlayer",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "EIGENUSDT",
-      "price": 0.19614,
-      "change_24h": -2.32773,
-      "volume_zscore_10m": 2.0603662210243066,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 202334.25999999998,
-      "base_volume_mean_20": 88298.1425,
-      "base_volume_stdev_20": 55347.499069028214,
-      "volume_10m_usd": 39705.708189000004,
-      "buyer_share_pct": 72.73423093105984,
-      "taker_buy_10m_usd": 28879.641487,
-      "taker_sell_10m_usd": 10826.066702000004,
-      "spot_delta_10m_usd": 18053.574784999997,
-      "price_change_10m_pct": 0.35769034236075026,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1788367800000,
-          "delta_usd": 2600.5184769999996,
-          "green": true
-        },
-        {
-          "ts": 1788368400000,
-          "delta_usd": 1590.1779909999996,
-          "green": true
-        },
-        {
-          "ts": 1788369000000,
-          "delta_usd": 18053.574784999997,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 22244.271252999995,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 5.383789314130291,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-02T17:10:00+00:00"
+      "signal_time_utc": "2026-09-02T19:40:00+00:00"
     }
   ],
   "window": "10m",
@@ -99,7 +99,7 @@
   "universe_source": "CoinGecko piyasa değeri Top 200",
   "scan_meta": {
     "top200_received": 200,
-    "non_stable_universe": 190,
+    "non_stable_universe": 189,
     "binance_spot_matched": 101,
     "scanned": 101,
     "failed": 0,
@@ -113,5 +113,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-09-02T17:23:20.216917+00:00"
+  "generated_at": "2026-09-02T19:57:07.945431+00:00"
 }
