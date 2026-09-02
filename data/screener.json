@@ -1,50 +1,96 @@
 {
   "movers": [
     {
-      "symbol": "WIF",
-      "name": "dogwifhat",
-      "coingecko_id": "dogwifcoin",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "coingecko_id": "dogecoin",
       "exchange": "Binance Spot",
-      "exchange_symbol": "WIFUSDT",
-      "price": 0.194583,
-      "change_24h": -2.86251,
-      "volume_zscore_10m": 3.6977088151759374,
+      "exchange_symbol": "DOGEUSDT",
+      "price": 0.080876,
+      "change_24h": -1.84306,
+      "volume_zscore_10m": 3.6367074123047445,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 157298.56,
-      "base_volume_mean_20": 27423.5195,
-      "base_volume_stdev_20": 35123.11190296376,
-      "volume_10m_usd": 30723.871366,
-      "buyer_share_pct": 75.63946255717443,
-      "taker_buy_10m_usd": 23239.371178,
-      "taker_sell_10m_usd": 7484.500187999998,
-      "spot_delta_10m_usd": 15754.870990000003,
-      "price_change_10m_pct": 0.5649717514124131,
+      "base_volume_10m": 19522876.0,
+      "base_volume_mean_20": 5159283.1,
+      "base_volume_stdev_20": 3949614.6573136463,
+      "volume_10m_usd": 1581997.77888,
+      "buyer_share_pct": 82.48513579796764,
+      "taker_buy_10m_usd": 1304913.01623,
+      "taker_sell_10m_usd": 277084.76265000016,
+      "spot_delta_10m_usd": 1027828.2535799998,
+      "price_change_10m_pct": -0.1848428835489746,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1788367800000,
+          "delta_usd": 24935.954280000005,
+          "green": true
+        },
+        {
+          "ts": 1788368400000,
+          "delta_usd": -19315.14731000003,
+          "green": false
+        },
+        {
+          "ts": 1788369000000,
+          "delta_usd": 1027828.2535799998,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 1033449.0605499998,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 7.2352209921015085,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-09-02T17:10:00+00:00"
+    },
+    {
+      "symbol": "EIGEN",
+      "name": "EigenCloud (prev. EigenLayer)",
+      "coingecko_id": "eigenlayer",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "EIGENUSDT",
+      "price": 0.19614,
+      "change_24h": -2.32773,
+      "volume_zscore_10m": 2.0603662210243066,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 202334.25999999998,
+      "base_volume_mean_20": 88298.1425,
+      "base_volume_stdev_20": 55347.499069028214,
+      "volume_10m_usd": 39705.708189000004,
+      "buyer_share_pct": 72.73423093105984,
+      "taker_buy_10m_usd": 28879.641487,
+      "taker_sell_10m_usd": 10826.066702000004,
+      "spot_delta_10m_usd": 18053.574784999997,
+      "price_change_10m_pct": 0.35769034236075026,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1788354000000,
-          "delta_usd": 1576.5208750000002,
+          "ts": 1788367800000,
+          "delta_usd": 2600.5184769999996,
           "green": true
         },
         {
-          "ts": 1788354600000,
-          "delta_usd": 20.16216099999997,
+          "ts": 1788368400000,
+          "delta_usd": 1590.1779909999996,
           "green": true
         },
         {
-          "ts": 1788355200000,
-          "delta_usd": 15754.870990000003,
+          "ts": 1788369000000,
+          "delta_usd": 18053.574784999997,
           "green": true
         }
       ],
       "cvd_green_count_3": 3,
       "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 17351.554026,
+      "cvd_30m_delta_usd": 22244.271252999995,
       "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 7.311655070893379,
+      "signal_score": 5.383789314130291,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-02T13:20:00+00:00"
+      "signal_time_utc": "2026-09-02T17:10:00+00:00"
     }
   ],
   "window": "10m",
@@ -53,11 +99,11 @@
   "universe_source": "CoinGecko piyasa değeri Top 200",
   "scan_meta": {
     "top200_received": 200,
-    "non_stable_universe": 189,
+    "non_stable_universe": 190,
     "binance_spot_matched": 101,
     "scanned": 101,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 2,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision",
     "universe_mode": "coingecko_market_cap_top200",
@@ -67,5 +113,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-09-02T13:38:49.136401+00:00"
+  "generated_at": "2026-09-02T17:23:20.216917+00:00"
 }
