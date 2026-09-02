@@ -1,109 +1,16 @@
 {
-  "movers": [
-    {
-      "symbol": "AXS",
-      "name": "Axie Infinity",
-      "coingecko_id": "axie-infinity",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "AXSUSDT",
-      "price": 0.912217,
-      "change_24h": -0.17315,
-      "volume_zscore_10m": 2.224852919620614,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 21936.77,
-      "base_volume_mean_20": 7587.821,
-      "base_volume_stdev_20": 6449.392170358304,
-      "volume_10m_usd": 20025.40606,
-      "buyer_share_pct": 88.72809074014852,
-      "taker_buy_10m_usd": 17768.16046,
-      "taker_sell_10m_usd": 2257.245600000002,
-      "spot_delta_10m_usd": 15510.914859999997,
-      "price_change_10m_pct": -0.10952902519167917,
-      "price_candle_green": false,
-      "cvd_last3": [
-        {
-          "ts": 1788376800000,
-          "delta_usd": -788.0743599999998,
-          "green": false
-        },
-        {
-          "ts": 1788377400000,
-          "delta_usd": -2697.24683,
-          "green": false
-        },
-        {
-          "ts": 1788378000000,
-          "delta_usd": 15510.914859999997,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 1,
-      "cvd_green_streak": 1,
-      "cvd_30m_delta_usd": 12025.593669999997,
-      "cvd_note": "CVD devam teyidi henüz yok",
-      "signal_score": 6.4476619936354655,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-02T19:40:00+00:00"
-    },
-    {
-      "symbol": "RUNE",
-      "name": "THORChain",
-      "coingecko_id": "thorchain",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "RUNEUSDT",
-      "price": 0.472235,
-      "change_24h": 0.53134,
-      "volume_zscore_10m": 2.8577606310505588,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 40884.0,
-      "base_volume_mean_20": 9870.25,
-      "base_volume_stdev_20": 10852.465970391246,
-      "volume_10m_usd": 19338.250500000002,
-      "buyer_share_pct": 73.4024998797073,
-      "taker_buy_10m_usd": 14194.7593,
-      "taker_sell_10m_usd": 5143.491200000002,
-      "spot_delta_10m_usd": 9051.268099999998,
-      "price_change_10m_pct": -0.21141649048626032,
-      "price_candle_green": false,
-      "cvd_last3": [
-        {
-          "ts": 1788376800000,
-          "delta_usd": 177.1858,
-          "green": true
-        },
-        {
-          "ts": 1788377400000,
-          "delta_usd": -406.8499999999999,
-          "green": false
-        },
-        {
-          "ts": 1788378000000,
-          "delta_usd": 9051.268099999998,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 1,
-      "cvd_30m_delta_usd": 8821.603899999998,
-      "cvd_note": "CVD devam teyidi henüz yok",
-      "signal_score": 5.548010619021289,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-02T19:40:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "10m",
   "rule": "Top 200 → TradingView uyumlu 10dk BASE volume Z-score >= 2.0 + taker alıcı payı >= %65 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
   "universe_source": "CoinGecko piyasa değeri Top 200",
   "scan_meta": {
     "top200_received": 200,
-    "non_stable_universe": 189,
-    "binance_spot_matched": 101,
-    "scanned": 101,
+    "non_stable_universe": 190,
+    "binance_spot_matched": 102,
+    "scanned": 102,
     "failed": 0,
-    "signal_count_before_cap": 2,
+    "signal_count_before_cap": 0,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision",
     "universe_mode": "coingecko_market_cap_top200",
@@ -113,5 +20,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-09-02T19:57:07.945431+00:00"
+  "generated_at": "2026-09-02T22:10:55.064412+00:00"
 }
