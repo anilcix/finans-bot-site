@@ -2,16 +2,16 @@
   "barometer": [
     {
       "label": "HY Kredi Spreadi",
-      "value": 2.65,
-      "percentile": 3.689567430025445,
+      "value": 2.66,
+      "percentile": 5.463786531130877,
       "weight": 2.0,
       "invert": true,
-      "level_score": 96.31043256997455,
-      "momentum_score": 53.45239063813631,
-      "change_1m": -0.1299999999999999,
-      "change_3m": -0.0900000000000003,
-      "combined_score": 81.31011789383118,
-      "signal_label": "Güçlü Risk-On",
+      "level_score": 94.53621346886912,
+      "momentum_score": 47.448538003260104,
+      "change_1m": -0.06999999999999984,
+      "change_3m": -0.09999999999999964,
+      "combined_score": 78.05552705590597,
+      "signal_label": "Kırılgan Risk-On",
       "signal_emoji": "🟢"
     },
     {
@@ -59,14 +59,14 @@
     {
       "label": "IG Kredi Spreadi",
       "value": 0.81,
-      "percentile": 36.560509554140125,
+      "percentile": 36.6412213740458,
       "weight": 0.5,
       "invert": true,
-      "level_score": 63.439490445859875,
-      "momentum_score": 19.524916244869544,
+      "level_score": 63.3587786259542,
+      "momentum_score": 19.498820274997968,
       "change_1m": 0.030000000000000027,
       "change_3m": 0.07000000000000006,
-      "combined_score": 48.06938947551326,
+      "combined_score": 48.00779320311952,
       "signal_label": "Nötr / Karışık",
       "signal_emoji": "🟡"
     },
@@ -114,14 +114,14 @@
     },
     {
       "label": "GDPNow Anlık Tahmin",
-      "value": 4.8158,
+      "value": 4.7487,
       "percentile": 88.33333333333333,
       "weight": 0.65,
       "invert": false,
       "level_score": 88.33333333333333,
       "momentum_score": 93.22033898305084,
       "change_1m": null,
-      "change_3m": 3.2758000000000003,
+      "change_3m": 3.2087000000000003,
       "combined_score": 90.04378531073445,
       "signal_label": "Güçlü Risk-On",
       "signal_emoji": "🟢"
@@ -155,7 +155,7 @@
       "signal_emoji": "🟡"
     }
   ],
-  "composite_score": 53.63086873964052,
+  "composite_score": 52.93140565813814,
   "score_method": {
     "level_weight": 0.65,
     "momentum_weight": 0.35
@@ -176,7 +176,7 @@
   "early_warnings": [
     {
       "name": "HY Kredi Spreadi",
-      "value": "265 bps",
+      "value": "266 bps",
       "warn": "400+ bps",
       "crisis": "600+ bps",
       "status": "🟢 Güvenli"
@@ -190,7 +190,7 @@
     },
     {
       "name": "CCC-HY Ayrışması",
-      "value": "fark +95 puan",
+      "value": "fark +93 puan",
       "warn": "30+",
       "crisis": "50+",
       "status": "🔴 KRİZ"
@@ -1040,17 +1040,13 @@
         "value": 7666.60009765625
       },
       {
-        "date": "2026-09-02",
-        "value": 7666.60009765625
+        "date": "2026-09-03",
+        "value": 7744.52001953125
       }
     ]
   },
   "credit_history": {
     "hy": [
-      {
-        "date": "2024-09-06",
-        "value": 3.39
-      },
       {
         "date": "2024-09-09",
         "value": 3.36
@@ -3126,13 +3122,13 @@
       {
         "date": "2026-09-01",
         "value": 2.65
+      },
+      {
+        "date": "2026-09-02",
+        "value": 2.66
       }
     ],
     "ig": [
-      {
-        "date": "2024-09-05",
-        "value": 0.99
-      },
       {
         "date": "2024-09-06",
         "value": 0.99
@@ -5208,13 +5204,13 @@
       {
         "date": "2026-09-01",
         "value": 0.81
+      },
+      {
+        "date": "2026-09-02",
+        "value": 0.81
       }
     ],
     "ccc": [
-      {
-        "date": "2024-09-06",
-        "value": 9.37
-      },
       {
         "date": "2024-09-09",
         "value": 9.29
@@ -7290,6 +7286,10 @@
       {
         "date": "2026-09-01",
         "value": 10.49
+      },
+      {
+        "date": "2026-09-02",
+        "value": 10.53
       }
     ],
     "yield_curve": [
@@ -9678,9 +9678,9 @@
         "raw": 765.1599731445312
       },
       {
-        "date": "2026-09-02",
-        "value": 166.61077259543413,
-        "raw": 765.1599731445312
+        "date": "2026-09-03",
+        "value": 168.27653730181683,
+        "raw": 772.8099975585938
       }
     ],
     "QQQ": [
@@ -9985,9 +9985,9 @@
         "raw": 709.239990234375
       },
       {
-        "date": "2026-09-02",
-        "value": 183.688590593842,
-        "raw": 709.239990234375
+        "date": "2026-09-03",
+        "value": 185.7864479216494,
+        "raw": 717.3400268554688
       }
     ],
     "BTC": [
@@ -10293,8 +10293,8 @@
       },
       {
         "date": "2026-09-03",
-        "value": 127.9830175886803,
-        "raw": 78477.8515625
+        "value": 132.07532361684898,
+        "raw": 80987.2109375
       }
     ]
   },
@@ -10540,10 +10540,10 @@
       "value": 52.740895083271596
     },
     {
-      "date": "2026-09-02",
-      "value": 52.740895083271596
+      "date": "2026-09-03",
+      "value": 51.90777663587704
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-09-03T13:16:12.733735+00:00"
+  "generated_at": "2026-09-03T17:05:03.827957+00:00"
 }
