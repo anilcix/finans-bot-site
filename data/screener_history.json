@@ -2,6 +2,58 @@
   "version": "screener_15m_30m_followthrough_v2",
   "events": [
     {
+      "id": "BFUSD:2026-09-03T13:22:06.559722+00:00",
+      "symbol": "BFUSD",
+      "name": "BFUSD",
+      "exchange_symbol": "BFUSDUSDT",
+      "detected_at": "2026-09-03T13:22:06.559722+00:00",
+      "entry_price": 1.0,
+      "signal_time_utc": "2026-09-03T13:10:00+00:00",
+      "volume_zscore_10m": 4.358178317194624,
+      "buyer_share_pct": 92.6828821331884,
+      "spot_delta_10m_usd": 388882.2173,
+      "cvd_green_streak": 1,
+      "signal_score": 8.976466530513465,
+      "last_seen_at": "2026-09-03T13:22:06.559722+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-03T13:37:06.559722+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-03T13:52:06.559722+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
+      "id": "KAIA:2026-09-03T13:22:06.559722+00:00",
+      "symbol": "KAIA",
+      "name": "Kaia",
+      "exchange_symbol": "KAIAUSDT",
+      "detected_at": "2026-09-03T13:22:06.559722+00:00",
+      "entry_price": 0.0294,
+      "signal_time_utc": "2026-09-03T13:10:00+00:00",
+      "volume_zscore_10m": 3.7340565077393983,
+      "buyer_share_pct": 80.74879429778005,
+      "spot_delta_10m_usd": 6455.524949999999,
+      "cvd_green_streak": 1,
+      "signal_score": 7.158935937517404,
+      "last_seen_at": "2026-09-03T13:22:06.559722+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-03T13:37:06.559722+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-03T13:52:06.559722+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "ETC:2026-09-03T13:12:04.956796+00:00",
       "symbol": "ETC",
       "name": "Ethereum Classic",
@@ -15,7 +67,7 @@
       "cvd_green_streak": 2,
       "signal_score": 6.490077959401895,
       "last_seen_at": "2026-09-03T13:12:04.956796+00:00",
-      "ended_at": null,
+      "ended_at": "2026-09-03T13:22:06.559722+00:00",
       "target_15m_at": "2026-09-03T13:27:04.956796+00:00",
       "price_15m": null,
       "change_15m_pct": null,
@@ -1218,9 +1270,10 @@
   ],
   "meta": {
     "active_symbols": [
-      "ETC"
+      "BFUSD",
+      "KAIA"
     ],
-    "updated_at": "2026-09-03T13:12:15.038088+00:00",
+    "updated_at": "2026-09-03T13:22:13.605846+00:00",
     "measurement": "Coin first screen appearance -> Binance Spot entry price -> exact +15m and +30m target-minute closes from 1m historical klines.",
     "horizons_minutes": [
       15,
@@ -1231,7 +1284,7 @@
   "summary": {
     "15m": {
       "completed": 44,
-      "pending": 1,
+      "pending": 3,
       "up": 24,
       "down": 16,
       "flat": 4,
@@ -1243,7 +1296,7 @@
     },
     "30m": {
       "completed": 44,
-      "pending": 1,
+      "pending": 3,
       "up": 24,
       "down": 17,
       "flat": 3,
@@ -1254,7 +1307,7 @@
       "worst_change_pct": -1.7855756540641199
     },
     "completed": 44,
-    "pending": 1,
+    "pending": 3,
     "up_rate_pct": 54.54545454545454,
     "avg_change_15m_pct": 0.06663733599325816,
     "median_change_15m_pct": 0.0586047328423156,
