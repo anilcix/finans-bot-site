@@ -1,50 +1,50 @@
 {
   "movers": [
     {
-      "symbol": "PAXG",
-      "name": "PAX Gold",
-      "coingecko_id": "pax-gold",
+      "symbol": "JST",
+      "name": "JUST",
+      "coingecko_id": "just",
       "exchange": "Binance Spot",
-      "exchange_symbol": "PAXGUSDT",
-      "price": 4479.99,
-      "change_24h": 1.90383,
-      "volume_zscore_10m": 2.476805914799174,
+      "exchange_symbol": "JSTUSDT",
+      "price": 0.107057,
+      "change_24h": -0.18053,
+      "volume_zscore_10m": 3.9879716653095767,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 106.8341,
-      "base_volume_mean_20": 33.0858,
-      "base_volume_stdev_20": 29.775566813429432,
-      "volume_10m_usd": 478521.792821,
-      "buyer_share_pct": 90.33857679449639,
-      "taker_buy_10m_usd": 432289.777286,
-      "taker_sell_10m_usd": 46232.015534999955,
-      "spot_delta_10m_usd": 386057.7617510001,
-      "price_change_10m_pct": 0.09157959159971085,
+      "base_volume_10m": 562593.5,
+      "base_volume_mean_20": 93072.485,
+      "base_volume_stdev_20": 117734.29061300821,
+      "volume_10m_usd": 60131.915956000004,
+      "buyer_share_pct": 91.657506011166,
+      "taker_buy_10m_usd": 55115.414482,
+      "taker_sell_10m_usd": 5016.501474000004,
+      "spot_delta_10m_usd": 50098.913007999996,
+      "price_change_10m_pct": 0.487713374601384,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1788463200000,
-          "delta_usd": 46285.898188999985,
+          "ts": 1788471000000,
+          "delta_usd": 1355.4613490000006,
           "green": true
         },
         {
-          "ts": 1788463800000,
-          "delta_usd": 419984.49947800004,
+          "ts": 1788471600000,
+          "delta_usd": 471.42214300000023,
           "green": true
         },
         {
-          "ts": 1788464400000,
-          "delta_usd": 386057.7617510001,
+          "ts": 1788472200000,
+          "delta_usd": 50098.913007999996,
           "green": true
         }
       ],
       "cvd_green_count_3": 3,
       "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 852328.1594180001,
+      "cvd_30m_delta_usd": 51925.7965,
       "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 7.560663594248813,
+      "signal_score": 9.203722266426176,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-03T19:40:00+00:00"
+      "signal_time_utc": "2026-09-03T21:50:00+00:00"
     }
   ],
   "window": "10m",
@@ -67,5 +67,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-09-03T19:54:05.304862+00:00"
+  "generated_at": "2026-09-03T22:01:30.810203+00:00"
 }

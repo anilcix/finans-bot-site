@@ -100,15 +100,15 @@
     },
     {
       "label": "Reel Faiz (10Y TIPS)",
-      "value": 2.44,
-      "percentile": 99.14529914529915,
+      "value": 2.45,
+      "percentile": 99.335232668566,
       "weight": 0.35,
       "invert": true,
-      "level_score": 0.8547008547008517,
-      "momentum_score": 36.278188865398164,
-      "change_1m": 0.009999999999999787,
-      "change_3m": 0.3700000000000001,
-      "combined_score": 13.25292165844491,
+      "level_score": 0.6647673314340068,
+      "momentum_score": 34.052443035001176,
+      "change_1m": 0.050000000000000266,
+      "change_3m": 0.3400000000000003,
+      "combined_score": 12.350453827682516,
       "signal_label": "Risk-Off",
       "signal_emoji": "🔴"
     },
@@ -147,15 +147,15 @@
       "weight": 1.5,
       "invert": false,
       "level_score": 69.51566951566952,
-      "momentum_score": 37.43774958891238,
-      "change_1m": -0.04999999999999982,
+      "momentum_score": 40.73232323232324,
+      "change_1m": -0.02999999999999936,
       "change_3m": -0.009999999999999787,
-      "combined_score": 58.28839754130452,
+      "combined_score": 59.44149831649832,
       "signal_label": "Nötr / Karışık",
       "signal_emoji": "🟡"
     }
   ],
-  "composite_score": 52.93140565813814,
+  "composite_score": 53.08261286904978,
   "score_method": {
     "level_weight": 0.65,
     "momentum_weight": 0.35
@@ -198,14 +198,14 @@
   ],
   "liquidity_plumbing": {
     "tga": {
-      "date": "2026-08-26",
-      "value": 950.736,
-      "change": 39.960000000000036
+      "date": "2026-09-02",
+      "value": 967.935,
+      "change": 60.61099999999999
     },
     "fed_assets": {
-      "date": "2026-08-26",
-      "value": 6730.912,
-      "change": -7.277999999999338
+      "date": "2026-09-02",
+      "value": 6737.204,
+      "change": -11.363000000000284
     },
     "rrp": {
       "date": "2026-09-03",
@@ -213,44 +213,44 @@
       "change": -0.948
     },
     "ust10": {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "value": 4.79,
-      "change": 0.08999999999999986
+      "change": 0.16000000000000014
     },
     "ust30": {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "value": 5.27,
-      "change": 0.03999999999999915
+      "change": 0.08999999999999986
     },
     "net_liquidity_proxy": {
-      "value": 5779.474,
-      "change": -60.1190000000006,
-      "change_3w": -60.1190000000006,
+      "value": 5768.744000000001,
+      "change": -26.53599999999915,
+      "change_3w": -26.53599999999915,
       "unit": "$bn",
       "window_days": 21,
       "formula": "Fed assets - TGA - ON RRP",
       "calibration": "common_anchor_21d",
-      "anchor_date": "2026-08-26",
-      "prior_anchor_date": "2026-08-05",
+      "anchor_date": "2026-09-02",
+      "prior_anchor_date": "2026-08-12",
       "current_components": {
-        "fed_assets": 6730.912,
-        "tga": 950.736,
-        "rrp": 0.702
+        "fed_assets": 6737.204,
+        "tga": 967.935,
+        "rrp": 0.525
       },
       "current_dates": {
-        "fed_assets": "2026-08-26",
-        "tga": "2026-08-26",
-        "rrp": "2026-08-26"
+        "fed_assets": "2026-09-02",
+        "tga": "2026-09-02",
+        "rrp": "2026-09-02"
       },
       "prior_components": {
-        "fed_assets": 6748.567,
-        "tga": 907.324,
-        "rrp": 1.65
+        "fed_assets": 6759.955,
+        "tga": 963.95,
+        "rrp": 0.725
       },
       "prior_dates": {
-        "fed_assets": "2026-08-05",
-        "tga": "2026-08-05",
-        "rrp": "2026-08-05"
+        "fed_assets": "2026-08-12",
+        "tga": "2026-08-12",
+        "rrp": "2026-08-12"
       },
       "note": "Fed assets - TGA - ON RRP. Tüm bileşenler ortak son tarihe ve tam 21 gün önceki ortak anchor'a hizalanır; WinCAlgo tipi 3-hafta delta yaklaşımına yakın kalibrasyondur. Mekanik proxy, nedensellik değildir."
     }
@@ -266,8 +266,8 @@
       "1 yıllık reel faiz yüksek; finansal koşulların görünenden daha sıkı kalmasına yol açabilir.",
       "10 yıllık reel faiz yüksek; uzun duration teknoloji/hisse değerlemeleri için yapısal baskı oluşturabilir.",
       "Banka kredi standartları son çeyrekte sıkılaşıyor; piyasa fiyatı rahat olsa da kredi kanalı gecikmeli risk taşıyor.",
-      "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük.",
-      "Net likidite 3 haftada yaklaşık $-60B düştü; kısa vadede risk varlıkları için likidite rüzgârı olumsuz."
+      "TGA son 4 haftada yükseliyor; Hazine nakit birikimi banka rezervlerinden likidite çekebilir.",
+      "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük."
     ],
     "confirmations": [
       "HY spread tarihsel olarak düşük bölgede; piyasa henüz geniş tabanlı kredi stresi fiyatlamıyor.",
@@ -1041,7 +1041,7 @@
       },
       {
         "date": "2026-09-03",
-        "value": 7747.72998046875
+        "value": 7747.7099609375
       }
     ]
   },
@@ -7294,10 +7294,6 @@
     ],
     "yield_curve": [
       {
-        "date": "2024-08-02",
-        "value": -0.08000000000000007
-      },
-      {
         "date": "2024-08-05",
         "value": -0.11000000000000032
       },
@@ -9372,6 +9368,10 @@
       {
         "date": "2026-09-01",
         "value": 0.40000000000000036
+      },
+      {
+        "date": "2026-09-02",
+        "value": 0.40000000000000036
       }
     ]
   },
@@ -9679,8 +9679,8 @@
       },
       {
         "date": "2026-09-03",
-        "value": 168.35057690017692,
-        "raw": 773.1500244140625
+        "value": 168.35492278936445,
+        "raw": 773.1699829101562
       }
     ],
     "QQQ": [
@@ -9986,8 +9986,8 @@
       },
       {
         "date": "2026-09-03",
-        "value": 185.77996675954225,
-        "raw": 717.3150024414062
+        "value": 185.87190441518894,
+        "raw": 717.6699829101562
       }
     ],
     "BTC": [
@@ -10293,8 +10293,8 @@
       },
       {
         "date": "2026-09-03",
-        "value": 132.98068188919706,
-        "raw": 81542.3671875
+        "value": 133.18706943006066,
+        "raw": 81668.921875
       }
     ]
   },
@@ -10337,11 +10337,11 @@
     },
     {
       "date": "2022-07-01",
-      "value": 46.15968058113849
+      "value": 42.974191555151506
     },
     {
       "date": "2022-08-01",
-      "value": 44.66968631563458
+      "value": 44.62376842021977
     },
     {
       "date": "2022-09-01",
@@ -10349,201 +10349,201 @@
     },
     {
       "date": "2022-10-01",
-      "value": 30.39833698422316
+      "value": 30.399537046920315
     },
     {
       "date": "2022-11-01",
-      "value": 33.230492552932866
+      "value": 33.237187019752454
     },
     {
       "date": "2022-12-01",
-      "value": 35.8052024027902
+      "value": 35.838939272012794
     },
     {
       "date": "2023-01-01",
-      "value": 27.554720845555295
+      "value": 27.562598913385788
     },
     {
       "date": "2023-02-01",
-      "value": 30.087540848684515
+      "value": 30.101446620904834
     },
     {
       "date": "2023-03-01",
-      "value": 28.70740718304017
+      "value": 28.70912217893761
     },
     {
       "date": "2023-04-01",
-      "value": 38.898180511894715
+      "value": 38.91097064690571
     },
     {
       "date": "2023-05-01",
-      "value": 35.92491218843169
+      "value": 35.93018125002374
     },
     {
       "date": "2023-06-01",
-      "value": 34.68960093644662
+      "value": 34.6933450646397
     },
     {
       "date": "2023-07-01",
-      "value": 38.343846419637615
+      "value": 38.34894338485267
     },
     {
       "date": "2023-08-01",
-      "value": 33.983905290509526
+      "value": 33.98340572053449
     },
     {
       "date": "2023-09-01",
-      "value": 37.08951248973578
+      "value": 37.09333335778976
     },
     {
       "date": "2023-10-01",
-      "value": 24.964101549564504
+      "value": 24.96511342970421
     },
     {
       "date": "2023-11-01",
-      "value": 37.36479382639145
+      "value": 37.3673216716992
     },
     {
       "date": "2023-12-01",
-      "value": 49.13085866401561
+      "value": 49.13085069693267
     },
     {
       "date": "2024-01-01",
-      "value": 54.669390618065336
+      "value": 54.671000439308365
     },
     {
       "date": "2024-02-01",
-      "value": 45.178676068993155
+      "value": 45.18018095043597
     },
     {
       "date": "2024-03-01",
-      "value": 44.981066745763485
+      "value": 44.98280713629556
     },
     {
       "date": "2024-04-01",
-      "value": 51.61047114762089
+      "value": 51.611190019092824
     },
     {
       "date": "2024-05-01",
-      "value": 46.2776615429883
+      "value": 46.27894270437001
     },
     {
       "date": "2024-06-01",
-      "value": 45.327745731089294
+      "value": 45.32688881253483
     },
     {
       "date": "2024-07-01",
-      "value": 41.71179684123847
+      "value": 41.712580204354204
     },
     {
       "date": "2024-08-01",
-      "value": 39.01040171376501
+      "value": 39.01244236410257
     },
     {
       "date": "2024-09-01",
-      "value": 53.19091850611107
+      "value": 53.19384046038058
     },
     {
       "date": "2024-10-01",
-      "value": 54.063248684985524
+      "value": 54.06601217906271
     },
     {
       "date": "2024-11-01",
-      "value": 54.934002775165496
+      "value": 54.933972961375495
     },
     {
       "date": "2024-12-01",
-      "value": 53.78951490419085
+      "value": 53.78967308357417
     },
     {
       "date": "2025-01-01",
-      "value": 44.07429457644545
+      "value": 44.07491945520271
     },
     {
       "date": "2025-02-01",
-      "value": 48.62565231072077
+      "value": 48.62512548471014
     },
     {
       "date": "2025-03-01",
-      "value": 42.68364466020819
+      "value": 42.684966837114324
     },
     {
       "date": "2025-04-01",
-      "value": 41.68753399939038
+      "value": 41.68980716852095
     },
     {
       "date": "2025-05-01",
-      "value": 38.48686645868803
+      "value": 38.487930335075035
     },
     {
       "date": "2025-06-01",
-      "value": 46.570750266738685
+      "value": 46.57132844235175
     },
     {
       "date": "2025-07-01",
-      "value": 55.549279956517395
+      "value": 55.549741295108355
     },
     {
       "date": "2025-08-01",
-      "value": 46.347855307785395
+      "value": 46.34889686781925
     },
     {
       "date": "2025-09-01",
-      "value": 55.004065877764894
+      "value": 55.00552714372821
     },
     {
       "date": "2025-10-01",
-      "value": 54.70471431940536
+      "value": 54.70610583185122
     },
     {
       "date": "2025-11-01",
-      "value": 51.76569818186415
+      "value": 51.76747925093703
     },
     {
       "date": "2025-12-01",
-      "value": 54.29900394138888
+      "value": 54.30046445902448
     },
     {
       "date": "2026-01-01",
-      "value": 54.76085231615998
+      "value": 54.761915242361404
     },
     {
       "date": "2026-02-01",
-      "value": 50.97494508249349
+      "value": 50.97618086673967
     },
     {
       "date": "2026-03-01",
-      "value": 38.25906439758078
+      "value": 38.26057613876083
     },
     {
       "date": "2026-04-01",
-      "value": 35.326545574856134
+      "value": 35.32690886811586
     },
     {
       "date": "2026-05-01",
-      "value": 51.09577890658191
+      "value": 51.09635527299737
     },
     {
       "date": "2026-06-01",
-      "value": 52.74931946959563
+      "value": 52.74947208786654
     },
     {
       "date": "2026-07-01",
-      "value": 52.877780470385865
+      "value": 52.87750671733783
     },
     {
       "date": "2026-08-01",
-      "value": 46.46711481632788
+      "value": 46.46735270729846
     },
     {
       "date": "2026-09-01",
-      "value": 52.740895083271596
+      "value": 52.740685518227906
     },
     {
       "date": "2026-09-03",
-      "value": 51.90777663587704
+      "value": 51.86753921667107
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-09-03T19:48:27.527337+00:00"
+  "generated_at": "2026-09-03T21:55:58.455040+00:00"
 }
