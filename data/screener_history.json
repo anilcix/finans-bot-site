@@ -2,6 +2,32 @@
   "version": "screener_15m_30m_followthrough_v2",
   "events": [
     {
+      "id": "KITE:2026-09-03T23:53:34.859766+00:00",
+      "symbol": "KITE",
+      "name": "Kite",
+      "exchange_symbol": "KITEUSDT",
+      "detected_at": "2026-09-03T23:53:34.859766+00:00",
+      "entry_price": 0.1347,
+      "signal_time_utc": "2026-09-03T23:40:00+00:00",
+      "volume_zscore_10m": 3.526915271694985,
+      "buyer_share_pct": 73.60417400822723,
+      "spot_delta_10m_usd": 21652.748589999996,
+      "cvd_green_streak": 1,
+      "signal_score": 6.237332672517708,
+      "last_seen_at": "2026-09-03T23:53:34.859766+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-04T00:08:34.859766+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-04T00:23:34.859766+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "JST:2026-09-03T22:01:30.810203+00:00",
       "symbol": "JST",
       "name": "JUST",
@@ -1353,8 +1379,10 @@
     }
   ],
   "meta": {
-    "active_symbols": [],
-    "updated_at": "2026-09-03T23:41:01.236524+00:00",
+    "active_symbols": [
+      "KITE"
+    ],
+    "updated_at": "2026-09-03T23:53:43.804821+00:00",
     "measurement": "Coin first screen appearance -> Binance Spot entry price -> exact +15m and +30m target-minute closes from 1m historical klines.",
     "horizons_minutes": [
       15,
@@ -1365,7 +1393,7 @@
   "summary": {
     "15m": {
       "completed": 50,
-      "pending": 0,
+      "pending": 1,
       "up": 25,
       "down": 19,
       "flat": 6,
@@ -1377,7 +1405,7 @@
     },
     "30m": {
       "completed": 50,
-      "pending": 0,
+      "pending": 1,
       "up": 26,
       "down": 20,
       "flat": 4,
@@ -1388,7 +1416,7 @@
       "worst_change_pct": -1.7855756540641199
     },
     "completed": 50,
-    "pending": 0,
+    "pending": 1,
     "up_rate_pct": 50.0,
     "avg_change_15m_pct": 0.05156324640075738,
     "median_change_15m_pct": 0.020644095788602268,
