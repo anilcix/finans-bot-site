@@ -2,6 +2,34 @@
   "version": "screener_signal_close_followthrough_v3",
   "events": [
     {
+      "id": "FLOKI:2026-09-04T17:40:00+00:00",
+      "symbol": "FLOKI",
+      "name": "FLOKI",
+      "exchange_symbol": "FLOKIUSDT",
+      "detected_at": "2026-09-04T17:46:16.643633+00:00",
+      "signal_candle_close_utc": "2026-09-04T17:40:00+00:00",
+      "detection_delay_seconds": 376.643633,
+      "entry_price": 2.477e-05,
+      "signal_time_utc": "2026-09-04T17:30:00+00:00",
+      "volume_zscore_10m": 2.960280468590375,
+      "buyer_share_pct": 72.93006247912022,
+      "spot_delta_10m_usd": 123150.85010424,
+      "cvd_green_streak": 2,
+      "signal_score": 5.953286716502398,
+      "last_seen_at": "2026-09-04T17:46:16.643633+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-04T17:55:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-04T18:10:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "GNO:2026-09-04T14:30:00+00:00",
       "symbol": "GNO",
       "name": "Gnosis",
@@ -1944,8 +1972,10 @@
     }
   ],
   "meta": {
-    "active_symbols": [],
-    "updated_at": "2026-09-04T15:09:05.086309+00:00",
+    "active_symbols": [
+      "FLOKI"
+    ],
+    "updated_at": "2026-09-04T17:46:23.483638+00:00",
     "measurement": "New events: actual qualifying 10m candle close -> exact Binance Spot close price -> +15m/+30m boundary closes. Legacy events keep their original anchors.",
     "horizons_minutes": [
       15,
@@ -1956,7 +1986,7 @@
   "summary": {
     "15m": {
       "completed": 71,
-      "pending": 0,
+      "pending": 1,
       "up": 34,
       "down": 31,
       "flat": 6,
@@ -1968,7 +1998,7 @@
     },
     "30m": {
       "completed": 71,
-      "pending": 0,
+      "pending": 1,
       "up": 34,
       "down": 33,
       "flat": 4,
@@ -1979,7 +2009,7 @@
       "worst_change_pct": -1.7855756540641199
     },
     "completed": 71,
-    "pending": 0,
+    "pending": 1,
     "up_rate_pct": 47.88732394366197,
     "avg_change_15m_pct": 0.06448192122981726,
     "median_change_15m_pct": 0.0,

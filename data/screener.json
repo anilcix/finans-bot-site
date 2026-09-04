@@ -1,5 +1,52 @@
 {
-  "movers": [],
+  "movers": [
+    {
+      "symbol": "FLOKI",
+      "name": "FLOKI",
+      "coingecko_id": "floki",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "FLOKIUSDT",
+      "price": 2.472e-05,
+      "change_24h": -4.72257,
+      "volume_zscore_10m": 2.960280468590375,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 10876695246.0,
+      "base_volume_mean_20": 1957796781.45,
+      "base_volume_stdev_20": 3012855896.318836,
+      "volume_10m_usd": 268535.79273144004,
+      "buyer_share_pct": 72.93006247912022,
+      "taker_buy_10m_usd": 195843.32141784002,
+      "taker_sell_10m_usd": 72692.47131360002,
+      "spot_delta_10m_usd": 123150.85010424,
+      "price_change_10m_pct": -0.7214428857715505,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1788541800000,
+          "delta_usd": -9750.35153349,
+          "green": false
+        },
+        {
+          "ts": 1788542400000,
+          "delta_usd": 1878.0216308099998,
+          "green": true
+        },
+        {
+          "ts": 1788543000000,
+          "delta_usd": 123150.85010424,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 2,
+      "cvd_30m_delta_usd": 115278.52020156001,
+      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
+      "signal_score": 5.953286716502398,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-09-04T17:30:00+00:00"
+    }
+  ],
   "window": "10m",
   "rule": "Top 200 → TradingView uyumlu 10dk BASE volume Z-score >= 2.0 + taker alıcı payı >= %65 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -7,10 +54,10 @@
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 190,
-    "binance_spot_matched": 103,
-    "scanned": 103,
+    "binance_spot_matched": 102,
+    "scanned": 102,
     "failed": 0,
-    "signal_count_before_cap": 0,
+    "signal_count_before_cap": 1,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision",
     "universe_mode": "coingecko_market_cap_top200",
@@ -20,5 +67,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-09-04T15:08:58.208941+00:00"
+  "generated_at": "2026-09-04T17:46:16.643633+00:00"
 }
