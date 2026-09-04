@@ -1,50 +1,50 @@
 {
   "movers": [
     {
-      "symbol": "币安人生",
-      "name": "币安人生 (BinanceLife)",
-      "coingecko_id": "bianrensheng",
+      "symbol": "GNO",
+      "name": "Gnosis",
+      "coingecko_id": "gnosis",
       "exchange": "Binance Spot",
-      "exchange_symbol": "币安人生USDT",
-      "price": 0.496197,
-      "change_24h": 1.22302,
-      "volume_zscore_10m": 2.9132574643066422,
+      "exchange_symbol": "GNOUSDT",
+      "price": 117.73,
+      "change_24h": 0.57871,
+      "volume_zscore_10m": 2.9917074241050874,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 34521.3,
-      "base_volume_mean_20": 13364.36,
-      "base_volume_stdev_20": 7262.296676217517,
-      "volume_10m_usd": 17121.52825,
-      "buyer_share_pct": 82.05323108350447,
-      "taker_buy_10m_usd": 14048.76714,
-      "taker_sell_10m_usd": 3072.7611099999995,
-      "spot_delta_10m_usd": 10976.00603,
-      "price_change_10m_pct": 0.545564760557693,
+      "base_volume_10m": 66.514,
+      "base_volume_mean_20": 15.15255,
+      "base_volume_stdev_20": 17.167938811852167,
+      "volume_10m_usd": 7835.82293,
+      "buyer_share_pct": 69.11495548560079,
+      "taker_buy_10m_usd": 5415.72553,
+      "taker_sell_10m_usd": 2420.0974000000006,
+      "spot_delta_10m_usd": 2995.628129999999,
+      "price_change_10m_pct": 0.13590418754778621,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1788519600000,
-          "delta_usd": 5476.22745,
+          "ts": 1788530400000,
+          "delta_usd": 279.2838499999999,
           "green": true
         },
         {
-          "ts": 1788520200000,
-          "delta_usd": 2559.922450000002,
+          "ts": 1788531000000,
+          "delta_usd": 56.87025,
           "green": true
         },
         {
-          "ts": 1788520800000,
-          "delta_usd": 10976.00603,
+          "ts": 1788531600000,
+          "delta_usd": 2995.628129999999,
           "green": true
         }
       ],
       "cvd_green_count_3": 3,
       "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 19012.15593,
+      "cvd_30m_delta_usd": 3331.782229999999,
       "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 7.168580572657089,
+      "signal_score": 5.953202972665166,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-04T11:20:00+00:00"
+      "signal_time_utc": "2026-09-04T14:20:00+00:00"
     }
   ],
   "window": "10m",
@@ -54,8 +54,8 @@
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 190,
-    "binance_spot_matched": 102,
-    "scanned": 102,
+    "binance_spot_matched": 103,
+    "scanned": 103,
     "failed": 0,
     "signal_count_before_cap": 1,
     "max_results": 10,
@@ -67,5 +67,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-09-04T11:32:34.813680+00:00"
+  "generated_at": "2026-09-04T14:29:57.796508+00:00"
 }
