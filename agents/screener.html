@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://project-alpha-terminal.onrender.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'; upgrade-insecure-requests">
 <title>Tarayıcı — Piyasa İstihbarat Ağı</title>
 <link rel="stylesheet" href="../style.css">
 <style>
@@ -39,5 +39,5 @@ function sourceCard(){return `<div class="card source-card"><h2>Veri Kaynakları
 async function load(){try{const ts=Date.now();const [dr,hr]=await Promise.all([fetch('../data/screener.json?t='+ts,{cache:'no-store'}),fetch('../data/screener_history.json?t='+ts,{cache:'no-store'}).catch(()=>null)]);if(!dr.ok)throw new Error('tarayıcı verisi alınamadı');const d=await dr.json();if(!d||!d.generated_at)throw new Error('tarayıcı verisi geçersiz');let h={events:[],summary:{}};if(hr&&hr.ok)h=await hr.json();const age=Date.now()-new Date(d.generated_at).getTime();updated.className='updated '+(age<=25*60*1000?'fresh':'stale');updated.textContent='Güncelleme: '+new Date(d.generated_at).toLocaleString('tr-TR');content.innerHTML=activeCard(d)+historyCard(h)+methodCard()+sourceCard()}catch(e){content.innerHTML=`<div class="error-box">⚠️ ${e.message}</div>`+sourceCard()}}
 load();setInterval(load,600000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)load()});
 </script>
-</body>
+<script src="../screener_live.js"></script></body>
 </html>
