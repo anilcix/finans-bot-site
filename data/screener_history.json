@@ -2,6 +2,62 @@
   "version": "screener_signal_close_followthrough_v3",
   "events": [
     {
+      "id": "AVAX:2026-09-04T19:50:00+00:00",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "exchange_symbol": "AVAXUSDT",
+      "detected_at": "2026-09-04T19:57:07.801835+00:00",
+      "signal_candle_close_utc": "2026-09-04T19:50:00+00:00",
+      "detection_delay_seconds": 427.801835,
+      "entry_price": 7.389,
+      "signal_time_utc": "2026-09-04T19:40:00+00:00",
+      "volume_zscore_10m": 2.1309403748745046,
+      "buyer_share_pct": 73.49370041135361,
+      "spot_delta_10m_usd": 59237.41335000002,
+      "cvd_green_streak": 1,
+      "signal_score": 4.8303104160098655,
+      "last_seen_at": "2026-09-04T19:57:07.801835+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-04T20:05:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-04T20:20:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
+      "id": "LDO:2026-09-04T19:50:00+00:00",
+      "symbol": "LDO",
+      "name": "Lido DAO",
+      "exchange_symbol": "LDOUSDT",
+      "detected_at": "2026-09-04T19:57:07.801835+00:00",
+      "signal_candle_close_utc": "2026-09-04T19:50:00+00:00",
+      "detection_delay_seconds": 427.801835,
+      "entry_price": 0.3842,
+      "signal_time_utc": "2026-09-04T19:40:00+00:00",
+      "volume_zscore_10m": 2.098058204069326,
+      "buyer_share_pct": 71.71153332554077,
+      "spot_delta_10m_usd": 9820.758073,
+      "cvd_green_streak": 3,
+      "signal_score": 5.319211536623403,
+      "last_seen_at": "2026-09-04T19:57:07.801835+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-04T20:05:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-04T20:20:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "FLOKI:2026-09-04T17:40:00+00:00",
       "symbol": "FLOKI",
       "name": "FLOKI",
@@ -1973,8 +2029,11 @@
     }
   ],
   "meta": {
-    "active_symbols": [],
-    "updated_at": "2026-09-04T18:23:43.962915+00:00",
+    "active_symbols": [
+      "AVAX",
+      "LDO"
+    ],
+    "updated_at": "2026-09-04T19:57:14.491428+00:00",
     "measurement": "New events: actual qualifying 10m candle close -> exact Binance Spot close price -> +15m/+30m boundary closes. Legacy events keep their original anchors.",
     "horizons_minutes": [
       15,
@@ -1985,7 +2044,7 @@
   "summary": {
     "15m": {
       "completed": 72,
-      "pending": 0,
+      "pending": 2,
       "up": 34,
       "down": 32,
       "flat": 6,
@@ -1997,7 +2056,7 @@
     },
     "30m": {
       "completed": 72,
-      "pending": 0,
+      "pending": 2,
       "up": 35,
       "down": 33,
       "flat": 4,
@@ -2008,7 +2067,7 @@
       "worst_change_pct": -1.7855756540641199
     },
     "completed": 72,
-    "pending": 0,
+    "pending": 2,
     "up_rate_pct": 47.22222222222222,
     "avg_change_15m_pct": 0.058539911860922146,
     "median_change_15m_pct": 0.0,
