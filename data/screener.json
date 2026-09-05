@@ -1,96 +1,96 @@
 {
   "movers": [
     {
-      "symbol": "CFX",
-      "name": "Conflux",
-      "coingecko_id": "conflux-token",
+      "symbol": "IOTA",
+      "name": "IOTA",
+      "coingecko_id": "iota",
       "exchange": "Binance Spot",
-      "exchange_symbol": "CFXUSDT",
-      "price": 0.04758116,
-      "change_24h": 0.24861,
-      "volume_zscore_10m": 4.170141736768452,
+      "exchange_symbol": "IOTAUSDT",
+      "price": 0.03940944,
+      "change_24h": -3.32546,
+      "volume_zscore_10m": 2.823358353411947,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 874746.0,
-      "base_volume_mean_20": 89729.15,
-      "base_volume_stdev_20": 188247.0427991566,
-      "volume_10m_usd": 41577.423729999995,
-      "buyer_share_pct": 87.96019933195606,
-      "taker_buy_10m_usd": 36571.58479,
-      "taker_sell_10m_usd": 5005.838939999994,
-      "spot_delta_10m_usd": 31565.745850000007,
-      "price_change_10m_pct": 0.38006756756756577,
+      "base_volume_10m": 423908.0,
+      "base_volume_mean_20": 101958.7,
+      "base_volume_stdev_20": 114030.6187526403,
+      "volume_10m_usd": 16769.6863,
+      "buyer_share_pct": 94.5637009321993,
+      "taker_buy_10m_usd": 15858.036,
+      "taker_sell_10m_usd": 911.6503000000012,
+      "spot_delta_10m_usd": 14946.385699999999,
+      "price_change_10m_pct": 0.25316455696202667,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1788585600000,
-          "delta_usd": 316.15204,
+          "ts": 1788595800000,
+          "delta_usd": 308.6781000000001,
           "green": true
         },
         {
-          "ts": 1788586200000,
-          "delta_usd": -90.73760000000001,
-          "green": false
-        },
-        {
-          "ts": 1788586800000,
-          "delta_usd": 31565.745850000007,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 1,
-      "cvd_30m_delta_usd": 31791.160290000007,
-      "cvd_note": "CVD devam teyidi henüz yok",
-      "signal_score": 8.316161669964059,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-05T05:40:00+00:00"
-    },
-    {
-      "symbol": "APT",
-      "name": "Aptos",
-      "coingecko_id": "aptos",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "APTUSDT",
-      "price": 0.596987,
-      "change_24h": 1.19537,
-      "volume_zscore_10m": 3.7420835296604835,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 174088.2,
-      "base_volume_mean_20": 34693.5225,
-      "base_volume_stdev_20": 37250.55210423034,
-      "volume_10m_usd": 103833.14473,
-      "buyer_share_pct": 78.46136804567143,
-      "taker_buy_10m_usd": 81468.90583999999,
-      "taker_sell_10m_usd": 22364.238890000008,
-      "spot_delta_10m_usd": 59104.666949999984,
-      "price_change_10m_pct": 1.1824324324324342,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1788585600000,
-          "delta_usd": 311.81682999999975,
+          "ts": 1788596400000,
+          "delta_usd": 7772.775599999999,
           "green": true
         },
         {
-          "ts": 1788586200000,
-          "delta_usd": 206.83230999999796,
-          "green": true
-        },
-        {
-          "ts": 1788586800000,
-          "delta_usd": 59104.666949999984,
+          "ts": 1788597000000,
+          "delta_usd": 14946.385699999999,
           "green": true
         }
       ],
       "cvd_green_count_3": 3,
       "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 59623.31608999998,
+      "cvd_30m_delta_usd": 23027.839399999997,
       "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 7.6382203342276265,
+      "signal_score": 8.329728446631876,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-05T05:40:00+00:00"
+      "signal_time_utc": "2026-09-05T08:30:00+00:00"
+    },
+    {
+      "symbol": "EIGEN",
+      "name": "EigenCloud (prev. EigenLayer)",
+      "coingecko_id": "eigenlayer",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "EIGENUSDT",
+      "price": 0.19925,
+      "change_24h": -1.80246,
+      "volume_zscore_10m": 3.838345862114473,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 310341.05000000005,
+      "base_volume_mean_20": 60074.249,
+      "base_volume_stdev_20": 65201.732722994566,
+      "volume_10m_usd": 61870.517113,
+      "buyer_share_pct": 82.45921046016326,
+      "taker_buy_10m_usd": 51017.939919000004,
+      "taker_sell_10m_usd": 10852.577193999998,
+      "spot_delta_10m_usd": 40165.362725000006,
+      "price_change_10m_pct": -0.34895314057826754,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1788595800000,
+          "delta_usd": 1280.545013,
+          "green": true
+        },
+        {
+          "ts": 1788596400000,
+          "delta_usd": 1934.0247960000002,
+          "green": true
+        },
+        {
+          "ts": 1788597000000,
+          "delta_usd": 40165.362725000006,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 3,
+      "cvd_green_streak": 3,
+      "cvd_30m_delta_usd": 43379.93253400001,
+      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
+      "signal_score": 8.1342669081308,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-09-05T08:30:00+00:00"
     }
   ],
   "window": "10m",
@@ -113,5 +113,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-09-05T05:50:34.185140+00:00"
+  "generated_at": "2026-09-05T08:40:30.012985+00:00"
 }
