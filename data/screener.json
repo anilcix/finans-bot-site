@@ -1,96 +1,50 @@
 {
   "movers": [
     {
-      "symbol": "2Z",
-      "name": "DoubleZero",
-      "coingecko_id": "doublezero",
+      "symbol": "ETHFI",
+      "name": "Ether.fi",
+      "coingecko_id": "ether-fi",
       "exchange": "Binance Spot",
-      "exchange_symbol": "2ZUSDT",
-      "price": 0.051813,
-      "change_24h": -3.91512,
-      "volume_zscore_10m": 3.2232794637545217,
+      "exchange_symbol": "ETHFIUSDT",
+      "price": 0.557009,
+      "change_24h": -3.15983,
+      "volume_zscore_10m": 2.6028976072789534,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 128986.0,
-      "base_volume_mean_20": 26838.75,
-      "base_volume_stdev_20": 31690.47274635549,
-      "volume_10m_usd": 6667.22948,
-      "buyer_share_pct": 97.8270725428818,
-      "taker_buy_10m_usd": 6522.35542,
-      "taker_sell_10m_usd": 144.8740600000001,
-      "spot_delta_10m_usd": 6377.48136,
-      "price_change_10m_pct": 0.562669771051616,
+      "base_volume_10m": 62490.100000000006,
+      "base_volume_mean_20": 23039.22,
+      "base_volume_stdev_20": 15156.523979151685,
+      "volume_10m_usd": 34823.75174,
+      "buyer_share_pct": 94.11668362071778,
+      "taker_buy_10m_usd": 32774.960250000004,
+      "taker_sell_10m_usd": 2048.791489999996,
+      "spot_delta_10m_usd": 30726.168760000008,
+      "price_change_10m_pct": 0.03591309032144885,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1788568800000,
-          "delta_usd": 205.54892999999993,
+          "ts": 1788581400000,
+          "delta_usd": 1466.6447699999999,
           "green": true
         },
         {
-          "ts": 1788569400000,
-          "delta_usd": 264.07668999999987,
+          "ts": 1788582000000,
+          "delta_usd": 111.0265100000006,
           "green": true
         },
         {
-          "ts": 1788570000000,
-          "delta_usd": 6377.48136,
+          "ts": 1788582600000,
+          "delta_usd": 30726.168760000008,
           "green": true
         }
       ],
       "cvd_green_count_3": 3,
       "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 6847.10698,
+      "cvd_30m_delta_usd": 32303.84004000001,
       "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 9.0559867180427,
+      "signal_score": 8.064565969350731,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-05T01:00:00+00:00"
-    },
-    {
-      "symbol": "PAXG",
-      "name": "PAX Gold",
-      "coingecko_id": "pax-gold",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "PAXGUSDT",
-      "price": 4436.73,
-      "change_24h": -0.90092,
-      "volume_zscore_10m": 2.481467793113721,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 12.324,
-      "base_volume_mean_20": 3.810335,
-      "base_volume_stdev_20": 3.430898850924492,
-      "volume_10m_usd": 54628.370191,
-      "buyer_share_pct": 93.74516279535109,
-      "taker_buy_10m_usd": 51211.454568,
-      "taker_sell_10m_usd": 3416.915623000001,
-      "spot_delta_10m_usd": 47794.538945,
-      "price_change_10m_pct": 0.056406033189304594,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1788568800000,
-          "delta_usd": 6586.633527,
-          "green": true
-        },
-        {
-          "ts": 1788569400000,
-          "delta_usd": 7822.313974999999,
-          "green": true
-        },
-        {
-          "ts": 1788570000000,
-          "delta_usd": 47794.538945,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 62203.486447,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 7.90598407264883,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-05T01:00:00+00:00"
+      "signal_time_utc": "2026-09-05T04:30:00+00:00"
     },
     {
       "symbol": "ONDO",
@@ -98,183 +52,91 @@
       "coingecko_id": "ondo-finance",
       "exchange": "Binance Spot",
       "exchange_symbol": "ONDOUSDT",
-      "price": 0.365268,
-      "change_24h": 0.92987,
-      "volume_zscore_10m": 3.146698800694896,
+      "price": 0.375099,
+      "change_24h": 2.92059,
+      "volume_zscore_10m": 4.160864199629006,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 714710.7,
-      "base_volume_mean_20": 174063.94,
-      "base_volume_stdev_20": 171813.95304838428,
-      "volume_10m_usd": 261220.41124000002,
-      "buyer_share_pct": 74.70170611235885,
-      "taker_buy_10m_usd": 195136.10391,
-      "taker_sell_10m_usd": 66084.30733000001,
-      "spot_delta_10m_usd": 129051.79658,
-      "price_change_10m_pct": 0.4943696786597229,
+      "base_volume_10m": 1959605.2,
+      "base_volume_mean_20": 338357.255,
+      "base_volume_stdev_20": 389642.11933293927,
+      "volume_10m_usd": 726972.5567900001,
+      "buyer_share_pct": 78.57737654119073,
+      "taker_buy_10m_usd": 571235.9633,
+      "taker_sell_10m_usd": 155736.59349000012,
+      "spot_delta_10m_usd": 415499.36980999983,
+      "price_change_10m_pct": 1.6317650258362626,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1788568800000,
-          "delta_usd": -14742.87427000003,
+          "ts": 1788581400000,
+          "delta_usd": -4293.210729999999,
           "green": false
         },
         {
-          "ts": 1788569400000,
-          "delta_usd": 5923.635280000017,
+          "ts": 1788582000000,
+          "delta_usd": 9632.294399999999,
           "green": true
         },
         {
-          "ts": 1788570000000,
-          "delta_usd": 129051.79658,
+          "ts": 1788582600000,
+          "delta_usd": 415499.36980999983,
           "green": true
         }
       ],
       "cvd_green_count_3": 2,
       "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 120232.55758999998,
+      "cvd_30m_delta_usd": 420838.45347999985,
       "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 6.316869411930781,
+      "signal_score": 7.718601853748079,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-05T01:00:00+00:00"
+      "signal_time_utc": "2026-09-05T04:30:00+00:00"
     },
     {
-      "symbol": "TWT",
-      "name": "Trust Wallet",
-      "coingecko_id": "trust-wallet-token",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "coingecko_id": "jupiter-exchange-solana",
       "exchange": "Binance Spot",
-      "exchange_symbol": "TWTUSDT",
-      "price": 0.643087,
-      "change_24h": 10.24461,
-      "volume_zscore_10m": 2.023695890123752,
+      "exchange_symbol": "JUPUSDT",
+      "price": 0.217241,
+      "change_24h": -3.44013,
+      "volume_zscore_10m": 2.0822365887547427,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 44290.0,
-      "base_volume_mean_20": 17751.9,
-      "base_volume_stdev_20": 13113.679841676782,
-      "volume_10m_usd": 28333.6266,
-      "buyer_share_pct": 85.83508190935218,
-      "taker_buy_10m_usd": 24320.1916,
-      "taker_sell_10m_usd": 4013.4350000000013,
-      "spot_delta_10m_usd": 20306.756599999997,
-      "price_change_10m_pct": 0.9905660377358405,
+      "base_volume_10m": 294181.6,
+      "base_volume_mean_20": 91103.295,
+      "base_volume_stdev_20": 97528.92927573067,
+      "volume_10m_usd": 63836.882540000006,
+      "buyer_share_pct": 86.61639005531549,
+      "taker_buy_10m_usd": 55293.20318,
+      "taker_sell_10m_usd": 8543.67936000001,
+      "spot_delta_10m_usd": 46749.52381999999,
+      "price_change_10m_pct": 0.1845869866174299,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1788568800000,
-          "delta_usd": -354.8957999999998,
-          "green": false
-        },
-        {
-          "ts": 1788569400000,
-          "delta_usd": 1209.4079000000002,
+          "ts": 1788581400000,
+          "delta_usd": 3303.983549999997,
           "green": true
         },
         {
-          "ts": 1788570000000,
-          "delta_usd": 20306.756599999997,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 21161.268699999997,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 6.307204081058971,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-05T01:00:00+00:00"
-    },
-    {
-      "symbol": "ASTER",
-      "name": "Aster",
-      "coingecko_id": "aster-2",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "ASTERUSDT",
-      "price": 0.743476,
-      "change_24h": 3.9269,
-      "volume_zscore_10m": 3.9586142142987994,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 943755.31,
-      "base_volume_mean_20": 120581.302,
-      "base_volume_stdev_20": 207944.9937371104,
-      "volume_10m_usd": 705756.09707,
-      "buyer_share_pct": 66.45364338573789,
-      "taker_buy_10m_usd": 469000.63992,
-      "taker_sell_10m_usd": 236755.45715000003,
-      "spot_delta_10m_usd": 232245.18276999996,
-      "price_change_10m_pct": 0.13422818791946067,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1788568800000,
-          "delta_usd": -50172.30265999999,
-          "green": false
-        },
-        {
-          "ts": 1788569400000,
-          "delta_usd": 242583.29479000007,
+          "ts": 1788582000000,
+          "delta_usd": 13812.190709999999,
           "green": true
         },
         {
-          "ts": 1788570000000,
-          "delta_usd": 232245.18276999996,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 424656.17490000004,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 6.3039785528725885,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-05T01:00:00+00:00"
-    },
-    {
-      "symbol": "POL",
-      "name": "POL (ex-MATIC)",
-      "coingecko_id": "polygon-ecosystem-token",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "POLUSDT",
-      "price": 0.093383,
-      "change_24h": -1.25028,
-      "volume_zscore_10m": 2.7476299107228717,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 275797.19999999995,
-      "base_volume_mean_20": 112406.355,
-      "base_volume_stdev_20": 59466.10362711243,
-      "volume_10m_usd": 25713.679967999997,
-      "buyer_share_pct": 66.08840985478662,
-      "taker_buy_10m_usd": 16993.762206,
-      "taker_sell_10m_usd": 8719.917761999997,
-      "spot_delta_10m_usd": 8273.844444000002,
-      "price_change_10m_pct": 0.3870967741935516,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1788568800000,
-          "delta_usd": 929.9351420000003,
-          "green": true
-        },
-        {
-          "ts": 1788569400000,
-          "delta_usd": 11937.543797999999,
-          "green": true
-        },
-        {
-          "ts": 1788570000000,
-          "delta_usd": 8273.844444000002,
+          "ts": 1788582600000,
+          "delta_usd": 46749.52381999999,
           "green": true
         }
       ],
       "cvd_green_count_3": 3,
       "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 21141.323384000003,
+      "cvd_30m_delta_usd": 63865.69807999999,
       "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 5.406470896201533,
+      "signal_score": 6.793875594286292,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-05T01:00:00+00:00"
+      "signal_time_utc": "2026-09-05T04:30:00+00:00"
     }
   ],
   "window": "10m",
@@ -287,7 +149,7 @@
     "binance_spot_matched": 103,
     "scanned": 103,
     "failed": 0,
-    "signal_count_before_cap": 6,
+    "signal_count_before_cap": 3,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision",
     "universe_mode": "coingecko_market_cap_top200",
@@ -297,5 +159,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-09-05T01:15:56.161953+00:00"
+  "generated_at": "2026-09-05T04:46:00.804703+00:00"
 }
