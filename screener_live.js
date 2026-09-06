@@ -48,6 +48,8 @@
     return Number.isFinite(t)&&Date.now()-t>STALE_MS;
   }
 
+  // Add the exact qualifying 10m candle to the existing scanner table. If the
+  // GitHub fallback is stale, do not present old rows as current active signals.
   const baseActiveCard=window.activeCard;
   if(typeof baseActiveCard==='function'){
     window.activeCard=function(d){
