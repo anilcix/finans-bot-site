@@ -61,13 +61,80 @@
 
   function slug(s){return String(s||'section').toLocaleLowerCase('tr-TR').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9ğüşöçıİĞÜŞÖÇ]+/gi,'-').replace(/^-+|-+$/g,'').slice(0,64)||'section'}
   function go(id){const el=document.getElementById(id);if(!el)return;el.scrollIntoView({behavior:'smooth',block:'start'});try{history.replaceState(null,'','#'+id)}catch(e){}}
-  function setActive(id){nav.querySelectorAll('.section-tree-btn').forEach(b=>b.classList.toggle('active',b.dataset.target===id));if(select.value!==id)select.value=id}
-  function headings(){return Array.from(content.querySelectorAll('.card > h2,.card h2')).filter((h,i,a)=>a.indexOf(h)===i&&h.offsetParent!==null)}
-  function rebuild(){const hs=headings();if(hs.length<2){nav.style.display='none';mobile.style.display='none';return}nav.style.removeProperty('display');mobile.style.removeProperty('display');const used=new Set();sections=hs.map((h,i)=>{const card=h.closest('.card')||h.parentElement;let id=card.id||slug(h.textContent);const base=id;let n=2;while(used.has(id)||(!card.id&&document.getElementById(id)&&document.getElementById(id)!==card)){id=base+'-'+n++}used.add(id);card.id=id;return{id,label:h.textContent.trim(),el:card}});list.innerHTML='';select.innerHTML='';sections.forEach((s,i)=>{const b=document.createElement('button');b.type='button';b.className='section-tree-btn';b.dataset.target=s.id;b.textContent=s.label;b.addEventListener('click',()=>go(s.id));list.appendChild(b);const o=document.createElement('option');o.value=s.id;o.textContent=s.label;select.appendChild(o)});select.onchange=()=>go(select.value);if(io)io.disconnect();io=new IntersectionObserver(entries=>{const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>Math.abs(a.boundingClientRect.top)-Math.abs(b.boundingClientRect.top));if(visible[0])setActive(visible[0].target.id)},{root:null,rootMargin:'-12% 0px -72% 0px',threshold:[0,.01]});sections.forEach(s=>io.observe(s.el));const hash=location.hash&&location.hash.slice(1);if(hash&&sections.some(s=>s.id===hash))setActive(hash);else if(sections[0])setActive(sections[0].id)}
+  function setActive(id){
+    nav.querySelectorAll('.section-tree-btn').forEach(b=>b.classList.toggle('active',b.dataset.target===id));
+    if(select.value!==id)select.value=id;
+  }
+  function headings(){
+    return Array.from(content.querySelectorAll('.card > h2,.card h2')).filter((h,i,a)=>a.indexOf(h)===i && h.offsetParent!==null);
+  }
+  function rebuild(){
+    const hs=headings();
+    if(hs.length<2){nav.style.display='none';mobile.style.display='none';return}
+    nav.style.removeProperty('display');mobile.style.removeProperty('display');
+    const used=new Set();sections=hs.map((h,i)=>{
+      const card=h.closest('.card')||h.parentElement;let id=card.id||slug(h.textContent);
+      const base=id;let n=2;while(used.has(id)||(!card.id&&document.getElementById(id)&&document.getElementById(id)!==card)){id=base+'-'+n++}
+      used.add(id);card.id=id;return{id,label:h.textContent.trim(),el:card};
+    });
+    list.innerHTML='';select.innerHTML='';
+    sections.forEach((s,i)=>{
+      const b=document.createElement('button');b.type='button';b.className='section-tree-btn';b.dataset.target=s.id;b.textContent=s.label;b.addEventListener('click',()=>go(s.id));list.appendChild(b);
+      const o=document.createElement('option');o.value=s.id;o.textContent=s.label;select.appendChild(o);
+    });
+    select.onchange=()=>go(select.value);
+    if(io)io.disconnect();
+    io=new IntersectionObserver(entries=>{
+      const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>Math.abs(a.boundingClientRect.top)-Math.abs(b.boundingClientRect.top));
+      if(visible[0])setActive(visible[0].target.id);
+    },{root:null,rootMargin:'-12% 0px -72% 0px',threshold:[0,.01]});
+    sections.forEach(s=>io.observe(s.el));
+    const hash=location.hash&&location.hash.slice(1);if(hash&&sections.some(s=>s.id===hash))setActive(hash);else if(sections[0])setActive(sections[0].id);
+  }
 
-  function compactScreener(){if(!/screener\.html$/i.test(location.pathname))return;const card=content.querySelector('.card');if(!card)return;const table=card.querySelector('table.data-table');if(!table)return;table.classList.add('screener-compact');const rows=Array.from(table.querySelectorAll('tr')).slice(1);rows.forEach(tr=>{const c=tr.children;if(!c.length)return;const shortMini=(idx,text)=>{const el=c[idx]?.querySelector('.mini');if(el&&el.textContent.trim()!==text){if(!el.title)el.title=el.textContent.trim();el.textContent=text}};shortMini(1,'10dk kapanış');shortMini(3,'1dk BASE Δ');const taker=c[4]?.querySelector('.mini');if(taker&&/Buy|Sell/i.test(taker.textContent)){if(!taker.title)taker.title=taker.textContent.trim();taker.textContent=taker.textContent.replace(/Buy\s*/i,'B ').replace(/Sell\s*/i,'S ')}const coin=c[0]?.querySelector('.mini');if(coin&&coin.textContent.length>34){if(!coin.title)coin.title=coin.textContent.trim();coin.textContent=coin.textContent.replace(/Internet Computer/i,'ICP').replace(/Curve DAO Token/i,'CRV')}})}
+  function compactScreener(){
+    if(!/screener\.html$/i.test(location.pathname))return;
+    const card=content.querySelector('.card');if(!card)return;
+    const table=card.querySelector('table.data-table');if(!table)return;
+    table.classList.add('screener-compact');
+    const rows=Array.from(table.querySelectorAll('tr')).slice(1);
+    rows.forEach(tr=>{
+      const c=tr.children;if(!c.length)return;
+      const shortMini=(idx,text)=>{const el=c[idx]?.querySelector('.mini');if(el&&el.textContent.trim()!==text){if(!el.title)el.title=el.textContent.trim();el.textContent=text}};
+      shortMini(1,'10dk kapanış');
+      shortMini(3,'1dk BASE Δ');
+      const taker=c[4]?.querySelector('.mini');
+      if(taker&&/Buy|Sell/i.test(taker.textContent)){
+        if(!taker.title)taker.title=taker.textContent.trim();
+        taker.textContent=taker.textContent.replace(/Buy\s*/i,'B ').replace(/Sell\s*/i,'S ');
+      }
+      const coin=c[0]?.querySelector('.mini');
+      if(coin&&coin.textContent.length>34){if(!coin.title)coin.title=coin.textContent.trim();coin.textContent=coin.textContent.replace(/Internet Computer/i,'ICP').replace(/Curve DAO Token/i,'CRV')}
+    });
+  }
 
-  async function addMacroWeeklyDelta(){if(!/macro\.html$/i.test(location.pathname)||document.getElementById('weeklyScoreDelta'))return;const scoreNode=content.querySelector('.big-score .num');if(!scoreNode)return;try{if(!macroDataPromise)macroDataPromise=fetch('../data/macro.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('macro data');return r.json()});const d=await macroDataPromise;const current=Number(d.composite_score);const hist=Array.isArray(d.score_history)?d.score_history:[];if(!Number.isFinite(current)||!hist.length)return;const now=new Date(d.generated_at||Date.now());const target=now.getTime()-7*86400000;const valid=hist.map(x=>({date:new Date(x.date).getTime(),value:Number(x.value)})).filter(x=>Number.isFinite(x.date)&&Number.isFinite(x.value)).sort((a,b)=>a.date-b.date);if(!valid.length)return;let prior=null;for(const x of valid){if(x.date<=target)prior=x;else break}if(!prior)prior=valid.reduce((best,x)=>Math.abs(x.date-target)<Math.abs(best.date-target)?x:best,valid[0]);let previous=prior.value;if(current>1&&previous>=0&&previous<=1)previous*=100;const delta=current-previous;if(!Number.isFinite(delta))return;const el=document.createElement('div');el.id='weeklyScoreDelta';el.className='weekly-score-delta '+(delta>.05?'up':delta<-.05?'down':'flat');const arrow=delta>.05?'▲':delta<-.05?'▼':'•';el.textContent=`${arrow} 7g ${delta>=0?'+':''}${delta.toFixed(1)} puan`;el.title=`Geçen haftaya göre kompozit skor değişimi · referans ${new Date(prior.date).toLocaleDateString('tr-TR')}`;scoreNode.appendChild(el)}catch(e){}}
+  async function addMacroWeeklyDelta(){
+    if(!/macro\.html$/i.test(location.pathname)||document.getElementById('weeklyScoreDelta'))return;
+    const scoreNode=content.querySelector('.big-score .num');
+    if(!scoreNode)return;
+    try{
+      if(!macroDataPromise)macroDataPromise=fetch('../data/macro.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('macro data');return r.json()});
+      const d=await macroDataPromise;
+      const current=Number(d.composite_score);const hist=Array.isArray(d.score_history)?d.score_history:[];
+      if(!Number.isFinite(current)||!hist.length)return;
+      const now=new Date(d.generated_at||Date.now());const target=now.getTime()-7*86400000;
+      const valid=hist.map(x=>({date:new Date(x.date).getTime(),value:Number(x.value)})).filter(x=>Number.isFinite(x.date)&&Number.isFinite(x.value)).sort((a,b)=>a.date-b.date);
+      if(!valid.length)return;
+      let prior=null;for(const x of valid){if(x.date<=target)prior=x;else break}
+      if(!prior)prior=valid.reduce((best,x)=>Math.abs(x.date-target)<Math.abs(best.date-target)?x:best,valid[0]);
+      let previous=prior.value;if(current>1&&previous>=0&&previous<=1)previous*=100;
+      const delta=current-previous;if(!Number.isFinite(delta))return;
+      const el=document.createElement('div');el.id='weeklyScoreDelta';el.className='weekly-score-delta '+(delta>.05?'up':delta<-.05?'down':'flat');
+      const arrow=delta>.05?'▲':delta<-.05?'▼':'•';el.textContent=`${arrow} 7g ${delta>=0?'+':''}${delta.toFixed(1)} puan`;
+      el.title=`Geçen haftaya göre kompozit skor değişimi · referans ${new Date(prior.date).toLocaleDateString('tr-TR')}`;
+      scoreNode.appendChild(el);
+    }catch(e){}
+  }
 
   function schedule(){clearTimeout(rebuildTimer);rebuildTimer=setTimeout(()=>{compactScreener();rebuild();addMacroWeeklyDelta()},80)}
   const mo=new MutationObserver(schedule);mo.observe(content,{childList:true,subtree:true,characterData:true});
