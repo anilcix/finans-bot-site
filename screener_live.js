@@ -17,6 +17,36 @@
     lastSignalKey=key;
   }
 
+  function fmtPrice(v){
+    if(v==null||!Number.isFinite(Number(v)))return'—';
+    const n=Number(v),a=Math.abs(n);
+    if(a>=1000)return n.toLocaleString('tr-TR',{maximumFractionDigits:2});
+    if(a>=1)return n.toLocaleString('tr-TR',{maximumFractionDigits:4});
+    return n.toLocaleString('tr-TR',{maximumFractionDigits:7});
+  }
+  function fmtPct(v){return v==null||!Number.isFinite(Number(v))?'—':`${Number(v)>=0?'+':''}${Number(v).toFixed(2)}%`}
+  function levelCell(obj){
+    obj=obj||{};
+    const status=obj.status||'UNAVAILABLE';
+    const text=obj.status_tr||'—';
+    const cls=(status==='ABOVE'||status==='CROSS_UP')?'positive':(status==='BELOW'||status==='CROSS_DOWN')?'negative':'';
+    const touch=obj.touched&&status!=='CROSS_UP'&&status!=='CROSS_DOWN'?' · temas':'';
+    return `<div class="${cls}" style="font-weight:800;white-space:nowrap">${text}${touch}</div><div class="mini">${fmtPrice(obj.value)} · ${fmtPct(obj.distance_pct)}</div>`;
+  }
+  function renderLevelContext(d){
+    const content=document.getElementById('content');if(!content)return;
+    const rows=(d.movers||[]).filter(x=>x.level_context&&x.level_context.levels);
+    let old=document.getElementById('levelContextCard');
+    if(!rows.length){if(old)old.remove();return}
+    const wrap=document.createElement('div');wrap.id='levelContextCard';wrap.className='card';
+    wrap.innerHTML=`<h2>Sinyal Anı · Ana Seviye Konumu</h2><div class="note">Sinyal 10dk kapanışındaki fiyatın DO, NYMO, WO ve DVWAP'a göre konumu. “Yeni kesti” = önceki 10dk kapanışı ile sinyal kapanışı seviyenin farklı tarafında kapandı.</div><div class="table-wrap"><table class="data-table"><tr><th>Coin</th><th>Sinyal Fiyatı</th><th>DO</th><th>NYMO</th><th>WO</th><th>DVWAP</th></tr>${rows.map(x=>{const c=x.level_context,l=c.levels||{};return `<tr><td><b>${x.symbol||'—'}</b></td><td>${fmtPrice(c.signal_price)}</td><td>${levelCell(l.DO)}</td><td>${levelCell(l.NYMO)}</td><td>${levelCell(l.WO)}</td><td>${levelCell(l.DVWAP)}</td></tr>`}).join('')}</table></div><div class="mini" style="margin-top:9px">DVWAP: 10dk HLC3 × hacim, günlük UTC reset. NYMO: New York 00:00 ve yaz/kış saati uyumlu.</div>`;
+    if(old)old.replaceWith(wrap);else{
+      const active=content.firstElementChild;
+      if(active)active.insertAdjacentElement('afterend',wrap);else content.prepend(wrap);
+    }
+  }
+  window.renderScreenerLevelContext=renderLevelContext;
+
   async function refreshLive(){
     if(busy||document.hidden)return;
     busy=true;
@@ -38,12 +68,20 @@
       }
       const first=content.firstElementChild;
       if(first)content.replaceChild(card,first);else content.prepend(card);
+      renderLevelContext(d);
       const u=document.getElementById('updated');
       if(u){u.className='updated fresh';u.textContent='Canlı tarama: '+new Date(d.generated_at).toLocaleString('tr-TR')}
       flashNewSignals(d);
     }catch(e){
       // Static GitHub data stays visible as fallback.
     }finally{busy=false}
+  }
+
+  async function renderStaticContext(){
+    try{
+      const r=await fetch('../data/screener.json?t='+Date.now(),{cache:'no-store'});
+      if(r.ok)renderLevelContext(await r.json());
+    }catch(e){}
   }
 
   function msToNextBoundary(){
@@ -60,6 +98,7 @@
     },msToNextBoundary());
   }
 
+  setTimeout(renderStaticContext,500);
   setTimeout(refreshLive,1200);
   setInterval(refreshLive,20000);
   scheduleBoundary();
