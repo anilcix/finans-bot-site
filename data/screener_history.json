@@ -2,6 +2,274 @@
   "version": "screener_signal_close_followthrough_v6",
   "events": [
     {
+      "id": "2Z:2026-09-06T23:10:00+00:00",
+      "symbol": "2Z",
+      "name": "DoubleZero",
+      "exchange_symbol": "2ZUSDT",
+      "detected_at": "2026-09-06T23:14:30.213447+00:00",
+      "signal_candle_close_utc": "2026-09-06T23:10:00+00:00",
+      "detection_delay_seconds": 270.213447,
+      "entry_price": 0.05216,
+      "signal_time_utc": "2026-09-06T23:00:00+00:00",
+      "volume_zscore_10m": 2.569778207384866,
+      "pine_z_delta_10m": 1.9732162691478838,
+      "pine_raw_delta_10m_base": 90110.0,
+      "buyer_share_pct": 76.4576782633736,
+      "spot_delta_10m_usd": 3832.45493,
+      "cvd_green_streak": 1,
+      "signal_score": 7.538762302870109,
+      "level_context": {
+        "signal_price": 0.05216,
+        "previous_10m_close": 0.05197,
+        "signal_candle_open_utc": "2026-09-06T23:00:00+00:00",
+        "signal_candle_close_utc": "2026-09-06T23:10:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 0.05245,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -0.5529075309818832,
+            "touched": false
+          },
+          "NYMO": {
+            "value": 0.05144,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 1.3996889580093264,
+            "touched": false
+          },
+          "WO": {
+            "value": 0.05206,
+            "status": "CROSS_UP",
+            "status_tr": "↑ YENİ YUKARI KESTİ",
+            "distance_pct": 0.19208605455243166,
+            "touched": true
+          },
+          "DVWAP": {
+            "value": 0.051825299736135456,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.6458240773688617,
+            "touched": false
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-06T23:14:30.213447+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-06T23:25:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-06T23:40:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
+      "id": "DCR:2026-09-06T23:10:00+00:00",
+      "symbol": "DCR",
+      "name": "Decred",
+      "exchange_symbol": "DCRUSDT",
+      "detected_at": "2026-09-06T23:14:30.213447+00:00",
+      "signal_candle_close_utc": "2026-09-06T23:10:00+00:00",
+      "detection_delay_seconds": 270.213447,
+      "entry_price": 16.52,
+      "signal_time_utc": "2026-09-06T23:00:00+00:00",
+      "volume_zscore_10m": 2.0464605841396932,
+      "pine_z_delta_10m": 3.114404247335353,
+      "pine_raw_delta_10m_base": 1093.918,
+      "buyer_share_pct": 88.2221875236584,
+      "spot_delta_10m_usd": 14120.935090000003,
+      "cvd_green_streak": 3,
+      "signal_score": 10.033083583840888,
+      "level_context": {
+        "signal_price": 16.52,
+        "previous_10m_close": 16.5,
+        "signal_candle_open_utc": "2026-09-06T23:00:00+00:00",
+        "signal_candle_close_utc": "2026-09-06T23:10:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 15.9,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 3.899371069182389,
+            "touched": false
+          },
+          "NYMO": {
+            "value": 15.93,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 3.703703703703698,
+            "touched": false
+          },
+          "WO": {
+            "value": 14.02,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 17.83166904422253,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 16.569855855083002,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -0.30088285329114006,
+            "touched": true
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-06T23:14:30.213447+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-06T23:25:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-06T23:40:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
+      "id": "ONDO:2026-09-06T23:10:00+00:00",
+      "symbol": "ONDO",
+      "name": "Ondo",
+      "exchange_symbol": "ONDOUSDT",
+      "detected_at": "2026-09-06T23:14:30.213447+00:00",
+      "signal_candle_close_utc": "2026-09-06T23:10:00+00:00",
+      "detection_delay_seconds": 270.213447,
+      "entry_price": 0.3875,
+      "signal_time_utc": "2026-09-06T23:00:00+00:00",
+      "volume_zscore_10m": 3.22032240288532,
+      "pine_z_delta_10m": 3.369039952336499,
+      "pine_raw_delta_10m_base": 638583.3,
+      "buyer_share_pct": 77.68137121801524,
+      "spot_delta_10m_usd": 173406.21336999995,
+      "cvd_green_streak": 3,
+      "signal_score": 10.407499477023343,
+      "level_context": {
+        "signal_price": 0.3875,
+        "previous_10m_close": 0.384,
+        "signal_candle_open_utc": "2026-09-06T23:00:00+00:00",
+        "signal_candle_close_utc": "2026-09-06T23:10:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 0.3702,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 4.6731496488384705,
+            "touched": false
+          },
+          "NYMO": {
+            "value": 0.3766,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 2.8943175783324504,
+            "touched": false
+          },
+          "WO": {
+            "value": 0.3441,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 12.612612612612617,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 0.377634402126285,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 2.6124732858464172,
+            "touched": false
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-06T23:14:30.213447+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-06T23:25:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-06T23:40:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
+      "id": "STX:2026-09-06T23:10:00+00:00",
+      "symbol": "STX",
+      "name": "Stacks",
+      "exchange_symbol": "STXUSDT",
+      "detected_at": "2026-09-06T23:14:30.213447+00:00",
+      "signal_candle_close_utc": "2026-09-06T23:10:00+00:00",
+      "detection_delay_seconds": 270.213447,
+      "entry_price": 0.2686,
+      "signal_time_utc": "2026-09-06T23:00:00+00:00",
+      "volume_zscore_10m": 2.034900676081602,
+      "pine_z_delta_10m": 2.444324808811332,
+      "pine_raw_delta_10m_base": 45664.9,
+      "buyer_share_pct": 90.52351124442704,
+      "spot_delta_10m_usd": 11223.37865,
+      "cvd_green_streak": 2,
+      "signal_score": 9.231576609335637,
+      "level_context": {
+        "signal_price": 0.2686,
+        "previous_10m_close": 0.2667,
+        "signal_candle_open_utc": "2026-09-06T23:00:00+00:00",
+        "signal_candle_close_utc": "2026-09-06T23:10:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 0.2698,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -0.4447739065974732,
+            "touched": false
+          },
+          "NYMO": {
+            "value": 0.2671,
+            "status": "CROSS_UP",
+            "status_tr": "↑ YENİ YUKARI KESTİ",
+            "distance_pct": 0.5615874204417892,
+            "touched": true
+          },
+          "WO": {
+            "value": 0.2341,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 14.737291755659964,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 0.2671118192458614,
+            "status": "CROSS_UP",
+            "status_tr": "↑ YENİ YUKARI KESTİ",
+            "distance_pct": 0.5571377404190336,
+            "touched": true
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-06T23:14:30.213447+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-06T23:25:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-06T23:40:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "JTO:2026-09-06T22:10:00+00:00",
       "symbol": "JTO",
       "name": "Jito",
@@ -56,17 +324,18 @@
         "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
       },
       "last_seen_at": "2026-09-06T22:16:52.534905+00:00",
-      "ended_at": null,
+      "ended_at": "2026-09-06T23:14:30.213447+00:00",
       "target_15m_at": "2026-09-06T22:25:00+00:00",
-      "price_15m": null,
-      "change_15m_pct": null,
-      "direction_15m": "BEKLIYOR",
-      "evaluated_15m_at": null,
+      "price_15m": 0.4683,
+      "change_15m_pct": -1.7415023080151082,
+      "direction_15m": "AŞAĞI",
+      "evaluated_15m_at": "2026-09-06T23:14:39.695616+00:00",
       "target_30m_at": "2026-09-06T22:40:00+00:00",
-      "price_30m": null,
-      "change_30m_pct": null,
-      "direction_30m": "BEKLIYOR",
-      "evaluated_30m_at": null
+      "price_30m": 0.4704,
+      "change_30m_pct": -1.3008812421317795,
+      "direction_30m": "AŞAĞI",
+      "evaluated_30m_at": "2026-09-06T23:14:39.695616+00:00",
+      "evaluated_at": "2026-09-06T23:14:39.695616+00:00"
     },
     {
       "id": "RLUSD:2026-09-06T21:40:00+00:00",
@@ -1141,46 +1410,49 @@
   ],
   "summary": {
     "15m": {
-      "completed": 19,
-      "pending": 1,
+      "completed": 20,
+      "pending": 4,
       "up": 8,
-      "down": 8,
+      "down": 9,
       "flat": 3,
-      "up_rate_pct": 42.10526315789473,
-      "avg_change_pct": 0.023248304933876668,
+      "up_rate_pct": 40.0,
+      "avg_change_pct": -0.06498922571357257,
       "median_change_pct": 0.0,
       "best_change_pct": 1.3409694091353508,
-      "worst_change_pct": -0.8368200836820106
+      "worst_change_pct": -1.7415023080151082
     },
     "30m": {
-      "completed": 19,
-      "pending": 1,
+      "completed": 20,
+      "pending": 4,
       "up": 7,
-      "down": 8,
+      "down": 9,
       "flat": 4,
-      "up_rate_pct": 36.84210526315789,
-      "avg_change_pct": -0.031252497651973174,
+      "up_rate_pct": 35.0,
+      "avg_change_pct": -0.09473393487596349,
       "median_change_pct": 0.0,
       "best_change_pct": 1.088223863194715,
-      "worst_change_pct": -0.9909460326513186
+      "worst_change_pct": -1.3008812421317795
     },
-    "completed": 19,
-    "pending": 1,
-    "up_rate_pct": 42.10526315789473,
-    "avg_change_15m_pct": 0.023248304933876668,
+    "completed": 20,
+    "pending": 4,
+    "up_rate_pct": 40.0,
+    "avg_change_15m_pct": -0.06498922571357257,
     "median_change_15m_pct": 0.0,
     "best_change_15m_pct": 1.3409694091353508,
-    "worst_change_15m_pct": -0.8368200836820106,
-    "avg_change_30m_pct": -0.031252497651973174,
+    "worst_change_15m_pct": -1.7415023080151082,
+    "avg_change_30m_pct": -0.09473393487596349,
     "median_change_30m_pct": 0.0,
     "best_change_30m_pct": 1.088223863194715,
-    "worst_change_30m_pct": -0.9909460326513186
+    "worst_change_30m_pct": -1.3008812421317795
   },
   "meta": {
     "active_symbols": [
-      "JTO"
+      "2Z",
+      "DCR",
+      "ONDO",
+      "STX"
     ],
-    "updated_at": "2026-09-06T22:17:01.759154+00:00",
+    "updated_at": "2026-09-06T23:14:39.695616+00:00",
     "reset_at": "2026-09-06T13:30:00+00:00",
     "measurement": "Corrected strategy only: actual 10m candle close -> exact spot close -> +15m/+30m. New events also retain DO/NYMO/WO/DVWAP signal-candle context. Pre-reset records are excluded.",
     "horizons_minutes": [
