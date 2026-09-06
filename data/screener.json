@@ -1,98 +1,5 @@
 {
-  "movers": [
-    {
-      "symbol": "JST",
-      "name": "JUST",
-      "coingecko_id": "just",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "JSTUSDT",
-      "price": 0.110681,
-      "change_24h": 2.55754,
-      "volume_zscore_10m": 2.1056558056032175,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 320315.3,
-      "base_volume_mean_20": 117016.41,
-      "base_volume_stdev_20": 96548.9656281977,
-      "volume_10m_usd": 35409.893725999995,
-      "buyer_share_pct": 99.08777396650922,
-      "taker_buy_10m_usd": 35086.875457,
-      "taker_sell_10m_usd": 323.01826899999287,
-      "spot_delta_10m_usd": 34763.85718800001,
-      "price_change_10m_pct": 0.28985507246377384,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1788668400000,
-          "delta_usd": 2461.738032000001,
-          "green": true
-        },
-        {
-          "ts": 1788669000000,
-          "delta_usd": 2394.097078,
-          "green": true
-        },
-        {
-          "ts": 1788669600000,
-          "delta_usd": 34763.85718800001,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 39619.69229800001,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 8.06443320225414,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-06T04:40:00+00:00"
-    },
-    {
-      "symbol": "DASH",
-      "name": "Dash",
-      "coingecko_id": "dash",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "DASHUSDT",
-      "price": 72.42,
-      "change_24h": 5.04443,
-      "volume_zscore_10m": 4.142113488142837,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 31406.242,
-      "base_volume_mean_20": 5403.2695,
-      "base_volume_stdev_20": 6277.7064352379,
-      "volume_10m_usd": 2225983.78675,
-      "buyer_share_pct": 65.61642051052554,
-      "taker_buy_10m_usd": 1460610.88201,
-      "taker_sell_10m_usd": 765372.9047399999,
-      "spot_delta_10m_usd": 695237.9772700001,
-      "price_change_10m_pct": 3.659415069874661,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1788668400000,
-          "delta_usd": -11454.360680000013,
-          "green": false
-        },
-        {
-          "ts": 1788669000000,
-          "delta_usd": 319292.62867999985,
-          "green": true
-        },
-        {
-          "ts": 1788669600000,
-          "delta_usd": 695237.9772700001,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 1003076.24527,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 6.403755539195392,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-06T04:40:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "10m",
   "rule": "Top 200 → TradingView uyumlu 10dk BASE volume Z-score >= 2.0 + taker alıcı payı >= %65 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -103,7 +10,7 @@
     "binance_spot_matched": 102,
     "scanned": 102,
     "failed": 0,
-    "signal_count_before_cap": 2,
+    "signal_count_before_cap": 0,
     "max_results": 10,
     "source_endpoint": "https://data-api.binance.vision",
     "universe_mode": "coingecko_market_cap_top200",
@@ -113,5 +20,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-09-06T04:53:25.927574+00:00"
+  "generated_at": "2026-09-06T05:32:41.777594+00:00"
 }
