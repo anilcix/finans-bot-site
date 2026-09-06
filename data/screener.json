@@ -1,5 +1,93 @@
 {
-  "movers": [],
+  "movers": [
+    {
+      "symbol": "KAIA",
+      "name": "Kaia",
+      "coingecko_id": "kaia",
+      "exchange": "ana piyasa",
+      "exchange_symbol": "KAIAUSDT",
+      "price": 0.03094126,
+      "change_24h": 0.2815,
+      "volume_zscore_10m": 2.4564217221417337,
+      "pine_z_delta_10m": 2.638533265849244,
+      "pine_raw_delta_10m_base": 449751.9,
+      "pine_delta_mean_20": 70600.455,
+      "pine_delta_stdev_20": 143697.80737934547,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 449751.9,
+      "base_volume_mean_20": 138876.045,
+      "base_volume_stdev_20": 126556.38573695313,
+      "volume_10m_usd": 13842.14939,
+      "buyer_share_pct": 85.10365802373413,
+      "taker_buy_10m_usd": 11780.17548,
+      "taker_sell_10m_usd": 2061.9739100000006,
+      "spot_delta_10m_usd": 9718.20157,
+      "price_change_10m_pct": 0.6535947712418277,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1788707400000,
+          "delta_usd": -279.2709,
+          "green": false
+        },
+        {
+          "ts": 1788708000000,
+          "delta_usd": -272.58925999999997,
+          "green": false
+        },
+        {
+          "ts": 1788708600000,
+          "delta_usd": 9718.20157,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 1,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 9166.341409999999,
+      "cvd_note": "✅ Pine Z-Delta + true Spot CVD aynı yönde",
+      "signal_score": 8.95532079036439,
+      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
+      "signal_time_utc": "2026-09-06T15:30:00+00:00",
+      "level_context": {
+        "signal_price": 0.0308,
+        "previous_10m_close": 0.0306,
+        "signal_candle_open_utc": "2026-09-06T15:30:00+00:00",
+        "signal_candle_close_utc": "2026-09-06T15:40:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 0.0307,
+            "status": "CROSS_UP",
+            "status_tr": "↑ YENİ YUKARI KESTİ",
+            "distance_pct": 0.32573289902280145,
+            "touched": true
+          },
+          "NYMO": {
+            "value": 0.0313,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -1.5974440894568676,
+            "touched": false
+          },
+          "WO": {
+            "value": 0.0284,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 8.450704225352101,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 0.03096167053315243,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -0.5221634697627708,
+            "touched": false
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      }
+    }
+  ],
   "window": "10m",
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
   "scan_meta": {
@@ -8,7 +96,7 @@
     "binance_spot_matched": 102,
     "scanned": 102,
     "failed": 0,
-    "signal_count_before_cap": 0,
+    "signal_count_before_cap": 1,
     "max_results": 10,
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
@@ -19,5 +107,5 @@
   "pine_delta_formula": "raw_delta_10m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_10m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
   "level_context_method": "DO · NYMO · WO · DVWAP at signal candle close",
-  "generated_at": "2026-09-06T15:00:29.392495+00:00"
+  "generated_at": "2026-09-06T15:49:48.459334+00:00"
 }
