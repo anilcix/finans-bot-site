@@ -4,6 +4,12 @@
   let lastSignalKey='';
   let busy=false;
 
+  function loadHistoryLevelSnapshots(){
+    if(document.querySelector('script[data-history-levels]'))return;
+    const s=document.createElement('script');s.src='../screener_history_levels.js';s.defer=true;s.dataset.historyLevels='1';document.head.appendChild(s);
+  }
+  loadHistoryLevelSnapshots();
+
   function signalKey(d){
     return (d.movers||[]).map(x=>`${x.symbol}:${x.signal_candle_close_utc||d.signal_candle_close_utc||''}`).sort().join('|');
   }
