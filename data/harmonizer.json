@@ -1,12 +1,12 @@
 {
-  "market_score": 58.7,
+  "market_score": 58.3,
   "stance": "Temkinli Risk-On",
   "confidence": 75.0,
   "component_scores": {
     "macro": 53.5,
     "credit": 65,
     "options": 78,
-    "crypto": 56.7,
+    "crypto": 52.2,
     "crypto_derivatives": 66,
     "equities": 57.6,
     "news": 53
@@ -31,15 +31,15 @@
         "topic": "Bitcoin",
         "tone": "destekleyici",
         "count": 10,
-        "digest": "Timing the bitcoin market is exciting but nearly impossible. Here's why | British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
+        "digest": "Better and Coinbase’s bitcoin-backed mortgages can reuse borrowers’ collateral | Timing the bitcoin market is exciting but nearly impossible. Here's why",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+0.2; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0013."
+        "data_confirmation": "BTC 24s %-0.2; çoklu-borsa OI 24s %-1.2; OI-ağırlıklı funding %+0.0012."
       },
       {
         "topic": "Makro / Fed / Hazine",
         "tone": "karışık",
         "count": 3,
-        "digest": "The Federal Reserve Board on Friday announced the termination of the enforcement actions listed below: United Texas Bank, Dallas, Texas Cease and Desist Orde Official websites use .govA .gov website belongs to an official government organization in the United States. The Federal Reserve, the… | The Bureau of Labor Statistics is the principal fact-finding agency for the Federal Government in the broad field of labor economics and statistics. Before sharing sensitive information, make sure you're on a federal government site.",
+        "digest": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS | Çalışma İstatistikleri Bürosu, geniş çalışma ekonomisi ve istatistik alanında Federal Hükümet için temel araştırma kuruluşudur. Hassas bilgileri paylaşmadan önce federal bir hükümet sitesinde olduğunuzdan emin olun.",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
         "data_confirmation": "Makro skor 54/100; 30Y değişim +0.08 puan."
       }
@@ -47,7 +47,6 @@
     "important_news": [
       {
         "title": "Bitcoin clears $81,000 as privacy coins lead a broad crypto rally",
-        "source": "CoinDesk",
         "link": "https://www.coindesk.com/markets/2026/09/04/bitcoin-clears-usd81-000-as-privacy-coins-lead-a-broad-crypto-rally",
         "published_at": "2026-09-04T09:57:01+00:00",
         "topic": "Bitcoin",
@@ -57,13 +56,27 @@
         "brief_summary": "Bitcoin clears $81,000 as privacy coins lead a broad crypto rally",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.2; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0013.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.2; çoklu-borsa OI 24s %-1.2; OI-ağırlıklı funding %+0.0012.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+0.2; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0013."
+        "data_confirmation": "BTC 24s %-0.2; çoklu-borsa OI 24s %-1.2; OI-ağırlıklı funding %+0.0012."
+      },
+      {
+        "title": "Better and Coinbase’s bitcoin-backed mortgages can reuse borrowers’ collateral",
+        "link": "https://www.coindesk.com/business/2026/09/06/better-and-coinbase-s-bitcoin-backed-mortgages-can-reuse-borrowers-collateral",
+        "published_at": "2026-09-06T14:00:00+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Better and Coinbase’s bitcoin-backed mortgages can reuse borrowers’ collateral",
+        "summary_mode": "headline_only",
+        "read_mode": "trusted_feed_headline",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.2; çoklu-borsa OI 24s %-1.2; OI-ağırlıklı funding %+0.0012.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %-0.2; çoklu-borsa OI 24s %-1.2; OI-ağırlıklı funding %+0.0012."
       },
       {
         "title": "Timing the bitcoin market is exciting but nearly impossible. Here's why",
-        "source": "CoinDesk",
         "link": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
         "published_at": "2026-09-05T18:05:11+00:00",
         "topic": "Bitcoin",
@@ -73,13 +86,12 @@
         "brief_summary": "Timing the bitcoin market is exciting but nearly impossible. Here's why",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.2; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0013.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.2; çoklu-borsa OI 24s %-1.2; OI-ağırlıklı funding %+0.0012.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+0.2; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0013."
+        "data_confirmation": "BTC 24s %-0.2; çoklu-borsa OI 24s %-1.2; OI-ağırlıklı funding %+0.0012."
       },
       {
         "title": "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
-        "source": "CoinDesk",
         "link": "https://www.coindesk.com/business/2026/09/02/british-investor-thought-he-lost-usd2-000-in-bitcoin-in-2012-he-just-recovered-usd4-5-million",
         "published_at": "2026-09-05T12:00:00+00:00",
         "topic": "Bitcoin",
@@ -89,13 +101,12 @@
         "brief_summary": "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.2; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0013.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.2; çoklu-borsa OI 24s %-1.2; OI-ağırlıklı funding %+0.0012.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+0.2; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0013."
+        "data_confirmation": "BTC 24s %-0.2; çoklu-borsa OI 24s %-1.2; OI-ağırlıklı funding %+0.0012."
       },
       {
         "title": "Southeast Asia’s crypto funding rebounds to $680 million as investors focus on mature firms",
-        "source": "CoinDesk",
         "link": "https://www.coindesk.com/business/2026/09/05/southeast-asia-s-crypto-funding-rebounds-to-usd680-million-as-investors-focus-on-mature-firms",
         "published_at": "2026-09-05T05:00:00+00:00",
         "topic": "Bitcoin",
@@ -105,20 +116,19 @@
         "brief_summary": "Southeast Asia’s crypto funding rebounds to $680 million as investors focus on mature firms",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.2; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0013.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.2; çoklu-borsa OI 24s %-1.2; OI-ağırlıklı funding %+0.0012.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+0.2; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0013."
+        "data_confirmation": "BTC 24s %-0.2; çoklu-borsa OI 24s %-1.2; OI-ağırlıklı funding %+0.0012."
       },
       {
         "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
-        "source": "Federal Reserve",
         "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
         "published_at": "2026-09-04T15:00:00+00:00",
         "topic": "Makro / Fed / Hazine",
         "theme": "macro",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "The Federal Reserve Board on Friday announced the termination of the enforcement actions listed below: United Texas Bank, Dallas, Texas Cease and Desist Orde Official websites use .govA .gov website belongs to an official government organization in the United States. The Federal Reserve, the…",
+        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
         "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 54/100; 30Y değişim +0.08 puan.",
@@ -127,7 +137,6 @@
       },
       {
         "title": "From warning to listing: UK’s largest retail investment platform opens access to crypto ETNs",
-        "source": "CoinDesk",
         "link": "https://www.coindesk.com/business/2026/09/04/from-warning-to-listing-uk-s-largest-wealth-platform-opens-access-to-crypto-etns",
         "published_at": "2026-09-04T14:23:11+00:00",
         "topic": "Bitcoin",
@@ -137,25 +146,9 @@
         "brief_summary": "From warning to listing: UK’s largest retail investment platform opens access to crypto ETNs",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.2; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0013.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.2; çoklu-borsa OI 24s %-1.2; OI-ağırlıklı funding %+0.0012.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+0.2; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0013."
-      },
-      {
-        "title": "U.S. Sheriff’s association shifts opposition stance to Clarity Act to 'neutral'",
-        "source": "CoinDesk",
-        "link": "https://www.coindesk.com/policy/2026/09/04/u-s-sheriff-s-association-shifts-opposition-stance-to-clarity-act-to-neutral",
-        "published_at": "2026-09-04T14:12:34+00:00",
-        "topic": "Bitcoin",
-        "theme": "macro",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "U.S. Sheriff’s association shifts opposition stance to Clarity Act to 'neutral'",
-        "summary_mode": "headline_only",
-        "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 54/100; 30Y değişim +0.08 puan.",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 54/100; 30Y değişim +0.08 puan."
+        "data_confirmation": "BTC 24s %-0.2; çoklu-borsa OI 24s %-1.2; OI-ağırlıklı funding %+0.0012."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -166,8 +159,7 @@
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
     "VIX 14.53 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
     "Stablecoin piyasa değeri 7 günde %+0.61; kripto içi dolar likiditesi genişliyor.",
-    "BTC yükselişi Kraken CVD tarafından da teyit ediliyor; agresif alıcı akışı fiyat yönüyle uyumlu.",
-    "OKX ve Hyperliquid funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü."
+    "vadeli piyasa ve vadeli piyasa funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü."
   ],
   "risk_factors": [
     "Enflasyon seviyesi hâlâ makro rahatlama alanını sınırlıyor.",
@@ -180,7 +172,7 @@
     "Funding örneklerinin %90'ı pozitif; long tarafında kalabalıklaşma riski artmış."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+0.2, ETH %+1.7.",
+    "Kriptoda spot momentum: BTC 24s %-0.2, ETH %+0.9.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Altın %+3.0; savunma/enflasyon hedge talebi aynı anda güçlü.",
     "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 0 risk artırıcı, 12 nötr/karışık benzersiz başlık. Haber skoru 53/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
@@ -218,13 +210,11 @@
     "issues": [
       "Gizli Baskı ajanında veri kapsamı dar; özel akışların bir bölümü henüz yok.",
       "Opsiyon ajanında SPX dealer GEX/wall gibi ücretli metrikler eksik.",
-      "Binance Futures doğrudan erişilemiyor; alternatif türev kaynakları çalıştığı için ek kalite cezası uygulanmadı.",
+      "ana piyasa doğrudan erişilemiyor; alternatif türev kaynakları çalıştığı için ek kalite cezası uygulanmadı.",
       "Treasury buyback sonuç tablosunun bazı alanları otomatik çekilemeyebilir; tentative schedule ve haber teyidi ayrı tutuluyor."
     ]
   },
   "treasury_buyback": {
-    "source": "U.S. Treasury / TreasuryDirect",
-    "source_page": "https://www.treasurydirect.gov/auctions/announcements-data-results/buy-backs/",
     "tentative_schedule_url": "https://home.treasury.gov/system/files/221/Tentative-Buyback-ScheduleQ32026.xml",
     "schedule": [
       {
@@ -380,7 +370,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-09-06T14:02:55.837915+00:00"
+    "generated_at": "2026-09-06T14:43:24.645771+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -395,5 +385,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-09-06T13:57:27.098332+00:00"
+  "generated_at": "2026-09-06T14:39:10.016525+00:00"
 }
