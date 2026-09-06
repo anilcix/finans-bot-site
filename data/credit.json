@@ -15,25 +15,46 @@
     "date": "2026-09-03",
     "value": 10.51
   },
-  "sloos_credit_card": null,
-  "sloos_business_large": null,
-  "sloos_business_small": null,
-  "credit_card_delinquency": null,
-  "business_delinquency": null,
-  "business_charge_off": null,
-  "consumer_charge_off": null,
+  "sloos_credit_card": {
+    "date": "2026-07-01",
+    "value": 6.7
+  },
+  "sloos_business_large": {
+    "date": "2026-07-01",
+    "value": 0.0
+  },
+  "sloos_business_small": {
+    "date": "2026-07-01",
+    "value": 1.8
+  },
+  "credit_card_delinquency": {
+    "date": "2026-04-01",
+    "value": 2.85
+  },
+  "business_delinquency": {
+    "date": "2026-04-01",
+    "value": 1.27
+  },
+  "business_charge_off": {
+    "date": "2026-04-01",
+    "value": 0.58
+  },
+  "consumer_charge_off": {
+    "date": "2026-04-01",
+    "value": 2.66
+  },
   "spread_trends": {
     "hy": {
-      "change_1m": null,
-      "change_3m": null
+      "change_1m": -0.10000000000000009,
+      "change_3m": -0.10000000000000009
     },
     "ig": {
-      "change_1m": null,
-      "change_3m": null
+      "change_1m": 0.030000000000000027,
+      "change_3m": 0.06000000000000005
     },
     "ccc": {
-      "change_1m": null,
-      "change_3m": null
+      "change_1m": 0.27999999999999936,
+      "change_3m": 1.0199999999999996
     }
   },
   "history": {
@@ -22202,5 +22223,5 @@
   "unavailable": [
     "CDS spreadleri (Bloomberg/Markit ücretli)"
   ],
-  "generated_at": "2026-09-06T12:46:38.948974+00:00"
+  "generated_at": "2026-09-06T13:04:03.836863+00:00"
 }
