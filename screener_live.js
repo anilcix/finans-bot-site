@@ -76,6 +76,8 @@
     u.textContent=`⚠ Canlı tarama yanıtı bekleniyor · hedef ${expectedClosedWindow()} (TR) · otomatik tekrar deneniyor`;
   }
 
+  // Compatibility layer for an older cached HTML page. New HTML already renders
+  // the signal candle column itself, but this keeps stale clients safe too.
   const baseActiveCard=window.activeCard;
   if(typeof baseActiveCard==='function'){
     window.activeCard=function(d){
