@@ -1,50 +1,50 @@
 {
   "movers": [
     {
-      "symbol": "CFX",
-      "name": "Conflux",
-      "coingecko_id": "conflux-token",
+      "symbol": "HBAR",
+      "name": "Hedera",
+      "coingecko_id": "hedera-hashgraph",
       "exchange": "Binance Spot",
-      "exchange_symbol": "CFXUSDT",
-      "price": 0.04965508,
-      "change_24h": 4.0796,
-      "volume_zscore_10m": 3.784735908256844,
+      "exchange_symbol": "HBARUSDT",
+      "price": 0.081299,
+      "change_24h": 0.88005,
+      "volume_zscore_10m": 3.553998568084732,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 1341869.0,
-      "base_volume_mean_20": 186117.95,
-      "base_volume_stdev_20": 305371.650232872,
-      "volume_10m_usd": 66276.3274,
-      "buyer_share_pct": 70.94416046354434,
-      "taker_buy_10m_usd": 47019.18406,
-      "taker_sell_10m_usd": 19257.143339999995,
-      "spot_delta_10m_usd": 27762.040720000005,
-      "price_change_10m_pct": 1.243375458622098,
+      "base_volume_10m": 3412753.0,
+      "base_volume_mean_20": 570302.6,
+      "base_volume_stdev_20": 799789.4049607934,
+      "volume_10m_usd": 278794.36309999996,
+      "buyer_share_pct": 79.29177824901298,
+      "taker_buy_10m_usd": 221061.00816000003,
+      "taker_sell_10m_usd": 57733.35493999993,
+      "spot_delta_10m_usd": 163327.6532200001,
+      "price_change_10m_pct": 0.09828009828010131,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1788683400000,
-          "delta_usd": 7070.689230000004,
+          "ts": 1788685200000,
+          "delta_usd": 2676.5766900000017,
           "green": true
         },
         {
-          "ts": 1788684000000,
-          "delta_usd": 1669.8090599999996,
+          "ts": 1788685800000,
+          "delta_usd": 3882.3203600000015,
           "green": true
         },
         {
-          "ts": 1788684600000,
-          "delta_usd": 27762.040720000005,
+          "ts": 1788686400000,
+          "delta_usd": 163327.6532200001,
           "green": true
         }
       ],
       "cvd_green_count_3": 3,
       "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 36502.53901000001,
+      "cvd_30m_delta_usd": 169886.5502700001,
       "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 6.929151954611277,
+      "signal_score": 7.53317639298603,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-09-06T08:50:00+00:00"
+      "signal_time_utc": "2026-09-06T09:20:00+00:00"
     }
   ],
   "window": "10m",
@@ -67,5 +67,5 @@
   "zscore_formula": "z = (V_current - mean(V_last20_including_current)) / population_stdev(V_last20_including_current)",
   "zscore_volume": "Binance kline base asset volume (index 5); TradingView BINANCE:COINUSDT volume ile eşleştirilir.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-09-06T09:03:26.407180+00:00"
+  "generated_at": "2026-09-06T09:39:44.480664+00:00"
 }
