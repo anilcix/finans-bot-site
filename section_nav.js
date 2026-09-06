@@ -72,4 +72,8 @@
   window.addEventListener('market-language-changed',schedule);
   window.addEventListener('resize',schedule,{passive:true});
   schedule();
+
+  if(location.pathname.includes('crypto_derivatives.html')&&!document.querySelector('script[data-derivatives-cleanup]')){
+    const s=document.createElement('script');s.src='../crypto_derivatives_cleanup.js';s.dataset.derivativesCleanup='1';document.body.appendChild(s);
+  }
 })();
