@@ -17,6 +17,10 @@
     .section-mobile-label{font-size:9px;color:var(--muted,#5c8a72);white-space:nowrap}
     .section-mobile-select{min-width:0;flex:1;background:#071008;color:var(--text,#d7ffe6);border:1px solid var(--green-dim,#175c3a);border-radius:8px;padding:9px 10px;font:600 11px 'IBM Plex Mono',monospace}
     #content .card{scroll-margin-top:20px}
+    .weekly-score-delta{display:inline-flex;align-items:center;justify-content:center;gap:5px;margin-top:7px;padding:3px 7px;border-radius:999px;border:1px solid var(--green-dim,#175c3a);font:600 9px/1.2 'IBM Plex Mono',monospace;letter-spacing:.02em;vertical-align:middle;text-shadow:none}
+    .weekly-score-delta.up{color:var(--green,#39ff88);background:rgba(57,255,136,.055)}
+    .weekly-score-delta.down{color:var(--red,#ff5c5c);border-color:rgba(255,92,92,.35);background:rgba(255,92,92,.05)}
+    .weekly-score-delta.flat{color:var(--muted,#5c8a72)}
     @media(min-width:1440px){.section-tree{display:block}}
     @media(max-width:1439px){.section-mobile{display:block}}
     @media(max-width:640px){.section-mobile{padding:7px 12px}.section-mobile-label{display:none}.section-mobile-select{font-size:10px;padding:8px 9px}}
@@ -33,7 +37,7 @@
 
   const list=nav.querySelector('.section-tree-list');
   const select=mobile.querySelector('select');
-  let sections=[];let io=null;let rebuildTimer=null;
+  let sections=[];let io=null;let rebuildTimer=null;let macroDataPromise=null;
 
   function slug(s){return String(s||'section').toLocaleLowerCase('tr-TR').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9ğüşöçıİĞÜŞÖÇ]+/gi,'-').replace(/^-+|-+$/g,'').slice(0,64)||'section'}
   function go(id){const el=document.getElementById(id);if(!el)return;el.scrollIntoView({behavior:'smooth',block:'start'});try{history.replaceState(null,'','#'+id)}catch(e){}}
@@ -67,7 +71,31 @@
     sections.forEach(s=>io.observe(s.el));
     const hash=location.hash&&location.hash.slice(1);if(hash&&sections.some(s=>s.id===hash))setActive(hash);else if(sections[0])setActive(sections[0].id);
   }
-  function schedule(){clearTimeout(rebuildTimer);rebuildTimer=setTimeout(rebuild,80)}
+
+  async function addMacroWeeklyDelta(){
+    if(!/macro\.html$/i.test(location.pathname)||document.getElementById('weeklyScoreDelta'))return;
+    const scoreNode=content.querySelector('.big-score .num');
+    if(!scoreNode)return;
+    try{
+      if(!macroDataPromise)macroDataPromise=fetch('../data/macro.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('macro data');return r.json()});
+      const d=await macroDataPromise;
+      const current=Number(d.composite_score);const hist=Array.isArray(d.score_history)?d.score_history:[];
+      if(!Number.isFinite(current)||!hist.length)return;
+      const now=new Date(d.generated_at||Date.now());const target=now.getTime()-7*86400000;
+      const valid=hist.map(x=>({date:new Date(x.date).getTime(),value:Number(x.value)})).filter(x=>Number.isFinite(x.date)&&Number.isFinite(x.value)).sort((a,b)=>a.date-b.date);
+      if(!valid.length)return;
+      let prior=null;for(const x of valid){if(x.date<=target)prior=x;else break}
+      if(!prior)prior=valid.reduce((best,x)=>Math.abs(x.date-target)<Math.abs(best.date-target)?x:best,valid[0]);
+      let previous=prior.value;if(current>1&&previous>=0&&previous<=1)previous*=100;
+      const delta=current-previous;if(!Number.isFinite(delta))return;
+      const el=document.createElement('div');el.id='weeklyScoreDelta';el.className='weekly-score-delta '+(delta>.05?'up':delta<-.05?'down':'flat');
+      const arrow=delta>.05?'▲':delta<-.05?'▼':'•';el.textContent=`${arrow} 7g ${delta>=0?'+':''}${delta.toFixed(1)} puan`;
+      el.title=`Geçen haftaya göre kompozit skor değişimi · referans ${new Date(prior.date).toLocaleDateString('tr-TR')}`;
+      scoreNode.appendChild(el);
+    }catch(e){}
+  }
+
+  function schedule(){clearTimeout(rebuildTimer);rebuildTimer=setTimeout(()=>{rebuild();addMacroWeeklyDelta()},80)}
   const mo=new MutationObserver(schedule);mo.observe(content,{childList:true,subtree:true,characterData:true});
   window.addEventListener('market-language-changed',schedule);
   window.addEventListener('resize',schedule,{passive:true});
