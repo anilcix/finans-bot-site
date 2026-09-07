@@ -7,6 +7,18 @@
   let busy=false;
   let lastLiveOk=0;
 
+  const readableStyle=document.createElement('style');
+  readableStyle.textContent=`
+    body.screener-page #content>.card:first-child .note{font-size:9.5px!important;line-height:1.38!important}
+    body.screener-page #content>.card:first-child .statpill{font-size:8px!important}
+    body.screener-page #content>.card:first-child table.data-table.screener-compact th{font-size:8.4px!important;line-height:1.08!important;padding:5px 3px!important}
+    body.screener-page #content>.card:first-child table.data-table.screener-compact td{font-size:9.4px!important;line-height:1.12!important;padding:5px 3px!important}
+    body.screener-page #content>.card:first-child table.data-table.screener-compact td b{font-size:10px!important}
+    body.screener-page #content>.card:first-child table.data-table.screener-compact .mini{font-size:7.1px!important;line-height:1.08!important;opacity:.76!important}
+    body.screener-page #content>.card:first-child table.data-table.screener-compact .signal-note{font-size:8.2px!important;line-height:1.12!important}
+  `;
+  document.head.appendChild(readableStyle);
+
   function loadHistoryLevelSnapshots(){
     if(document.querySelector('script[data-history-levels]'))return;
     const s=document.createElement('script');s.src='../screener_history_levels.js';s.defer=true;s.dataset.historyLevels='1';document.head.appendChild(s);
