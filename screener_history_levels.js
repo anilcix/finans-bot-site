@@ -18,7 +18,7 @@
       const wrap=document.createElement('div');wrap.id='historyLevelSnapshots';
       wrap.innerHTML=`<div class="horizon-title" style="margin-top:18px">Sinyal Anı · Ana Seviye Snapshot</div>
         <div class="history-note">Bu değerler sinyalin oluştuğu 10dk mum kapanışında kaydedilir; fiyat sonradan değişse bile DO / NYMO / WO / DVWAP durumu yeniden hesaplanmaz.</div>
-        ${events.length?`<div class="table-wrap"><table class="data-table"><tr><th>Kapanış</th><th>Coin</th><th>Sinyal Fiyatı</th><th>DO</th><th>NYMO</th><th>WO</th><th>DVWAP</th><th>+15dk</th><th>+30dk</th></tr>${events.map(x=>{const c=x.level_context||{},l=c.levels||{};return `<tr><td class="nowrap">${dt(x.signal_candle_close_utc)}</td><td><b>${x.symbol||'—'}</b></td><td>${num(c.signal_price??x.entry_price)}</td>${cell(l.DO)}${cell(l.NYMO)}${cell(l.WO)}${cell(l.DVWAP)}${resultCell(x.change_15m_pct)}${resultCell(x.change_30m_pct)}</tr>`}).join('')}</table></div>`:'<div class="empty">Yeni seviye-snapshot sisteminden sonra henüz kayıt oluşmadı.</div>'}`;
+        ${events.length?`<div class="table-wrap"><table class="data-table"><tr><th>Coin</th><th>Sinyal Fiyatı</th><th>DO</th><th>NYMO</th><th>WO</th><th>DVWAP</th><th>+15dk</th><th>+30dk</th><th>Kapanış (TR)</th></tr>${events.map(x=>{const c=x.level_context||{},l=c.levels||{};return `<tr><td><b>${x.symbol||'—'}</b></td><td>${num(c.signal_price??x.entry_price)}</td>${cell(l.DO)}${cell(l.NYMO)}${cell(l.WO)}${cell(l.DVWAP)}${resultCell(x.change_15m_pct)}${resultCell(x.change_30m_pct)}<td class="nowrap">${dt(x.signal_candle_close_utc)}</td></tr>`}).join('')}</table></div>`:'<div class="empty">Yeni seviye-snapshot sisteminden sonra henüz kayıt oluşmadı.</div>'}`;
       history.appendChild(wrap)
     }catch(e){}
   }
