@@ -13,18 +13,18 @@
     .section-mobile{display:none;position:sticky;top:0;z-index:85;margin:0 auto 8px;max-width:960px;padding:8px 20px;background:rgba(5,8,6,.96);border-bottom:1px solid rgba(57,255,136,.12)}.section-mobile-row{display:flex;align-items:center;gap:8px}.section-mobile-label{font-size:9px;color:var(--muted,#5c8a72)}.section-mobile-select{min-width:0;flex:1;background:#071008;color:var(--text,#d7ffe6);border:1px solid var(--green-dim,#175c3a);border-radius:8px;padding:9px 10px;font:600 11px 'IBM Plex Mono',monospace}
     #content .card{scroll-margin-top:20px}.weekly-score-delta{display:inline-flex;align-items:center;justify-content:center;gap:5px;margin-top:7px;padding:3px 7px;border-radius:999px;border:1px solid var(--green-dim,#175c3a);font:600 9px/1.2 'IBM Plex Mono',monospace}.weekly-score-delta.up{color:var(--green,#39ff88)}.weekly-score-delta.down{color:var(--red,#ff5c5c);border-color:rgba(255,92,92,.35)}.weekly-score-delta.flat{color:var(--muted,#5c8a72)}
 
-    body.screener-page #content>.card:first-child{padding:18px}
-    body.screener-page #content>.card:first-child .note{font-size:9px;line-height:1.35;margin-bottom:7px}
-    body.screener-page #content>.card:first-child .statline{gap:4px;margin-top:6px}
-    body.screener-page #content>.card:first-child .statpill{font-size:7.5px;padding:3px 6px}
-    body.screener-page #content>.card:first-child .table-wrap{overflow-x:auto}
-    body.screener-page #content>.card:first-child table.data-table.screener-compact{table-layout:fixed;width:100%;min-width:680px}
-    body.screener-page #content>.card:first-child table.data-table.screener-compact th{padding:5px 3px;font-size:7.8px;line-height:1.02;white-space:normal!important;overflow-wrap:anywhere;vertical-align:bottom}
-    body.screener-page #content>.card:first-child table.data-table.screener-compact td{padding:5px 3px;font-size:8.7px;line-height:1.08;vertical-align:top;white-space:normal;overflow-wrap:anywhere}
-    body.screener-page #content>.card:first-child table.data-table.screener-compact td b{font-size:9.3px}
-    body.screener-page #content>.card:first-child table.data-table.screener-compact .mini{font-size:6.4px;line-height:1.05;white-space:normal;opacity:.72;letter-spacing:-.02em;margin-top:1px}
-    body.screener-page #content>.card:first-child table.data-table.screener-compact .reading{min-width:0!important;width:auto!important;max-width:none!important;font-size:7.8px;line-height:1.08}
-    body.screener-page #content>.card:first-child table.data-table.screener-compact .signal-note{font-size:7.2px;line-height:1.08}
+    body.screener-page #content>.card:first-child{padding:16px}
+    body.screener-page #content>.card:first-child .note{font-size:8.5px;line-height:1.3;margin-bottom:6px}
+    body.screener-page #content>.card:first-child .statline{gap:4px;margin-top:5px}
+    body.screener-page #content>.card:first-child .statpill{font-size:7px;padding:3px 5px}
+    body.screener-page #content>.card:first-child .table-wrap{overflow-x:hidden}
+    body.screener-page #content>.card:first-child table.data-table.screener-compact{table-layout:fixed;width:100%;min-width:0!important}
+    body.screener-page #content>.card:first-child table.data-table.screener-compact th{padding:4px 2px;font-size:7.2px;line-height:1;white-space:normal!important;overflow-wrap:anywhere;vertical-align:bottom}
+    body.screener-page #content>.card:first-child table.data-table.screener-compact td{padding:4px 2px;font-size:8px;line-height:1.04;vertical-align:top;white-space:normal;overflow-wrap:anywhere}
+    body.screener-page #content>.card:first-child table.data-table.screener-compact td b{font-size:8.6px}
+    body.screener-page #content>.card:first-child table.data-table.screener-compact .mini{font-size:5.9px;line-height:1.02;white-space:normal;opacity:.7;letter-spacing:-.025em;margin-top:1px}
+    body.screener-page #content>.card:first-child table.data-table.screener-compact .reading{min-width:0!important;width:auto!important;max-width:none!important;font-size:7.2px;line-height:1.04}
+    body.screener-page #content>.card:first-child table.data-table.screener-compact .signal-note{font-size:6.8px;line-height:1.04}
     body.screener-page #content>.card:first-child table.data-table.screener-compact th:nth-child(1){width:14%}
     body.screener-page #content>.card:first-child table.data-table.screener-compact th:nth-child(2){width:6%}
     body.screener-page #content>.card:first-child table.data-table.screener-compact th:nth-child(3){width:8%}
@@ -36,7 +36,13 @@
     body.screener-page #content>.card:first-child table.data-table.screener-compact th:nth-child(9){width:18%}
     body.screener-page #content>.card:first-child table.data-table.screener-compact th:nth-child(10){width:12%}
     #historyLevelSnapshots table td.positive{color:var(--green,#39ff88)!important}#historyLevelSnapshots table td.negative{color:var(--red,#ff5c5c)!important}
-    @media(min-width:1440px){.section-tree{display:block}}@media(max-width:1439px){.section-mobile{display:block}}@media(max-width:760px){body.screener-page #content>.card:first-child table.data-table.screener-compact{min-width:640px}}@media(max-width:640px){.section-mobile{padding:7px 12px}.section-mobile-label{display:none}}
+    @media(min-width:1440px){
+      .section-tree{display:block}
+      body.screener-page #content{max-width:none!important;width:calc(100vw - 285px)!important;margin-left:250px!important;margin-right:20px!important;padding-left:0!important;padding-right:0!important}
+      body.screener-page .page-header{max-width:none!important;width:calc(100vw - 285px)!important;margin-left:250px!important;margin-right:20px!important}
+    }
+    @media(max-width:1439px){.section-mobile{display:block}body.screener-page #content>.card:first-child .table-wrap{overflow-x:auto}body.screener-page #content>.card:first-child table.data-table.screener-compact{min-width:640px!important}}
+    @media(max-width:640px){.section-mobile{padding:7px 12px}.section-mobile-label{display:none}}
   `;document.head.appendChild(style);
 
   const nav=document.createElement('aside');nav.className='section-tree';nav.innerHTML='<div class="section-tree-title">BÖLÜMLER</div><div class="section-tree-list"></div>';document.body.appendChild(nav);
