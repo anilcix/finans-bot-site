@@ -2,6 +2,73 @@
   "version": "screener_signal_close_followthrough_v6",
   "events": [
     {
+      "id": "DOGE:2026-09-07T16:10:00+00:00",
+      "symbol": "DOGE",
+      "name": "Dogecoin",
+      "exchange_symbol": "DOGEUSDT",
+      "detected_at": "2026-09-07T16:10:58.784237+00:00",
+      "signal_candle_close_utc": "2026-09-07T16:10:00+00:00",
+      "detection_delay_seconds": 58.784237,
+      "entry_price": 0.08941,
+      "signal_time_utc": "2026-09-07T16:00:00+00:00",
+      "volume_zscore_10m": 2.56863813146733,
+      "pine_z_delta_10m": 3.0232303651682386,
+      "pine_raw_delta_10m_base": 18857042.0,
+      "buyer_share_pct": 79.43215731190968,
+      "spot_delta_10m_usd": 1138214.5762500002,
+      "cvd_green_streak": 1,
+      "signal_score": 8.885084227826535,
+      "level_context": {
+        "signal_price": 0.08941,
+        "previous_10m_close": 0.08899,
+        "signal_candle_open_utc": "2026-09-07T16:00:00+00:00",
+        "signal_candle_close_utc": "2026-09-07T16:10:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 0.09092,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -1.6608007039155326,
+            "touched": false
+          },
+          "NYMO": {
+            "value": 0.08936,
+            "status": "CROSS_UP",
+            "status_tr": "↑ YENİ YUKARI KESTİ",
+            "distance_pct": 0.055953446732326384,
+            "touched": true
+          },
+          "WO": {
+            "value": 0.09092,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -1.6608007039155326,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 0.09008405008668405,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -0.7482457616364235,
+            "touched": false
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-07T16:10:58.784237+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-07T16:25:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-07T16:40:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "AVAX:2026-09-07T05:50:00+00:00",
       "symbol": "AVAX",
       "name": "Avalanche",
@@ -1891,7 +1958,7 @@
   "summary": {
     "15m": {
       "completed": 31,
-      "pending": 0,
+      "pending": 1,
       "up": 16,
       "down": 11,
       "flat": 4,
@@ -1903,7 +1970,7 @@
     },
     "30m": {
       "completed": 31,
-      "pending": 0,
+      "pending": 1,
       "up": 15,
       "down": 12,
       "flat": 4,
@@ -1914,7 +1981,7 @@
       "worst_change_pct": -1.3008812421317795
     },
     "completed": 31,
-    "pending": 0,
+    "pending": 1,
     "up_rate_pct": 51.61290322580645,
     "avg_change_15m_pct": -0.0030679356929635792,
     "median_change_15m_pct": 0.01265342275085235,
@@ -1926,8 +1993,10 @@
     "worst_change_30m_pct": -1.3008812421317795
   },
   "meta": {
-    "active_symbols": [],
-    "updated_at": "2026-09-07T12:37:17.073411+00:00",
+    "active_symbols": [
+      "DOGE"
+    ],
+    "updated_at": "2026-09-07T16:11:10.187213+00:00",
     "reset_at": "2026-09-06T13:30:00+00:00",
     "measurement": "Corrected strategy only: actual 10m candle close -> exact spot close -> +15m/+30m. New events also retain DO/NYMO/WO/DVWAP signal-candle context. Pre-reset records are excluded.",
     "horizons_minutes": [
