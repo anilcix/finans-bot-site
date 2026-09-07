@@ -76,8 +76,6 @@
     u.textContent=`⚠ Canlı tarama yanıtı bekleniyor · hedef ${expectedClosedWindow()} (TR) · otomatik tekrar deneniyor`;
   }
 
-  // Compatibility layer for an older cached HTML page. New HTML already renders
-  // the signal candle column itself, but this keeps stale clients safe too.
   const baseActiveCard=window.activeCard;
   if(typeof baseActiveCard==='function'){
     window.activeCard=function(d){
@@ -121,7 +119,7 @@
     const rows=(d.movers||[]).filter(x=>x.level_context&&x.level_context.levels);
     if(!rows.length){if(old)old.remove();return}
     const wrap=document.createElement('div');wrap.id='levelContextCard';wrap.className='card';
-    wrap.innerHTML=`<h2>Sinyal Anı · Ana Seviye Konumu</h2><div class="note">Sinyal 10dk kapanışındaki fiyatın DO, NYMO, WO ve DVWAP'a göre konumu. “Yeni kesti” = önceki 10dk kapanışı ile sinyal kapanışı seviyenin farklı tarafında kapandı.</div><div class="table-wrap"><table class="data-table"><tr><th>Coin</th><th>Sinyal Mumu (TR)</th><th>Sinyal Fiyatı</th><th>DO</th><th>NYMO</th><th>WO</th><th>DVWAP</th></tr>${rows.map(x=>{const c=x.level_context,l=c.levels||{};return `<tr><td><b>${x.symbol||'—'}</b></td><td class="nowrap"><b>${signalWindow(x,d)}</b></td><td>${fmtPrice(c.signal_price)}</td><td>${levelCell(l.DO)}</td><td>${levelCell(l.NYMO)}</td><td>${levelCell(l.WO)}</td><td>${levelCell(l.DVWAP)}</td></tr>`}).join('')}</table></div>`;
+    wrap.innerHTML=`<h2>Sinyal Anı · Ana Seviye Konumu</h2><div class="note">Sinyal 10dk kapanışındaki fiyatın DO, NYMO, WO ve DVWAP'a göre konumu. “Yeni kesti” = önceki 10dk kapanışı ile sinyal kapanışı seviyenin farklı tarafında kapandı.</div><div class="table-wrap"><table class="data-table"><tr><th>Coin</th><th>Sinyal Fiyatı</th><th>DO</th><th>NYMO</th><th>WO</th><th>DVWAP</th><th>Sinyal Mumu (TR)</th></tr>${rows.map(x=>{const c=x.level_context,l=c.levels||{};return `<tr><td><b>${x.symbol||'—'}</b></td><td>${fmtPrice(c.signal_price)}</td><td>${levelCell(l.DO)}</td><td>${levelCell(l.NYMO)}</td><td>${levelCell(l.WO)}</td><td>${levelCell(l.DVWAP)}</td><td class="nowrap"><b>${signalWindow(x,d)}</b></td></tr>`}).join('')}</table></div>`;
     if(old)old.replaceWith(wrap);else{
       const active=content.firstElementChild;
       if(active)active.insertAdjacentElement('afterend',wrap);else content.prepend(wrap);
