@@ -2,6 +2,73 @@
   "version": "screener_signal_close_followthrough_v6",
   "events": [
     {
+      "id": "DOT:2026-09-08T06:00:00+00:00",
+      "symbol": "DOT",
+      "name": "Polkadot",
+      "exchange_symbol": "DOTUSDT",
+      "detected_at": "2026-09-08T06:02:22.981308+00:00",
+      "signal_candle_close_utc": "2026-09-08T06:00:00+00:00",
+      "detection_delay_seconds": 142.981308,
+      "entry_price": 1.072,
+      "signal_time_utc": "2026-09-08T05:50:00+00:00",
+      "volume_zscore_10m": 3.8431442856949336,
+      "pine_z_delta_10m": 2.6706443855779356,
+      "pine_raw_delta_10m_base": 197612.02,
+      "buyer_share_pct": 80.77212493830734,
+      "spot_delta_10m_usd": 308297.72482000006,
+      "cvd_green_streak": 1,
+      "signal_score": 9.941001165103604,
+      "level_context": {
+        "signal_price": 1.072,
+        "previous_10m_close": 1.068,
+        "signal_candle_open_utc": "2026-09-08T05:50:00+00:00",
+        "signal_candle_close_utc": "2026-09-08T06:00:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 1.062,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.9416195856873921,
+            "touched": false
+          },
+          "NYMO": {
+            "value": 1.078,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -0.5565862708719838,
+            "touched": true
+          },
+          "WO": {
+            "value": 0.979,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 9.499489274770179,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 1.0697138569775595,
+            "status": "CROSS_UP",
+            "status_tr": "↑ YENİ YUKARI KESTİ",
+            "distance_pct": 0.21371537888645875,
+            "touched": true
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-08T06:02:22.981308+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-08T06:15:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-08T06:30:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "BFUSD:2026-09-08T05:10:00+00:00",
       "symbol": "BFUSD",
       "name": "BFUSD",
@@ -20,17 +87,18 @@
       "signal_score": 11.96569828417171,
       "level_context": null,
       "last_seen_at": "2026-09-08T05:19:57.471869+00:00",
-      "ended_at": null,
+      "ended_at": "2026-09-08T06:02:22.981308+00:00",
       "target_15m_at": "2026-09-08T05:25:00+00:00",
-      "price_15m": null,
-      "change_15m_pct": null,
-      "direction_15m": "BEKLIYOR",
-      "evaluated_15m_at": null,
+      "price_15m": 0.9999,
+      "change_15m_pct": -0.009999999999998899,
+      "direction_15m": "AŞAĞI",
+      "evaluated_15m_at": "2026-09-08T06:02:31.887410+00:00",
       "target_30m_at": "2026-09-08T05:40:00+00:00",
-      "price_30m": null,
-      "change_30m_pct": null,
-      "direction_30m": "BEKLIYOR",
-      "evaluated_30m_at": null
+      "price_30m": 0.9999,
+      "change_30m_pct": -0.009999999999998899,
+      "direction_30m": "AŞAĞI",
+      "evaluated_30m_at": "2026-09-08T06:02:31.887410+00:00",
+      "evaluated_at": "2026-09-08T06:02:31.887410+00:00"
     },
     {
       "id": "RAY:2026-09-08T00:40:00+00:00",
@@ -2465,46 +2533,46 @@
   ],
   "summary": {
     "15m": {
-      "completed": 39,
+      "completed": 40,
       "pending": 1,
       "up": 20,
-      "down": 15,
+      "down": 16,
       "flat": 4,
-      "up_rate_pct": 51.28205128205128,
-      "avg_change_pct": 0.03433032767000432,
-      "median_change_pct": 0.01265342275085235,
+      "up_rate_pct": 50.0,
+      "avg_change_pct": 0.033222069478254235,
+      "median_change_pct": 0.006326711375426175,
       "best_change_pct": 1.4546684709066504,
       "worst_change_pct": -1.7415023080151082
     },
     "30m": {
-      "completed": 39,
+      "completed": 40,
       "pending": 1,
       "up": 19,
-      "down": 16,
+      "down": 17,
       "flat": 4,
-      "up_rate_pct": 48.717948717948715,
-      "avg_change_pct": 0.03884475066733369,
+      "up_rate_pct": 47.5,
+      "avg_change_pct": 0.03762363190065038,
       "median_change_pct": 0.0,
       "best_change_pct": 1.1755751014884908,
       "worst_change_pct": -1.3008812421317795
     },
-    "completed": 39,
+    "completed": 40,
     "pending": 1,
-    "up_rate_pct": 51.28205128205128,
-    "avg_change_15m_pct": 0.03433032767000432,
-    "median_change_15m_pct": 0.01265342275085235,
+    "up_rate_pct": 50.0,
+    "avg_change_15m_pct": 0.033222069478254235,
+    "median_change_15m_pct": 0.006326711375426175,
     "best_change_15m_pct": 1.4546684709066504,
     "worst_change_15m_pct": -1.7415023080151082,
-    "avg_change_30m_pct": 0.03884475066733369,
+    "avg_change_30m_pct": 0.03762363190065038,
     "median_change_30m_pct": 0.0,
     "best_change_30m_pct": 1.1755751014884908,
     "worst_change_30m_pct": -1.3008812421317795
   },
   "meta": {
     "active_symbols": [
-      "BFUSD"
+      "DOT"
     ],
-    "updated_at": "2026-09-08T05:20:06.096097+00:00",
+    "updated_at": "2026-09-08T06:02:31.887410+00:00",
     "reset_at": "2026-09-06T13:30:00+00:00",
     "measurement": "Corrected strategy only: actual 10m candle close -> exact spot close -> +15m/+30m. New events also retain DO/NYMO/WO/DVWAP signal-candle context. Pre-reset records are excluded.",
     "horizons_minutes": [
