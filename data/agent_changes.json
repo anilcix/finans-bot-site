@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-08T22:49:08.504397+00:00",
+  "generated_at": "2026-09-08T23:23:21.480102+00:00",
   "meaning": "Red means actual agent payload changed versus previous committed refresh; timestamp-only fields are ignored.",
   "agents": {
     "news": {
-      "changed": true,
+      "changed": false,
       "available": true,
-      "previous_hash": "ec689caf04588ce7efdcd565587252c0901d4fc57f99303f0d2b637fbadf9524",
+      "previous_hash": "7c6fc5448a13285eab3661ab1706092a2a82c117a2aee3e8a682add16d371336",
       "current_hash": "7c6fc5448a13285eab3661ab1706092a2a82c117a2aee3e8a682add16d371336"
     },
     "macro": {
       "changed": true,
       "available": true,
-      "previous_hash": "de6a473fd23e83c16aceb9e8517e4b247b4c06b98d6ae1501a8a2a7557f7a82b",
-      "current_hash": "47604ef205e02dbb49267da296eee3499042083b65870cec2223d5197b91c804"
+      "previous_hash": "47604ef205e02dbb49267da296eee3499042083b65870cec2223d5197b91c804",
+      "current_hash": "486f78c134c22a20137e40863a6a10447cdf071ee9eea0141599e96a55161598"
     },
     "credit": {
       "changed": false,
@@ -23,8 +23,8 @@
     "crypto": {
       "changed": true,
       "available": true,
-      "previous_hash": "13e8a082ce9a2730f9188adeea2e67e3bf47230e0455ad5f7d4ff585d6670904",
-      "current_hash": "ae240969ca1203ada63ad7a6d0aab39e2993ca71ecc073d4516fca9fb3aafa0d"
+      "previous_hash": "ae240969ca1203ada63ad7a6d0aab39e2993ca71ecc073d4516fca9fb3aafa0d",
+      "current_hash": "a9c34490d185ad86cc1da4eb847c87f4286d4089285d9c070faee361ae822a8a"
     },
     "hidden_pressure": {
       "changed": false,
@@ -35,20 +35,20 @@
     "equities": {
       "changed": true,
       "available": true,
-      "previous_hash": "c18a8ef40725749d2636c4680f2c5cff7fdc871f6ed408d1e40738c407e77d79",
-      "current_hash": "7b0427f95b8d9f23c300d353a45562c87ca20c030224a1d214172444b1cb4615"
+      "previous_hash": "7b0427f95b8d9f23c300d353a45562c87ca20c030224a1d214172444b1cb4615",
+      "current_hash": "4b422743f01ab8619adf9890da23c6315b89469438bd9751a86204b924f3edde"
     },
     "options": {
-      "changed": false,
+      "changed": true,
       "available": true,
       "previous_hash": "0ac50302c0b7d4d73f9cbc9600d0324eab04eebb14467405dceee880eec449b6",
-      "current_hash": "0ac50302c0b7d4d73f9cbc9600d0324eab04eebb14467405dceee880eec449b6"
+      "current_hash": "d106ff23ca8981ad4cf0b2939157a6e1672a20d2a0a9e37784f30c583ac712bd"
     },
     "crypto_derivatives": {
       "changed": true,
       "available": true,
-      "previous_hash": "326f4d70b2556a2a30352cdcb76a3c33652f5e2b2d7a8bd917cd92a5e0c2e004",
-      "current_hash": "dceaeeb6e7998a9d359dcae24c674f03384fd7749bb2a6e7e3b6cf8368c1862f"
+      "previous_hash": "dceaeeb6e7998a9d359dcae24c674f03384fd7749bb2a6e7e3b6cf8368c1862f",
+      "current_hash": "3204641ed9f0157671e45781e297d8323bdeababa92f264470dc67c4ecca054f"
     }
   }
 }
