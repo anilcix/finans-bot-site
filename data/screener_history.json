@@ -2,6 +2,73 @@
   "version": "screener_signal_close_followthrough_v6",
   "events": [
     {
+      "id": "RENDER:2026-09-09T11:10:00+00:00",
+      "symbol": "RENDER",
+      "name": "Render",
+      "exchange_symbol": "RENDERUSDT",
+      "detected_at": "2026-09-09T11:16:41.404247+00:00",
+      "signal_candle_close_utc": "2026-09-09T11:10:00+00:00",
+      "detection_delay_seconds": 401.404247,
+      "entry_price": 1.506,
+      "signal_time_utc": "2026-09-09T11:00:00+00:00",
+      "volume_zscore_10m": 2.208473858658104,
+      "pine_z_delta_10m": 1.0575217185158516,
+      "pine_raw_delta_10m_base": 14570.839999999998,
+      "buyer_share_pct": 65.0928304408386,
+      "spot_delta_10m_usd": 18131.463410000004,
+      "cvd_green_streak": 3,
+      "signal_score": 5.825278621257815,
+      "level_context": {
+        "signal_price": 1.506,
+        "previous_10m_close": 1.513,
+        "signal_candle_open_utc": "2026-09-09T11:00:00+00:00",
+        "signal_candle_close_utc": "2026-09-09T11:10:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 1.507,
+            "status": "CROSS_DOWN",
+            "status_tr": "↓ YENİ AŞAĞI KESTİ",
+            "distance_pct": -0.06635700066356387,
+            "touched": true
+          },
+          "NYMO": {
+            "value": 1.479,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 1.8255578093306246,
+            "touched": false
+          },
+          "WO": {
+            "value": 1.564,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -3.7084398976982125,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 1.5072077545684064,
+            "status": "CROSS_DOWN",
+            "status_tr": "↓ YENİ AŞAĞI KESTİ",
+            "distance_pct": -0.08013192373418354,
+            "touched": true
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-09T11:16:41.404247+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-09T11:25:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-09T11:40:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "POL:2026-09-09T08:30:00+00:00",
       "symbol": "POL",
       "name": "POL (ex-MATIC)",
@@ -4439,7 +4506,7 @@
   "summary": {
     "15m": {
       "completed": 69,
-      "pending": 0,
+      "pending": 1,
       "up": 41,
       "down": 22,
       "flat": 6,
@@ -4451,7 +4518,7 @@
     },
     "30m": {
       "completed": 69,
-      "pending": 0,
+      "pending": 1,
       "up": 33,
       "down": 28,
       "flat": 8,
@@ -4462,7 +4529,7 @@
       "worst_change_pct": -2.1455223880597174
     },
     "completed": 69,
-    "pending": 0,
+    "pending": 1,
     "up_rate_pct": 59.42028985507246,
     "avg_change_15m_pct": 0.082349825759151,
     "median_change_15m_pct": 0.08633093525181046,
@@ -4474,8 +4541,10 @@
     "worst_change_30m_pct": -2.1455223880597174
   },
   "meta": {
-    "active_symbols": [],
-    "updated_at": "2026-09-09T09:56:34.193659+00:00",
+    "active_symbols": [
+      "RENDER"
+    ],
+    "updated_at": "2026-09-09T11:16:53.162347+00:00",
     "reset_at": "2026-09-06T13:30:00+00:00",
     "measurement": "Corrected strategy only: actual 10m candle close -> exact spot close -> +15m/+30m. New events also retain DO/NYMO/WO/DVWAP signal-candle context. Pre-reset records are excluded.",
     "horizons_minutes": [
