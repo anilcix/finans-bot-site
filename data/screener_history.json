@@ -2,6 +2,73 @@
   "version": "screener_signal_close_followthrough_v6",
   "events": [
     {
+      "id": "POL:2026-09-09T08:30:00+00:00",
+      "symbol": "POL",
+      "name": "POL (ex-MATIC)",
+      "exchange_symbol": "POLUSDT",
+      "detected_at": "2026-09-09T08:33:31.391635+00:00",
+      "signal_candle_close_utc": "2026-09-09T08:30:00+00:00",
+      "detection_delay_seconds": 211.391635,
+      "entry_price": 0.09937,
+      "signal_time_utc": "2026-09-09T08:20:00+00:00",
+      "volume_zscore_10m": 3.8602300591165255,
+      "pine_z_delta_10m": 1.2535087460816785,
+      "pine_raw_delta_10m_base": 864597.7999999998,
+      "buyer_share_pct": 70.55095928895572,
+      "spot_delta_10m_usd": 191336.5340739999,
+      "cvd_green_streak": 3,
+      "signal_score": 8.218834734093775,
+      "level_context": {
+        "signal_price": 0.09937,
+        "previous_10m_close": 0.09901,
+        "signal_candle_open_utc": "2026-09-09T08:20:00+00:00",
+        "signal_candle_close_utc": "2026-09-09T08:30:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 0.09554,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 4.008792128951222,
+            "touched": false
+          },
+          "NYMO": {
+            "value": 0.09522,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 4.35832808233565,
+            "touched": false
+          },
+          "WO": {
+            "value": 0.09844,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.9447379114181143,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 0.09701644866747675,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 2.425930205495397,
+            "touched": false
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-09T08:33:31.391635+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-09T08:45:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-09T09:00:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "AAVE:2026-09-09T08:10:00+00:00",
       "symbol": "AAVE",
       "name": "Aave",
@@ -56,17 +123,18 @@
         "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
       },
       "last_seen_at": "2026-09-09T08:15:53.294653+00:00",
-      "ended_at": null,
+      "ended_at": "2026-09-09T08:33:31.391635+00:00",
       "target_15m_at": "2026-09-09T08:25:00+00:00",
-      "price_15m": null,
-      "change_15m_pct": null,
-      "direction_15m": "BEKLIYOR",
-      "evaluated_15m_at": null,
+      "price_15m": 130.46,
+      "change_15m_pct": 0.29983854847390745,
+      "direction_15m": "YUKARI",
+      "evaluated_15m_at": "2026-09-09T08:33:43.744002+00:00",
       "target_30m_at": "2026-09-09T08:40:00+00:00",
       "price_30m": null,
       "change_30m_pct": null,
       "direction_30m": "BEKLIYOR",
-      "evaluated_30m_at": null
+      "evaluated_30m_at": null,
+      "evaluated_at": "2026-09-09T08:33:43.744002+00:00"
     },
     {
       "id": "CVX:2026-09-09T06:00:00+00:00",
@@ -4369,20 +4437,20 @@
   ],
   "summary": {
     "15m": {
-      "completed": 67,
+      "completed": 68,
       "pending": 1,
-      "up": 40,
+      "up": 41,
       "down": 21,
       "flat": 6,
-      "up_rate_pct": 59.70149253731343,
-      "avg_change_pct": 0.08859382681798902,
-      "median_change_pct": 0.08633093525181046,
+      "up_rate_pct": 60.29411764705882,
+      "avg_change_pct": 0.09170036684234076,
+      "median_change_pct": 0.09444751890795855,
       "best_change_pct": 1.4546684709066504,
       "worst_change_pct": -1.7415023080151082
     },
     "30m": {
       "completed": 67,
-      "pending": 1,
+      "pending": 2,
       "up": 32,
       "down": 27,
       "flat": 8,
@@ -4392,11 +4460,11 @@
       "best_change_pct": 1.2789841737210095,
       "worst_change_pct": -2.1455223880597174
     },
-    "completed": 67,
+    "completed": 68,
     "pending": 1,
-    "up_rate_pct": 59.70149253731343,
-    "avg_change_15m_pct": 0.08859382681798902,
-    "median_change_15m_pct": 0.08633093525181046,
+    "up_rate_pct": 60.29411764705882,
+    "avg_change_15m_pct": 0.09170036684234076,
+    "median_change_15m_pct": 0.09444751890795855,
     "best_change_15m_pct": 1.4546684709066504,
     "worst_change_15m_pct": -1.7415023080151082,
     "avg_change_30m_pct": 0.0516025160193634,
@@ -4406,9 +4474,9 @@
   },
   "meta": {
     "active_symbols": [
-      "AAVE"
+      "POL"
     ],
-    "updated_at": "2026-09-09T08:16:01.669823+00:00",
+    "updated_at": "2026-09-09T08:33:43.744002+00:00",
     "reset_at": "2026-09-06T13:30:00+00:00",
     "measurement": "Corrected strategy only: actual 10m candle close -> exact spot close -> +15m/+30m. New events also retain DO/NYMO/WO/DVWAP signal-candle context. Pre-reset records are excluded.",
     "horizons_minutes": [
