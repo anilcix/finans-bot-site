@@ -1,15 +1,15 @@
 {
-  "market_score": 58.6,
+  "market_score": 58.7,
   "stance": "Temkinli Risk-On",
   "confidence": 75.0,
   "component_scores": {
     "macro": 52.5,
     "credit": 65,
     "options": 78,
-    "crypto": 61.2,
+    "crypto": 60.1,
     "crypto_derivatives": 66,
     "equities": 56.5,
-    "news": 50
+    "news": 53
   },
   "plain_summary": [
     "Ana görüş: yukarı yön hâlâ avantajlı, fakat güçlü bir risk-on rejiminde değiliz. Seçici şekilde risk alınabilir; agresif kaldıraç ve yükselişi kovalamak için yeterli teyit yok.",
@@ -17,41 +17,26 @@
     "Görüşü güçlendirecek teyit: CCC ve IG spreadleri yeniden daralmaya başlar, HY düşük kalırsa risk artırma teyidi. Görüşü bozacak sinyal: HY OAS %4.0 üzerine çıkar veya kredi döngüsü Late Cycle/Contraction'a dönerse riski azalt."
   ],
   "news_analysis": {
-    "score": 50,
+    "score": 53,
     "tone": "Karışık / Nötr",
-    "summary": "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 1 risk artırıcı, 8 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
+    "summary": "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 0 risk artırıcı, 9 nötr/karışık benzersiz başlık. Haber skoru 53/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
     "positive_count": 1,
-    "negative_count": 1,
-    "neutral_count": 8,
+    "negative_count": 0,
+    "neutral_count": 9,
     "headline_count": 10,
     "unique_story_count": 10,
     "article_context_count": 0,
     "topic_summaries": [
       {
         "topic": "Bitcoin",
-        "tone": "karışık",
+        "tone": "destekleyici",
         "count": 10,
-        "digest": "India’s financial intelligence unit flags 15 crypto platforms for AML lapses | Live updates: XRP funds stand out among U.S. ETFs as bitcoin, ether, solana funds see outflows",
+        "digest": "India’s financial intelligence unit flags 15 crypto platforms for AML lapses | Live updates: Brent crude hits $100 for first time since July as bitcoin holds above $79,000",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.5; çoklu-borsa OI 24s %+0.6; OI-ağırlıklı funding %+0.0076."
+        "data_confirmation": "BTC 24s %+0.3; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0067."
       }
     ],
     "important_news": [
-      {
-        "title": "Live updates: XRP funds stand out among U.S. ETFs as bitcoin, ether, solana funds see outflows",
-        "link": "https://www.coindesk.com/business/2026/09/09/live-updates-xrp-funds-stand-out-among-u-s-etfs-as-bitcoin-ether-solana-funds-see-outflows",
-        "published_at": "2026-09-09T07:20:51+00:00",
-        "topic": "Bitcoin",
-        "theme": "crypto",
-        "impact_score": -1,
-        "impact": "Risk artırıcı",
-        "brief_summary": "Live updates: XRP funds stand out among U.S. ETFs as bitcoin, ether, solana funds see outflows",
-        "summary_mode": "headline_only",
-        "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.5; çoklu-borsa OI 24s %+0.6; OI-ağırlıklı funding %+0.0076.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.5; çoklu-borsa OI 24s %+0.6; OI-ağırlıklı funding %+0.0076."
-      },
       {
         "title": "Bitcoin rally has more room as volatility shorts unwind, Two Prime CEO says",
         "link": "https://www.coindesk.com/markets/2026/09/03/bitcoin-rally-has-more-room-as-volatility-shorts-unwind-two-prime-ceo-says",
@@ -63,9 +48,9 @@
         "brief_summary": "Bitcoin rally has more room as volatility shorts unwind, Two Prime CEO says",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.5; çoklu-borsa OI 24s %+0.6; OI-ağırlıklı funding %+0.0076.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.3; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0067.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.5; çoklu-borsa OI 24s %+0.6; OI-ağırlıklı funding %+0.0076."
+        "data_confirmation": "BTC 24s %+0.3; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0067."
       },
       {
         "title": "India’s financial intelligence unit flags 15 crypto platforms for AML lapses",
@@ -78,9 +63,24 @@
         "brief_summary": "India’s financial intelligence unit flags 15 crypto platforms for AML lapses",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.5; çoklu-borsa OI 24s %+0.6; OI-ağırlıklı funding %+0.0076.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.3; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0067.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.5; çoklu-borsa OI 24s %+0.6; OI-ağırlıklı funding %+0.0076."
+        "data_confirmation": "BTC 24s %+0.3; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0067."
+      },
+      {
+        "title": "Live updates: Brent crude hits $100 for first time since July as bitcoin holds above $79,000",
+        "link": "https://www.coindesk.com/business/2026/09/09/live-updates-xrp-funds-stand-out-among-u-s-etfs-as-bitcoin-ether-solana-funds-see-outflows",
+        "published_at": "2026-09-09T07:20:51+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Live updates: Brent crude hits $100 for first time since July as bitcoin holds above $79,000",
+        "summary_mode": "headline_only",
+        "read_mode": "trusted_feed_headline",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.3; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0067.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+0.3; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0067."
       },
       {
         "title": "Bitcoin recovers toward $79,000 as Zcash records a $500 million ETF haul",
@@ -93,9 +93,9 @@
         "brief_summary": "Bitcoin recovers toward $79,000 as Zcash records a $500 million ETF haul",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.5; çoklu-borsa OI 24s %+0.6; OI-ağırlıklı funding %+0.0076.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.3; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0067.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.5; çoklu-borsa OI 24s %+0.6; OI-ağırlıklı funding %+0.0076."
+        "data_confirmation": "BTC 24s %+0.3; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0067."
       },
       {
         "title": "Copper CEO Amar Kuchinad departs as search for a buyer enters a fourth month",
@@ -123,9 +123,9 @@
         "brief_summary": "Ethereum makes quantum resistance a top priority with a 2029 deadline",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.5; çoklu-borsa OI 24s %+0.6; OI-ağırlıklı funding %+0.0076.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.3; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0067.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.5; çoklu-borsa OI 24s %+0.6; OI-ağırlıklı funding %+0.0076."
+        "data_confirmation": "BTC 24s %+0.3; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0067."
       },
       {
         "title": "Bitmine purchased another $69 million of ETH, with Tom DeMark expecting price uptrend to soon resume",
@@ -149,8 +149,8 @@
     "HY spread son 3 ayda daralıyor; kredi koşulları kısa vadede riskli varlıkları destekliyor.",
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
-    "VIX 15.73 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
-    "Stablecoin piyasa değeri 7 günde %+0.59; kripto içi dolar likiditesi genişliyor.",
+    "VIX 15.95 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "Stablecoin piyasa değeri 7 günde %+0.57; kripto içi dolar likiditesi genişliyor.",
     "BTC yükselişi vadeli piyasa CVD tarafından da teyit ediliyor; agresif alıcı akışı fiyat yönüyle uyumlu.",
     "vadeli piyasa ve vadeli piyasa funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü."
   ],
@@ -166,9 +166,9 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+1.5, ETH %+1.7.",
+    "Kriptoda spot momentum: BTC 24s %+0.3, ETH %+0.0.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 1 risk artırıcı, 8 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
+    "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 0 risk artırıcı, 9 nötr/karışık benzersiz başlık. Haber skoru 53/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
   "investment_view": {
@@ -363,7 +363,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-09-09T08:32:48.827682+00:00"
+    "generated_at": "2026-09-09T09:55:44.776367+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -378,5 +378,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-09-09T08:28:57.446194+00:00"
+  "generated_at": "2026-09-09T09:51:44.255464+00:00"
 }
