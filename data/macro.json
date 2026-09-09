@@ -208,9 +208,9 @@
       "change": -11.363000000000284
     },
     "rrp": {
-      "date": "2026-09-08",
-      "value": 0.626,
-      "change": -0.824
+      "date": "2026-09-09",
+      "value": 0.432,
+      "change": -0.5429999999999999
     },
     "ust10": {
       "date": "2026-09-04",
@@ -222,38 +222,7 @@
       "value": 5.24,
       "change": 0.020000000000000462
     },
-    "net_liquidity_proxy": {
-      "value": 5768.744000000001,
-      "change": -26.53599999999915,
-      "change_3w": -26.53599999999915,
-      "unit": "$bn",
-      "window_days": 21,
-      "formula": "Fed assets - TGA - ON RRP",
-      "calibration": "common_anchor_21d",
-      "anchor_date": "2026-09-02",
-      "prior_anchor_date": "2026-08-12",
-      "current_components": {
-        "fed_assets": 6737.204,
-        "tga": 967.935,
-        "rrp": 0.525
-      },
-      "current_dates": {
-        "fed_assets": "2026-09-02",
-        "tga": "2026-09-02",
-        "rrp": "2026-09-02"
-      },
-      "prior_components": {
-        "fed_assets": 6759.955,
-        "tga": 963.95,
-        "rrp": 0.725
-      },
-      "prior_dates": {
-        "fed_assets": "2026-08-12",
-        "tga": "2026-08-12",
-        "rrp": "2026-08-12"
-      },
-      "note": "Fed assets - TGA - ON RRP. Tüm bileşenler ortak son tarihe ve tam 21 gün önceki ortak anchor'a hizalanır; WinCAlgo tipi 3-hafta delta yaklaşımına yakın kalibrasyondur. Mekanik proxy, nedensellik değildir."
-    }
+    "net_liquidity_proxy": null
   },
   "macro_reading": {
     "headline": "Kısa vadeli rahatlama var, fakat alttaki kırılganlık sürüyor",
@@ -1041,7 +1010,7 @@
       },
       {
         "date": "2026-09-09",
-        "value": 7642.56982421875
+        "value": 7641.509765625
       }
     ]
   },
@@ -9679,8 +9648,8 @@
       },
       {
         "date": "2026-09-09",
-        "value": 166.09907404650926,
-        "raw": 762.8099975585938
+        "value": 166.0685863712915,
+        "raw": 762.6699829101562
       }
     ],
     "QQQ": [
@@ -9986,8 +9955,8 @@
       },
       {
         "date": "2026-09-09",
-        "value": 185.48341407385934,
-        "raw": 716.1699829101562
+        "value": 185.50413798488972,
+        "raw": 716.25
       }
     ],
     "BTC": [
@@ -10293,8 +10262,8 @@
       },
       {
         "date": "2026-09-09",
-        "value": 128.48333441948296,
-        "raw": 78784.640625
+        "value": 128.118872292565,
+        "raw": 78561.15625
       }
     ]
   },
@@ -10545,5 +10514,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş makro veri sağlayıcısı serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-09-09T17:37:08.941727+00:00"
+  "generated_at": "2026-09-09T18:30:49.616814+00:00"
 }
