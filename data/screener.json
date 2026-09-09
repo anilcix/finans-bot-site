@@ -1,5 +1,95 @@
 {
-  "movers": [],
+  "movers": [
+    {
+      "symbol": "FF",
+      "name": "Falcon Finance",
+      "coingecko_id": "falcon-finance-ff",
+      "exchange": "ana piyasa",
+      "exchange_symbol": "FFUSDT",
+      "price": 0.150754,
+      "change_24h": 6.28254,
+      "volume_zscore_10m": 4.33680402397013,
+      "pine_z_delta_10m": 4.324535124442904,
+      "pine_raw_delta_10m_base": 2503070.0,
+      "pine_delta_mean_20": 135655.415,
+      "pine_delta_stdev_20": 547437.9365354271,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_10m": 4967611.2,
+      "base_volume_mean_20": 486034.915,
+      "base_volume_stdev_20": 1033382.2465183333,
+      "volume_10m_usd": 745974.367755,
+      "buyer_share_pct": 74.58537109156197,
+      "taker_buy_10m_usd": 556387.750438,
+      "taker_sell_10m_usd": 189586.61731700005,
+      "spot_delta_10m_usd": 366801.1331209999,
+      "price_change_10m_pct": 0.019858343814127544,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1788964800000,
+          "delta_usd": -2739.842829000001,
+          "green": false
+        },
+        {
+          "ts": 1788965400000,
+          "delta_usd": -8482.052899999999,
+          "green": false
+        },
+        {
+          "ts": 1788966000000,
+          "delta_usd": 366801.1331209999,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 1,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 355579.2373919999,
+      "cvd_note": "✅ Pine Z-Delta + true Spot CVD aynı yönde",
+      "signal_score": 11.469876257569231,
+      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
+      "signal_time_utc": "2026-09-09T15:00:00+00:00",
+      "signal_candle_open_utc": "2026-09-09T15:00:00+00:00",
+      "signal_candle_close_utc": "2026-09-09T15:10:00+00:00",
+      "level_context": {
+        "signal_price": 0.1511,
+        "previous_10m_close": 0.15102,
+        "signal_candle_open_utc": "2026-09-09T15:00:00+00:00",
+        "signal_candle_close_utc": "2026-09-09T15:10:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 0.1502,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.5992010652463353,
+            "touched": true
+          },
+          "NYMO": {
+            "value": 0.14672,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 2.9852780806979506,
+            "touched": false
+          },
+          "WO": {
+            "value": 0.11898,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 26.996133804000678,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 0.15110129723521684,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -0.0008585202381228285,
+            "touched": true
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      }
+    }
+  ],
   "window": "10m",
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
   "scan_meta": {
@@ -8,7 +98,7 @@
     "binance_spot_matched": 101,
     "scanned": 101,
     "failed": 0,
-    "signal_count_before_cap": 0,
+    "signal_count_before_cap": 1,
     "max_results": 10,
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
@@ -18,9 +108,9 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_10m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_10m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "signal_candle_open_utc": "2026-09-09T13:50:00+00:00",
-  "signal_candle_close_utc": "2026-09-09T14:00:00+00:00",
+  "signal_candle_open_utc": "2026-09-09T15:00:00+00:00",
+  "signal_candle_close_utc": "2026-09-09T15:10:00+00:00",
   "level_context_method": "DO · NYMO · WO · DVWAP at signal candle close",
-  "generated_at": "2026-09-09T14:02:56.159102+00:00",
+  "generated_at": "2026-09-09T15:11:44.791150+00:00",
   "refresh_policy": "latest fully closed global 10m candle"
 }
