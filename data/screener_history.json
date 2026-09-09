@@ -2,6 +2,207 @@
   "version": "screener_signal_close_followthrough_v6",
   "events": [
     {
+      "id": "CVX:2026-09-09T06:00:00+00:00",
+      "symbol": "CVX",
+      "name": "Convex Finance",
+      "exchange_symbol": "CVXUSDT",
+      "detected_at": "2026-09-09T06:09:06.050992+00:00",
+      "signal_candle_close_utc": "2026-09-09T06:00:00+00:00",
+      "detection_delay_seconds": 546.050992,
+      "entry_price": 2.219,
+      "signal_time_utc": "2026-09-09T05:50:00+00:00",
+      "volume_zscore_10m": 4.33046589705319,
+      "pine_z_delta_10m": 4.319332553098041,
+      "pine_raw_delta_10m_base": 21681.112,
+      "buyer_share_pct": 84.48394478728804,
+      "spot_delta_10m_usd": 36782.205011000005,
+      "cvd_green_streak": 1,
+      "signal_score": 12.448192928880035,
+      "level_context": {
+        "signal_price": 2.219,
+        "previous_10m_close": 2.205,
+        "signal_candle_open_utc": "2026-09-09T05:50:00+00:00",
+        "signal_candle_close_utc": "2026-09-09T06:00:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 2.206,
+            "status": "CROSS_UP",
+            "status_tr": "↑ YENİ YUKARI KESTİ",
+            "distance_pct": 0.5893019038984537,
+            "touched": true
+          },
+          "NYMO": {
+            "value": 2.205,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.6349206349206327,
+            "touched": true
+          },
+          "WO": {
+            "value": 2.361,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -6.014400677678966,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 2.219466016276297,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -0.02099677457908511,
+            "touched": true
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-09T06:09:06.050992+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-09T06:15:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-09T06:30:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
+      "id": "DCR:2026-09-09T06:00:00+00:00",
+      "symbol": "DCR",
+      "name": "Decred",
+      "exchange_symbol": "DCRUSDT",
+      "detected_at": "2026-09-09T06:09:06.050992+00:00",
+      "signal_candle_close_utc": "2026-09-09T06:00:00+00:00",
+      "detection_delay_seconds": 546.050992,
+      "entry_price": 17.28,
+      "signal_time_utc": "2026-09-09T05:50:00+00:00",
+      "volume_zscore_10m": 2.0901494288098044,
+      "pine_z_delta_10m": 2.673079311892376,
+      "pine_raw_delta_10m_base": 705.046,
+      "buyer_share_pct": 67.25822008255365,
+      "spot_delta_10m_usd": 4187.735799999999,
+      "cvd_green_streak": 2,
+      "signal_score": 7.189050748957546,
+      "level_context": {
+        "signal_price": 17.28,
+        "previous_10m_close": 17.1,
+        "signal_candle_open_utc": "2026-09-09T05:50:00+00:00",
+        "signal_candle_close_utc": "2026-09-09T06:00:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 17.36,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -0.4608294930875445,
+            "touched": false
+          },
+          "NYMO": {
+            "value": 17.06,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 1.2895662368112681,
+            "touched": false
+          },
+          "WO": {
+            "value": 16.61,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 4.033714629741136,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 17.11316433885853,
+            "status": "CROSS_UP",
+            "status_tr": "↑ YENİ YUKARI KESTİ",
+            "distance_pct": 0.9748966224945255,
+            "touched": true
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-09T06:09:06.050992+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-09T06:15:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-09T06:30:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
+      "id": "NEXO:2026-09-09T06:00:00+00:00",
+      "symbol": "NEXO",
+      "name": "NEXO",
+      "exchange_symbol": "NEXOUSDT",
+      "detected_at": "2026-09-09T06:09:06.050992+00:00",
+      "signal_candle_close_utc": "2026-09-09T06:00:00+00:00",
+      "detection_delay_seconds": 546.050992,
+      "entry_price": 0.843,
+      "signal_time_utc": "2026-09-09T05:50:00+00:00",
+      "volume_zscore_10m": 3.332520436727617,
+      "pine_z_delta_10m": 1.2676867131993501,
+      "pine_raw_delta_10m_base": 8497.09,
+      "buyer_share_pct": 88.79668526269391,
+      "spot_delta_10m_usd": 22971.04778,
+      "cvd_green_streak": 3,
+      "signal_score": 9.529875676196358,
+      "level_context": {
+        "signal_price": 0.843,
+        "previous_10m_close": 0.845,
+        "signal_candle_open_utc": "2026-09-09T05:50:00+00:00",
+        "signal_candle_close_utc": "2026-09-09T06:00:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 0.838,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.5966587112171906,
+            "touched": false
+          },
+          "NYMO": {
+            "value": 0.845,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -0.2366863905325478,
+            "touched": true
+          },
+          "WO": {
+            "value": 0.836,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.837320574162681,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 0.842058946390471,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.11175626285579998,
+            "touched": true
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-09T06:09:06.050992+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-09T06:15:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-09T06:30:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "ETHFI:2026-09-09T05:20:00+00:00",
       "symbol": "ETHFI",
       "name": "Ether.fi",
@@ -56,17 +257,18 @@
         "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
       },
       "last_seen_at": "2026-09-09T05:22:27.306254+00:00",
-      "ended_at": null,
+      "ended_at": "2026-09-09T06:09:06.050992+00:00",
       "target_15m_at": "2026-09-09T05:35:00+00:00",
-      "price_15m": null,
-      "change_15m_pct": null,
-      "direction_15m": "BEKLIYOR",
-      "evaluated_15m_at": null,
+      "price_15m": 0.6139,
+      "change_15m_pct": 0.7053805774278166,
+      "direction_15m": "YUKARI",
+      "evaluated_15m_at": "2026-09-09T06:09:15.103774+00:00",
       "target_30m_at": "2026-09-09T05:50:00+00:00",
-      "price_30m": null,
-      "change_30m_pct": null,
-      "direction_30m": "BEKLIYOR",
-      "evaluated_30m_at": null
+      "price_30m": 0.6159,
+      "change_30m_pct": 1.033464566929121,
+      "direction_30m": "YUKARI",
+      "evaluated_30m_at": "2026-09-09T06:09:15.103774+00:00",
+      "evaluated_at": "2026-09-09T06:09:15.103774+00:00"
     },
     {
       "id": "KITE:2026-09-09T05:20:00+00:00",
@@ -123,17 +325,18 @@
         "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
       },
       "last_seen_at": "2026-09-09T05:22:27.306254+00:00",
-      "ended_at": null,
+      "ended_at": "2026-09-09T06:09:06.050992+00:00",
       "target_15m_at": "2026-09-09T05:35:00+00:00",
-      "price_15m": null,
-      "change_15m_pct": null,
-      "direction_15m": "BEKLIYOR",
-      "evaluated_15m_at": null,
+      "price_15m": 0.1133,
+      "change_15m_pct": -0.2640845070422615,
+      "direction_15m": "AŞAĞI",
+      "evaluated_15m_at": "2026-09-09T06:09:15.103774+00:00",
       "target_30m_at": "2026-09-09T05:50:00+00:00",
-      "price_30m": null,
-      "change_30m_pct": null,
-      "direction_30m": "BEKLIYOR",
-      "evaluated_30m_at": null
+      "price_30m": 0.1123,
+      "change_30m_pct": -1.144366197183111,
+      "direction_30m": "AŞAĞI",
+      "evaluated_30m_at": "2026-09-09T06:09:15.103774+00:00",
+      "evaluated_at": "2026-09-09T06:09:15.103774+00:00"
     },
     {
       "id": "PAXG:2026-09-09T05:20:00+00:00",
@@ -190,17 +393,18 @@
         "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
       },
       "last_seen_at": "2026-09-09T05:22:27.306254+00:00",
-      "ended_at": null,
+      "ended_at": "2026-09-09T06:09:06.050992+00:00",
       "target_15m_at": "2026-09-09T05:35:00+00:00",
-      "price_15m": null,
-      "change_15m_pct": null,
-      "direction_15m": "BEKLIYOR",
-      "evaluated_15m_at": null,
+      "price_15m": 4391.01,
+      "change_15m_pct": 0.0009109604483636957,
+      "direction_15m": "YUKARI",
+      "evaluated_15m_at": "2026-09-09T06:09:15.103774+00:00",
       "target_30m_at": "2026-09-09T05:50:00+00:00",
-      "price_30m": null,
-      "change_30m_pct": null,
-      "direction_30m": "BEKLIYOR",
-      "evaluated_30m_at": null
+      "price_30m": 4399.14,
+      "change_30m_pct": 0.1860636715805386,
+      "direction_30m": "YUKARI",
+      "evaluated_30m_at": "2026-09-09T06:09:15.103774+00:00",
+      "evaluated_at": "2026-09-09T06:09:15.103774+00:00"
     },
     {
       "id": "GRAM:2026-09-08T23:20:00+00:00",
@@ -4095,48 +4299,48 @@
   ],
   "summary": {
     "15m": {
-      "completed": 61,
+      "completed": 64,
       "pending": 3,
-      "up": 35,
-      "down": 20,
+      "up": 37,
+      "down": 21,
       "flat": 6,
-      "up_rate_pct": 57.377049180327866,
-      "avg_change_pct": 0.07641074862258412,
-      "median_change_pct": 0.0838926174496768,
+      "up_rate_pct": 57.8125,
+      "avg_change_pct": 0.07973847963768046,
+      "median_change_pct": 0.07708334315912335,
       "best_change_pct": 1.4546684709066504,
       "worst_change_pct": -1.7415023080151082
     },
     "30m": {
-      "completed": 61,
+      "completed": 64,
       "pending": 3,
-      "up": 28,
-      "down": 25,
+      "up": 30,
+      "down": 26,
       "flat": 8,
-      "up_rate_pct": 45.90163934426229,
-      "avg_change_pct": 0.056868171967452204,
+      "up_rate_pct": 46.875,
+      "avg_change_pct": 0.0553768833022052,
       "median_change_pct": 0.0,
       "best_change_pct": 1.2789841737210095,
       "worst_change_pct": -2.1455223880597174
     },
-    "completed": 61,
+    "completed": 64,
     "pending": 3,
-    "up_rate_pct": 57.377049180327866,
-    "avg_change_15m_pct": 0.07641074862258412,
-    "median_change_15m_pct": 0.0838926174496768,
+    "up_rate_pct": 57.8125,
+    "avg_change_15m_pct": 0.07973847963768046,
+    "median_change_15m_pct": 0.07708334315912335,
     "best_change_15m_pct": 1.4546684709066504,
     "worst_change_15m_pct": -1.7415023080151082,
-    "avg_change_30m_pct": 0.056868171967452204,
+    "avg_change_30m_pct": 0.0553768833022052,
     "median_change_30m_pct": 0.0,
     "best_change_30m_pct": 1.2789841737210095,
     "worst_change_30m_pct": -2.1455223880597174
   },
   "meta": {
     "active_symbols": [
-      "ETHFI",
-      "KITE",
-      "PAXG"
+      "CVX",
+      "DCR",
+      "NEXO"
     ],
-    "updated_at": "2026-09-09T05:22:37.832590+00:00",
+    "updated_at": "2026-09-09T06:09:15.103774+00:00",
     "reset_at": "2026-09-06T13:30:00+00:00",
     "measurement": "Corrected strategy only: actual 10m candle close -> exact spot close -> +15m/+30m. New events also retain DO/NYMO/WO/DVWAP signal-candle context. Pre-reset records are excluded.",
     "horizons_minutes": [
