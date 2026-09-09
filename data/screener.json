@@ -1,178 +1,89 @@
 {
   "movers": [
     {
-      "symbol": "JASMY",
-      "name": "JasmyCoin",
-      "coingecko_id": "jasmycoin",
+      "symbol": "XTZ",
+      "name": "Tezos",
+      "coingecko_id": "tezos",
       "exchange": "ana piyasa",
-      "exchange_symbol": "JASMYUSDT",
-      "price": 0.00407328,
-      "change_24h": -4.64295,
-      "volume_zscore_10m": 2.1120997402539303,
-      "pine_z_delta_10m": 2.203199191060648,
-      "pine_raw_delta_10m_base": 1155768.5,
-      "pine_delta_mean_20": 423948.685,
-      "pine_delta_stdev_20": 332162.347358022,
+      "exchange_symbol": "XTZUSDT",
+      "price": 0.265791,
+      "change_24h": 9.07613,
+      "volume_zscore_10m": 4.015113324933979,
+      "pine_z_delta_10m": 4.123106175317614,
+      "pine_raw_delta_10m_base": 274906.9,
+      "pine_delta_mean_20": 20245.225000000002,
+      "pine_delta_stdev_20": 61764.52028436613,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 2418485.3000000003,
-      "base_volume_mean_20": 745791.595,
-      "base_volume_stdev_20": 791957.724874725,
-      "volume_10m_usd": 9783.845733,
-      "buyer_share_pct": 67.80206010020497,
-      "taker_buy_10m_usd": 6633.648964,
-      "taker_sell_10m_usd": 3150.196769,
-      "spot_delta_10m_usd": 3483.452195,
-      "price_change_10m_pct": 0.0,
+      "base_volume_10m": 288286.3,
+      "base_volume_mean_20": 60603.975,
+      "base_volume_stdev_20": 56706.32596746041,
+      "volume_10m_usd": 76519.22164,
+      "buyer_share_pct": 69.6033381528265,
+      "taker_buy_10m_usd": 53259.93259,
+      "taker_sell_10m_usd": 23259.289050000007,
+      "spot_delta_10m_usd": 30000.64353999999,
+      "price_change_10m_pct": 0.4914933837429025,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1788982200000,
-          "delta_usd": 3189.559681999999,
-          "green": true
-        },
-        {
-          "ts": 1788982800000,
-          "delta_usd": 38.08279599999992,
-          "green": true
-        },
-        {
-          "ts": 1788983400000,
-          "delta_usd": 3483.452195,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 6711.094672999999,
-      "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 3×10dk CVD yeşil",
-      "signal_score": 7.145504941335075,
-      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-09-09T19:50:00+00:00",
-      "signal_candle_open_utc": "2026-09-09T19:50:00+00:00",
-      "signal_candle_close_utc": "2026-09-09T20:00:00+00:00",
-      "level_context": {
-        "signal_price": 0.00405,
-        "previous_10m_close": 0.00406,
-        "signal_candle_open_utc": "2026-09-09T19:50:00+00:00",
-        "signal_candle_close_utc": "2026-09-09T20:00:00+00:00",
-        "levels": {
-          "DO": {
-            "value": 0.0042,
-            "status": "BELOW",
-            "status_tr": "ALTINDA",
-            "distance_pct": -3.57142857142857,
-            "touched": false
-          },
-          "NYMO": {
-            "value": 0.00423,
-            "status": "BELOW",
-            "status_tr": "ALTINDA",
-            "distance_pct": -4.255319148936176,
-            "touched": false
-          },
-          "WO": {
-            "value": 0.00442,
-            "status": "BELOW",
-            "status_tr": "ALTINDA",
-            "distance_pct": -8.371040723981915,
-            "touched": false
-          },
-          "DVWAP": {
-            "value": 0.004197061431659579,
-            "status": "BELOW",
-            "status_tr": "ALTINDA",
-            "distance_pct": -3.5039142041204063,
-            "touched": false
-          }
-        },
-        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
-      }
-    },
-    {
-      "symbol": "WIF",
-      "name": "dogwifhat",
-      "coingecko_id": "dogwifcoin",
-      "exchange": "ana piyasa",
-      "exchange_symbol": "WIFUSDT",
-      "price": 0.208985,
-      "change_24h": -2.98293,
-      "volume_zscore_10m": 2.4202417630771884,
-      "pine_z_delta_10m": 1.333034687426839,
-      "pine_raw_delta_10m_base": 53391.84000000001,
-      "pine_delta_mean_20": 12236.1015,
-      "pine_delta_stdev_20": 30873.719107372257,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_10m": 176480.24,
-      "base_volume_mean_20": 65713.2635,
-      "base_volume_stdev_20": 45766.90568266477,
-      "volume_10m_usd": 36845.090458,
-      "buyer_share_pct": 76.18234597360151,
-      "taker_buy_10m_usd": 28069.454287,
-      "taker_sell_10m_usd": 8775.636170999998,
-      "spot_delta_10m_usd": 19293.818116000002,
-      "price_change_10m_pct": -0.33444816053511683,
-      "price_candle_green": false,
-      "cvd_last3": [
-        {
-          "ts": 1788982200000,
-          "delta_usd": -10511.074775000001,
+          "ts": 1788986400000,
+          "delta_usd": -4164.577130000001,
           "green": false
         },
         {
-          "ts": 1788982800000,
-          "delta_usd": 2859.315896,
+          "ts": 1788987000000,
+          "delta_usd": 5619.056420000001,
           "green": true
         },
         {
-          "ts": 1788983400000,
-          "delta_usd": 19293.818116000002,
+          "ts": 1788987600000,
+          "delta_usd": 30000.64353999999,
           "green": true
         }
       ],
       "cvd_green_count_3": 2,
       "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 11642.059237000001,
+      "cvd_30m_delta_usd": 31455.12282999999,
       "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 2×10dk CVD yeşil",
-      "signal_score": 7.0715110478641785,
+      "signal_score": 10.79855331553424,
       "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-09-09T19:50:00+00:00",
-      "signal_candle_open_utc": "2026-09-09T19:50:00+00:00",
-      "signal_candle_close_utc": "2026-09-09T20:00:00+00:00",
+      "signal_time_utc": "2026-09-09T21:00:00+00:00",
+      "signal_candle_open_utc": "2026-09-09T21:00:00+00:00",
+      "signal_candle_close_utc": "2026-09-09T21:10:00+00:00",
       "level_context": {
-        "signal_price": 0.2086,
-        "previous_10m_close": 0.2094,
-        "signal_candle_open_utc": "2026-09-09T19:50:00+00:00",
-        "signal_candle_close_utc": "2026-09-09T20:00:00+00:00",
+        "signal_price": 0.2658,
+        "previous_10m_close": 0.2643,
+        "signal_candle_open_utc": "2026-09-09T21:00:00+00:00",
+        "signal_candle_close_utc": "2026-09-09T21:10:00+00:00",
         "levels": {
           "DO": {
-            "value": 0.2122,
-            "status": "BELOW",
-            "status_tr": "ALTINDA",
-            "distance_pct": -1.6965127238454225,
+            "value": 0.2496,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 6.490384615384603,
             "touched": false
           },
           "NYMO": {
-            "value": 0.2104,
-            "status": "BELOW",
-            "status_tr": "ALTINDA",
-            "distance_pct": -0.8555133079847899,
+            "value": 0.2519,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 5.518062723302886,
             "touched": false
           },
           "WO": {
-            "value": 0.2167,
-            "status": "BELOW",
-            "status_tr": "ALTINDA",
-            "distance_pct": -3.7378864790032273,
+            "value": 0.2408,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 10.382059800664445,
             "touched": false
           },
           "DVWAP": {
-            "value": 0.2131749467106891,
-            "status": "BELOW",
-            "status_tr": "ALTINDA",
-            "distance_pct": -2.1460996150255762,
-            "touched": false
+            "value": 0.26334926021750155,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.9306043922334695,
+            "touched": true
           }
         },
         "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
@@ -184,10 +95,10 @@
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 190,
-    "binance_spot_matched": 101,
-    "scanned": 101,
+    "binance_spot_matched": 102,
+    "scanned": 102,
     "failed": 0,
-    "signal_count_before_cap": 2,
+    "signal_count_before_cap": 1,
     "max_results": 10,
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
@@ -197,9 +108,9 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_10m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_10m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "signal_candle_open_utc": "2026-09-09T19:50:00+00:00",
-  "signal_candle_close_utc": "2026-09-09T20:00:00+00:00",
+  "signal_candle_open_utc": "2026-09-09T21:00:00+00:00",
+  "signal_candle_close_utc": "2026-09-09T21:10:00+00:00",
   "level_context_method": "DO · NYMO · WO · DVWAP at signal candle close",
-  "generated_at": "2026-09-09T20:08:21.421530+00:00",
+  "generated_at": "2026-09-09T21:11:46.773334+00:00",
   "refresh_policy": "latest fully closed global 10m candle"
 }
