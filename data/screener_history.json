@@ -2,6 +2,207 @@
   "version": "screener_signal_close_followthrough_v6",
   "events": [
     {
+      "id": "ETHFI:2026-09-09T05:20:00+00:00",
+      "symbol": "ETHFI",
+      "name": "Ether.fi",
+      "exchange_symbol": "ETHFIUSDT",
+      "detected_at": "2026-09-09T05:22:27.306254+00:00",
+      "signal_candle_close_utc": "2026-09-09T05:20:00+00:00",
+      "detection_delay_seconds": 147.306254,
+      "entry_price": 0.6096,
+      "signal_time_utc": "2026-09-09T05:10:00+00:00",
+      "volume_zscore_10m": 3.2214606401594135,
+      "pine_z_delta_10m": 1.6381592949926964,
+      "pine_raw_delta_10m_base": 33502.99999999999,
+      "buyer_share_pct": 69.12768482264994,
+      "spot_delta_10m_usd": 26760.038849999997,
+      "cvd_green_streak": 3,
+      "signal_score": 7.822388417417104,
+      "level_context": {
+        "signal_price": 0.6096,
+        "previous_10m_close": 0.604,
+        "signal_candle_open_utc": "2026-09-09T05:10:00+00:00",
+        "signal_candle_close_utc": "2026-09-09T05:20:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 0.6044,
+            "status": "CROSS_UP",
+            "status_tr": "↑ YENİ YUKARI KESTİ",
+            "distance_pct": 0.8603573792190566,
+            "touched": true
+          },
+          "NYMO": {
+            "value": 0.5969,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 2.1276595744680993,
+            "touched": false
+          },
+          "WO": {
+            "value": 0.5788,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 5.321354526606781,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 0.6021522069823543,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 1.2368621971793337,
+            "touched": false
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-09T05:22:27.306254+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-09T05:35:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-09T05:50:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
+      "id": "KITE:2026-09-09T05:20:00+00:00",
+      "symbol": "KITE",
+      "name": "Kite",
+      "exchange_symbol": "KITEUSDT",
+      "detected_at": "2026-09-09T05:22:27.306254+00:00",
+      "signal_candle_close_utc": "2026-09-09T05:20:00+00:00",
+      "detection_delay_seconds": 147.306254,
+      "entry_price": 0.1136,
+      "signal_time_utc": "2026-09-09T05:10:00+00:00",
+      "volume_zscore_10m": 2.507082973777052,
+      "pine_z_delta_10m": 2.170250307898722,
+      "pine_raw_delta_10m_base": 113314.3,
+      "buyer_share_pct": 72.7908771345254,
+      "spot_delta_10m_usd": 12147.70235,
+      "cvd_green_streak": 1,
+      "signal_score": 7.306420995128313,
+      "level_context": {
+        "signal_price": 0.1136,
+        "previous_10m_close": 0.1131,
+        "signal_candle_open_utc": "2026-09-09T05:10:00+00:00",
+        "signal_candle_close_utc": "2026-09-09T05:20:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 0.1145,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -0.7860262008733576,
+            "touched": false
+          },
+          "NYMO": {
+            "value": 0.1129,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.620017714791854,
+            "touched": false
+          },
+          "WO": {
+            "value": 0.1267,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -10.339384372533544,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 0.11388997075421668,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -0.2546060485364876,
+            "touched": true
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-09T05:22:27.306254+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-09T05:35:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-09T05:50:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
+      "id": "PAXG:2026-09-09T05:20:00+00:00",
+      "symbol": "PAXG",
+      "name": "PAX Gold",
+      "exchange_symbol": "PAXGUSDT",
+      "detected_at": "2026-09-09T05:22:27.306254+00:00",
+      "signal_candle_close_utc": "2026-09-09T05:20:00+00:00",
+      "detection_delay_seconds": 147.306254,
+      "entry_price": 4390.97,
+      "signal_time_utc": "2026-09-09T05:10:00+00:00",
+      "volume_zscore_10m": 3.4650479166793513,
+      "pine_z_delta_10m": 3.7146727236842216,
+      "pine_raw_delta_10m_base": 74.87150000000001,
+      "buyer_share_pct": 92.76146459010846,
+      "spot_delta_10m_usd": 302517.049153,
+      "cvd_green_streak": 3,
+      "signal_score": 12.50586709937442,
+      "level_context": {
+        "signal_price": 4390.97,
+        "previous_10m_close": 4387.0,
+        "signal_candle_open_utc": "2026-09-09T05:10:00+00:00",
+        "signal_candle_close_utc": "2026-09-09T05:20:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 4354.49,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.8377559714226157,
+            "touched": false
+          },
+          "NYMO": {
+            "value": 4377.31,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.3120638017412469,
+            "touched": false
+          },
+          "WO": {
+            "value": 4421.1,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -0.6815046029268745,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 4372.198859620097,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.4293295200560543,
+            "touched": false
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-09T05:22:27.306254+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-09T05:35:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-09T05:50:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "GRAM:2026-09-08T23:20:00+00:00",
       "symbol": "GRAM",
       "name": "Gram (prev. Toncoin)",
@@ -3895,7 +4096,7 @@
   "summary": {
     "15m": {
       "completed": 61,
-      "pending": 0,
+      "pending": 3,
       "up": 35,
       "down": 20,
       "flat": 6,
@@ -3907,7 +4108,7 @@
     },
     "30m": {
       "completed": 61,
-      "pending": 0,
+      "pending": 3,
       "up": 28,
       "down": 25,
       "flat": 8,
@@ -3918,7 +4119,7 @@
       "worst_change_pct": -2.1455223880597174
     },
     "completed": 61,
-    "pending": 0,
+    "pending": 3,
     "up_rate_pct": 57.377049180327866,
     "avg_change_15m_pct": 0.07641074862258412,
     "median_change_15m_pct": 0.0838926174496768,
@@ -3930,8 +4131,12 @@
     "worst_change_30m_pct": -2.1455223880597174
   },
   "meta": {
-    "active_symbols": [],
-    "updated_at": "2026-09-09T01:22:55.621968+00:00",
+    "active_symbols": [
+      "ETHFI",
+      "KITE",
+      "PAXG"
+    ],
+    "updated_at": "2026-09-09T05:22:37.832590+00:00",
     "reset_at": "2026-09-06T13:30:00+00:00",
     "measurement": "Corrected strategy only: actual 10m candle close -> exact spot close -> +15m/+30m. New events also retain DO/NYMO/WO/DVWAP signal-candle context. Pre-reset records are excluded.",
     "horizons_minutes": [
