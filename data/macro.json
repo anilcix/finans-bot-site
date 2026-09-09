@@ -15,20 +15,6 @@
       "signal_emoji": "🟢"
     },
     {
-      "label": "Fed Politika Faizi",
-      "value": 3.63,
-      "percentile": 75.41666666666667,
-      "weight": 1.0,
-      "invert": true,
-      "level_score": 24.58333333333333,
-      "momentum_score": 40.55840968875236,
-      "change_1m": 0.0,
-      "change_3m": 0.0,
-      "combined_score": 30.174610057729993,
-      "signal_label": "Kırılgan / Savunmacı",
-      "signal_emoji": "🟠"
-    },
-    {
       "label": "Enflasyon (CPI YoY)",
       "value": 3.30386,
       "percentile": 76.98744769874477,
@@ -155,7 +141,7 @@
       "signal_emoji": "🟢"
     }
   ],
-  "composite_score": 52.70180271643953,
+  "composite_score": 55.39967010071612,
   "score_method": {
     "level_weight": 0.65,
     "momentum_weight": 0.35
@@ -179,13 +165,6 @@
       "value": "267 bps",
       "warn": "400+ bps",
       "crisis": "600+ bps",
-      "status": "🟢 Güvenli"
-    },
-    {
-      "name": "SLOOS — Kredi Kartı",
-      "value": "%+6.7",
-      "warn": "+%10",
-      "crisis": "+%20",
       "status": "🟢 Güvenli"
     },
     {
@@ -222,7 +201,38 @@
       "value": 5.24,
       "change": 0.020000000000000462
     },
-    "net_liquidity_proxy": null
+    "net_liquidity_proxy": {
+      "value": 5768.744000000001,
+      "change": -26.53599999999915,
+      "change_3w": -26.53599999999915,
+      "unit": "$bn",
+      "window_days": 21,
+      "formula": "Fed assets - TGA - ON RRP",
+      "calibration": "common_anchor_21d",
+      "anchor_date": "2026-09-02",
+      "prior_anchor_date": "2026-08-12",
+      "current_components": {
+        "fed_assets": 6737.204,
+        "tga": 967.935,
+        "rrp": 0.525
+      },
+      "current_dates": {
+        "fed_assets": "2026-09-02",
+        "tga": "2026-09-02",
+        "rrp": "2026-09-02"
+      },
+      "prior_components": {
+        "fed_assets": 6759.955,
+        "tga": 963.95,
+        "rrp": 0.725
+      },
+      "prior_dates": {
+        "fed_assets": "2026-08-12",
+        "tga": "2026-08-12",
+        "rrp": "2026-08-12"
+      },
+      "note": "Fed assets - TGA - ON RRP. Tüm bileşenler ortak son tarihe ve tam 21 gün önceki ortak anchor'a hizalanır; WinCAlgo tipi 3-hafta delta yaklaşımına yakın kalibrasyondur. Mekanik proxy, nedensellik değildir."
+    }
   },
   "macro_reading": {
     "headline": "Kısa vadeli rahatlama var, fakat alttaki kırılganlık sürüyor",
@@ -1010,7 +1020,7 @@
       },
       {
         "date": "2026-09-09",
-        "value": 7641.509765625
+        "value": 7636.490234375
       }
     ]
   },
@@ -9648,8 +9658,8 @@
       },
       {
         "date": "2026-09-09",
-        "value": 166.0685863712915,
-        "raw": 762.6699829101562
+        "value": 166.0206885589616,
+        "raw": 762.4500122070312
       }
     ],
     "QQQ": [
@@ -9955,8 +9965,8 @@
       },
       {
         "date": "2026-09-09",
-        "value": 185.50413798488972,
-        "raw": 716.25
+        "value": 185.5196769662344,
+        "raw": 716.3099975585938
       }
     ],
     "BTC": [
@@ -10262,8 +10272,8 @@
       },
       {
         "date": "2026-09-09",
-        "value": 128.118872292565,
-        "raw": 78561.15625
+        "value": 127.61280937984804,
+        "raw": 78250.84375
       }
     ]
   },
@@ -10514,5 +10524,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş makro veri sağlayıcısı serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-09-09T18:30:49.616814+00:00"
+  "generated_at": "2026-09-09T20:00:15.650411+00:00"
 }

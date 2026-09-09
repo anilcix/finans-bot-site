@@ -2,6 +2,140 @@
   "version": "screener_signal_close_followthrough_v6",
   "events": [
     {
+      "id": "JASMY:2026-09-09T20:00:00+00:00",
+      "symbol": "JASMY",
+      "name": "JasmyCoin",
+      "exchange_symbol": "JASMYUSDT",
+      "detected_at": "2026-09-09T20:08:21.421530+00:00",
+      "signal_candle_close_utc": "2026-09-09T20:00:00+00:00",
+      "detection_delay_seconds": 501.42153,
+      "entry_price": 0.00405,
+      "signal_time_utc": "2026-09-09T19:50:00+00:00",
+      "volume_zscore_10m": 2.1120997402539303,
+      "pine_z_delta_10m": 2.203199191060648,
+      "pine_raw_delta_10m_base": 1155768.5,
+      "buyer_share_pct": 67.80206010020497,
+      "spot_delta_10m_usd": 3483.452195,
+      "cvd_green_streak": 3,
+      "signal_score": 7.145504941335075,
+      "level_context": {
+        "signal_price": 0.00405,
+        "previous_10m_close": 0.00406,
+        "signal_candle_open_utc": "2026-09-09T19:50:00+00:00",
+        "signal_candle_close_utc": "2026-09-09T20:00:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 0.0042,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -3.57142857142857,
+            "touched": false
+          },
+          "NYMO": {
+            "value": 0.00423,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -4.255319148936176,
+            "touched": false
+          },
+          "WO": {
+            "value": 0.00442,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -8.371040723981915,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 0.004197061431659579,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -3.5039142041204063,
+            "touched": false
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-09T20:08:21.421530+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-09T20:15:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-09T20:30:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
+      "id": "WIF:2026-09-09T20:00:00+00:00",
+      "symbol": "WIF",
+      "name": "dogwifhat",
+      "exchange_symbol": "WIFUSDT",
+      "detected_at": "2026-09-09T20:08:21.421530+00:00",
+      "signal_candle_close_utc": "2026-09-09T20:00:00+00:00",
+      "detection_delay_seconds": 501.42153,
+      "entry_price": 0.2086,
+      "signal_time_utc": "2026-09-09T19:50:00+00:00",
+      "volume_zscore_10m": 2.4202417630771884,
+      "pine_z_delta_10m": 1.333034687426839,
+      "pine_raw_delta_10m_base": 53391.84000000001,
+      "buyer_share_pct": 76.18234597360151,
+      "spot_delta_10m_usd": 19293.818116000002,
+      "cvd_green_streak": 2,
+      "signal_score": 7.0715110478641785,
+      "level_context": {
+        "signal_price": 0.2086,
+        "previous_10m_close": 0.2094,
+        "signal_candle_open_utc": "2026-09-09T19:50:00+00:00",
+        "signal_candle_close_utc": "2026-09-09T20:00:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 0.2122,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -1.6965127238454225,
+            "touched": false
+          },
+          "NYMO": {
+            "value": 0.2104,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -0.8555133079847899,
+            "touched": false
+          },
+          "WO": {
+            "value": 0.2167,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -3.7378864790032273,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 0.2131749467106891,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -2.1460996150255762,
+            "touched": false
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-09T20:08:21.421530+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-09T20:15:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-09T20:30:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "FF:2026-09-09T15:10:00+00:00",
       "symbol": "FF",
       "name": "Falcon Finance",
@@ -4575,7 +4709,7 @@
   "summary": {
     "15m": {
       "completed": 71,
-      "pending": 0,
+      "pending": 2,
       "up": 42,
       "down": 23,
       "flat": 6,
@@ -4587,7 +4721,7 @@
     },
     "30m": {
       "completed": 71,
-      "pending": 0,
+      "pending": 2,
       "up": 35,
       "down": 28,
       "flat": 8,
@@ -4598,7 +4732,7 @@
       "worst_change_pct": -2.1455223880597174
     },
     "completed": 71,
-    "pending": 0,
+    "pending": 2,
     "up_rate_pct": 59.154929577464785,
     "avg_change_15m_pct": 0.09154794021428526,
     "median_change_15m_pct": 0.08633093525181046,
@@ -4610,8 +4744,11 @@
     "worst_change_30m_pct": -2.1455223880597174
   },
   "meta": {
-    "active_symbols": [],
-    "updated_at": "2026-09-09T18:37:23.014578+00:00",
+    "active_symbols": [
+      "JASMY",
+      "WIF"
+    ],
+    "updated_at": "2026-09-09T20:08:33.820267+00:00",
     "reset_at": "2026-09-06T13:30:00+00:00",
     "measurement": "Corrected strategy only: actual 10m candle close -> exact spot close -> +15m/+30m. New events also retain DO/NYMO/WO/DVWAP signal-candle context. Pre-reset records are excluded.",
     "horizons_minutes": [
