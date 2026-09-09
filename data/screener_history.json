@@ -2,6 +2,140 @@
   "version": "screener_signal_close_followthrough_v6",
   "events": [
     {
+      "id": "CVX:2026-09-09T22:20:00+00:00",
+      "symbol": "CVX",
+      "name": "Convex Finance",
+      "exchange_symbol": "CVXUSDT",
+      "detected_at": "2026-09-09T22:27:55.582245+00:00",
+      "signal_candle_close_utc": "2026-09-09T22:20:00+00:00",
+      "detection_delay_seconds": 475.582245,
+      "entry_price": 2.164,
+      "signal_time_utc": "2026-09-09T22:10:00+00:00",
+      "volume_zscore_10m": 2.711538475260373,
+      "pine_z_delta_10m": 3.6049845205522923,
+      "pine_raw_delta_10m_base": 13924.622000000001,
+      "buyer_share_pct": 94.51011817700096,
+      "spot_delta_10m_usd": 26749.696611000003,
+      "cvd_green_streak": 3,
+      "signal_score": 11.817534813512761,
+      "level_context": {
+        "signal_price": 2.164,
+        "previous_10m_close": 2.148,
+        "signal_candle_open_utc": "2026-09-09T22:10:00+00:00",
+        "signal_candle_close_utc": "2026-09-09T22:20:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 2.206,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -1.9038984587488539,
+            "touched": false
+          },
+          "NYMO": {
+            "value": 2.205,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -1.8594104308390036,
+            "touched": false
+          },
+          "WO": {
+            "value": 2.361,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -8.343922066920795,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 2.212218336222812,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -2.179637309450233,
+            "touched": false
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-09T22:27:55.582245+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-09T22:35:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-09T22:50:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
+      "id": "FRAX:2026-09-09T22:20:00+00:00",
+      "symbol": "FRAX",
+      "name": "Legacy Frax Dollar",
+      "exchange_symbol": "FRAXUSDT",
+      "detected_at": "2026-09-09T22:27:55.582245+00:00",
+      "signal_candle_close_utc": "2026-09-09T22:20:00+00:00",
+      "detection_delay_seconds": 475.582245,
+      "entry_price": 0.2873,
+      "signal_time_utc": "2026-09-09T22:10:00+00:00",
+      "volume_zscore_10m": 3.2880313091850843,
+      "pine_z_delta_10m": 2.822460613063757,
+      "pine_raw_delta_10m_base": 20911.9,
+      "buyer_share_pct": 90.26500512265048,
+      "spot_delta_10m_usd": 7000.35579,
+      "cvd_green_streak": 1,
+      "signal_score": 10.486992434513889,
+      "level_context": {
+        "signal_price": 0.2873,
+        "previous_10m_close": 0.2846,
+        "signal_candle_open_utc": "2026-09-09T22:10:00+00:00",
+        "signal_candle_close_utc": "2026-09-09T22:20:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 0.2934,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -2.07907293796864,
+            "touched": false
+          },
+          "NYMO": {
+            "value": 0.2929,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -1.9119153294639757,
+            "touched": false
+          },
+          "WO": {
+            "value": 0.2975,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -3.4285714285714253,
+            "touched": false
+          },
+          "DVWAP": {
+            "value": 0.2954545741001884,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -2.760009427853083,
+            "touched": false
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-09T22:27:55.582245+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-09T22:35:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-09T22:50:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "XTZ:2026-09-09T21:10:00+00:00",
       "symbol": "XTZ",
       "name": "Tezos",
@@ -56,17 +190,18 @@
         "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
       },
       "last_seen_at": "2026-09-09T21:11:46.773334+00:00",
-      "ended_at": null,
+      "ended_at": "2026-09-09T22:27:55.582245+00:00",
       "target_15m_at": "2026-09-09T21:25:00+00:00",
-      "price_15m": null,
-      "change_15m_pct": null,
-      "direction_15m": "BEKLIYOR",
-      "evaluated_15m_at": null,
+      "price_15m": 0.2666,
+      "change_15m_pct": 0.3009781790820343,
+      "direction_15m": "YUKARI",
+      "evaluated_15m_at": "2026-09-09T22:28:08.997056+00:00",
       "target_30m_at": "2026-09-09T21:40:00+00:00",
-      "price_30m": null,
-      "change_30m_pct": null,
-      "direction_30m": "BEKLIYOR",
-      "evaluated_30m_at": null
+      "price_30m": 0.2635,
+      "change_30m_pct": -0.8653122648607847,
+      "direction_30m": "AŞAĞI",
+      "evaluated_30m_at": "2026-09-09T22:28:08.997056+00:00",
+      "evaluated_at": "2026-09-09T22:28:08.997056+00:00"
     },
     {
       "id": "JASMY:2026-09-09T20:00:00+00:00",
@@ -4777,46 +4912,47 @@
   ],
   "summary": {
     "15m": {
-      "completed": 73,
-      "pending": 1,
-      "up": 44,
+      "completed": 74,
+      "pending": 2,
+      "up": 45,
       "down": 23,
       "flat": 6,
-      "up_rate_pct": 60.273972602739725,
-      "avg_change_pct": 0.0977746141278914,
-      "median_change_pct": 0.10256410256410664,
+      "up_rate_pct": 60.810810810810814,
+      "avg_change_pct": 0.10052060824889333,
+      "median_change_pct": 0.10712717414131934,
       "best_change_pct": 1.4546684709066504,
       "worst_change_pct": -1.7415023080151082
     },
     "30m": {
-      "completed": 73,
-      "pending": 1,
+      "completed": 74,
+      "pending": 2,
       "up": 35,
-      "down": 30,
+      "down": 31,
       "flat": 8,
-      "up_rate_pct": 47.94520547945205,
-      "avg_change_pct": 0.06452580910186183,
+      "up_rate_pct": 47.2972972972973,
+      "avg_change_pct": 0.05196042972398822,
       "median_change_pct": 0.0,
       "best_change_pct": 1.4608233731739695,
       "worst_change_pct": -2.1455223880597174
     },
-    "completed": 73,
-    "pending": 1,
-    "up_rate_pct": 60.273972602739725,
-    "avg_change_15m_pct": 0.0977746141278914,
-    "median_change_15m_pct": 0.10256410256410664,
+    "completed": 74,
+    "pending": 2,
+    "up_rate_pct": 60.810810810810814,
+    "avg_change_15m_pct": 0.10052060824889333,
+    "median_change_15m_pct": 0.10712717414131934,
     "best_change_15m_pct": 1.4546684709066504,
     "worst_change_15m_pct": -1.7415023080151082,
-    "avg_change_30m_pct": 0.06452580910186183,
+    "avg_change_30m_pct": 0.05196042972398822,
     "median_change_30m_pct": 0.0,
     "best_change_30m_pct": 1.4608233731739695,
     "worst_change_30m_pct": -2.1455223880597174
   },
   "meta": {
     "active_symbols": [
-      "XTZ"
+      "CVX",
+      "FRAX"
     ],
-    "updated_at": "2026-09-09T21:11:59.023212+00:00",
+    "updated_at": "2026-09-09T22:28:08.997056+00:00",
     "reset_at": "2026-09-06T13:30:00+00:00",
     "measurement": "Corrected strategy only: actual 10m candle close -> exact spot close -> +15m/+30m. New events also retain DO/NYMO/WO/DVWAP signal-candle context. Pre-reset records are excluded.",
     "horizons_minutes": [
