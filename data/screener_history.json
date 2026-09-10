@@ -2,6 +2,73 @@
   "version": "screener_signal_close_followthrough_v6",
   "events": [
     {
+      "id": "U:2026-09-10T17:20:00+00:00",
+      "symbol": "U",
+      "name": "United Stables",
+      "exchange_symbol": "UUSDT",
+      "detected_at": "2026-09-10T17:21:47.341276+00:00",
+      "signal_candle_close_utc": "2026-09-10T17:20:00+00:00",
+      "detection_delay_seconds": 107.341276,
+      "entry_price": 0.9996,
+      "signal_time_utc": "2026-09-10T17:10:00+00:00",
+      "volume_zscore_10m": 3.458652429097456,
+      "pine_z_delta_10m": 3.491263663621618,
+      "pine_raw_delta_10m_base": 263069.0,
+      "buyer_share_pct": 93.98339119602393,
+      "spot_delta_10m_usd": 265025.895,
+      "cvd_green_streak": 3,
+      "signal_score": 12.398255212321466,
+      "level_context": {
+        "signal_price": 0.9996,
+        "previous_10m_close": 0.9996,
+        "signal_candle_open_utc": "2026-09-10T17:10:00+00:00",
+        "signal_candle_close_utc": "2026-09-10T17:20:00+00:00",
+        "levels": {
+          "DO": {
+            "value": 0.9995,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.010005002501256577,
+            "touched": true
+          },
+          "NYMO": {
+            "value": 0.9997,
+            "status": "BELOW",
+            "status_tr": "ALTINDA",
+            "distance_pct": -0.01000300090027162,
+            "touched": true
+          },
+          "WO": {
+            "value": 0.9995,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.010005002501256577,
+            "touched": true
+          },
+          "DVWAP": {
+            "value": 0.9995772922815234,
+            "status": "ABOVE",
+            "status_tr": "ÜSTÜNDE",
+            "distance_pct": 0.002271732126368775,
+            "touched": true
+          }
+        },
+        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
+      },
+      "last_seen_at": "2026-09-10T17:21:47.341276+00:00",
+      "ended_at": null,
+      "target_15m_at": "2026-09-10T17:35:00+00:00",
+      "price_15m": null,
+      "change_15m_pct": null,
+      "direction_15m": "BEKLIYOR",
+      "evaluated_15m_at": null,
+      "target_30m_at": "2026-09-10T17:50:00+00:00",
+      "price_30m": null,
+      "change_30m_pct": null,
+      "direction_30m": "BEKLIYOR",
+      "evaluated_30m_at": null
+    },
+    {
       "id": "GNO:2026-09-10T13:50:00+00:00",
       "symbol": "GNO",
       "name": "Gnosis",
@@ -56,17 +123,18 @@
         "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
       },
       "last_seen_at": "2026-09-10T13:52:57.445943+00:00",
-      "ended_at": null,
+      "ended_at": "2026-09-10T17:21:47.341276+00:00",
       "target_15m_at": "2026-09-10T14:05:00+00:00",
-      "price_15m": null,
-      "change_15m_pct": null,
-      "direction_15m": "BEKLIYOR",
-      "evaluated_15m_at": null,
+      "price_15m": 114.95,
+      "change_15m_pct": 0.3491924923614276,
+      "direction_15m": "YUKARI",
+      "evaluated_15m_at": "2026-09-10T17:21:58.793678+00:00",
       "target_30m_at": "2026-09-10T14:20:00+00:00",
-      "price_30m": null,
-      "change_30m_pct": null,
-      "direction_30m": "BEKLIYOR",
-      "evaluated_30m_at": null
+      "price_30m": 114.52,
+      "change_30m_pct": -0.026189436927104293,
+      "direction_30m": "AŞAĞI",
+      "evaluated_30m_at": "2026-09-10T17:21:58.793678+00:00",
+      "evaluated_at": "2026-09-10T17:21:58.793678+00:00"
     },
     {
       "id": "INJ:2026-09-10T13:50:00+00:00",
@@ -123,17 +191,18 @@
         "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 10m HLC3×base-volume with UTC daily reset; cross = previous and signal 10m closes switch sides."
       },
       "last_seen_at": "2026-09-10T13:52:57.445943+00:00",
-      "ended_at": null,
+      "ended_at": "2026-09-10T17:21:47.341276+00:00",
       "target_15m_at": "2026-09-10T14:05:00+00:00",
-      "price_15m": null,
-      "change_15m_pct": null,
-      "direction_15m": "BEKLIYOR",
-      "evaluated_15m_at": null,
+      "price_15m": 5.947,
+      "change_15m_pct": -0.23485992283174273,
+      "direction_15m": "AŞAĞI",
+      "evaluated_15m_at": "2026-09-10T17:21:58.793678+00:00",
       "target_30m_at": "2026-09-10T14:20:00+00:00",
-      "price_30m": null,
-      "change_30m_pct": null,
-      "direction_30m": "BEKLIYOR",
-      "evaluated_30m_at": null
+      "price_30m": 5.902,
+      "change_30m_pct": -0.9897668176480523,
+      "direction_30m": "AŞAĞI",
+      "evaluated_30m_at": "2026-09-10T17:21:58.793678+00:00",
+      "evaluated_at": "2026-09-10T17:21:58.793678+00:00"
     },
     {
       "id": "ENS:2026-09-10T09:40:00+00:00",
@@ -5320,47 +5389,46 @@
   ],
   "summary": {
     "15m": {
-      "completed": 80,
-      "pending": 2,
-      "up": 50,
-      "down": 24,
+      "completed": 82,
+      "pending": 1,
+      "up": 51,
+      "down": 25,
       "flat": 6,
-      "up_rate_pct": 62.5,
-      "avg_change_pct": 0.0997638945324511,
+      "up_rate_pct": 62.19512195121951,
+      "avg_change_pct": 0.09872492844055822,
       "median_change_pct": 0.11319396768968426,
       "best_change_pct": 1.4546684709066504,
       "worst_change_pct": -1.7415023080151082
     },
     "30m": {
-      "completed": 80,
-      "pending": 2,
+      "completed": 82,
+      "pending": 1,
       "up": 40,
-      "down": 31,
+      "down": 33,
       "flat": 9,
-      "up_rate_pct": 50.0,
-      "avg_change_pct": 0.06525612408694773,
-      "median_change_pct": 0.013329778725668096,
+      "up_rate_pct": 48.78048780487805,
+      "avg_change_pct": 0.051274800882690985,
+      "median_change_pct": 0.0,
       "best_change_pct": 1.4608233731739695,
       "worst_change_pct": -2.1455223880597174
     },
-    "completed": 80,
-    "pending": 2,
-    "up_rate_pct": 62.5,
-    "avg_change_15m_pct": 0.0997638945324511,
+    "completed": 82,
+    "pending": 1,
+    "up_rate_pct": 62.19512195121951,
+    "avg_change_15m_pct": 0.09872492844055822,
     "median_change_15m_pct": 0.11319396768968426,
     "best_change_15m_pct": 1.4546684709066504,
     "worst_change_15m_pct": -1.7415023080151082,
-    "avg_change_30m_pct": 0.06525612408694773,
-    "median_change_30m_pct": 0.013329778725668096,
+    "avg_change_30m_pct": 0.051274800882690985,
+    "median_change_30m_pct": 0.0,
     "best_change_30m_pct": 1.4608233731739695,
     "worst_change_30m_pct": -2.1455223880597174
   },
   "meta": {
     "active_symbols": [
-      "GNO",
-      "INJ"
+      "U"
     ],
-    "updated_at": "2026-09-10T13:53:08.888346+00:00",
+    "updated_at": "2026-09-10T17:21:58.793678+00:00",
     "reset_at": "2026-09-06T13:30:00+00:00",
     "measurement": "Corrected strategy only: actual 10m candle close -> exact spot close -> +15m/+30m. New events also retain DO/NYMO/WO/DVWAP signal-candle context. Pre-reset records are excluded.",
     "horizons_minutes": [
