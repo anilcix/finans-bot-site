@@ -198,9 +198,9 @@
   ],
   "liquidity_plumbing": {
     "tga": {
-      "date": "2026-09-02",
-      "value": 967.935,
-      "change": 60.61099999999999
+      "date": "2026-09-09",
+      "value": 883.335,
+      "change": -80.61500000000001
     },
     "fed_assets": {
       "date": "2026-09-09",
@@ -223,34 +223,34 @@
       "change": 0.03000000000000025
     },
     "net_liquidity_proxy": {
-      "value": 5768.744000000001,
-      "change": -26.53599999999915,
-      "change_3w": -26.53599999999915,
+      "value": 5856.852,
+      "change": 65.08200000000033,
+      "change_3w": 65.08200000000033,
       "unit": "$bn",
       "window_days": 21,
       "formula": "Fed assets - TGA - ON RRP",
       "calibration": "common_anchor_21d",
-      "anchor_date": "2026-09-02",
-      "prior_anchor_date": "2026-08-12",
+      "anchor_date": "2026-09-09",
+      "prior_anchor_date": "2026-08-19",
       "current_components": {
-        "fed_assets": 6737.204,
-        "tga": 967.935,
-        "rrp": 0.525
+        "fed_assets": 6740.619,
+        "tga": 883.335,
+        "rrp": 0.432
       },
       "current_dates": {
-        "fed_assets": "2026-09-02",
-        "tga": "2026-09-02",
-        "rrp": "2026-09-02"
+        "fed_assets": "2026-09-09",
+        "tga": "2026-09-09",
+        "rrp": "2026-09-09"
       },
       "prior_components": {
-        "fed_assets": 6759.955,
-        "tga": 963.95,
-        "rrp": 0.725
+        "fed_assets": 6745.699,
+        "tga": 953.612,
+        "rrp": 0.317
       },
       "prior_dates": {
-        "fed_assets": "2026-08-12",
-        "tga": "2026-08-12",
-        "rrp": "2026-08-12"
+        "fed_assets": "2026-08-19",
+        "tga": "2026-08-19",
+        "rrp": "2026-08-19"
       },
       "note": "Fed assets - TGA - ON RRP. Tüm bileşenler ortak son tarihe ve tam 21 gün önceki ortak anchor'a hizalanır; WinCAlgo tipi 3-hafta delta yaklaşımına yakın kalibrasyondur. Mekanik proxy, nedensellik değildir."
     }
@@ -258,15 +258,17 @@
   "macro_reading": {
     "headline": "Kısa vadeli rahatlama var, fakat alttaki kırılganlık sürüyor",
     "short_term_support": [
-      "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor."
+      "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
+      "TGA düşüyor; Hazine harcaması sisteme kısa vadeli likidite bırakıyor.",
+      "Net likidite 3 haftada yaklaşık $+65B arttı; kısa vadede risk varlıkları için likidite rüzgârı destekleyici."
     ],
     "structural_risks": [
       "Enflasyon seviyesi hâlâ makro rahatlama alanını sınırlıyor.",
       "1 yıllık reel faiz yüksek; finansal koşulların görünenden daha sıkı kalmasına yol açabilir.",
       "10 yıllık reel faiz yüksek; uzun duration teknoloji/hisse değerlemeleri için yapısal baskı oluşturabilir.",
       "Banka kredi standartları son çeyrekte sıkılaşıyor; piyasa fiyatı rahat olsa da kredi kanalı gecikmeli risk taşıyor.",
-      "TGA son 4 haftada yükseliyor; Hazine nakit birikimi banka rezervlerinden likidite çekebilir.",
-      "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük."
+      "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük.",
+      "Erken uyarı: CCC-HY Ayrışması 🔴 KRİZ."
     ],
     "confirmations": [
       "HY spread tarihsel olarak düşük bölgede; piyasa henüz geniş tabanlı kredi stresi fiyatlamıyor.",
@@ -10292,8 +10294,8 @@
       },
       {
         "date": "2026-09-10",
-        "value": 125.91184172563885,
-        "raw": 77207.828125
+        "value": 126.02347624832832,
+        "raw": 77276.28125
       }
     ]
   },
@@ -10544,5 +10546,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş makro veri sağlayıcısı serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-09-10T20:31:32.869673+00:00"
+  "generated_at": "2026-09-10T20:54:29.911798+00:00"
 }

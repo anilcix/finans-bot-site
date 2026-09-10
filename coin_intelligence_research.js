@@ -1,7 +1,7 @@
 (function(){
   if(!location.pathname.endsWith('/agents/crypto.html'))return;
   const originalFetch=window.fetch.bind(window);
-  const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot',"'":'&#39;'}[m]));
+  const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
   const money=v=>{v=Number(v);if(!Number.isFinite(v))return'—';if(Math.abs(v)>=1e9)return'$'+(v/1e9).toFixed(2)+'B';if(Math.abs(v)>=1e6)return'$'+(v/1e6).toFixed(1)+'M';if(Math.abs(v)>=1e3)return'$'+(v/1e3).toFixed(1)+'K';return'$'+v.toLocaleString('tr-TR',{maximumFractionDigits:2})};
   const num=v=>v==null||!Number.isFinite(Number(v))?'—':Number(v).toLocaleString('tr-TR',{maximumFractionDigits:2});
   const pct=v=>v==null||!Number.isFinite(Number(v))?'—':Number(v).toFixed(2)+'%';

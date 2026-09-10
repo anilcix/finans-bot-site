@@ -8,9 +8,62 @@
   const short=a=>a?`${String(a).slice(0,6)}…${String(a).slice(-4)}`:'—';
   const when=v=>{if(!v)return'—';try{return new Date(v).toLocaleString('tr-TR',{timeZone:'Europe/Istanbul',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})}catch(e){return'—'}};
   const labels=r=>esc(((r&&r.labels)||[]).join(', ')||'etiketsiz');
-  function walletRows(rows){return (rows||[]).map(r=>`<tr><td><b>${esc(r.kind||'—')}</b></td><td title="${esc(r.address||'')}">${short(r.address)}</td><td>${labels(r)}</td><td>${num(r.amount)}</td><td>${pct(r.share_pct)}</td></tr>`).join('')}
-  function moveRows(rows){return (rows||[]).map(r=>`<tr><td>${when(r.at)}</td><td>${money(r.amount_usd)}</td><td title="${esc(r.from||'')}">${short(r.from)}</td><td>${esc((r.from_labels||[]).join(', ')||'—')}</td><td title="${esc(r.to||'')}">${short(r.to)}</td><td>${esc((r.to_labels||[]).join(', ')||'—')}</td></tr>`).join('')}
-  function patchScore(d){const out=document.getElementById('coinIntelResult');if(!out)return;const a=d.assessment||{};if(!a.long_term_potential_provisional)return;const box=[...out.querySelectorAll('.ci-box')].find(b=>(b.querySelector('.ci-label')?.textContent||'').trim()==='Long-term Potential');if(!box)return;const value=box.querySelector('.ci-value');if(value){value.className='ci-value';value.style.color='#ffcf5c';value.textContent='VERİ YETERSİZ'}let note=box.querySelector('.ci-muted');if(!note){note=document.createElement('div');note.className='ci-muted';box.appendChild(note)}note.textContent=`Ham skor ${a.long_term_potential_score??'—'}/100 · ${a.long_term_potential_note||'Eksik veri nedeniyle geçici.'}`}
-  function renderSmart(d){const out=document.getElementById('coinIntelResult');if(!out)return;patchScore(d);const sections=[...out.querySelectorAll('.ci-section')];const target=sections.find(s=>(s.querySelector('h3')?.textContent||'').startsWith('VC / Team Wallets'));if(!target)return;const sm=d.smart_money||{};if(!sm.available){target.innerHTML=`<h3>VC / Team Wallets · Exchange Inflows · Whale Activity</h3><div class="ci-warn">${esc(sm.note||'Bu coin için doğrulanmış smart-money verisi yok.')}</div>${sm.chain?`<div class="ci-muted" style="margin-top:6px">Zincir: ${esc(sm.chain)}${sm.native_asset?' · Native varlık':sm.contract?` · Kontrat: ${esc(short(sm.contract))}`:''}</div>`:''}`;return}const flow=(sm.exchange_flows||[])[0]||{};const tracked=[...(sm.vc_wallets||[]),...(sm.team_unlock_wallets||[]),...(sm.exchange_wallets||[])];const native=Boolean(sm.native_asset);const concentration=native?sm.labeled_supply_concentration_pct:sm.top_holder_concentration_pct;const concentrationLabel=native?'Etiketli Supply Yoğunluğu':'Top-10 Holder Yoğunluğu';const concentrationNote=native?`${sm.labeled_holders??0} doğrulanmış team/investor/exchange cüzdanı`:`İlk ${sm.holders_sampled??0} holder örneği`;target.innerHTML=`<h3>VC / Team Wallets · Exchange Inflows · Whale Activity</h3><div class="ci-grid"><div class="ci-box"><div class="ci-label">${concentrationLabel}</div><div class="ci-value">${pct(concentration)}</div><div class="ci-muted">${concentrationNote}</div></div><div class="ci-box"><div class="ci-label">Etiketli Cüzdan</div><div class="ci-value">${sm.labeled_holders??0}</div><div class="ci-muted">Sahiplik tahmini yapılmaz</div></div><div class="ci-box"><div class="ci-label">7g Gözlenen Borsa Net Akışı</div><div class="ci-value ${Number(flow.net_tokens)>0?'negative':Number(flow.net_tokens)<0?'positive':''}">${num(flow.net_tokens)} token</div><div class="ci-muted">${money(flow.net_usd)}</div></div><div class="ci-box"><div class="ci-label">Whale Hareketi</div><div class="ci-value">${(sm.whale_moves||[]).length}</div><div class="ci-muted">Büyük son transfer örneği</div></div></div><div class="ci-muted">Zincir: ${esc(sm.chain||'—')} · ${native?'Native coin':`Kontrat: ${esc(short(sm.contract))}`} · Kapsam: ${esc(sm.coverage||'—')}</div>${tracked.length?`<div style="overflow:auto;margin-top:9px"><table class="ci-table"><tr><th>Tür</th><th>Cüzdan</th><th>Etiket</th><th>Token</th><th>Supply Payı</th></tr>${walletRows(tracked.slice(0,16))}</table></div>`:'<div class="ci-warn" style="margin-top:9px">Doğrulanmış VC/team/exchange etiketi bulunmadı.</div>'}${(sm.whale_moves||[]).length?`<div class="ci-section"><h3>Son Büyük Transferler</h3><div style="overflow:auto"><table class="ci-table"><tr><th>Zaman</th><th>Yaklaşık Değer</th><th>Gönderen</th><th>Gönderen etiketi</th><th>Alıcı</th><th>Alıcı etiketi</th></tr>${moveRows(sm.whale_moves)}</table></div></div>`:''}${(sm.vc_moves||[]).length?`<div class="ci-section"><h3>VC / Investor Etiketli Hareketler</h3><div style="overflow:auto"><table class="ci-table"><tr><th>Zaman</th><th>Yaklaşık Değer</th><th>Gönderen</th><th>Etiket</th><th>Alıcı</th><th>Etiket</th></tr>${moveRows(sm.vc_moves)}</table></div></div>`:''}${(sm.team_moves||[]).length?`<div class="ci-section"><h3>Team / Treasury Etiketli Hareketler</h3><div style="overflow:auto"><table class="ci-table"><tr><th>Zaman</th><th>Yaklaşık Değer</th><th>Gönderen</th><th>Etiket</th><th>Alıcı</th><th>Etiket</th></tr>${moveRows(sm.team_moves)}</table></div></div>`:''}<div class="ci-muted" style="margin-top:9px">${esc(sm.note||'')}</div>`}
-  window.fetch=async function(input,init){const response=await originalFetch(input,init);try{const url=typeof input==='string'?input:(input&&input.url)||'';if(url.includes('/api/public/coin-intelligence')){response.clone().json().then(d=>{if(d&&!d.error)setTimeout(()=>renderSmart(d),60)}).catch(()=>{})}}catch(e){}return response};
+
+  function walletRows(rows){
+    return (rows||[]).map(r=>`<tr><td><b>${esc(r.kind||'—')}</b></td><td title="${esc(r.address||'')}">${short(r.address)}</td><td>${labels(r)}</td><td>${num(r.amount)}</td><td>${pct(r.share_pct)}</td></tr>`).join('');
+  }
+  function moveRows(rows){
+    return (rows||[]).map(r=>`<tr><td>${when(r.at)}</td><td>${money(r.amount_usd)}</td><td title="${esc(r.from||'')}">${short(r.from)}</td><td>${esc((r.from_labels||[]).join(', ')||'—')}</td><td title="${esc(r.to||'')}">${short(r.to)}</td><td>${esc((r.to_labels||[]).join(', ')||'—')}</td></tr>`).join('');
+  }
+  function patchScore(d){
+    const out=document.getElementById('coinIntelResult');if(!out)return;
+    const a=d.assessment||{};if(!a.long_term_potential_provisional)return;
+    const box=[...out.querySelectorAll('.ci-box')].find(b=>(b.querySelector('.ci-label')?.textContent||'').trim()==='Long-term Potential');
+    if(!box)return;
+    const value=box.querySelector('.ci-value');if(value){value.className='ci-value';value.style.color='#ffcf5c';value.textContent='VERİ YETERSİZ'}
+    let note=box.querySelector('.ci-muted');if(!note){note=document.createElement('div');note.className='ci-muted';box.appendChild(note)}
+    note.textContent=`Ham skor ${a.long_term_potential_score??'—'}/100 · ${a.long_term_potential_note||'Eksik veri nedeniyle geçici.'}`;
+  }
+  function renderSmart(d){
+    const out=document.getElementById('coinIntelResult');if(!out)return;
+    patchScore(d);
+    const sections=[...out.querySelectorAll('.ci-section')];
+    const target=sections.find(s=>(s.querySelector('h3')?.textContent||'').startsWith('VC / Team Wallets'));
+    if(!target)return;
+    const sm=d.smart_money||{};
+    if(!sm.available){
+      target.innerHTML=`<h3>VC / Team Wallets · Exchange Inflows · Whale Activity</h3><div class="ci-warn">${esc(sm.note||'Bu coin için doğrulanmış smart-money verisi yok.')}</div>${sm.chain?`<div class="ci-muted" style="margin-top:6px">Zincir: ${esc(sm.chain)}${sm.native_asset?' · Native varlık':sm.contract?` · Kontrat: ${esc(short(sm.contract))}`:''}</div>`:''}`;
+      return;
+    }
+    const flow=(sm.exchange_flows||[])[0]||{};
+    const tracked=[...(sm.vc_wallets||[]),...(sm.team_unlock_wallets||[]),...(sm.exchange_wallets||[])];
+    const native=Boolean(sm.native_asset);
+    const concentration=native?sm.labeled_supply_concentration_pct:sm.top_holder_concentration_pct;
+    const concentrationLabel=native?'Etiketli Supply Yoğunluğu':'Top-10 Holder Yoğunluğu';
+    const concentrationNote=native?`${sm.labeled_holders??0} doğrulanmış team/investor/exchange cüzdanı`:`İlk ${sm.holders_sampled??0} holder örneği`;
+    target.innerHTML=`<h3>VC / Team Wallets · Exchange Inflows · Whale Activity</h3>
+      <div class="ci-grid">
+        <div class="ci-box"><div class="ci-label">${concentrationLabel}</div><div class="ci-value">${pct(concentration)}</div><div class="ci-muted">${concentrationNote}</div></div>
+        <div class="ci-box"><div class="ci-label">Etiketli Cüzdan</div><div class="ci-value">${sm.labeled_holders??0}</div><div class="ci-muted">Sahiplik tahmini yapılmaz</div></div>
+        <div class="ci-box"><div class="ci-label">7g Gözlenen Borsa Net Akışı</div><div class="ci-value ${Number(flow.net_tokens)>0?'negative':Number(flow.net_tokens)<0?'positive':''}">${num(flow.net_tokens)} token</div><div class="ci-muted">${money(flow.net_usd)}</div></div>
+        <div class="ci-box"><div class="ci-label">Whale Hareketi</div><div class="ci-value">${(sm.whale_moves||[]).length}</div><div class="ci-muted">Büyük son transfer örneği</div></div>
+      </div>
+      <div class="ci-muted">Zincir: ${esc(sm.chain||'—')} · ${native?'Native coin':`Kontrat: ${esc(short(sm.contract))}`} · Kapsam: ${esc(sm.coverage||'—')}</div>
+      ${tracked.length?`<div style="overflow:auto;margin-top:9px"><table class="ci-table"><tr><th>Tür</th><th>Cüzdan</th><th>Etiket</th><th>Token</th><th>Supply Payı</th></tr>${walletRows(tracked.slice(0,16))}</table></div>`:'<div class="ci-warn" style="margin-top:9px">Doğrulanmış VC/team/exchange etiketi bulunmadı.</div>'}
+      ${(sm.whale_moves||[]).length?`<div class="ci-section"><h3>Son Büyük Transferler</h3><div style="overflow:auto"><table class="ci-table"><tr><th>Zaman</th><th>Yaklaşık Değer</th><th>Gönderen</th><th>Gönderen etiketi</th><th>Alıcı</th><th>Alıcı etiketi</th></tr>${moveRows(sm.whale_moves)}</table></div></div>`:''}
+      ${(sm.vc_moves||[]).length?`<div class="ci-section"><h3>VC / Investor Etiketli Hareketler</h3><div style="overflow:auto"><table class="ci-table"><tr><th>Zaman</th><th>Yaklaşık Değer</th><th>Gönderen</th><th>Etiket</th><th>Alıcı</th><th>Etiket</th></tr>${moveRows(sm.vc_moves)}</table></div></div>`:''}
+      ${(sm.team_moves||[]).length?`<div class="ci-section"><h3>Team / Treasury Etiketli Hareketler</h3><div style="overflow:auto"><table class="ci-table"><tr><th>Zaman</th><th>Yaklaşık Değer</th><th>Gönderen</th><th>Etiket</th><th>Alıcı</th><th>Etiket</th></tr>${moveRows(sm.team_moves)}</table></div></div>`:''}
+      <div class="ci-muted" style="margin-top:9px">${esc(sm.note||'')}</div>`;
+  }
+
+  window.fetch=async function(input,init){
+    const response=await originalFetch(input,init);
+    try{
+      const url=typeof input==='string'?input:(input&&input.url)||'';
+      if(url.includes('/api/public/coin-intelligence')){
+        response.clone().json().then(d=>{if(d&&!d.error)setTimeout(()=>renderSmart(d),60)}).catch(()=>{});
+      }
+    }catch(e){}
+    return response;
+  };
 })();

@@ -6,7 +6,7 @@
     "macro": 50.5,
     "credit": 61,
     "options": 68,
-    "crypto": 55.6,
+    "crypto": 55.5,
     "crypto_derivatives": 63,
     "equities": 55.0,
     "news": 47
@@ -155,6 +155,8 @@
   },
   "supportive_factors": [
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
+    "TGA düşüyor; Hazine harcaması sisteme kısa vadeli likidite bırakıyor.",
+    "Net likidite 3 haftada yaklaşık $+65B arttı; kısa vadede risk varlıkları için likidite rüzgârı destekleyici.",
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
     "VIX 17.84 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
     "vadeli piyasa ve vadeli piyasa funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü."
@@ -164,14 +166,14 @@
     "1 yıllık reel faiz yüksek; finansal koşulların görünenden daha sıkı kalmasına yol açabilir.",
     "10 yıllık reel faiz yüksek; uzun duration teknoloji/hisse değerlemeleri için yapısal baskı oluşturabilir.",
     "Banka kredi standartları son çeyrekte sıkılaşıyor; piyasa fiyatı rahat olsa da kredi kanalı gecikmeli risk taşıyor.",
-    "TGA son 4 haftada yükseliyor; Hazine nakit birikimi banka rezervlerinden likidite çekebilir.",
     "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük.",
+    "Erken uyarı: CCC-HY Ayrışması 🔴 KRİZ.",
     "CCC spreadi %10.64 ve son 3 ayda +1.16 puan genişledi; düşük kaliteli kredide gizli stres var.",
     "BTC ve ETH aktif adresleri aynı anda geriliyor: 7g BTC %-2.9, ETH %-3.3.",
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %-1.2, ETH %+0.0.",
+    "Kriptoda spot momentum: BTC 24s %-1.2, ETH %-0.1.",
     "vadeli piyasa BTC OI 24 saatte %+5.1; yeni kaldıraç girişi var, CVD/funding teyidiyle okunmalı.",
     "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 1 risk artırıcı, 11 nötr/karışık benzersiz başlık. Haber skoru 47/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
@@ -368,7 +370,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-09-10T20:36:17.595644+00:00"
+    "generated_at": "2026-09-10T20:58:41.372531+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -383,5 +385,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-09-10T20:31:32.869673+00:00"
+  "generated_at": "2026-09-10T20:54:29.911798+00:00"
 }
