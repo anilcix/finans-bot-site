@@ -25,38 +25,45 @@
   }
   loadHistoryLevelSnapshots();
 
-  function peakMinuteLabel(e,m){
-    const anchor=e?.signal_candle_close_utc||e?.detected_at;
-    const peak=e?.[`peak_${m}m_at`];
-    if(!anchor||!peak)return'';
-    const a=new Date(anchor).getTime(),p=new Date(peak).getTime();
-    if(!Number.isFinite(a)||!Number.isFinite(p)||p<a)return'';
-    return `${Math.floor((p-a)/60000)+1}. dk`;
+  function minuteLabel(anchor,at){
+    if(!anchor||!at)return'';
+    const a=new Date(anchor).getTime(),b=new Date(at).getTime();
+    if(!Number.isFinite(a)||!Number.isFinite(b)||b<a)return'';
+    return `${Math.floor((b-a)/60000)+1}. dk`;
   }
+  function localPct(v){return v==null||!Number.isFinite(Number(v))?'—':`${Number(v)>=0?'+':''}${Number(v).toFixed(2)}%`}
 
   async function patchPeakHistoryLabels(){
     const cards=[...document.querySelectorAll('#content>.card')];
     const card=cards.find(c=>(c.querySelector('h2')?.textContent||'').includes('Tarayıcı Sonrası'));
     if(!card)return;
-    const h2=card.querySelector('h2');if(h2)h2.textContent='Tarayıcı Sonrası · 15dk / 30dk Peak Tarihçe';
+    const h2=card.querySelector('h2');if(h2)h2.textContent='Tarayıcı Sonrası · 15dk / 30dk Peak + Dip Tarihçe';
     const titles=[...card.querySelectorAll('.horizon-title')];
-    if(titles[0])titles[0].textContent='İlk 15 dakika içindeki en yüksek fiyat';
-    if(titles[1])titles[1].textContent='İlk 30 dakika içindeki en yüksek fiyat';
+    if(titles[0])titles[0].textContent='İlk 15 dakika · Peak + Dip';
+    if(titles[1])titles[1].textContent='İlk 30 dakika · Peak + Dip';
     [...card.querySelectorAll('.statpill')].forEach(p=>{if(p.textContent.trim().startsWith('En kötü:'))p.textContent=p.textContent.replace('En kötü:','En düşük peak:')});
-    [...card.querySelectorAll('table.data-table th')].forEach(th=>{const t=th.textContent.trim();if(t==='+15dk')th.textContent='15dk Peak';else if(t==='+30dk')th.textContent='30dk Peak';else if(t==='Fiyat İzi')th.textContent='Fiyat İzi · Peak'});
+    [...card.querySelectorAll('table.data-table th')].forEach(th=>{const t=th.textContent.trim();if(t==='+15dk')th.textContent='15dk Peak / Dip';else if(t==='+30dk')th.textContent='30dk Peak / Dip';else if(t==='Fiyat İzi')th.textContent='Fiyat İzi · Peak'});
     const note=card.querySelector('.history-note');
-    if(note)note.textContent='“En düşük peak”, sinyaller arasındaki en düşük maksimum-yukarı hareketidir; pencere içindeki en düşük fiyat değildir. Sinyal giriş fiyatı gerçek 10dk mum kapanışıdır. 15dk/30dk yüzdeleri ilgili penceredeki en yüksek 1dk HIGH fiyatına göre hesaplanır.';
+    if(note)note.textContent='Peak = pencere içindeki en yüksek 1dk HIGH; Dip = pencere içindeki en düşük 1dk LOW. İkisi de sinyal 10dk kapanış fiyatına göre hesaplanır. Dip stop riskini, peak ise ulaşılabilir maksimum yukarı hareketi gösterir.';
     try{
       const r=await fetch('../data/screener_history.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)return;
-      const h=await r.json();const events=(h.events||[]).slice(0,100);
+      const h=await r.json();const events=(h.events||[]).slice(0,100),summary=h.summary||{};
+      [15,30].forEach((m,i)=>{
+        const stat=titles[i]?.nextElementSibling;if(!stat)return;
+        let pill=stat.querySelector(`[data-worst-dip="${m}"]`);
+        if(!pill){pill=document.createElement('span');pill.className='statpill';pill.dataset.worstDip=String(m);stat.appendChild(pill)}
+        pill.textContent=`En kötü dip: ${localPct(summary[`${m}m`]?.worst_dip_pct)}`;
+      });
       const rows=[...card.querySelectorAll('table.data-table tr')].slice(1);
       events.forEach((e,i)=>{
         const tr=rows[i];if(!tr||tr.children.length<9)return;
         [[15,7],[30,8]].forEach(([m,idx])=>{
           const cell=tr.children[idx];if(!cell)return;
-          const old=cell.querySelector(`[data-peak-minute="${m}"]`);if(old)old.remove();
-          const label=peakMinuteLabel(e,m);if(!label)return;
-          const div=document.createElement('div');div.className='mini';div.dataset.peakMinute=String(m);div.textContent=`Peak: ${label}`;cell.appendChild(div);
+          cell.querySelectorAll(`[data-peak-minute="${m}"],[data-dip="${m}"]`).forEach(x=>x.remove());
+          const anchor=e.signal_candle_close_utc||e.detected_at;
+          const peakWhen=minuteLabel(anchor,e[`peak_${m}m_at`]);
+          if(peakWhen){const d=document.createElement('div');d.className='mini positive';d.dataset.peakMinute=String(m);d.textContent=`Peak: ${peakWhen}`;cell.appendChild(d)}
+          if(e[`dip_change_${m}m_pct`]!=null){const d=document.createElement('div');d.className='mini negative';d.dataset.dip=String(m);const dipWhen=minuteLabel(anchor,e[`dip_${m}m_at`]);d.textContent=`Dip: ${localPct(e[`dip_change_${m}m_pct`])}${dipWhen?' · '+dipWhen:''}`;cell.appendChild(d)}
         });
       });
     }catch(e){}
@@ -85,13 +92,8 @@
   window.renderScreenerLevelContext=renderLevelContext;
 
   async function refreshLive(showScanning=false){if(busy||document.hidden)return;busy=true;if(showScanning)setScanningStatus();try{const r=await fetch(API+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('live screener '+r.status);const d=await r.json();if(!d||!d.generated_at||typeof window.activeCard!=='function')throw new Error('invalid live payload');const content=document.getElementById('content');if(!content)return;const holder=document.createElement('div');holder.innerHTML=window.activeCard(d);const card=holder.firstElementChild;if(!card)return;const note=card.querySelector('.note');if(note&&!note.textContent.includes('CANLI'))note.insertAdjacentHTML('beforeend',`<br><span class="fresh">● CANLI · Taranan mum ${signalWindow(null,d)} (Türkiye)</span>`);const first=content.firstElementChild;if(first)content.replaceChild(card,first);else content.prepend(card);renderLevelContext(d);patchPeakHistoryLabels();lastLiveOk=Date.now();setLiveStatus(d);flashNewSignals(d)}catch(e){setRetryStatus()}finally{busy=false}}
-  async function renderStaticContext(){
-    try{
-      const r=await fetch('../data/screener.json?t='+Date.now(),{cache:'no-store'});
-      if(r.ok){const d=await r.json();if(!isStaleStatic(d))renderLevelContext(d)}
-    }catch(e){}
-  }
+  async function renderStaticContext(){try{const r=await fetch('../data/screener.json?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();if(!isStaleStatic(d))renderLevelContext(d)}}catch(e){}}
   function msToNextBoundary(){const now=Date.now();const next=(Math.floor(now/600000)+1)*600000;return Math.max(1000,next-now+5000)}
   function scheduleBoundary(){setTimeout(()=>{refreshLive(true);setTimeout(()=>refreshLive(false),8000);setTimeout(()=>refreshLive(false),16000);scheduleBoundary()},msToNextBoundary())}
-  setTimeout(renderStaticContext,400);setTimeout(patchPeakHistoryLabels,500);setTimeout(()=>refreshLive(true),700);setInterval(()=>refreshLive(false),15000);setInterval(patchPeakHistoryLabels,5000);scheduleBoundary();document.addEventListener('visibilitychange',()=>{if(!document.hidden){refreshLive(true);patchPeakHistoryLabels()}});
+  setTimeout(renderStaticContext,400);setTimeout(patchPeakHistoryLabels,700);setTimeout(()=>refreshLive(true),700);setInterval(()=>refreshLive(false),15000);setInterval(patchPeakHistoryLabels,5000);scheduleBoundary();document.addEventListener('visibilitychange',()=>{if(!document.hidden){refreshLive(true);patchPeakHistoryLabels()}});
 })();
