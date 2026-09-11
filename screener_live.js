@@ -62,8 +62,8 @@
           cell.querySelectorAll(`[data-peak-minute="${m}"],[data-dip="${m}"]`).forEach(x=>x.remove());
           const anchor=e.signal_candle_close_utc||e.detected_at;
           const peakWhen=minuteLabel(anchor,e[`peak_${m}m_at`]);
-          if(peakWhen){const d=document.createElement('div');d.className='mini positive';d.dataset.peakMinute=String(m);d.textContent=`Peak: ${peakWhen}`;cell.appendChild(d)}
-          if(e[`dip_change_${m}m_pct`]!=null){const d=document.createElement('div');d.className='mini negative';d.dataset.dip=String(m);const dipWhen=minuteLabel(anchor,e[`dip_${m}m_at`]);d.textContent=`Dip: ${localPct(e[`dip_change_${m}m_pct`])}${dipWhen?' · '+dipWhen:''}`;cell.appendChild(d)}
+          if(e[`change_${m}m_pct`]!=null){const d=document.createElement('div');d.className='mini positive';d.dataset.peakMinute=String(m);d.textContent=`Yüksek: ${localPct(e[`change_${m}m_pct`])}${peakWhen?' · '+peakWhen:''}`;cell.appendChild(d)}
+          if(e[`dip_change_${m}m_pct`]!=null){const d=document.createElement('div');d.className='mini negative';d.dataset.dip=String(m);const dipWhen=minuteLabel(anchor,e[`dip_${m}m_at`]);d.textContent=`Düşük: ${localPct(e[`dip_change_${m}m_pct`])}${dipWhen?' · '+dipWhen:''}`;cell.appendChild(d)}
         });
       });
     }catch(e){}
