@@ -32,6 +32,11 @@
     return `${Math.floor((b-a)/60000)+1}. dk`;
   }
   function localPct(v){return v==null||!Number.isFinite(Number(v))?'—':`${Number(v)>=0?'+':''}${Number(v).toFixed(2)}%`}
+  function hitRate(events,m,threshold){
+    const vals=events.map(e=>Number(e[`change_${m}m_pct`])).filter(Number.isFinite);
+    if(!vals.length)return null;
+    return vals.filter(v=>v>=threshold).length/vals.length*100;
+  }
 
   async function patchPeakHistoryLabels(){
     const cards=[...document.querySelectorAll('#content>.card')];
@@ -44,12 +49,20 @@
     [...card.querySelectorAll('.statpill')].forEach(p=>{if(p.textContent.trim().startsWith('En kötü:'))p.textContent=p.textContent.replace('En kötü:','En düşük peak:')});
     [...card.querySelectorAll('table.data-table th')].forEach(th=>{const t=th.textContent.trim();if(t==='+15dk')th.textContent='15dk Peak / Dip';else if(t==='+30dk')th.textContent='30dk Peak / Dip';else if(t==='Fiyat İzi')th.textContent='Fiyat İzi · Peak'});
     const note=card.querySelector('.history-note');
-    if(note)note.textContent='Peak = pencere içindeki en yüksek 1dk HIGH; Dip = pencere içindeki en düşük 1dk LOW. İkisi de sinyal 10dk kapanış fiyatına göre hesaplanır. Dip stop riskini, peak ise ulaşılabilir maksimum yukarı hareketi gösterir.';
+    if(note)note.textContent='Peak = pencere içindeki en yüksek 1dk HIGH; Dip = pencere içindeki en düşük 1dk LOW. İkisi de sinyal 10dk kapanış fiyatına göre hesaplanır. +1% / +1.5% oranları, tamamlanan sinyallerin ilgili peak eşiğine ulaşma oranıdır.';
     try{
       const r=await fetch('../data/screener_history.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)return;
       const h=await r.json();const events=(h.events||[]).slice(0,100),summary=h.summary||{};
       [15,30].forEach((m,i)=>{
         const stat=titles[i]?.nextElementSibling;if(!stat)return;
+        const existing=[...stat.querySelectorAll('.statpill')].find(p=>p.textContent.trim().startsWith('Yukarı oranı:')||p.dataset.hit1===String(m));
+        const rate1=summary[`${m}m`]?.hit_1pct_rate_pct ?? hitRate(events,m,1.0);
+        const rate15=summary[`${m}m`]?.hit_1_5pct_rate_pct ?? hitRate(events,m,1.5);
+        if(existing){existing.dataset.hit1=String(m);existing.textContent=`+1% gören: ${localPct(rate1)}`}
+        else{const p=document.createElement('span');p.className='statpill';p.dataset.hit1=String(m);p.textContent=`+1% gören: ${localPct(rate1)}`;stat.appendChild(p)}
+        let p15=stat.querySelector(`[data-hit15="${m}"]`);
+        if(!p15){p15=document.createElement('span');p15.className='statpill';p15.dataset.hit15=String(m);stat.appendChild(p15)}
+        p15.textContent=`+1.5% gören: ${localPct(rate15)}`;
         let pill=stat.querySelector(`[data-worst-dip="${m}"]`);
         if(!pill){pill=document.createElement('span');pill.className='statpill';pill.dataset.worstDip=String(m);stat.appendChild(pill)}
         pill.textContent=`En kötü dip: ${localPct(summary[`${m}m`]?.worst_dip_pct)}`;
