@@ -3,7 +3,9 @@
   const content=document.getElementById('content');if(!content)return;
 
   const isScreener=/screener\.html$/i.test(location.pathname);
+  const isMacro=/macro\.html$/i.test(location.pathname);
   if(isScreener)document.body.classList.add('screener-page');
+  if(isMacro&&!document.querySelector('script[data-macro-categories]')){const s=document.createElement('script');s.src='../macro_categories.js';s.defer=true;s.dataset.macroCategories='1';document.head.appendChild(s)}
 
   const style=document.createElement('style');
   style.textContent=`
