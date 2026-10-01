@@ -117,7 +117,7 @@
       bar.style.cssText='display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px';
       const content=document.getElementById('content');if(content)content.prepend(bar);
     }
-    bar.innerHTML=`<div style="flex:1;min-width:220px"><b style="color:${liveEnabled?'#39ff88':'#ff7070'}">${liveEnabled?'● CANLI TARAYICI AKTİF':'● CANLI TARAYICI KAPALI'}</b><div class="mini" style="margin-top:5px">${liveEnabled?'Açık 15dk mum dakika dakika taranıyor.':'Tarama yapılmıyor; GitHub Actions kotası bu özellik için kullanılmıyor.'}</div></div><button id="liveScannerToggle" style="cursor:pointer;padding:9px 14px;border-radius:8px;border:1px solid #39ff88;background:#07140b;color:#dfffea;font-weight:800">${liveEnabled?'■ DURDUR':'▶ BAŞLAT'}</button>`;
+    bar.innerHTML=`<div style="flex:1;min-width:220px"><b style="color:${liveEnabled?'#39ff88':'#ff7070'}">${liveEnabled?'● CANLI TARAYICI AKTİF':'● CANLI TARAYICI KAPALI'}</b><div class="mini" style="margin-top:5px">${liveEnabled?'Açık 15dk mum Binance WebSocket ile canlı taranıyor.':'Tarama yapılmıyor; GitHub Actions kotası bu özellik için kullanılmıyor.'}</div></div><button id="liveScannerToggle" style="cursor:pointer;padding:9px 14px;border-radius:8px;border:1px solid #39ff88;background:#07140b;color:#dfffea;font-weight:800">${liveEnabled?'■ DURDUR':'▶ BAŞLAT'}</button>`;
     document.getElementById('liveScannerToggle').onclick=async()=>{
       const target=!liveEnabled;const btn=document.getElementById('liveScannerToggle');if(btn)btn.disabled=true;
       try{
