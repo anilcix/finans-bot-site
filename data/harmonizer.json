@@ -1,185 +1,183 @@
 {
-  "market_score": 56.4,
-  "stance": "Temkinli Risk-On",
+  "market_score": 45.8,
+  "stance": "Nötr / Bekle-Gör",
   "confidence": 75.0,
   "component_scores": {
-    "macro": 50.7,
-    "credit": 61,
-    "options": 78,
-    "crypto": 59.2,
-    "crypto_derivatives": 58,
-    "equities": 52.2,
-    "news": 50
+    "macro": 42.0,
+    "credit": 5,
+    "options": 68,
+    "crypto": 63.9,
+    "crypto_derivatives": 66,
+    "equities": 47.3,
+    "news": 53
   },
   "plain_summary": [
-    "Ana görüş: yukarı yön hâlâ avantajlı, fakat güçlü bir risk-on rejiminde değiliz. Seçici şekilde risk alınabilir; agresif kaldıraç ve yükselişi kovalamak için yeterli teyit yok.",
+    "Ana görüş: piyasa yönü kararsız. Yeni büyük risk almak yerine mevcut pozisyonları korumak ve daha net teyit beklemek daha uygun.",
     "Pozitif taraf: GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor. Temkin nedeni: Enflasyon seviyesi hâlâ makro rahatlama alanını sınırlıyor.",
     "Görüşü güçlendirecek teyit: CCC ve IG spreadleri yeniden daralmaya başlar, HY düşük kalırsa risk artırma teyidi. Görüşü bozacak sinyal: HY OAS %4.0 üzerine çıkar veya kredi döngüsü Late Cycle/Contraction'a dönerse riski azalt."
   ],
   "news_analysis": {
-    "score": 50,
+    "score": 53,
     "tone": "Karışık / Nötr",
-    "summary": "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 0 risk artırıcı, 13 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
-    "positive_count": 0,
+    "summary": "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 0 risk artırıcı, 13 nötr/karışık benzersiz başlık. Haber skoru 53/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
+    "positive_count": 1,
     "negative_count": 0,
     "neutral_count": 13,
-    "headline_count": 13,
-    "unique_story_count": 13,
+    "headline_count": 14,
+    "unique_story_count": 14,
     "article_context_count": 0,
     "topic_summaries": [
       {
         "topic": "Bitcoin",
-        "tone": "karışık",
+        "tone": "destekleyici",
         "count": 10,
-        "digest": "Metaplanet cuts executive reward pool by 41%, extinguishes $220 million in value | Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 51/100; 30Y değişim +0.03 puan."
+        "digest": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS | QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+1.4; çoklu-borsa OI 24s %+4.4; OI-ağırlıklı funding %+0.0052."
       },
       {
         "topic": "Makro / Fed / Hazine",
         "tone": "karışık",
-        "count": 3,
-        "digest": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS | QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+        "count": 4,
+        "digest": "Çalışma İstatistikleri Bürosu, geniş çalışma ekonomisi ve istatistik alanında Federal Hükümet için temel araştırma kuruluşudur. Ağustos ayında işsizlik oranları, 387 metropol alanın 234 'ünde bir yıl öncesine göre daha düşük, 126' sında daha yüksek ve 27 'sinde değişmedi. | QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 51/100; 30Y değişim +0.03 puan."
+        "data_confirmation": "Makro skor 42/100; 30Y değişim +0.37 puan."
       }
     ],
     "important_news": [
       {
-        "title": "Major Economic Indicators Latest Numbers",
-        "link": "https://www.bls.gov/",
-        "published_at": "2026-09-11T14:01:11+00:00",
-        "topic": "Makro / Fed / Hazine",
-        "theme": "macro",
+        "title": "Citigroup raises 12-month bitcoin target to $113,000 as ETF inflows resume",
+        "link": "https://www.coindesk.com/markets/2026/10/01/citigroup-raises-12-month-bitcoin-target-to-usd113-000-as-etf-inflows-resume",
+        "published_at": "2026-10-01T09:59:30+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 1,
+        "impact": "Destekleyici",
+        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.4; çoklu-borsa OI 24s %+4.4; OI-ağırlıklı funding %+0.0052.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+1.4; çoklu-borsa OI 24s %+4.4; OI-ağırlıklı funding %+0.0052."
+      },
+      {
+        "title": "Crypto for Advisors: The CLARITY Act failed, but the rules came anyway",
+        "link": "https://www.coindesk.com/coindesk-indices/2026/10/01/crypto-for-advisors-the-clarity-act-failed-but-the-rules-came-anyway",
+        "published_at": "2026-10-01T15:00:00+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
         "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 51/100; 30Y değişim +0.03 puan.",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 51/100; 30Y değişim +0.03 puan."
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.4; çoklu-borsa OI 24s %+4.4; OI-ağırlıklı funding %+0.0052.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+1.4; çoklu-borsa OI 24s %+4.4; OI-ağırlıklı funding %+0.0052."
       },
       {
-        "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
-        "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
-        "published_at": "2026-09-11T14:00:00+00:00",
-        "topic": "Makro / Fed / Hazine",
-        "theme": "macro",
+        "title": "NEAR Intents hit by $3.8 million exploit as crypto's rough year of hacks continues",
+        "link": "https://www.coindesk.com/tech/2026/10/01/near-intents-hit-by-usd3-8-million-exploit-as-crypto-s-rough-year-of-hacks-continues",
+        "published_at": "2026-10-01T14:18:14+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
         "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 51/100; 30Y değişim +0.03 puan.",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 51/100; 30Y değişim +0.03 puan."
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.4; çoklu-borsa OI 24s %+4.4; OI-ağırlıklı funding %+0.0052.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+1.4; çoklu-borsa OI 24s %+4.4; OI-ağırlıklı funding %+0.0052."
       },
       {
-        "title": "Metaplanet cuts executive reward pool by 41%, extinguishes $220 million in value",
-        "link": "https://www.coindesk.com/business/2026/09/11/metaplanet-cuts-executive-reward-pool-by-41-extinguishes-usd220-million-in-value",
-        "published_at": "2026-09-11T13:46:51+00:00",
-        "topic": "Bitcoin",
-        "theme": "macro",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Metaplanet cuts executive reward pool by 41%, extinguishes $220 million in value",
-        "summary_mode": "headline_only",
-        "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 51/100; 30Y değişim +0.03 puan.",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 51/100; 30Y değişim +0.03 puan."
-      },
-      {
-        "title": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
-        "link": "https://www.coindesk.com/daybook-us/2026/09/11/rising-yields-oil-prices-leave-bitcoin-vulnerable-ahead-of-u-s-inflation-report",
-        "published_at": "2026-09-11T11:20:26+00:00",
+        "title": "Live updates: Bitcoin posts tentative gains as rates drop ahead of Friday's jobs report",
+        "link": "https://www.coindesk.com/tech/2026/10/01/live-updates-bitcoin-flat-near-usd84-000-after-best-quarter-since-2024",
+        "published_at": "2026-10-01T11:59:17+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
-        "summary_mode": "headline_only",
-        "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.0; çoklu-borsa OI 24s %-4.6; OI-ağırlıklı funding %+0.0045.",
+        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.4; çoklu-borsa OI 24s %+4.4; OI-ağırlıklı funding %+0.0052.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.0; çoklu-borsa OI 24s %-4.6; OI-ağırlıklı funding %+0.0045."
+        "data_confirmation": "BTC 24s %+1.4; çoklu-borsa OI 24s %+4.4; OI-ağırlıklı funding %+0.0052."
       },
       {
-        "title": "Live updates: Bitcoin gives up early gains, with markets moving to price in multiple rate hikes",
-        "link": "https://www.coindesk.com/business/2026/09/11/live-updates-bitcoin-sinks-to-usd77-000-as-cpi-lands-with-hike-odds-near-70",
-        "published_at": "2026-09-11T11:04:12+00:00",
+        "title": "Illinois agrees to six-month delay of crypto tax as industry continues court battle",
+        "link": "https://www.coindesk.com/policy/2026/09/30/illinois-agrees-to-six-month-delay-of-crypto-tax-as-industry-continues-court-battle",
+        "published_at": "2026-10-01T11:58:00+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Live updates: Bitcoin gives up early gains, with markets moving to price in multiple rate hikes",
-        "summary_mode": "headline_only",
-        "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.0; çoklu-borsa OI 24s %-4.6; OI-ağırlıklı funding %+0.0045.",
+        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.4; çoklu-borsa OI 24s %+4.4; OI-ağırlıklı funding %+0.0052.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.0; çoklu-borsa OI 24s %-4.6; OI-ağırlıklı funding %+0.0045."
+        "data_confirmation": "BTC 24s %+1.4; çoklu-borsa OI 24s %+4.4; OI-ağırlıklı funding %+0.0052."
       },
       {
-        "title": "Bitcoin recovers toward $77,300 as zcash leverage unwinds",
-        "link": "https://www.coindesk.com/markets/2026/09/11/bitcoin-recovers-toward-usd77-300-as-zcash-leverage-unwinds",
-        "published_at": "2026-09-11T10:50:47+00:00",
+        "title": "Crypto lost $1.26 billion in hacks while bitcoin bulls enjoyed a monster quarter",
+        "link": "https://www.coindesk.com/daybook-us/2026/10/01/crypto-lost-usd1-26-billion-in-hacks-while-bitcoin-bulls-enjoyed-a-monster-quarter",
+        "published_at": "2026-10-01T11:30:38+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Bitcoin recovers toward $77,300 as zcash leverage unwinds",
-        "summary_mode": "headline_only",
-        "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.0; çoklu-borsa OI 24s %-4.6; OI-ağırlıklı funding %+0.0045.",
+        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.4; çoklu-borsa OI 24s %+4.4; OI-ağırlıklı funding %+0.0052.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.0; çoklu-borsa OI 24s %-4.6; OI-ağırlıklı funding %+0.0045."
+        "data_confirmation": "BTC 24s %+1.4; çoklu-borsa OI 24s %+4.4; OI-ağırlıklı funding %+0.0052."
       },
       {
-        "title": "Bitcoin pulls back as another golden cross fails to deliver",
-        "link": "https://www.coindesk.com/markets/2026/09/11/bitcoin-pulls-back-as-another-golden-cross-fails-to-deliver",
-        "published_at": "2026-09-11T10:13:44+00:00",
+        "title": "Bitcoin kicks off new quarter in the old $82,000-$85,000 price range",
+        "link": "https://www.coindesk.com/markets/2026/10/01/bitcoin-kicks-off-new-quarter-in-the-old-usd82-000-usd85-000-price-range",
+        "published_at": "2026-10-01T10:38:04+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Bitcoin pulls back as another golden cross fails to deliver",
-        "summary_mode": "headline_only",
-        "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.0; çoklu-borsa OI 24s %-4.6; OI-ağırlıklı funding %+0.0045.",
+        "brief_summary": "Beklenenden daha zayıf olan ABD'nin ardından fiyatlar çarşamba günü kısa bir süreliğine 85.000 $ 'ı aştı. Kripto para birimi hala 82.000 $ ile 85.000 $ arasında sıkışmış durumda ve bu da bir haftadan fazla süren dalgalı, yatay fiyat hareketini uzatıyor.",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.4; çoklu-borsa OI 24s %+4.4; OI-ağırlıklı funding %+0.0052.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.0; çoklu-borsa OI 24s %-4.6; OI-ağırlıklı funding %+0.0045."
+        "data_confirmation": "BTC 24s %+1.4; çoklu-borsa OI 24s %+4.4; OI-ağırlıklı funding %+0.0052."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
   },
   "supportive_factors": [
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
-    "TGA düşüyor; Hazine harcaması sisteme kısa vadeli likidite bırakıyor.",
-    "Net likidite 3 haftada yaklaşık $+65B arttı; kısa vadede risk varlıkları için likidite rüzgârı destekleyici.",
-    "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
-    "VIX 15.85 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "VIX 16.39 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "Stablecoin piyasa değeri 7 günde %+1.60; kripto içi dolar likiditesi genişliyor.",
+    "BTC yükselişi vadeli piyasa CVD tarafından da teyit ediliyor; agresif alıcı akışı fiyat yönüyle uyumlu.",
     "vadeli piyasa ve vadeli piyasa funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü."
   ],
   "risk_factors": [
     "Enflasyon seviyesi hâlâ makro rahatlama alanını sınırlıyor.",
-    "1 yıllık reel faiz yüksek; finansal koşulların görünenden daha sıkı kalmasına yol açabilir.",
     "10 yıllık reel faiz yüksek; uzun duration teknoloji/hisse değerlemeleri için yapısal baskı oluşturabilir.",
     "Banka kredi standartları son çeyrekte sıkılaşıyor; piyasa fiyatı rahat olsa da kredi kanalı gecikmeli risk taşıyor.",
+    "30 yıllık Hazine faizi son ay belirgin yükseldi; uzun uçta arz/term-premium baskısı teyit istiyor.",
     "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük.",
-    "Erken uyarı: CCC-HY Ayrışması 🔴 KRİZ.",
-    "CCC spreadi %10.70 ve son 3 ayda +1.33 puan genişledi; düşük kaliteli kredide gizli stres var.",
-    "BTC düşüşü vadeli piyasa CVD ile teyit ediliyor; agresif satıcı baskısı devam ediyor.",
-    "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
+    "Erken uyarı: CCC-HY Ayrışması 🟠 UYARI.",
+    "Kredi döngüsü Contraction (Kriz); kredi rejimi risk iştahını sınırlıyor.",
+    "CCC spreadi %11.79 ve son 3 ayda +2.10 puan genişledi; düşük kaliteli kredide gizli stres var."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %-0.0, ETH %+3.1.",
+    "Kriptoda spot momentum: BTC 24s %+1.4, ETH %+1.1.",
+    "On-chain kullanım teyidi pozitif: BTC aktif adres 7g %+14.6, ETH %+32.3.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 0 risk artırıcı, 13 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
-    "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
+    "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 0 risk artırıcı, 13 nötr/karışık benzersiz başlık. Haber skoru 53/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
   ],
   "investment_view": {
-    "action": "Kademeli ve seçici risk al; nakit tamponunu koru, güçlü rallileri kovalamaktan kaçın.",
+    "action": "Nötr kal; yeni risk eklemek için teyit bekle, mevcut pozisyonlarda kaliteyi artır.",
     "favored": [
       "Geniş endeks / kaliteli büyük şirketler: tekil yüksek-beta teknolojiye göre daha dengeli.",
       "Nakit veya kısa vadeli Hazine bonosu tamponu: yeni fırsatlar ve volatilite için opsiyonellik.",
@@ -215,162 +213,18 @@
     ]
   },
   "treasury_buyback": {
-    "tentative_schedule_url": "https://home.treasury.gov/system/files/221/Tentative-Buyback-ScheduleQ32026.xml",
-    "schedule": [
-      {
-        "operation_date": "2026-11-05",
-        "operation_type": "Liquidity Support",
-        "security_type": "NOMINAL COUPONS",
-        "maturity_bucket": "Nominal Coupons 1Mo to 2Y",
-        "max_amount_raw": "4000000000",
-        "max_amount": 4000000000.0
-      },
-      {
-        "operation_date": "2026-08-18",
-        "operation_type": "Liquidity Support",
-        "security_type": "NOMINAL COUPONS",
-        "maturity_bucket": "Nominal Coupons 20Y to 30Y",
-        "max_amount_raw": "2000000000",
-        "max_amount": 2000000000.0
-      },
-      {
-        "operation_date": "2026-08-20",
-        "operation_type": "Liquidity Support",
-        "security_type": "NOMINAL COUPONS",
-        "maturity_bucket": "Nominal Coupons 3Y to 5Y",
-        "max_amount_raw": "4000000000",
-        "max_amount": 4000000000.0
-      },
-      {
-        "operation_date": "2026-08-25",
-        "operation_type": "Liquidity Support",
-        "security_type": "NOMINAL COUPONS",
-        "maturity_bucket": "Nominal Coupons 5Y to 7Y",
-        "max_amount_raw": "4000000000",
-        "max_amount": 4000000000.0
-      },
-      {
-        "operation_date": "2026-09-03",
-        "operation_type": "Cash Management",
-        "security_type": "NOMINAL COUPONS",
-        "maturity_bucket": "Nominal Coupons 1Mo to 2Y",
-        "max_amount_raw": "12500000000",
-        "max_amount": 12500000000.0
-      },
-      {
-        "operation_date": "2026-09-09",
-        "operation_type": "Cash Management",
-        "security_type": "NOMINAL COUPONS",
-        "maturity_bucket": "Nominal Coupons 1Mo to 2Y",
-        "max_amount_raw": "12500000000",
-        "max_amount": 12500000000.0
-      },
-      {
-        "operation_date": "2026-09-10",
-        "operation_type": "Liquidity Support",
-        "security_type": "NOMINAL COUPONS",
-        "maturity_bucket": "Nominal Coupons 10Y to 20Y",
-        "max_amount_raw": "2000000000",
-        "max_amount": 2000000000.0
-      },
-      {
-        "operation_date": "2026-09-15",
-        "operation_type": "Liquidity Support",
-        "security_type": "TIPS",
-        "maturity_bucket": "TIPS 10Y to 30Y",
-        "max_amount_raw": "500000000",
-        "max_amount": 500000000.0
-      },
-      {
-        "operation_date": "2026-09-17",
-        "operation_type": "Liquidity Support",
-        "security_type": "NOMINAL COUPONS",
-        "maturity_bucket": "Nominal Coupons 7Y to 10Y",
-        "max_amount_raw": "4000000000",
-        "max_amount": 4000000000.0
-      },
-      {
-        "operation_date": "2026-09-24",
-        "operation_type": "Liquidity Support",
-        "security_type": "NOMINAL COUPONS",
-        "maturity_bucket": "Nominal Coupons 20Y to 30Y",
-        "max_amount_raw": "2000000000",
-        "max_amount": 2000000000.0
-      },
-      {
-        "operation_date": "2026-09-29",
-        "operation_type": "Liquidity Support",
-        "security_type": "TIPS",
-        "maturity_bucket": "TIPS 1Y to 10Y",
-        "max_amount_raw": "750000000",
-        "max_amount": 750000000.0
-      },
-      {
-        "operation_date": "2026-10-01",
-        "operation_type": "Liquidity Support",
-        "security_type": "NOMINAL COUPONS",
-        "maturity_bucket": "Nominal Coupons 10Y to 20Y",
-        "max_amount_raw": "2000000000",
-        "max_amount": 2000000000.0
-      },
-      {
-        "operation_date": "2026-10-06",
-        "operation_type": "Liquidity Support",
-        "security_type": "NOMINAL COUPONS",
-        "maturity_bucket": "Nominal Coupons 2Y to 3Y",
-        "max_amount_raw": "4000000000",
-        "max_amount": 4000000000.0
-      },
-      {
-        "operation_date": "2026-10-08",
-        "operation_type": "Liquidity Support",
-        "security_type": "NOMINAL COUPONS",
-        "maturity_bucket": "Nominal Coupons 20Y to 30Y",
-        "max_amount_raw": "2000000000",
-        "max_amount": 2000000000.0
-      },
-      {
-        "operation_date": "2026-10-15",
-        "operation_type": "Liquidity Support",
-        "security_type": "NOMINAL COUPONS",
-        "maturity_bucket": "Nominal Coupons 10Y to 20Y",
-        "max_amount_raw": "2000000000",
-        "max_amount": 2000000000.0
-      },
-      {
-        "operation_date": "2026-10-21",
-        "operation_type": "Liquidity Support",
-        "security_type": "TIPS",
-        "maturity_bucket": "TIPS 1Y to 10Y",
-        "max_amount_raw": "750000000",
-        "max_amount": 750000000.0
-      },
-      {
-        "operation_date": "2026-10-27",
-        "operation_type": "Liquidity Support",
-        "security_type": "NOMINAL COUPONS",
-        "maturity_bucket": "Nominal Coupons 20Y to 30Y",
-        "max_amount_raw": "2000000000",
-        "max_amount": 2000000000.0
-      },
-      {
-        "operation_date": "2026-11-04",
-        "operation_type": "Liquidity Support",
-        "security_type": "NOMINAL COUPONS",
-        "maturity_bucket": "Nominal Coupons 10Y to 20Y",
-        "max_amount_raw": "2000000000",
-        "max_amount": 2000000000.0
-      }
-    ],
+    "tentative_schedule_url": "https://home.treasury.gov/system/files/221/Tentative-Buyback-ScheduleQ42026.xml",
+    "schedule": [],
     "recent_results": [],
     "special_announcements": [],
     "errors": [
+      "Tentative schedule alınamadı: HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=20)",
       "TreasuryDirect operasyon tablosu istemci tarafında yükleniyor; doğrudan sonuç XML linki HTML içinde bulunamadı."
     ],
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
-    "schedule_count": 18,
+    "schedule_count": 0,
     "result_count": 0,
-    "generated_at": "2026-09-11T19:49:42.297311+00:00"
+    "generated_at": "2026-10-01T20:17:44.051165+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -385,5 +239,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-09-11T19:41:45.487485+00:00"
+  "generated_at": "2026-10-01T20:12:06.532070+00:00"
 }
