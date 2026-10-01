@@ -1,6 +1,8 @@
 (function(){
   if(!location.pathname.endsWith('/agents/screener.html'))return;
-  const API='https://project-alpha-terminal.onrender.com/api/public/screener-live-open';\n  const LIVE_KEY='alpha_live_screener_enabled';\n  let liveEnabled=localStorage.getItem(LIVE_KEY)==='1';
+  const API='https://project-alpha-terminal.onrender.com/api/public/screener-live-open';
+  const LIVE_KEY='alpha_live_screener_enabled';
+  let liveEnabled=localStorage.getItem(LIVE_KEY)==='1';
   const STALE_MS=20*60*1000;
   const TZ='Europe/Istanbul';
   let lastSignalKey='';
