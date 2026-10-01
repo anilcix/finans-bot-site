@@ -18,9 +18,9 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "signal_candle_open_utc": "2026-10-01T20:00:00+00:00",
-  "signal_candle_close_utc": "2026-10-01T20:15:00+00:00",
+  "signal_candle_open_utc": "2026-10-01T20:15:00+00:00",
+  "signal_candle_close_utc": "2026-10-01T20:30:00+00:00",
   "level_context_method": "DO · NYMO · WO · DVWAP at signal candle close",
-  "generated_at": "2026-10-01T20:18:27.689552+00:00",
+  "generated_at": "2026-10-01T20:41:37.238629+00:00",
   "refresh_policy": "latest fully closed global 15m candle only"
 }
