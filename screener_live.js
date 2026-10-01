@@ -1,8 +1,8 @@
 (function(){
   if(!location.pathname.endsWith('/agents/screener.html'))return;
-  const API='https://project-alpha-terminal.onrender.com/api/public/screener-live-open';
+  const API='https://project-alpha-terminal.onrender.com/api/public/screener-ws';
   const LIVE_KEY='alpha_live_screener_enabled';
-  let liveEnabled=localStorage.getItem(LIVE_KEY)==='1';
+  let liveEnabled=false;
   const STALE_MS=20*60*1000;
   const TZ='Europe/Istanbul';
   let lastSignalKey='';
@@ -118,12 +118,18 @@
       const content=document.getElementById('content');if(content)content.prepend(bar);
     }
     bar.innerHTML=`<div style="flex:1;min-width:220px"><b style="color:${liveEnabled?'#39ff88':'#ff7070'}">${liveEnabled?'● CANLI TARAYICI AKTİF':'● CANLI TARAYICI KAPALI'}</b><div class="mini" style="margin-top:5px">${liveEnabled?'Açık 15dk mum dakika dakika taranıyor.':'Tarama yapılmıyor; GitHub Actions kotası bu özellik için kullanılmıyor.'}</div></div><button id="liveScannerToggle" style="cursor:pointer;padding:9px 14px;border-radius:8px;border:1px solid #39ff88;background:#07140b;color:#dfffea;font-weight:800">${liveEnabled?'■ DURDUR':'▶ BAŞLAT'}</button>`;
-    document.getElementById('liveScannerToggle').onclick=()=>{
-      liveEnabled=!liveEnabled;localStorage.setItem(LIVE_KEY,liveEnabled?'1':'0');renderLiveControls();
-      if(liveEnabled){setScanningStatus();refreshLive(true)}else{const u=document.getElementById('updated');if(u){u.className='updated stale';u.textContent='Canlı tarayıcı durduruldu';}}
+    document.getElementById('liveScannerToggle').onclick=async()=>{
+      const target=!liveEnabled;const btn=document.getElementById('liveScannerToggle');if(btn)btn.disabled=true;
+      try{
+        const r=await fetch(API+(target?'/start':'/stop'),{method:'POST',cache:'no-store'});
+        if(!r.ok)throw new Error('motor '+r.status);
+        const d=await r.json();liveEnabled=!!d.running;localStorage.setItem(LIVE_KEY,liveEnabled?'1':'0');renderLiveControls();
+        if(liveEnabled){setScanningStatus();setTimeout(()=>refreshLive(true),1200)}
+        else{const u=document.getElementById('updated');if(u){u.className='updated stale';u.textContent='WebSocket tarayıcı durduruldu';}}
+      }catch(e){if(btn)btn.disabled=false;setRetryStatus()}
     };
   }
-  setTimeout(renderStaticContext,400);setTimeout(patchPeakHistoryLabels,700);setTimeout(renderLiveControls,750);
+  setTimeout(renderStaticContext,400);setTimeout(patchPeakHistoryLabels,700);setTimeout(renderLiveControls,750);setTimeout(async()=>{try{const r=await fetch(API+'?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();liveEnabled=!!d.running;renderLiveControls();if(liveEnabled)refreshLive(true)}}catch(e){}},850);
   setTimeout(()=>{if(liveEnabled)refreshLive(true)},900);
   setInterval(()=>refreshLive(false),15000);setInterval(patchPeakHistoryLabels,5000);scheduleBoundary();
   document.addEventListener('visibilitychange',()=>{if(!document.hidden){if(liveEnabled)refreshLive(true);patchPeakHistoryLabels()}});
