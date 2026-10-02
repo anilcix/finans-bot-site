@@ -2,6 +2,8 @@
   "movers": [],
   "window": "15m",
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
+  "source": "Binance Spot public market-data-only API",
+  "universe_source": "CoinGecko piyasa değeri Top 200",
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 190,
@@ -10,17 +12,18 @@
     "failed": 0,
     "signal_count_before_cap": 0,
     "max_results": 10,
+    "source_endpoint": "https://data-api.binance.vision",
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
     "pine_z_delta_min": 1.0
   },
-  "method": "ana piyasa 1dk mumları global 15dk parent mumlara birleştirilir ve yalnız tamamen kapanmış 15dk mumlar değerlendirilir. Vol Z, son 20 parent BASE volume ile population stdev. Pine Z-Delta, kullanıcının TradingView koduyla aynı şekilde her 1dk mumun BASE volume'unu close>=open ise +, aksi halde - işaretleyip 15dk toplamını son 20 parent bara standardize eder. Taker buyer share ve Spot CVD ise ana piyasa'ın gerçek taker-buy quote alanlarından bağımsız teyit olarak hesaplanır.",
+  "method": "Binance 1dk mumları global 15dk parent mumlara birleştirilir ve yalnız tamamen kapanmış 15dk mumlar değerlendirilir. Vol Z, son 20 parent BASE volume ile population stdev. Pine Z-Delta, kullanıcının TradingView koduyla aynı şekilde her 1dk mumun BASE volume'unu close>=open ise +, aksi halde - işaretleyip 15dk toplamını son 20 parent bara standardize eder. Taker buyer share ve Spot CVD ise Binance'ın gerçek taker-buy quote alanlarından bağımsız teyit olarak hesaplanır.",
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "signal_candle_open_utc": "2026-10-02T05:15:00+00:00",
-  "signal_candle_close_utc": "2026-10-02T05:30:00+00:00",
+  "signal_candle_open_utc": "2026-10-02T08:30:00+00:00",
+  "signal_candle_close_utc": "2026-10-02T08:45:00+00:00",
   "level_context_method": "DO · NYMO · WO · DVWAP at signal candle close",
-  "generated_at": "2026-10-02T05:33:03.658881+00:00",
+  "generated_at": "2026-10-02T08:56:36.036458+00:00",
   "refresh_policy": "latest fully closed global 15m candle only"
 }
