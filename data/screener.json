@@ -1,210 +1,26 @@
 {
-  "movers": [
-    {
-      "symbol": "RLUSD",
-      "name": "Ripple USD",
-      "coingecko_id": "ripple-usd",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "RLUSDUSDT",
-      "price": 1.0,
-      "change_24h": -0.00299,
-      "volume_zscore_15m": 4.343540829362052,
-      "pine_z_delta_15m": 4.347143125458966,
-      "pine_raw_delta_15m_base": 427478.0,
-      "pine_delta_mean_20": 27937.8,
-      "pine_delta_stdev_20": 91908.68312112844,
-      "pine_delta_source": "1m candle-direction signed BASE volume; exact TradingView indicator proxy",
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 427478.0,
-      "base_volume_mean_20": 29642.2,
-      "base_volume_stdev_20": 91592.50842323295,
-      "volume_15m_usd": 427648.99120000005,
-      "buyer_share_pct": 100.0,
-      "taker_buy_15m_usd": 427648.99120000005,
-      "taker_sell_15m_usd": 0.0,
-      "spot_delta_15m_usd": 427648.99120000005,
-      "price_change_15m_pct": 0.009997000899719666,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1790905500000,
-          "delta_usd": 7298.435600000001,
-          "green": true
-        },
-        {
-          "ts": 1790906400000,
-          "delta_usd": -2446.594000000001,
-          "green": false
-        },
-        {
-          "ts": 1790907300000,
-          "delta_usd": 427648.99120000005,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 1,
-      "cvd_45m_delta_usd": 432500.83280000003,
-      "cvd_note": "✅ Pine Z-Delta + true Spot CVD aynı yönde",
-      "signal_score": 14.040683954821018,
-      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-10-02T02:15:00+00:00",
-      "signal_candle_open_utc": "2026-10-02T02:15:00+00:00",
-      "signal_candle_close_utc": "2026-10-02T02:30:00+00:00",
-      "level_context": {
-        "signal_price": 1.0004,
-        "previous_15m_close": 1.0003,
-        "signal_candle_open_utc": "2026-10-02T02:15:00+00:00",
-        "signal_candle_close_utc": "2026-10-02T02:30:00+00:00",
-        "levels": {
-          "DO": {
-            "value": 1.0004,
-            "status": "CROSS_UP",
-            "status_tr": "↑ YENİ YUKARI KESTİ",
-            "distance_pct": 0.0,
-            "touched": true
-          },
-          "NYMO": {
-            "value": 1.0007,
-            "status": "BELOW",
-            "status_tr": "ALTINDA",
-            "distance_pct": -0.02997901468971831,
-            "touched": false
-          },
-          "WO": {
-            "value": 1.0003,
-            "status": "ABOVE",
-            "status_tr": "ÜSTÜNDE",
-            "distance_pct": 0.009997000899719666,
-            "touched": true
-          },
-          "DVWAP": {
-            "value": 1.0003663098495679,
-            "status": "CROSS_UP",
-            "status_tr": "↑ YENİ YUKARI KESTİ",
-            "distance_pct": 0.003367781391716562,
-            "touched": true
-          }
-        },
-        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 15m HLC3×base-volume with UTC daily reset; cross = previous and signal 15m closes switch sides."
-      }
-    },
-    {
-      "symbol": "DOT",
-      "name": "Polkadot",
-      "coingecko_id": "polkadot",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "DOTUSDT",
-      "price": 1.19,
-      "change_24h": -2.70102,
-      "volume_zscore_15m": 2.052951439522713,
-      "pine_z_delta_15m": 1.3683925040724128,
-      "pine_raw_delta_15m_base": 83590.81,
-      "pine_delta_mean_20": 21939.2885,
-      "pine_delta_stdev_20": 45053.974876741595,
-      "pine_delta_source": "1m candle-direction signed BASE volume; exact TradingView indicator proxy",
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 142585.35,
-      "base_volume_mean_20": 67194.4955,
-      "base_volume_stdev_20": 36723.15528200096,
-      "volume_15m_usd": 170205.38659,
-      "buyer_share_pct": 66.92047843607556,
-      "taker_buy_15m_usd": 113902.25903,
-      "taker_sell_15m_usd": 56303.12756000001,
-      "spot_delta_15m_usd": 57599.13146999999,
-      "price_change_15m_pct": -0.251677852348986,
-      "price_candle_green": false,
-      "cvd_last3": [
-        {
-          "ts": 1790905500000,
-          "delta_usd": 13066.75666,
-          "green": true
-        },
-        {
-          "ts": 1790906400000,
-          "delta_usd": 125483.82139999999,
-          "green": true
-        },
-        {
-          "ts": 1790907300000,
-          "delta_usd": 57599.13146999999,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_45m_delta_usd": 196149.70953,
-      "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 3×15dk CVD yeşil",
-      "signal_score": 6.1633917872026815,
-      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-10-02T02:15:00+00:00",
-      "signal_candle_open_utc": "2026-10-02T02:15:00+00:00",
-      "signal_candle_close_utc": "2026-10-02T02:30:00+00:00",
-      "level_context": {
-        "signal_price": 1.189,
-        "previous_15m_close": 1.192,
-        "signal_candle_open_utc": "2026-10-02T02:15:00+00:00",
-        "signal_candle_close_utc": "2026-10-02T02:30:00+00:00",
-        "levels": {
-          "DO": {
-            "value": 1.177,
-            "status": "ABOVE",
-            "status_tr": "ÜSTÜNDE",
-            "distance_pct": 1.0195412064570863,
-            "touched": false
-          },
-          "NYMO": {
-            "value": 1.252,
-            "status": "BELOW",
-            "status_tr": "ALTINDA",
-            "distance_pct": -5.031948881789128,
-            "touched": false
-          },
-          "WO": {
-            "value": 1.268,
-            "status": "BELOW",
-            "status_tr": "ALTINDA",
-            "distance_pct": -6.230283911671918,
-            "touched": false
-          },
-          "DVWAP": {
-            "value": 1.1820528882176862,
-            "status": "ABOVE",
-            "status_tr": "ÜSTÜNDE",
-            "distance_pct": 0.5877158164038443,
-            "touched": false
-          }
-        },
-        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 15m HLC3×base-volume with UTC daily reset; cross = previous and signal 15m closes switch sides."
-      }
-    }
-  ],
+  "movers": [],
   "window": "15m",
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
-  "source": "Binance Spot public market-data-only API",
-  "universe_source": "CoinGecko piyasa değeri Top 200",
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 190,
     "binance_spot_matched": 106,
     "scanned": 106,
     "failed": 0,
-    "signal_count_before_cap": 2,
+    "signal_count_before_cap": 0,
     "max_results": 10,
-    "source_endpoint": "https://data-api.binance.vision",
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
     "pine_z_delta_min": 1.0
   },
-  "method": "Binance 1dk mumları global 15dk parent mumlara birleştirilir ve yalnız tamamen kapanmış 15dk mumlar değerlendirilir. Vol Z, son 20 parent BASE volume ile population stdev. Pine Z-Delta, kullanıcının TradingView koduyla aynı şekilde her 1dk mumun BASE volume'unu close>=open ise +, aksi halde - işaretleyip 15dk toplamını son 20 parent bara standardize eder. Taker buyer share ve Spot CVD ise Binance'ın gerçek taker-buy quote alanlarından bağımsız teyit olarak hesaplanır.",
+  "method": "ana piyasa 1dk mumları global 15dk parent mumlara birleştirilir ve yalnız tamamen kapanmış 15dk mumlar değerlendirilir. Vol Z, son 20 parent BASE volume ile population stdev. Pine Z-Delta, kullanıcının TradingView koduyla aynı şekilde her 1dk mumun BASE volume'unu close>=open ise +, aksi halde - işaretleyip 15dk toplamını son 20 parent bara standardize eder. Taker buyer share ve Spot CVD ise ana piyasa'ın gerçek taker-buy quote alanlarından bağımsız teyit olarak hesaplanır.",
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "signal_candle_open_utc": "2026-10-02T02:15:00+00:00",
-  "signal_candle_close_utc": "2026-10-02T02:30:00+00:00",
+  "signal_candle_open_utc": "2026-10-02T05:15:00+00:00",
+  "signal_candle_close_utc": "2026-10-02T05:30:00+00:00",
   "level_context_method": "DO · NYMO · WO · DVWAP at signal candle close",
-  "generated_at": "2026-10-02T02:30:13.420170+00:00",
+  "generated_at": "2026-10-02T05:33:03.658881+00:00",
   "refresh_policy": "latest fully closed global 15m candle only"
 }
