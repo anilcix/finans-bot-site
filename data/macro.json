@@ -71,20 +71,6 @@
       "signal_emoji": "🟠"
     },
     {
-      "label": "İşsizlik Oranı",
-      "value": 4.2,
-      "percentile": 31.799163179916317,
-      "weight": 0.5,
-      "invert": true,
-      "level_score": 68.20083682008368,
-      "momentum_score": 20.919384703033757,
-      "change_1m": 0.10000000000000053,
-      "change_3m": 0.0,
-      "combined_score": 51.65232857911621,
-      "signal_label": "Nötr / Karışık",
-      "signal_emoji": "🟡"
-    },
-    {
       "label": "Reel Faiz (Cleveland Fed 1Y)",
       "value": 1.69524179,
       "percentile": 80.41666666666667,
@@ -155,7 +141,7 @@
       "signal_emoji": "🟢"
     }
   ],
-  "composite_score": 38.928616513458856,
+  "composite_score": 38.20976272443867,
   "score_method": {
     "level_weight": 0.65,
     "momentum_weight": 0.35
@@ -10285,9 +10271,14 @@
         "raw": 83553.8515625
       },
       {
+        "date": "2026-10-01",
+        "value": 148.85092146861842,
+        "raw": 84853.1015625
+      },
+      {
         "date": "2026-10-03",
-        "value": 148.42087742607285,
-        "raw": 84607.953125
+        "value": 148.39842890503365,
+        "raw": 84595.15625
       }
     ]
   },
@@ -10538,5 +10529,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş makro veri sağlayıcısı serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-10-03T01:52:42.527429+00:00"
+  "generated_at": "2026-10-03T08:00:01.894553+00:00"
 }
