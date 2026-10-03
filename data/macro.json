@@ -71,6 +71,20 @@
       "signal_emoji": "🟠"
     },
     {
+      "label": "İşsizlik Oranı",
+      "value": 4.2,
+      "percentile": 31.799163179916317,
+      "weight": 0.5,
+      "invert": true,
+      "level_score": 68.20083682008368,
+      "momentum_score": 20.919384703033757,
+      "change_1m": 0.10000000000000053,
+      "change_3m": 0.0,
+      "combined_score": 51.65232857911621,
+      "signal_label": "Nötr / Karışık",
+      "signal_emoji": "🟡"
+    },
+    {
       "label": "Reel Faiz (Cleveland Fed 1Y)",
       "value": 1.69524179,
       "percentile": 80.41666666666667,
@@ -141,7 +155,7 @@
       "signal_emoji": "🟢"
     }
   ],
-  "composite_score": 38.20976272443867,
+  "composite_score": 38.928616513458856,
   "score_method": {
     "level_weight": 0.65,
     "momentum_weight": 0.35
@@ -1021,7 +1035,7 @@
       },
       {
         "date": "2026-10-01",
-        "value": 7666.4501953125
+        "value": 7722.72021484375
       },
       {
         "date": "2026-10-02",
@@ -9658,8 +9672,8 @@
       },
       {
         "date": "2026-10-01",
-        "value": 167.70348457474282,
-        "raw": 763.989990234375
+        "value": 168.94372174313816,
+        "raw": 769.6400146484375
       },
       {
         "date": "2026-10-02",
@@ -9965,8 +9979,8 @@
       },
       {
         "date": "2026-10-01",
-        "value": 188.4185707929223,
-        "raw": 742.030029296875
+        "value": 190.3356871538372,
+        "raw": 749.5800170898438
       },
       {
         "date": "2026-10-02",
@@ -10272,13 +10286,13 @@
       },
       {
         "date": "2026-10-01",
-        "value": 148.85092146861842,
-        "raw": 84853.1015625
+        "value": 148.2266113786181,
+        "raw": 84497.2109375
       },
       {
         "date": "2026-10-03",
-        "value": 148.39842890503365,
-        "raw": 84595.15625
+        "value": 148.76526624487295,
+        "raw": 84804.2734375
       }
     ]
   },
@@ -10529,5 +10543,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş makro veri sağlayıcısı serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-10-03T08:00:01.894553+00:00"
+  "generated_at": "2026-10-03T13:18:45.411284+00:00"
 }

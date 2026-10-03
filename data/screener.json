@@ -1,177 +1,88 @@
 {
   "movers": [
     {
-      "symbol": "VET",
-      "name": "VeChain",
-      "coingecko_id": "vechain",
+      "symbol": "OP",
+      "name": "Optimism",
+      "coingecko_id": "optimism",
       "exchange": "ana piyasa",
-      "exchange_symbol": "VETUSDT",
-      "price": 0.00848719,
-      "change_24h": -5.49026,
-      "volume_zscore_15m": 3.0233794736231325,
-      "pine_z_delta_15m": 2.447605962228659,
-      "pine_raw_delta_15m_base": 1612840.9,
-      "pine_delta_mean_20": 5080.005000000006,
-      "pine_delta_stdev_20": 656870.8034752697,
+      "exchange_symbol": "OPUSDT",
+      "price": 0.132762,
+      "change_24h": -0.40639,
+      "volume_zscore_15m": 2.3061084928608193,
+      "pine_z_delta_15m": 2.4263337964153577,
+      "pine_raw_delta_15m_base": 869392.16,
+      "pine_delta_mean_20": 201985.642,
+      "pine_delta_stdev_20": 275067.8900759739,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 3684906.5,
-      "base_volume_mean_20": 925071.545,
-      "base_volume_stdev_20": 912831.1477529124,
-      "volume_15m_usd": 31296.563192200003,
-      "buyer_share_pct": 73.67073784844949,
-      "taker_buy_15m_usd": 23056.4090249,
-      "taker_sell_15m_usd": 8240.154167300003,
-      "spot_delta_15m_usd": 14816.254857599997,
-      "price_change_15m_pct": 0.0,
+      "base_volume_15m": 1027609.1799999999,
+      "base_volume_mean_20": 479551.295,
+      "base_volume_stdev_20": 237654.85739142846,
+      "volume_15m_usd": 136537.970416,
+      "buyer_share_pct": 73.1544362902697,
+      "taker_buy_15m_usd": 99883.58258,
+      "taker_sell_15m_usd": 36654.387835999994,
+      "spot_delta_15m_usd": 63229.19474400001,
+      "price_change_15m_pct": 0.9104704097116834,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1791011700000,
-          "delta_usd": 872.8481345999999,
+          "ts": 1791030600000,
+          "delta_usd": 6787.025278000001,
           "green": true
         },
         {
-          "ts": 1791012600000,
-          "delta_usd": 2758.1896429000008,
-          "green": true
-        },
-        {
-          "ts": 1791013500000,
-          "delta_usd": 14816.254857599997,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_45m_delta_usd": 18447.2926351,
-      "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 3×15dk CVD yeşil",
-      "signal_score": 8.88805922069674,
-      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-10-03T07:45:00+00:00",
-      "signal_candle_open_utc": "2026-10-03T07:45:00+00:00",
-      "signal_candle_close_utc": "2026-10-03T08:00:00+00:00",
-      "level_context": {
-        "signal_price": 0.008487,
-        "previous_15m_close": 0.008487,
-        "signal_candle_open_utc": "2026-10-03T07:45:00+00:00",
-        "signal_candle_close_utc": "2026-10-03T08:00:00+00:00",
-        "levels": {
-          "DO": {
-            "value": 0.008564,
-            "status": "BELOW",
-            "status_tr": "ALTINDA",
-            "distance_pct": -0.8991125642223374,
-            "touched": false
-          },
-          "NYMO": {
-            "value": 0.008635,
-            "status": "BELOW",
-            "status_tr": "ALTINDA",
-            "distance_pct": -1.713954834973952,
-            "touched": false
-          },
-          "WO": {
-            "value": 0.009208,
-            "status": "BELOW",
-            "status_tr": "ALTINDA",
-            "distance_pct": -7.83014769765421,
-            "touched": false
-          },
-          "DVWAP": {
-            "value": 0.00856733676951083,
-            "status": "BELOW",
-            "status_tr": "ALTINDA",
-            "distance_pct": -0.9377099520206822,
-            "touched": false
-          }
-        },
-        "method": "DO/WO UTC open; NYMO 00:00 America/New_York; DVWAP 15m HLC3×base-volume with UTC daily reset; cross = previous and signal 15m closes switch sides."
-      }
-    },
-    {
-      "symbol": "KMNO",
-      "name": "Kamino",
-      "coingecko_id": "kamino",
-      "exchange": "ana piyasa",
-      "exchange_symbol": "KMNOUSDT",
-      "price": 0.04083813,
-      "change_24h": -0.50089,
-      "volume_zscore_15m": 2.0716012450147567,
-      "pine_z_delta_15m": 1.185267262185715,
-      "pine_raw_delta_15m_base": 57340.0,
-      "pine_delta_mean_20": 11764.25,
-      "pine_delta_stdev_20": 38451.87617512961,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 165174.0,
-      "base_volume_mean_20": 59670.25,
-      "base_volume_stdev_20": 50928.59943673594,
-      "volume_15m_usd": 6751.97307,
-      "buyer_share_pct": 70.94994722779605,
-      "taker_buy_15m_usd": 4790.5213300000005,
-      "taker_sell_15m_usd": 1961.4517399999995,
-      "spot_delta_15m_usd": 2829.069590000001,
-      "price_change_15m_pct": 0.12245897624296731,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1791011700000,
-          "delta_usd": 1747.93642,
-          "green": true
-        },
-        {
-          "ts": 1791012600000,
-          "delta_usd": -3297.6539899999993,
+          "ts": 1791031500000,
+          "delta_usd": -36095.621914,
           "green": false
         },
         {
-          "ts": 1791013500000,
-          "delta_usd": 2829.069590000001,
+          "ts": 1791032400000,
+          "delta_usd": 63229.19474400001,
           "green": true
         }
       ],
       "cvd_green_count_3": 2,
       "cvd_green_streak": 1,
-      "cvd_45m_delta_usd": 1279.3520200000016,
+      "cvd_45m_delta_usd": 33920.598108000006,
       "cvd_note": "✅ Pine Z-Delta + true Spot CVD aynı yönde",
-      "signal_score": 5.701863229980075,
+      "signal_score": 7.397885918303147,
       "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-10-03T07:45:00+00:00",
-      "signal_candle_open_utc": "2026-10-03T07:45:00+00:00",
-      "signal_candle_close_utc": "2026-10-03T08:00:00+00:00",
+      "signal_time_utc": "2026-10-03T13:00:00+00:00",
+      "signal_candle_open_utc": "2026-10-03T13:00:00+00:00",
+      "signal_candle_close_utc": "2026-10-03T13:15:00+00:00",
       "level_context": {
-        "signal_price": 0.04088,
-        "previous_15m_close": 0.04084,
-        "signal_candle_open_utc": "2026-10-03T07:45:00+00:00",
-        "signal_candle_close_utc": "2026-10-03T08:00:00+00:00",
+        "signal_price": 0.133,
+        "previous_15m_close": 0.1318,
+        "signal_candle_open_utc": "2026-10-03T13:00:00+00:00",
+        "signal_candle_close_utc": "2026-10-03T13:15:00+00:00",
         "levels": {
           "DO": {
-            "value": 0.04053,
+            "value": 0.1272,
             "status": "ABOVE",
             "status_tr": "ÜSTÜNDE",
-            "distance_pct": 0.8635578583765291,
+            "distance_pct": 4.559748427672949,
             "touched": false
           },
           "NYMO": {
-            "value": 0.0405,
+            "value": 0.1306,
             "status": "ABOVE",
             "status_tr": "ÜSTÜNDE",
-            "distance_pct": 0.9382716049382678,
+            "distance_pct": 1.8376722817764257,
             "touched": false
           },
           "WO": {
-            "value": 0.04869,
+            "value": 0.1493,
             "status": "BELOW",
             "status_tr": "ALTINDA",
-            "distance_pct": -16.04025467241733,
+            "distance_pct": -10.917615539182846,
             "touched": false
           },
           "DVWAP": {
-            "value": 0.04069495368875525,
+            "value": 0.130885775738644,
             "status": "ABOVE",
             "status_tr": "ÜSTÜNDE",
-            "distance_pct": 0.4547156206639924,
+            "distance_pct": 1.6153201136063444,
             "touched": false
           }
         },
@@ -187,7 +98,7 @@
     "binance_spot_matched": 108,
     "scanned": 108,
     "failed": 0,
-    "signal_count_before_cap": 2,
+    "signal_count_before_cap": 1,
     "max_results": 10,
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
@@ -197,9 +108,9 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "signal_candle_open_utc": "2026-10-03T07:45:00+00:00",
-  "signal_candle_close_utc": "2026-10-03T08:00:00+00:00",
+  "signal_candle_open_utc": "2026-10-03T13:00:00+00:00",
+  "signal_candle_close_utc": "2026-10-03T13:15:00+00:00",
   "level_context_method": "DO · NYMO · WO · DVWAP at signal candle close",
-  "generated_at": "2026-10-03T08:07:18.941131+00:00",
+  "generated_at": "2026-10-03T13:25:06.987451+00:00",
   "refresh_policy": "latest fully closed global 15m candle only"
 }
