@@ -54,7 +54,8 @@
     if(note)note.textContent='Peak = pencere içindeki en yüksek 1dk HIGH; Dip = pencere içindeki en düşük 1dk LOW. İkisi de sinyal 15dk kapanış fiyatına göre hesaplanır. +1% / +1.5% oranları, tamamlanan sinyallerin ilgili peak eşiğine ulaşma oranıdır.';
     try{
       let r=await fetch(API+'/history?limit=100&t='+Date.now(),{cache:'no-store'});if(!r.ok)return;
-      const h=await r.json();const events=(h.events||[]).slice(0,100),summary=h.summary||{};\n      if(typeof window.historyCard==='function'){const holder=document.createElement('div');holder.innerHTML=window.historyCard(h);const fresh=holder.firstElementChild;if(fresh){card.replaceWith(fresh);card=fresh;renderLiveControls();}}
+      const h=await r.json();const events=(h.events||[]).slice(0,100),summary=h.summary||{};
+      if(typeof window.historyCard==='function'){const holder=document.createElement('div');holder.innerHTML=window.historyCard(h);const fresh=holder.firstElementChild;if(fresh){card.replaceWith(fresh);card=fresh;renderLiveControls();}}
       [15,30].forEach((m,i)=>{
         const stat=titles[i]?.nextElementSibling;if(!stat)return;
         const existing=[...stat.querySelectorAll('.statpill')].find(p=>p.textContent.trim().startsWith('Yukarı oranı:')||p.dataset.hit1===String(m));
