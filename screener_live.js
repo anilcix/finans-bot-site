@@ -53,7 +53,7 @@
     const note=card.querySelector('.history-note');
     if(note)note.textContent='Peak = pencere içindeki en yüksek 1dk HIGH; Dip = pencere içindeki en düşük 1dk LOW. İkisi de sinyal 15dk kapanış fiyatına göre hesaplanır. +1% / +1.5% oranları, tamamlanan sinyallerin ilgili peak eşiğine ulaşma oranıdır.';
     try{
-      const r=await fetch('../data/screener_history.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)return;
+      let r=await fetch(API+'/history?limit=100&t='+Date.now(),{cache:'no-store'});if(!r.ok)return;
       const h=await r.json();const events=(h.events||[]).slice(0,100),summary=h.summary||{};
       [15,30].forEach((m,i)=>{
         const stat=titles[i]?.nextElementSibling;if(!stat)return;
