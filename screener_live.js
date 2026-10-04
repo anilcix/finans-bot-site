@@ -133,7 +133,8 @@
       }catch(e){if(btn)btn.disabled=false;setRetryStatus()}
     };
   }
-  setTimeout(renderStaticContext,400);setTimeout(patchPeakHistoryLabels,700);setTimeout(renderLiveControls,750);setTimeout(async()=>{try{const r=await fetch(API+'?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();liveEnabled=!!d.running;renderLiveControls();if(liveEnabled)refreshLive(true)}}catch(e){}},850);
+  setTimeout(renderStaticContext,400);
+  setTimeout(async()=>{await patchPeakHistoryLabels();renderLiveControls()},700);setTimeout(async()=>{try{const r=await fetch(API+'?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();liveEnabled=!!d.running;renderLiveControls();if(liveEnabled)refreshLive(true)}}catch(e){}},850);
   setTimeout(()=>{if(liveEnabled)refreshLive(true)},900);
   setInterval(()=>refreshLive(false),15000);setInterval(patchPeakHistoryLabels,5000);scheduleBoundary();
   document.addEventListener('visibilitychange',()=>{if(!document.hidden){if(liveEnabled)refreshLive(true);patchPeakHistoryLabels()}});
