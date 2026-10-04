@@ -54,7 +54,7 @@
     if(note)note.textContent='Peak = pencere içindeki en yüksek 1dk HIGH; Dip = pencere içindeki en düşük 1dk LOW. İkisi de sinyal 15dk kapanış fiyatına göre hesaplanır. +1% / +1.5% oranları, tamamlanan sinyallerin ilgili peak eşiğine ulaşma oranıdır.';
     try{
       let r=await fetch(API+'/history?limit=100&t='+Date.now(),{cache:'no-store'});if(!r.ok)return;
-      const h=await r.json();const events=(h.events||[]).slice(0,100),summary=h.summary||{};\n      if(typeof window.historyCard==='function'){const holder=document.createElement('div');holder.innerHTML=window.historyCard(h);const fresh=holder.firstElementChild;if(fresh){card.replaceWith(fresh);card=fresh;}}
+      const h=await r.json();const events=(h.events||[]).slice(0,100),summary=h.summary||{};\n      if(typeof window.historyCard==='function'){const holder=document.createElement('div');holder.innerHTML=window.historyCard(h);const fresh=holder.firstElementChild;if(fresh){card.replaceWith(fresh);card=fresh;renderLiveControls();}}
       [15,30].forEach((m,i)=>{
         const stat=titles[i]?.nextElementSibling;if(!stat)return;
         const existing=[...stat.querySelectorAll('.statpill')].find(p=>p.textContent.trim().startsWith('Yukarı oranı:')||p.dataset.hit1===String(m));
@@ -131,7 +131,7 @@
   }
   setTimeout(renderStaticContext,400);setTimeout(patchPeakHistoryLabels,700);setTimeout(renderLiveControls,750);setTimeout(async()=>{try{const r=await fetch(API+'?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();liveEnabled=!!d.running;renderLiveControls();if(liveEnabled)refreshLive(true)}}catch(e){}},850);
   setTimeout(()=>{if(liveEnabled)refreshLive(true)},900);
-  setInterval(()=>refreshLive(false),15000);setInterval(patchPeakHistoryLabels,5000);scheduleBoundary();
+  setInterval(()=>refreshLive(false),15000);setInterval(()=>{renderLiveControls();patchPeakHistoryLabels()},5000);scheduleBoundary();
   document.addEventListener('visibilitychange',()=>{if(!document.hidden){if(liveEnabled)refreshLive(true);patchPeakHistoryLabels()}});
 
 })();
