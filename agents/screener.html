@@ -18,6 +18,10 @@
 .horizon-title{font-size:10px;font-weight:800;margin-top:10px;color:#dfffea}
 body{overflow-x:hidden}.container{min-width:0;max-width:100%;box-sizing:border-box}#content{min-width:0;max-width:100%}#content>.card{min-width:0;max-width:100%;box-sizing:border-box}.table-wrap{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 #liveHistorySlot{min-width:0;max-width:100%}
+@media(min-width:1440px){
+  body>.container{max-width:none!important;width:calc(100% - 270px)!important;margin-left:250px!important;margin-right:20px!important;padding-left:0!important;padding-right:0!important}
+  body>.container>#liveScannerControls,body>.container>#content,body>.container>#liveHistorySlot{width:100%!important;max-width:100%!important;margin-left:0!important;margin-right:0!important}
+}
 .fresh{color:#39ff88}.stale{color:#ffcf5c}
 </style>
 <script data-security-frameguard>try{if(window.top!==window.self){window.top.location=window.self.location.href}}catch(e){document.documentElement.style.display="none"}</script>
