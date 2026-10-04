@@ -40,10 +40,17 @@
     #historyLevelSnapshots table td.positive{color:var(--green,#39ff88)!important}#historyLevelSnapshots table td.negative{color:var(--red,#ff5c5c)!important}
     @media(min-width:1440px){
       .section-tree{display:block}
-      body.screener-page>.container{max-width:none!important;width:calc(100vw - 290px)!important;margin-left:270px!important;margin-right:20px!important;padding:24px 0!important}
-      body.screener-page>.container>#content,body.screener-page>.container>#liveHistorySlot,body.screener-page>.container>#liveScannerControls{max-width:100%!important;width:100%!important;margin-left:0!important;margin-right:0!important;padding-left:0!important;padding-right:0!important}
-      body.screener-page>.container>#content>.card{width:100%!important;max-width:100%!important;margin-left:0!important;margin-right:0!important}
-      body.screener-page .page-header{max-width:none!important;width:calc(100vw - 290px)!important;margin-left:270px!important;margin-right:20px!important}
+      body.screener-page .page-header,
+      body.screener-page>.container{
+        width:auto!important;max-width:none!important;
+        margin-left:260px!important;margin-right:20px!important;
+      }
+      body.screener-page>.container{padding:24px 0!important}
+      body.screener-page>.container>#liveScannerControls,
+      body.screener-page>.container>#content,
+      body.screener-page>.container>#liveHistorySlot{width:auto!important;max-width:none!important;margin-left:0!important;margin-right:0!important}
+      body.screener-page>.container>#content>.card,
+      body.screener-page>.container>#liveHistorySlot>.card{width:auto!important;max-width:none!important;margin-left:0!important;margin-right:0!important}
     }
     @media(max-width:1439px){.section-mobile{display:block}body.screener-page #content>.card:first-child .table-wrap{overflow-x:auto}body.screener-page #content>.card:first-child table.data-table.screener-compact{min-width:640px!important}}
     @media(max-width:640px){.section-mobile{padding:7px 12px}.section-mobile-label{display:none}}
