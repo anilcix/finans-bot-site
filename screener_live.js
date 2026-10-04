@@ -41,8 +41,13 @@
   }
 
   async function patchPeakHistoryLabels(){
-    const cards=[...document.querySelectorAll('#content>.card')];
-    let card=cards.find(c=>(c.querySelector('h2')?.textContent||'').includes('Tarayıcı Sonrası'));
+    const slot=document.getElementById('liveHistorySlot');
+    if(!slot)return;
+    let card=slot.querySelector('.card');
+    if(!card&&typeof window.historyCard==='function'){
+      const seed=document.createElement('div');seed.innerHTML=window.historyCard({events:[],summary:{}});
+      if(seed.firstElementChild){slot.replaceChildren(seed.firstElementChild);card=slot.querySelector('.card');}
+    }
     if(!card)return;
     const h2=card.querySelector('h2');if(h2)h2.textContent='Tarayıcı Sonrası · 15dk / 30dk Peak + Dip Tarihçe';
     const titles=[...card.querySelectorAll('.horizon-title')];
