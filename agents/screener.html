@@ -45,5 +45,5 @@ function sourceCard(){return `<div class="card source-card"><h2>Veri Kaynakları
 async function load(){try{const ts=Date.now();const dr=await fetch('../data/screener.json?t='+ts,{cache:'no-store'});if(!dr.ok)throw new Error('tarayıcı verisi alınamadı');const d=await dr.json();if(!d||!d.generated_at)throw new Error('tarayıcı verisi geçersiz');const age=Date.now()-new Date(d.generated_at).getTime();const stale=Number.isFinite(age)&&age>STATIC_STALE_MS;const view=stale?{...d,movers:[],static_stale:true,scan_meta:{...(d.scan_meta||{}),signal_count_before_cap:0}}:d;updated.className='updated '+(stale?'stale':'fresh');updated.textContent=stale?`⚠ Yedek veri eski · son tarama mumu ${scanWindow(null,d)} (TR) · canlı tarama bekleniyor`:`Yedek veri · tarama ${scanWindow(null,d)} (TR) · ${dt(d.generated_at)}`;content.innerHTML=activeCard(view)+methodCard()+sourceCard()}catch(e){updated.className='updated stale';updated.textContent='⚠ Canlı tarama hazırlanıyor · yedek veri okunamadı';content.innerHTML=`<div class="error-box">⚠️ ${e.message}</div>`+sourceCard()}}
 load();
 </script>
-<script src="../screener_live.js?v=20261004-single-history-v2"></script><script src="../section_nav.js"></script></body>
+<script src="../screener_live.js?v=20261004-layout-history-v3"></script><script src="../section_nav.js"></script></body>
 </html>
