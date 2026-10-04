@@ -15,14 +15,17 @@
 .statpill{border:1px solid var(--green-dim);border-radius:999px;padding:5px 8px;font-size:9px;color:var(--muted)}
 .dir-up{font-weight:800;color:#39ff88}.dir-down{font-weight:800;color:#ff7070}.dir-wait{font-weight:700;color:#f2cc60}
 .history-note{font-size:10px;color:var(--muted);line-height:1.55;margin-top:10px}.nowrap{white-space:nowrap}.horizon{min-width:112px}
-.horizon-title{font-size:10px;font-weight:800;margin-top:10px;color:#dfffea}.fresh{color:#39ff88}.stale{color:#ffcf5c}
+.horizon-title{font-size:10px;font-weight:800;margin-top:10px;color:#dfffea}
+body{overflow-x:hidden}.container{min-width:0;max-width:100%;box-sizing:border-box}#content{min-width:0;max-width:100%}#content>.card{min-width:0;max-width:100%;box-sizing:border-box}.table-wrap{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+#liveHistorySlot{min-width:0;max-width:100%}
+.fresh{color:#39ff88}.stale{color:#ffcf5c}
 </style>
 <script data-security-frameguard>try{if(window.top!==window.self){window.top.location=window.self.location.href}}catch(e){document.documentElement.style.display="none"}</script>
 </head>
 <body>
 <div class="topbar"><a class="back" href="../index.html">← Ana Ağa Dön</a><span class="updated" id="updated">Canlı tarama hazırlanıyor…</span></div>
 <div class="page-header"><h1>🔍 TARAYICI</h1><p>Top 200 Coin · 15dk Vol Z · Pine Z-Delta · Gerçek Spot CVD · +15dk / +30dk Sonuç Takibi</p></div>
-<div class="container"><div id="liveScannerControls" class="card" style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px"><div style="flex:1;min-width:220px"><b style="color:#f2cc60">● CANLI TARAYICI DURUMU KONTROL EDİLİYOR</b><div class="mini" style="margin-top:5px">Render bağlantısı kontrol ediliyor…</div></div><button id="liveScannerToggle" disabled style="padding:9px 14px;border-radius:8px;border:1px solid #39ff88;background:#07140b;color:#dfffea;font-weight:800">…</button></div><div id="content"></div></div>
+<div class="container"><div id="liveScannerControls" class="card" style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px"><div style="flex:1;min-width:220px"><b style="color:#f2cc60">● CANLI TARAYICI DURUMU KONTROL EDİLİYOR</b><div class="mini" style="margin-top:5px">Render bağlantısı kontrol ediliyor…</div></div><button id="liveScannerToggle" disabled style="padding:9px 14px;border-radius:8px;border:1px solid #39ff88;background:#07140b;color:#dfffea;font-weight:800">…</button></div><div id="content"></div><div id="liveHistorySlot"></div></div>
 <script src="../help.js"></script>
 <script>
 const STATIC_STALE_MS=20*60*1000;
