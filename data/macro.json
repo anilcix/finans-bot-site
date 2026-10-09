@@ -198,14 +198,14 @@
   ],
   "liquidity_plumbing": {
     "tga": {
-      "date": "2026-09-30",
-      "value": 948.674,
-      "change": -19.260999999999967
+      "date": "2026-10-07",
+      "value": 880.253,
+      "change": -3.0819999999999936
     },
     "fed_assets": {
-      "date": "2026-09-30",
-      "value": 6743.031,
-      "change": 5.8270000000002256
+      "date": "2026-10-07",
+      "value": 6747.56,
+      "change": 6.941000000000713
     },
     "rrp": {
       "date": "2026-10-08",
@@ -223,34 +223,34 @@
       "change": 0.41999999999999993
     },
     "net_liquidity_proxy": {
-      "value": 5782.818,
-      "change": -74.03399999999965,
-      "change_3w": -74.03399999999965,
+      "value": 5864.969000000001,
+      "change": 0.8240000000014334,
+      "change_3w": 0.8240000000014334,
       "unit": "$bn",
       "window_days": 21,
       "formula": "Fed assets - TGA - ON RRP",
       "calibration": "common_anchor_21d",
-      "anchor_date": "2026-09-30",
-      "prior_anchor_date": "2026-09-09",
+      "anchor_date": "2026-10-07",
+      "prior_anchor_date": "2026-09-16",
       "current_components": {
-        "fed_assets": 6743.031,
-        "tga": 948.674,
-        "rrp": 11.539
+        "fed_assets": 6747.56,
+        "tga": 880.253,
+        "rrp": 2.338
       },
       "current_dates": {
-        "fed_assets": "2026-09-30",
-        "tga": "2026-09-30",
-        "rrp": "2026-09-30"
+        "fed_assets": "2026-10-07",
+        "tga": "2026-10-07",
+        "rrp": "2026-10-07"
       },
       "prior_components": {
-        "fed_assets": 6740.619,
-        "tga": 883.335,
-        "rrp": 0.432
+        "fed_assets": 6746.548,
+        "tga": 877.028,
+        "rrp": 5.375
       },
       "prior_dates": {
-        "fed_assets": "2026-09-09",
-        "tga": "2026-09-09",
-        "rrp": "2026-09-09"
+        "fed_assets": "2026-09-16",
+        "tga": "2026-09-16",
+        "rrp": "2026-09-16"
       },
       "note": "Fed assets - TGA - ON RRP. Tüm bileşenler ortak son tarihe ve tam 21 gün önceki ortak anchor'a hizalanır; WinCAlgo tipi 3-hafta delta yaklaşımına yakın kalibrasyondur. Mekanik proxy, nedensellik değildir."
     }
@@ -266,7 +266,7 @@
       "Banka kredi standartları son çeyrekte sıkılaşıyor; piyasa fiyatı rahat olsa da kredi kanalı gecikmeli risk taşıyor.",
       "30 yıllık Hazine faizi son ay belirgin yükseldi; uzun uçta arz/term-premium baskısı teyit istiyor.",
       "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük.",
-      "Net likidite 3 haftada yaklaşık $-74B düştü; kısa vadede risk varlıkları için likidite rüzgârı olumsuz."
+      "Erken uyarı: CCC-HY Ayrışması 🟠 UYARI."
     ],
     "confirmations": [
       "Kredi döngüsü modeli: Contraction (Kriz)."
@@ -9677,8 +9677,8 @@
       },
       {
         "date": "2026-10-08",
-        "value": 169.89419063371068,
-        "raw": 773.969970703125
+        "value": 169.8854150547402,
+        "raw": 773.9299926757812
       }
     ],
     "QQQ": [
@@ -10290,9 +10290,9 @@
         "raw": 83275.9296875
       },
       {
-        "date": "2026-10-08",
-        "value": 143.31578497633416,
-        "raw": 81697.7734375
+        "date": "2026-10-09",
+        "value": 144.4358675013734,
+        "raw": 82336.28125
       }
     ]
   },
@@ -10543,5 +10543,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş makro veri sağlayıcısı serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-10-08T20:23:12.370711+00:00"
+  "generated_at": "2026-10-09T03:46:57.194642+00:00"
 }
