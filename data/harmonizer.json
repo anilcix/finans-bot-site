@@ -1,15 +1,15 @@
 {
-  "market_score": 47.2,
+  "market_score": 46.1,
   "stance": "Nötr / Bekle-Gör",
   "confidence": 75.0,
   "component_scores": {
     "macro": 43.8,
     "credit": 5,
     "options": 78,
-    "crypto": 48.7,
-    "crypto_derivatives": 66,
+    "crypto": 49.1,
+    "crypto_derivatives": 53,
     "equities": 65.0,
-    "news": 50
+    "news": 47
   },
   "plain_summary": [
     "Ana görüş: piyasa yönü kararsız. Yeni büyük risk almak yerine mevcut pozisyonları korumak ve daha net teyit beklemek daha uygun.",
@@ -17,12 +17,12 @@
     "Görüşü güçlendirecek teyit: CCC ve IG spreadleri yeniden daralmaya başlar, HY düşük kalırsa risk artırma teyidi. Görüşü bozacak sinyal: HY OAS %4.0 üzerine çıkar veya kredi döngüsü Late Cycle/Contraction'a dönerse riski azalt."
   ],
   "news_analysis": {
-    "score": 50,
+    "score": 47,
     "tone": "Karışık / Nötr",
-    "summary": "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 1 risk artırıcı, 10 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
+    "summary": "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 2 risk artırıcı, 9 nötr/karışık benzersiz başlık. Haber skoru 47/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
     "positive_count": 1,
-    "negative_count": 1,
-    "neutral_count": 10,
+    "negative_count": 2,
+    "neutral_count": 9,
     "headline_count": 12,
     "unique_story_count": 12,
     "article_context_count": 0,
@@ -31,34 +31,49 @@
         "topic": "Bitcoin",
         "tone": "risk artırıcı",
         "count": 10,
-        "digest": "Kripto güvenlik uzmanları \"sığınak modu\" korkularını geri çekerken, Trump'ın ara sınavlardan önce İran'a saldırı olasılığını reddetmesiyle Bitcoin 82.000 dolara yükseldi. Başkan Donald Trump'ın yaklaşmakta olan bir ABD ablukasının \"tam olarak yürürlükte kalacağına\" dair korkuları hafifleten… | Demokratların Senato çoğunluğunu geri alma potansiyelleri istikrarlı bir şekilde artarken, Senatör Richard Blumenthal Tether'in ABD'sini araştırıyor Connecticut milletvekili, \"Tether El Salvador'da faaliyet gösterdiğini iddia etse de varlıklarının büyük çoğunluğu ABD'de sizin gözetiminiz altında…",
+        "digest": "Bitcoin, Trump'ın İran saldırısını reddetmesinin ardından yaklaşık 82.500 dolara yükseldi ancak haftada yaklaşık %4 düşüş yaşarken, Ethereum %9 kayıp yaşadı. Bitcoin BTC$ 82.443,67, Perşembe günü 80.300 $ civarındaki en düşük seviyeden 82.500 $ civarına toparlandıktan sonra bile hafta sonuna geçen… | Tayland Menkul Kıymetler ve Borsa Komisyonu (SEC) perşembe günü yerel varlık yöneticilerinin Bitcoin ve Ethereum borsa yatırım fonları (EFT) oluşturmasına izin veren kurallar yayınlayarak yatırımcıların ülkenin borsası aracılığıyla kriptoya maruz kalmaları için düzenlenmiş yeni bir yol açtı. Kripto…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.6; çoklu-borsa OI 24s %-2.7; OI-ağırlıklı funding %+0.0044."
+        "data_confirmation": "BTC 24s %-0.1; çoklu-borsa OI 24s %-2.8; OI-ağırlıklı funding %+0.0013."
       },
       {
         "topic": "Makro / Fed / Hazine",
         "tone": "destekleyici",
         "count": 2,
-        "digest": "Ekonomik Analiz Bürosu bugün, mal ve hizmet açığının Temmuz ayında revize edilen 92,8 milyar dolardan 12,7 milyar dolar artarak Ağustos ayında 105,6 milyar dolara çıktığını duyurdu. Ağustos ithalatı 420,8 milyar dolar olarak gerçekleşti; bu, Temmuz ithalatından 17,2 milyar dolar daha fazlaydı. | Amerika Birleşik Devletleri'nin merkez bankası olan Federal Reserve, ülkeye güvenli, esnek ve istikrarlı bir para ve finansal sistem sağlar. Kurul ayrıca Michigan Mount Pleasant'ta yerleşik Isabella Bank'ın Grand River Bank ile birleşmesine ve Grand River Bank lokasyonlarında şube kurup faaliyet…",
+        "digest": "Ekonomik Analiz Bürosu bugün, mal ve hizmet açığının Temmuz ayında revize edilen 92,8 milyar dolardan 12,7 milyar dolar artarak Ağustos ayında 105,6 milyar dolara çıktığını duyurdu. Ağustos ithalatı 420,8 milyar dolar olarak gerçekleşti; bu, Temmuz ithalatından 17,2 milyar dolar daha fazlaydı. | Amerika Birleşik Devletleri'nin merkez bankası olan Federal Rezerv, ülkeye güvenli, esnek ve istikrarlı bir para ve finansal sistem sağlar. Kurul ayrıca Michigan Mount Pleasant'ta yerleşik Isabella Bank'ın Grand River Bank ile birleşmesine ve Grand River Bank lokasyonlarında şube kurup faaliyet…",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
         "data_confirmation": "Makro skor 44/100; 30Y değişim +0.42 puan."
       }
     ],
     "important_news": [
       {
-        "title": "Bitcoin and ether holders urged to enter ‘bunker mode’ against possible AI attacks",
-        "link": "https://www.coindesk.com/tech/2026/10/08/bitcoin-and-ether-holders-urged-to-prepare-bunker-mode-against-possible-ai-attacks",
-        "published_at": "2026-10-08T11:47:16+00:00",
+        "title": "UK slaps sanctions on three crypto exchanges over alleged Russia links",
+        "link": "https://www.coindesk.com/policy/2026/10/09/uk-slaps-sanctions-on-three-crypto-exchanges-over-alleged-russia-links",
+        "published_at": "2026-10-09T10:14:59+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": -1,
         "impact": "Risk artırıcı",
-        "brief_summary": "Ethereum araştırmacıları, yapay zekanın, bitcoin, eter ve bunların üzerine inşa edilen tokenları koruyan imzaları, en kötü durumda, kuantum bilgisayarların gelmesinden çok önce \"yıllar değil aylar içinde\" kırabileceği konusunda uyardı. Uyarı, OpenAI'nin Salı günü yaklaşık 4.000 araştırma problemi…",
+        "brief_summary": "İngiliz yetkililer, Kremlin destekli A7 ağını ve Batı'nın mali kısıtlamalarını aşmak için 90 milyar dolardan fazla para aktardığını iddia eden rubleye sabitlenmiş A7A5 stablecoin'ini kolaylaştıran kuruluşları hedef aldı. Rusya'nın yaptırımlardan kaçmasına yardımcı olduğundan şüphelendiği finansal…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.6; çoklu-borsa OI 24s %-2.7; OI-ağırlıklı funding %+0.0044.",
+        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.1; çoklu-borsa OI 24s %-2.8; OI-ağırlıklı funding %+0.0013.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.6; çoklu-borsa OI 24s %-2.7; OI-ağırlıklı funding %+0.0044."
+        "data_confirmation": "BTC 24s %-0.1; çoklu-borsa OI 24s %-2.8; OI-ağırlıklı funding %+0.0013."
+      },
+      {
+        "title": "Live updates: XRP ETFs the only ones in green as BTC, ETH, ZEC funds post outflows",
+        "link": "https://www.coindesk.com/business/2026/10/09/live-updates-xrp-etfs-the-only-ones-in-green-as-btc-eth-zec-funds-post-outflows",
+        "published_at": "2026-10-09T06:51:32+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": -1,
+        "impact": "Risk artırıcı",
+        "brief_summary": "Bitcoin ETF'leri Perşembe günü 244 milyon dolar kaybetti ve ZEC fonu Ekim çıkışlarını uzattı. Bitcoin, 1 milyar dolarlık tasfiyenin ardından 82.000 dolara yaklaştı.",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.1; çoklu-borsa OI 24s %-2.8; OI-ağırlıklı funding %+0.0013.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %-0.1; çoklu-borsa OI 24s %-2.8; OI-ağırlıklı funding %+0.0013."
       },
       {
         "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
@@ -68,7 +83,7 @@
         "theme": "macro",
         "impact_score": 1,
         "impact": "Destekleyici",
-        "brief_summary": "Amerika Birleşik Devletleri'nin merkez bankası olan Federal Reserve, ülkeye güvenli, esnek ve istikrarlı bir para ve finansal sistem sağlar. Kurul ayrıca Michigan Mount Pleasant'ta yerleşik Isabella Bank'ın Grand River Bank ile birleşmesine ve Grand River Bank lokasyonlarında şube kurup faaliyet…",
+        "brief_summary": "Amerika Birleşik Devletleri'nin merkez bankası olan Federal Rezerv, ülkeye güvenli, esnek ve istikrarlı bir para ve finansal sistem sağlar. Kurul ayrıca Michigan Mount Pleasant'ta yerleşik Isabella Bank'ın Grand River Bank ile birleşmesine ve Grand River Bank lokasyonlarında şube kurup faaliyet…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
         "market_effect": "Bu haber şu aşamada destekleyici. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 44/100; 30Y değişim +0.42 puan.",
@@ -76,87 +91,71 @@
         "data_confirmation": "Makro skor 44/100; 30Y değişim +0.42 puan."
       },
       {
-        "title": "Bitcoin rebounds to $82,000 as Trump rules out Iran strikes, oil drops",
-        "link": "https://www.coindesk.com/markets/2026/10/09/bitcoin-rebounds-to-usd82-000-as-trump-rules-out-iran-strikes",
-        "published_at": "2026-10-09T03:27:38+00:00",
+        "title": "Bitcoin steadies near $82,500 after Trump rules out Iran strike before midterms",
+        "link": "https://www.coindesk.com/markets/2026/10/09/bitcoin-steadies-near-usd82-500-after-trump-rules-out-iran-strike-before-midterms",
+        "published_at": "2026-10-09T10:44:22+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Kripto güvenlik uzmanları \"sığınak modu\" korkularını geri çekerken, Trump'ın ara sınavlardan önce İran'a saldırı olasılığını reddetmesiyle Bitcoin 82.000 dolara yükseldi. Başkan Donald Trump'ın yaklaşmakta olan bir ABD ablukasının \"tam olarak yürürlükte kalacağına\" dair korkuları hafifleten…",
+        "brief_summary": "Bitcoin, Trump'ın İran saldırısını reddetmesinin ardından yaklaşık 82.500 dolara yükseldi ancak haftada yaklaşık %4 düşüş yaşarken, Ethereum %9 kayıp yaşadı. Bitcoin BTC$ 82.443,67, Perşembe günü 80.300 $ civarındaki en düşük seviyeden 82.500 $ civarına toparlandıktan sonra bile hafta sonuna geçen…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.6; çoklu-borsa OI 24s %-2.7; OI-ağırlıklı funding %+0.0044.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.1; çoklu-borsa OI 24s %-2.8; OI-ağırlıklı funding %+0.0013.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.6; çoklu-borsa OI 24s %-2.7; OI-ağırlıklı funding %+0.0044."
+        "data_confirmation": "BTC 24s %-0.1; çoklu-borsa OI 24s %-2.8; OI-ağırlıklı funding %+0.0013."
       },
       {
-        "title": "Top Democrat among Senate investigators probes ties between Cantor Fitzgerald, Tether",
-        "link": "https://www.coindesk.com/policy/2026/10/08/top-democrat-among-senate-investigators-probes-ties-between-cantor-fitzgerald-tether",
-        "published_at": "2026-10-08T21:22:58+00:00",
-        "topic": "Bitcoin",
-        "theme": "macro",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Demokratların Senato çoğunluğunu geri alma potansiyelleri istikrarlı bir şekilde artarken, Senatör Richard Blumenthal Tether'in ABD'sini araştırıyor Connecticut milletvekili, \"Tether El Salvador'da faaliyet gösterdiğini iddia etse de varlıklarının büyük çoğunluğu ABD'de sizin gözetiminiz altında…",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 44/100; 30Y değişim +0.42 puan.",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 44/100; 30Y değişim +0.42 puan."
-      },
-      {
-        "title": "Wall Street's tokenization boom could have bigger winners than bitcoin and ether, Citrini says",
-        "link": "https://www.coindesk.com/markets/2026/10/08/wall-street-s-tokenization-boom-could-have-bigger-winners-than-bitcoin-and-ether-citrini-says",
-        "published_at": "2026-10-08T19:46:15+00:00",
+        "title": "Thailand opens door to locally listed bitcoin and ether ETFs",
+        "link": "https://www.coindesk.com/policy/2026/10/09/thailand-opens-door-to-locally-listed-bitcoin-and-ether-etfs",
+        "published_at": "2026-10-09T10:16:55+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Wall Street'in blockchain teknolojisine geçişi, kripto için yeni ve geniş bir pazar açabilir, ancak yakından takip edilen araştırma firması Citrini Research'e göre tokenizasyona yatırım yapan yatırımcılar, 82.329,04 dolarlık Bitcoin ve 2.490,89 dolarlık Ethereum ETH'sinden daha iyi fırsatlar…",
+        "brief_summary": "Tayland Menkul Kıymetler ve Borsa Komisyonu (SEC) perşembe günü yerel varlık yöneticilerinin Bitcoin ve Ethereum borsa yatırım fonları (EFT) oluşturmasına izin veren kurallar yayınlayarak yatırımcıların ülkenin borsası aracılığıyla kriptoya maruz kalmaları için düzenlenmiş yeni bir yol açtı. Kripto…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.6; çoklu-borsa OI 24s %-2.7; OI-ağırlıklı funding %+0.0044.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.1; çoklu-borsa OI 24s %-2.8; OI-ağırlıklı funding %+0.0013.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.6; çoklu-borsa OI 24s %-2.7; OI-ağırlıklı funding %+0.0044."
+        "data_confirmation": "BTC 24s %-0.1; çoklu-borsa OI 24s %-2.8; OI-ağırlıklı funding %+0.0013."
       },
       {
-        "title": "Crypto crumbles as anniversary of flash crash nears",
-        "link": "https://www.coindesk.com/markets/2026/10/08/crypto-crumbles-as-anniversary-of-flash-crash-nears",
-        "published_at": "2026-10-08T18:14:39+00:00",
+        "title": "Dark web drug market operator sentenced to 40 years, forfeits $101 million in bitcoin",
+        "link": "https://www.coindesk.com/policy/2026/10/09/dark-web-drug-market-operator-forfeits-1-230-bitcoin-and-faces-40-years-in-prison",
+        "published_at": "2026-10-09T09:20:16+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Bitcoin'in yaklaşık 122.000 dolardan 105.000 dolara düştüğü tarih 10 Ekim 2025'ti ve düşüşün çoğu dakikalar içinde gerçekleşti. Perşembe günü Bitcoin'de (BTC$82 329,04) yaşanan mütevazı erken düşüş hızlandı, fiyat yaklaşık bir ayın en düşük seviyesi olan 80.000 doların biraz üzerine düştü.",
+        "brief_summary": "Chicago'daki bir federal yargıç, Empire Market'in ortak yaratıcısı Raheim Hamilton'u 40 yıl hapis cezasına çarptırdı ve yasadışı bir karanlık web pazarını işletmek için 5 milyon dolar para cezasına çarptırdı. Dark web uyuşturucu kuruluşu Empire Market'in ortak yaratıcısı, siteyi işletmedeki rolü…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.6; çoklu-borsa OI 24s %-2.7; OI-ağırlıklı funding %+0.0044.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.1; çoklu-borsa OI 24s %-2.8; OI-ağırlıklı funding %+0.0013.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.6; çoklu-borsa OI 24s %-2.7; OI-ağırlıklı funding %+0.0044."
+        "data_confirmation": "BTC 24s %-0.1; çoklu-borsa OI 24s %-2.8; OI-ağırlıklı funding %+0.0013."
       },
       {
-        "title": "U.S. government moves $1 billion in bitcoin tied to Bitfinex hack, with no sign of sale",
-        "link": "https://www.coindesk.com/business/2026/10/08/u-s-government-moves-usd1-billion-in-bitcoin-from-bitfinex-hack-wallet-no-sale-indicated",
-        "published_at": "2026-10-08T15:43:04+00:00",
+        "title": "MARA transfers $81.1 million in bitcoin to Galaxy Digital as strategy pivots to AI",
+        "link": "https://www.coindesk.com/markets/2026/10/09/mara-transfers-usd81-1-million-in-bitcoin-to-galaxy-digital-as-strategy-pivots-to-ai",
+        "published_at": "2026-10-09T09:08:09+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Arkham verileri, 383 milyon dolarlık Coinbase Prime'ın isabetinden bir gün sonra 12.267 BTC'nin borsa yerine etiketsiz cüzdanlara gittiğini gösteriyor. Blockchain istihbarat firması Arkham tarafından sağlanan verilere göre hükümet, perşembe günü yaklaşık 1,01 milyar dolar değerindeki 82.329,04…",
+        "brief_summary": "Bitcoin madencisinin transferi bir satışı teyit etmiyor ancak hazinesinin Şubat ayında 53.822 BTC'den Ağustos ayında 35.577 BTC'ye düşmesiyle gerçekleşti. Lookonchain tarafından takip edilen verilere göre Bitcoin madencisi MARA Holdings MARA, Galaxy Digital'e ait olduğu belirlenen bir adrese…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.6; çoklu-borsa OI 24s %-2.7; OI-ağırlıklı funding %+0.0044.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.1; çoklu-borsa OI 24s %-2.8; OI-ağırlıklı funding %+0.0013.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.6; çoklu-borsa OI 24s %-2.7; OI-ağırlıklı funding %+0.0044."
+        "data_confirmation": "BTC 24s %-0.1; çoklu-borsa OI 24s %-2.8; OI-ağırlıklı funding %+0.0013."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
   },
   "supportive_factors": [
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
-    "VIX 15.41 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
-    "vadeli piyasa ve vadeli piyasa funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü."
+    "VIX 15.30 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil."
   ],
   "risk_factors": [
     "Enflasyon seviyesi hâlâ makro rahatlama alanını sınırlıyor.",
@@ -168,11 +167,13 @@
     "Kredi döngüsü Contraction (Kriz); kredi rejimi risk iştahını sınırlıyor.",
     "CCC spreadi %12.29 ve son 3 ayda +2.59 puan genişledi; düşük kaliteli kredide gizli stres var.",
     "BTC ve ETH aktif adresleri aynı anda geriliyor: 7g BTC %-9.0, ETH %-15.3.",
+    "BTC düşüşü vadeli piyasa CVD ile teyit ediliyor; agresif satıcı baskısı devam ediyor.",
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %-0.6, ETH %-3.0.",
-    "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 1 risk artırıcı, 10 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
+    "Kriptoda spot momentum: BTC 24s %-0.1, ETH %-2.2.",
+    "vadeli piyasa BTC OI 24 saatte %+6.2; yeni kaldıraç girişi var, CVD/funding teyidiyle okunmalı.",
+    "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 2 risk artırıcı, 9 nötr/karışık benzersiz başlık. Haber skoru 47/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
   ],
   "investment_view": {
     "action": "Nötr kal; yeni risk eklemek için teyit bekle, mevcut pozisyonlarda kaliteyi artır.",
@@ -222,7 +223,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 0,
     "result_count": 0,
-    "generated_at": "2026-10-09T03:52:21.534800+00:00"
+    "generated_at": "2026-10-09T11:07:44.673056+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -237,5 +238,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-10-09T03:46:57.194642+00:00"
+  "generated_at": "2026-10-09T11:02:13.077691+00:00"
 }
