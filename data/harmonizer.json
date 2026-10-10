@@ -1,13 +1,13 @@
 {
-  "market_score": 46.7,
+  "market_score": 47.5,
   "stance": "Nötr / Bekle-Gör",
   "confidence": 75.0,
   "component_scores": {
     "macro": 41.6,
     "credit": 10,
     "options": 78,
-    "crypto": 50.0,
-    "crypto_derivatives": 58,
+    "crypto": 54.7,
+    "crypto_derivatives": 64,
     "equities": 62.6,
     "news": 47
   },
@@ -19,26 +19,26 @@
   "news_analysis": {
     "score": 47,
     "tone": "Karışık / Nötr",
-    "summary": "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 1 risk artırıcı, 12 nötr/karışık benzersiz başlık. Haber skoru 47/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
+    "summary": "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 1 risk artırıcı, 11 nötr/karışık benzersiz başlık. Haber skoru 47/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
     "positive_count": 0,
     "negative_count": 1,
-    "neutral_count": 12,
-    "headline_count": 13,
-    "unique_story_count": 13,
+    "neutral_count": 11,
+    "headline_count": 12,
+    "unique_story_count": 12,
     "article_context_count": 0,
     "topic_summaries": [
       {
         "topic": "Bitcoin",
         "tone": "risk artırıcı",
         "count": 10,
-        "digest": "CoinDesk analizi, 2026'da alışılmadık derecede büyük 10 işlem günü tespit ederek, giderek kurumsallaşan kripto pazarında yatırımcıların riski nasıl ölçtüğüne dair soruları gündeme getiriyor. 82.680,67 dolarlık Bitcoin BTC, bu yıl 2018 ayı piyasasına kıyasla daha alışılmadık derecede büyük fiyat… | Anlaşma, Mashinsky'nin haksız kazançlardan 10 milyon dolar kaybetmesini veya New York'a 25 milyon dolar ödemesini ve ayrıca erken serbest bırakılması halinde 10 milyon dolar ceza ödemesini gerektiriyor. James, bir basın açıklamasına göre 2023 yılında Mashinsky'ye dava açmış ve aralarında 26.000'den…",
+        "digest": "Bitcoin ve Ethereum sipariş defterleri çöküş öncesine göre daha derinken, altcoin likiditesi aşınmaya devam ediyor ve spot ticaret Ekim 2025 zirvesinin oldukça altında kalıyor. Kripto tarihindeki en büyük tasfiye olayından bir yıl sonra, piyasanın tesisatı bölünmüş bir hikaye anlatıyor. | Ekim 2025'teki kripto çöküşü, kaldıraç ve kalabalık bahislerin tehlikelerini ortaya çıkardı. Kripto paranın en şiddetli satışlarından birinden neredeyse bir yıl sonra, piyasada asıl soru, yatırımcıların bir başkasını önleyecek kadar bilgi alıp almadıklarıdır.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+0.2; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %-0.0009."
+        "data_confirmation": "BTC 24s %+0.7; çoklu-borsa OI 24s %+0.7; OI-ağırlıklı funding %-0.0003."
       },
       {
         "topic": "Makro / Fed / Hazine",
         "tone": "karışık",
-        "count": 3,
+        "count": 2,
         "digest": "Çalışma İstatistikleri Bürosu, çalışma ekonomisi ve istatistiklerinin geniş alanında Federal Hükümetin başlıca bilgi toplama kurumudur. Hassas bilgileri paylaşmadan önce bir federal hükümet sitesinde olduğunuzdan emin olun. | Federal Rezerv Kurulu, Cuma günü, halka ve politika yapıcılara Resmi web sitelerinin .govA .gov web sitesini kullandığı konusunda ayrıntılı bilgi sağlayan 2025 Tüketici Finansmanı Anketi'nin sonuçlarını açıkladı. ABD'deki resmi bir hükümet kuruluşuna aittir.",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
         "data_confirmation": "Makro skor 42/100; 30Y değişim +0.32 puan."
@@ -53,12 +53,42 @@
         "theme": "crypto",
         "impact_score": -1,
         "impact": "Risk artırıcı",
-        "brief_summary": "İngiliz yetkililer, Kremlin destekli A7 ağını ve Batı'nın mali kısıtlamalarını aşmak için 90 milyar dolardan fazla para aktardığını iddia eden rubleye sabitlenmiş A7A5 stabilcoin'ini kolaylaştıran kuruluşları hedef aldı. Rusya'nın yaptırımlardan kaçmasına yardımcı olduğundan şüphelendiği finansal…",
+        "brief_summary": "İngiliz yetkililer, Kremlin destekli A7 ağını ve Batı'nın mali kısıtlamalarını aşmak için 90 milyar dolardan fazla para aktardığını iddia eden rubleye sabitlenmiş A7A5 stablecoin'ini kolaylaştıran kuruluşları hedef aldı. Rusya'nın yaptırımlardan kaçmasına yardımcı olduğundan şüphelendiği finansal…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.2; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %-0.0009.",
+        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.7; çoklu-borsa OI 24s %+0.7; OI-ağırlıklı funding %-0.0003.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+0.2; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %-0.0009."
+        "data_confirmation": "BTC 24s %+0.7; çoklu-borsa OI 24s %+0.7; OI-ağırlıklı funding %-0.0003."
+      },
+      {
+        "title": "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
+        "link": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks",
+        "published_at": "2026-10-10T12:00:00+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Bitcoin ve Ethereum sipariş defterleri çöküş öncesine göre daha derinken, altcoin likiditesi aşınmaya devam ediyor ve spot ticaret Ekim 2025 zirvesinin oldukça altında kalıyor. Kripto tarihindeki en büyük tasfiye olayından bir yıl sonra, piyasanın tesisatı bölünmüş bir hikaye anlatıyor.",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.7; çoklu-borsa OI 24s %+0.7; OI-ağırlıklı funding %-0.0003.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+0.7; çoklu-borsa OI 24s %+0.7; OI-ağırlıklı funding %-0.0003."
+      },
+      {
+        "title": "Bitcoin's $19 billion wake-up call: One-year after flash crash, has crypto learned anything?",
+        "link": "https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything",
+        "published_at": "2026-10-10T11:00:00+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Ekim 2025'teki kripto çöküşü, kaldıraç ve kalabalık bahislerin tehlikelerini ortaya çıkardı. Kripto paranın en şiddetli satışlarından birinden neredeyse bir yıl sonra, piyasada asıl soru, yatırımcıların bir başkasını önleyecek kadar bilgi alıp almadıklarıdır.",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.7; çoklu-borsa OI 24s %+0.7; OI-ağırlıklı funding %-0.0003.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+0.7; çoklu-borsa OI 24s %+0.7; OI-ağırlıklı funding %-0.0003."
       },
       {
         "title": "Bitcoin's volatility has plunged, but extreme price swings are more frequent than in 2018",
@@ -68,12 +98,12 @@
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "CoinDesk analizi, 2026'da alışılmadık derecede büyük 10 işlem günü tespit ederek, giderek kurumsallaşan kripto pazarında yatırımcıların riski nasıl ölçtüğüne dair soruları gündeme getiriyor. 82.680,67 dolarlık Bitcoin BTC, bu yıl 2018 ayı piyasasına kıyasla daha alışılmadık derecede büyük fiyat…",
+        "brief_summary": "CoinDesk analizi, 2026'da alışılmadık derecede büyük 10 işlem günü tespit ederek, giderek kurumsallaşan kripto pazarında yatırımcıların riski nasıl ölçtüğüne dair soruları gündeme getiriyor. 82.800,62 dolarlık Bitcoin BTC, bu yıl 2018 ayı piyasasına kıyasla alışılmadık derecede büyük fiyat…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.2; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %-0.0009.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.7; çoklu-borsa OI 24s %+0.7; OI-ağırlıklı funding %-0.0003.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+0.2; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %-0.0009."
+        "data_confirmation": "BTC 24s %+0.7; çoklu-borsa OI 24s %+0.7; OI-ağırlıklı funding %-0.0003."
       },
       {
         "title": "New York AG secures up to $35 million and lifetime crypto ban from Celsius’ Alex Mashinsky",
@@ -86,9 +116,9 @@
         "brief_summary": "Anlaşma, Mashinsky'nin haksız kazançlardan 10 milyon dolar kaybetmesini veya New York'a 25 milyon dolar ödemesini ve ayrıca erken serbest bırakılması halinde 10 milyon dolar ceza ödemesini gerektiriyor. James, bir basın açıklamasına göre 2023 yılında Mashinsky'ye dava açmış ve aralarında 26.000'den…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.2; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %-0.0009.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.7; çoklu-borsa OI 24s %+0.7; OI-ağırlıklı funding %-0.0003.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+0.2; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %-0.0009."
+        "data_confirmation": "BTC 24s %+0.7; çoklu-borsa OI 24s %+0.7; OI-ağırlıklı funding %-0.0003."
       },
       {
         "title": "Ledger investigates potential wallet tampering after reports of $86 million in crypto stolen",
@@ -101,9 +131,9 @@
         "brief_summary": "Kripto donanım cüzdanı üreticisi Ledger, Cuma günü yaptığı açıklamada, 86 milyon dolarlık bir soygunun, sektörün bu yıl istismarlardan kaynaklanan artan kayıplarını artırma tehdidi oluşturması nedeniyle Güneydoğu Asya'daki bir satıcı aracılığıyla satılan cihazlarla bağlantılı çalıntı fonlara…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.2; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %-0.0009.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.7; çoklu-borsa OI 24s %+0.7; OI-ağırlıklı funding %-0.0003.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+0.2; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %-0.0009."
+        "data_confirmation": "BTC 24s %+0.7; çoklu-borsa OI 24s %+0.7; OI-ağırlıklı funding %-0.0003."
       },
       {
         "title": "Major Economic Indicators Latest Numbers",
@@ -119,36 +149,6 @@
         "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 42/100; 30Y değişim +0.32 puan.",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
         "data_confirmation": "Makro skor 42/100; 30Y değişim +0.32 puan."
-      },
-      {
-        "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
-        "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
-        "published_at": "2026-10-09T14:00:00+00:00",
-        "topic": "Makro / Fed / Hazine",
-        "theme": "macro",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Federal Rezerv Kurulu, Cuma günü, halka ve politika yapıcılara Resmi web sitelerinin .govA .gov web sitesini kullandığı konusunda ayrıntılı bilgi sağlayan 2025 Tüketici Finansmanı Anketi'nin sonuçlarını açıkladı. ABD'deki resmi bir hükümet kuruluşuna aittir.",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 42/100; 30Y değişim +0.32 puan.",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 42/100; 30Y değişim +0.32 puan."
-      },
-      {
-        "title": "Zcash developers set January target for quantum-resistant payments after ‘bunker mode’ scare",
-        "link": "https://www.coindesk.com/tech/2026/10/09/zcash-developers-set-january-target-for-quantum-resistant-payments-after-bunker-mode-scare",
-        "published_at": "2026-10-09T11:39:05+00:00",
-        "topic": "Bitcoin",
-        "theme": "crypto",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Plan, yaklaşık 10 ZEC'den yedisinin yer aldığı kamu ödemeleriyle ilgilidir. Ekibin hedefi Ocak ayı olsa da, onaylanmış bir ağ aktivasyon tarihinden bahsedilmedi.",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+0.2; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %-0.0009.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+0.2; çoklu-borsa OI 24s %-0.8; OI-ağırlıklı funding %-0.0009."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -156,7 +156,7 @@
   "supportive_factors": [
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "VIX 14.84 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
-    "vadeli piyasa ve vadeli piyasa funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü."
+    "BTC yükselişi vadeli piyasa CVD tarafından da teyit ediliyor; agresif alıcı akışı fiyat yönüyle uyumlu."
   ],
   "risk_factors": [
     "Enflasyon seviyesi hâlâ makro rahatlama alanını sınırlıyor.",
@@ -172,9 +172,9 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+0.2, ETH %-0.2.",
+    "Kriptoda spot momentum: BTC 24s %+0.7, ETH %+1.1.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 1 risk artırıcı, 12 nötr/karışık benzersiz başlık. Haber skoru 47/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
+    "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 1 risk artırıcı, 11 nötr/karışık benzersiz başlık. Haber skoru 47/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
   ],
   "investment_view": {
     "action": "Nötr kal; yeni risk eklemek için teyit bekle, mevcut pozisyonlarda kaliteyi artır.",
@@ -224,7 +224,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 0,
     "result_count": 0,
-    "generated_at": "2026-10-10T10:21:04.767349+00:00"
+    "generated_at": "2026-10-10T19:08:53.560693+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -239,5 +239,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-10-10T10:17:02.593387+00:00"
+  "generated_at": "2026-10-10T19:03:58.869398+00:00"
 }
