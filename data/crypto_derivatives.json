@@ -5,18 +5,18 @@
   },
   "max_pain": {
     "strike": 82000.0,
-    "spot": 82932.2,
+    "spot": 82946.23,
     "expiry": "2026-10-12T08:00:00+00:00",
     "days_left": 0,
-    "put_call_ratio": 0.42647319058573707
+    "put_call_ratio": 0.42746649347582216
   },
-  "gex_musd": 141.509982826332,
-  "iv_rank_pct": 5.267206472686208,
-  "current_iv": 30.925190279871586,
+  "gex_musd": 142.1181074353407,
+  "iv_rank_pct": 2.681149796675795,
+  "current_iv": 30.905423611409873,
   "btc_options": {
-    "spot": 82932.05,
-    "net_gex_musd": 141.509982826332,
-    "zero_gamma": 79533.35644084711,
+    "spot": 82946.23,
+    "net_gex_musd": 142.1181074353407,
+    "zero_gamma": 79534.49150713827,
     "call_wall": 95000.0,
     "put_wall": 80000.0,
     "top_strikes": [
@@ -54,56 +54,56 @@
     "strike_gex": [
       {
         "strike": 90000.0,
-        "gex_musd": 55.71922072092288,
+        "gex_musd": 55.809651960479044,
         "call_oi": 25730.499999999993,
         "put_oi": 845.3999999999999,
         "total_oi": 26575.89999999999
       },
       {
         "strike": 95000.0,
-        "gex_musd": 30.89157564647514,
+        "gex_musd": 30.976590757854083,
         "call_oi": 29338.2,
         "put_oi": 396.1000000000001,
         "total_oi": 29734.300000000003
       },
       {
         "strike": 85000.0,
-        "gex_musd": 21.87580801785448,
+        "gex_musd": 21.95198357703327,
         "call_oi": 8659.5,
         "put_oi": 1982.4,
         "total_oi": 10641.900000000001
       },
       {
         "strike": 88000.0,
-        "gex_musd": 16.061298916766027,
+        "gex_musd": 16.087401169940666,
         "call_oi": 8762.3,
         "put_oi": 1232.5999999999997,
         "total_oi": 9994.9
       },
       {
         "strike": 78000.0,
-        "gex_musd": -15.254262649085826,
+        "gex_musd": -15.211522046509328,
         "call_oi": 3136.9,
         "put_oi": 8149.000000000001,
         "total_oi": 11285.900000000001
       },
       {
         "strike": 100000.0,
-        "gex_musd": 13.980168528932644,
+        "gex_musd": 13.981784504169077,
         "call_oi": 23351.6,
         "put_oi": 347.1,
         "total_oi": 23698.699999999993
       },
       {
         "strike": 84000.0,
-        "gex_musd": 9.15816714149011,
+        "gex_musd": 9.18887572960898,
         "call_oi": 5102.8,
         "put_oi": 2967.3,
         "total_oi": 8070.1
       },
       {
         "strike": 86000.0,
-        "gex_musd": 9.07590572990538,
+        "gex_musd": 9.092823451350437,
         "call_oi": 4150.000000000001,
         "put_oi": 1111.9,
         "total_oi": 5261.900000000001
@@ -115,35 +115,35 @@
         "call_oi": 95300.0,
         "put_oi": 45630.899999999994,
         "total_oi": 140930.9,
-        "share_pct": 37.74066786067776
+        "share_pct": 37.74206264826378
       },
       {
         "expiry": "2026-12-25T08:00:00+00:00",
-        "call_oi": 78425.70000000003,
-        "put_oi": 47950.9,
-        "total_oi": 126376.60000000002,
-        "share_pct": 33.84309108904952
+        "call_oi": 78411.60000000002,
+        "put_oi": 47951.200000000004,
+        "total_oi": 126362.80000000002,
+        "share_pct": 33.84064611813327
       },
       {
         "expiry": "2027-03-26T08:00:00+00:00",
         "call_oi": 24434.800000000003,
         "put_oi": 13973.8,
         "total_oi": 38408.600000000006,
-        "share_pct": 10.285652157146714
+        "share_pct": 10.286032285553452
       },
       {
         "expiry": "2026-11-27T08:00:00+00:00",
         "call_oi": 15190.500000000002,
         "put_oi": 8302.300000000001,
         "total_oi": 23492.8,
-        "share_pct": 6.291267294236611
+        "share_pct": 6.291499801556164
       },
       {
         "expiry": "2026-10-16T08:00:00+00:00",
         "call_oi": 6033.9,
         "put_oi": 9020.1,
         "total_oi": 15054.0,
-        "share_pct": 4.031394207903611
+        "share_pct": 4.0315431967507696
       }
     ],
     "method": "Estimated dealer-style proxy: calls positive gamma, puts negative gamma; OI direction is not observable from public chain."
@@ -155,9 +155,9 @@
     "samples": 21
   },
   "positioning": null,
-  "oi_zscore": -0.9317553001705712,
-  "open_interest_btc": 30028.63500000013,
-  "spot_perp_basis_pct": -0.052039101602728545,
+  "oi_zscore": -0.8961241739941059,
+  "open_interest_btc": 30048.42070000013,
+  "spot_perp_basis_pct": -0.04841804282708025,
   "binance_status": {
     "ok": false,
     "status": 451,
@@ -168,36 +168,36 @@
     "symbol": "PI_XBTUSD",
     "errors": [],
     "open_interest_latest": 2282636.0,
-    "open_interest_change_1h_pct": 0.004162028195775491,
-    "open_interest_change_24h_pct": -0.2589834756569931,
-    "open_interest_zscore_48h": -0.9317553001705712,
-    "cvd_latest": -21442.0,
-    "cvd_change_24h": -341.0,
+    "open_interest_change_1h_pct": 0.0,
+    "open_interest_change_24h_pct": -0.7179199892829558,
+    "open_interest_zscore_48h": -0.8961241739941059,
+    "cvd_latest": -31442.0,
+    "cvd_change_24h": -16941.0,
     "long_short_latest": 0.53,
     "long_short_ratio": 0.53,
-    "funding_latest": 8.72685984e-10,
-    "basis_latest": 0.0005,
-    "aggressor_latest": 441.0,
-    "aggressor_diff_latest": 441.0,
+    "funding_latest": 8.77923687e-10,
+    "basis_latest": 0.0006,
+    "aggressor_latest": 0.0,
+    "aggressor_diff_latest": 0.0,
     "liquidations_latest": 0.0,
     "liquidation_volume_24h": 0.0
   },
   "hyperliquid": {
     "ok": true,
     "error": null,
-    "mark_price": 82960.9,
-    "open_interest_btc": 38193.52964,
-    "open_interest_usd": 3168569593.111076,
-    "funding_pct": -0.00139711,
-    "volume_24h_usd": 814786510.3044198,
-    "premium_pct": -0.074688,
-    "funding_24h_avg_pct": -0.00018991083333333333,
-    "funding_positive_pct": 33.33333333333333,
+    "mark_price": 82974.0,
+    "open_interest_btc": 38207.87476,
+    "open_interest_usd": 3170260200.33624,
+    "funding_pct": -0.00097392,
+    "volume_24h_usd": 822523511.4022695,
+    "premium_pct": -0.06142654,
+    "funding_24h_avg_pct": -0.00026839833333333336,
+    "funding_positive_pct": 29.166666666666668,
     "funding_samples": 24
   },
   "okx": {
     "ok": true,
-    "open_interest_btc": 30028.63500000013,
+    "open_interest_btc": 30048.42070000013,
     "funding_pct": -0.0015417582414699999
   },
   "coinalyze": {
@@ -209,52 +209,52 @@
         "exchange_code": "A",
         "symbol": "BTCUSDT_PERP.A",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 7731190705.8932,
-        "open_interest_24h_ago_usd": 7687456252.6646,
-        "open_interest_change_24h_pct": 0.5689066941153786,
+        "open_interest_usd": 7734483101.0976,
+        "open_interest_24h_ago_usd": 7686486725.128401,
+        "open_interest_change_24h_pct": 0.6244254063731303,
         "funding_pct": -0.000993,
-        "long_short_ratio": 1.4474,
-        "long_liquidations_24h_usd": 725191.5931000002,
-        "short_liquidations_24h_usd": 2381858.7612,
-        "total_liquidations_24h_usd": 3107050.3543000002
+        "long_short_ratio": 1.442,
+        "long_liquidations_24h_usd": 725357.8639000001,
+        "short_liquidations_24h_usd": 2337717.8163,
+        "total_liquidations_24h_usd": 3063075.6802000003
       },
       {
         "exchange": "vadeli piyasa",
         "exchange_code": "6",
         "symbol": "BTCUSDT.6",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 4667494220.1984005,
-        "open_interest_24h_ago_usd": 4667499362.325,
-        "open_interest_change_24h_pct": -0.00011016876918512608,
+        "open_interest_usd": 4673571024.1572,
+        "open_interest_24h_ago_usd": 4670949245.968,
+        "open_interest_change_24h_pct": 0.05612945144850556,
         "funding_pct": -0.000326,
-        "long_short_ratio": 1.675943270002676,
+        "long_short_ratio": 1.670940170940171,
         "long_liquidations_24h_usd": 82100.9134,
-        "short_liquidations_24h_usd": 374109.2108,
-        "total_liquidations_24h_usd": 456210.1242
+        "short_liquidations_24h_usd": 352080.4208,
+        "total_liquidations_24h_usd": 434181.33420000004
       },
       {
         "exchange": "vadeli piyasa",
         "exchange_code": "3",
         "symbol": "BTCUSDT_PERP.3",
         "symbol_on_exchange": "BTC-USDT-SWAP",
-        "open_interest_usd": 2491085361.8092113,
-        "open_interest_24h_ago_usd": 2496778677.4037104,
-        "open_interest_change_24h_pct": -0.2280264424726397,
-        "funding_pct": -0.00121465288162,
+        "open_interest_usd": 2493528658.687341,
+        "open_interest_24h_ago_usd": 2497343484.12907,
+        "open_interest_change_24h_pct": -0.1527553364594092,
+        "funding_pct": -0.0007048462137800001,
         "long_short_ratio": null,
-        "long_liquidations_24h_usd": 101661.10797999999,
-        "short_liquidations_24h_usd": 116424.22472,
-        "total_liquidations_24h_usd": 218085.33269999997
+        "long_liquidations_24h_usd": 101660.03525999999,
+        "short_liquidations_24h_usd": 110064.16328000001,
+        "total_liquidations_24h_usd": 211724.19854
       },
       {
         "exchange": "vadeli piyasa",
         "exchange_code": "H",
         "symbol": "BTC.H",
         "symbol_on_exchange": "BTC",
-        "open_interest_usd": 3167388267.309,
-        "open_interest_24h_ago_usd": 3161491368.47572,
-        "open_interest_change_24h_pct": 0.18652269280505784,
-        "funding_pct": -0.00068496,
+        "open_interest_usd": 3172041546.44636,
+        "open_interest_24h_ago_usd": 3159915990.342,
+        "open_interest_change_24h_pct": 0.3837303314841556,
+        "funding_pct": -0.0013981,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -265,10 +265,10 @@
         "exchange_code": "K",
         "symbol": "pf_xbtusd.K",
         "symbol_on_exchange": "pf_xbtusd",
-        "open_interest_usd": 193146887.6188,
-        "open_interest_24h_ago_usd": 188976477.521,
-        "open_interest_change_24h_pct": 2.206840847341218,
-        "funding_pct": 0.0008570504166667,
+        "open_interest_usd": 193131824.3768,
+        "open_interest_24h_ago_usd": 189422634.147,
+        "open_interest_change_24h_pct": 1.9581557644908987,
+        "funding_pct": 0.0008159616666667,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -279,10 +279,10 @@
         "exchange_code": "2",
         "symbol": "BTC_USDC-PERPETUAL.2",
         "symbol_on_exchange": "BTC_USDC-PERPETUAL",
-        "open_interest_usd": 140663141.7796,
-        "open_interest_24h_ago_usd": 138552720.19917,
-        "open_interest_change_24h_pct": 1.5231902898739547,
-        "funding_pct": 0.000939,
+        "open_interest_usd": 141199178.2396,
+        "open_interest_24h_ago_usd": 138716417.41056,
+        "open_interest_change_24h_pct": 1.789810373844758,
+        "funding_pct": 0.004431,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -309,52 +309,52 @@
         "exchange_code": "A",
         "symbol": "BTCUSDT_PERP.A",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 7731190705.8932,
-        "open_interest_24h_ago_usd": 7687456252.6646,
-        "open_interest_change_24h_pct": 0.5689066941153786,
+        "open_interest_usd": 7734483101.0976,
+        "open_interest_24h_ago_usd": 7686486725.128401,
+        "open_interest_change_24h_pct": 0.6244254063731303,
         "funding_pct": -0.000993,
-        "long_short_ratio": 1.4474,
-        "long_liquidations_24h_usd": 725191.5931000002,
-        "short_liquidations_24h_usd": 2381858.7612,
-        "total_liquidations_24h_usd": 3107050.3543000002
+        "long_short_ratio": 1.442,
+        "long_liquidations_24h_usd": 725357.8639000001,
+        "short_liquidations_24h_usd": 2337717.8163,
+        "total_liquidations_24h_usd": 3063075.6802000003
       },
       "Bybit": {
         "exchange": "vadeli piyasa",
         "exchange_code": "6",
         "symbol": "BTCUSDT.6",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 4667494220.1984005,
-        "open_interest_24h_ago_usd": 4667499362.325,
-        "open_interest_change_24h_pct": -0.00011016876918512608,
+        "open_interest_usd": 4673571024.1572,
+        "open_interest_24h_ago_usd": 4670949245.968,
+        "open_interest_change_24h_pct": 0.05612945144850556,
         "funding_pct": -0.000326,
-        "long_short_ratio": 1.675943270002676,
+        "long_short_ratio": 1.670940170940171,
         "long_liquidations_24h_usd": 82100.9134,
-        "short_liquidations_24h_usd": 374109.2108,
-        "total_liquidations_24h_usd": 456210.1242
+        "short_liquidations_24h_usd": 352080.4208,
+        "total_liquidations_24h_usd": 434181.33420000004
       },
       "OKX": {
         "exchange": "vadeli piyasa",
         "exchange_code": "3",
         "symbol": "BTCUSDT_PERP.3",
         "symbol_on_exchange": "BTC-USDT-SWAP",
-        "open_interest_usd": 2491085361.8092113,
-        "open_interest_24h_ago_usd": 2496778677.4037104,
-        "open_interest_change_24h_pct": -0.2280264424726397,
-        "funding_pct": -0.00121465288162,
+        "open_interest_usd": 2493528658.687341,
+        "open_interest_24h_ago_usd": 2497343484.12907,
+        "open_interest_change_24h_pct": -0.1527553364594092,
+        "funding_pct": -0.0007048462137800001,
         "long_short_ratio": null,
-        "long_liquidations_24h_usd": 101661.10797999999,
-        "short_liquidations_24h_usd": 116424.22472,
-        "total_liquidations_24h_usd": 218085.33269999997
+        "long_liquidations_24h_usd": 101660.03525999999,
+        "short_liquidations_24h_usd": 110064.16328000001,
+        "total_liquidations_24h_usd": 211724.19854
       },
       "Hyperliquid": {
         "exchange": "vadeli piyasa",
         "exchange_code": "H",
         "symbol": "BTC.H",
         "symbol_on_exchange": "BTC",
-        "open_interest_usd": 3167388267.309,
-        "open_interest_24h_ago_usd": 3161491368.47572,
-        "open_interest_change_24h_pct": 0.18652269280505784,
-        "funding_pct": -0.00068496,
+        "open_interest_usd": 3172041546.44636,
+        "open_interest_24h_ago_usd": 3159915990.342,
+        "open_interest_change_24h_pct": 0.3837303314841556,
+        "funding_pct": -0.0013981,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -365,10 +365,10 @@
         "exchange_code": "K",
         "symbol": "pf_xbtusd.K",
         "symbol_on_exchange": "pf_xbtusd",
-        "open_interest_usd": 193146887.6188,
-        "open_interest_24h_ago_usd": 188976477.521,
-        "open_interest_change_24h_pct": 2.206840847341218,
-        "funding_pct": 0.0008570504166667,
+        "open_interest_usd": 193131824.3768,
+        "open_interest_24h_ago_usd": 189422634.147,
+        "open_interest_change_24h_pct": 1.9581557644908987,
+        "funding_pct": 0.0008159616666667,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -379,10 +379,10 @@
         "exchange_code": "2",
         "symbol": "BTC_USDC-PERPETUAL.2",
         "symbol_on_exchange": "BTC_USDC-PERPETUAL",
-        "open_interest_usd": 140663141.7796,
-        "open_interest_24h_ago_usd": 138552720.19917,
-        "open_interest_change_24h_pct": 1.5231902898739547,
-        "funding_pct": 0.000939,
+        "open_interest_usd": 141199178.2396,
+        "open_interest_24h_ago_usd": 138716417.41056,
+        "open_interest_change_24h_pct": 1.789810373844758,
+        "funding_pct": 0.004431,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -408,29 +408,29 @@
       "exchange_code": "A",
       "symbol": "BTCUSDT_PERP.A",
       "symbol_on_exchange": "BTCUSDT",
-      "open_interest_usd": 7731190705.8932,
-      "open_interest_24h_ago_usd": 7687456252.6646,
-      "open_interest_change_24h_pct": 0.5689066941153786,
+      "open_interest_usd": 7734483101.0976,
+      "open_interest_24h_ago_usd": 7686486725.128401,
+      "open_interest_change_24h_pct": 0.6244254063731303,
       "funding_pct": -0.000993,
-      "long_short_ratio": 1.4474,
-      "long_liquidations_24h_usd": 725191.5931000002,
-      "short_liquidations_24h_usd": 2381858.7612,
-      "total_liquidations_24h_usd": 3107050.3543000002
+      "long_short_ratio": 1.442,
+      "long_liquidations_24h_usd": 725357.8639000001,
+      "short_liquidations_24h_usd": 2337717.8163,
+      "total_liquidations_24h_usd": 3063075.6802000003
     },
     "binance_available": true,
-    "aggregate_oi_usd": 21023904779.695953,
-    "oi_change_24h_pct": 0.2737822211036134,
-    "oi_weighted_funding_pct": -0.0012588425026337547,
+    "aggregate_oi_usd": 21041471511.60162,
+    "oi_change_24h_pct": 0.35502057160292644,
+    "oi_weighted_funding_pct": -0.001193477807489048,
     "liquidations_24h": {
-      "long_usd": 908953.6144800001,
-      "short_usd": 2872392.19672,
-      "total_usd": 3781345.8112,
+      "long_usd": 909118.8125600001,
+      "short_usd": 2799862.40038,
+      "total_usd": 3708981.21294,
       "dominant_side": "short"
     },
-    "long_short_ratio_avg": 1.561671635001338,
+    "long_short_ratio_avg": 1.5564700854700855,
     "total_all_exchanges": {
-      "aggregate_oi_usd": 21023904779.695953,
-      "oi_weighted_funding_pct": -0.0012588425026337547,
+      "aggregate_oi_usd": 21041471511.60162,
+      "oi_weighted_funding_pct": -0.001193477807489048,
       "exchange_count": 16,
       "market_count": 16,
       "markets": [
@@ -445,21 +445,21 @@
           "exchange": "ana piyasa",
           "symbol": "BTCUSDT_PERP.A",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 7731190705.8932,
+          "open_interest_usd": 7734483101.0976,
           "funding_pct": -0.000993
         },
         {
           "exchange": "Bitfinex",
           "symbol": "BTCUSDT_PERP.F",
           "symbol_on_exchange": "BTCF0:USTF0",
-          "open_interest_usd": 758107706.3794521,
+          "open_interest_usd": 758370875.1335276,
           "funding_pct": 0.0
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT.6",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 4667494220.1984005,
+          "open_interest_usd": 4673571024.1572,
           "funding_pct": -0.000326
         },
         {
@@ -473,64 +473,64 @@
           "exchange": "opsiyon veri sağlayıcısı",
           "symbol": "BTC_USDC-PERPETUAL.2",
           "symbol_on_exchange": "BTC_USDC-PERPETUAL",
-          "open_interest_usd": 140663141.7796,
-          "funding_pct": 0.000939
+          "open_interest_usd": 141199178.2396,
+          "funding_pct": 0.004431
         },
         {
           "exchange": "Gate.io",
           "symbol": "BTC_USDT.Y",
           "symbol_on_exchange": "BTC_USDT",
           "open_interest_usd": null,
-          "funding_pct": -0.0009
+          "funding_pct": -0.0005
         },
         {
           "exchange": "Huobi",
           "symbol": "BTCUSDT_PERP.4",
           "symbol_on_exchange": "BTC-USDT",
-          "open_interest_usd": 1840825320.4624002,
-          "funding_pct": -0.0067102443930622995
+          "open_interest_usd": 1841133041.5249999,
+          "funding_pct": -0.0056934815215845
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTC.H",
           "symbol_on_exchange": "BTC",
-          "open_interest_usd": 3167388267.309,
-          "funding_pct": -0.00068496
+          "open_interest_usd": 3172041546.44636,
+          "funding_pct": -0.0013981
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "pf_xbtusd.K",
           "symbol_on_exchange": "pf_xbtusd",
-          "open_interest_usd": 193146887.6188,
-          "funding_pct": 0.0008570504166667
+          "open_interest_usd": 193131824.3768,
+          "funding_pct": 0.0008159616666667
         },
         {
           "exchange": "Lighter",
           "symbol": "1.T",
           "symbol_on_exchange": "1",
           "open_interest_usd": null,
-          "funding_pct": -0.0009
+          "funding_pct": -0.0003
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT_PERP.3",
           "symbol_on_exchange": "BTC-USDT-SWAP",
-          "open_interest_usd": 2491085361.8092113,
-          "funding_pct": -0.00121465288162
+          "open_interest_usd": 2493528658.687341,
+          "funding_pct": -0.0007048462137800001
         },
         {
           "exchange": "Phemex",
           "symbol": "BTCUSD.7",
           "symbol_on_exchange": "BTCUSD",
           "open_interest_usd": null,
-          "funding_pct": -0.007527
+          "funding_pct": -0.008296
         },
         {
           "exchange": "Polymarket",
           "symbol": "6.O",
           "symbol_on_exchange": "6",
           "open_interest_usd": null,
-          "funding_pct": -0.000207
+          "funding_pct": -0.000506
         },
         {
           "exchange": "WOO X",
@@ -543,15 +543,15 @@
           "exchange": "dYdX",
           "symbol": "BTC-USD.8",
           "symbol_on_exchange": "BTC-USD",
-          "open_interest_usd": 16880644.5668,
+          "open_interest_usd": 16889738.2591,
           "funding_pct": 0.0
         }
       ],
       "definition": "Her desteklenen borsadan bir ana BTC perpetual kontratı; OI USD olarak toplanır, funding OI-ağırlıklı ortalamadır."
     },
     "core_exchanges": {
-      "aggregate_oi_usd": 14889770287.900812,
-      "oi_weighted_funding_pct": -0.0008209985287518505,
+      "aggregate_oi_usd": 14901582783.94214,
+      "oi_weighted_funding_pct": -0.0007355916660815981,
       "exchange_count": 3,
       "market_count": 3,
       "markets": [
@@ -559,22 +559,22 @@
           "exchange": "ana piyasa",
           "symbol": "BTCUSDT_PERP.A",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 7731190705.8932,
+          "open_interest_usd": 7734483101.0976,
           "funding_pct": -0.000993
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT.6",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 4667494220.1984005,
+          "open_interest_usd": 4673571024.1572,
           "funding_pct": -0.000326
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT_PERP.3",
           "symbol_on_exchange": "BTC-USDT-SWAP",
-          "open_interest_usd": 2491085361.8092113,
-          "funding_pct": -0.00121465288162
+          "open_interest_usd": 2493528658.687341,
+          "funding_pct": -0.0007048462137800001
         }
       ],
       "exchanges": [
@@ -620,15 +620,15 @@
     "all_exchange_count": 16
   },
   "cross_venue_oi": {
-    "total_btc": 68222.16464000013,
+    "total_btc": 68256.29546000012,
     "venues": [
       {
         "venue": "vadeli piyasa",
-        "oi_btc": 30028.63500000013
+        "oi_btc": 30048.42070000013
       },
       {
         "venue": "vadeli piyasa",
-        "oi_btc": 38193.52964
+        "oi_btc": 38207.87476
       }
     ],
     "coverage": "Kısmi agregasyon; vadeli piyasa OI birimi normalize edilmediği için toplamın dışında tutulur."
@@ -637,20 +637,20 @@
     "vadeli piyasa CVD 24s negatif: agresif satıcı akışı baskın.",
     "vadeli piyasa long/short 0.53: short tarafı kalabalık; ters squeeze riski var.",
     "vadeli piyasa ve vadeli piyasa funding aynı anda negatif: short baskısı çapraz-borsada teyit ediliyor.",
-    "çoklu-borsa veri sağlayıcısı çoklu-borsa BTC OI 24s %+0.27.",
-    "çoklu-borsa veri sağlayıcısı OI-ağırlıklı funding %-0.0013.",
-    "çoklu-borsa veri sağlayıcısı 24s tasfiye toplamı $3.8M; baskın taraf short.",
-    "ana piyasa (çoklu-borsa veri sağlayıcısı) · OI 24s %+0.57 · funding %-0.0010 · L/S 1.45."
+    "çoklu-borsa veri sağlayıcısı çoklu-borsa BTC OI 24s %+0.36.",
+    "çoklu-borsa veri sağlayıcısı OI-ağırlıklı funding %-0.0012.",
+    "çoklu-borsa veri sağlayıcısı 24s tasfiye toplamı $3.7M; baskın taraf short.",
+    "ana piyasa (çoklu-borsa veri sağlayıcısı) · OI 24s %+0.62 · funding %-0.0010 · L/S 1.44."
   ],
   "data_quality": {
     "ok_count": 6,
     "grade": "A",
     "coinalyze_configured": true
   },
-  "generated_at": "2026-10-11T10:56:00.831897+00:00",
+  "generated_at": "2026-10-11T11:16:25.289976+00:00",
   "advanced_options": {
-    "generated_at": "2026-10-11T11:01:40.948622+00:00",
-    "spot": 82922.89,
+    "generated_at": "2026-10-11T11:21:00.584676+00:00",
+    "spot": 82964.61,
     "options_volume_by_strike": [
       {
         "strike": 54000.0,
@@ -664,8 +664,8 @@
       {
         "strike": 64000.0,
         "call_volume_24h": 0.0,
-        "put_volume_24h": 31.2,
-        "total_volume_24h": 31.2,
+        "put_volume_24h": 30.8,
+        "total_volume_24h": 30.8,
         "call_oi": 993.6,
         "put_oi": 1898.0,
         "total_oi": 2891.6
@@ -718,8 +718,8 @@
       {
         "strike": 76000.0,
         "call_volume_24h": 0.0,
-        "put_volume_24h": 35.6,
-        "total_volume_24h": 35.6,
+        "put_volume_24h": 35.5,
+        "total_volume_24h": 35.5,
         "call_oi": 1641.4,
         "put_oi": 3737.4999999999995,
         "total_oi": 5378.9
@@ -736,8 +736,8 @@
       {
         "strike": 78000.0,
         "call_volume_24h": 0.0,
-        "put_volume_24h": 34.3,
-        "total_volume_24h": 34.3,
+        "put_volume_24h": 34.2,
+        "total_volume_24h": 34.2,
         "call_oi": 3136.9,
         "put_oi": 8149.000000000001,
         "total_oi": 11285.900000000001
@@ -745,8 +745,8 @@
       {
         "strike": 79000.0,
         "call_volume_24h": 0.0,
-        "put_volume_24h": 24.6,
-        "total_volume_24h": 24.6,
+        "put_volume_24h": 24.299999999999997,
+        "total_volume_24h": 24.299999999999997,
         "call_oi": 409.1,
         "put_oi": 2710.6000000000004,
         "total_oi": 3119.7000000000003
@@ -772,11 +772,11 @@
       {
         "strike": 81000.0,
         "call_volume_24h": 0.1,
-        "put_volume_24h": 86.7,
-        "total_volume_24h": 86.8,
+        "put_volume_24h": 87.2,
+        "total_volume_24h": 87.3,
         "call_oi": 1244.7000000000003,
-        "put_oi": 2177.0,
-        "total_oi": 3421.7000000000003
+        "put_oi": 2177.6,
+        "total_oi": 3422.3
       },
       {
         "strike": 81500.0,
@@ -808,11 +808,11 @@
       {
         "strike": 83000.0,
         "call_volume_24h": 37.1,
-        "put_volume_24h": 23.099999999999998,
-        "total_volume_24h": 60.2,
+        "put_volume_24h": 24.599999999999998,
+        "total_volume_24h": 61.7,
         "call_oi": 1897.9,
-        "put_oi": 2492.5000000000005,
-        "total_oi": 4390.400000000001
+        "put_oi": 2494.0000000000005,
+        "total_oi": 4391.900000000001
       },
       {
         "strike": 83500.0,
@@ -825,20 +825,20 @@
       },
       {
         "strike": 84000.0,
-        "call_volume_24h": 36.4,
+        "call_volume_24h": 36.300000000000004,
         "put_volume_24h": 8.2,
-        "total_volume_24h": 44.599999999999994,
-        "call_oi": 5102.8,
+        "total_volume_24h": 44.5,
+        "call_oi": 5102.9,
         "put_oi": 2967.3,
-        "total_oi": 8070.1
+        "total_oi": 8070.2
       },
       {
         "strike": 85000.0,
-        "call_volume_24h": 158.39999999999998,
+        "call_volume_24h": 159.2,
         "put_volume_24h": 0.1,
-        "total_volume_24h": 158.49999999999997,
+        "total_volume_24h": 159.29999999999998,
         "call_oi": 8659.5,
-        "put_oi": 1982.4000000000003,
+        "put_oi": 1982.4,
         "total_oi": 10641.9
       },
       {
@@ -852,12 +852,12 @@
       },
       {
         "strike": 87000.0,
-        "call_volume_24h": 116.89999999999999,
+        "call_volume_24h": 117.0,
         "put_volume_24h": 1.8,
-        "total_volume_24h": 118.69999999999999,
-        "call_oi": 2423.7000000000003,
+        "total_volume_24h": 118.8,
+        "call_oi": 2423.8,
         "put_oi": 550.0,
-        "total_oi": 2973.7000000000003
+        "total_oi": 2973.8
       },
       {
         "strike": 88000.0,
@@ -908,49 +908,49 @@
     "expiry_profile": [
       {
         "expiry": "2026-10-12T08:00:00+00:00",
-        "days_left": 0.8738316131712963,
+        "days_left": 0.8604098995833334,
         "max_pain": 82000.0,
-        "call_oi": 1695.3,
-        "put_oi": 723.0,
-        "total_oi": 2418.3,
-        "oi_pcr": 0.42647319058573707,
-        "call_volume_24h": 144.9,
-        "put_volume_24h": 248.3,
-        "volume_pcr": 1.7135955831608005,
-        "notional_oi_usd": 200532424.88700002,
-        "oi_share_pct": 0.6476091111422349
+        "call_oi": 1693.7,
+        "put_oi": 724.0,
+        "total_oi": 2417.7,
+        "oi_pcr": 0.42746649347582216,
+        "call_volume_24h": 149.29999999999998,
+        "put_volume_24h": 249.1,
+        "volume_pcr": 1.6684527796383122,
+        "notional_oi_usd": 200583537.59699997,
+        "oi_share_pct": 0.6474720150527804
       },
       {
         "expiry": "2026-10-13T08:00:00+00:00",
-        "days_left": 1.8738316131712964,
+        "days_left": 1.8604098995833334,
         "max_pain": 83000.0,
         "call_oi": 238.5,
-        "put_oi": 412.6,
-        "total_oi": 651.1,
-        "oi_pcr": 1.7299790356394131,
-        "call_volume_24h": 70.0,
-        "put_volume_24h": 139.6,
-        "volume_pcr": 1.9942857142857142,
-        "notional_oi_usd": 53991093.679000005,
-        "oi_share_pct": 0.1743614490612038
+        "put_oi": 413.7,
+        "total_oi": 652.2,
+        "oi_pcr": 1.7345911949685535,
+        "call_volume_24h": 69.8,
+        "put_volume_24h": 141.0,
+        "volume_pcr": 2.020057306590258,
+        "notional_oi_usd": 54109518.642000005,
+        "oi_share_pct": 0.17466238500120917
       },
       {
         "expiry": "2026-10-14T08:00:00+00:00",
-        "days_left": 2.8738316131712964,
+        "days_left": 2.8604098995833334,
         "max_pain": 83000.0,
-        "call_oi": 129.5,
+        "call_oi": 129.6,
         "put_oi": 54.5,
-        "total_oi": 184.0,
-        "oi_pcr": 0.42084942084942084,
-        "call_volume_24h": 126.3,
+        "total_oi": 184.1,
+        "oi_pcr": 0.4205246913580247,
+        "call_volume_24h": 126.39999999999999,
         "put_volume_24h": 34.6,
-        "volume_pcr": 0.273950910530483,
-        "notional_oi_usd": 15257811.76,
-        "oi_share_pct": 0.04927431520083166
+        "volume_pcr": 0.2737341772151899,
+        "notional_oi_usd": 15273784.701,
+        "oi_share_pct": 0.049302890338427795
       },
       {
         "expiry": "2026-10-15T08:00:00+00:00",
-        "days_left": 3.8738316131712964,
+        "days_left": 3.8604098995833334,
         "max_pain": 81000.0,
         "call_oi": 0.9,
         "put_oi": 19.400000000000002,
@@ -959,54 +959,54 @@
         "call_volume_24h": 0.9,
         "put_volume_24h": 21.400000000000002,
         "volume_pcr": 23.77777777777778,
-        "notional_oi_usd": 1683334.6670000001,
-        "oi_share_pct": 0.005436242383570015
+        "notional_oi_usd": 1684181.583,
+        "oi_share_pct": 0.005436440379522456
       },
       {
         "expiry": "2026-10-16T08:00:00+00:00",
-        "days_left": 4.873831613171296,
+        "days_left": 4.860409899583333,
         "max_pain": 83000.0,
         "call_oi": 6033.9,
         "put_oi": 9020.1,
         "total_oi": 15054.0,
         "oi_pcr": 1.4949037935663503,
         "call_volume_24h": 163.1,
-        "put_volume_24h": 53.1,
-        "volume_pcr": 0.325567136725935,
-        "notional_oi_usd": 1248321186.06,
-        "oi_share_pct": 4.031388809963695
+        "put_volume_24h": 52.5,
+        "volume_pcr": 0.3218884120171674,
+        "notional_oi_usd": 1248949238.94,
+        "oi_share_pct": 4.031535639080348
       },
       {
         "expiry": "2026-10-23T08:00:00+00:00",
-        "days_left": 11.873831613171296,
+        "days_left": 11.860409899583333,
         "max_pain": 83000.0,
         "call_oi": 3960.8,
         "put_oi": 4899.6,
         "total_oi": 8860.400000000001,
         "oi_pcr": 1.2370228236719856,
         "call_volume_24h": 41.0,
-        "put_volume_24h": 24.7,
-        "volume_pcr": 0.6024390243902439,
-        "notional_oi_usd": 734729974.5560001,
-        "oi_share_pct": 2.372772513073092
+        "put_volume_24h": 24.6,
+        "volume_pcr": 0.6000000000000001,
+        "notional_oi_usd": 735099630.4440001,
+        "oi_share_pct": 2.3728589329419103
       },
       {
         "expiry": "2026-10-30T08:00:00+00:00",
-        "days_left": 18.873831613171298,
+        "days_left": 18.86040989958333,
         "max_pain": 78000.0,
         "call_oi": 95300.0,
         "put_oi": 45630.9,
         "total_oi": 140930.9,
         "oi_pcr": 0.47881322140608606,
-        "call_volume_24h": 227.6,
-        "put_volume_24h": 207.4,
-        "volume_pcr": 0.9112478031634447,
-        "notional_oi_usd": 11686397518.300999,
-        "oi_share_pct": 37.74061732683091
+        "call_volume_24h": 227.5,
+        "put_volume_24h": 207.1,
+        "volume_pcr": 0.9103296703296703,
+        "notional_oi_usd": 11692277155.449,
+        "oi_share_pct": 37.74199189568676
       },
       {
         "expiry": "2026-11-27T08:00:00+00:00",
-        "days_left": 46.8738316131713,
+        "days_left": 46.86040989958334,
         "max_pain": 80000.0,
         "call_oi": 15190.5,
         "put_oi": 8302.3,
@@ -1015,26 +1015,26 @@
         "call_volume_24h": 39.0,
         "put_volume_24h": 112.7,
         "volume_pcr": 2.8897435897435897,
-        "notional_oi_usd": 1948090870.192,
-        "oi_share_pct": 6.291258870380968
+        "notional_oi_usd": 1949070989.8079998,
+        "oi_share_pct": 6.291488007292864
       },
       {
         "expiry": "2026-12-25T08:00:00+00:00",
-        "days_left": 74.87383161317129,
+        "days_left": 74.86040989958333,
         "max_pain": 75000.0,
-        "call_oi": 78425.9,
+        "call_oi": 78411.7,
         "put_oi": 47951.2,
-        "total_oi": 126377.09999999999,
-        "oi_pcr": 0.6114204618627265,
-        "call_volume_24h": 31.5,
+        "total_oi": 126362.9,
+        "oi_pcr": 0.6115311873100571,
+        "call_volume_24h": 49.0,
         "put_volume_24h": 65.6,
-        "volume_pcr": 2.0825396825396822,
-        "notional_oi_usd": 10479554361.818998,
-        "oi_share_pct": 33.84317967155991
+        "volume_pcr": 1.3387755102040815,
+        "notional_oi_usd": 10483648716.969,
+        "oi_share_pct": 33.84060945978119
       },
       {
         "expiry": "2027-03-26T08:00:00+00:00",
-        "days_left": 165.8738316131713,
+        "days_left": 165.86040989958335,
         "max_pain": 76000.0,
         "call_oi": 24434.8,
         "put_oi": 13973.8,
@@ -1043,12 +1043,12 @@
         "call_volume_24h": 103.0,
         "put_volume_24h": 19.5,
         "volume_pcr": 0.18932038834951456,
-        "notional_oi_usd": 3184952112.854,
-        "oi_share_pct": 10.285638384905777
+        "notional_oi_usd": 3186554519.646,
+        "oi_share_pct": 10.28601300300129
       },
       {
         "expiry": "2027-06-25T08:00:00+00:00",
-        "days_left": 256.8738316131713,
+        "days_left": 256.8604098995833,
         "max_pain": 70000.0,
         "call_oi": 8801.5,
         "put_oi": 4575.5,
@@ -1057,12 +1057,12 @@
         "call_volume_24h": 1.0,
         "put_volume_24h": 0.30000000000000004,
         "volume_pcr": 0.30000000000000004,
-        "notional_oi_usd": 1109259499.53,
-        "oi_share_pct": 3.5822962741387236
+        "notional_oi_usd": 1109817587.97,
+        "oi_share_pct": 3.582426746643936
       },
       {
         "expiry": "2027-09-24T08:00:00+00:00",
-        "days_left": 347.8738316131713,
+        "days_left": 347.8604098995833,
         "max_pain": 84000.0,
         "call_oi": 1936.7,
         "put_oi": 1708.5,
@@ -1071,307 +1071,307 @@
         "call_volume_24h": 0.2,
         "put_volume_24h": 0.2,
         "volume_pcr": 1.0,
-        "notional_oi_usd": 302270518.62799996,
-        "oi_share_pct": 0.9761670313590846
+        "notional_oi_usd": 302422596.372,
+        "oi_share_pct": 0.9762025847997662
       }
     ],
     "gex_profile": [
       {
         "strike": 60000.0,
-        "call_gex_musd": 1.1760295672014518,
-        "put_gex_musd": -3.8380574620773698,
-        "net_gex_musd": -2.662027894875918
+        "call_gex_musd": 1.1742247715960996,
+        "put_gex_musd": -3.83241070147258,
+        "net_gex_musd": -2.6581859298764803
       },
       {
         "strike": 75000.0,
-        "call_gex_musd": 5.618459400844232,
-        "put_gex_musd": -12.291328474579105,
-        "net_gex_musd": -6.672869073734873
+        "call_gex_musd": 5.59833431624393,
+        "put_gex_musd": -12.244921779631541,
+        "net_gex_musd": -6.646587463387611
       },
       {
         "strike": 76000.0,
-        "call_gex_musd": 2.63212685217297,
-        "put_gex_musd": -6.098758842835508,
-        "net_gex_musd": -3.4666319906625382
+        "call_gex_musd": 2.623772085637206,
+        "put_gex_musd": -6.065215170331208,
+        "net_gex_musd": -3.441443084694002
       },
       {
         "strike": 77000.0,
-        "call_gex_musd": 0.6889040888175466,
-        "put_gex_musd": -3.9915907560113477,
-        "net_gex_musd": -3.302686667193801
+        "call_gex_musd": 0.6859278009434309,
+        "put_gex_musd": -3.972218123478811,
+        "net_gex_musd": -3.28629032253538
       },
       {
         "strike": 78000.0,
-        "call_gex_musd": 5.705125035805612,
-        "put_gex_musd": -20.99145959629683,
-        "net_gex_musd": -15.28633456049122
+        "call_gex_musd": 5.6904889919801,
+        "put_gex_musd": -20.83988287567785,
+        "net_gex_musd": -15.149393883697751
       },
       {
         "strike": 79000.0,
-        "call_gex_musd": 1.2330110204249942,
-        "put_gex_musd": -9.202535710661323,
-        "net_gex_musd": -7.969524690236328
+        "call_gex_musd": 1.2290289295453893,
+        "put_gex_musd": -9.140289778294104,
+        "net_gex_musd": -7.911260848748714
       },
       {
         "strike": 80000.0,
-        "call_gex_musd": 26.404568062022307,
-        "put_gex_musd": -33.55209768927913,
-        "net_gex_musd": -7.147529627256823
+        "call_gex_musd": 26.373911645656406,
+        "put_gex_musd": -33.34762906858998,
+        "net_gex_musd": -6.973717422933575
       },
       {
         "strike": 81000.0,
-        "call_gex_musd": 4.884109005724116,
-        "put_gex_musd": -10.154456442281804,
-        "net_gex_musd": -5.270347436557688
+        "call_gex_musd": 4.8520350585228105,
+        "put_gex_musd": -10.057969666284135,
+        "net_gex_musd": -5.205934607761325
       },
       {
         "strike": 84000.0,
-        "call_gex_musd": 17.798033401262245,
-        "put_gex_musd": -8.666043949241143,
-        "net_gex_musd": 9.131989452021102
+        "call_gex_musd": 17.941388812096058,
+        "put_gex_musd": -8.704185023198447,
+        "net_gex_musd": 9.237203788897611
       },
       {
         "strike": 84500.0,
-        "call_gex_musd": 3.7215261072221058,
-        "put_gex_musd": -0.03631687932693384,
-        "net_gex_musd": 3.685209227895172
+        "call_gex_musd": 3.783791327271192,
+        "put_gex_musd": -0.03714514795342939,
+        "net_gex_musd": 3.7466461793177626
       },
       {
         "strike": 85000.0,
-        "call_gex_musd": 28.30380771225311,
-        "put_gex_musd": -6.460444123031805,
-        "net_gex_musd": 21.843363589221305
+        "call_gex_musd": 28.533922277096227,
+        "put_gex_musd": -6.491596895126015,
+        "net_gex_musd": 22.042325381970212
       },
       {
         "strike": 86000.0,
-        "call_gex_musd": 12.946150672301762,
-        "put_gex_musd": -3.8868855892675884,
-        "net_gex_musd": 9.059265083034173
+        "call_gex_musd": 13.023987155077387,
+        "put_gex_musd": -3.9042974946098075,
+        "net_gex_musd": 9.11968966046758
       },
       {
         "strike": 87000.0,
-        "call_gex_musd": 8.46838290927084,
-        "put_gex_musd": -2.0077100407951622,
-        "net_gex_musd": 6.460672868475678
+        "call_gex_musd": 8.542627914407745,
+        "put_gex_musd": -2.0215934453562348,
+        "net_gex_musd": 6.521034469051511
       },
       {
         "strike": 88000.0,
-        "call_gex_musd": 19.671408221872603,
-        "put_gex_musd": -3.6218215204786492,
-        "net_gex_musd": 16.049586701393956
+        "call_gex_musd": 19.756922423638947,
+        "put_gex_musd": -3.6404968600439798,
+        "net_gex_musd": 16.116425563594966
       },
       {
         "strike": 89000.0,
-        "call_gex_musd": 5.566388124478204,
-        "put_gex_musd": -0.18910370594999856,
-        "net_gex_musd": 5.377284418528205
+        "call_gex_musd": 5.609846710164706,
+        "put_gex_musd": -0.19008921234227277,
+        "net_gex_musd": 5.419757497822433
       },
       {
         "strike": 90000.0,
-        "call_gex_musd": 57.11689741980995,
-        "put_gex_musd": -1.4836675191962856,
-        "net_gex_musd": 55.633229900613664
+        "call_gex_musd": 57.444996709897396,
+        "put_gex_musd": -1.4875954962194922,
+        "net_gex_musd": 55.957401213677905
       },
       {
         "strike": 91000.0,
-        "call_gex_musd": 4.11033172011367,
-        "put_gex_musd": -0.007975496042675325,
-        "net_gex_musd": 4.102356224070995
+        "call_gex_musd": 4.136794967534402,
+        "put_gex_musd": -0.008029275316740796,
+        "net_gex_musd": 4.128765692217661
       },
       {
         "strike": 92000.0,
-        "call_gex_musd": 7.833678350365136,
-        "put_gex_musd": -0.07535099166204896,
-        "net_gex_musd": 7.758327358703087
+        "call_gex_musd": 7.881532543015712,
+        "put_gex_musd": -0.07556309011350078,
+        "net_gex_musd": 7.805969452902212
       },
       {
         "strike": 94000.0,
-        "call_gex_musd": 4.550192351847102,
-        "put_gex_musd": -0.03932472110847031,
-        "net_gex_musd": 4.510867630738631
+        "call_gex_musd": 4.578369856887133,
+        "put_gex_musd": -0.03942043290247181,
+        "net_gex_musd": 4.538949423984661
       },
       {
         "strike": 95000.0,
-        "call_gex_musd": 31.29603509667631,
-        "put_gex_musd": -0.4744815997113783,
-        "net_gex_musd": 30.82155349696493
+        "call_gex_musd": 31.556382305543835,
+        "put_gex_musd": -0.47715132809942407,
+        "net_gex_musd": 31.07923097744441
       },
       {
         "strike": 96000.0,
-        "call_gex_musd": 4.734117270624599,
-        "put_gex_musd": -0.08215001373684735,
-        "net_gex_musd": 4.651967256887751
+        "call_gex_musd": 4.754918031644158,
+        "put_gex_musd": -0.08236888887412913,
+        "net_gex_musd": 4.67254914277003
       },
       {
         "strike": 98000.0,
-        "call_gex_musd": 3.8640821078036405,
-        "put_gex_musd": -0.02218787155802075,
-        "net_gex_musd": 3.84189423624562
+        "call_gex_musd": 3.8862758076428685,
+        "put_gex_musd": -0.02238235539135015,
+        "net_gex_musd": 3.8638934522515185
       },
       {
         "strike": 100000.0,
-        "call_gex_musd": 14.345778466739493,
-        "put_gex_musd": -0.3954259949036113,
-        "net_gex_musd": 13.950352471835881
+        "call_gex_musd": 14.41578326743432,
+        "put_gex_musd": -0.39673027951969564,
+        "net_gex_musd": 14.019052987914623
       },
       {
         "strike": 110000.0,
-        "call_gex_musd": 3.5990725458162545,
-        "put_gex_musd": -0.0581937856599862,
-        "net_gex_musd": 3.5408787601562683
+        "call_gex_musd": 3.6097531048687124,
+        "put_gex_musd": -0.05836273322348992,
+        "net_gex_musd": 3.5513903716452226
       }
     ],
     "charm_profile": [
       {
         "strike": 73000.0,
-        "call_charm_usd_day": 250645.79455034604,
-        "put_charm_usd_day": -1042332.9422495599,
-        "net_charm_usd_day": -791687.1476992138
+        "call_charm_usd_day": 251265.51906478684,
+        "put_charm_usd_day": -1043689.6035574088,
+        "net_charm_usd_day": -792424.084492622
       },
       {
         "strike": 75000.0,
-        "call_charm_usd_day": 775938.6524100172,
-        "put_charm_usd_day": -2179596.4164305753,
-        "net_charm_usd_day": -1403657.764020558
+        "call_charm_usd_day": 776777.3532583311,
+        "put_charm_usd_day": -2180541.481238956,
+        "net_charm_usd_day": -1403764.127980625
       },
       {
         "strike": 76000.0,
-        "call_charm_usd_day": 301402.30549968453,
-        "put_charm_usd_day": -2297842.728504822,
-        "net_charm_usd_day": -1996440.4230051376
+        "call_charm_usd_day": 301950.0576198036,
+        "put_charm_usd_day": -2297935.0240846835,
+        "net_charm_usd_day": -1995984.96646488
       },
       {
         "strike": 78000.0,
-        "call_charm_usd_day": 349361.809023933,
-        "put_charm_usd_day": -5903497.813807806,
-        "net_charm_usd_day": -5554136.0047838725
+        "call_charm_usd_day": 351202.4859166399,
+        "put_charm_usd_day": -5895123.017260484,
+        "net_charm_usd_day": -5543920.531343845
       },
       {
         "strike": 79000.0,
-        "call_charm_usd_day": 141191.39098226043,
-        "put_charm_usd_day": -2266953.178738873,
-        "net_charm_usd_day": -2125761.7877566125
+        "call_charm_usd_day": 142261.18153203567,
+        "put_charm_usd_day": -2263443.487675296,
+        "net_charm_usd_day": -2121182.3061432606
       },
       {
         "strike": 80000.0,
-        "call_charm_usd_day": 906826.2952319905,
-        "put_charm_usd_day": -6717597.436076142,
-        "net_charm_usd_day": -5810771.140844151
+        "call_charm_usd_day": 920624.3652630394,
+        "put_charm_usd_day": -6763715.039729386,
+        "net_charm_usd_day": -5843090.674466346
       },
       {
         "strike": 81000.0,
-        "call_charm_usd_day": 629607.9089585112,
-        "put_charm_usd_day": -2190785.8242777735,
-        "net_charm_usd_day": -1561177.9153192623
+        "call_charm_usd_day": 636169.5365009313,
+        "put_charm_usd_day": -2213272.9990574783,
+        "net_charm_usd_day": -1577103.462556547
       },
       {
         "strike": 83500.0,
-        "call_charm_usd_day": -1073081.3598591653,
-        "put_charm_usd_day": 204786.8232337573,
-        "net_charm_usd_day": -868294.536625408
+        "call_charm_usd_day": -1042175.902975812,
+        "put_charm_usd_day": 199009.63563978867,
+        "net_charm_usd_day": -843166.2673360233
       },
       {
         "strike": 84000.0,
-        "call_charm_usd_day": -2532793.3160370975,
-        "put_charm_usd_day": 593479.317230371,
-        "net_charm_usd_day": -1939313.9988067267
+        "call_charm_usd_day": -2541369.7952852906,
+        "put_charm_usd_day": 580332.5365807776,
+        "net_charm_usd_day": -1961037.2587045128
       },
       {
         "strike": 84500.0,
-        "call_charm_usd_day": -3724541.970620784,
-        "put_charm_usd_day": 39329.73736233068,
-        "net_charm_usd_day": -3685212.233258453
+        "call_charm_usd_day": -3737860.6704441053,
+        "put_charm_usd_day": 39757.129204438344,
+        "net_charm_usd_day": -3698103.5412396668
       },
       {
         "strike": 85000.0,
-        "call_charm_usd_day": -5264972.3311621575,
-        "put_charm_usd_day": 526169.1469163114,
-        "net_charm_usd_day": -4738803.184245846
+        "call_charm_usd_day": -5356474.32600219,
+        "put_charm_usd_day": 524143.7569168316,
+        "net_charm_usd_day": -4832330.569085359
       },
       {
         "strike": 85500.0,
-        "call_charm_usd_day": -918891.6723960518,
+        "call_charm_usd_day": -1008291.7942053913,
         "put_charm_usd_day": 0.0,
-        "net_charm_usd_day": -918891.6723960518
+        "net_charm_usd_day": -1008291.7942053913
       },
       {
         "strike": 86000.0,
-        "call_charm_usd_day": -2458823.9067907524,
-        "put_charm_usd_day": 551373.3778058435,
-        "net_charm_usd_day": -1907450.528984909
+        "call_charm_usd_day": -2492872.1893880763,
+        "put_charm_usd_day": 549738.8980776866,
+        "net_charm_usd_day": -1943133.2913103898
       },
       {
         "strike": 87000.0,
-        "call_charm_usd_day": -2245544.651847288,
-        "put_charm_usd_day": 385271.33176473004,
-        "net_charm_usd_day": -1860273.3200825579
+        "call_charm_usd_day": -2254624.6540468773,
+        "put_charm_usd_day": 385464.3995646387,
+        "net_charm_usd_day": -1869160.2544822386
       },
       {
         "strike": 88000.0,
-        "call_charm_usd_day": -2257364.947673675,
-        "put_charm_usd_day": 557648.8239815023,
-        "net_charm_usd_day": -1699716.1236921728
+        "call_charm_usd_day": -2259186.946104097,
+        "put_charm_usd_day": 556832.4622120729,
+        "net_charm_usd_day": -1702354.4838920243
       },
       {
         "strike": 89000.0,
-        "call_charm_usd_day": -1490385.9744740683,
-        "put_charm_usd_day": 31117.356808284232,
-        "net_charm_usd_day": -1459268.617665784
+        "call_charm_usd_day": -1498011.0424316484,
+        "put_charm_usd_day": 31193.264935345018,
+        "net_charm_usd_day": -1466817.7774963034
       },
       {
         "strike": 90000.0,
-        "call_charm_usd_day": -11254128.995579647,
-        "put_charm_usd_day": 111789.11887199417,
-        "net_charm_usd_day": -11142339.876707653
+        "call_charm_usd_day": -11277072.73663118,
+        "put_charm_usd_day": 111619.92961737252,
+        "net_charm_usd_day": -11165452.807013806
       },
       {
         "strike": 91000.0,
-        "call_charm_usd_day": -975450.8438378526,
-        "put_charm_usd_day": 1965.2888401225562,
-        "net_charm_usd_day": -973485.5549977301
+        "call_charm_usd_day": -977424.5198681848,
+        "put_charm_usd_day": 1969.5218562223833,
+        "net_charm_usd_day": -975454.9980119624
       },
       {
         "strike": 92000.0,
-        "call_charm_usd_day": -1949338.1685014102,
-        "put_charm_usd_day": 6114.624467468514,
-        "net_charm_usd_day": -1943223.5440339416
+        "call_charm_usd_day": -1958072.108455454,
+        "put_charm_usd_day": 6111.919763650615,
+        "net_charm_usd_day": -1951960.1886918035
       },
       {
         "strike": 94000.0,
-        "call_charm_usd_day": -1011063.1993259779,
-        "put_charm_usd_day": 3058.5237244813793,
-        "net_charm_usd_day": -1008004.6756014966
+        "call_charm_usd_day": -1016170.435007412,
+        "put_charm_usd_day": 3057.4004311988247,
+        "net_charm_usd_day": -1013113.0345762132
       },
       {
         "strike": 95000.0,
-        "call_charm_usd_day": -10064775.237487892,
-        "put_charm_usd_day": 99115.14181960937,
-        "net_charm_usd_day": -9965660.095668282
+        "call_charm_usd_day": -10126727.114335822,
+        "put_charm_usd_day": 99593.4610993421,
+        "net_charm_usd_day": -10027133.65323648
       },
       {
         "strike": 96000.0,
-        "call_charm_usd_day": -967859.8812703688,
-        "put_charm_usd_day": 8523.36013618503,
-        "net_charm_usd_day": -959336.5211341837
+        "call_charm_usd_day": -970954.8664623762,
+        "put_charm_usd_day": 8522.958769231334,
+        "net_charm_usd_day": -962431.9076931449
       },
       {
         "strike": 98000.0,
-        "call_charm_usd_day": -872271.1831116622,
-        "put_charm_usd_day": 7379.993026460115,
-        "net_charm_usd_day": -864891.190085202
+        "call_charm_usd_day": -877328.3290891105,
+        "put_charm_usd_day": 7442.943183429239,
+        "net_charm_usd_day": -869885.3859056813
       },
       {
         "strike": 100000.0,
-        "call_charm_usd_day": -3829011.771736387,
-        "put_charm_usd_day": 54311.096565518834,
-        "net_charm_usd_day": -3774700.675170868
+        "call_charm_usd_day": -3846157.677295945,
+        "put_charm_usd_day": 54361.018993686586,
+        "net_charm_usd_day": -3791796.6583022587
       }
     ],
-    "zero_gamma": 79533.35644084711,
+    "zero_gamma": 79534.49150713827,
     "iv": {
-      "current_dvol": 30.925190279871586,
-      "iv_rank_pct": 5.267206472686208,
-      "iv_percentile_pct": 2.083333333333333,
+      "current_dvol": 30.905423611409873,
+      "iv_rank_pct": 2.681149796675795,
+      "iv_percentile_pct": 1.0416666666666665,
       "history_samples": 384
     },
     "methodology": {
@@ -1383,5 +1383,5 @@
       "iv": "IV Rank = (current-min)/(max-min); IV Percentile = share of historical DVOL observations <= current."
     }
   },
-  "iv_percentile_pct": 2.083333333333333
+  "iv_percentile_pct": 1.0416666666666665
 }
