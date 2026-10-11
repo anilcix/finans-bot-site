@@ -1,104 +1,104 @@
 {
   "movers": [
     {
-      "symbol": "MORPHO",
-      "name": "Morpho",
-      "coingecko_id": "morpho",
+      "symbol": "APT",
+      "name": "Aptos",
+      "coingecko_id": "aptos",
       "exchange": "ana piyasa",
-      "exchange_symbol": "MORPHOUSDT",
-      "price": 2.42,
-      "change_24h": 2.39699,
-      "volume_zscore_15m": 3.6372766366883127,
-      "pine_z_delta_15m": 4.287374595254666,
-      "pine_raw_delta_15m_base": 42274.74,
-      "pine_delta_mean_20": 4031.4035,
-      "pine_delta_stdev_20": 8919.989529799503,
+      "exchange_symbol": "APTUSDT",
+      "price": 0.848955,
+      "change_24h": 4.40708,
+      "volume_zscore_15m": 2.861152371230668,
+      "pine_z_delta_15m": 2.48401315897714,
+      "pine_raw_delta_15m_base": 100219.99,
+      "pine_delta_mean_20": 2900.6899999999996,
+      "pine_delta_stdev_20": 39178.25461120901,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 50043.4,
-      "base_volume_mean_20": 6984.9475,
-      "base_volume_stdev_20": 11838.10218493694,
-      "volume_15m_usd": 121027.63237,
-      "buyer_share_pct": 67.13230829106071,
-      "taker_buy_15m_usd": 81248.64328,
-      "taker_sell_15m_usd": 39778.98909,
-      "spot_delta_15m_usd": 41469.65419,
-      "price_change_15m_pct": 0.45567522783760417,
+      "base_volume_15m": 174248.03,
+      "base_volume_mean_20": 82483.759,
+      "base_volume_stdev_20": 32072.486569643756,
+      "volume_15m_usd": 147869.492334,
+      "buyer_share_pct": 65.08113788382326,
+      "taker_buy_15m_usd": 96235.14819400001,
+      "taker_sell_15m_usd": 51634.34414,
+      "spot_delta_15m_usd": 44600.80405400001,
+      "price_change_15m_pct": 1.032273374466075,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1791714600000,
-          "delta_usd": 6685.371199999998,
-          "green": true
-        },
-        {
           "ts": 1791715500000,
-          "delta_usd": 18078.53499,
+          "delta_usd": 5231.424675000002,
           "green": true
         },
         {
           "ts": 1791716400000,
-          "delta_usd": 41469.65419,
+          "delta_usd": 8056.695324,
+          "green": true
+        },
+        {
+          "ts": 1791717300000,
+          "delta_usd": 44600.80405400001,
           "green": true
         }
       ],
       "cvd_green_count_3": 3,
       "cvd_green_streak": 3,
-      "cvd_45m_delta_usd": 66233.56038,
+      "cvd_45m_delta_usd": 57888.92405300001,
       "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 3×15dk CVD yeşil",
-      "signal_score": 10.687882061049049,
+      "signal_score": 7.903279318590134,
       "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-10-11T11:00:00+00:00"
+      "signal_time_utc": "2026-10-11T11:15:00+00:00"
     },
     {
-      "symbol": "LDO",
-      "name": "Lido DAO",
-      "coingecko_id": "lido-dao",
+      "symbol": "MET",
+      "name": "Meteora",
+      "coingecko_id": "meteora",
       "exchange": "ana piyasa",
-      "exchange_symbol": "LDOUSDT",
-      "price": 0.428361,
-      "change_24h": -1.74632,
-      "volume_zscore_15m": 3.2942718893512355,
-      "pine_z_delta_15m": 2.9080855917662287,
-      "pine_raw_delta_15m_base": 149850.84,
-      "pine_delta_mean_20": 407.5229999999989,
-      "pine_delta_stdev_20": 51388.89908299964,
+      "exchange_symbol": "METUSDT",
+      "price": 0.417039,
+      "change_24h": -4.06041,
+      "volume_zscore_15m": 2.694603706608421,
+      "pine_z_delta_15m": 1.2993642223641744,
+      "pine_raw_delta_15m_base": 73219.8,
+      "pine_delta_mean_20": 15297.475,
+      "pine_delta_stdev_20": 44577.435643572804,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 309907.48,
-      "base_volume_mean_20": 79102.196,
-      "base_volume_stdev_20": 70062.60920541508,
-      "volume_15m_usd": 132759.560119,
-      "buyer_share_pct": 72.65055825700676,
-      "taker_buy_15m_usd": 96450.561566,
-      "taker_sell_15m_usd": 36308.998553,
-      "spot_delta_15m_usd": 60141.563013000006,
-      "price_change_15m_pct": -0.11655011655011815,
-      "price_candle_green": false,
+      "base_volume_15m": 226821.0,
+      "base_volume_mean_20": 92017.495,
+      "base_volume_stdev_20": 50027.209815454175,
+      "volume_15m_usd": 94563.90437,
+      "buyer_share_pct": 66.18824244513371,
+      "taker_buy_15m_usd": 62590.18629,
+      "taker_sell_15m_usd": 31973.718080000006,
+      "spot_delta_15m_usd": 30616.46820999999,
+      "price_change_15m_pct": 0.023934897079946893,
+      "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1791714600000,
-          "delta_usd": 6995.339361000002,
-          "green": true
-        },
-        {
           "ts": 1791715500000,
-          "delta_usd": 11336.101605999997,
+          "delta_usd": 10059.250610000003,
           "green": true
         },
         {
           "ts": 1791716400000,
-          "delta_usd": 60141.563013000006,
+          "delta_usd": 3574.74395,
+          "green": true
+        },
+        {
+          "ts": 1791717300000,
+          "delta_usd": 30616.46820999999,
           "green": true
         }
       ],
       "cvd_green_count_3": 3,
       "cvd_green_streak": 3,
-      "cvd_45m_delta_usd": 78473.00398000001,
+      "cvd_45m_delta_usd": 44250.46277,
       "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 3×15dk CVD yeşil",
-      "signal_score": 9.517413306818142,
+      "signal_score": 6.662792173485966,
       "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-10-11T11:00:00+00:00"
+      "signal_time_utc": "2026-10-11T11:15:00+00:00"
     }
   ],
   "window": "15m",
@@ -119,5 +119,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-10-11T11:16:25.289976+00:00"
+  "generated_at": "2026-10-11T11:34:05.493042+00:00"
 }

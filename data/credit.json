@@ -8801,189 +8801,286 @@
       "phase": "Contraction (Kriz)"
     }
   ],
+  "signal_timing": {
+    "available": true,
+    "phase": "Contraction (Kriz)",
+    "signal_start": "2026-10-05",
+    "last_observation": "2026-10-09",
+    "age_weeks": 1,
+    "age_days_approx": 7,
+    "episode_count": 6,
+    "from_start": {
+      "1m": {
+        "n": 5,
+        "mean": 0.25025718810606656,
+        "median": 1.2921640101048792,
+        "positive_pct": 60.0
+      },
+      "3m": {
+        "n": 5,
+        "mean": 9.443157886032303,
+        "median": 10.193231859349838,
+        "positive_pct": 100.0
+      },
+      "6m": {
+        "n": 5,
+        "mean": 12.559564196010623,
+        "median": 12.107783490936153,
+        "positive_pct": 80.0
+      },
+      "12m": {
+        "n": 4,
+        "mean": 18.552247740595206,
+        "median": 16.49500067421271,
+        "positive_pct": 100.0
+      }
+    },
+    "from_current_stage": {
+      "1m": {
+        "n": 5,
+        "mean": 2.376474595753597,
+        "median": 1.2057612337810664,
+        "positive_pct": 60.0
+      },
+      "3m": {
+        "n": 5,
+        "mean": 9.870477592591262,
+        "median": 9.55071665927365,
+        "positive_pct": 100.0
+      },
+      "6m": {
+        "n": 5,
+        "mean": 12.737422872006173,
+        "median": 14.518949132039193,
+        "positive_pct": 80.0
+      },
+      "12m": {
+        "n": 4,
+        "mean": 19.891045891159393,
+        "median": 15.276017165480948,
+        "positive_pct": 100.0
+      }
+    },
+    "method": "Haftalık HY OAS + S&P 500. Aynı evredeki ardışık haftalar tek olay sayılır. Benzer aşama: mevcut sinyal yaşı ±2 hafta toleransıyla her olaydan en fazla bir gözlem. Sinyal haftasının değil, sonraki haftanın S&P 500 fiyatından giriş; sonrasındaki 1/3/6/12 aylık fiyat getirisi. Günlük sinyal başlangıcı ve gerçek veri yayımlanma saati ölçülmez; sonuçlar tahmin değildir."
+  },
   "phase_forward_stats": {
     "by_phase": {
       "Expansion (Boğa)": {
         "1m": {
-          "mean": -0.04568224125337755,
-          "median": 0.788139830780521,
-          "positive_pct": 57.89473684210527,
-          "n": 19,
-          "ci95": [
-            -2.0086720376866927,
-            1.4851187958993195
-          ]
+          "mean": 1.9708955360016442,
+          "median": 2.034001557371279,
+          "positive_pct": 71.42857142857143,
+          "n": 7,
+          "episode_count": 9,
+          "worst": -0.3872326403944415,
+          "best": 5.645496177768372,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         },
         "3m": {
-          "mean": 1.1440689191343076,
-          "median": 2.4017924888229514,
-          "positive_pct": 68.75,
-          "n": 16,
-          "ci95": [
-            -1.0138165737982625,
-            3.5083444637267807
-          ]
+          "mean": 3.7845477152991,
+          "median": 5.424142790887876,
+          "positive_pct": 75.0,
+          "n": 4,
+          "episode_count": 9,
+          "worst": -2.8593597041337904,
+          "best": 7.1492649835544375,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         },
         "6m": {
-          "mean": 5.519547935506754,
-          "median": 7.42589647637153,
-          "positive_pct": 76.92307692307693,
-          "n": 13,
-          "ci95": [
-            2.052740771329465,
-            8.774615211330884
-          ]
+          "mean": 8.484162830112673,
+          "median": 8.484162830112673,
+          "positive_pct": 100.0,
+          "n": 2,
+          "episode_count": 9,
+          "worst": 3.9885831911016023,
+          "best": 12.979742469123746,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         },
         "12m": {
-          "mean": 15.462437987264709,
-          "median": 14.79722219311872,
+          "mean": 17.879982324070674,
+          "median": 17.879982324070674,
           "positive_pct": 100.0,
-          "n": 9,
-          "ci95": [
-            14.292592462068924,
-            16.834572819670683
-          ]
+          "n": 2,
+          "episode_count": 9,
+          "worst": 16.673331960395466,
+          "best": 19.086632687745887,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         }
       },
       "Late Cycle (Dikkat)": {
         "1m": {
-          "mean": 2.1391873403118655,
-          "median": 2.1391873403118655,
+          "mean": 2.770396212148918,
+          "median": 2.405816686808171,
           "positive_pct": 100.0,
-          "n": 2,
-          "ci95": [
-            1.2251436589986175,
-            3.0532310216251135
-          ]
+          "n": 5,
+          "episode_count": 5,
+          "worst": 1.1745996962725824,
+          "best": 4.840029428755543,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         },
         "3m": {
-          "mean": 4.206551574026562,
-          "median": 4.206551574026562,
-          "positive_pct": 100.0,
-          "n": 2,
-          "ci95": [
-            2.1042518735703286,
-            6.308851274482796
-          ]
+          "mean": 2.9504515736601484,
+          "median": 4.133698395262419,
+          "positive_pct": 75.0,
+          "n": 4,
+          "episode_count": 5,
+          "worst": -4.021017293924089,
+          "best": 7.555426798039844,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         },
         "6m": {
-          "mean": 7.5463045607958135,
-          "median": 7.5463045607958135,
+          "mean": 5.7582574517704765,
+          "median": 5.7582574517704765,
           "positive_pct": 100.0,
           "n": 2,
-          "ci95": [
-            6.844066156497419,
-            8.248542965094208
-          ]
+          "episode_count": 5,
+          "worst": 0.229645856753935,
+          "best": 11.286869046787018,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         },
         "12m": {
-          "mean": 17.34473754614573,
-          "median": 17.34473754614573,
+          "mean": 17.032822780660695,
+          "median": 17.032822780660695,
           "positive_pct": 100.0,
-          "n": 2,
-          "ci95": [
-            16.018116873860965,
-            18.67135821843049
-          ]
+          "n": 1,
+          "episode_count": 5,
+          "worst": 17.032822780660695,
+          "best": 17.032822780660695,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         }
       },
       "Recovery (Toparlanma)": {
         "1m": {
-          "mean": 1.0519206922211977,
-          "median": 1.0519206922211977,
-          "positive_pct": 100.0,
-          "n": 1,
-          "ci95": [
-            1.0519206922211977,
-            1.0519206922211977
-          ]
+          "mean": -1.1062588066340835,
+          "median": -0.7989704152986443,
+          "positive_pct": 50.0,
+          "n": 4,
+          "episode_count": 6,
+          "worst": -6.790574061896093,
+          "best": 3.963479665957048,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         },
         "3m": {
-          "mean": 4.141650593366353,
-          "median": 4.141650593366353,
+          "mean": 3.9255211302632467,
+          "median": 4.653762108173187,
           "positive_pct": 100.0,
-          "n": 1,
-          "ci95": [
-            4.141650593366353,
-            4.141650593366353
-          ]
+          "n": 3,
+          "episode_count": 6,
+          "worst": 1.8245815539886356,
+          "best": 5.298219728627918,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         },
         "6m": {
-          "mean": 6.933517645069287,
-          "median": 6.933517645069287,
+          "mean": 11.542780991788893,
+          "median": 11.542780991788893,
           "positive_pct": 100.0,
-          "n": 1,
-          "ci95": [
-            6.933517645069287,
-            6.933517645069287
-          ]
+          "n": 2,
+          "episode_count": 6,
+          "worst": 5.497750043657579,
+          "best": 17.587811939920208,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         },
         "12m": {
-          "mean": 17.21981680394307,
-          "median": 17.21981680394307,
+          "mean": 14.80213554337093,
+          "median": 14.80213554337093,
           "positive_pct": 100.0,
           "n": 1,
-          "ci95": [
-            17.21981680394307,
-            17.21981680394307
-          ]
+          "episode_count": 6,
+          "worst": 14.80213554337093,
+          "best": 14.80213554337093,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         }
       },
       "Contraction (Kriz)": {
         "1m": {
-          "mean": 4.898204411254111,
-          "median": 3.9569734593819517,
-          "positive_pct": 85.71428571428571,
-          "n": 7,
-          "ci95": [
-            1.71579034326172,
-            8.53567811843145
-          ]
+          "mean": -1.0694757153545538,
+          "median": 0.14679352449312733,
+          "positive_pct": 50.0,
+          "n": 4,
+          "episode_count": 6,
+          "worst": -7.414430748101964,
+          "best": 2.842940837697494,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         },
         "3m": {
-          "mean": 11.083840356244044,
-          "median": 9.55071665927365,
+          "mean": 8.833030653895882,
+          "median": 10.193231859349838,
           "positive_pct": 100.0,
-          "n": 7,
-          "ci95": [
-            7.358418301514301,
-            15.913577139149558
-          ]
+          "n": 3,
+          "episode_count": 6,
+          "worst": 5.696000669532331,
+          "best": 10.609859432805479,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         },
         "6m": {
-          "mean": 15.997310325983609,
-          "median": 15.856716296605455,
-          "positive_pct": 85.71428571428571,
-          "n": 7,
-          "ci95": [
-            8.833481758352937,
-            23.063956545889884
-          ]
+          "mean": 13.74655577542457,
+          "median": 12.107783490936153,
+          "positive_pct": 100.0,
+          "n": 3,
+          "episode_count": 6,
+          "worst": 10.089208854705856,
+          "best": 19.042674980631702,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         },
         "12m": {
-          "mean": 24.218355458335868,
-          "median": 27.14154710079597,
+          "mean": 16.12368555047936,
+          "median": 16.12368555047936,
           "positive_pct": 100.0,
-          "n": 5,
-          "ci95": [
-            19.590233947029027,
-            28.609603429625775
-          ]
+          "n": 1,
+          "episode_count": 6,
+          "worst": 16.12368555047936,
+          "best": 16.12368555047936,
+          "ci95": null,
+          "reliable": false,
+          "train_test": "Ayrı bir eğitim/test ayrımı yapılmadı; kurallar sabittir."
         }
       }
     },
     "current_phase": "Contraction (Kriz)",
-    "method": "10 yıllık haftalık S&P 500 + HY OAS; fazlar aynı modelimizle; gözlemler 4 haftada bir. Küçük örneklem ve örtüşen ileri getiri pencereleri nedeniyle sonuçlar tahmin değildir."
+    "data_start": "2024-07-22",
+    "data_end": "2026-10-09",
+    "episode_count": 26,
+    "method": "Mevcut ortak HY OAS/S&P 500 verisi (en fazla 30 yıl); her evrenin ilk haftasından sonraki hafta giriş. Aynı fazda ileri getiri pencereleri örtüşen olaylar elenir. %95 bootstrap yalnız N>=10 iken gösterilir. Bu bir tahmin değildir; gerçek zamanlı yayın gecikmesi ve bağımsız eğitim/test doğrulaması henüz modellenmedi."
   },
   "phase_contrasts": [
     {
       "contrast": "Recovery (Toparlanma) − Contraction (Kriz)",
-      "difference_pp": -6.998538654392799,
+      "difference_pp": -1.3215500071084314,
       "note": "Pozitif fark ilk faz lehine; örneklem ve bootstrap CI ile birlikte okunmalı."
     },
     {
       "contrast": "Late Cycle (Dikkat) − Expansion (Boğa)",
-      "difference_pp": 1.8822995588810212,
+      "difference_pp": -0.8471595434099797,
       "note": "Pozitif fark ilk faz lehine; örneklem ve bootstrap CI ile birlikte okunmalı."
     }
   ],
@@ -22207,5 +22304,5 @@
   "unavailable": [
     "CDS spreadleri (Bloomberg/Markit ücretli)"
   ],
-  "generated_at": "2026-10-11T11:16:25.289976+00:00"
+  "generated_at": "2026-10-11T11:34:05.493042+00:00"
 }
