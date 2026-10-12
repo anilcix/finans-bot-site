@@ -1,5 +1,56 @@
 {
-  "movers": [],
+  "movers": [
+    {
+      "symbol": "XAUT",
+      "name": "Tether Gold",
+      "coingecko_id": "tether-gold",
+      "exchange": "ana piyasa",
+      "exchange_symbol": "XAUTUSDT",
+      "price": 4167.37,
+      "change_24h": -0.25501,
+      "volume_zscore_15m": 2.036430070188002,
+      "pine_z_delta_15m": 1.1130120919178945,
+      "pine_raw_delta_15m_base": 8.073000000000002,
+      "pine_delta_mean_20": -3.161485,
+      "pine_delta_stdev_20": 10.09376724797412,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_15m": 43.293600000000005,
+      "base_volume_mean_20": 14.321905000000001,
+      "base_volume_stdev_20": 14.226707523192955,
+      "volume_15m_usd": 180585.975672,
+      "buyer_share_pct": 76.912914089339,
+      "taker_buy_15m_usd": 138893.936326,
+      "taker_sell_15m_usd": 41692.039346000005,
+      "spot_delta_15m_usd": 97201.89697999999,
+      "price_change_15m_pct": 0.09380908052705195,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1791840600000,
+          "delta_usd": 264.5074199999981,
+          "green": true
+        },
+        {
+          "ts": 1791841500000,
+          "delta_usd": -28182.248260999993,
+          "green": false
+        },
+        {
+          "ts": 1791842400000,
+          "delta_usd": 97201.89697999999,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 1,
+      "cvd_45m_delta_usd": 69284.156139,
+      "cvd_note": "✅ Pine Z-Delta + true Spot CVD aynı yönde",
+      "signal_score": 6.190733571039796,
+      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
+      "signal_time_utc": "2026-10-12T22:00:00+00:00"
+    }
+  ],
   "window": "15m",
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
   "scan_meta": {
@@ -8,7 +59,7 @@
     "binance_spot_matched": 110,
     "scanned": 110,
     "failed": 0,
-    "signal_count_before_cap": 0,
+    "signal_count_before_cap": 1,
     "max_results": 10,
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
@@ -18,5 +69,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-10-12T11:28:54.755636+00:00"
+  "generated_at": "2026-10-12T22:19:36.611985+00:00"
 }
