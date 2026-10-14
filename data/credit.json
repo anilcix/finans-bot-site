@@ -8794,7 +8794,15 @@
     },
     {
       "date": "2026-10-12",
-      "sp500": 7807.240234375,
+      "sp500": 7805.4501953125,
+      "hy": 3.11,
+      "hy_200dma": 2.8431,
+      "hy_6m_change": 0.2599999999999998,
+      "phase": "Contraction (Kriz)"
+    },
+    {
+      "date": "2026-10-13",
+      "sp500": 7805.4501953125,
       "hy": 3.11,
       "hy_200dma": 2.8431,
       "hy_6m_change": 0.2599999999999998,
@@ -8805,9 +8813,9 @@
     "available": true,
     "phase": "Contraction (Kriz)",
     "signal_start": "2026-10-05",
-    "last_observation": "2026-10-12",
-    "age_weeks": 1,
-    "age_days_approx": 7,
+    "last_observation": "2026-10-13",
+    "age_weeks": 2,
+    "age_days_approx": 14,
     "episode_count": 6,
     "from_start": {
       "1m": {
@@ -8838,25 +8846,25 @@
     "from_current_stage": {
       "1m": {
         "n": 5,
-        "mean": 2.376474595753597,
-        "median": 1.2057612337810664,
-        "positive_pct": 60.0
+        "mean": 1.8471089032577037,
+        "median": 1.2190331806982035,
+        "positive_pct": 80.0
       },
       "3m": {
         "n": 5,
-        "mean": 9.870477592591262,
-        "median": 9.55071665927365,
+        "mean": 9.65674340753881,
+        "median": 10.609859432805479,
         "positive_pct": 100.0
       },
       "6m": {
         "n": 5,
-        "mean": 12.737422872006173,
-        "median": 14.518949132039193,
+        "mean": 12.278794824213135,
+        "median": 15.451759495977434,
         "positive_pct": 80.0
       },
       "12m": {
         "n": 4,
-        "mean": 19.891045891159393,
+        "mean": 18.58742227584595,
         "median": 15.276017165480948,
         "positive_pct": 100.0
       }
@@ -9068,7 +9076,7 @@
     },
     "current_phase": "Contraction (Kriz)",
     "data_start": "2024-07-22",
-    "data_end": "2026-10-12",
+    "data_end": "2026-10-13",
     "episode_count": 26,
     "method": "Mevcut ortak HY OAS/S&P 500 verisi (en fazla 30 yıl); her evrenin ilk haftasından sonraki hafta giriş. Aynı fazda ileri getiri pencereleri örtüşen olaylar elenir. %95 bootstrap yalnız N>=10 iken gösterilir. Bu bir tahmin değildir; gerçek zamanlı yayın gecikmesi ve bağımsız eğitim/test doğrulaması henüz modellenmedi."
   },
@@ -22264,7 +22272,11 @@
       },
       {
         "date": "2026-10-12",
-        "value": 7807.240234375
+        "value": 7805.4501953125
+      },
+      {
+        "date": "2026-10-13",
+        "value": 7805.4501953125
       }
     ]
   },
@@ -22272,5 +22284,5 @@
   "unavailable": [
     "CDS spreadleri (Bloomberg/Markit ücretli)"
   ],
-  "generated_at": "2026-10-13T23:32:25.718116+00:00"
+  "generated_at": "2026-10-14T02:49:46.829265+00:00"
 }
