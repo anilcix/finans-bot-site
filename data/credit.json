@@ -8801,8 +8801,8 @@
       "phase": "Contraction (Kriz)"
     },
     {
-      "date": "2026-10-13",
-      "sp500": 7805.4501953125,
+      "date": "2026-10-14",
+      "sp500": 7754.56005859375,
       "hy": 3.11,
       "hy_200dma": 2.8431,
       "hy_6m_change": 0.2599999999999998,
@@ -8813,7 +8813,7 @@
     "available": true,
     "phase": "Contraction (Kriz)",
     "signal_start": "2026-10-05",
-    "last_observation": "2026-10-13",
+    "last_observation": "2026-10-14",
     "age_weeks": 2,
     "age_days_approx": 14,
     "episode_count": 6,
@@ -9076,7 +9076,7 @@
     },
     "current_phase": "Contraction (Kriz)",
     "data_start": "2024-07-22",
-    "data_end": "2026-10-13",
+    "data_end": "2026-10-14",
     "episode_count": 26,
     "method": "Mevcut ortak HY OAS/S&P 500 verisi (en fazla 30 yıl); her evrenin ilk haftasından sonraki hafta giriş. Aynı fazda ileri getiri pencereleri örtüşen olaylar elenir. %95 bootstrap yalnız N>=10 iken gösterilir. Bu bir tahmin değildir; gerçek zamanlı yayın gecikmesi ve bağımsız eğitim/test doğrulaması henüz modellenmedi."
   },
@@ -21643,10 +21643,6 @@
     ],
     "sp500": [
       {
-        "date": "2023-10-09",
-        "value": 4327.77978515625
-      },
-      {
         "date": "2023-10-16",
         "value": 4224.16015625
       },
@@ -22275,8 +22271,8 @@
         "value": 7805.4501953125
       },
       {
-        "date": "2026-10-13",
-        "value": 7805.4501953125
+        "date": "2026-10-14",
+        "value": 7753.1298828125
       }
     ]
   },
@@ -22284,5 +22280,5 @@
   "unavailable": [
     "CDS spreadleri (Bloomberg/Markit ücretli)"
   ],
-  "generated_at": "2026-10-14T09:09:51.577442+00:00"
+  "generated_at": "2026-10-14T14:47:42.753853+00:00"
 }
