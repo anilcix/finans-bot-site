@@ -1,65 +1,14 @@
 {
-  "movers": [
-    {
-      "symbol": "WLD",
-      "name": "Worldcoin",
-      "coingecko_id": "worldcoin-wld",
-      "exchange": "ana piyasa",
-      "exchange_symbol": "WLDUSDT",
-      "price": 0.476742,
-      "change_24h": -2.64217,
-      "volume_zscore_15m": 2.1548399059558965,
-      "pine_z_delta_15m": 1.741378467248761,
-      "pine_raw_delta_15m_base": 1110276.7,
-      "pine_delta_mean_20": -8997.614999999993,
-      "pine_delta_stdev_20": 642751.8980226992,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 2217954.9,
-      "base_volume_mean_20": 812239.9249999999,
-      "base_volume_stdev_20": 652352.3956998646,
-      "volume_15m_usd": 1060974.65854,
-      "buyer_share_pct": 67.97193560422924,
-      "taker_buy_15m_usd": 721165.01168,
-      "taker_sell_15m_usd": 339809.64686,
-      "spot_delta_15m_usd": 381355.36482,
-      "price_change_15m_pct": -0.8118234804329716,
-      "price_candle_green": false,
-      "cvd_last3": [
-        {
-          "ts": 1792071900000,
-          "delta_usd": -91764.18620999999,
-          "green": false
-        },
-        {
-          "ts": 1792072800000,
-          "delta_usd": 40895.95669000002,
-          "green": true
-        },
-        {
-          "ts": 1792073700000,
-          "delta_usd": 381355.36482,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_45m_delta_usd": 330487.1353000001,
-      "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 2×15dk CVD yeşil",
-      "signal_score": 6.393411933627582,
-      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-10-15T14:15:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "15m",
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 190,
-    "binance_spot_matched": 109,
-    "scanned": 109,
+    "binance_spot_matched": 110,
+    "scanned": 110,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 0,
     "max_results": 10,
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
@@ -69,5 +18,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-10-15T14:33:23.238442+00:00"
+  "generated_at": "2026-10-15T18:47:02.825722+00:00"
 }
