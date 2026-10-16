@@ -1,12 +1,12 @@
 {
-  "market_score": 44.3,
+  "market_score": 44.4,
   "stance": "Temkinli Risk-Off",
   "confidence": 75.0,
   "component_scores": {
     "macro": 36.2,
     "credit": 5,
     "options": 68,
-    "crypto": 59.2,
+    "crypto": 59.8,
     "crypto_derivatives": 66,
     "equities": 51.0,
     "news": 50
@@ -31,20 +31,65 @@
         "topic": "Bitcoin",
         "tone": "karışık",
         "count": 10,
-        "digest": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS | Analiz, video ve canlı fiyat güncellemeleri ile kripto para, Bitcoin, Ethereum, XRP, blockchain, DeFi, dijital finans ve Web 3.0 haberlerinde lider. Federal bir çerçeve olmadan, finans firmaları uyumluluğu ve altyapıyı kendi başlarına standartlaştırmaktadır.",
+        "digest": "XRP 2017 döngüsünün en yüksek seviyesinin altında kalırken, Bitcoin, Ethereum ve diğer büyük tokenlar yükselişe geçerek sahiplerini zenginleştirdi. Token hala 2017 döngüsünün en yüksek seviyesinin oldukça altında işlem görürken, diğer büyük kripto para birimlerinin çoğu kendi seviyelerinin çok… | Olay, 26 Haziran'da GPT-5.6 Sol ailesindeki dahili bir modelin eğitimi sırasında meydana geldi ve OpenAI bunu Eylül ayında keşfetti. Çekirdek ifade olarak da adlandırılan kurtarma ifadesi, bir cüzdanın gizli anahtarlarını oluşturan kelimelerin bir listesidir; Bu kelimelere sahip olan kişi…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.1; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0044."
+        "data_confirmation": "BTC 24s %+1.2; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0069."
       },
       {
         "topic": "Makro / Fed / Hazine",
         "tone": "karışık",
         "count": 2,
-        "digest": "Çalışma İstatistikleri Bürosu, geniş çalışma ekonomisi ve istatistik alanında Federal Hükümet için temel araştırma kuruluşudur. Nihai talep için Üretici Fiyat Endeksi Eylül ayında yüzde 1,3 arttı. | QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+        "digest": "Çalışma İstatistikleri Bürosu, çalışma ekonomisi ve istatistiklerinin geniş alanında Federal Hükümetin başlıca bilgi toplama kurumudur. Nihai talebe ilişkin Üretici Fiyat Endeksi Eylül ayında yüzde 1,3 arttı. | Salı günü Federal Rezerv Kurulu, mevduat kurumlarına sağlanan indirim oranlarını gözden geçirmek ve belirlemek için yaptığı son toplantıların tutanaklarını yayınladı. Resmi web siteleri .govA'yı kullanır.",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
         "data_confirmation": "Makro skor 36/100; 30Y değişim +0.18 puan."
       }
     ],
     "important_news": [
+      {
+        "title": "XRP has failed to make holders rich like bitcoin and ether. Here’s why",
+        "link": "https://www.coindesk.com/markets/2026/10/16/xrp-has-failed-to-make-holders-rich-like-bitcoin-and-ether-here-s-why",
+        "published_at": "2026-10-16T05:53:58+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "XRP 2017 döngüsünün en yüksek seviyesinin altında kalırken, Bitcoin, Ethereum ve diğer büyük tokenlar yükselişe geçerek sahiplerini zenginleştirdi. Token hala 2017 döngüsünün en yüksek seviyesinin oldukça altında işlem görürken, diğer büyük kripto para birimlerinin çoğu kendi seviyelerinin çok…",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.2; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0069.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+1.2; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0069."
+      },
+      {
+        "title": "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
+        "link": "https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own",
+        "published_at": "2026-10-16T04:29:19+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Olay, 26 Haziran'da GPT-5.6 Sol ailesindeki dahili bir modelin eğitimi sırasında meydana geldi ve OpenAI bunu Eylül ayında keşfetti. Çekirdek ifade olarak da adlandırılan kurtarma ifadesi, bir cüzdanın gizli anahtarlarını oluşturan kelimelerin bir listesidir; Bu kelimelere sahip olan kişi…",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.2; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0069.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+1.2; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0069."
+      },
+      {
+        "title": "Bitcoin buyers snap up a brief drop below $80,000 as Asian stocks rebound",
+        "link": "https://www.coindesk.com/markets/2026/10/16/bitcoin-buyers-snap-up-a-brief-drop-below-usd80-000-as-asian-stocks-rebound",
+        "published_at": "2026-10-16T04:14:22+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Bitcoin, 80.000 doların altına düştükten sonra iki saat içinde 82.500 dolara geriledi ve Seul'deki yonga üreticileri Nisan ayından bu yana en kötü kapanışından sonra toparlandı. Bitcoin iki saat içinde 82.500 dolara yaklaştı ve Asya ticaretinde 81.000 doların üzerinde tutuldu.",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.2; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0069.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+1.2; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0069."
+      },
       {
         "title": "At the White House, crypto policy vacancy looms large",
         "link": "https://www.coindesk.com/news-analysis/2026/10/15/at-the-white-house-crypto-policy-vacancy-looms-large",
@@ -53,12 +98,12 @@
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+        "brief_summary": "Başkan Donald Trump'ın kripto danışmanı Patrick Witt'in ayrılması, dijital varlıklar ofisini boş bıraktı ve politika hedefleri belirsiz kaldı. Başkan Donald Trump geçen yıl Beyaz Saray'a döndüğünde, yalnızca kripto teknolojisine karşı önceki direncini kırmakla kalmadı, aynı zamanda yüksek profilli…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.1; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0044.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.2; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0069.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.1; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0044."
+        "data_confirmation": "BTC 24s %+1.2; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0069."
       },
       {
         "title": "Crypto for Advisors: Wall Street is done waiting on Congress for crypto rules",
@@ -68,12 +113,12 @@
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Analiz, video ve canlı fiyat güncellemeleri ile kripto para, Bitcoin, Ethereum, XRP, blockchain, DeFi, dijital finans ve Web 3.0 haberlerinde lider. Federal bir çerçeve olmadan, finans firmaları uyumluluğu ve altyapıyı kendi başlarına standartlaştırmaktadır.",
+        "brief_summary": "Analiz, video ve canlı fiyat güncellemeleriyle kripto para birimi, Bitcoin, Ethereum, XRP, blockchain, DeFi, dijital finans ve Web 3.0 haberlerinde lider. Federal bir çerçeve olmadan, finansal firmalar uyumluluk ve altyapıyı kendi başlarına standartlaştırıyor.",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.1; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0044.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.2; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0069.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.1; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0044."
+        "data_confirmation": "BTC 24s %+1.2; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0069."
       },
       {
         "title": "How Brooklyn prosecutors and the FBI took down a massive crypto fraud network targeting Russian speakers",
@@ -83,12 +128,12 @@
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+        "brief_summary": "Planın, Rusça Facebook reklamları ve sahte danışmanlar aracılığıyla on milyonlarca dolar çaldığı, ardından sahte kurtarma teklifleriyle yeniden kurbanların peşine düştüğü iddia ediliyor. Brooklyn savcıları ve FBI, ABD'deki Rusça konuşan kurbanlardan on milyonlarca dolar çaldığı iddia edilen bir…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.1; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0044.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.2; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0069.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.1; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0044."
+        "data_confirmation": "BTC 24s %+1.2; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0069."
       },
       {
         "title": "Major Economic Indicators Latest Numbers",
@@ -98,57 +143,12 @@
         "theme": "macro",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Çalışma İstatistikleri Bürosu, geniş çalışma ekonomisi ve istatistik alanında Federal Hükümet için temel araştırma kuruluşudur. Nihai talep için Üretici Fiyat Endeksi Eylül ayında yüzde 1,3 arttı.",
+        "brief_summary": "Çalışma İstatistikleri Bürosu, çalışma ekonomisi ve istatistiklerinin geniş alanında Federal Hükümetin başlıca bilgi toplama kurumudur. Nihai talebe ilişkin Üretici Fiyat Endeksi Eylül ayında yüzde 1,3 arttı.",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
         "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 36/100; 30Y değişim +0.18 puan.",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
         "data_confirmation": "Makro skor 36/100; 30Y değişim +0.18 puan."
-      },
-      {
-        "title": "Under pressure, Ledger unveils plan to turn its crypto hardware wallet into a smartphone",
-        "link": "https://www.coindesk.com/tech/2026/10/15/under-pressure-ledger-unveils-plan-to-turn-its-crypto-hardware-wallet-into-a-smartphone",
-        "published_at": "2026-10-15T12:00:00+00:00",
-        "topic": "Bitcoin",
-        "theme": "crypto",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.1; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0044.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.1; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0044."
-      },
-      {
-        "title": "Bitcoin, copper, stocks, yields all fall; gold rises",
-        "link": "https://www.coindesk.com/daybook-us/2026/10/15/bitcoin-copper-stocks-yields-all-fall-gold-rises",
-        "published_at": "2026-10-15T11:15:00+00:00",
-        "topic": "Bitcoin",
-        "theme": "crypto",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.1; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0044.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.1; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0044."
-      },
-      {
-        "title": "Altcoins lead crypto declines as Asian stocks drop; bitcoin little changed since midnight",
-        "link": "https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower",
-        "published_at": "2026-10-15T10:52:11+00:00",
-        "topic": "Bitcoin",
-        "theme": "crypto",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.1; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0044.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.1; çoklu-borsa OI 24s %-0.6; OI-ağırlıklı funding %+0.0044."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -156,7 +156,7 @@
   "supportive_factors": [
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "Net likidite 3 haftada yaklaşık $+102B arttı; kısa vadede risk varlıkları için likidite rüzgârı destekleyici.",
-    "VIX 16.46 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "VIX 16.01 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
     "BTC yükselişi vadeli piyasa CVD tarafından da teyit ediliyor; agresif alıcı akışı fiyat yönüyle uyumlu.",
     "vadeli piyasa ve vadeli piyasa funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü."
   ],
@@ -167,10 +167,11 @@
     "30 yıllık Hazine faizi son ay belirgin yükseldi; uzun uçta arz/term-premium baskısı teyit istiyor.",
     "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük.",
     "Kredi döngüsü Contraction (Kriz); kredi rejimi risk iştahını sınırlıyor.",
-    "CCC spreadi %12.82 ve son 3 ayda +3.07 puan genişledi; düşük kaliteli kredide gizli stres var."
+    "CCC spreadi %12.82 ve son 3 ayda +3.07 puan genişledi; düşük kaliteli kredide gizli stres var.",
+    "Stablecoin piyasa değeri 7 günde %-0.50; kripto içi likidite daralıyor."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+1.1, ETH %+2.1.",
+    "Kriptoda spot momentum: BTC 24s %+1.2, ETH %+3.5.",
     "On-chain kullanım teyidi pozitif: BTC aktif adres 7g %+1.0, ETH %+3.1.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 0 risk artırıcı, 12 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
@@ -218,12 +219,12 @@
     "special_announcements": [],
     "errors": [
       "Tentative schedule alınamadı: HTTPSConnectionPool(host='home.treasury.gov', port=443): Read timed out. (read timeout=20)",
-      "TreasuryDirect buyback sayfası alınamadı: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "TreasuryDirect operasyon tablosu istemci tarafında yükleniyor; doğrudan sonuç XML linki HTML içinde bulunamadı."
     ],
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 0,
     "result_count": 0,
-    "generated_at": "2026-10-16T02:28:33.890694+00:00"
+    "generated_at": "2026-10-16T08:42:38.088566+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -238,5 +239,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-10-16T02:22:53.509775+00:00"
+  "generated_at": "2026-10-16T08:37:21.017068+00:00"
 }
