@@ -1,14 +1,65 @@
 {
-  "movers": [],
+  "movers": [
+    {
+      "symbol": "XTZ",
+      "name": "Tezos",
+      "coingecko_id": "tezos",
+      "exchange": "ana piyasa",
+      "exchange_symbol": "XTZUSDT",
+      "price": 0.305436,
+      "change_24h": -2.75667,
+      "volume_zscore_15m": 2.6972905142803056,
+      "pine_z_delta_15m": 3.2540091276230707,
+      "pine_raw_delta_15m_base": 18530.5,
+      "pine_delta_mean_20": 2585.6150000000002,
+      "pine_delta_stdev_20": 4900.073839573747,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_15m": 20237.3,
+      "base_volume_mean_20": 5934.055,
+      "base_volume_stdev_20": 5302.819597768247,
+      "volume_15m_usd": 6191.2790700000005,
+      "buyer_share_pct": 90.89983485431871,
+      "taker_buy_15m_usd": 5627.8624500000005,
+      "taker_sell_15m_usd": 563.41662,
+      "spot_delta_15m_usd": 5064.445830000001,
+      "price_change_15m_pct": -0.2935420743639727,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1792240200000,
+          "delta_usd": -105.03383999999994,
+          "green": false
+        },
+        {
+          "ts": 1792241100000,
+          "delta_usd": -94.38560000000007,
+          "green": false
+        },
+        {
+          "ts": 1792242000000,
+          "delta_usd": 5064.445830000001,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 1,
+      "cvd_green_streak": 1,
+      "cvd_45m_delta_usd": 4865.026390000001,
+      "cvd_note": "✅ Pine Z-Delta + true Spot CVD aynı yönde",
+      "signal_score": 10.391283127335248,
+      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
+      "signal_time_utc": "2026-10-17T13:00:00+00:00"
+    }
+  ],
   "window": "15m",
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 190,
-    "binance_spot_matched": 110,
-    "scanned": 110,
+    "binance_spot_matched": 109,
+    "scanned": 109,
     "failed": 0,
-    "signal_count_before_cap": 0,
+    "signal_count_before_cap": 1,
     "max_results": 10,
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
@@ -18,5 +69,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-10-17T08:09:07.810215+00:00"
+  "generated_at": "2026-10-17T13:22:22.838793+00:00"
 }
