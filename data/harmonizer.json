@@ -1,13 +1,13 @@
 {
-  "market_score": 41.4,
+  "market_score": 42.0,
   "stance": "Temkinli Risk-Off",
   "confidence": 75.0,
   "component_scores": {
     "macro": 35.5,
     "credit": 5,
     "options": 68,
-    "crypto": 53.6,
-    "crypto_derivatives": 58,
+    "crypto": 53.2,
+    "crypto_derivatives": 66,
     "equities": 30.5,
     "news": 50
   },
@@ -31,9 +31,9 @@
         "topic": "Bitcoin",
         "tone": "karışık",
         "count": 10,
-        "digest": "Bitwise, 100.000 doların üzerinde potansiyel bir getiri görürken, LO:TECH, faiz oranı belirsizliğinin piyasaya ağırlık vermesi nedeniyle daha dar bir ticaret aralığı bekliyor. Kripto varlık yöneticisi Bitwise'a göre, kurumsal benimseme ve sağlam varlıklara olan talep, yakın vadeli ekonomik… | Perşembe günü yayınlanan bir raporda Hacken, bilgisayar korsanlarının üçüncü çeyrekte 107 olayda 1,18 milyar dolar çaldığını tespit etti; bu, önceki çeyreğe göre %55 daha fazla. Bu miktarın 906,8 milyon doları, tehlikeye atılmış tedarikçiler veya geliştirici araçları, kurulmamış kamuya açık…",
+        "digest": "Analitik firması Allium, kart harcamalarının artması ve küresel ödeme firmalarının kripto rayları eklemesiyle stablecoin ödemelerinin bu yıl şu ana kadar %45 artışla 482 milyar dolara ulaştığını söyledi. Raporda, stabilcoin ödemelerinin hızlı bir şekilde arttığı ve 2026'nın ilk dokuz ayında bir… | Bitwise, 100.000 doların üzerinde potansiyel bir getiri görürken, LO:TECH, faiz oranı belirsizliğinin piyasaya ağırlık vermesi nedeniyle daha dar bir ticaret aralığı bekliyor. Kripto varlık yöneticisi Bitwise'a göre kurumsal benimseme ve sağlam varlıklara olan talep, yakın vadeli ekonomik…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.0; çoklu-borsa OI 24s %-1.6; OI-ağırlıklı funding %+0.0042."
+        "data_confirmation": "BTC 24s %-0.4; çoklu-borsa OI 24s %-0.9; OI-ağırlıklı funding %+0.0048."
       },
       {
         "topic": "Makro / Fed / Hazine",
@@ -46,6 +46,21 @@
     ],
     "important_news": [
       {
+        "title": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash",
+        "link": "https://www.coindesk.com/business/2026/10/18/stablecoin-supply-stalls-but-payments-jump-45-as-visa-mastercard-and-stripe-connect-crypto-to-cash",
+        "published_at": "2026-10-18T14:00:00+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Analitik firması Allium, kart harcamalarının artması ve küresel ödeme firmalarının kripto rayları eklemesiyle stablecoin ödemelerinin bu yıl şu ana kadar %45 artışla 482 milyar dolara ulaştığını söyledi. Raporda, stabilcoin ödemelerinin hızlı bir şekilde arttığı ve 2026'nın ilk dokuz ayında bir…",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.4; çoklu-borsa OI 24s %-0.9; OI-ağırlıklı funding %+0.0048.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %-0.4; çoklu-borsa OI 24s %-0.9; OI-ağırlıklı funding %+0.0048."
+      },
+      {
         "title": "Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook",
         "link": "https://www.coindesk.com/markets/2026/10/18/bitcoin-s-usd100-000-year-end-hope-divides-analysts-as-inflation-clouds-outlook",
         "published_at": "2026-10-18T13:00:00+00:00",
@@ -53,12 +68,12 @@
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Bitwise, 100.000 doların üzerinde potansiyel bir getiri görürken, LO:TECH, faiz oranı belirsizliğinin piyasaya ağırlık vermesi nedeniyle daha dar bir ticaret aralığı bekliyor. Kripto varlık yöneticisi Bitwise'a göre, kurumsal benimseme ve sağlam varlıklara olan talep, yakın vadeli ekonomik…",
+        "brief_summary": "Bitwise, 100.000 doların üzerinde potansiyel bir getiri görürken, LO:TECH, faiz oranı belirsizliğinin piyasaya ağırlık vermesi nedeniyle daha dar bir ticaret aralığı bekliyor. Kripto varlık yöneticisi Bitwise'a göre kurumsal benimseme ve sağlam varlıklara olan talep, yakın vadeli ekonomik…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.0; çoklu-borsa OI 24s %-1.6; OI-ağırlıklı funding %+0.0042.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.4; çoklu-borsa OI 24s %-0.9; OI-ağırlıklı funding %+0.0048.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.0; çoklu-borsa OI 24s %-1.6; OI-ağırlıklı funding %+0.0042."
+        "data_confirmation": "BTC 24s %-0.4; çoklu-borsa OI 24s %-0.9; OI-ağırlıklı funding %+0.0048."
       },
       {
         "title": "Crypto audits give investors false sense of security as Q3 hacks cost $1.18 billion, Hacken says",
@@ -71,9 +86,9 @@
         "brief_summary": "Perşembe günü yayınlanan bir raporda Hacken, bilgisayar korsanlarının üçüncü çeyrekte 107 olayda 1,18 milyar dolar çaldığını tespit etti; bu, önceki çeyreğe göre %55 daha fazla. Bu miktarın 906,8 milyon doları, tehlikeye atılmış tedarikçiler veya geliştirici araçları, kurulmamış kamuya açık…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.0; çoklu-borsa OI 24s %-1.6; OI-ağırlıklı funding %+0.0042.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.4; çoklu-borsa OI 24s %-0.9; OI-ağırlıklı funding %+0.0048.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.0; çoklu-borsa OI 24s %-1.6; OI-ağırlıklı funding %+0.0042."
+        "data_confirmation": "BTC 24s %-0.4; çoklu-borsa OI 24s %-0.9; OI-ağırlıklı funding %+0.0048."
       },
       {
         "title": "Crypto exchanges ana piyasa, Coinbase join West Africa scam sweep that flagged $11 million",
@@ -86,9 +101,9 @@
         "brief_summary": "Özel sektör ortakları 11 milyon dolarlık fonun dondurulabileceğini işaret ederken, yetkililer değerlerini açıklamadan kripto para birimine el konulduğunu bildirdi. Gana ve Nijerya'daki yetkililer, kripto para yatırım dolandırıcılığı da dahil olmak üzere Batı Afrika dolandırıcılık ağlarına yönelik…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.0; çoklu-borsa OI 24s %-1.6; OI-ağırlıklı funding %+0.0042.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.4; çoklu-borsa OI 24s %-0.9; OI-ağırlıklı funding %+0.0048.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.0; çoklu-borsa OI 24s %-1.6; OI-ağırlıklı funding %+0.0042."
+        "data_confirmation": "BTC 24s %-0.4; çoklu-borsa OI 24s %-0.9; OI-ağırlıklı funding %+0.0048."
       },
       {
         "title": "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery",
@@ -116,9 +131,9 @@
         "brief_summary": "Google, Willow çipinin gelişmiş hesaplamalar için gereken özel kuantum durumlarını yaklaşık 40 kat daha az hatayla hazırlayabildiğini ve gelecekte Bitcoin cüzdanlarını kırmaya yönelik herhangi bir girişimin ardındaki donanım darboğazlarından birini azaltabileceğini söylüyor. Google, Willow kuantum…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.0; çoklu-borsa OI 24s %-1.6; OI-ağırlıklı funding %+0.0042.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.4; çoklu-borsa OI 24s %-0.9; OI-ağırlıklı funding %+0.0048.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.0; çoklu-borsa OI 24s %-1.6; OI-ağırlıklı funding %+0.0042."
+        "data_confirmation": "BTC 24s %-0.4; çoklu-borsa OI 24s %-0.9; OI-ağırlıklı funding %+0.0048."
       },
       {
         "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
@@ -129,21 +144,6 @@
         "impact_score": 0,
         "impact": "Nötr / karışık",
         "brief_summary": "Güvenli .gov web siteleri HTTPSA kilidini (LockLocked asma kilit simgesi) kullanır veya https://, .gov web sitesine güvenli bir şekilde bağlandığınız anlamına gelir. Amerika Birleşik Devletleri'nin merkez bankası olan Federal Rezerv, ülkeye güvenli, esnek ve istikrarlı bir para ve finansal sistem…",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 36/100; 30Y değişim +0.07 puan.",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 36/100; 30Y değişim +0.07 puan."
-      },
-      {
-        "title": "Major Economic Indicators Latest Numbers",
-        "link": "https://www.bls.gov/",
-        "published_at": "2026-10-16T12:31:15+00:00",
-        "topic": "Makro / Fed / Hazine",
-        "theme": "macro",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Çalışma İstatistikleri Bürosu, çalışma ekonomisi ve istatistiklerinin geniş alanında Federal Hükümetin başlıca bilgi toplama kurumudur. İthalat fiyatları ağustos ayındaki yüzde 0,5'lik artışın ardından yüzde 1,1 arttı.",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
         "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 36/100; 30Y değişim +0.07 puan.",
@@ -166,11 +166,10 @@
     "Kredi döngüsü Contraction (Kriz); kredi rejimi risk iştahını sınırlıyor.",
     "CCC spreadi %12.78 ve son 3 ayda +3.01 puan genişledi; düşük kaliteli kredide gizli stres var.",
     "BTC ve ETH aktif adresleri aynı anda geriliyor: 7g BTC %-7.9, ETH %-9.6.",
-    "BTC düşüşü vadeli piyasa CVD ile teyit ediliyor; agresif satıcı baskısı devam ediyor.",
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %-0.0, ETH %-1.2.",
+    "Kriptoda spot momentum: BTC 24s %-0.4, ETH %-1.8.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 0 risk artırıcı, 12 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
   ],
@@ -222,7 +221,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 0,
     "result_count": 0,
-    "generated_at": "2026-10-18T13:45:50.245807+00:00"
+    "generated_at": "2026-10-18T15:10:20.161891+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -237,5 +236,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-10-18T13:41:23.078553+00:00"
+  "generated_at": "2026-10-18T15:04:32.664737+00:00"
 }

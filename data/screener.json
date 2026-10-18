@@ -1,54 +1,54 @@
 {
   "movers": [
     {
-      "symbol": "SYRUP",
-      "name": "Maple Finance",
-      "coingecko_id": "syrup",
+      "symbol": "AR",
+      "name": "Arweave",
+      "coingecko_id": "arweave",
       "exchange": "ana piyasa",
-      "exchange_symbol": "SYRUPUSDT",
-      "price": 0.196515,
-      "change_24h": -3.06349,
-      "volume_zscore_15m": 4.164220475376371,
-      "pine_z_delta_15m": 3.9942531901845104,
-      "pine_raw_delta_15m_base": 135887.5,
-      "pine_delta_mean_20": 17444.675,
-      "pine_delta_stdev_20": 29653.30923213925,
+      "exchange_symbol": "ARUSDT",
+      "price": 3.69,
+      "change_24h": -4.2021,
+      "volume_zscore_15m": 3.3817506292153188,
+      "pine_z_delta_15m": 3.119150274976605,
+      "pine_raw_delta_15m_base": 18279.68,
+      "pine_delta_mean_20": -747.5145000000001,
+      "pine_delta_stdev_20": 6100.121129990351,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 238342.1,
-      "base_volume_mean_20": 34026.455,
-      "base_volume_stdev_20": 49064.55991178842,
-      "volume_15m_usd": 47644.55404,
-      "buyer_share_pct": 66.69183951920982,
-      "taker_buy_15m_usd": 31775.02952,
-      "taker_sell_15m_usd": 15869.524520000003,
-      "spot_delta_15m_usd": 15905.504999999997,
-      "price_change_15m_pct": 0.150753768844214,
-      "price_candle_green": true,
+      "base_volume_15m": 28797.48,
+      "base_volume_mean_20": 5371.8945,
+      "base_volume_stdev_20": 6927.058813155461,
+      "volume_15m_usd": 106099.72265,
+      "buyer_share_pct": 82.97384436188251,
+      "taker_buy_15m_usd": 88035.01874,
+      "taker_sell_15m_usd": 18064.703909999997,
+      "spot_delta_15m_usd": 69970.31483,
+      "price_change_15m_pct": -0.1895991332611091,
+      "price_candle_green": false,
       "cvd_last3": [
         {
-          "ts": 1792327500000,
-          "delta_usd": 170.8660500000001,
+          "ts": 1792332900000,
+          "delta_usd": 6148.28133,
           "green": true
         },
         {
-          "ts": 1792328400000,
-          "delta_usd": -294.7334999999998,
+          "ts": 1792333800000,
+          "delta_usd": -3332.892,
           "green": false
         },
         {
-          "ts": 1792329300000,
-          "delta_usd": 15905.504999999997,
+          "ts": 1792334700000,
+          "delta_usd": 69970.31483,
           "green": true
         }
       ],
       "cvd_green_count_3": 2,
       "cvd_green_streak": 1,
-      "cvd_45m_delta_usd": 15781.637549999998,
+      "cvd_45m_delta_usd": 72785.70416000001,
       "cvd_note": "✅ Pine Z-Delta + true Spot CVD aynı yönde",
-      "signal_score": 10.177657617481863,
+      "signal_score": 10.148285340380175,
       "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-10-18T13:15:00+00:00"
+      "signal_time_utc": "2026-10-18T14:45:00+00:00"
     }
   ],
   "window": "15m",
@@ -69,5 +69,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-10-18T13:41:23.078553+00:00"
+  "generated_at": "2026-10-18T15:04:32.664737+00:00"
 }
