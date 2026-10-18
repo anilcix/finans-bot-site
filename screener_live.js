@@ -40,57 +40,45 @@
     return vals.filter(v=>v>=threshold).length/vals.length*100;
   }
 
+  function historySummary(events,m){
+    const done=events.filter(e=>e[`change_${m}m_pct`]!=null&&Number.isFinite(Number(e[`change_${m}m_pct`])));
+    const vals=done.map(e=>Number(e[`change_${m}m_pct`])).sort((a,b)=>a-b);
+    const dips=done.map(e=>Number(e[`dip_change_${m}m_pct`])).filter(Number.isFinite);
+    const avg=vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:null;
+    return {completed:vals.length,pending:events.length-vals.length,up_rate_pct:vals.length?vals.filter(v=>v>0).length/vals.length*100:null,avg_change_pct:avg,median_change_pct:vals.length?(vals[Math.floor((vals.length-1)/2)]+vals[Math.floor(vals.length/2)])/2:null,best_change_pct:vals.length?vals[vals.length-1]:null,worst_change_pct:vals.length?vals[0]:null,hit_1pct_rate_pct:vals.length?vals.filter(v=>v>=1).length/vals.length*100:null,hit_1_5pct_rate_pct:vals.length?vals.filter(v=>v>=1.5).length/vals.length*100:null,worst_dip_pct:dips.length?Math.min(...dips):null};
+  }
   async function patchPeakHistoryLabels(){
     const slot=document.getElementById('liveHistorySlot');
-    if(!slot)return;
-    let card=slot.querySelector('.card');
-    if(!card&&typeof window.historyCard==='function'){
-      const seed=document.createElement('div');seed.innerHTML=window.historyCard({events:[],summary:{}});
-      if(seed.firstElementChild){slot.replaceChildren(seed.firstElementChild);card=slot.querySelector('.card');}
-    }
-    if(!card)return;
-    const h2=card.querySelector('h2');if(h2)h2.textContent='Tarayıcı Sonrası · 15dk / 30dk Peak + Dip Tarihçe';
-    const titles=[...card.querySelectorAll('.horizon-title')];
-    if(titles[0])titles[0].textContent='İlk 15 dakika · Peak + Dip';
-    if(titles[1])titles[1].textContent='İlk 30 dakika · Peak + Dip';
-    [...card.querySelectorAll('.statpill')].forEach(p=>{if(p.textContent.trim().startsWith('En kötü:'))p.textContent=p.textContent.replace('En kötü:','En düşük peak:')});
-    [...card.querySelectorAll('table.data-table th')].forEach(th=>{const t=th.textContent.trim();if(t==='+15dk')th.textContent='15dk Peak / Dip';else if(t==='+30dk')th.textContent='30dk Peak / Dip';else if(t==='Fiyat İzi')th.textContent='Fiyat İzi · Peak'});
-    const note=card.querySelector('.history-note');
-    if(note)note.textContent='Peak = pencere içindeki en yüksek 1dk HIGH; Dip = pencere içindeki en düşük 1dk LOW. İkisi de sinyal 15dk kapanış fiyatına göre hesaplanır. +1% / +1.5% oranları, tamamlanan sinyallerin ilgili peak eşiğine ulaşma oranıdır.';
+    if(!slot||typeof window.historyCard!=='function')return;
     try{
-      let r=await fetch(API+'/history?limit=100&t='+Date.now(),{cache:'no-store'});if(!r.ok)return;
-      const h=await r.json();const events=(h.events||[]).slice(0,100),summary=h.summary||{};
-      if(typeof window.historyCard==='function'){
-        const holder=document.createElement('div');holder.innerHTML=window.historyCard(h);const fresh=holder.firstElementChild;
-        if(fresh){card.replaceWith(fresh);card=fresh;}
-      }
-      [15,30].forEach((m,i)=>{
-        const stat=titles[i]?.nextElementSibling;if(!stat)return;
-        const existing=[...stat.querySelectorAll('.statpill')].find(p=>p.textContent.trim().startsWith('Yukarı oranı:')||p.dataset.hit1===String(m));
-        const rate1=summary[`${m}m`]?.hit_1pct_rate_pct ?? hitRate(events,m,1.0);
-        const rate15=summary[`${m}m`]?.hit_1_5pct_rate_pct ?? hitRate(events,m,1.5);
-        if(existing){existing.dataset.hit1=String(m);existing.textContent=`+1% gören: ${localPct(rate1)}`}
-        else{const p=document.createElement('span');p.className='statpill';p.dataset.hit1=String(m);p.textContent=`+1% gören: ${localPct(rate1)}`;stat.appendChild(p)}
-        let p15=stat.querySelector(`[data-hit15="${m}"]`);
-        if(!p15){p15=document.createElement('span');p15.className='statpill';p15.dataset.hit15=String(m);stat.appendChild(p15)}
-        p15.textContent=`+1.5% gören: ${localPct(rate15)}`;
-        let pill=stat.querySelector(`[data-worst-dip="${m}"]`);
-        if(!pill){pill=document.createElement('span');pill.className='statpill';pill.dataset.worstDip=String(m);stat.appendChild(pill)}
-        pill.textContent=`En kötü dip: ${localPct(summary[`${m}m`]?.worst_dip_pct)}`;
+      const r=await fetch(API+'/history?limit=100&t='+Date.now(),{cache:'no-store'});
+      if(!r.ok)throw Error('HTTP '+r.status);
+      const h=await r.json();
+      if(!Array.isArray(h.events))throw Error('Geçersiz geçmiş verisi');
+      const events=h.events.slice(0,100);
+      h.summary={'15m':historySummary(events,15),'30m':historySummary(events,30)};
+      const holder=document.createElement('div');holder.innerHTML=window.historyCard(h);
+      const card=holder.firstElementChild;if(!card)return;
+      const heading=card.querySelector('h2');if(heading)heading.textContent='Tarayıcı Sonrası · 15dk / 30dk Peak + Dip Tarihçe';
+      const note=card.querySelector('.history-note');if(note)note.textContent='Peak ve dip, sinyal mumunun kapanışından sonraki pencerede ölçülür. Özetler görüntülenen kayıtlardan hesaplanır.';
+      const statlines=[...card.querySelectorAll('.statline')];
+      [15,30].forEach((m,i)=>{const stat=statlines[i],s=h.summary[m+'m'];if(!stat)return;
+        for(const [label,value] of [['+1% gören',s.hit_1pct_rate_pct],['+1.5% gören',s.hit_1_5pct_rate_pct],['En kötü dip',s.worst_dip_pct]]){
+          const p=document.createElement('span');p.className='statpill';p.textContent=label+': '+localPct(value);stat.appendChild(p);
+        }
       });
       const rows=[...card.querySelectorAll('table.data-table tr')].slice(1);
-      events.forEach((e,i)=>{
-        const tr=rows[i];if(!tr||tr.children.length<9)return;
-        [[15,7],[30,8]].forEach(([m,idx])=>{
-          const cell=tr.children[idx];if(!cell)return;
-          cell.querySelectorAll(`[data-peak-minute="${m}"],[data-dip="${m}"]`).forEach(x=>x.remove());
-          const anchor=e.signal_candle_close_utc||e.detected_at;
-          const peakWhen=minuteLabel(anchor,e[`peak_${m}m_at`]);
-          if(e[`change_${m}m_pct`]!=null){const d=document.createElement('div');d.className='mini positive';d.dataset.peakMinute=String(m);d.textContent=`Yüksek: ${localPct(e[`change_${m}m_pct`])}${peakWhen?' · '+peakWhen:''}`;cell.appendChild(d)}
-          if(e[`dip_change_${m}m_pct`]!=null){const d=document.createElement('div');d.className='mini negative';d.dataset.dip=String(m);const dipWhen=minuteLabel(anchor,e[`dip_${m}m_at`]);d.textContent=`Düşük: ${localPct(e[`dip_change_${m}m_pct`])}${dipWhen?' · '+dipWhen:''}`;cell.appendChild(d)}
+      events.forEach((e,i)=>{const tr=rows[i];if(!tr)return;
+        [[15,7],[30,8]].forEach(([m,idx])=>{const cell=tr.children[idx];if(!cell)return;
+          const peak=e[`change_${m}m_pct`],dip=e[`dip_change_${m}m_pct`];
+          if(peak!=null){const el=document.createElement('div');el.className='mini positive';el.textContent='Peak: '+localPct(peak);cell.appendChild(el)}
+          if(dip!=null){const el=document.createElement('div');el.className='mini negative';el.textContent='Dip: '+localPct(dip);cell.appendChild(el)}
         });
       });
-    }catch(e){}
+      slot.replaceChildren(card);
+    }catch(e){
+      if(!slot.querySelector('.card'))slot.innerHTML='<div class="card"><h2>Tarayıcı Sinyal Geçmişi</h2><div class="empty">⚠ Geçmiş kayıtlar yüklenemedi. Bu, veritabanının boş olduğu anlamına gelmez.</div></div>';
+    }
   }
 
   function signalKey(d){return (d.movers||[]).map(x=>`${x.symbol}:${x.signal_candle_close_utc||x.level_context?.signal_candle_close_utc||d.signal_candle_close_utc||''}`).sort().join('|')}
