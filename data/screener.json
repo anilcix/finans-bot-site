@@ -1,5 +1,56 @@
 {
-  "movers": [],
+  "movers": [
+    {
+      "symbol": "FIL",
+      "name": "Filecoin",
+      "coingecko_id": "filecoin",
+      "exchange": "ana piyasa",
+      "exchange_symbol": "FILUSDT",
+      "price": 1.019,
+      "change_24h": -0.69387,
+      "volume_zscore_15m": 3.752734040286471,
+      "pine_z_delta_15m": 1.296599698733865,
+      "pine_raw_delta_15m_base": 51793.89000000001,
+      "pine_delta_mean_20": 2425.0545,
+      "pine_delta_stdev_20": 38075.61851835141,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_15m": 478995.49,
+      "base_volume_mean_20": 133535.9005,
+      "base_volume_stdev_20": 92055.44165704554,
+      "volume_15m_usd": 488124.692242,
+      "buyer_share_pct": 70.60314067233058,
+      "taker_buy_15m_usd": 344631.36312,
+      "taker_sell_15m_usd": 143493.32912200002,
+      "spot_delta_15m_usd": 201138.03399799997,
+      "price_change_15m_pct": -0.058783188008226794,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1792425600000,
+          "delta_usd": -5852.364111999996,
+          "green": false
+        },
+        {
+          "ts": 1792426500000,
+          "delta_usd": 5981.642575999998,
+          "green": true
+        },
+        {
+          "ts": 1792427400000,
+          "delta_usd": 201138.03399799997,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 2,
+      "cvd_45m_delta_usd": 201267.31246199997,
+      "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 2×15dk CVD yeşil",
+      "signal_score": 7.809647806253394,
+      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
+      "signal_time_utc": "2026-10-19T16:30:00+00:00"
+    }
+  ],
   "window": "15m",
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
   "scan_meta": {
@@ -8,7 +59,7 @@
     "binance_spot_matched": 108,
     "scanned": 108,
     "failed": 0,
-    "signal_count_before_cap": 0,
+    "signal_count_before_cap": 1,
     "max_results": 10,
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
@@ -18,5 +69,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-10-19T09:27:01.059699+00:00"
+  "generated_at": "2026-10-19T16:43:11.816535+00:00"
 }
