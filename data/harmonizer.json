@@ -1,12 +1,12 @@
 {
-  "market_score": 41.8,
+  "market_score": 41.7,
   "stance": "Temkinli Risk-Off",
   "confidence": 75.0,
   "component_scores": {
     "macro": 35.6,
     "credit": 5,
     "options": 68,
-    "crypto": 51.1,
+    "crypto": 50.7,
     "crypto_derivatives": 58,
     "equities": 37.2,
     "news": 50
@@ -31,20 +31,35 @@
         "topic": "Bitcoin",
         "tone": "karışık",
         "count": 10,
-        "digest": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS | QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 36/100; 30Y değişim +0.08 puan."
+        "digest": "Fidelity'nin FBTC'si ve Grayscale'in GBTC'si sırasıyla 83,6 milyon dolar ve 54,9 milyon dolarlık çıkış kaydetti. spot Bitcoin borsa yatırım fonları Pazartesi günü 526,6 milyon dolar çekerek, tamamen BlackRock'un iShares Bitcoin Trust'ının (IBIT) etkisiyle yaklaşık bir ayın en büyük günlük net… | Alt komitenin en üst düzey Demokratı Senatör Richard Blumenthal bu çabaya öncülük etti ve bu da Demokrat milletvekillerinin kripto paranın yasa dışı finansmanı desteklemek için kullanıldığı yönündeki endişelerini daha da vurguladı. Ardoino, X sosyal medya sitesindeki bir gönderide şöyle yazdı…",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %-1.5; çoklu-borsa OI 24s %-0.4; OI-ağırlıklı funding %+0.0052."
       },
       {
         "topic": "Makro / Fed / Hazine",
         "tone": "karışık",
         "count": 2,
-        "digest": "Çalışma İstatistikleri Bürosu, Federal Hükümetin geniş çalışma ekonomisi ve istatistiği alanındaki başlıca araştırma kuruluşudur. Ağustos ayında yüzde 0,5 'lik bir artışın ardından ithalat fiyatları yüzde 1,1 arttı. | Güvenli .gov web siteleri HTTPSA kilidi (LockLocked asma kilit simgesi) kullanır veya https ://, .gov web sitesine güvenli bir şekilde bağlandığınız anlamına gelir. Amerika Birleşik Devletleri'nin merkez bankası olan Merkez Bankası, ülkeye güvenli, esnek ve istikrarlı bir parasal ve finansal sistem…",
+        "digest": "Çalışma İstatistikleri Bürosu, çalışma ekonomisi ve istatistiklerinin geniş alanında Federal Hükümetin başlıca bilgi toplama kurumudur. İthalat fiyatları ağustos ayındaki yüzde 0,5'lik artışın ardından yüzde 1,1 arttı. | Güvenli .gov web siteleri HTTPSA kilidini (LockLocked asma kilit simgesi) kullanır veya https://, .gov web sitesine güvenli bir şekilde bağlandığınız anlamına gelir. Amerika Birleşik Devletleri'nin merkez bankası olan Federal Rezerv, ülkeye güvenli, esnek ve istikrarlı bir para ve finansal sistem…",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
         "data_confirmation": "Makro skor 36/100; 30Y değişim +0.08 puan."
       }
     ],
     "important_news": [
+      {
+        "title": "Bitcoin ETFs just saw their biggest day in a month thanks entirely to BlackRock",
+        "link": "https://www.coindesk.com/business/2026/10/20/bitcoin-etfs-just-saw-their-biggest-day-in-a-month-thanks-entirely-to-blackrock",
+        "published_at": "2026-10-20T08:24:01+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Fidelity'nin FBTC'si ve Grayscale'in GBTC'si sırasıyla 83,6 milyon dolar ve 54,9 milyon dolarlık çıkış kaydetti. spot Bitcoin borsa yatırım fonları Pazartesi günü 526,6 milyon dolar çekerek, tamamen BlackRock'un iShares Bitcoin Trust'ının (IBIT) etkisiyle yaklaşık bir ayın en büyük günlük net…",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.5; çoklu-borsa OI 24s %-0.4; OI-ağırlıklı funding %+0.0052.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %-1.5; çoklu-borsa OI 24s %-0.4; OI-ağırlıklı funding %+0.0052."
+      },
       {
         "title": "Tether: Senator's investigation misses positive work that's led to lower Iran volumes",
         "link": "https://www.coindesk.com/policy/2026/10/19/tether-senator-s-investigation-misses-positive-work-that-s-led-to-lower-iran-volumes",
@@ -53,7 +68,7 @@
         "theme": "macro",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+        "brief_summary": "Alt komitenin en üst düzey Demokratı Senatör Richard Blumenthal bu çabaya öncülük etti ve bu da Demokrat milletvekillerinin kripto paranın yasa dışı finansmanı desteklemek için kullanıldığı yönündeki endişelerini daha da vurguladı. Ardoino, X sosyal medya sitesindeki bir gönderide şöyle yazdı…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
         "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 36/100; 30Y değişim +0.08 puan.",
@@ -65,15 +80,15 @@
         "link": "https://www.coindesk.com/policy/2026/10/19/u-s-cftc-rebuffs-cme-legal-stance-in-consequential-fight-over-perpetual-futures",
         "published_at": "2026-10-19T16:47:00+00:00",
         "topic": "Bitcoin",
-        "theme": "macro",
+        "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+        "brief_summary": "CFTC, CME'nin yeni politikanın, ajansın ilk bitcoin hesabını onayladıktan sonra ona zarar verdiğini göstermediğini öne sürdüğü için tehlikede olabilir. Fail sözleşmeleri yurtdışında hızla artarak kripto türevlerinde önemli bir işlem biçimi haline geldi ve CFTC'nin hamlesi piyasanın ABD'de nasıl…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 36/100; 30Y değişim +0.08 puan.",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 36/100; 30Y değişim +0.08 puan."
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.5; çoklu-borsa OI 24s %-0.4; OI-ağırlıklı funding %+0.0052.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %-1.5; çoklu-borsa OI 24s %-0.4; OI-ağırlıklı funding %+0.0052."
       },
       {
         "title": "Zerohash rolls out a new tool to move crypto without copying wallet addresses",
@@ -83,12 +98,12 @@
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+        "brief_summary": "Lansman, Zerohash'ın federal güven sözleşmesi teklifinin, ilk başvurunun geri dönmesinden sonra hala beklemede olması nedeniyle gerçekleşti. Kripto hizmetleri firması, Las Vegas'taki Money20/20 konferansında kullanıcıların takas hesaplarını veya kendi saklama cüzdanlarını birbirine bağlamasına…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.1; çoklu-borsa OI 24s %-0.1; OI-ağırlıklı funding %+0.0079.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.5; çoklu-borsa OI 24s %-0.4; OI-ağırlıklı funding %+0.0052.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-1.1; çoklu-borsa OI 24s %-0.1; OI-ağırlıklı funding %+0.0079."
+        "data_confirmation": "BTC 24s %-1.5; çoklu-borsa OI 24s %-0.4; OI-ağırlıklı funding %+0.0052."
       },
       {
         "title": "Major Economic Indicators Latest Numbers",
@@ -98,7 +113,7 @@
         "theme": "macro",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Çalışma İstatistikleri Bürosu, Federal Hükümetin geniş çalışma ekonomisi ve istatistiği alanındaki başlıca araştırma kuruluşudur. Ağustos ayında yüzde 0,5 'lik bir artışın ardından ithalat fiyatları yüzde 1,1 arttı.",
+        "brief_summary": "Çalışma İstatistikleri Bürosu, çalışma ekonomisi ve istatistiklerinin geniş alanında Federal Hükümetin başlıca bilgi toplama kurumudur. İthalat fiyatları ağustos ayındaki yüzde 0,5'lik artışın ardından yüzde 1,1 arttı.",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
         "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 36/100; 30Y değişim +0.08 puan.",
@@ -113,7 +128,7 @@
         "theme": "macro",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Hoskinson, X'te dilin işlem taleplerini kriptografik kanıtlarla birleştireceğini söyledi. Bir kullanıcının yapmak istediği işlemi, kurallara uyulduğuna dair kriptografik kanıtla birleştiren ilk kişi olacağını söylüyor.",
+        "brief_summary": "Hoskinson, X'te dilin işlem isteklerini kriptografik kanıtlarla birleştireceğini söyledi. Bir kullanıcının bir işlemde yapmak istediği şeyi, kurallara uyulduğuna dair kriptografik kanıtla birleştiren ilk uygulama olacağını söylüyor.",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
         "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 36/100; 30Y değişim +0.08 puan.",
@@ -128,27 +143,12 @@
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+        "brief_summary": "Altın haç sinyali, bir menkul kıymetin 50 günlük ortalama fiyatı 200 günlük ortalamanın üzerine çıktığında ortaya çıkar. Bitcoin'de 69,81 milyar dolar tutan MSTR için çapraz geçiş Pazartesi günü gerçekleşebilir.",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.1; çoklu-borsa OI 24s %-0.1; OI-ağırlıklı funding %+0.0079.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.5; çoklu-borsa OI 24s %-0.4; OI-ağırlıklı funding %+0.0052.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-1.1; çoklu-borsa OI 24s %-0.1; OI-ağırlıklı funding %+0.0079."
-      },
-      {
-        "title": "Live updates: Bitcoin holds near $82,000 as Nasdaq rebounds more than 1%",
-        "link": "https://www.coindesk.com/markets/2026/10/19/live-updates-bitcoin-tags-usd83-000-and-slips-back-as-chip-stocks-lead-a-rebound",
-        "published_at": "2026-10-19T11:05:54+00:00",
-        "topic": "Bitcoin",
-        "theme": "crypto",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.1; çoklu-borsa OI 24s %-0.1; OI-ağırlıklı funding %+0.0079.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-1.1; çoklu-borsa OI 24s %-0.1; OI-ağırlıklı funding %+0.0079."
+        "data_confirmation": "BTC 24s %-1.5; çoklu-borsa OI 24s %-0.4; OI-ağırlıklı funding %+0.0052."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -172,7 +172,7 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %-1.1, ETH %-1.3.",
+    "Kriptoda spot momentum: BTC 24s %-1.5, ETH %-1.9.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 0 risk artırıcı, 12 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
   ],
@@ -224,7 +224,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 0,
     "result_count": 0,
-    "generated_at": "2026-10-20T02:50:20.259650+00:00"
+    "generated_at": "2026-10-20T09:07:43.728771+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -239,5 +239,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-10-20T02:43:57.993243+00:00"
+  "generated_at": "2026-10-20T09:01:19.201652+00:00"
 }

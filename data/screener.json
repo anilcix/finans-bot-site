@@ -1,54 +1,54 @@
 {
   "movers": [
     {
-      "symbol": "LDO",
-      "name": "Lido DAO",
-      "coingecko_id": "lido-dao",
+      "symbol": "LUNC",
+      "name": "Terra Luna Classic",
+      "coingecko_id": "terra-luna",
       "exchange": "ana piyasa",
-      "exchange_symbol": "LDOUSDT",
-      "price": 0.394641,
-      "change_24h": -2.16961,
-      "volume_zscore_15m": 3.5480525817396975,
-      "pine_z_delta_15m": 1.5155593801758955,
-      "pine_raw_delta_15m_base": 35057.68,
-      "pine_delta_mean_20": 7681.371,
-      "pine_delta_stdev_20": 18063.501409507764,
+      "exchange_symbol": "LUNCUSDT",
+      "price": 4.576e-05,
+      "change_24h": -1.18471,
+      "volume_zscore_15m": 4.212991516288103,
+      "pine_z_delta_15m": 3.7642215426583143,
+      "pine_raw_delta_15m_base": 457144812.56,
+      "pine_delta_mean_20": 17435097.1955,
+      "pine_delta_stdev_20": 116812921.44510031,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 120488.58,
-      "base_volume_mean_20": 34177.789,
-      "base_volume_stdev_20": 24326.243484723018,
-      "volume_15m_usd": 47491.501808,
-      "buyer_share_pct": 66.54850667130539,
-      "taker_buy_15m_usd": 31604.885249000003,
-      "taker_sell_15m_usd": 15886.616558999998,
-      "spot_delta_15m_usd": 15718.268690000004,
-      "price_change_15m_pct": -0.07593014426727773,
+      "base_volume_15m": 1118424911.02,
+      "base_volume_mean_20": 135233202.5795,
+      "base_volume_stdev_20": 233371395.27561897,
+      "volume_15m_usd": 51220.8601293,
+      "buyer_share_pct": 74.80949906540287,
+      "taker_buy_15m_usd": 38318.06887972,
+      "taker_sell_15m_usd": 12902.791249580005,
+      "spot_delta_15m_usd": 25415.277630139994,
+      "price_change_15m_pct": -0.06547359231776628,
       "price_candle_green": false,
       "cvd_last3": [
         {
-          "ts": 1792461600000,
-          "delta_usd": -2639.795476,
+          "ts": 1792484100000,
+          "delta_usd": -1385.22200022,
           "green": false
         },
         {
-          "ts": 1792462500000,
-          "delta_usd": 1261.7312000000002,
-          "green": true
+          "ts": 1792485000000,
+          "delta_usd": -7031.201181650001,
+          "green": false
         },
         {
-          "ts": 1792463400000,
-          "delta_usd": 15718.268690000004,
+          "ts": 1792485900000,
+          "delta_usd": 25415.277630139994,
           "green": true
         }
       ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_45m_delta_usd": 14340.204414000005,
-      "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 2×15dk CVD yeşil",
-      "signal_score": 7.418462629046132,
+      "cvd_green_count_3": 1,
+      "cvd_green_streak": 1,
+      "cvd_45m_delta_usd": 16998.854448269994,
+      "cvd_note": "✅ Pine Z-Delta + true Spot CVD aynı yönde",
+      "signal_score": 10.808162965486703,
       "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-10-20T02:30:00+00:00"
+      "signal_time_utc": "2026-10-20T08:45:00+00:00"
     }
   ],
   "window": "15m",
@@ -69,5 +69,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-10-20T02:43:57.993243+00:00"
+  "generated_at": "2026-10-20T09:01:19.201652+00:00"
 }
