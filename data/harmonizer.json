@@ -1,19 +1,19 @@
 {
-  "market_score": 43.7,
-  "stance": "Temkinli Risk-Off",
+  "market_score": 53.6,
+  "stance": "Nötr / Bekle-Gör",
   "confidence": 75.0,
   "component_scores": {
-    "macro": 35.5,
-    "credit": 5,
+    "macro": 50.0,
+    "credit": 50,
     "options": 68,
-    "crypto": 56.8,
-    "crypto_derivatives": 68,
-    "equities": 43.7,
+    "crypto": 57.8,
+    "crypto_derivatives": 65,
+    "equities": 46.0,
     "news": 53
   },
   "plain_summary": [
-    "Ana görüş: aşağı yönlü risk belirginleşmiş durumda. Yeni risk eklemek yerine pozisyon boyutunu küçültmek ve savunmayı artırmak daha uygun.",
-    "Pozitif taraf: GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor. Temkin nedeni: Enflasyon seviyesi hâlâ makro rahatlama alanını sınırlıyor.",
+    "Ana görüş: piyasa yönü kararsız. Yeni büyük risk almak yerine mevcut pozisyonları korumak ve daha net teyit beklemek daha uygun.",
+    "Pozitif taraf: VIX 16.77 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil. Temkin nedeni: BTC ve ETH aktif adresleri aynı anda geriliyor: 7g BTC %-0.5, ETH %-1.4.",
     "Görüşü güçlendirecek teyit: CCC ve IG spreadleri yeniden daralmaya başlar, HY düşük kalırsa risk artırma teyidi. Görüşü bozacak sinyal: HY OAS %4.0 üzerine çıkar veya kredi döngüsü Late Cycle/Contraction'a dönerse riski azalt."
   ],
   "news_analysis": {
@@ -31,17 +31,17 @@
         "topic": "Bitcoin",
         "tone": "destekleyici",
         "count": 10,
-        "digest": "Vault12, 2018'de VGT'yi satarak 17,45 milyon dolar topladı ve her sözü yerine getirdiğini ya da yerine getirmediğini söylüyor ancak token hiçbir zaman merkezi bir borsada işlem görmedi. Winklevoss Capital ve Naval Ravikant tarafından desteklenen kripto cüzdan yedekleme şirketi Vault12, SEC'in… | 21 Kasım 2026 Bitcoin BTC$84.041,23 opsiyonları, ticaretin daha karmaşık hale geldiğinin bir işareti olarak en büyük kripto para biriminin türev piyasasında daha büyük bir pay alıyor. Bitcoin oynaklık endeksi BVIV'nin ihraççısı Volmex'e göre, opsiyonlar geçen hafta tüm bitcoin türevleri arasında…",
+        "digest": "Yetkililerin yabancı suç örgütleri tarafından yürütülen kripto dolandırıcılıklarını engelleme çabaları. Yönetim, kolluk kuvvetlerinin denizaşırı dolandırıcılıklarla bağlantılı yaklaşık 833 milyon dolarlık kripto para birimini durdurduğunu ve İç Güvenlik Görev Gücü'nün gözetiminde 503 sahte kripto… | O2O Capital Partners'tan Peter Gaffney, neden sabit faizli, sabit vadeli kredilerin eksik parça olduğunu ve Sky ve Ethena rezervlerindeki %5'lik bir değişimin gerçek dünya varlıklarına nasıl 1,8 milyar dolarlık talep yaratabileceğini açıklıyor. …ve daha fazla kurumsal içgörü arıyorsanız: Calamos…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0066."
+        "data_confirmation": "BTC 24s %+2.3; çoklu-borsa OI 24s %+7.2; OI-ağırlıklı funding %+0.0048."
       },
       {
         "topic": "Makro / Fed / Hazine",
         "tone": "karışık",
         "count": 1,
-        "digest": "Çalışma İstatistikleri Bürosu, çalışma ekonomisi ve istatistiklerinin geniş alanında Federal Hükümetin başlıca bilgi toplama kurumudur. Ülkedeki 122,2 milyon tam zamanlı ücretli ve maaşlı çalışanın ortalama haftalık kazancı, 2026'nın üçüncü çeyreğinde (mevsimsellikten arındırılmamış) 1.232 dolardı.",
+        "digest": "Çalışma İstatistikleri Bürosu, çalışma ekonomisi ve istatistiklerinin geniş alanında Federal Hükümetin başlıca bilgi toplama kurumudur. 24-25 Ekim 2026 hafta sonu için sistem bakımı planlandı Ülkedeki 122,2 milyon tam zamanlı ücretli ve maaşlı çalışanın ortalama haftalık kazancı, 2026'nın üçüncü…",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 35/100; 30Y değişim +0.19 puan."
+        "data_confirmation": "Makro skor 50/100."
       }
     ],
     "important_news": [
@@ -53,12 +53,42 @@
         "theme": "crypto",
         "impact_score": 1,
         "impact": "Destekleyici",
-        "brief_summary": "Asya teknoloji hisselerinin toparlanması ve SpaceX ile Tesla'nın birleşmeyi tartmak için komiteler oluşturmasıyla Bitcoin %0,6 artışla bir haftanın en yüksek seviyesi olan 83.500 dolara yükseldi. Bitcoin BTC$84.041,23, Asya teknoloji hisselerindeki kazanç kaynaklı toparlanmanın risk varlıklarını…",
+        "brief_summary": "Asya teknoloji hisselerinin toparlanması ve SpaceX ile Tesla'nın birleşmeyi tartmak için komiteler oluşturmasıyla Bitcoin %0,6 artışla bir haftanın en yüksek seviyesi olan 83.500 dolara yükseldi. Bitcoin BTC$83.354,72, Asya teknoloji hisselerindeki kazanç kaynaklı toparlanmanın riskli varlıkları…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0066.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+2.3; çoklu-borsa OI 24s %+7.2; OI-ağırlıklı funding %+0.0048.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0066."
+        "data_confirmation": "BTC 24s %+2.3; çoklu-borsa OI 24s %+7.2; OI-ağırlıklı funding %+0.0048."
+      },
+      {
+        "title": "Trump to throw spotlight on overseas crypto abuses at White House event",
+        "link": "https://www.coindesk.com/policy/2026/10/21/trump-to-throw-spotlight-on-overseas-crypto-abuses-in-white-house-event",
+        "published_at": "2026-10-21T16:23:44+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Yetkililerin yabancı suç örgütleri tarafından yürütülen kripto dolandırıcılıklarını engelleme çabaları. Yönetim, kolluk kuvvetlerinin denizaşırı dolandırıcılıklarla bağlantılı yaklaşık 833 milyon dolarlık kripto para birimini durdurduğunu ve İç Güvenlik Görev Gücü'nün gözetiminde 503 sahte kripto…",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+2.3; çoklu-borsa OI 24s %+7.2; OI-ağırlıklı funding %+0.0048.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+2.3; çoklu-borsa OI 24s %+7.2; OI-ağırlıklı funding %+0.0048."
+      },
+      {
+        "title": "Crypto Long & Short: Why real-world assets need fixed-rate loans onchain",
+        "link": "https://www.coindesk.com/coindesk-indices/2026/10/21/crypto-long-and-short-why-real-world-assets-need-fixed-rate-loans-onchain",
+        "published_at": "2026-10-21T15:00:53+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "O2O Capital Partners'tan Peter Gaffney, neden sabit faizli, sabit vadeli kredilerin eksik parça olduğunu ve Sky ve Ethena rezervlerindeki %5'lik bir değişimin gerçek dünya varlıklarına nasıl 1,8 milyar dolarlık talep yaratabileceğini açıklıyor. …ve daha fazla kurumsal içgörü arıyorsanız: Calamos…",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+2.3; çoklu-borsa OI 24s %+7.2; OI-ağırlıklı funding %+0.0048.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+2.3; çoklu-borsa OI 24s %+7.2; OI-ağırlıklı funding %+0.0048."
       },
       {
         "title": "Why centralized exchanges refuse to list legacy crypto tokens without explicit SEC immunity",
@@ -71,9 +101,9 @@
         "brief_summary": "Vault12, 2018'de VGT'yi satarak 17,45 milyon dolar topladı ve her sözü yerine getirdiğini ya da yerine getirmediğini söylüyor ancak token hiçbir zaman merkezi bir borsada işlem görmedi. Winklevoss Capital ve Naval Ravikant tarafından desteklenen kripto cüzdan yedekleme şirketi Vault12, SEC'in…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0066.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+2.3; çoklu-borsa OI 24s %+7.2; OI-ağırlıklı funding %+0.0048.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0066."
+        "data_confirmation": "BTC 24s %+2.3; çoklu-borsa OI 24s %+7.2; OI-ağırlıklı funding %+0.0048."
       },
       {
         "title": "Bitcoin risk management grows more popular as the 'just bet on price' era fades",
@@ -83,12 +113,12 @@
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "21 Kasım 2026 Bitcoin BTC$84.041,23 opsiyonları, ticaretin daha karmaşık hale geldiğinin bir işareti olarak en büyük kripto para biriminin türev piyasasında daha büyük bir pay alıyor. Bitcoin oynaklık endeksi BVIV'nin ihraççısı Volmex'e göre, opsiyonlar geçen hafta tüm bitcoin türevleri arasında…",
+        "brief_summary": "21 Kasım 2026 Bitcoin BTC$83.354,72 opsiyonları, ticaretin daha karmaşık hale geldiğinin bir işareti olarak en büyük kripto para biriminin türev piyasasında daha büyük bir pay alıyor. Bitcoin oynaklık endeksi BVIV'nin ihraççısı Volmex'e göre, opsiyonlar geçen hafta tüm bitcoin türevleri arasında…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0066.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+2.3; çoklu-borsa OI 24s %+7.2; OI-ağırlıklı funding %+0.0048.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0066."
+        "data_confirmation": "BTC 24s %+2.3; çoklu-borsa OI 24s %+7.2; OI-ağırlıklı funding %+0.0048."
       },
       {
         "title": "Live updates: Bitcoin rises to $84,000 as SpaceX leads markets higher",
@@ -98,12 +128,12 @@
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Güney Koreli veri merkezi oyuncusu Elice, bir gün önceki halka arzının ardından yaklaşık aynı miktarda düşüş yaşadıktan sonra %30 artış gösterdi. Avrupa'da getiriler yükselirken bile hazine tahvili getirileri genel olarak yaklaşık 3 __baz puan__ düştü.",
+        "brief_summary": "Güney Koreli veri merkezi oyuncusu Elice, bir gün önceki halka arzının ardından yaklaşık aynı miktarda düşüş yaşadıktan sonra %30 artış gösterdi. Bitcoin hazine şirketi Strive ASST geçen hafta 30,86$ değerinde yeni bir tercihli teklif olan SATS ile geçen hafta 600 milyon dolardan fazla para topladı.",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0066.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+2.3; çoklu-borsa OI 24s %+7.2; OI-ağırlıklı funding %+0.0048.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0066."
+        "data_confirmation": "BTC 24s %+2.3; çoklu-borsa OI 24s %+7.2; OI-ağırlıklı funding %+0.0048."
       },
       {
         "title": "SpaceX and Tesla explore merger that would unite more than 30,000 bitcoin",
@@ -113,72 +143,32 @@
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Her iki şirketin CEO'su ve hissedarı Elon Musk, salı günü yaptığı açıklamada, SpaceX SPCX'in 161,84 dolar ve Tesla TSLA'nın 385,79 dolar ile potansiyel bir birleşmeyi araştırdığını ve en büyük şirketlerinden ikisini ve 30.000'den fazla bitcoin BTC'yi 84.041,23 dolarla birleştirme olasılığını…",
+        "brief_summary": "Her iki şirketin CEO'su ve hissedarı Elon Musk Salı günü yaptığı açıklamada, SpaceX SPCX'in 157,79 ABD doları ve Tesla TSLA'nın 385,58 ABD doları değerinde potansiyel bir birleşmeyi araştırdığını ve en büyük iki şirketini ve 30.000'den fazla bitcoin BTC'yi 83.354,72 ABD dolarından fazla birleştirme…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+1.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0066.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+2.3; çoklu-borsa OI 24s %+7.2; OI-ağırlıklı funding %+0.0048.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+1.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0066."
-      },
-      {
-        "title": "Tether leads $15 million funding round for AI-focused payment startup Mural",
-        "link": "https://www.coindesk.com/business/2026/10/21/tether-leads-usd15-million-series-a-for-ai-focused-payment-startup-mural",
-        "published_at": "2026-10-21T08:47:11+00:00",
-        "topic": "Bitcoin",
-        "theme": "macro",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "North Island Ventures ve mevcut yatırımcıların katılımını içeren A Serisi turu, New York merkezli Mural'ın toplam fonunu 28 milyon dolara çıkardı. Tether, Mural'da 15 milyon dolarlık bir finansman turuna öncülük ederek stabilcoin ihraççısının yapay zeka temsilcilerinin ödemeleri yönetmesine olanak…",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 35/100; 30Y değişim +0.19 puan.",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 35/100; 30Y değişim +0.19 puan."
-      },
-      {
-        "title": "A company that vouches for websites had secret keys so weak that 8 of them were cracked",
-        "link": "https://www.coindesk.com/tech/2026/10/21/a-company-that-vouches-for-websites-had-secret-keys-so-weak-that-8-of-them-were-cracked",
-        "published_at": "2026-10-21T04:11:58+00:00",
-        "topic": "Bitcoin",
-        "theme": "macro",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "İnternet, tarayıcınıza hangi web sitelerinin gerçek olduğunu bildirecek bir delik açmak için çabalıyor. Risk geneldir ve çoğunlukla kripto kullanıcıları da dahil olmak üzere güncel olmayan yazılımları çalıştıran kişilere aittir.",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 35/100; 30Y değişim +0.19 puan.",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 35/100; 30Y değişim +0.19 puan."
+        "data_confirmation": "BTC 24s %+2.3; çoklu-borsa OI 24s %+7.2; OI-ağırlıklı funding %+0.0048."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
   },
   "supportive_factors": [
-    "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
-    "Net likidite 3 haftada yaklaşık $+102B arttı; kısa vadede risk varlıkları için likidite rüzgârı destekleyici.",
-    "VIX 17.14 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
-    "BTC yükselişi vadeli piyasa CVD tarafından da teyit ediliyor; agresif alıcı akışı fiyat yönüyle uyumlu.",
-    "vadeli piyasa ve vadeli piyasa funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü."
+    "VIX 16.77 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "BTC yükselişi vadeli piyasa CVD tarafından da teyit ediliyor; agresif alıcı akışı fiyat yönüyle uyumlu."
   ],
   "risk_factors": [
-    "Enflasyon seviyesi hâlâ makro rahatlama alanını sınırlıyor.",
-    "10 yıllık reel faiz yüksek; uzun duration teknoloji/hisse değerlemeleri için yapısal baskı oluşturabilir.",
-    "Banka kredi standartları son çeyrekte sıkılaşıyor; piyasa fiyatı rahat olsa da kredi kanalı gecikmeli risk taşıyor.",
-    "30 yıllık Hazine faizi son ay belirgin yükseldi; uzun uçta arz/term-premium baskısı teyit istiyor.",
-    "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük.",
-    "Kredi döngüsü Contraction (Kriz); kredi rejimi risk iştahını sınırlıyor.",
-    "CCC spreadi %13.27 ve son 3 ayda +3.36 puan genişledi; düşük kaliteli kredide gizli stres var.",
     "BTC ve ETH aktif adresleri aynı anda geriliyor: 7g BTC %-0.5, ETH %-1.4.",
     "Funding örneklerinin %100'ı pozitif; long tarafında kalabalıklaşma riski artmış."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+1.3, ETH %+0.7.",
-    "vadeli piyasa BTC OI 24 saatte %-9.2; piyasa deleveraging yaşıyor.",
+    "Kriptoda spot momentum: BTC 24s %+2.3, ETH %+2.4.",
+    "vadeli piyasa BTC OI 24 saatte %-8.7; piyasa deleveraging yaşıyor.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 0 risk artırıcı, 10 nötr/karışık benzersiz başlık. Haber skoru 53/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
   ],
   "investment_view": {
-    "action": "Riski azalt; likidite ve savunma ağırlığını yükselt, yüksek beta pozisyonları küçült.",
+    "action": "Nötr kal; yeni risk eklemek için teyit bekle, mevcut pozisyonlarda kaliteyi artır.",
     "favored": [
       "Geniş endeks / kaliteli büyük şirketler: tekil yüksek-beta teknolojiye göre daha dengeli.",
       "Nakit veya kısa vadeli Hazine bonosu tamponu: yeni fırsatlar ve volatilite için opsiyonellik.",
@@ -225,7 +215,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 0,
     "result_count": 0,
-    "generated_at": "2026-10-21T14:51:20.652970+00:00"
+    "generated_at": "2026-10-21T19:06:52.690105+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -240,5 +230,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-10-21T14:46:22.742530+00:00"
+  "generated_at": "2026-10-21T19:02:42.781443+00:00"
 }
