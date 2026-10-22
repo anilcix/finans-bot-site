@@ -1,14 +1,14 @@
 {
-  "market_score": 42.0,
+  "market_score": 41.0,
   "stance": "Temkinli Risk-Off",
   "confidence": 75.0,
   "component_scores": {
     "macro": 35.3,
     "credit": 5,
     "options": 68,
-    "crypto": 50.0,
-    "crypto_derivatives": 66,
-    "equities": 34.7,
+    "crypto": 48.9,
+    "crypto_derivatives": 57,
+    "equities": 32.1,
     "news": 50
   },
   "plain_summary": [
@@ -19,10 +19,10 @@
   "news_analysis": {
     "score": 50,
     "tone": "Karışık / Nötr",
-    "summary": "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 1 risk artırıcı, 9 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
-    "positive_count": 1,
-    "negative_count": 1,
-    "neutral_count": 9,
+    "summary": "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 0 risk artırıcı, 11 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 11,
     "headline_count": 11,
     "unique_story_count": 11,
     "article_context_count": 0,
@@ -31,49 +31,49 @@
         "topic": "Bitcoin",
         "tone": "karışık",
         "count": 10,
-        "digest": "Axios'un haberine göre şirket, 2,5 milyar dolarlık potansiyel bir satın alma için Visa ile görüşmelerde bulunuyor. Kripto para saklama şirketi Fireblocks, Visa (V) ile 2,5 milyar dolara satın alınmak üzere görüşmelerde bulunduğu yönündeki haberleri yalanladı. | Destekçiler genellikle kripto seçmenlerinin seçimleri değiştirebileceğini söylüyor, ancak Demokratlar kriptoyu Trump'a bağlamak, yolsuzluk ve Kongre'de sandalye satın alma girişimlerinden kurtulmak için bir yol arıyorlar. Senato Bankacılık Komitesi eski başkanı Brown, yakın tarihli bir Pod Save…",
+        "digest": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS | QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.7; çoklu-borsa OI 24s %-3.0; OI-ağırlıklı funding %+0.0027."
+        "data_confirmation": "BTC 24s %-3.7; çoklu-borsa OI 24s %-5.6; OI-ağırlıklı funding %+0.0034."
       },
       {
         "topic": "Makro / Fed / Hazine",
         "tone": "karışık",
         "count": 1,
-        "digest": "Çalışma İstatistikleri Bürosu, çalışma ekonomisi ve istatistiklerinin geniş alanında Federal Hükümetin başlıca bilgi toplama kurumudur. 24-25 Ekim 2026 hafta sonu için sistem bakımı planlandı Ülkedeki 122,2 milyon tam zamanlı ücretli ve maaşlı çalışanın ortalama haftalık kazancı, 2026'nın üçüncü…",
+        "digest": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
         "data_confirmation": "Makro skor 35/100; 30Y değişim +0.08 puan."
       }
     ],
     "important_news": [
       {
-        "title": "Live updates: Bitcoin slumps below $82,000 as markets go risk off on AI selloff, oil surge",
-        "link": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides",
-        "published_at": "2026-10-22T09:54:26+00:00",
+        "title": "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech",
+        "link": "https://www.coindesk.com/business/2026/10/22/a16z-is-the-latest-vc-giant-to-widen-bets-beyond-crypto-and-into-ai-and-emerging-tech",
+        "published_at": "2026-10-22T18:30:57+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
-        "impact_score": -1,
-        "impact": "Risk artırıcı",
-        "brief_summary": "Güney Kore'de Kospi gecede %3,5 oranında değer kaybederken, petrol Orta Doğu'daki düşmanlıkların yeniden başlamasıyla yaklaşık %3 değer kazandı. 10 yıllık Hazine getirisi Çarşamba günü 13 baz puan düşerek yaklaşık bir ayın en düşük seviyesi olan %5,02'ye geriledi.",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.7; çoklu-borsa OI 24s %-3.0; OI-ağırlıklı funding %+0.0027.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.7; çoklu-borsa OI 24s %-5.6; OI-ağırlıklı funding %+0.0034.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.7; çoklu-borsa OI 24s %-3.0; OI-ağırlıklı funding %+0.0027."
+        "data_confirmation": "BTC 24s %-3.7; çoklu-borsa OI 24s %-5.6; OI-ağırlıklı funding %+0.0034."
       },
       {
-        "title": "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally",
-        "link": "https://www.coindesk.com/markets/2026/10/22/bitcoin-etfs-attract-usd1-08-billion-in-3-days-but-it-may-not-be-enough-for-a-steep-rally",
-        "published_at": "2026-10-22T04:41:59+00:00",
+        "title": "Crypto for Advisors: Stablecoins are ready for prime time",
+        "link": "https://www.coindesk.com/coindesk-indices/2026/10/22/crypto-for-advisors-stablecoins-are-ready-for-prime-time",
+        "published_at": "2026-10-22T14:58:31+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
-        "impact_score": 1,
-        "impact": "Destekleyici",
-        "brief_summary": "Geçmişteki dik yükselişler, ETF'lere günde yaklaşık 235 milyon dolarlık net giriş sağladı. Bitcoin BTC$84.459,46 değerindeki borsa yatırım fonları (ETF'ler) tekrar lehine döndü, ancak henüz tarihsel olarak dik yükselişleri tetikleyen hızda değil.",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.7; çoklu-borsa OI 24s %-3.0; OI-ağırlıklı funding %+0.0027.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.7; çoklu-borsa OI 24s %-5.6; OI-ağırlıklı funding %+0.0034.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.7; çoklu-borsa OI 24s %-3.0; OI-ağırlıklı funding %+0.0027."
+        "data_confirmation": "BTC 24s %-3.7; çoklu-borsa OI 24s %-5.6; OI-ağırlıklı funding %+0.0034."
       },
       {
         "title": "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa",
@@ -83,12 +83,12 @@
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Axios'un haberine göre şirket, 2,5 milyar dolarlık potansiyel bir satın alma için Visa ile görüşmelerde bulunuyor. Kripto para saklama şirketi Fireblocks, Visa (V) ile 2,5 milyar dolara satın alınmak üzere görüşmelerde bulunduğu yönündeki haberleri yalanladı.",
+        "brief_summary": "Axios'un bildirdiğine göre şirket, Visa ile 2,5 milyar $ değerinde potansiyel bir satın alma için görüşüyor. Kripto para saklama şirketi Fireblocks, Visa (V) ile 2,5 milyar $ karşılığında satın alınmak üzere görüştüğü haberlerini reddetti.",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.7; çoklu-borsa OI 24s %-3.0; OI-ağırlıklı funding %+0.0027.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.7; çoklu-borsa OI 24s %-5.6; OI-ağırlıklı funding %+0.0034.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.7; çoklu-borsa OI 24s %-3.0; OI-ağırlıklı funding %+0.0027."
+        "data_confirmation": "BTC 24s %-3.7; çoklu-borsa OI 24s %-5.6; OI-ağırlıklı funding %+0.0034."
       },
       {
         "title": "Crypto is making a splash in U.S. elections — but chiefly in jabs about industry influence",
@@ -98,12 +98,12 @@
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Destekçiler genellikle kripto seçmenlerinin seçimleri değiştirebileceğini söylüyor, ancak Demokratlar kriptoyu Trump'a bağlamak, yolsuzluk ve Kongre'de sandalye satın alma girişimlerinden kurtulmak için bir yol arıyorlar. Senato Bankacılık Komitesi eski başkanı Brown, yakın tarihli bir Pod Save…",
+        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.7; çoklu-borsa OI 24s %-3.0; OI-ağırlıklı funding %+0.0027.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.7; çoklu-borsa OI 24s %-5.6; OI-ağırlıklı funding %+0.0034.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.7; çoklu-borsa OI 24s %-3.0; OI-ağırlıklı funding %+0.0027."
+        "data_confirmation": "BTC 24s %-3.7; çoklu-borsa OI 24s %-5.6; OI-ağırlıklı funding %+0.0034."
       },
       {
         "title": "Ethereum’s four-minute settlement plan could lower the cost of moving crypto",
@@ -113,12 +113,12 @@
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Yeni taslak, Ethereum işlemlerinin nihai hale gelmesi için geçen sürenin dört kat azaltılmasını hedefliyor; bu da müşterilerin ödemeleri tamamlanırken para transferi hizmetlerinin bağlantılarını serbest bırakabilir. Ethereum araştırmacıları, bir işlemin nihai hale gelmesi için bekleme süresini…",
+        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.7; çoklu-borsa OI 24s %-3.0; OI-ağırlıklı funding %+0.0027.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.7; çoklu-borsa OI 24s %-5.6; OI-ağırlıklı funding %+0.0034.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.7; çoklu-borsa OI 24s %-3.0; OI-ağırlıklı funding %+0.0027."
+        "data_confirmation": "BTC 24s %-3.7; çoklu-borsa OI 24s %-5.6; OI-ağırlıklı funding %+0.0034."
       },
       {
         "title": "Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble",
@@ -128,12 +128,12 @@
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "22 Kasım 2026 Bitcoin'in kripto pazarındaki 84.459,46 dolarlık BTC payı, daha geniş pazardaki fiyatlar zayıflasa bile Mayıs ayından bu yana en yüksek seviyeye çıktı. Kripto para biriminin hakimiyet oranı, yani dijital varlıkların toplam piyasa değerine katkısı Çarşamba günü %60'a ulaştı ve bu…",
+        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.7; çoklu-borsa OI 24s %-3.0; OI-ağırlıklı funding %+0.0027.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.7; çoklu-borsa OI 24s %-5.6; OI-ağırlıklı funding %+0.0034.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.7; çoklu-borsa OI 24s %-3.0; OI-ağırlıklı funding %+0.0027."
+        "data_confirmation": "BTC 24s %-3.7; çoklu-borsa OI 24s %-5.6; OI-ağırlıklı funding %+0.0034."
       },
       {
         "title": "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines",
@@ -143,12 +143,12 @@
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Nasdaq vadeli işlemleri düşerken Bitcoin %2,9'a kadar çıkarak 81.600 $ civarına gerilerken, CoinDesk 80 %3,5 ve DeFi endeksi %6 düştü. Bitcoin BTC$84.459,46, Tesla TSLA$386,48 ve Meta Platforms META$652,27'den gelen karışık kazanç raporlarının yapay zeka harcamalarına ilişkin şüpheleri yeniden…",
+        "brief_summary": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.7; çoklu-borsa OI 24s %-3.0; OI-ağırlıklı funding %+0.0027.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.7; çoklu-borsa OI 24s %-5.6; OI-ağırlıklı funding %+0.0034.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.7; çoklu-borsa OI 24s %-3.0; OI-ağırlıklı funding %+0.0027."
+        "data_confirmation": "BTC 24s %-3.7; çoklu-borsa OI 24s %-5.6; OI-ağırlıklı funding %+0.0034."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -165,12 +165,14 @@
     "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük.",
     "Kredi döngüsü Contraction (Kriz); kredi rejimi risk iştahını sınırlıyor.",
     "CCC spreadi %13.07 ve son 3 ayda +3.11 puan genişledi; düşük kaliteli kredide gizli stres var.",
-    "Funding örneklerinin %95'ı pozitif; long tarafında kalabalıklaşma riski artmış."
+    "BTC düşüşü vadeli piyasa CVD ile teyit ediliyor; agresif satıcı baskısı devam ediyor.",
+    "Funding örneklerinin %95'ı pozitif; long tarafında kalabalıklaşma riski artmış.",
+    "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %-2.7, ETH %-2.7.",
+    "Kriptoda spot momentum: BTC 24s %-3.7, ETH %-4.6.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 1 risk artırıcı, 9 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
+    "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 0 risk artırıcı, 11 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
   ],
   "investment_view": {
     "action": "Riski azalt; likidite ve savunma ağırlığını yükselt, yüksek beta pozisyonları küçült.",
@@ -220,7 +222,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 0,
     "result_count": 0,
-    "generated_at": "2026-10-22T14:51:29.264000+00:00"
+    "generated_at": "2026-10-22T19:03:57.477529+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -235,5 +237,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-10-22T14:46:21.349650+00:00"
+  "generated_at": "2026-10-22T18:58:25.408738+00:00"
 }
