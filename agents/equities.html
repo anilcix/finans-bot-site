@@ -12,31 +12,36 @@ function src(d){const p=d?.fundamental_policy||{},b=d?.bist_policy||{};return `<
 function filterBist(){const q=norm(document.getElementById('bistSearch')?.value||'');let visibleAssets=0;document.querySelectorAll('.bist-asset').forEach(el=>{const ok=!q||norm((el.dataset.symbol||'')+' '+(el.dataset.label||'')).includes(q);el.classList.toggle('hidden-by-search',!ok);if(ok)visibleAssets++});let visibleFund=0;document.querySelectorAll('.bist-fund-card').forEach(el=>{const ok=!q||norm(el.dataset.search||'').includes(q);el.classList.toggle('hidden-by-search',!ok);if(ok)visibleFund++});const no=document.getElementById('bistNoResult');if(no)no.style.display=visibleAssets?'none':'block';const meta=document.getElementById('bistSearchMeta');if(meta)meta.textContent=q?`${visibleAssets} varlık · ${visibleFund} temel analiz kartı eşleşti`:`${document.querySelectorAll('.bist-asset').length} BIST varlığı gösteriliyor`}
 function selectBist(symbol){const input=document.getElementById('bistSearch');if(input){input.value=symbol;filterBist()}const card=document.getElementById('bist-'+symbol);if(card){card.classList.remove('hidden-by-search');card.open=true;setTimeout(()=>card.scrollIntoView({behavior:'smooth',block:'center'}),50)}}
 
+
+const sectorColors=['#39ff88','#ffcc66','#5cc8ff','#ff7c92','#c49bff','#ff9856','#72e6ce','#e6e66a','#9fb6ff','#fa81da','#b6e87a','#ffb0b0'];
 function sectorTrendCard(data,market,title){
- const rows=(data?.[market]||[]),ok=rows.filter(x=>x.points?.length),missing=rows.filter(x=>!x.points?.length);
+ const rows=data?.[market]||[],ok=rows.filter(x=>x.points?.length),missing=rows.filter(x=>!x.points?.length);
  const ranking=[...ok].sort((a,b)=>(b.change_period_pct??-999)-(a.change_period_pct??-999));
- const options=ok.map(x=>'<option value="'+x.symbol+'">'+x.label+' ('+x.symbol+')</option>').join('');
- return '<div class="card"><h2>'+title+' · Sektörel Trend</h2><div class="policy">Son 6 ay · İlk mevcut kapanış = 100 · Günlük kapanışlar. ABD: sektör ETF vekilleri; Türkiye: BIST sektör endeksleri. Yatırım getirisi / para akışı ölçümü değildir.</div>'+
- (ok.length?'<div class="sector-controls"><label>Sektör: <select id="sectorSelect-'+market+'" onchange="drawSector(\''+market+'\')">'+options+'</select></label></div><div id="sectorChart-'+market+'" class="sector-chart"></div><div class="table-wrap"><table class="data-table"><tr><th>Sektör</th><th>Endeks / ETF</th><th>5 işlem günü</th><th>6 aylık dönem</th><th>Son kapanış</th></tr>'+ranking.map(x=>'<tr><td>'+x.label+'</td><td>'+x.symbol+'</td><td class="'+(x.change_1w_pct>=0?'positive':'negative')+'">'+pct(x.change_1w_pct)+'</td><td class="'+(x.change_period_pct>=0?'positive':'negative')+'">'+pct(x.change_period_pct)+'</td><td>'+x.last_date+'</td></tr>').join('')+'</table></div>':'<div class="empty">Sektör tarihçesi henüz üretilmedi. Bir sonraki veri güncellemesiyle gelecek.</div>')+
- (missing.length?'<div class="policy">Verisi alınamayan sektörler: '+missing.map(x=>x.label+' ('+x.symbol+')').join(', ')+'</div>':'')+'</div>';
+ return '<div class="card"><h2>'+title+' · Sektörel Trend Karşılaştırması</h2><div class="policy">Son 6 ay · Başlangıç 100 · Bütün sektörler tek grafikte. Sektör adlarına tıklayarak çizgileri açıp kapatabilirsin. ABD sektör ETF, BIST sektör endeksidir.</div>'+
+ (ok.length?'<div id="sectorLegend-'+market+'" style="display:flex;gap:7px;flex-wrap:wrap;margin:12px 0">'+ok.map((x,i)=>'<button type="button" data-sector="'+x.symbol+'" onclick="toggleSector(\''+market+'\',\''+x.symbol+'\')" style="cursor:pointer;border:1px solid '+sectorColors[i%sectorColors.length]+';background:#0c2217;color:'+sectorColors[i%sectorColors.length]+';border-radius:7px;padding:7px 9px;font-size:10px">'+x.label+'</button>').join('')+'</div><div id="sectorChart-'+market+'" class="sector-chart"></div><div class="table-wrap"><table class="data-table"><tr><th>Sektör</th><th>Endeks / ETF</th><th>5 işlem günü</th><th>6 aylık dönem</th><th>Son kapanış</th></tr>'+ranking.map(x=>'<tr><td>'+x.label+'</td><td>'+x.symbol+'</td><td class="'+(x.change_1w_pct>=0?'positive':'negative')+'">'+pct(x.change_1w_pct)+'</td><td class="'+(x.change_period_pct>=0?'positive':'negative')+'">'+pct(x.change_period_pct)+'</td><td>'+x.last_date+'</td></tr>').join('')+'</table></div>':'<div class="empty">Sektör tarihçesi henüz üretilemedi.</div>')+
+ (missing.length?'<div class="policy">⚠ Kaynaktan yeterli tarihçe alınamayan sektörler (grafiğe eklenmedi): '+missing.map(x=>x.label+' ('+x.symbol+')').join(', ')+'</div>':'')+'</div>';
 }
-let sectorCache={};
+let sectorCache={},sectorHidden={us:new Set(),tr:new Set()};
+function toggleSector(market,symbol){
+ const set=sectorHidden[market];if(set.has(symbol))set.delete(symbol);else set.add(symbol);
+ drawSector(market);
+}
 function drawSector(market){
- const symbol=document.getElementById('sectorSelect-'+market)?.value;
- const row=(sectorCache[market]||[]).find(x=>x.symbol===symbol);
- const host=document.getElementById('sectorChart-'+market);
- if(!host||!row?.points?.length)return;
- const pts=row.points.filter(x=>Number.isFinite(Number(x.index)));
- if(pts.length<2){host.textContent='Grafik için yeterli veri yok';return}
- const W=960,H=250,L=55,R=16,T=18,B=32;
- const min=Math.min(...pts.map(x=>x.index)),max=Math.max(...pts.map(x=>x.index));
- const lo=Math.floor((min-1)/5)*5,hi=Math.ceil((max+1)/5)*5,span=Math.max(1,hi-lo);
- const xy=(p,i)=>[(L+i*(W-L-R)/(pts.length-1)).toFixed(1),(T+(hi-p.index)/span*(H-T-B)).toFixed(1)];
- const path=pts.map((p,i)=>(i?'L':'M')+xy(p,i).join(',')).join(' ');
- const baseline=T+(hi-100)/span*(H-T-B);
- const labels=[0,.25,.5,.75,1].map(t=>{const v=lo+(hi-lo)*t,y=T+(1-t)*(H-T-B);return '<line x1="'+L+'" y1="'+y+'" x2="'+(W-R)+'" y2="'+y+'" stroke="#284437" stroke-dasharray="3 5"/><text x="'+(L-8)+'" y="'+(y+4)+'" text-anchor="end" fill="#9bb9a5" font-size="12">'+v.toFixed(0)+'</text>'}).join('');
- const last=pts[pts.length-1];
- host.innerHTML='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+row.label+' normalize sektör trendi" style="width:100%;height:auto;display:block">'+labels+(baseline>=T&&baseline<=H-B?'<line x1="'+L+'" x2="'+(W-R)+'" y1="'+baseline+'" y2="'+baseline+'" stroke="#f2cc60" stroke-dasharray="6 4" opacity=".8"/>':'')+'<path d="'+path+'" fill="none" stroke="#39ff88" stroke-width="2.6"/><text x="'+L+'" y="'+(H-7)+'" fill="#9bb9a5" font-size="12">'+pts[0].date+'</text><text x="'+(W-R)+'" y="'+(H-7)+'" text-anchor="end" fill="#9bb9a5" font-size="12">'+last.date+'</text><text x="'+(W-R)+'" y="14" text-anchor="end" fill="#39ff88" font-size="14">'+last.index.toFixed(2)+'</text></svg>';
+ const rows=(sectorCache[market]||[]).filter(x=>x.points?.length);
+ const host=document.getElementById('sectorChart-'+market);if(!host)return;
+ const active=rows.filter(x=>!sectorHidden[market].has(x.symbol));
+ document.querySelectorAll('#sectorLegend-'+market+' [data-sector]').forEach(el=>el.style.opacity=sectorHidden[market].has(el.dataset.sector)?'.35':'1');
+ if(!active.length){host.innerHTML='<div class="empty">Gösterilecek sektör seçilmedi.</div>';return}
+ const W=960,H=300,L=55,R=20,T=20,B=35;
+ const allDates=[...new Set(active.flatMap(x=>x.points.map(p=>p.date)))].sort();
+ const dateIndex=new Map(allDates.map((x,i)=>[x,i]));
+ const values=active.flatMap(x=>x.points.map(p=>Number(p.index))).filter(Number.isFinite);
+ const lo=Math.floor((Math.min(100,...values)-2)/5)*5,hi=Math.ceil((Math.max(100,...values)+2)/5)*5,span=Math.max(1,hi-lo);
+ const x=date=>L+(dateIndex.get(date)||0)*(W-L-R)/Math.max(1,allDates.length-1);
+ const y=value=>T+(hi-value)/span*(H-T-B);
+ const grids=[0,.25,.5,.75,1].map(t=>{const v=lo+(hi-lo)*t,yy=T+(1-t)*(H-T-B);return '<line x1="'+L+'" x2="'+(W-R)+'" y1="'+yy+'" y2="'+yy+'" stroke="#284437" stroke-dasharray="3 5"/><text x="'+(L-7)+'" y="'+(yy+4)+'" text-anchor="end" fill="#9bb9a5" font-size="12">'+v.toFixed(0)+'</text>'}).join('');
+ const lines=active.map(row=>{const i=rows.indexOf(row),color=sectorColors[i%sectorColors.length];const pts=row.points.filter(p=>Number.isFinite(Number(p.index)));const d=pts.map((p,j)=>(j?'L':'M')+x(p.date).toFixed(1)+','+y(p.index).toFixed(1)).join(' ');return '<path d="'+d+'" fill="none" stroke="'+color+'" stroke-width="2.3" stroke-linejoin="round"><title>'+row.label+' · '+row.change_period_pct+'%</title></path>'}).join('');
+ host.innerHTML='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Sektörlerin normalize edilmiş altı aylık karşılaştırması" style="width:100%;height:auto;display:block">'+grids+'<line x1="'+L+'" x2="'+(W-R)+'" y1="'+y(100)+'" y2="'+y(100)+'" stroke="#d2d2d2" stroke-dasharray="6 5" opacity=".7"/>'+lines+'<text x="'+L+'" y="'+(H-7)+'" fill="#9bb9a5" font-size="12">'+allDates[0]+'</text><text x="'+(W-R)+'" y="'+(H-7)+'" text-anchor="end" fill="#9bb9a5" font-size="12">'+allDates[allDates.length-1]+'</text></svg>';
 }
 function brokerFlowCard(d){
  const b=d||{},periods=[5,7,15];
