@@ -25,6 +25,19 @@
   #coinIntelResult .ci-alert-danger{background:#6a1824;color:#ffe2e6}
   #coinIntelResult .ci-alert-watch{background:#554015;color:#ffe6a3}
   #coinIntelResult .ci-alert-neutral{background:#203b30;color:#bdd9cb}
+  #coinIntelResult #ciRiskSummary{margin:14px 0 20px;padding:17px;border:1px solid rgba(255,170,100,.32);border-radius:15px;background:linear-gradient(135deg,rgba(38,32,28,.9),rgba(10,25,20,.96))}
+  #coinIntelResult .ci-risk-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+  #coinIntelResult .ci-risk-heading h3{font-size:20px;margin:4px 0 5px}
+  #coinIntelResult .ci-risk-kicker{font-size:10px;letter-spacing:.12em;color:#ffbd81;font-weight:800}
+  #coinIntelResult .ci-risk-pill{font-size:11px;border:1px solid;border-radius:999px;padding:7px 10px;font-weight:800}
+  #coinIntelResult .ci-risk-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  #coinIntelResult .ci-risk-tile{padding:13px;border-radius:11px;border-left:4px solid #aebbb5;background:rgba(0,0,0,.23)}
+  #coinIntelResult .ci-risk-danger{border-left-color:#ff6476;background:rgba(255,74,94,.10)}
+  #coinIntelResult .ci-risk-watch{border-left-color:#ffc46b;background:rgba(255,188,75,.08)}
+  #coinIntelResult .ci-risk-good{border-left-color:#57eaa0}
+  #coinIntelResult .ci-risk-name{font-size:10px;color:#bed4c7;margin-bottom:6px}
+  #coinIntelResult .ci-risk-value{font-size:17px;font-weight:800;margin-bottom:5px;overflow-wrap:anywhere}
+  @media(max-width:600px){#coinIntelResult .ci-risk-grid{grid-template-columns:1fr}}
   #coinIntelResult .ci-transfer-hint{font-size:10px;color:#adc3b6;line-height:1.6;margin:8px 0 12px}
   @media(max-width:650px){#coinIntelResult .ci-section{padding:11px}#coinIntelResult .ci-table{font-size:10px}#coinIntelResult .ci-table th,#coinIntelResult .ci-table td{padding:9px 7px}}
   `;
@@ -44,6 +57,39 @@
   function moveRows(rows){
     return (rows||[]).map(r=>{const risk=transferRisk(r);return `<tr class="ci-${risk.level==='danger'?'danger':risk.level==='watch'?'watch':'neutral'}"><td><span class="ci-alert ci-alert-${risk.level}" title="${esc(risk.why)}">${risk.text}</span><br>${when(r.at)}</td><td>${money(r.amount_usd)}</td><td title="${esc(r.from||'')}">${short(r.from)}</td><td>${esc((r.from_labels||[]).join(', ')||'—')}</td><td title="${esc(r.to||'')}">${short(r.to)}</td><td>${esc((r.to_labels||[]).join(', ')||'—')}</td></tr>`}).join('');
   }
+  function renderRiskSummary(d){
+    const out=document.getElementById('coinIntelResult');if(!out)return;
+    const sm=d.smart_money||{},a=d.assessment||{},r=d.public_research||{},u=r.unlock_schedule||{},legacy=d.unlock_risk||{};
+    const all=[...(sm.whale_moves||[]),...(sm.vc_moves||[]),...(sm.team_moves||[])];
+    const unique=new Map();
+    for(const m of all){const key=[m.at,m.from,m.to,m.amount_usd].join('|');unique.set(key,m)}
+    const moves=[...unique.values()];
+    const danger=moves.filter(m=>transferRisk(m).level==='danger');
+    const watch=moves.filter(m=>transferRisk(m).level==='watch');
+    const flows=(sm.exchange_flows||[])[0]||{};
+    const net=Number(flows.net_tokens);
+    const netKnown=sm.available&&flows.net_tokens!=null&&Number.isFinite(net);
+    const shortRisk=String(a.short_term_supply_risk||'UNKNOWN').toUpperCase();
+    const next=u.next_event||{};
+    const unlock7=legacy.unlock_pct_circ?.['7d'];
+    const hasUnlock=u.available||legacy.available;
+    const date=next.date||null;
+    const cards=[
+      {name:'Arz / Unlock Riski',state:shortRisk==='HIGH'?'danger':shortRisk==='LOW'?'good':shortRisk==='MEDIUM'?'watch':'unknown',value:shortRisk==='HIGH'?'YÜKSEK':shortRisk==='LOW'?'DÜŞÜK':shortRisk==='MEDIUM'?'ORTA':'BELİRSİZ',detail:hasUnlock?(date?'Sonraki açılış: '+date:unlock7!=null?'7 günlük açılış: '+pct(unlock7):'Takvim mevcut, ayrıntıyı incele'):'Doğrulanmış unlock takvimi yok'},
+      {name:'Borsaya Net Akış · 7g',state:netKnown?(net>0?'danger':net<0?'watch':'neutral'):'unknown',value:netKnown?(net>0?'+':'')+num(net)+' token':'VERİ YOK',detail:netKnown?(net>0?'Gözlenen net giriş · satış ihtimali':net<0?'Gözlenen net çıkış · satış kanıtı değil':'Gözlenen akış dengede'):'Etiketli borsa cüzdanı verisi yetersiz'},
+      {name:'Kritik Transferler',state:!sm.available?'unknown':danger.length?'danger':'neutral',value:sm.available?danger.length+' kırmızı uyarı':'VERİ YOK',detail:sm.available?moves.length+' gözlenen transfer · '+watch.length+' turuncu uyarı':'Transfer kapsamı doğrulanamadı'},
+      {name:'Ekip / VC Hareketleri',state:!sm.available?'unknown':(sm.team_moves||[]).some(m=>transferRisk(m).level==='danger')||(sm.vc_moves||[]).some(m=>transferRisk(m).level==='danger')?'danger':(sm.team_moves||[]).length+(sm.vc_moves||[]).length?'watch':'neutral',value:sm.available?((sm.team_moves||[]).length+(sm.vc_moves||[]).length)+' hareket':'VERİ YOK',detail:'Etiketli cüzdan hareketleri; sahiplik kesinliği değildir'}
+    ];
+    const urgent=cards.filter(x=>x.state==='danger').length,unknown=cards.filter(x=>x.state==='unknown').length;
+    const state=urgent?'danger':unknown?'unknown':cards.some(x=>x.state==='watch')?'watch':'good';
+    const headline=urgent?urgent+' kritik inceleme başlığı':unknown?'Eksik veri · kesin risk notu yok':'Kritik uyarı saptanmadı';
+    const colors={danger:'#ff6476',watch:'#ffc46b',good:'#57eaa0',neutral:'#b6cfc0',unknown:'#aebbb5'};
+    let box=out.querySelector('#ciRiskSummary');
+    if(!box){box=document.createElement('section');box.id='ciRiskSummary';out.prepend(box)}
+    box.innerHTML='<div class="ci-risk-heading"><div><div class="ci-risk-kicker">ÖNCE BURAYA BAK</div><h3>🚨 Risk Özeti</h3><div class="ci-muted">Kırmızı: araştırılması gereken risk · Turuncu: izleme · Gri: eksik/belirsiz veri</div></div><span class="ci-risk-pill" style="color:'+colors[state]+';border-color:'+colors[state]+'">'+esc(headline)+'</span></div>'+
+      '<div class="ci-risk-grid">'+cards.map(x=>'<div class="ci-risk-tile ci-risk-'+x.state+'"><div class="ci-risk-name">'+esc(x.name)+'</div><div class="ci-risk-value">'+esc(x.value)+'</div><div class="ci-muted">'+esc(x.detail)+'</div></div>').join('')+'</div>'+
+      '<div class="ci-muted" style="margin-top:10px">Uyarılar gözlenen ve etiketlenmiş veriye dayanır; satış gerçekleştiğini veya tüm cüzdanların izlendiğini kanıtlamaz. Veri yokluğu düşük risk anlamına gelmez.</div>';
+  }
   function patchScore(d){
     const out=document.getElementById('coinIntelResult');if(!out)return;
     const a=d.assessment||{};if(!a.long_term_potential_provisional)return;
@@ -56,6 +102,7 @@
   function renderSmart(d){
     const out=document.getElementById('coinIntelResult');if(!out)return;
     patchScore(d);
+    renderRiskSummary(d);
     const sections=[...out.querySelectorAll('.ci-section')];
     const target=sections.find(s=>(s.querySelector('h3')?.textContent||'').startsWith('VC / Team Wallets'));
     if(!target)return;
