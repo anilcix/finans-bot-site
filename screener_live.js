@@ -51,7 +51,7 @@
     const slot=document.getElementById('liveHistorySlot');
     if(!slot||typeof window.historyCard!=='function')return;
     try{
-      const r=await fetch(API+'/history?limit=100&t='+Date.now(),{cache:'no-store'});
+      const r=await fetch(API+'/history?limit=30&t='+Date.now(),{cache:'no-store'});
       if(!r.ok)throw Error('HTTP '+r.status);
       const h=await r.json();
       if(!Array.isArray(h.events))throw Error('Geçersiz geçmiş verisi');
@@ -129,7 +129,7 @@
   setTimeout(renderStaticContext,400);
   setTimeout(async()=>{await patchPeakHistoryLabels();renderLiveControls()},700);setTimeout(async()=>{try{const r=await fetch(API+'?t='+Date.now(),{cache:'no-store'});if(r.ok){const d=await r.json();liveEnabled=!!d.running;renderLiveControls();if(liveEnabled)refreshLive(true)}}catch(e){}},850);
   setTimeout(()=>{if(liveEnabled)refreshLive(true)},900);
-  setInterval(()=>refreshLive(false),15000);setInterval(patchPeakHistoryLabels,5000);scheduleBoundary();
+  setInterval(()=>refreshLive(false),30000);setInterval(patchPeakHistoryLabels,5000);scheduleBoundary();
   document.addEventListener('visibilitychange',()=>{if(!document.hidden){if(liveEnabled)refreshLive(true);patchPeakHistoryLabels()}});
 
 })();
