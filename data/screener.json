@@ -1,54 +1,54 @@
 {
   "movers": [
     {
-      "symbol": "JUP",
-      "name": "Jupiter",
-      "coingecko_id": "jupiter-exchange-solana",
+      "symbol": "CAKE",
+      "name": "PancakeSwap",
+      "coingecko_id": "pancakeswap-token",
       "exchange": "ana piyasa",
-      "exchange_symbol": "JUPUSDT",
-      "price": 0.280669,
-      "change_24h": 2.72897,
-      "volume_zscore_15m": 2.6663841520528213,
-      "pine_z_delta_15m": 3.2680861163237322,
-      "pine_raw_delta_15m_base": 156046.69999999998,
-      "pine_delta_mean_20": 31384.379999999997,
-      "pine_delta_stdev_20": 38145.359566054685,
+      "exchange_symbol": "CAKEUSDT",
+      "price": 2.1,
+      "change_24h": 0.36775,
+      "volume_zscore_15m": 4.092640819661922,
+      "pine_z_delta_15m": 3.799940661034499,
+      "pine_raw_delta_15m_base": 57789.270000000004,
+      "pine_delta_mean_20": 6713.7505,
+      "pine_delta_stdev_20": 13441.136074502585,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 188662.9,
-      "base_volume_mean_20": 52905.659999999996,
-      "base_volume_stdev_20": 50914.359018929026,
-      "volume_15m_usd": 53358.25233,
-      "buyer_share_pct": 91.65809899006486,
-      "taker_buy_15m_usd": 48907.159739999996,
-      "taker_sell_15m_usd": 4451.0925900000075,
-      "spot_delta_15m_usd": 44456.06714999999,
-      "price_change_15m_pct": 0.3200568990042729,
+      "base_volume_15m": 71448.27,
+      "base_volume_mean_20": 10749.4455,
+      "base_volume_stdev_20": 14831.212211047174,
+      "volume_15m_usd": 150652.36265,
+      "buyer_share_pct": 68.79777980700658,
+      "taker_buy_15m_usd": 103645.48073000001,
+      "taker_sell_15m_usd": 47006.881919999985,
+      "spot_delta_15m_usd": 56638.598810000025,
+      "price_change_15m_pct": 0.3811338732729874,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1793153700000,
-          "delta_usd": 2104.2097300000023,
+          "ts": 1793178900000,
+          "delta_usd": 7530.265950000001,
           "green": true
         },
         {
-          "ts": 1793154600000,
-          "delta_usd": -323.31673000000046,
+          "ts": 1793179800000,
+          "delta_usd": -1624.5131099999999,
           "green": false
         },
         {
-          "ts": 1793155500000,
-          "delta_usd": 44456.06714999999,
+          "ts": 1793180700000,
+          "delta_usd": 56638.598810000025,
           "green": true
         }
       ],
       "cvd_green_count_3": 2,
       "cvd_green_streak": 1,
-      "cvd_45m_delta_usd": 46236.96014999999,
+      "cvd_45m_delta_usd": 62544.351650000026,
       "cvd_note": "✅ Pine Z-Delta + true Spot CVD aynı yönde",
-      "signal_score": 10.45028016738304,
+      "signal_score": 10.122359461397078,
       "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-10-28T02:45:00+00:00"
+      "signal_time_utc": "2026-10-28T09:45:00+00:00"
     }
   ],
   "window": "15m",
@@ -69,5 +69,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-10-28T03:12:07.413434+00:00"
+  "generated_at": "2026-10-28T10:11:06.372143+00:00"
 }
