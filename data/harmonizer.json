@@ -1,15 +1,15 @@
 {
-  "market_score": 43.0,
+  "market_score": 44.0,
   "stance": "Temkinli Risk-Off",
   "confidence": 75.0,
   "component_scores": {
-    "macro": 36.2,
+    "macro": 38.0,
     "credit": 5,
     "options": 68,
-    "crypto": 52.7,
+    "crypto": 49.1,
     "crypto_derivatives": 58,
-    "equities": 50.9,
-    "news": 47
+    "equities": 63.9,
+    "news": 44
   },
   "plain_summary": [
     "Ana görüş: aşağı yönlü risk belirginleşmiş durumda. Yeni risk eklemek yerine pozisyon boyutunu küçültmek ve savunmayı artırmak daha uygun.",
@@ -17,138 +17,138 @@
     "Görüşü güçlendirecek teyit: CCC ve IG spreadleri yeniden daralmaya başlar, HY düşük kalırsa risk artırma teyidi. Görüşü bozacak sinyal: HY OAS %4.0 üzerine çıkar veya kredi döngüsü Late Cycle/Contraction'a dönerse riski azalt."
   ],
   "news_analysis": {
-    "score": 47,
+    "score": 44,
     "tone": "Karışık / Nötr",
-    "summary": "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 1 risk artırıcı, 12 nötr/karışık benzersiz başlık. Haber skoru 47/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
+    "summary": "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 2 risk artırıcı, 13 nötr/karışık benzersiz başlık. Haber skoru 44/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
     "positive_count": 0,
-    "negative_count": 1,
-    "neutral_count": 12,
-    "headline_count": 13,
-    "unique_story_count": 13,
+    "negative_count": 2,
+    "neutral_count": 13,
+    "headline_count": 15,
+    "unique_story_count": 15,
     "article_context_count": 0,
     "topic_summaries": [
       {
         "topic": "Bitcoin",
         "tone": "risk artırıcı",
         "count": 10,
-        "digest": "Thai Supreme Court rules bitcoin is property after thief challenges conviction | Bermuda taps WalletConnect to advance its onchain economy plan",
+        "digest": "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets | Crypto exchange HTX exits the UK after settling with the FCA",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-1.6; çoklu-borsa OI 24s %+0.0; OI-ağırlıklı funding %+0.0040."
+        "data_confirmation": "BTC 24s %-0.8; çoklu-borsa OI 24s %-1.8; OI-ağırlıklı funding %+0.0082."
       },
       {
         "topic": "Makro / Fed / Hazine",
         "tone": "karışık",
-        "count": 3,
-        "digest": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS | Çalışma İstatistikleri Bürosu, geniş çalışma ekonomisi ve istatistik alanında Federal Hükümet için temel araştırma kuruluşudur. 2026 'nın ilk çeyreğinde, genişleyen ve açılan özel sektör kuruluşlarından elde edilen brüt iş kazançları 7,4 milyon olmuştur.",
+        "count": 5,
+        "digest": "QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS | QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 36/100; 30Y değişim -0.19 puan."
+        "data_confirmation": "Makro skor 38/100; 30Y değişim -0.19 puan."
       }
     ],
     "important_news": [
       {
-        "title": "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto",
-        "link": "https://www.coindesk.com/markets/2026/10/29/bitcoin-dips-below-usd80-000-as-samsung-led-risk-aversion-in-tech-and-a-hawkish-fed-weigh-on-crypto",
-        "published_at": "2026-10-29T03:32:43+00:00",
+        "title": "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets",
+        "link": "https://www.coindesk.com/policy/2026/10/29/kucoin-exits-russia-and-belarus-as-crypto-exchanges-withdraw-from-western-sanctioned-markets",
+        "published_at": "2026-10-29T16:51:18+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": -1,
         "impact": "Risk artırıcı",
-        "brief_summary": "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto",
+        "brief_summary": "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.6; çoklu-borsa OI 24s %+0.0; OI-ağırlıklı funding %+0.0040.",
+        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.8; çoklu-borsa OI 24s %-1.8; OI-ağırlıklı funding %+0.0082.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-1.6; çoklu-borsa OI 24s %+0.0; OI-ağırlıklı funding %+0.0040."
+        "data_confirmation": "BTC 24s %-0.8; çoklu-borsa OI 24s %-1.8; OI-ağırlıklı funding %+0.0082."
       },
       {
-        "title": "Thai Supreme Court rules bitcoin is property after thief challenges conviction",
-        "link": "https://www.coindesk.com/policy/2026/10/29/thai-supreme-court-rules-bitcoin-is-property-after-thief-challenges-conviction",
-        "published_at": "2026-10-29T10:04:36+00:00",
+        "title": "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers",
+        "link": "https://www.coindesk.com/business/2026/10/29/u-s-sanctions-russian-crypto-middlemen-tied-to-north-korean-it-worker-fraud",
+        "published_at": "2026-10-29T12:18:20+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": -1,
+        "impact": "Risk artırıcı",
+        "brief_summary": "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers",
+        "summary_mode": "headline_only",
+        "read_mode": "trusted_feed_headline",
+        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.8; çoklu-borsa OI 24s %-1.8; OI-ağırlıklı funding %+0.0082.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %-0.8; çoklu-borsa OI 24s %-1.8; OI-ağırlıklı funding %+0.0082."
+      },
+      {
+        "title": "Crypto exchange HTX exits the UK after settling with the FCA",
+        "link": "https://www.coindesk.com/policy/2026/10/29/crypto-exchange-htx-exits-the-uk-after-settling-with-the-fca",
+        "published_at": "2026-10-29T16:11:18+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Thai Supreme Court rules bitcoin is property after thief challenges conviction",
+        "brief_summary": "Crypto exchange HTX exits the UK after settling with the FCA",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.6; çoklu-borsa OI 24s %+0.0; OI-ağırlıklı funding %+0.0040.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.8; çoklu-borsa OI 24s %-1.8; OI-ağırlıklı funding %+0.0082.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-1.6; çoklu-borsa OI 24s %+0.0; OI-ağırlıklı funding %+0.0040."
+        "data_confirmation": "BTC 24s %-0.8; çoklu-borsa OI 24s %-1.8; OI-ağırlıklı funding %+0.0082."
       },
       {
-        "title": "Bermuda taps WalletConnect to advance its onchain economy plan",
-        "link": "https://www.coindesk.com/business/2026/10/29/bermuda-taps-walletconnect-to-advance-its-onchain-economy-plan",
-        "published_at": "2026-10-29T10:00:00+00:00",
-        "topic": "Bitcoin",
-        "theme": "macro",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Bermuda taps WalletConnect to advance its onchain economy plan",
-        "summary_mode": "headline_only",
-        "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 36/100; 30Y değişim -0.19 puan.",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 36/100; 30Y değişim -0.19 puan."
-      },
-      {
-        "title": "The chart bitcoin traders should be paying attention to",
-        "link": "https://www.coindesk.com/markets/2026/10/29/the-chart-bitcoin-traders-should-be-paying-attention-to",
-        "published_at": "2026-10-29T07:44:44+00:00",
+        "title": "Polymarket brings ultra-short crypto prediction markets to U.S. platform",
+        "link": "https://www.coindesk.com/markets/2026/10/29/polymarket-brings-ultra-short-crypto-prediction-markets-to-u-s-platform",
+        "published_at": "2026-10-29T14:55:47+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "The chart bitcoin traders should be paying attention to",
+        "brief_summary": "Polymarket brings ultra-short crypto prediction markets to U.S. platform",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.6; çoklu-borsa OI 24s %+0.0; OI-ağırlıklı funding %+0.0040.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.8; çoklu-borsa OI 24s %-1.8; OI-ağırlıklı funding %+0.0082.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-1.6; çoklu-borsa OI 24s %+0.0; OI-ağırlıklı funding %+0.0040."
+        "data_confirmation": "BTC 24s %-0.8; çoklu-borsa OI 24s %-1.8; OI-ağırlıklı funding %+0.0082."
       },
       {
-        "title": "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public",
-        "link": "https://www.coindesk.com/tech/2026/10/29/ai-found-a-way-to-crash-bitcoin-nodes-on-windows-and-macs-it-s-now-public",
-        "published_at": "2026-10-29T05:54:39+00:00",
+        "title": "Crypto for Advisors: Only 1 in 5 Americans say the financial system is secure",
+        "link": "https://www.coindesk.com/coindesk-indices/2026/10/29/crypto-for-advisors-only-1-in-5-americans-say-the-financial-system-is-secure",
+        "published_at": "2026-10-29T14:39:01+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public",
+        "brief_summary": "Crypto for Advisors: Only 1 in 5 Americans say the financial system is secure",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.6; çoklu-borsa OI 24s %+0.0; OI-ağırlıklı funding %+0.0040.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.8; çoklu-borsa OI 24s %-1.8; OI-ağırlıklı funding %+0.0082.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-1.6; çoklu-borsa OI 24s %+0.0; OI-ağırlıklı funding %+0.0040."
+        "data_confirmation": "BTC 24s %-0.8; çoklu-borsa OI 24s %-1.8; OI-ağırlıklı funding %+0.0082."
       },
       {
-        "title": "Security failure at Indian certificate firm bites Ethereum as developers rush out fixes",
-        "link": "https://www.coindesk.com/tech/2026/10/29/ethereum-clients-patch-flaw-that-could-let-attackers-redirect-eth-rewards",
-        "published_at": "2026-10-29T05:30:34+00:00",
+        "title": "Why Switzerland’s first genuine spot bitcoin ETF could soon attract overseas banks and brokers",
+        "link": "https://www.coindesk.com/business/2026/10/29/switzerland-s-first-bitcoin-etf-gets-rare-exemption-will-open-to-overseas-brokers",
+        "published_at": "2026-10-29T14:15:46+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Security failure at Indian certificate firm bites Ethereum as developers rush out fixes",
+        "brief_summary": "Why Switzerland’s first genuine spot bitcoin ETF could soon attract overseas banks and brokers",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.6; çoklu-borsa OI 24s %+0.0; OI-ağırlıklı funding %+0.0040.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.8; çoklu-borsa OI 24s %-1.8; OI-ağırlıklı funding %+0.0082.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-1.6; çoklu-borsa OI 24s %+0.0; OI-ağırlıklı funding %+0.0040."
+        "data_confirmation": "BTC 24s %-0.8; çoklu-borsa OI 24s %-1.8; OI-ağırlıklı funding %+0.0082."
       },
       {
-        "title": "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost",
-        "link": "https://www.coindesk.com/markets/2026/10/28/bitcoin-backed-mortgages-are-coming-to-canada-but-borrowers-are-still-unaware-of-the-cost",
-        "published_at": "2026-10-28T21:13:44+00:00",
+        "title": "New quantum model slashes hardware needed to break bitcoin keys by 17 times",
+        "link": "https://www.coindesk.com/tech/2026/10/29/new-quantum-model-slashes-hardware-needed-to-break-bitcoin-keys-by-17-times",
+        "published_at": "2026-10-29T13:55:42+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost",
+        "brief_summary": "New quantum model slashes hardware needed to break bitcoin keys by 17 times",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.6; çoklu-borsa OI 24s %+0.0; OI-ağırlıklı funding %+0.0040.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.8; çoklu-borsa OI 24s %-1.8; OI-ağırlıklı funding %+0.0082.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-1.6; çoklu-borsa OI 24s %+0.0; OI-ağırlıklı funding %+0.0040."
+        "data_confirmation": "BTC 24s %-0.8; çoklu-borsa OI 24s %-1.8; OI-ağırlıklı funding %+0.0082."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -156,7 +156,7 @@
   "supportive_factors": [
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "30 yıllık faiz son ay geriliyor; duration baskısı kısa vadede hafifliyor.",
-    "VIX 17.06 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "VIX 16.62 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
     "vadeli piyasa ve vadeli piyasa funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü."
   ],
   "risk_factors": [
@@ -166,15 +166,15 @@
     "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük.",
     "Erken uyarı: CCC-HY Ayrışması 🟠 UYARI.",
     "Kredi döngüsü Contraction (Kriz); kredi rejimi risk iştahını sınırlıyor.",
-    "CCC spreadi %13.21 ve son 3 ayda +3.15 puan genişledi; düşük kaliteli kredide gizli stres var.",
-    "Stablecoin piyasa değeri 7 günde %-0.88; kripto içi likidite daralıyor.",
+    "CCC spreadi %13.07 ve son 3 ayda +2.73 puan genişledi; düşük kaliteli kredide gizli stres var.",
+    "Stablecoin piyasa değeri 7 günde %-1.05; kripto içi likidite daralıyor.",
     "BTC düşüşü vadeli piyasa CVD ile teyit ediliyor; agresif satıcı baskısı devam ediyor.",
     "Funding örneklerinin %100'ı pozitif; long tarafında kalabalıklaşma riski artmış."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %-1.6, ETH %-2.0.",
+    "Kriptoda spot momentum: BTC 24s %-0.8, ETH %-1.4.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 1 risk artırıcı, 12 nötr/karışık benzersiz başlık. Haber skoru 47/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
+    "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 2 risk artırıcı, 13 nötr/karışık benzersiz başlık. Haber skoru 44/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
   ],
   "investment_view": {
     "action": "Riski azalt; likidite ve savunma ağırlığını yükselt, yüksek beta pozisyonları küçült.",
@@ -224,7 +224,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 0,
     "result_count": 0,
-    "generated_at": "2026-10-29T10:39:58.367707+00:00"
+    "generated_at": "2026-10-29T20:03:04.853636+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -239,5 +239,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-10-29T10:35:33.173271+00:00"
+  "generated_at": "2026-10-29T19:58:33.119213+00:00"
 }
