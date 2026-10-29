@@ -5,8 +5,8 @@
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 190,
-    "binance_spot_matched": 108,
-    "scanned": 108,
+    "binance_spot_matched": 106,
+    "scanned": 106,
     "failed": 0,
     "signal_count_before_cap": 0,
     "max_results": 10,
@@ -18,5 +18,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-10-29T19:58:33.119213+00:00"
+  "generated_at": "2026-10-29T23:48:23.349295+00:00"
 }
