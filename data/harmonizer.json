@@ -1,15 +1,15 @@
 {
-  "market_score": 42.0,
+  "market_score": 42.1,
   "stance": "Temkinli Risk-Off",
   "confidence": 75.0,
   "component_scores": {
     "macro": 39.8,
     "credit": 5,
     "options": 68,
-    "crypto": 41.8,
+    "crypto": 41.4,
     "crypto_derivatives": 33,
     "equities": 63.9,
-    "news": 47
+    "news": 50
   },
   "plain_summary": [
     "Ana görüş: aşağı yönlü risk belirginleşmiş durumda. Yeni risk eklemek yerine pozisyon boyutunu küçültmek ve savunmayı artırmak daha uygun.",
@@ -17,34 +17,49 @@
     "Görüşü güçlendirecek teyit: CCC ve IG spreadleri yeniden daralmaya başlar, HY düşük kalırsa risk artırma teyidi. Görüşü bozacak sinyal: HY OAS %4.0 üzerine çıkar veya kredi döngüsü Late Cycle/Contraction'a dönerse riski azalt."
   ],
   "news_analysis": {
-    "score": 47,
+    "score": 50,
     "tone": "Karışık / Nötr",
-    "summary": "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 2 risk artırıcı, 13 nötr/karışık benzersiz başlık. Haber skoru 47/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
+    "summary": "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 1 risk artırıcı, 13 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
     "positive_count": 1,
-    "negative_count": 2,
+    "negative_count": 1,
     "neutral_count": 13,
-    "headline_count": 16,
-    "unique_story_count": 16,
+    "headline_count": 15,
+    "unique_story_count": 15,
     "article_context_count": 0,
     "topic_summaries": [
       {
         "topic": "Bitcoin",
         "tone": "risk artırıcı",
         "count": 10,
-        "digest": "Crypto's longtime foe, North Korea's Lazarus Group, likely behind ana piyasa hack: blockchain sleuths | ana piyasa hack drained wallets backing customer assets, reserve data shows",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.4; çoklu-borsa OI 24s %+1.3; OI-ağırlıklı funding %+0.0062."
+        "digest": "Strategy CFO Andrew Kang resigns as company posts record operating profit | Live updates: ana piyasa finds more breaches in $6.3 billion hack; AI spending fears hit tech",
+        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
+        "data_confirmation": "Makro skor 40/100; 30Y değişim -0.19 puan."
       },
       {
         "topic": "Makro / Fed / Hazine",
         "tone": "destekleyici",
-        "count": 6,
-        "digest": "Güvenli .gov web siteleri HTTPSA kilidi (LockLocked asma kilit simgesi) kullanır veya https ://, .gov web sitesine güvenli bir şekilde bağlandığınız anlamına gelir. Amerika Birleşik Devletleri'nin merkez bankası olan Merkez Bankası, ülkeye güvenli, esnek ve istikrarlı bir parasal ve finansal sistem… | QUERY LENGTH LIMIT EXCEEDED. MAX ALLOWED QUERY : 500 CHARS",
+        "count": 5,
+        "digest": "Güvenli .gov web siteleri HTTPSA kilidini (LockLocked asma kilit simgesi) kullanır veya https://, .gov web sitesine güvenli bir şekilde bağlandığınız anlamına gelir. Amerika Birleşik Devletleri'nin merkez bankası olan Federal Rezerv, ülkeye güvenli, esnek ve istikrarlı bir para ve finansal sistem… | İkinci çeyrekte reel GSYİH yüzde 2,2 arttı. Kişisel tüketim harcamaları (PCE) fiyat endeksi yüzde 5,0 artışla karşılaştırıldığında yüzde 2,1 artarken, gıda ve enerji hariç PCE fiyat endeksi yüzde 3,3 artışla karşılaştırıldığında yüzde 2,5 arttı.",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
         "data_confirmation": "Makro skor 40/100; 30Y değişim -0.19 puan."
       }
     ],
     "important_news": [
+      {
+        "title": "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets",
+        "link": "https://www.coindesk.com/markets/2026/10/30/bitcoin-ether-and-xrp-selloff-wipes-out-usd1-5-billion-in-leveraged-crypto-bets",
+        "published_at": "2026-10-30T06:22:00+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": -1,
+        "impact": "Risk artırıcı",
+        "brief_summary": "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets",
+        "summary_mode": "headline_only",
+        "read_mode": "trusted_feed_headline",
+        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.4; çoklu-borsa OI 24s %-3.5; OI-ağırlıklı funding %+0.0047.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %-3.4; çoklu-borsa OI 24s %-3.5; OI-ağırlıklı funding %+0.0047."
+      },
       {
         "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
         "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
@@ -53,7 +68,7 @@
         "theme": "macro",
         "impact_score": 1,
         "impact": "Destekleyici",
-        "brief_summary": "Güvenli .gov web siteleri HTTPSA kilidi (LockLocked asma kilit simgesi) kullanır veya https ://, .gov web sitesine güvenli bir şekilde bağlandığınız anlamına gelir. Amerika Birleşik Devletleri'nin merkez bankası olan Merkez Bankası, ülkeye güvenli, esnek ve istikrarlı bir parasal ve finansal sistem…",
+        "brief_summary": "Güvenli .gov web siteleri HTTPSA kilidini (LockLocked asma kilit simgesi) kullanır veya https://, .gov web sitesine güvenli bir şekilde bağlandığınız anlamına gelir. Amerika Birleşik Devletleri'nin merkez bankası olan Federal Rezerv, ülkeye güvenli, esnek ve istikrarlı bir para ve finansal sistem…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
         "market_effect": "Bu haber şu aşamada destekleyici. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 40/100; 30Y değişim -0.19 puan.",
@@ -61,59 +76,14 @@
         "data_confirmation": "Makro skor 40/100; 30Y değişim -0.19 puan."
       },
       {
-        "title": "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets",
-        "link": "https://www.coindesk.com/policy/2026/10/29/kucoin-exits-russia-and-belarus-as-crypto-exchanges-withdraw-from-western-sanctioned-markets",
-        "published_at": "2026-10-29T16:51:18+00:00",
-        "topic": "Bitcoin",
-        "theme": "crypto",
-        "impact_score": -1,
-        "impact": "Risk artırıcı",
-        "brief_summary": "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets",
-        "summary_mode": "headline_only",
-        "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.4; çoklu-borsa OI 24s %+1.3; OI-ağırlıklı funding %+0.0062.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.4; çoklu-borsa OI 24s %+1.3; OI-ağırlıklı funding %+0.0062."
-      },
-      {
-        "title": "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers",
-        "link": "https://www.coindesk.com/business/2026/10/29/u-s-sanctions-russian-crypto-middlemen-tied-to-north-korean-it-worker-fraud",
-        "published_at": "2026-10-29T12:18:20+00:00",
-        "topic": "Bitcoin",
-        "theme": "crypto",
-        "impact_score": -1,
-        "impact": "Risk artırıcı",
-        "brief_summary": "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers",
-        "summary_mode": "headline_only",
-        "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.4; çoklu-borsa OI 24s %+1.3; OI-ağırlıklı funding %+0.0062.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.4; çoklu-borsa OI 24s %+1.3; OI-ağırlıklı funding %+0.0062."
-      },
-      {
-        "title": "Crypto's longtime foe, North Korea's Lazarus Group, likely behind ana piyasa hack: blockchain sleuths",
-        "link": "https://www.coindesk.com/policy/2026/10/29/crypto-s-longtime-foe-north-korea-s-lazarus-group-likely-behind-binance-hack-blockchain-sleuths",
-        "published_at": "2026-10-30T03:36:11+00:00",
-        "topic": "Bitcoin",
-        "theme": "crypto",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Crypto's longtime foe, North Korea's Lazarus Group, likely behind ana piyasa hack: blockchain sleuths",
-        "summary_mode": "headline_only",
-        "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.4; çoklu-borsa OI 24s %+1.3; OI-ağırlıklı funding %+0.0062.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.4; çoklu-borsa OI 24s %+1.3; OI-ağırlıklı funding %+0.0062."
-      },
-      {
-        "title": "ana piyasa hack drained wallets backing customer assets, reserve data shows",
-        "link": "https://www.coindesk.com/business/2026/10/30/binance-hack-drained-wallets-backing-customer-assets-reserve-data-shows",
-        "published_at": "2026-10-30T00:17:10+00:00",
+        "title": "Strategy CFO Andrew Kang resigns as company posts record operating profit",
+        "link": "https://www.coindesk.com/markets/2026/10/30/strategy-cfo-resigns-as-company-posts-record-quarterly-profit-mstr-stock-falls-6",
+        "published_at": "2026-10-30T09:41:07+00:00",
         "topic": "Bitcoin",
         "theme": "macro",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "ana piyasa hack drained wallets backing customer assets, reserve data shows",
+        "brief_summary": "Strategy CFO Andrew Kang resigns as company posts record operating profit",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
         "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 40/100; 30Y değişim -0.19 puan.",
@@ -121,34 +91,64 @@
         "data_confirmation": "Makro skor 40/100; 30Y değişim -0.19 puan."
       },
       {
-        "title": "ana piyasa loses over $6 billion in 'biggest crypto hack in history'",
-        "link": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
-        "published_at": "2026-10-29T21:12:45+00:00",
+        "title": "Live updates: ana piyasa finds more breaches in $6.3 billion hack; AI spending fears hit tech",
+        "link": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
+        "published_at": "2026-10-30T08:36:52+00:00",
         "topic": "Bitcoin",
-        "theme": "crypto",
+        "theme": "macro",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "ana piyasa loses over $6 billion in 'biggest crypto hack in history'",
+        "brief_summary": "Live updates: ana piyasa finds more breaches in $6.3 billion hack; AI spending fears hit tech",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.4; çoklu-borsa OI 24s %+1.3; OI-ağırlıklı funding %+0.0062.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.4; çoklu-borsa OI 24s %+1.3; OI-ağırlıklı funding %+0.0062."
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 40/100; 30Y değişim -0.19 puan.",
+        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
+        "data_confirmation": "Makro skor 40/100; 30Y değişim -0.19 puan."
       },
       {
-        "title": "Crypto exchange HTX exits the UK after settling with the FCA",
-        "link": "https://www.coindesk.com/policy/2026/10/29/crypto-exchange-htx-exits-the-uk-after-settling-with-the-fca",
-        "published_at": "2026-10-29T16:11:18+00:00",
+        "title": "ana piyasa hack bites India's largest crypto exchange as it curbs futures trading",
+        "link": "https://www.coindesk.com/markets/2026/10/30/coindcx-halts-new-crypto-futures-bets-as-binance-incident-disrupts-liquidity",
+        "published_at": "2026-10-30T05:43:07+00:00",
         "topic": "Bitcoin",
         "theme": "crypto",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Crypto exchange HTX exits the UK after settling with the FCA",
+        "brief_summary": "ana piyasa hack bites India's largest crypto exchange as it curbs futures trading",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.4; çoklu-borsa OI 24s %+1.3; OI-ağırlıklı funding %+0.0062.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.4; çoklu-borsa OI 24s %-3.5; OI-ağırlıklı funding %+0.0047.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.4; çoklu-borsa OI 24s %+1.3; OI-ağırlıklı funding %+0.0062."
+        "data_confirmation": "BTC 24s %-3.4; çoklu-borsa OI 24s %-3.5; OI-ağırlıklı funding %+0.0047."
+      },
+      {
+        "title": "ana piyasa hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
+        "link": "https://www.coindesk.com/markets/2026/10/30/binance-hacker-splits-usd1-4-billion-of-bitcoin-into-19-wallets-that-no-one-can-freeze",
+        "published_at": "2026-10-30T04:50:42+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "ana piyasa hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze",
+        "summary_mode": "headline_only",
+        "read_mode": "trusted_feed_headline",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.4; çoklu-borsa OI 24s %-3.5; OI-ağırlıklı funding %+0.0047.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %-3.4; çoklu-borsa OI 24s %-3.5; OI-ağırlıklı funding %+0.0047."
+      },
+      {
+        "title": "Standard Chartered sees more pain after $6 billion ana piyasa hack sends bitcoin lower",
+        "link": "https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
+        "published_at": "2026-10-30T04:00:43+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Standard Chartered sees more pain after $6 billion ana piyasa hack sends bitcoin lower",
+        "summary_mode": "headline_only",
+        "read_mode": "trusted_feed_headline",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.4; çoklu-borsa OI 24s %-3.5; OI-ağırlıklı funding %+0.0047.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %-3.4; çoklu-borsa OI 24s %-3.5; OI-ağırlıklı funding %+0.0047."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -156,7 +156,6 @@
   "supportive_factors": [
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "30 yıllık faiz son ay geriliyor; duration baskısı kısa vadede hafifliyor.",
-    "VIX 17.20 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
     "vadeli piyasa ve vadeli piyasa funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü."
   ],
   "risk_factors": [
@@ -170,12 +169,12 @@
     "CCC spreadi %13.07 ve son 3 ayda +2.73 puan genişledi; düşük kaliteli kredide gizli stres var.",
     "Stablecoin piyasa değeri 7 günde %-1.16; kripto içi likidite daralıyor.",
     "BTC düşüşü vadeli piyasa CVD ile teyit ediliyor; agresif satıcı baskısı devam ediyor.",
-    "Kripto opsiyon IV Rank %100; oynaklık tarihsel olarak yüksek, yükselişi kovalamak riskli."
+    "Kripto opsiyon IV Rank %98; oynaklık tarihsel olarak yüksek, yükselişi kovalamak riskli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %-2.4, ETH %-3.5.",
+    "Kriptoda spot momentum: BTC 24s %-3.4, ETH %-3.6.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 2 risk artırıcı, 13 nötr/karışık benzersiz başlık. Haber skoru 47/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
+    "Son 96 saatte haber akışı karışık / nötr: 1 destekleyici, 1 risk artırıcı, 13 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
   ],
   "investment_view": {
     "action": "Riski azalt; likidite ve savunma ağırlığını yükselt, yüksek beta pozisyonları küçült.",
@@ -225,7 +224,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 0,
     "result_count": 0,
-    "generated_at": "2026-10-30T03:44:35.694426+00:00"
+    "generated_at": "2026-10-30T10:40:52.158451+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -240,5 +239,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-10-30T03:40:10.314349+00:00"
+  "generated_at": "2026-10-30T10:36:57.226609+00:00"
 }
