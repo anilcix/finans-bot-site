@@ -1,56 +1,5 @@
 {
-  "movers": [
-    {
-      "symbol": "CAKE",
-      "name": "PancakeSwap",
-      "coingecko_id": "pancakeswap-token",
-      "exchange": "ana piyasa",
-      "exchange_symbol": "CAKEUSDT",
-      "price": 1.85,
-      "change_24h": -9.14317,
-      "volume_zscore_15m": 2.9321942455247303,
-      "pine_z_delta_15m": 2.2933290019835013,
-      "pine_raw_delta_15m_base": 18807.87,
-      "pine_delta_mean_20": 2594.366,
-      "pine_delta_stdev_20": 7069.855213088455,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 34263.85,
-      "base_volume_mean_20": 12968.569,
-      "base_volume_stdev_20": 7262.575128677775,
-      "volume_15m_usd": 63415.32343999999,
-      "buyer_share_pct": 80.76722574546253,
-      "taker_buy_15m_usd": 51218.79744,
-      "taker_sell_15m_usd": 12196.52599999999,
-      "spot_delta_15m_usd": 39022.27144000001,
-      "price_change_15m_pct": -0.37796976241901703,
-      "price_candle_green": false,
-      "cvd_last3": [
-        {
-          "ts": 1793353500000,
-          "delta_usd": 1706.396339999992,
-          "green": true
-        },
-        {
-          "ts": 1793354400000,
-          "delta_usd": 4791.757439999998,
-          "green": true
-        },
-        {
-          "ts": 1793355300000,
-          "delta_usd": 39022.27144000001,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_45m_delta_usd": 45520.425220000005,
-      "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 3×15dk CVD yeşil",
-      "signal_score": 9.352245822054485,
-      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-10-30T10:15:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "15m",
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
   "scan_meta": {
@@ -59,7 +8,7 @@
     "binance_spot_matched": 107,
     "scanned": 107,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 0,
     "max_results": 10,
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
@@ -69,5 +18,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-10-30T10:36:57.226609+00:00"
+  "generated_at": "2026-10-30T19:47:12.982466+00:00"
 }
