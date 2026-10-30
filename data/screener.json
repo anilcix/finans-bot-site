@@ -1,5 +1,56 @@
 {
-  "movers": [],
+  "movers": [
+    {
+      "symbol": "ARB",
+      "name": "Arbitrum",
+      "coingecko_id": "arbitrum",
+      "exchange": "ana piyasa",
+      "exchange_symbol": "ARBUSDT",
+      "price": 0.162172,
+      "change_24h": 4.53108,
+      "volume_zscore_15m": 2.686165007436249,
+      "pine_z_delta_15m": 1.8611549317219005,
+      "pine_raw_delta_15m_base": 320026.69999999995,
+      "pine_delta_mean_20": 15740.469999999998,
+      "pine_delta_stdev_20": 163493.2292920294,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_15m": 721021.7,
+      "base_volume_mean_20": 297209.25,
+      "base_volume_stdev_20": 157776.0297028433,
+      "volume_15m_usd": 117097.79582,
+      "buyer_share_pct": 77.54393659089799,
+      "taker_buy_15m_usd": 90802.24054,
+      "taker_sell_15m_usd": 26295.55528,
+      "spot_delta_15m_usd": 64506.68526,
+      "price_change_15m_pct": 0.43290043290042934,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1793399400000,
+          "delta_usd": -20151.984020000004,
+          "green": false
+        },
+        {
+          "ts": 1793400300000,
+          "delta_usd": -12209.637209999999,
+          "green": false
+        },
+        {
+          "ts": 1793401200000,
+          "delta_usd": 64506.68526,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 1,
+      "cvd_green_streak": 1,
+      "cvd_45m_delta_usd": 32145.064029999994,
+      "cvd_note": "✅ Pine Z-Delta + true Spot CVD aynı yönde",
+      "signal_score": 7.651713598247948,
+      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
+      "signal_time_utc": "2026-10-30T23:00:00+00:00"
+    }
+  ],
   "window": "15m",
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
   "scan_meta": {
@@ -8,7 +59,7 @@
     "binance_spot_matched": 107,
     "scanned": 107,
     "failed": 0,
-    "signal_count_before_cap": 0,
+    "signal_count_before_cap": 1,
     "max_results": 10,
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
@@ -18,5 +69,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-10-30T19:47:12.982466+00:00"
+  "generated_at": "2026-10-30T23:23:11.805984+00:00"
 }
