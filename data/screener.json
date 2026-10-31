@@ -1,65 +1,14 @@
 {
-  "movers": [
-    {
-      "symbol": "SHIB",
-      "name": "Shiba Inu",
-      "coingecko_id": "shiba-inu",
-      "exchange": "ana piyasa",
-      "exchange_symbol": "SHIBUSDT",
-      "price": 4.69e-06,
-      "change_24h": -0.1208,
-      "volume_zscore_15m": 2.907361318100452,
-      "pine_z_delta_15m": 2.8806600172167065,
-      "pine_raw_delta_15m_base": 14928786349.0,
-      "pine_delta_mean_20": 3048713714.35,
-      "pine_delta_stdev_20": 4124080094.0225234,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 14928786349.0,
-      "base_volume_mean_20": 4400255697.35,
-      "base_volume_stdev_20": 3621335465.2901897,
-      "volume_15m_usd": 70074.22641217,
-      "buyer_share_pct": 88.97676950849866,
-      "taker_buy_15m_usd": 62349.78291962,
-      "taker_sell_15m_usd": 7724.443492550003,
-      "spot_delta_15m_usd": 54625.339427069994,
-      "price_change_15m_pct": 0.42735042735042583,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1793469600000,
-          "delta_usd": -11325.86163345,
-          "green": false
-        },
-        {
-          "ts": 1793470500000,
-          "delta_usd": -29541.25748763,
-          "green": false
-        },
-        {
-          "ts": 1793471400000,
-          "delta_usd": 54625.339427069994,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 1,
-      "cvd_green_streak": 1,
-      "cvd_45m_delta_usd": 13758.220305989995,
-      "cvd_note": "✅ Pine Z-Delta + true Spot CVD aynı yönde",
-      "signal_score": 10.035698286167024,
-      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-10-31T18:30:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "15m",
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 190,
-    "binance_spot_matched": 106,
-    "scanned": 106,
+    "binance_spot_matched": 107,
+    "scanned": 107,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 0,
     "max_results": 10,
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
@@ -69,5 +18,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-10-31T18:56:04.300722+00:00"
+  "generated_at": "2026-10-31T22:56:13.807636+00:00"
 }
