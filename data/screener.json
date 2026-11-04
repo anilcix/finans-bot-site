@@ -1,115 +1,14 @@
 {
-  "movers": [
-    {
-      "symbol": "SYRUP",
-      "name": "Maple Finance",
-      "coingecko_id": "syrup",
-      "exchange": "ana piyasa",
-      "exchange_symbol": "SYRUPUSDT",
-      "price": 0.159072,
-      "change_24h": 4.32639,
-      "volume_zscore_15m": 2.4861833999371528,
-      "pine_z_delta_15m": 3.23683620993958,
-      "pine_raw_delta_15m_base": 89008.40000000001,
-      "pine_delta_mean_20": 11593.185,
-      "pine_delta_stdev_20": 23916.93925144426,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 116072.40000000001,
-      "base_volume_mean_20": 39606.095,
-      "base_volume_stdev_20": 30756.502115625488,
-      "volume_15m_usd": 18518.68202,
-      "buyer_share_pct": 91.3628452701301,
-      "taker_buy_15m_usd": 16919.1948,
-      "taker_sell_15m_usd": 1599.487219999999,
-      "spot_delta_15m_usd": 15319.707580000002,
-      "price_change_15m_pct": 0.5653266331658191,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1793723400000,
-          "delta_usd": 4804.135329999999,
-          "green": true
-        },
-        {
-          "ts": 1793724300000,
-          "delta_usd": 562.7007000000003,
-          "green": true
-        },
-        {
-          "ts": 1793725200000,
-          "delta_usd": 15319.707580000002,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_45m_delta_usd": 20686.54361,
-      "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 3×15dk CVD yeşil",
-      "signal_score": 10.909304136889741,
-      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-11-03T17:00:00+00:00"
-    },
-    {
-      "symbol": "币安人生",
-      "name": "币安人生 (BinanceLife)",
-      "coingecko_id": "bianrensheng",
-      "exchange": "ana piyasa",
-      "exchange_symbol": "币安人生USDT",
-      "price": 0.535459,
-      "change_24h": 0.35767,
-      "volume_zscore_15m": 2.642415721178851,
-      "pine_z_delta_15m": 2.5628284812469837,
-      "pine_raw_delta_15m_base": 20278.0,
-      "pine_delta_mean_20": 3955.33,
-      "pine_delta_stdev_20": 6369.006010132193,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 32463.6,
-      "base_volume_mean_20": 15015.47,
-      "base_volume_stdev_20": 6603.098013743246,
-      "volume_15m_usd": 17399.67146,
-      "buyer_share_pct": 74.44255594007635,
-      "taker_buy_15m_usd": 12952.76016,
-      "taker_sell_15m_usd": 4446.911300000002,
-      "spot_delta_15m_usd": 8505.848859999998,
-      "price_change_15m_pct": 0.44901777362020834,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1793723400000,
-          "delta_usd": -365.8060000000005,
-          "green": false
-        },
-        {
-          "ts": 1793724300000,
-          "delta_usd": 1247.7887,
-          "green": true
-        },
-        {
-          "ts": 1793725200000,
-          "delta_usd": 8505.848859999998,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_45m_delta_usd": 9387.831559999999,
-      "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 2×15dk CVD yeşil",
-      "signal_score": 8.349499796433468,
-      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-11-03T17:00:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "15m",
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 190,
-    "binance_spot_matched": 107,
-    "scanned": 107,
+    "binance_spot_matched": 106,
+    "scanned": 106,
     "failed": 0,
-    "signal_count_before_cap": 2,
+    "signal_count_before_cap": 0,
     "max_results": 10,
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
@@ -119,5 +18,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-11-03T17:26:39.218468+00:00"
+  "generated_at": "2026-11-04T00:17:58.550804+00:00"
 }
