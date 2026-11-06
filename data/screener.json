@@ -4,9 +4,9 @@
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
   "scan_meta": {
     "top200_received": 200,
-    "non_stable_universe": 189,
-    "binance_spot_matched": 105,
-    "scanned": 105,
+    "non_stable_universe": 190,
+    "binance_spot_matched": 106,
+    "scanned": 106,
     "failed": 0,
     "signal_count_before_cap": 0,
     "max_results": 10,
@@ -18,5 +18,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-11-05T17:46:13.892292+00:00"
+  "generated_at": "2026-11-06T00:38:02.139766+00:00"
 }

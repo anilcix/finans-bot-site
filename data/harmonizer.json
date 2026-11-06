@@ -1,14 +1,14 @@
 {
-  "market_score": 33.7,
-  "stance": "Temkinli Risk-Off",
+  "market_score": 31.0,
+  "stance": "Risk-Off",
   "confidence": 75.0,
   "component_scores": {
-    "macro": 35.0,
+    "macro": 34.6,
     "credit": 5,
-    "options": 32,
-    "crypto": 43.3,
-    "crypto_derivatives": 32,
-    "equities": 24.8,
+    "options": 10,
+    "crypto": 43.2,
+    "crypto_derivatives": 33,
+    "equities": 21.1,
     "news": 44
   },
   "plain_summary": [
@@ -31,9 +31,9 @@
         "topic": "Bitcoin",
         "tone": "risk artırıcı",
         "count": 10,
-        "digest": "What is TraderTraitor, the hacking squad behind the $6.3 billion ana piyasa heist | Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 35/100; 30Y değişim -0.31 puan."
+        "digest": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower | What is TraderTraitor, the hacking squad behind the $6.3 billion ana piyasa heist?",
+        "interpretation": "Kazanç beklentisi, teknoloji genişliği ve volatilite üzerinden hisse risk iştahını etkiler.",
+        "data_confirmation": "Hisse skoru 21/100; VIX 28.2."
       },
       {
         "topic": "Makro / Fed / Hazine",
@@ -41,7 +41,7 @@
         "count": 3,
         "digest": "Federal Rezerv Kurulu Perşembe günü aşağıda listelenen icra eyleminin sona erdirildiğini duyurdu: Allegiant United Holdings, LLC, Irvine California, Nan Resmi web siteleri .govA .gov web sitesini kullanıyor, Amerika Birleşik Devletleri'ndeki resmi bir hükümet kuruluşuna aittir. Amerika Birleşik… | Çalışma İstatistikleri Bürosu, çalışma ekonomisi ve istatistiklerinin geniş alanında Federal Hükümetin başlıca bilgi toplama kurumudur. Hassas bilgileri paylaşmadan önce bir federal hükümet sitesinde olduğunuzdan emin olun.",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 35/100; 30Y değişim -0.31 puan."
+        "data_confirmation": "Makro skor 35/100; 30Y değişim -0.38 puan."
       }
     ],
     "important_news": [
@@ -56,24 +56,39 @@
         "brief_summary": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-5.5; çoklu-borsa OI 24s %-5.9; OI-ağırlıklı funding %+0.0092.",
+        "market_effect": "Bu haber şu aşamada risk artırıcı. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-5.4; çoklu-borsa OI 24s %-4.0; OI-ağırlıklı funding %+0.0070.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-5.5; çoklu-borsa OI 24s %-5.9; OI-ağırlıklı funding %+0.0092."
+        "data_confirmation": "BTC 24s %-5.4; çoklu-borsa OI 24s %-4.0; OI-ağırlıklı funding %+0.0070."
       },
       {
-        "title": "What is TraderTraitor, the hacking squad behind the $6.3 billion ana piyasa heist",
+        "title": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
+        "link": "https://www.coindesk.com/markets/2026/11/05/bitcoin-crypto-stocks-caught-in-ai-trade-meltdown-but-wintermute-trader-sees-glass-half-full",
+        "published_at": "2026-11-05T18:48:40+00:00",
+        "topic": "Bitcoin",
+        "theme": "equities",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
+        "summary_mode": "headline_only",
+        "read_mode": "trusted_feed_headline",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Kazanç beklentisi ve risk iştahını etkiler; endeks genişliği ve VIX aynı yönde teyit verirse piyasa etkisi daha güvenilir olur. Veri teyidi: Hisse skoru 21/100; VIX 28.2.",
+        "interpretation": "Kazanç beklentisi, teknoloji genişliği ve volatilite üzerinden hisse risk iştahını etkiler.",
+        "data_confirmation": "Hisse skoru 21/100; VIX 28.2."
+      },
+      {
+        "title": "What is TraderTraitor, the hacking squad behind the $6.3 billion ana piyasa heist?",
         "link": "https://www.coindesk.com/business/2026/11/05/what-is-tradertraitor-the-hacking-squad-behind-the-usd6-3-billion-binance-heist",
         "published_at": "2026-11-05T16:58:21+00:00",
         "topic": "Bitcoin",
         "theme": "macro",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "What is TraderTraitor, the hacking squad behind the $6.3 billion ana piyasa heist",
+        "brief_summary": "What is TraderTraitor, the hacking squad behind the $6.3 billion ana piyasa heist?",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 35/100; 30Y değişim -0.31 puan.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 35/100; 30Y değişim -0.38 puan.",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 35/100; 30Y değişim -0.31 puan."
+        "data_confirmation": "Makro skor 35/100; 30Y değişim -0.38 puan."
       },
       {
         "title": "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
@@ -86,9 +101,9 @@
         "brief_summary": "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-5.5; çoklu-borsa OI 24s %-5.9; OI-ağırlıklı funding %+0.0092.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-5.4; çoklu-borsa OI 24s %-4.0; OI-ağırlıklı funding %+0.0070.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-5.5; çoklu-borsa OI 24s %-5.9; OI-ağırlıklı funding %+0.0092."
+        "data_confirmation": "BTC 24s %-5.4; çoklu-borsa OI 24s %-4.0; OI-ağırlıklı funding %+0.0070."
       },
       {
         "title": "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep",
@@ -101,9 +116,9 @@
         "brief_summary": "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-5.5; çoklu-borsa OI 24s %-5.9; OI-ağırlıklı funding %+0.0092.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-5.4; çoklu-borsa OI 24s %-4.0; OI-ağırlıklı funding %+0.0070.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-5.5; çoklu-borsa OI 24s %-5.9; OI-ağırlıklı funding %+0.0092."
+        "data_confirmation": "BTC 24s %-5.4; çoklu-borsa OI 24s %-4.0; OI-ağırlıklı funding %+0.0070."
       },
       {
         "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
@@ -116,9 +131,9 @@
         "brief_summary": "Federal Rezerv Kurulu Perşembe günü aşağıda listelenen icra eyleminin sona erdirildiğini duyurdu: Allegiant United Holdings, LLC, Irvine California, Nan Resmi web siteleri .govA .gov web sitesini kullanıyor, Amerika Birleşik Devletleri'ndeki resmi bir hükümet kuruluşuna aittir. Amerika Birleşik…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 35/100; 30Y değişim -0.31 puan.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 35/100; 30Y değişim -0.38 puan.",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 35/100; 30Y değişim -0.31 puan."
+        "data_confirmation": "Makro skor 35/100; 30Y değişim -0.38 puan."
       },
       {
         "title": "Gate CEO says crypto exchanges must prove they can survive a hack like ana piyasa’s",
@@ -131,24 +146,9 @@
         "brief_summary": "Gate CEO says crypto exchanges must prove they can survive a hack like ana piyasa’s",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-5.5; çoklu-borsa OI 24s %-5.9; OI-ağırlıklı funding %+0.0092.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-5.4; çoklu-borsa OI 24s %-4.0; OI-ağırlıklı funding %+0.0070.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-5.5; çoklu-borsa OI 24s %-5.9; OI-ağırlıklı funding %+0.0092."
-      },
-      {
-        "title": "Major Economic Indicators Latest Numbers",
-        "link": "https://www.bls.gov/",
-        "published_at": "2026-11-05T13:30:19+00:00",
-        "topic": "Makro / Fed / Hazine",
-        "theme": "macro",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Çalışma İstatistikleri Bürosu, çalışma ekonomisi ve istatistiklerinin geniş alanında Federal Hükümetin başlıca bilgi toplama kurumudur. Hassas bilgileri paylaşmadan önce bir federal hükümet sitesinde olduğunuzdan emin olun.",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 35/100; 30Y değişim -0.31 puan.",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 35/100; 30Y değişim -0.31 puan."
+        "data_confirmation": "BTC 24s %-5.4; çoklu-borsa OI 24s %-4.0; OI-ağırlıklı funding %+0.0070."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -163,17 +163,18 @@
     "10 yıllık reel faiz yüksek; uzun duration teknoloji/hisse değerlemeleri için yapısal baskı oluşturabilir.",
     "TGA son 4 haftada yükseliyor; Hazine nakit birikimi banka rezervlerinden likidite çekebilir.",
     "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük.",
-    "Net likidite 3 haftada yaklaşık $-119B düştü; kısa vadede risk varlıkları için likidite rüzgârı olumsuz.",
+    "Net likidite 3 haftada yaklaşık $-81B düştü; kısa vadede risk varlıkları için likidite rüzgârı olumsuz.",
     "Kredi döngüsü Contraction (Kriz); kredi rejimi risk iştahını sınırlıyor.",
     "CCC spreadi %12.97 ve son 3 ayda +2.84 puan genişledi; düşük kaliteli kredide gizli stres var.",
-    "Stablecoin piyasa değeri 7 günde %-1.78; kripto içi likidite daralıyor.",
+    "Stablecoin piyasa değeri 7 günde %-1.90; kripto içi likidite daralıyor.",
     "Kripto opsiyon IV Rank %100; oynaklık tarihsel olarak yüksek, yükselişi kovalamak riskli.",
     "Funding örneklerinin %100'ı pozitif; long tarafında kalabalıklaşma riski artmış."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %-5.5, ETH %-7.1.",
+    "Kriptoda spot momentum: BTC 24s %-5.4, ETH %-7.5.",
+    "On-chain kullanım teyidi pozitif: BTC aktif adres 7g %+5.3, ETH %+17.4.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Altın %+3.8; savunma/enflasyon hedge talebi aynı anda güçlü.",
+    "Altın %+3.6; savunma/enflasyon hedge talebi aynı anda güçlü.",
     "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 1 risk artırıcı, 12 nötr/karışık benzersiz başlık. Haber skoru 44/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
@@ -369,7 +370,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-11-05T17:50:25.354691+00:00"
+    "generated_at": "2026-11-06T00:41:47.315571+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -384,5 +385,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-11-05T17:46:13.892292+00:00"
+  "generated_at": "2026-11-06T00:38:02.139766+00:00"
 }
