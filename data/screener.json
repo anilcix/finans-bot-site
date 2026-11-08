@@ -1,14 +1,165 @@
 {
-  "movers": [],
+  "movers": [
+    {
+      "symbol": "TWT",
+      "name": "Trust Wallet",
+      "coingecko_id": "trust-wallet-token",
+      "exchange": "ana piyasa",
+      "exchange_symbol": "TWTUSDT",
+      "price": 0.396588,
+      "change_24h": -0.04035,
+      "volume_zscore_15m": 2.695732340589868,
+      "pine_z_delta_15m": 3.835746913336861,
+      "pine_raw_delta_15m_base": 18550.0,
+      "pine_delta_mean_20": 650.45,
+      "pine_delta_stdev_20": 4666.509653638359,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_15m": 21048.0,
+      "base_volume_mean_20": 3097.05,
+      "base_volume_stdev_20": 6659.025352669863,
+      "volume_15m_usd": 8356.3652,
+      "buyer_share_pct": 98.19994822629342,
+      "taker_buy_15m_usd": 8205.9463,
+      "taker_sell_15m_usd": 150.41890000000058,
+      "spot_delta_15m_usd": 8055.527399999999,
+      "price_change_15m_pct": 0.15140045420136694,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1794105900000,
+          "delta_usd": -350.71610000000004,
+          "green": false
+        },
+        {
+          "ts": 1794106800000,
+          "delta_usd": -95.03649999999999,
+          "green": false
+        },
+        {
+          "ts": 1794107700000,
+          "delta_usd": 8055.527399999999,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 1,
+      "cvd_green_streak": 1,
+      "cvd_45m_delta_usd": 7609.774799999999,
+      "cvd_note": "✅ Pine Z-Delta + true Spot CVD aynı yönde",
+      "signal_score": 11.701474076556071,
+      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
+      "signal_time_utc": "2026-11-08T03:15:00+00:00"
+    },
+    {
+      "symbol": "SUN",
+      "name": "Sun Token",
+      "coingecko_id": "sun-token",
+      "exchange": "ana piyasa",
+      "exchange_symbol": "SUNUSDT",
+      "price": 0.01547727,
+      "change_24h": -0.4697,
+      "volume_zscore_15m": 2.121653808137231,
+      "pine_z_delta_15m": 3.0625329048915915,
+      "pine_raw_delta_15m_base": 326879.0,
+      "pine_delta_mean_20": 47309.0,
+      "pine_delta_stdev_20": 91287.1824343374,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_15m": 326879.0,
+      "base_volume_mean_20": 65129.7,
+      "base_volume_stdev_20": 123370.40991141272,
+      "volume_15m_usd": 5069.89329,
+      "buyer_share_pct": 100.0,
+      "taker_buy_15m_usd": 5069.89329,
+      "taker_sell_15m_usd": 0.0,
+      "spot_delta_15m_usd": 5069.89329,
+      "price_change_15m_pct": 0.0,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1794105900000,
+          "delta_usd": 72.74192000000005,
+          "green": true
+        },
+        {
+          "ts": 1794106800000,
+          "delta_usd": 17.96058,
+          "green": true
+        },
+        {
+          "ts": 1794107700000,
+          "delta_usd": 5069.89329,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 3,
+      "cvd_green_streak": 3,
+      "cvd_45m_delta_usd": 5160.59579,
+      "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 3×15dk CVD yeşil",
+      "signal_score": 11.234186713028823,
+      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
+      "signal_time_utc": "2026-11-08T03:15:00+00:00"
+    },
+    {
+      "symbol": "MET",
+      "name": "Meteora",
+      "coingecko_id": "meteora",
+      "exchange": "ana piyasa",
+      "exchange_symbol": "METUSDT",
+      "price": 0.325575,
+      "change_24h": 17.55501,
+      "volume_zscore_15m": 3.08023482571977,
+      "pine_z_delta_15m": 3.6393971194168206,
+      "pine_raw_delta_15m_base": 345396.3,
+      "pine_delta_mean_20": 10634.584999999997,
+      "pine_delta_stdev_20": 91982.73890309679,
+      "zscore_length": 20,
+      "zscore_volume_type": "base_asset_volume",
+      "base_volume_15m": 543366.5,
+      "base_volume_mean_20": 222088.615,
+      "base_volume_stdev_20": 104303.04933810553,
+      "volume_15m_usd": 178653.36723,
+      "buyer_share_pct": 65.55770807231261,
+      "taker_buy_15m_usd": 117121.05295,
+      "taker_sell_15m_usd": 61532.314280000006,
+      "spot_delta_15m_usd": 55588.73866999999,
+      "price_change_15m_pct": -0.552316661552632,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1794105900000,
+          "delta_usd": 2293.845129999998,
+          "green": true
+        },
+        {
+          "ts": 1794106800000,
+          "delta_usd": 15637.032719999996,
+          "green": true
+        },
+        {
+          "ts": 1794107700000,
+          "delta_usd": 55588.73866999999,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 3,
+      "cvd_green_streak": 3,
+      "cvd_45m_delta_usd": 73519.61651999998,
+      "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 3×15dk CVD yeşil",
+      "signal_score": 9.32540275236785,
+      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
+      "signal_time_utc": "2026-11-08T03:15:00+00:00"
+    }
+  ],
   "window": "15m",
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 189,
-    "binance_spot_matched": 105,
-    "scanned": 105,
+    "binance_spot_matched": 106,
+    "scanned": 106,
     "failed": 0,
-    "signal_count_before_cap": 0,
+    "signal_count_before_cap": 3,
     "max_results": 10,
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
@@ -18,5 +169,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-11-07T23:16:33.116207+00:00"
+  "generated_at": "2026-11-08T03:31:44.480858+00:00"
 }
