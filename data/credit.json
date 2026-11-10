@@ -1,19 +1,19 @@
 {
   "hy_oas": {
-    "date": "2026-11-06",
-    "value": 3.42
+    "date": "2026-11-09",
+    "value": 3.34
   },
   "bb_oas": {
-    "date": "2026-11-06",
-    "value": 2.08
+    "date": "2026-11-09",
+    "value": 2.0
   },
   "ig_oas": {
-    "date": "2026-11-06",
-    "value": 0.93
+    "date": "2026-11-09",
+    "value": 0.91
   },
   "ccc_oas": {
-    "date": "2026-11-06",
-    "value": 13.17
+    "date": "2026-11-09",
+    "value": 13.11
   },
   "sloos_credit_card": {
     "date": "2026-10-01",
@@ -45,24 +45,20 @@
   },
   "spread_trends": {
     "hy": {
-      "change_1m": 0.27,
-      "change_3m": 0.6999999999999997
+      "change_1m": 0.22999999999999998,
+      "change_3m": 0.6299999999999999
     },
     "ig": {
-      "change_1m": 0.1100000000000001,
-      "change_3m": 0.14
+      "change_1m": 0.08000000000000007,
+      "change_3m": 0.12
     },
     "ccc": {
-      "change_1m": 0.6500000000000004,
-      "change_3m": 2.9399999999999995
+      "change_1m": 0.5800000000000001,
+      "change_3m": 2.91
     }
   },
   "history": {
     "hy": [
-      {
-        "date": "2024-11-20",
-        "value": 2.67
-      },
       {
         "date": "2024-11-21",
         "value": 2.61
@@ -2118,13 +2114,13 @@
       {
         "date": "2026-11-06",
         "value": 3.42
+      },
+      {
+        "date": "2026-11-09",
+        "value": 3.34
       }
     ],
     "ig": [
-      {
-        "date": "2024-11-20",
-        "value": 0.81
-      },
       {
         "date": "2024-11-21",
         "value": 0.81
@@ -4176,13 +4172,13 @@
       {
         "date": "2026-11-06",
         "value": 0.93
+      },
+      {
+        "date": "2026-11-09",
+        "value": 0.91
       }
     ],
     "ccc": [
-      {
-        "date": "2024-11-20",
-        "value": 7.19
-      },
       {
         "date": "2024-11-21",
         "value": 7.06
@@ -6238,6 +6234,10 @@
       {
         "date": "2026-11-06",
         "value": 13.17
+      },
+      {
+        "date": "2026-11-09",
+        "value": 13.11
       }
     ],
     "sloos_business": [
@@ -7857,11 +7857,11 @@
     "phase": "Contraction (Kriz)",
     "emoji": "🔴",
     "desc": "Spreadler yüksek ve yükselmeye devam ediyor - risk-off evre",
-    "hy_now": 3.42,
-    "hy_200dma": 2.8982,
-    "hy_6m_change": 0.5899999999999999,
-    "level_axis": 1.1800427851770063,
-    "direction_axis": 0.5899999999999999
+    "hy_now": 3.34,
+    "hy_200dma": 2.9006,
+    "hy_6m_change": 0.48,
+    "level_axis": 1.1514858994690753,
+    "direction_axis": 0.48
   },
   "phase_history": [
     {
@@ -8795,9 +8795,17 @@
     {
       "date": "2026-11-09",
       "sp500": 7549.93994140625,
-      "hy": 3.42,
-      "hy_200dma": 2.8982,
-      "hy_6m_change": 0.5899999999999999,
+      "hy": 3.34,
+      "hy_200dma": 2.9006,
+      "hy_6m_change": 0.48,
+      "phase": "Contraction (Kriz)"
+    },
+    {
+      "date": "2026-11-10",
+      "sp500": 7492.009765625,
+      "hy": 3.34,
+      "hy_200dma": 2.9006,
+      "hy_6m_change": 0.48,
       "phase": "Contraction (Kriz)"
     }
   ],
@@ -8805,9 +8813,9 @@
     "available": true,
     "phase": "Contraction (Kriz)",
     "signal_start": "2026-10-05",
-    "last_observation": "2026-11-09",
-    "age_weeks": 5,
-    "age_days_approx": 35,
+    "last_observation": "2026-11-10",
+    "age_weeks": 6,
+    "age_days_approx": 42,
     "episode_count": 5,
     "from_start": {
       "1m": {
@@ -8838,26 +8846,26 @@
     "from_current_stage": {
       "1m": {
         "n": 2,
-        "mean": 5.073673382107602,
-        "median": 5.073673382107602,
+        "mean": 5.690997469953474,
+        "median": 5.690997469953474,
         "positive_pct": 100.0
       },
       "3m": {
         "n": 2,
-        "mean": 10.964062305995903,
-        "median": 10.964062305995903,
+        "mean": 11.285521985737724,
+        "median": 11.285521985737724,
         "positive_pct": 100.0
       },
       "6m": {
         "n": 2,
-        "mean": 15.168875408056305,
-        "median": 15.168875408056305,
+        "mean": 14.190150138775426,
+        "median": 14.190150138775426,
         "positive_pct": 100.0
       },
       "12m": {
         "n": 1,
-        "mean": 24.33749015181972,
-        "median": 24.33749015181972,
+        "mean": 28.79031990020342,
+        "median": 28.79031990020342,
         "positive_pct": 100.0
       }
     },
@@ -9068,7 +9076,7 @@
     },
     "current_phase": "Contraction (Kriz)",
     "data_start": "2024-08-19",
-    "data_end": "2026-11-09",
+    "data_end": "2026-11-10",
     "episode_count": 24,
     "method": "Mevcut ortak HY OAS/S&P 500 verisi (en fazla 30 yıl); her evrenin ilk haftasından sonraki hafta giriş. Aynı fazda ileri getiri pencereleri örtüşen olaylar elenir. %95 bootstrap yalnız N>=10 iken gösterilir. Bu bir tahmin değildir; gerçek zamanlı yayın gecikmesi ve bağımsız eğitim/test doğrulaması henüz modellenmedi."
   },
@@ -9086,10 +9094,6 @@
   ],
   "spread_market_history": {
     "hy": [
-      {
-        "date": "2023-11-10",
-        "value": 4.03
-      },
       {
         "date": "2023-11-13",
         "value": 4.03
@@ -12221,13 +12225,13 @@
       {
         "date": "2026-11-06",
         "value": 3.42
+      },
+      {
+        "date": "2026-11-09",
+        "value": 3.34
       }
     ],
     "bb": [
-      {
-        "date": "2023-11-10",
-        "value": 2.56
-      },
       {
         "date": "2023-11-13",
         "value": 2.57
@@ -15359,13 +15363,13 @@
       {
         "date": "2026-11-06",
         "value": 2.08
+      },
+      {
+        "date": "2026-11-09",
+        "value": 2.0
       }
     ],
     "ig": [
-      {
-        "date": "2023-11-10",
-        "value": 1.26
-      },
       {
         "date": "2023-11-13",
         "value": 1.25
@@ -18493,13 +18497,13 @@
       {
         "date": "2026-11-06",
         "value": 0.93
+      },
+      {
+        "date": "2026-11-09",
+        "value": 0.91
       }
     ],
     "ccc": [
-      {
-        "date": "2023-11-10",
-        "value": 10.1
-      },
       {
         "date": "2023-11-13",
         "value": 10.12
@@ -21631,6 +21635,10 @@
       {
         "date": "2026-11-06",
         "value": 13.17
+      },
+      {
+        "date": "2026-11-09",
+        "value": 13.11
       }
     ],
     "sp500": [
@@ -22265,6 +22273,10 @@
       {
         "date": "2026-11-09",
         "value": 7549.93994140625
+      },
+      {
+        "date": "2026-11-10",
+        "value": 7488.009765625
       }
     ]
   },
@@ -22272,5 +22284,5 @@
   "unavailable": [
     "CDS spreadleri (Bloomberg/Markit ücretli)"
   ],
-  "generated_at": "2026-11-10T05:21:28.967560+00:00"
+  "generated_at": "2026-11-10T17:23:02.583640+00:00"
 }

@@ -1,165 +1,14 @@
 {
-  "movers": [
-    {
-      "symbol": "JST",
-      "name": "JUST",
-      "coingecko_id": "just",
-      "exchange": "ana piyasa",
-      "exchange_symbol": "JSTUSDT",
-      "price": 0.144214,
-      "change_24h": 2.47413,
-      "volume_zscore_15m": 2.271773596503342,
-      "pine_z_delta_15m": 2.574640569927819,
-      "pine_raw_delta_15m_base": 674863.0,
-      "pine_delta_mean_20": 30534.440000000002,
-      "pine_delta_stdev_20": 250259.6158570064,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 742565.8,
-      "base_volume_mean_20": 209043.67,
-      "base_volume_stdev_20": 234848.28365871677,
-      "volume_15m_usd": 107159.48199399999,
-      "buyer_share_pct": 95.8064143448812,
-      "taker_buy_15m_usd": 102665.657329,
-      "taker_sell_15m_usd": 4493.824664999993,
-      "spot_delta_15m_usd": 98171.832664,
-      "price_change_15m_pct": 0.06242197253434334,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1794285000000,
-          "delta_usd": 2744.151933000001,
-          "green": true
-        },
-        {
-          "ts": 1794285900000,
-          "delta_usd": 25611.418202999997,
-          "green": true
-        },
-        {
-          "ts": 1794286800000,
-          "delta_usd": 98171.832664,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_45m_delta_usd": 126527.4028,
-      "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 3×15dk CVD yeşil",
-      "signal_score": 10.477055600919282,
-      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-11-10T05:00:00+00:00"
-    },
-    {
-      "symbol": "FLOKI",
-      "name": "FLOKI",
-      "coingecko_id": "floki",
-      "exchange": "ana piyasa",
-      "exchange_symbol": "FLOKIUSDT",
-      "price": 2.114e-05,
-      "change_24h": 1.61205,
-      "volume_zscore_15m": 3.4133824249175255,
-      "pine_z_delta_15m": 3.6641516826479834,
-      "pine_raw_delta_15m_base": 454098568.0,
-      "pine_delta_mean_20": 46733774.6,
-      "pine_delta_stdev_20": 111175745.07876499,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 467242412.0,
-      "base_volume_mean_20": 133266690.6,
-      "base_volume_stdev_20": 97843042.42091173,
-      "volume_15m_usd": 9897.67806627,
-      "buyer_share_pct": 77.46859835106335,
-      "taker_buy_15m_usd": 7667.59246724,
-      "taker_sell_15m_usd": 2230.0855990300006,
-      "spot_delta_15m_usd": 5437.506868209999,
-      "price_change_15m_pct": 0.5213270142179871,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1794285000000,
-          "delta_usd": 1880.84528581,
-          "green": true
-        },
-        {
-          "ts": 1794285900000,
-          "delta_usd": -2545.49757415,
-          "green": false
-        },
-        {
-          "ts": 1794286800000,
-          "delta_usd": 5437.506868209999,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 1,
-      "cvd_45m_delta_usd": 4772.854579869999,
-      "cvd_note": "✅ Pine Z-Delta + true Spot CVD aynı yönde",
-      "signal_score": 10.174393942671843,
-      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-11-10T05:00:00+00:00"
-    },
-    {
-      "symbol": "FET",
-      "name": "Artificial Superintelligence Alliance",
-      "coingecko_id": "fetch-ai",
-      "exchange": "ana piyasa",
-      "exchange_symbol": "FETUSDT",
-      "price": 0.144852,
-      "change_24h": 2.79564,
-      "volume_zscore_15m": 2.270580390428975,
-      "pine_z_delta_15m": 2.1140648693556128,
-      "pine_raw_delta_15m_base": 424731.6,
-      "pine_delta_mean_20": 126767.555,
-      "pine_delta_stdev_20": 140943.66228734612,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 683587.0,
-      "base_volume_mean_20": 274062.165,
-      "base_volume_stdev_20": 180361.30177387354,
-      "volume_15m_usd": 99084.72352,
-      "buyer_share_pct": 68.75981895054493,
-      "taker_buy_15m_usd": 68130.4765,
-      "taker_sell_15m_usd": 30954.247019999995,
-      "spot_delta_15m_usd": 37176.22948000001,
-      "price_change_15m_pct": 0.41522491349481605,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1794285000000,
-          "delta_usd": -9782.115629999993,
-          "green": false
-        },
-        {
-          "ts": 1794285900000,
-          "delta_usd": 336.34871999999814,
-          "green": true
-        },
-        {
-          "ts": 1794286800000,
-          "delta_usd": 37176.22948000001,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_45m_delta_usd": 27730.462570000014,
-      "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 2×15dk CVD yeşil",
-      "signal_score": 6.96062715483908,
-      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-11-10T05:00:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "15m",
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
   "scan_meta": {
     "top200_received": 200,
     "non_stable_universe": 189,
-    "binance_spot_matched": 107,
-    "scanned": 107,
+    "binance_spot_matched": 106,
+    "scanned": 106,
     "failed": 0,
-    "signal_count_before_cap": 3,
+    "signal_count_before_cap": 0,
     "max_results": 10,
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
@@ -169,5 +18,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-11-10T05:21:28.967560+00:00"
+  "generated_at": "2026-11-10T17:23:02.583640+00:00"
 }
