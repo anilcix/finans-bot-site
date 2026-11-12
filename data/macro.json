@@ -2,15 +2,15 @@
   "barometer": [
     {
       "label": "HY Kredi Spreadi",
-      "value": 3.34,
-      "percentile": 83.6734693877551,
+      "value": 3.3,
+      "percentile": 81.14649681528662,
       "weight": 2.0,
       "invert": true,
-      "level_score": 16.326530612244895,
-      "momentum_score": 10.217714947384493,
-      "change_1m": 0.22999999999999998,
-      "change_3m": 0.6299999999999999,
-      "combined_score": 14.188445129543753,
+      "level_score": 18.853503184713375,
+      "momentum_score": 13.060180417977989,
+      "change_1m": 0.18999999999999995,
+      "change_3m": 0.5899999999999999,
+      "combined_score": 16.825840216355992,
       "signal_label": "Risk-Off",
       "signal_emoji": "🔴"
     },
@@ -58,15 +58,15 @@
     },
     {
       "label": "IG Kredi Spreadi",
-      "value": 0.91,
-      "percentile": 67.94380587484035,
+      "value": 0.9,
+      "percentile": 65.05102040816327,
       "weight": 0.5,
       "invert": true,
-      "level_score": 32.05619412515965,
-      "momentum_score": 8.485892388451447,
-      "change_1m": 0.08000000000000007,
-      "change_3m": 0.12,
-      "combined_score": 23.806588517311777,
+      "level_score": 34.94897959183673,
+      "momentum_score": 10.081563577599916,
+      "change_1m": 0.07000000000000006,
+      "change_3m": 0.10999999999999999,
+      "combined_score": 26.24538398685385,
       "signal_label": "Kırılgan / Savunmacı",
       "signal_emoji": "🟠"
     },
@@ -155,7 +155,7 @@
       "signal_emoji": "🟡"
     }
   ],
-  "composite_score": 35.551938201542306,
+  "composite_score": 36.24650375324236,
   "score_method": {
     "level_weight": 0.65,
     "momentum_weight": 0.35
@@ -176,7 +176,7 @@
   "early_warnings": [
     {
       "name": "HY Kredi Spreadi",
-      "value": "334 bps",
+      "value": "330 bps",
       "warn": "400+ bps",
       "crisis": "600+ bps",
       "status": "🟢 Güvenli"
@@ -190,7 +190,7 @@
     },
     {
       "name": "CCC-HY Ayrışması",
-      "value": "fark +15 puan",
+      "value": "fark +18 puan",
       "warn": "30+",
       "crisis": "50+",
       "status": "🟢 Güvenli"
@@ -1038,17 +1038,13 @@
         "value": 7619.3798828125
       },
       {
-        "date": "2026-11-11",
-        "value": 7619.3798828125
+        "date": "2026-11-12",
+        "value": 7635.47998046875
       }
     ]
   },
   "credit_history": {
     "hy": [
-      {
-        "date": "2024-11-14",
-        "value": 2.6
-      },
       {
         "date": "2024-11-15",
         "value": 2.72
@@ -3124,13 +3120,13 @@
       {
         "date": "2026-11-09",
         "value": 3.34
+      },
+      {
+        "date": "2026-11-11",
+        "value": 3.3
       }
     ],
     "ig": [
-      {
-        "date": "2024-11-13",
-        "value": 0.78
-      },
       {
         "date": "2024-11-14",
         "value": 0.8
@@ -5206,13 +5202,13 @@
       {
         "date": "2026-11-09",
         "value": 0.91
+      },
+      {
+        "date": "2026-11-11",
+        "value": 0.9
       }
     ],
     "ccc": [
-      {
-        "date": "2024-11-14",
-        "value": 7.16
-      },
       {
         "date": "2024-11-15",
         "value": 7.25
@@ -7288,6 +7284,10 @@
       {
         "date": "2026-11-09",
         "value": 13.11
+      },
+      {
+        "date": "2026-11-11",
+        "value": 13.3
       }
     ],
     "yield_curve": [
@@ -9676,9 +9676,9 @@
         "raw": 759.8099975585938
       },
       {
-        "date": "2026-11-11",
-        "value": 159.97347381425848,
-        "raw": 759.8099975585938
+        "date": "2026-11-12",
+        "value": 160.2998402222021,
+        "raw": 761.360107421875
       }
     ],
     "QQQ": [
@@ -9983,9 +9983,9 @@
         "raw": 690.3800048828125
       },
       {
-        "date": "2026-11-11",
-        "value": 173.52771001420678,
-        "raw": 690.3800048828125
+        "date": "2026-11-12",
+        "value": 173.86075316783348,
+        "raw": 691.7050170898438
       }
     ],
     "BTC": [
@@ -10286,13 +10286,13 @@
       },
       {
         "date": "2026-11-01",
-        "value": 159.20055337868902,
-        "raw": 73720.1171875
+        "value": 159.7282370755286,
+        "raw": 73964.46875
       },
       {
         "date": "2026-11-12",
-        "value": 159.02409643635934,
-        "raw": 73638.40625
+        "value": 154.79670503481816,
+        "raw": 71680.8515625
       }
     ]
   },
@@ -10538,10 +10538,10 @@
       "value": 32.669236235072056
     },
     {
-      "date": "2026-11-11",
-      "value": 33.65337751102328
+      "date": "2026-11-12",
+      "value": 34.48066259489532
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş makro veri sağlayıcısı serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-11-12T04:59:47.770848+00:00"
+  "generated_at": "2026-11-12T17:48:41.671271+00:00"
 }
