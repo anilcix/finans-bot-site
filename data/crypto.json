@@ -1,37 +1,37 @@
 {
   "btc": {
-    "price": 63965,
-    "change_24h": -2.2100053388055025
+    "price": 65021,
+    "change_24h": -0.027308465299561005
   },
   "eth": {
-    "price": 1792.74,
-    "change_24h": -2.0615123099572736
+    "price": 1819.39,
+    "change_24h": -0.49233346462602795
   },
   "global": {
-    "total_usd": 2164062911130.9568,
-    "total2_usd": 883006038081.0416,
-    "total3_usd": 664788328524.4658,
-    "btc_dominance": 59.196840649166916,
-    "eth_dominance": 10.083704518670093
+    "total_usd": 2221665394641.43,
+    "total2_usd": 917269977170.4994,
+    "total3_usd": 695671427546.4056,
+    "btc_dominance": 58.71250552027688,
+    "eth_dominance": 9.974434051076308
   },
-  "usdt_market_cap_usd": 175277468056.4687,
-  "usdt_dominance": 8.099462689135375,
-  "stablecoin_supply_usd": 288800343650,
-  "stablecoin_market_cap_usd": 287356796593.74475,
-  "stablecoin_7d_change_pct": -1.5365846952556717,
+  "usdt_market_cap_usd": 175322871549.13495,
+  "usdt_dominance": 7.891506613552465,
+  "stablecoin_supply_usd": 288712876383,
+  "stablecoin_market_cap_usd": 287059472621.68207,
+  "stablecoin_7d_change_pct": -1.649740769498298,
   "defi": {
     "ok": true,
-    "total_tvl_usd": 71382280376.41527,
+    "total_tvl_usd": 71609712411.01753,
     "chains": {
-      "Base": 5156828144.202316,
-      "Arbitrum": 1296798744.8634562,
-      "Ethereum": 37714752688.720726,
-      "BSC": 4531431208.442143,
-      "Solana": 4717866427.658543,
-      "Bitcoin": 3416107444.4581056
+      "Arbitrum": 1297126306.983356,
+      "BSC": 4530112088.704584,
+      "Ethereum": 37617299407.79265,
+      "Base": 5225425374.407665,
+      "Solana": 4747452867.231324,
+      "Bitcoin": 3460869956.0607176
     },
-    "stablecoin_market_cap_usd": 287356796593.74475,
-    "stablecoin_7d_change_pct": -1.5365846952556717,
+    "stablecoin_market_cap_usd": 287059472621.68207,
+    "stablecoin_7d_change_pct": -1.649740769498298,
     "errors": []
   },
   "network": {
@@ -68,7 +68,7 @@
       "days": [
         {
           "date": "2026-11-16",
-          "total_usd_m": 0.0,
+          "total_usd_m": -41.2,
           "funds_usd_m": {}
         },
         {
@@ -97,16 +97,40 @@
         {
           "date": "2026-11-13",
           "total_usd_m": 2.3,
-          "funds_usd_m": {}
+          "funds_usd_m": {
+            "ETHA": 0.0,
+            "ETHB": 0.0,
+            "FETH": 11.6,
+            "ETHW": 0.0,
+            "TETH": 0.0,
+            "ETHV": 0.0,
+            "QETH": 0.0,
+            "EZET": 0.0,
+            "MSSE": 0.0,
+            "ETHE": 0.0,
+            "ETH": -9.3
+          }
         },
         {
           "date": "2026-11-12",
           "total_usd_m": -70.5,
-          "funds_usd_m": {}
+          "funds_usd_m": {
+            "ETHA": -62.0,
+            "ETHB": 0.0,
+            "FETH": -0.5,
+            "ETHW": 0.0,
+            "TETH": 1.2,
+            "ETHV": -2.9,
+            "QETH": 0.4,
+            "EZET": 0.0,
+            "MSSE": 0.0,
+            "ETHE": 0.0,
+            "ETH": -6.7
+          }
         }
       ],
       "ok": true,
-      "transport": "direct"
+      "transport": "mmflow"
     },
     "ok": true,
     "method": "Latest 3 completed US spot ETF trading-day net flows in US$m. Primary transport mmflow; source data Farside Investors."
@@ -120,51 +144,51 @@
         "exchange_code": "A",
         "symbol": "BTCUSDT_PERP.A",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 6017863931.742,
-        "open_interest_24h_ago_usd": 6299933528.5488,
-        "open_interest_change_24h_pct": -4.477342427956954,
-        "funding_pct": 0.000717,
-        "long_short_ratio": 2.73,
-        "long_liquidations_24h_usd": 13067321.032599997,
-        "short_liquidations_24h_usd": 9503137.462199999,
-        "total_liquidations_24h_usd": 22570458.494799994
+        "open_interest_usd": 6034543289.5104,
+        "open_interest_24h_ago_usd": 6097031270.883599,
+        "open_interest_change_24h_pct": -1.0248919284965963,
+        "funding_pct": 0.006177,
+        "long_short_ratio": 2.639,
+        "long_liquidations_24h_usd": 10759246.8198,
+        "short_liquidations_24h_usd": 17954831.7556,
+        "total_liquidations_24h_usd": 28714078.575400002
       },
       {
         "exchange": "vadeli piyasa",
         "exchange_code": "6",
         "symbol": "BTCUSDT.6",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 4496499733.976399,
-        "open_interest_24h_ago_usd": 4692938024.093699,
-        "open_interest_change_24h_pct": -4.185827494605288,
-        "funding_pct": 0.000433,
-        "long_short_ratio": 2.522367030644593,
-        "long_liquidations_24h_usd": 4682938.6999,
-        "short_liquidations_24h_usd": 2073798.5017999997,
-        "total_liquidations_24h_usd": 6756737.2017
+        "open_interest_usd": 4536095634.3624,
+        "open_interest_24h_ago_usd": 4548919831.4574,
+        "open_interest_change_24h_pct": -0.2819174127078772,
+        "funding_pct": 0.004993,
+        "long_short_ratio": 2.5423308537017357,
+        "long_liquidations_24h_usd": 4044085.698499999,
+        "short_liquidations_24h_usd": 9367463.363300001,
+        "total_liquidations_24h_usd": 13411549.0618
       },
       {
         "exchange": "vadeli piyasa",
         "exchange_code": "3",
         "symbol": "BTCUSDT_PERP.3",
         "symbol_on_exchange": "BTC-USDT-SWAP",
-        "open_interest_usd": 2095502927.2792687,
-        "open_interest_24h_ago_usd": 2138916293.8508482,
-        "open_interest_change_24h_pct": -2.0296898338840186,
-        "funding_pct": 0.00177532091866,
+        "open_interest_usd": 1996422185.8184097,
+        "open_interest_24h_ago_usd": 2108568641.8762088,
+        "open_interest_change_24h_pct": -5.318605893617523,
+        "funding_pct": 0.00460483617305,
         "long_short_ratio": null,
-        "long_liquidations_24h_usd": 3062555.37055,
-        "short_liquidations_24h_usd": 1748670.52247,
-        "total_liquidations_24h_usd": 4811225.89302
+        "long_liquidations_24h_usd": 3100294.71309,
+        "short_liquidations_24h_usd": 3564509.59229,
+        "total_liquidations_24h_usd": 6664804.30538
       },
       {
         "exchange": "vadeli piyasa",
         "exchange_code": "H",
         "symbol": "BTC.H",
         "symbol_on_exchange": "BTC",
-        "open_interest_usd": 2300846543.31168,
-        "open_interest_24h_ago_usd": 2545981287.7598,
-        "open_interest_change_24h_pct": -9.628301104436366,
+        "open_interest_usd": 2502578499.547,
+        "open_interest_24h_ago_usd": 2405806151.19168,
+        "open_interest_change_24h_pct": 4.022449951230911,
         "funding_pct": 0.00125,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
@@ -176,10 +200,10 @@
         "exchange_code": "K",
         "symbol": "pf_xbtusd.K",
         "symbol_on_exchange": "pf_xbtusd",
-        "open_interest_usd": 140781843.00399998,
-        "open_interest_24h_ago_usd": 147624395.356,
-        "open_interest_change_24h_pct": -4.635109485460742,
-        "funding_pct": 0.0018417191666667,
+        "open_interest_usd": 147864398.5924,
+        "open_interest_24h_ago_usd": 149921368.6201,
+        "open_interest_change_24h_pct": -1.3720325839022496,
+        "funding_pct": 0.00168600375,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -190,10 +214,10 @@
         "exchange_code": "2",
         "symbol": "BTC_USDC-PERPETUAL.2",
         "symbol_on_exchange": "BTC_USDC-PERPETUAL",
-        "open_interest_usd": 136904872.37796,
-        "open_interest_24h_ago_usd": 144057954.66966,
-        "open_interest_change_24h_pct": -4.965419860432407,
-        "funding_pct": 0.017232,
+        "open_interest_usd": 142844629.1454,
+        "open_interest_24h_ago_usd": 141752368.9788,
+        "open_interest_change_24h_pct": 0.7705410318492367,
+        "funding_pct": 0.0,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -207,7 +231,7 @@
         "open_interest_usd": null,
         "open_interest_24h_ago_usd": null,
         "open_interest_change_24h_pct": null,
-        "funding_pct": 0.002667,
+        "funding_pct": 0.008947,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -220,51 +244,51 @@
         "exchange_code": "A",
         "symbol": "BTCUSDT_PERP.A",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 6017863931.742,
-        "open_interest_24h_ago_usd": 6299933528.5488,
-        "open_interest_change_24h_pct": -4.477342427956954,
-        "funding_pct": 0.000717,
-        "long_short_ratio": 2.73,
-        "long_liquidations_24h_usd": 13067321.032599997,
-        "short_liquidations_24h_usd": 9503137.462199999,
-        "total_liquidations_24h_usd": 22570458.494799994
+        "open_interest_usd": 6034543289.5104,
+        "open_interest_24h_ago_usd": 6097031270.883599,
+        "open_interest_change_24h_pct": -1.0248919284965963,
+        "funding_pct": 0.006177,
+        "long_short_ratio": 2.639,
+        "long_liquidations_24h_usd": 10759246.8198,
+        "short_liquidations_24h_usd": 17954831.7556,
+        "total_liquidations_24h_usd": 28714078.575400002
       },
       "Bybit": {
         "exchange": "vadeli piyasa",
         "exchange_code": "6",
         "symbol": "BTCUSDT.6",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 4496499733.976399,
-        "open_interest_24h_ago_usd": 4692938024.093699,
-        "open_interest_change_24h_pct": -4.185827494605288,
-        "funding_pct": 0.000433,
-        "long_short_ratio": 2.522367030644593,
-        "long_liquidations_24h_usd": 4682938.6999,
-        "short_liquidations_24h_usd": 2073798.5017999997,
-        "total_liquidations_24h_usd": 6756737.2017
+        "open_interest_usd": 4536095634.3624,
+        "open_interest_24h_ago_usd": 4548919831.4574,
+        "open_interest_change_24h_pct": -0.2819174127078772,
+        "funding_pct": 0.004993,
+        "long_short_ratio": 2.5423308537017357,
+        "long_liquidations_24h_usd": 4044085.698499999,
+        "short_liquidations_24h_usd": 9367463.363300001,
+        "total_liquidations_24h_usd": 13411549.0618
       },
       "OKX": {
         "exchange": "vadeli piyasa",
         "exchange_code": "3",
         "symbol": "BTCUSDT_PERP.3",
         "symbol_on_exchange": "BTC-USDT-SWAP",
-        "open_interest_usd": 2095502927.2792687,
-        "open_interest_24h_ago_usd": 2138916293.8508482,
-        "open_interest_change_24h_pct": -2.0296898338840186,
-        "funding_pct": 0.00177532091866,
+        "open_interest_usd": 1996422185.8184097,
+        "open_interest_24h_ago_usd": 2108568641.8762088,
+        "open_interest_change_24h_pct": -5.318605893617523,
+        "funding_pct": 0.00460483617305,
         "long_short_ratio": null,
-        "long_liquidations_24h_usd": 3062555.37055,
-        "short_liquidations_24h_usd": 1748670.52247,
-        "total_liquidations_24h_usd": 4811225.89302
+        "long_liquidations_24h_usd": 3100294.71309,
+        "short_liquidations_24h_usd": 3564509.59229,
+        "total_liquidations_24h_usd": 6664804.30538
       },
       "Hyperliquid": {
         "exchange": "vadeli piyasa",
         "exchange_code": "H",
         "symbol": "BTC.H",
         "symbol_on_exchange": "BTC",
-        "open_interest_usd": 2300846543.31168,
-        "open_interest_24h_ago_usd": 2545981287.7598,
-        "open_interest_change_24h_pct": -9.628301104436366,
+        "open_interest_usd": 2502578499.547,
+        "open_interest_24h_ago_usd": 2405806151.19168,
+        "open_interest_change_24h_pct": 4.022449951230911,
         "funding_pct": 0.00125,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
@@ -276,10 +300,10 @@
         "exchange_code": "K",
         "symbol": "pf_xbtusd.K",
         "symbol_on_exchange": "pf_xbtusd",
-        "open_interest_usd": 140781843.00399998,
-        "open_interest_24h_ago_usd": 147624395.356,
-        "open_interest_change_24h_pct": -4.635109485460742,
-        "funding_pct": 0.0018417191666667,
+        "open_interest_usd": 147864398.5924,
+        "open_interest_24h_ago_usd": 149921368.6201,
+        "open_interest_change_24h_pct": -1.3720325839022496,
+        "funding_pct": 0.00168600375,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -290,10 +314,10 @@
         "exchange_code": "2",
         "symbol": "BTC_USDC-PERPETUAL.2",
         "symbol_on_exchange": "BTC_USDC-PERPETUAL",
-        "open_interest_usd": 136904872.37796,
-        "open_interest_24h_ago_usd": 144057954.66966,
-        "open_interest_change_24h_pct": -4.965419860432407,
-        "funding_pct": 0.017232,
+        "open_interest_usd": 142844629.1454,
+        "open_interest_24h_ago_usd": 141752368.9788,
+        "open_interest_change_24h_pct": 0.7705410318492367,
+        "funding_pct": 0.0,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -307,7 +331,7 @@
         "open_interest_usd": null,
         "open_interest_24h_ago_usd": null,
         "open_interest_change_24h_pct": null,
-        "funding_pct": 0.002667,
+        "funding_pct": 0.008947,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -319,29 +343,29 @@
       "exchange_code": "A",
       "symbol": "BTCUSDT_PERP.A",
       "symbol_on_exchange": "BTCUSDT",
-      "open_interest_usd": 6017863931.742,
-      "open_interest_24h_ago_usd": 6299933528.5488,
-      "open_interest_change_24h_pct": -4.477342427956954,
-      "funding_pct": 0.000717,
-      "long_short_ratio": 2.73,
-      "long_liquidations_24h_usd": 13067321.032599997,
-      "short_liquidations_24h_usd": 9503137.462199999,
-      "total_liquidations_24h_usd": 22570458.494799994
+      "open_interest_usd": 6034543289.5104,
+      "open_interest_24h_ago_usd": 6097031270.883599,
+      "open_interest_change_24h_pct": -1.0248919284965963,
+      "funding_pct": 0.006177,
+      "long_short_ratio": 2.639,
+      "long_liquidations_24h_usd": 10759246.8198,
+      "short_liquidations_24h_usd": 17954831.7556,
+      "total_liquidations_24h_usd": 28714078.575400002
     },
     "binance_available": true,
-    "aggregate_oi_usd": 16578330897.625038,
-    "oi_change_24h_pct": -4.890910832826101,
-    "oi_weighted_funding_pct": 0.001770579942287306,
+    "aggregate_oi_usd": 16758816362.003782,
+    "oi_change_24h_pct": -0.593133563348025,
+    "oi_weighted_funding_pct": 0.0052306586164695,
     "liquidations_24h": {
-      "long_usd": 20812815.103049997,
-      "short_usd": 13325606.486469997,
-      "total_usd": 34138421.58951999,
-      "dominant_side": "long"
+      "long_usd": 17903627.23139,
+      "short_usd": 30886804.71119,
+      "total_usd": 48790431.94258,
+      "dominant_side": "short"
     },
-    "long_short_ratio_avg": 2.6261835153222965,
+    "long_short_ratio_avg": 2.590665426850868,
     "total_all_exchanges": {
-      "aggregate_oi_usd": 16578330897.625038,
-      "oi_weighted_funding_pct": 0.001770579942287306,
+      "aggregate_oi_usd": 16758816362.003782,
+      "oi_weighted_funding_pct": 0.0052306586164695,
       "exchange_count": 16,
       "market_count": 16,
       "markets": [
@@ -350,28 +374,28 @@
           "symbol": "BTCUSDT.S",
           "symbol_on_exchange": "BTCUSDT",
           "open_interest_usd": null,
-          "funding_pct": 0.002667
+          "funding_pct": 0.008947
         },
         {
           "exchange": "ana piyasa",
           "symbol": "BTCUSDT_PERP.A",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 6017863931.742,
-          "funding_pct": 0.000717
+          "open_interest_usd": 6034543289.5104,
+          "funding_pct": 0.006177
         },
         {
           "exchange": "Bitfinex",
           "symbol": "BTCUSDT_PERP.F",
           "symbol_on_exchange": "BTCF0:USTF0",
-          "open_interest_usd": 567629066.6096712,
-          "funding_pct": 0.010382
+          "open_interest_usd": 576564439.643017,
+          "funding_pct": 0.016541
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT.6",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 4496499733.976399,
-          "funding_pct": 0.000433
+          "open_interest_usd": 4536095634.3624,
+          "funding_pct": 0.004993
         },
         {
           "exchange": "Coinbase",
@@ -384,36 +408,36 @@
           "exchange": "opsiyon veri sağlayıcısı",
           "symbol": "BTC_USDC-PERPETUAL.2",
           "symbol_on_exchange": "BTC_USDC-PERPETUAL",
-          "open_interest_usd": 136904872.37796,
-          "funding_pct": 0.017232
+          "open_interest_usd": 142844629.1454,
+          "funding_pct": 0.0
         },
         {
           "exchange": "Gate.io",
           "symbol": "BTC_USDT.Y",
           "symbol_on_exchange": "BTC_USDT",
           "open_interest_usd": null,
-          "funding_pct": 0.0009
+          "funding_pct": 0.0046
         },
         {
           "exchange": "Huobi",
           "symbol": "BTCUSDT_PERP.4",
           "symbol_on_exchange": "BTC-USDT",
-          "open_interest_usd": 794786657.1078,
-          "funding_pct": 0.01
+          "open_interest_usd": 793980934.5924,
+          "funding_pct": 0.0069360025191878005
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTC.H",
           "symbol_on_exchange": "BTC",
-          "open_interest_usd": 2300846543.31168,
+          "open_interest_usd": 2502578499.547,
           "funding_pct": 0.00125
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "pf_xbtusd.K",
           "symbol_on_exchange": "pf_xbtusd",
-          "open_interest_usd": 140781843.00399998,
-          "funding_pct": 0.0018417191666667
+          "open_interest_usd": 147864398.5924,
+          "funding_pct": 0.00168600375
         },
         {
           "exchange": "Lighter",
@@ -426,15 +450,15 @@
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT_PERP.3",
           "symbol_on_exchange": "BTC-USDT-SWAP",
-          "open_interest_usd": 2095502927.2792687,
-          "funding_pct": 0.00177532091866
+          "open_interest_usd": 1996422185.8184097,
+          "funding_pct": 0.00460483617305
         },
         {
           "exchange": "Phemex",
           "symbol": "BTCUSD.7",
           "symbol_on_exchange": "BTCUSD",
           "open_interest_usd": null,
-          "funding_pct": 0.007007
+          "funding_pct": 0.005297
         },
         {
           "exchange": "Polymarket",
@@ -447,22 +471,22 @@
           "exchange": "WOO X",
           "symbol": "PERP_BTC_USDT.W",
           "symbol_on_exchange": "PERP_BTC_USDT",
-          "open_interest_usd": 14345659.80786,
-          "funding_pct": 0.000717
+          "open_interest_usd": 14550334.25476,
+          "funding_pct": 0.006144
         },
         {
           "exchange": "dYdX",
           "symbol": "BTC-USD.8",
           "symbol_on_exchange": "BTC-USD",
-          "open_interest_usd": 13169662.4084,
-          "funding_pct": 0.0019375
+          "open_interest_usd": 13372016.5376,
+          "funding_pct": 0.00235
         }
       ],
       "definition": "Her desteklenen borsadan bir ana BTC perpetual kontratı; OI USD olarak toplanır, funding OI-ağırlıklı ortalamadır."
     },
     "core_exchanges": {
-      "aggregate_oi_usd": 12609866592.997667,
-      "oi_weighted_funding_pct": 0.000791601000071325,
+      "aggregate_oi_usd": 12567061109.691208,
+      "oi_weighted_funding_pct": 0.005499877488963026,
       "exchange_count": 3,
       "market_count": 3,
       "markets": [
@@ -470,22 +494,22 @@
           "exchange": "ana piyasa",
           "symbol": "BTCUSDT_PERP.A",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 6017863931.742,
-          "funding_pct": 0.000717
+          "open_interest_usd": 6034543289.5104,
+          "funding_pct": 0.006177
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT.6",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 4496499733.976399,
-          "funding_pct": 0.000433
+          "open_interest_usd": 4536095634.3624,
+          "funding_pct": 0.004993
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT_PERP.3",
           "symbol_on_exchange": "BTC-USDT-SWAP",
-          "open_interest_usd": 2095502927.2792687,
-          "funding_pct": 0.00177532091866
+          "open_interest_usd": 1996422185.8184097,
+          "funding_pct": 0.00460483617305
         }
       ],
       "exchanges": [
@@ -530,11 +554,11 @@
     "market_count": 7,
     "all_exchange_count": 16
   },
-  "funding_pct": 0.001770579942287306,
+  "funding_pct": 0.0052306586164695,
   "open_interest_btc": null,
-  "open_interest_usd": 16578330897.625038,
-  "core3_open_interest_usd": 12609866592.997667,
-  "core3_funding_pct": 0.000791601000071325,
+  "open_interest_usd": 16758816362.003782,
+  "core3_open_interest_usd": 12567061109.691208,
+  "core3_funding_pct": 0.005499877488963026,
   "core3_exchanges": [
     "ana piyasa",
     "vadeli piyasa",
@@ -549,29 +573,29 @@
     "ok_count": 5,
     "grade": "A"
   },
-  "stablecoin_top50_market_cap_usd": 288800343650,
+  "stablecoin_top50_market_cap_usd": 288712876383,
   "btc_liquidity": {
     "ok": true,
-    "fetched_at": "2026-11-16T12:23:26.227694+00:00",
+    "fetched_at": "2026-11-16T23:35:58.482017+00:00",
     "coins": {
       "USDT": {
         "id": "1",
-        "supply_usd": 175325413948.6759,
-        "price_usd": 0.99913,
-        "peg_deviation_pct": -0.087,
+        "supply_usd": 175289306141.79404,
+        "price_usd": 0.9992,
+        "peg_deviation_pct": -0.08,
         "peg_status": "normal",
         "changes": {
           "1d": {
-            "usd": 8963417.872131348,
-            "pct": 0.005112707817778173
+            "usd": -39427226.615600586,
+            "pct": -0.022487601352116915
           },
           "7d": {
-            "usd": -1541222196.615509,
-            "pct": -0.8714035785411967
+            "usd": -1589721448.5847778,
+            "pct": -0.8987619788742296
           },
           "30d": {
-            "usd": -8155928564.355347,
-            "pct": -4.445099677519582
+            "usd": -8204891248.956757,
+            "pct": -4.471471777107173
           }
         },
         "history": [
@@ -2047,768 +2071,768 @@
       },
       "USDC": {
         "id": "2",
-        "supply_usd": 69280614213.54546,
-        "price_usd": 0.9997943981999999,
-        "peg_deviation_pct": -0.02056018,
+        "supply_usd": 69394409797.8063,
+        "price_usd": 0.9999271941000001,
+        "peg_deviation_pct": -0.00728059,
         "peg_status": "normal",
         "changes": {
           "1d": {
-            "usd": 787784.1295776367,
-            "pct": 0.0011371046525043838
+            "usd": 97589136.65290833,
+            "pct": 0.1408277258925006
           },
           "7d": {
-            "usd": -1255159568.5267487,
-            "pct": -1.7794652290973656
+            "usd": -1158351043.9686584,
+            "pct": -1.6418224179297947
           },
           "30d": {
-            "usd": -3454412592.491928,
-            "pct": -4.749310949872632
+            "usd": -3358034203.1782074,
+            "pct": -4.615699512627735
           }
         },
         "history": [
           {
             "date": "2025-11-15",
-            "supply_usd": 74512961425.0
+            "supply_usd": 74521504133.0
           },
           {
             "date": "2025-11-16",
-            "supply_usd": 74386582866.0
+            "supply_usd": 74395085838.0
           },
           {
             "date": "2025-11-17",
-            "supply_usd": 74344757165.0
+            "supply_usd": 74353200515.0
           },
           {
             "date": "2025-11-18",
-            "supply_usd": 74353102162.0
+            "supply_usd": 74361501476.0
           },
           {
             "date": "2025-11-19",
-            "supply_usd": 74378487507.0
+            "supply_usd": 74386930764.0
           },
           {
             "date": "2025-11-20",
-            "supply_usd": 74127103178.0
+            "supply_usd": 74135487271.0
           },
           {
             "date": "2025-11-21",
-            "supply_usd": 73329673348.0
+            "supply_usd": 73338109375.0
           },
           {
             "date": "2025-11-22",
-            "supply_usd": 73590490103.0
+            "supply_usd": 73598909004.0
           },
           {
             "date": "2025-11-23",
-            "supply_usd": 73583121468.0
+            "supply_usd": 73591537545.0
           },
           {
             "date": "2025-11-24",
-            "supply_usd": 73519809773.0
+            "supply_usd": 73528219054.0
           },
           {
             "date": "2025-11-25",
-            "supply_usd": 74310233035.0
+            "supply_usd": 74318651397.0
           },
           {
             "date": "2025-11-26",
-            "supply_usd": 74764041712.0
+            "supply_usd": 74772484579.0
           },
           {
             "date": "2025-11-27",
-            "supply_usd": 75502521029.0
+            "supply_usd": 75510958835.0
           },
           {
             "date": "2025-11-28",
-            "supply_usd": 75731063225.0
+            "supply_usd": 75739507143.0
           },
           {
             "date": "2025-11-29",
-            "supply_usd": 76232241210.0
+            "supply_usd": 76240712297.0
           },
           {
             "date": "2025-11-30",
-            "supply_usd": 76261384667.0
+            "supply_usd": 76269901493.0
           },
           {
             "date": "2025-12-01",
-            "supply_usd": 76112349840.0
+            "supply_usd": 76120873880.0
           },
           {
             "date": "2025-12-02",
-            "supply_usd": 77002074502.0
+            "supply_usd": 77010533022.0
           },
           {
             "date": "2025-12-03",
-            "supply_usd": 77376936826.0
+            "supply_usd": 77385382540.0
           },
           {
             "date": "2025-12-04",
-            "supply_usd": 77574727817.0
+            "supply_usd": 77583115487.0
           },
           {
             "date": "2025-12-05",
-            "supply_usd": 77626613205.0
+            "supply_usd": 77634993219.0
           },
           {
             "date": "2025-12-06",
-            "supply_usd": 77822254378.0
+            "supply_usd": 77830686650.0
           },
           {
             "date": "2025-12-07",
-            "supply_usd": 77781643287.0
+            "supply_usd": 77790095253.0
           },
           {
             "date": "2025-12-08",
-            "supply_usd": 77761395823.0
+            "supply_usd": 77769857039.0
           },
           {
             "date": "2025-12-09",
-            "supply_usd": 78138457954.0
+            "supply_usd": 78146930790.0
           },
           {
             "date": "2025-12-10",
-            "supply_usd": 78095651209.0
+            "supply_usd": 78104127138.0
           },
           {
             "date": "2025-12-11",
-            "supply_usd": 78185014861.0
+            "supply_usd": 78193489037.0
           },
           {
             "date": "2025-12-12",
-            "supply_usd": 78567461160.0
+            "supply_usd": 78575928621.0
           },
           {
             "date": "2025-12-13",
-            "supply_usd": 78423998790.0
+            "supply_usd": 78432473841.0
           },
           {
             "date": "2025-12-14",
-            "supply_usd": 78355359299.0
+            "supply_usd": 78363850967.0
           },
           {
             "date": "2025-12-15",
-            "supply_usd": 78310744099.0
+            "supply_usd": 78319237363.0
           },
           {
             "date": "2025-12-16",
-            "supply_usd": 78208036258.0
+            "supply_usd": 78216532211.0
           },
           {
             "date": "2025-12-17",
-            "supply_usd": 78165831999.0
+            "supply_usd": 78174218816.0
           },
           {
             "date": "2025-12-18",
-            "supply_usd": 77983298164.0
+            "supply_usd": 77991656252.0
           },
           {
             "date": "2025-12-19",
-            "supply_usd": 77341285321.0
+            "supply_usd": 77349672484.0
           },
           {
             "date": "2025-12-20",
-            "supply_usd": 77117379270.0
+            "supply_usd": 77125729092.0
           },
           {
             "date": "2025-12-21",
-            "supply_usd": 77073197863.0
+            "supply_usd": 77081559512.0
           },
           {
             "date": "2025-12-22",
-            "supply_usd": 77028439292.0
+            "supply_usd": 77036845300.0
           },
           {
             "date": "2025-12-23",
-            "supply_usd": 77064482833.0
+            "supply_usd": 77072865111.0
           },
           {
             "date": "2025-12-24",
-            "supply_usd": 76839734256.0
+            "supply_usd": 76848108896.0
           },
           {
             "date": "2025-12-25",
-            "supply_usd": 76561361608.0
+            "supply_usd": 76569721709.0
           },
           {
             "date": "2025-12-26",
-            "supply_usd": 76473668777.0
+            "supply_usd": 76482024430.0
           },
           {
             "date": "2025-12-27",
-            "supply_usd": 76452764619.0
+            "supply_usd": 76461141912.0
           },
           {
             "date": "2025-12-28",
-            "supply_usd": 76372786121.0
+            "supply_usd": 76381181643.0
           },
           {
             "date": "2025-12-29",
-            "supply_usd": 76270278647.0
+            "supply_usd": 76278667730.0
           },
           {
             "date": "2025-12-30",
-            "supply_usd": 76007865440.0
+            "supply_usd": 76016252353.0
           },
           {
             "date": "2025-12-31",
-            "supply_usd": 76003970103.0
+            "supply_usd": 76012347772.0
           },
           {
             "date": "2026-01-01",
-            "supply_usd": 75312364733.0
+            "supply_usd": 75320757493.0
           },
           {
             "date": "2026-01-02",
-            "supply_usd": 75132503398.0
+            "supply_usd": 75140927217.0
           },
           {
             "date": "2026-01-03",
-            "supply_usd": 75288915416.0
+            "supply_usd": 75297296590.0
           },
           {
             "date": "2026-01-04",
-            "supply_usd": 75306641558.0
+            "supply_usd": 75315008404.0
           },
           {
             "date": "2026-01-05",
-            "supply_usd": 75375012020.0
+            "supply_usd": 75383383994.0
           },
           {
             "date": "2026-01-06",
-            "supply_usd": 75666723343.0
+            "supply_usd": 75675067746.0
           },
           {
             "date": "2026-01-07",
-            "supply_usd": 75482167416.0
+            "supply_usd": 75490528411.0
           },
           {
             "date": "2026-01-08",
-            "supply_usd": 75069992350.0
+            "supply_usd": 75078305674.0
           },
           {
             "date": "2026-01-09",
-            "supply_usd": 74923084420.0
+            "supply_usd": 74931450042.0
           },
           {
             "date": "2026-01-10",
-            "supply_usd": 74632467209.0
+            "supply_usd": 74640805760.0
           },
           {
             "date": "2026-01-11",
-            "supply_usd": 74596182890.0
+            "supply_usd": 74604503130.0
           },
           {
             "date": "2026-01-12",
-            "supply_usd": 74558603100.0
+            "supply_usd": 74566894980.0
           },
           {
             "date": "2026-01-13",
-            "supply_usd": 73977140735.0
+            "supply_usd": 73985452172.0
           },
           {
             "date": "2026-01-14",
-            "supply_usd": 74878925568.0
+            "supply_usd": 74887241093.0
           },
           {
             "date": "2026-01-15",
-            "supply_usd": 75687822294.0
+            "supply_usd": 75696140547.0
           },
           {
             "date": "2026-01-16",
-            "supply_usd": 76621049108.0
+            "supply_usd": 76622050498.0
           },
           {
             "date": "2026-01-17",
-            "supply_usd": 77119711944.0
+            "supply_usd": 77121185099.0
           },
           {
             "date": "2026-01-18",
-            "supply_usd": 77031538927.0
+            "supply_usd": 77033069115.0
           },
           {
             "date": "2026-01-19",
-            "supply_usd": 76768398593.0
+            "supply_usd": 76770702204.0
           },
           {
             "date": "2026-01-20",
-            "supply_usd": 76437212516.0
+            "supply_usd": 76439250366.0
           },
           {
             "date": "2026-01-21",
-            "supply_usd": 74497118677.0
+            "supply_usd": 74505337328.0
           },
           {
             "date": "2026-01-22",
-            "supply_usd": 74226424810.0
+            "supply_usd": 74234632649.0
           },
           {
             "date": "2026-01-23",
-            "supply_usd": 73636751175.0
+            "supply_usd": 73644954443.0
           },
           {
             "date": "2026-01-24",
-            "supply_usd": 72936917936.0
+            "supply_usd": 72945111674.0
           },
           {
             "date": "2026-01-25",
-            "supply_usd": 72559398810.0
+            "supply_usd": 72567593338.0
           },
           {
             "date": "2026-01-26",
-            "supply_usd": 72382705488.0
+            "supply_usd": 72390904464.0
           },
           {
             "date": "2026-01-27",
-            "supply_usd": 72032645906.0
+            "supply_usd": 72040817753.0
           },
           {
             "date": "2026-01-28",
-            "supply_usd": 71539998624.0
+            "supply_usd": 71548170929.0
           },
           {
             "date": "2026-01-29",
-            "supply_usd": 71294078029.0
+            "supply_usd": 71302214974.0
           },
           {
             "date": "2026-01-30",
-            "supply_usd": 70250401831.0
+            "supply_usd": 70258547139.0
           },
           {
             "date": "2026-01-31",
-            "supply_usd": 70020388978.0
+            "supply_usd": 70028529755.0
           },
           {
             "date": "2026-02-01",
-            "supply_usd": 70086068463.0
+            "supply_usd": 70094244968.0
           },
           {
             "date": "2026-02-02",
-            "supply_usd": 70338001812.0
+            "supply_usd": 70346149206.0
           },
           {
             "date": "2026-02-03",
-            "supply_usd": 70715185226.0
+            "supply_usd": 70723375044.0
           },
           {
             "date": "2026-02-04",
-            "supply_usd": 70860356564.0
+            "supply_usd": 70868527019.0
           },
           {
             "date": "2026-02-05",
-            "supply_usd": 70786876510.0
+            "supply_usd": 70795009638.0
           },
           {
             "date": "2026-02-06",
-            "supply_usd": 70551319297.0
+            "supply_usd": 70559485133.0
           },
           {
             "date": "2026-02-07",
-            "supply_usd": 72568034111.0
+            "supply_usd": 72576150758.0
           },
           {
             "date": "2026-02-08",
-            "supply_usd": 72719099879.0
+            "supply_usd": 72727220225.0
           },
           {
             "date": "2026-02-09",
-            "supply_usd": 72846879535.0
+            "supply_usd": 72855018344.0
           },
           {
             "date": "2026-02-10",
-            "supply_usd": 73035841605.0
+            "supply_usd": 73043952837.0
           },
           {
             "date": "2026-02-11",
-            "supply_usd": 73213052012.0
+            "supply_usd": 73221170387.0
           },
           {
             "date": "2026-02-12",
-            "supply_usd": 73354762682.0
+            "supply_usd": 73362951331.0
           },
           {
             "date": "2026-02-13",
-            "supply_usd": 73257305055.0
+            "supply_usd": 73265493419.0
           },
           {
             "date": "2026-02-14",
-            "supply_usd": 73560911040.0
+            "supply_usd": 73569087063.0
           },
           {
             "date": "2026-02-15",
-            "supply_usd": 73577053407.0
+            "supply_usd": 73585212124.0
           },
           {
             "date": "2026-02-16",
-            "supply_usd": 73704128354.0
+            "supply_usd": 73712264743.0
           },
           {
             "date": "2026-02-17",
-            "supply_usd": 73740960376.0
+            "supply_usd": 73749088385.0
           },
           {
             "date": "2026-02-18",
-            "supply_usd": 73559763039.0
+            "supply_usd": 73567906569.0
           },
           {
             "date": "2026-02-19",
-            "supply_usd": 73634544689.0
+            "supply_usd": 73642672643.0
           },
           {
             "date": "2026-02-20",
-            "supply_usd": 73794951760.0
+            "supply_usd": 73803068745.0
           },
           {
             "date": "2026-02-21",
-            "supply_usd": 74504560630.0
+            "supply_usd": 74512683070.0
           },
           {
             "date": "2026-02-22",
-            "supply_usd": 74407823468.0
+            "supply_usd": 74415961334.0
           },
           {
             "date": "2026-02-23",
-            "supply_usd": 74469491105.0
+            "supply_usd": 74477625590.0
           },
           {
             "date": "2026-02-24",
-            "supply_usd": 74776633616.0
+            "supply_usd": 74784778460.0
           },
           {
             "date": "2026-02-25",
-            "supply_usd": 74995415843.0
+            "supply_usd": 75003563836.0
           },
           {
             "date": "2026-02-26",
-            "supply_usd": 75430875769.0
+            "supply_usd": 75438972526.0
           },
           {
             "date": "2026-02-27",
-            "supply_usd": 75341602829.0
+            "supply_usd": 75349707671.0
           },
           {
             "date": "2026-02-28",
-            "supply_usd": 75294578206.0
+            "supply_usd": 75302700421.0
           },
           {
             "date": "2026-03-01",
-            "supply_usd": 75226382817.0
+            "supply_usd": 75234531499.0
           },
           {
             "date": "2026-03-02",
-            "supply_usd": 75229952120.0
+            "supply_usd": 75238097435.0
           },
           {
             "date": "2026-03-03",
-            "supply_usd": 75927178288.0
+            "supply_usd": 75935316903.0
           },
           {
             "date": "2026-03-04",
-            "supply_usd": 76379844350.0
+            "supply_usd": 76387984895.0
           },
           {
             "date": "2026-03-05",
-            "supply_usd": 77051592582.0
+            "supply_usd": 77059732620.0
           },
           {
             "date": "2026-03-06",
-            "supply_usd": 77210083386.0
+            "supply_usd": 77218225619.0
           },
           {
             "date": "2026-03-07",
-            "supply_usd": 77392088634.0
+            "supply_usd": 77400246888.0
           },
           {
             "date": "2026-03-08",
-            "supply_usd": 77301689983.0
+            "supply_usd": 77309844600.0
           },
           {
             "date": "2026-03-09",
-            "supply_usd": 77287342089.0
+            "supply_usd": 77295491959.0
           },
           {
             "date": "2026-03-10",
-            "supply_usd": 78255879302.0
+            "supply_usd": 78264006615.0
           },
           {
             "date": "2026-03-11",
-            "supply_usd": 78732373891.0
+            "supply_usd": 78740489481.0
           },
           {
             "date": "2026-03-12",
-            "supply_usd": 78801464378.0
+            "supply_usd": 78809583370.0
           },
           {
             "date": "2026-03-13",
-            "supply_usd": 78940784292.0
+            "supply_usd": 78948883719.0
           },
           {
             "date": "2026-03-14",
-            "supply_usd": 79248572784.0
+            "supply_usd": 79256685676.0
           },
           {
             "date": "2026-03-15",
-            "supply_usd": 79215217975.0
+            "supply_usd": 79223331502.0
           },
           {
             "date": "2026-03-16",
-            "supply_usd": 79189828626.0
+            "supply_usd": 79197938934.0
           },
           {
             "date": "2026-03-17",
-            "supply_usd": 79300344318.0
+            "supply_usd": 79308485679.0
           },
           {
             "date": "2026-03-18",
-            "supply_usd": 79625059847.0
+            "supply_usd": 79633166091.0
           },
           {
             "date": "2026-03-19",
-            "supply_usd": 79412405972.0
+            "supply_usd": 79420516160.0
           },
           {
             "date": "2026-03-20",
-            "supply_usd": 79262014410.0
+            "supply_usd": 79270131051.0
           },
           {
             "date": "2026-03-21",
-            "supply_usd": 79097935711.0
+            "supply_usd": 79106034182.0
           },
           {
             "date": "2026-03-22",
-            "supply_usd": 79043679832.0
+            "supply_usd": 79051781447.0
           },
           {
             "date": "2026-03-23",
-            "supply_usd": 79014808343.0
+            "supply_usd": 79022926640.0
           },
           {
             "date": "2026-03-24",
-            "supply_usd": 78688051771.0
+            "supply_usd": 78696168213.0
           },
           {
             "date": "2026-03-25",
-            "supply_usd": 78702027979.0
+            "supply_usd": 78710147437.0
           },
           {
             "date": "2026-03-26",
-            "supply_usd": 78702307580.0
+            "supply_usd": 78710493299.0
           },
           {
             "date": "2026-03-27",
-            "supply_usd": 78105931879.0
+            "supply_usd": 78114070798.0
           },
           {
             "date": "2026-03-28",
-            "supply_usd": 77744257277.0
+            "supply_usd": 77752340682.0
           },
           {
             "date": "2026-03-29",
-            "supply_usd": 77691200701.0
+            "supply_usd": 77699308948.0
           },
           {
             "date": "2026-03-30",
-            "supply_usd": 77613255450.0
+            "supply_usd": 77621343234.0
           },
           {
             "date": "2026-03-31",
-            "supply_usd": 77385924342.0
+            "supply_usd": 77394000948.0
           },
           {
             "date": "2026-04-01",
-            "supply_usd": 77128465833.0
+            "supply_usd": 77136558069.0
           },
           {
             "date": "2026-04-02",
-            "supply_usd": 77172711569.0
+            "supply_usd": 77180810354.0
           },
           {
             "date": "2026-04-03",
-            "supply_usd": 77214991524.0
+            "supply_usd": 77223046836.0
           },
           {
             "date": "2026-04-04",
-            "supply_usd": 77489380882.0
+            "supply_usd": 77497466058.0
           },
           {
             "date": "2026-04-05",
-            "supply_usd": 77457133206.0
+            "supply_usd": 77465201249.0
           },
           {
             "date": "2026-04-06",
-            "supply_usd": 77502952975.0
+            "supply_usd": 77511008222.0
           },
           {
             "date": "2026-04-07",
-            "supply_usd": 77806327646.0
+            "supply_usd": 77814385627.0
           },
           {
             "date": "2026-04-08",
-            "supply_usd": 77810765640.0
+            "supply_usd": 77818832454.0
           },
           {
             "date": "2026-04-09",
-            "supply_usd": 78194175338.0
+            "supply_usd": 78202265358.0
           },
           {
             "date": "2026-04-10",
-            "supply_usd": 78357752950.0
+            "supply_usd": 78365820137.0
           },
           {
             "date": "2026-04-11",
-            "supply_usd": 78777246935.0
+            "supply_usd": 78785298824.0
           },
           {
             "date": "2026-04-12",
-            "supply_usd": 78747362210.0
+            "supply_usd": 78755401656.0
           },
           {
             "date": "2026-04-13",
-            "supply_usd": 78692174054.0
+            "supply_usd": 78700216522.0
           },
           {
             "date": "2026-04-14",
-            "supply_usd": 78728827816.0
+            "supply_usd": 78736908476.0
           },
           {
             "date": "2026-04-15",
-            "supply_usd": 78874522468.0
+            "supply_usd": 78882593723.0
           },
           {
             "date": "2026-04-16",
-            "supply_usd": 78639229846.0
+            "supply_usd": 78647287911.0
           },
           {
             "date": "2026-04-17",
-            "supply_usd": 78791772290.0
+            "supply_usd": 78799845699.0
           },
           {
             "date": "2026-04-18",
-            "supply_usd": 78646776096.0
+            "supply_usd": 78654830056.0
           },
           {
             "date": "2026-04-19",
-            "supply_usd": 78596559390.0
+            "supply_usd": 78604634237.0
           },
           {
             "date": "2026-04-20",
-            "supply_usd": 78286249090.0
+            "supply_usd": 78294332924.0
           },
           {
             "date": "2026-04-21",
-            "supply_usd": 78359313309.0
+            "supply_usd": 78367392555.0
           },
           {
             "date": "2026-04-22",
-            "supply_usd": 78377024196.0
+            "supply_usd": 78385109620.0
           },
           {
             "date": "2026-04-23",
-            "supply_usd": 78424230440.0
+            "supply_usd": 78432323538.0
           },
           {
             "date": "2026-04-24",
-            "supply_usd": 78130445111.0
+            "supply_usd": 78138502436.0
           },
           {
             "date": "2026-04-25",
-            "supply_usd": 77893928009.0
+            "supply_usd": 77902010695.0
           },
           {
             "date": "2026-04-26",
-            "supply_usd": 77827971883.0
+            "supply_usd": 77836052385.0
           },
           {
             "date": "2026-04-27",
-            "supply_usd": 77888719762.0
+            "supply_usd": 77896814724.0
           },
           {
             "date": "2026-04-28",
-            "supply_usd": 77739956572.0
+            "supply_usd": 77748038227.0
           },
           {
             "date": "2026-04-29",
-            "supply_usd": 77610904554.0
+            "supply_usd": 77618985360.0
           },
           {
             "date": "2026-04-30",
-            "supply_usd": 77360195970.0
+            "supply_usd": 77368228354.0
           },
           {
             "date": "2026-05-01",
-            "supply_usd": 77275650554.0
+            "supply_usd": 77283697645.0
           },
           {
             "date": "2026-05-02",
-            "supply_usd": 77361967992.0
+            "supply_usd": 77370002473.0
           },
           {
             "date": "2026-05-03",
-            "supply_usd": 77353205385.0
+            "supply_usd": 77361253461.0
           },
           {
             "date": "2026-05-04",
-            "supply_usd": 77365561131.0
+            "supply_usd": 77373607543.0
           },
           {
             "date": "2026-05-05",
-            "supply_usd": 77927977273.0
+            "supply_usd": 77936012105.0
           },
           {
             "date": "2026-05-06",
-            "supply_usd": 78291368724.0
+            "supply_usd": 78299391129.0
           },
           {
             "date": "2026-05-07",
-            "supply_usd": 78382045908.0
+            "supply_usd": 78390076747.0
           },
           {
             "date": "2026-05-08",
-            "supply_usd": 78468387934.0
+            "supply_usd": 78476444259.0
           },
           {
             "date": "2026-05-09",
-            "supply_usd": 78029221903.0
+            "supply_usd": 78037242173.0
           },
           {
             "date": "2026-05-10",
-            "supply_usd": 77965736468.0
+            "supply_usd": 77973828800.0
           },
           {
             "date": "2026-05-11",
-            "supply_usd": 77965736468.0
+            "supply_usd": 77973828800.0
           },
           {
             "date": "2026-05-12",
-            "supply_usd": 77566151626.0
+            "supply_usd": 77574297098.0
           },
           {
             "date": "2026-05-13",
-            "supply_usd": 77203347488.0
+            "supply_usd": 77211515965.0
           },
           {
             "date": "2026-05-14",
-            "supply_usd": 76878764713.0
+            "supply_usd": 76886907051.0
           },
           {
             "date": "2026-05-15",
-            "supply_usd": 76742348014.0
+            "supply_usd": 76750451192.0
           },
           {
             "date": "2026-05-16",
-            "supply_usd": 77081393402.0
+            "supply_usd": 77089478610.0
           },
           {
             "date": "2026-05-17",
-            "supply_usd": 77058251187.0
+            "supply_usd": 77066362818.0
           },
           {
             "date": "2026-05-18",
-            "supply_usd": 77011638317.0
+            "supply_usd": 77019764998.0
           },
           {
             "date": "2026-05-19",
-            "supply_usd": 77043325925.0
+            "supply_usd": 77051437094.0
           },
           {
             "date": "2026-05-20",
@@ -2816,439 +2840,439 @@
           },
           {
             "date": "2026-05-21",
-            "supply_usd": 76303288156.0
+            "supply_usd": 76311353212.0
           },
           {
             "date": "2026-05-22",
-            "supply_usd": 77090457874.0
+            "supply_usd": 77098507748.0
           },
           {
             "date": "2026-05-23",
-            "supply_usd": 76637508732.0
+            "supply_usd": 76645546940.0
           },
           {
             "date": "2026-05-24",
-            "supply_usd": 76546057539.0
+            "supply_usd": 76554089001.0
           },
           {
             "date": "2026-05-25",
-            "supply_usd": 76508588654.0
+            "supply_usd": 76516625342.0
           },
           {
             "date": "2026-05-26",
-            "supply_usd": 76642526423.0
+            "supply_usd": 76650607172.0
           },
           {
             "date": "2026-05-27",
-            "supply_usd": 76618013304.0
+            "supply_usd": 76626091759.0
           },
           {
             "date": "2026-05-28",
-            "supply_usd": 76484214097.0
+            "supply_usd": 76492294153.0
           },
           {
             "date": "2026-05-29",
-            "supply_usd": 76296656845.0
+            "supply_usd": 76304674806.0
           },
           {
             "date": "2026-05-30",
-            "supply_usd": 76112551212.0
+            "supply_usd": 76120567165.0
           },
           {
             "date": "2026-05-31",
-            "supply_usd": 75916857660.0
+            "supply_usd": 75924878110.0
           },
           {
             "date": "2026-06-01",
-            "supply_usd": 75898768745.0
+            "supply_usd": 75906773187.0
           },
           {
             "date": "2026-06-02",
-            "supply_usd": 76030858007.0
+            "supply_usd": 76038897330.0
           },
           {
             "date": "2026-06-03",
-            "supply_usd": 76030849873.0
+            "supply_usd": 76038881824.0
           },
           {
             "date": "2026-06-04",
-            "supply_usd": 76139139321.0
+            "supply_usd": 76147163351.0
           },
           {
             "date": "2026-06-05",
-            "supply_usd": 75777945473.0
+            "supply_usd": 75785981577.0
           },
           {
             "date": "2026-06-06",
-            "supply_usd": 75622610895.0
+            "supply_usd": 75630623573.0
           },
           {
             "date": "2026-06-07",
-            "supply_usd": 75506165266.0
+            "supply_usd": 75514158982.0
           },
           {
             "date": "2026-06-08",
-            "supply_usd": 75775091915.0
+            "supply_usd": 75783103154.0
           },
           {
             "date": "2026-06-09",
-            "supply_usd": 76068885659.0
+            "supply_usd": 76076902990.0
           },
           {
             "date": "2026-06-10",
-            "supply_usd": 75140122857.0
+            "supply_usd": 75148129682.0
           },
           {
             "date": "2026-06-11",
-            "supply_usd": 75003922778.0
+            "supply_usd": 75012085454.0
           },
           {
             "date": "2026-06-12",
-            "supply_usd": 74927024813.0
+            "supply_usd": 74935131313.0
           },
           {
             "date": "2026-06-13",
-            "supply_usd": 74929049485.0
+            "supply_usd": 74937094094.0
           },
           {
             "date": "2026-06-14",
-            "supply_usd": 74921868034.0
+            "supply_usd": 74929906901.0
           },
           {
             "date": "2026-06-15",
-            "supply_usd": 74867993350.0
+            "supply_usd": 74876017690.0
           },
           {
             "date": "2026-06-16",
-            "supply_usd": 75075476083.0
+            "supply_usd": 75083477763.0
           },
           {
             "date": "2026-06-17",
-            "supply_usd": 75008754473.0
+            "supply_usd": 75016771673.0
           },
           {
             "date": "2026-06-18",
-            "supply_usd": 74824037840.0
+            "supply_usd": 74832043820.0
           },
           {
             "date": "2026-06-19",
-            "supply_usd": 74860897043.0
+            "supply_usd": 74868946685.0
           },
           {
             "date": "2026-06-20",
-            "supply_usd": 74951105633.0
+            "supply_usd": 74959125455.0
           },
           {
             "date": "2026-06-21",
-            "supply_usd": 74917759609.0
+            "supply_usd": 74925784534.0
           },
           {
             "date": "2026-06-22",
-            "supply_usd": 74936058506.0
+            "supply_usd": 74944072056.0
           },
           {
             "date": "2026-06-23",
-            "supply_usd": 74550072819.0
+            "supply_usd": 74558075521.0
           },
           {
             "date": "2026-06-24",
-            "supply_usd": 74185498429.0
+            "supply_usd": 74193468052.0
           },
           {
             "date": "2026-06-25",
-            "supply_usd": 73838400814.0
+            "supply_usd": 73846354760.0
           },
           {
             "date": "2026-06-26",
-            "supply_usd": 73773176387.0
+            "supply_usd": 73781141145.0
           },
           {
             "date": "2026-06-27",
-            "supply_usd": 73896519647.0
+            "supply_usd": 73904477065.0
           },
           {
             "date": "2026-06-28",
-            "supply_usd": 73884653755.0
+            "supply_usd": 73892612930.0
           },
           {
             "date": "2026-06-29",
-            "supply_usd": 73817794577.0
+            "supply_usd": 73825747570.0
           },
           {
             "date": "2026-06-30",
-            "supply_usd": 73775508473.0
+            "supply_usd": 73783459231.0
           },
           {
             "date": "2026-07-01",
-            "supply_usd": 73471642859.0
+            "supply_usd": 73479589774.0
           },
           {
             "date": "2026-07-02",
-            "supply_usd": 73400134757.0
+            "supply_usd": 73408054534.0
           },
           {
             "date": "2026-07-03",
-            "supply_usd": 73368628347.0
+            "supply_usd": 73376566356.0
           },
           {
             "date": "2026-07-04",
-            "supply_usd": 73103725803.0
+            "supply_usd": 73111664682.0
           },
           {
             "date": "2026-07-05",
-            "supply_usd": 73066241378.0
+            "supply_usd": 73074185044.0
           },
           {
             "date": "2026-07-06",
-            "supply_usd": 73048217365.0
+            "supply_usd": 73056153791.0
           },
           {
             "date": "2026-07-07",
-            "supply_usd": 73127249349.0
+            "supply_usd": 73135196473.0
           },
           {
             "date": "2026-07-08",
-            "supply_usd": 73395532425.0
+            "supply_usd": 73403458414.0
           },
           {
             "date": "2026-07-09",
-            "supply_usd": 73412395301.0
+            "supply_usd": 73420325678.0
           },
           {
             "date": "2026-07-10",
-            "supply_usd": 73440620275.0
+            "supply_usd": 73448550065.0
           },
           {
             "date": "2026-07-11",
-            "supply_usd": 73414108310.0
+            "supply_usd": 73422020663.0
           },
           {
             "date": "2026-07-12",
-            "supply_usd": 73475033615.0
+            "supply_usd": 73482939331.0
           },
           {
             "date": "2026-07-13",
-            "supply_usd": 73540725820.0
+            "supply_usd": 73548638702.0
           },
           {
             "date": "2026-07-14",
-            "supply_usd": 73095920753.0
+            "supply_usd": 73103839500.0
           },
           {
             "date": "2026-07-15",
-            "supply_usd": 73175307529.0
+            "supply_usd": 73183232825.0
           },
           {
             "date": "2026-07-16",
-            "supply_usd": 73217500728.0
+            "supply_usd": 73225428829.0
           },
           {
             "date": "2026-07-17",
-            "supply_usd": 73279825708.0
+            "supply_usd": 73287726089.0
           },
           {
             "date": "2026-07-18",
-            "supply_usd": 73389413034.0
+            "supply_usd": 73397327011.0
           },
           {
             "date": "2026-07-19",
-            "supply_usd": 73390197854.0
+            "supply_usd": 73398113678.0
           },
           {
             "date": "2026-07-20",
-            "supply_usd": 73388153953.0
+            "supply_usd": 73396076501.0
           },
           {
             "date": "2026-07-21",
-            "supply_usd": 73367572001.0
+            "supply_usd": 73375491710.0
           },
           {
             "date": "2026-07-22",
-            "supply_usd": 73318948258.0
+            "supply_usd": 73326856614.0
           },
           {
             "date": "2026-07-23",
-            "supply_usd": 74077432416.0
+            "supply_usd": 74084264409.0
           },
           {
             "date": "2026-07-24",
-            "supply_usd": 73959248587.0
+            "supply_usd": 73966081561.0
           },
           {
             "date": "2026-07-25",
-            "supply_usd": 73651288002.0
+            "supply_usd": 73658121150.0
           },
           {
             "date": "2026-07-26",
-            "supply_usd": 73569632342.0
+            "supply_usd": 73576459095.0
           },
           {
             "date": "2026-07-27",
-            "supply_usd": 73491915939.0
+            "supply_usd": 73498736257.0
           },
           {
             "date": "2026-07-28",
-            "supply_usd": 72521892549.0
+            "supply_usd": 72529782386.0
           },
           {
             "date": "2026-07-29",
-            "supply_usd": 72502108384.0
+            "supply_usd": 72510023322.0
           },
           {
             "date": "2026-07-30",
-            "supply_usd": 72213419474.0
+            "supply_usd": 72221346290.0
           },
           {
             "date": "2026-07-31",
-            "supply_usd": 72055427289.0
+            "supply_usd": 72063349266.0
           },
           {
             "date": "2026-08-01",
-            "supply_usd": 72048270635.0
+            "supply_usd": 72056215862.0
           },
           {
             "date": "2026-08-02",
-            "supply_usd": 72075054215.0
+            "supply_usd": 72082990011.0
           },
           {
             "date": "2026-08-03",
-            "supply_usd": 71979940196.0
+            "supply_usd": 71987865981.0
           },
           {
             "date": "2026-08-04",
-            "supply_usd": 72255574271.0
+            "supply_usd": 72263475252.0
           },
           {
             "date": "2026-08-05",
-            "supply_usd": 72298390550.0
+            "supply_usd": 72306267723.0
           },
           {
             "date": "2026-08-06",
-            "supply_usd": 71846102476.0
+            "supply_usd": 71853995077.0
           },
           {
             "date": "2026-08-07",
-            "supply_usd": 72008852187.0
+            "supply_usd": 72016749897.0
           },
           {
             "date": "2026-08-08",
-            "supply_usd": 72288929105.0
+            "supply_usd": 72296822433.0
           },
           {
             "date": "2026-08-09",
-            "supply_usd": 72287963067.0
+            "supply_usd": 72295865507.0
           },
           {
             "date": "2026-08-10",
-            "supply_usd": 72353218703.0
+            "supply_usd": 72361096714.0
           },
           {
             "date": "2026-08-11",
-            "supply_usd": 72342478183.0
+            "supply_usd": 72350376026.0
           },
           {
             "date": "2026-08-12",
-            "supply_usd": 72207760761.0
+            "supply_usd": 72215637631.0
           },
           {
             "date": "2026-08-13",
-            "supply_usd": 72215654781.0
+            "supply_usd": 72223530877.0
           },
           {
             "date": "2026-08-14",
-            "supply_usd": 72125254565.0
+            "supply_usd": 72133135491.0
           },
           {
             "date": "2026-08-15",
-            "supply_usd": 72045975898.0
+            "supply_usd": 72053846123.0
           },
           {
             "date": "2026-08-16",
-            "supply_usd": 72017026845.0
+            "supply_usd": 72024888429.0
           },
           {
             "date": "2026-08-17",
-            "supply_usd": 71985815879.0
+            "supply_usd": 71993672846.0
           },
           {
             "date": "2026-08-18",
-            "supply_usd": 72017951715.0
+            "supply_usd": 72025797115.0
           },
           {
             "date": "2026-08-19",
-            "supply_usd": 71980780550.0
+            "supply_usd": 71988615454.0
           },
           {
             "date": "2026-08-20",
-            "supply_usd": 72489599879.0
+            "supply_usd": 72497436272.0
           },
           {
             "date": "2026-08-21",
-            "supply_usd": 73348692395.0
+            "supply_usd": 73356570419.0
           },
           {
             "date": "2026-08-22",
-            "supply_usd": 73598295654.0
+            "supply_usd": 73606170157.0
           },
           {
             "date": "2026-08-23",
-            "supply_usd": 73613915512.0
+            "supply_usd": 73621753025.0
           },
           {
             "date": "2026-08-24",
-            "supply_usd": 73670382861.0
+            "supply_usd": 73678220394.0
           },
           {
             "date": "2026-08-25",
-            "supply_usd": 73884875090.0
+            "supply_usd": 73892686377.0
           },
           {
             "date": "2026-08-26",
-            "supply_usd": 73888074239.0
+            "supply_usd": 73895877013.0
           },
           {
             "date": "2026-08-27",
-            "supply_usd": 74021589570.0
+            "supply_usd": 74029406066.0
           },
           {
             "date": "2026-08-28",
-            "supply_usd": 73945073006.0
+            "supply_usd": 73952883259.0
           },
           {
             "date": "2026-08-29",
-            "supply_usd": 74195874189.0
+            "supply_usd": 74203694168.0
           },
           {
             "date": "2026-08-30",
-            "supply_usd": 74056759813.0
+            "supply_usd": 74064628178.0
           },
           {
             "date": "2026-08-31",
-            "supply_usd": 74065359806.0
+            "supply_usd": 74073213088.0
           },
           {
             "date": "2026-09-01",
-            "supply_usd": 73701904835.0
+            "supply_usd": 73709723131.0
           },
           {
             "date": "2026-09-02",
-            "supply_usd": 73704079032.0
+            "supply_usd": 73711894274.0
           },
           {
             "date": "2026-09-03",
-            "supply_usd": 73903607979.0
+            "supply_usd": 73911446426.0
           },
           {
             "date": "2026-09-04",
-            "supply_usd": 74501454556.0
+            "supply_usd": 74509288165.0
           },
           {
             "date": "2026-09-05",
-            "supply_usd": 74745667958.0
+            "supply_usd": 74753501160.0
           },
           {
             "date": "2026-09-06",
-            "supply_usd": 74721149874.0
+            "supply_usd": 74729006668.0
           },
           {
             "date": "2026-09-07",
@@ -3272,288 +3296,288 @@
           },
           {
             "date": "2026-09-12",
-            "supply_usd": 74457408531.0
+            "supply_usd": 74465245800.0
           },
           {
             "date": "2026-09-13",
-            "supply_usd": 74414605877.0
+            "supply_usd": 74422442088.0
           },
           {
             "date": "2026-09-14",
-            "supply_usd": 74355234810.0
+            "supply_usd": 74363052614.0
           },
           {
             "date": "2026-09-15",
-            "supply_usd": 74439658773.0
+            "supply_usd": 74447452768.0
           },
           {
             "date": "2026-09-16",
-            "supply_usd": 73672687563.0
+            "supply_usd": 73680474077.0
           },
           {
             "date": "2026-09-17",
-            "supply_usd": 73805502349.0
+            "supply_usd": 73813308298.0
           },
           {
             "date": "2026-09-18",
-            "supply_usd": 73996468871.0
+            "supply_usd": 74004259229.0
           },
           {
             "date": "2026-09-19",
-            "supply_usd": 74443468261.0
+            "supply_usd": 74451264916.0
           },
           {
             "date": "2026-09-20",
-            "supply_usd": 74355437272.0
+            "supply_usd": 74363228896.0
           },
           {
             "date": "2026-09-21",
-            "supply_usd": 74443917603.0
+            "supply_usd": 74451712107.0
           },
           {
             "date": "2026-09-22",
-            "supply_usd": 74831575250.0
+            "supply_usd": 74839376971.0
           },
           {
             "date": "2026-09-23",
-            "supply_usd": 75422354540.0
+            "supply_usd": 75430163062.0
           },
           {
             "date": "2026-09-24",
-            "supply_usd": 75448715349.0
+            "supply_usd": 75456554372.0
           },
           {
             "date": "2026-09-25",
-            "supply_usd": 75478568785.0
+            "supply_usd": 75486373074.0
           },
           {
             "date": "2026-09-26",
-            "supply_usd": 75472771382.0
+            "supply_usd": 75480577982.0
           },
           {
             "date": "2026-09-27",
-            "supply_usd": 75340033947.0
+            "supply_usd": 75347823956.0
           },
           {
             "date": "2026-09-28",
-            "supply_usd": 75247177712.0
+            "supply_usd": 75254967013.0
           },
           {
             "date": "2026-09-29",
-            "supply_usd": 74859243691.0
+            "supply_usd": 74867031181.0
           },
           {
             "date": "2026-09-30",
-            "supply_usd": 74583471121.0
+            "supply_usd": 74591240709.0
           },
           {
             "date": "2026-10-01",
-            "supply_usd": 74140487766.0
+            "supply_usd": 74148312961.0
           },
           {
             "date": "2026-10-02",
-            "supply_usd": 74062563138.0
+            "supply_usd": 74070338672.0
           },
           {
             "date": "2026-10-03",
-            "supply_usd": 74200475229.0
+            "supply_usd": 74208224768.0
           },
           {
             "date": "2026-10-04",
-            "supply_usd": 74220304422.0
+            "supply_usd": 74228036873.0
           },
           {
             "date": "2026-10-05",
-            "supply_usd": 74201340449.0
+            "supply_usd": 74209060665.0
           },
           {
             "date": "2026-10-06",
-            "supply_usd": 74329519160.0
+            "supply_usd": 74337225450.0
           },
           {
             "date": "2026-10-07",
-            "supply_usd": 74310230679.0
+            "supply_usd": 74317971028.0
           },
           {
             "date": "2026-10-08",
-            "supply_usd": 73854147827.0
+            "supply_usd": 73861879226.0
           },
           {
             "date": "2026-10-09",
-            "supply_usd": 73299913922.0
+            "supply_usd": 73307677016.0
           },
           {
             "date": "2026-10-10",
-            "supply_usd": 73005201689.0
+            "supply_usd": 73013020159.0
           },
           {
             "date": "2026-10-11",
-            "supply_usd": 73148724957.0
+            "supply_usd": 73156584562.0
           },
           {
             "date": "2026-10-12",
-            "supply_usd": 72947113516.0
+            "supply_usd": 72954838944.0
           },
           {
             "date": "2026-10-13",
-            "supply_usd": 72873796622.0
+            "supply_usd": 72881590951.0
           },
           {
             "date": "2026-10-14",
-            "supply_usd": 73157377933.0
+            "supply_usd": 73165154370.0
           },
           {
             "date": "2026-10-15",
-            "supply_usd": 72792473497.0
+            "supply_usd": 72800240553.0
           },
           {
             "date": "2026-10-16",
-            "supply_usd": 72844294801.0
+            "supply_usd": 72852057583.0
           },
           {
             "date": "2026-10-17",
-            "supply_usd": 72749984334.0
+            "supply_usd": 72757741194.0
           },
           {
             "date": "2026-10-18",
-            "supply_usd": 72631520743.0
+            "supply_usd": 72639271694.0
           },
           {
             "date": "2026-10-19",
-            "supply_usd": 72595668187.0
+            "supply_usd": 72603409885.0
           },
           {
             "date": "2026-10-20",
-            "supply_usd": 72262117436.0
+            "supply_usd": 72269813498.0
           },
           {
             "date": "2026-10-21",
-            "supply_usd": 72252163587.0
+            "supply_usd": 72259880941.0
           },
           {
             "date": "2026-10-22",
-            "supply_usd": 72659635020.0
+            "supply_usd": 72667336411.0
           },
           {
             "date": "2026-10-23",
-            "supply_usd": 72252448048.0
+            "supply_usd": 72260178786.0
           },
           {
             "date": "2026-10-24",
-            "supply_usd": 71858865348.0
+            "supply_usd": 71866574304.0
           },
           {
             "date": "2026-10-25",
-            "supply_usd": 71773112715.0
+            "supply_usd": 71780834517.0
           },
           {
             "date": "2026-10-26",
-            "supply_usd": 71711956666.0
+            "supply_usd": 71719677003.0
           },
           {
             "date": "2026-10-27",
-            "supply_usd": 71254076721.0
+            "supply_usd": 71261769822.0
           },
           {
             "date": "2026-10-28",
-            "supply_usd": 71330416687.0
+            "supply_usd": 71338110441.0
           },
           {
             "date": "2026-10-29",
-            "supply_usd": 71385813589.0
+            "supply_usd": 71393499741.0
           },
           {
             "date": "2026-10-30",
-            "supply_usd": 71479873891.0
+            "supply_usd": 71487566929.0
           },
           {
             "date": "2026-10-31",
-            "supply_usd": 71903166599.0
+            "supply_usd": 71910838029.0
           },
           {
             "date": "2026-11-01",
-            "supply_usd": 71871372811.0
+            "supply_usd": 71879030106.0
           },
           {
             "date": "2026-11-02",
-            "supply_usd": 71647159344.0
+            "supply_usd": 71654797935.0
           },
           {
             "date": "2026-11-03",
-            "supply_usd": 71282434933.0
+            "supply_usd": 71290168298.0
           },
           {
             "date": "2026-11-04",
-            "supply_usd": 70947356672.0
+            "supply_usd": 70955056525.0
           },
           {
             "date": "2026-11-05",
-            "supply_usd": 71140750674.0
+            "supply_usd": 71148415059.0
           },
           {
             "date": "2026-11-06",
-            "supply_usd": 70725780104.0
+            "supply_usd": 70733452066.0
           },
           {
             "date": "2026-11-07",
-            "supply_usd": 70596070603.0
+            "supply_usd": 70603739601.0
           },
           {
             "date": "2026-11-08",
-            "supply_usd": 70668808973.0
+            "supply_usd": 70676421260.0
           },
           {
             "date": "2026-11-09",
-            "supply_usd": 70550279046.0
+            "supply_usd": 70557897873.0
           },
           {
             "date": "2026-11-10",
-            "supply_usd": 70393901371.0
+            "supply_usd": 70401539984.0
           },
           {
             "date": "2026-11-11",
-            "supply_usd": 70153076938.0
+            "supply_usd": 70160726450.0
           },
           {
             "date": "2026-11-12",
-            "supply_usd": 69902618129.0
+            "supply_usd": 69910338053.0
           },
           {
             "date": "2026-11-13",
-            "supply_usd": 69467012580.0
+            "supply_usd": 69474823749.0
           },
           {
             "date": "2026-11-14",
-            "supply_usd": 69216845896.0
+            "supply_usd": 69224631248.0
           },
           {
             "date": "2026-11-15",
-            "supply_usd": 69294073416.0
+            "supply_usd": 69301866246.0
           },
           {
             "date": "2026-11-16",
-            "supply_usd": 69333376395.47
+            "supply_usd": 69341192119.38
           }
         ]
       },
       "USDe": {
         "id": "146",
-        "supply_usd": 4852538358.336986,
-        "price_usd": 0.99946469025,
-        "peg_deviation_pct": -0.05353098,
+        "supply_usd": 4856893097.706175,
+        "price_usd": 0.999794517,
+        "peg_deviation_pct": -0.0205483,
         "peg_status": "normal",
         "changes": {
           "1d": {
-            "usd": -54116804.32219696,
-            "pct": -1.1029265870167282
+            "usd": -51381277.859134674,
+            "pct": -1.0468297802365023
           },
           "7d": {
-            "usd": -116385536.544631,
-            "pct": -2.3422684469874278
+            "usd": -113670558.97516727,
+            "pct": -2.2868746248199345
           },
           "30d": {
-            "usd": 142449189.44474792,
-            "pct": 3.0243416703350956
+            "usd": 145249583.35487175,
+            "pct": 3.0827795632766497
           }
         },
         "history": [
@@ -5029,22 +5053,22 @@
       },
       "USDS": {
         "id": "209",
-        "supply_usd": 5224903034.364551,
-        "price_usd": 0.9997144689999999,
-        "peg_deviation_pct": -0.0285531,
+        "supply_usd": 5227137960.863665,
+        "price_usd": 0.9998944365,
+        "peg_deviation_pct": -0.01055635,
         "peg_status": "normal",
         "changes": {
           "1d": {
-            "usd": -97067630.46517372,
-            "pct": -1.8239038991072598
+            "usd": -95790759.27617359,
+            "pct": -1.7995874886270746
           },
           "7d": {
-            "usd": -206834887.46445084,
-            "pct": -3.807895197469402
+            "usd": -205577776.456419,
+            "pct": -3.7840701850862746
           },
           "30d": {
-            "usd": -1642147284.7601366,
-            "pct": -23.91343019850558
+            "usd": -1641148557.112424,
+            "pct": -23.894584956773603
           }
         },
         "history": [
@@ -6521,765 +6545,765 @@
     },
     "total": {
       "label": "USDT + USDC + USDe + USDS",
-      "supply_usd": 254683469554.92288,
+      "supply_usd": 254767746998.17017,
       "changes": {
         "1d": {
-          "usd": -141433232.78567505,
-          "pct": -0.0555021237086506
+          "usd": -89010127.09799194,
+          "pct": -0.03492555116136886
         },
         "7d": {
-          "usd": -3119602189.1513367,
-          "pct": -1.210071768364429
+          "usd": -3067320827.985016,
+          "pct": -1.1896445482943996
         },
         "30d": {
-          "usd": -13110039252.162659,
-          "pct": -4.895577682432528
+          "usd": -13058824425.892517,
+          "pct": -4.875850949536986
         }
       },
       "history": [
         {
           "date": "2025-11-15",
-          "supply_usd": 272371593323.0
+          "supply_usd": 272380136031.0
         },
         {
           "date": "2025-11-16",
-          "supply_usd": 272203843435.0
+          "supply_usd": 272212346407.0
         },
         {
           "date": "2025-11-17",
-          "supply_usd": 272069605383.0
+          "supply_usd": 272078048733.0
         },
         {
           "date": "2025-11-18",
-          "supply_usd": 271964171748.0
+          "supply_usd": 271972571062.0
         },
         {
           "date": "2025-11-19",
-          "supply_usd": 271799129865.0
+          "supply_usd": 271807573122.0
         },
         {
           "date": "2025-11-20",
-          "supply_usd": 271364857378.0
+          "supply_usd": 271373241471.0
         },
         {
           "date": "2025-11-21",
-          "supply_usd": 271317529452.0
+          "supply_usd": 271325965479.0
         },
         {
           "date": "2025-11-22",
-          "supply_usd": 271152436310.0
+          "supply_usd": 271160855211.0
         },
         {
           "date": "2025-11-23",
-          "supply_usd": 271313409662.0
+          "supply_usd": 271321825739.0
         },
         {
           "date": "2025-11-24",
-          "supply_usd": 271041204065.0
+          "supply_usd": 271049613346.0
         },
         {
           "date": "2025-11-25",
-          "supply_usd": 271879253762.0
+          "supply_usd": 271887672124.0
         },
         {
           "date": "2025-11-26",
-          "supply_usd": 272376303714.0
+          "supply_usd": 272384746581.0
         },
         {
           "date": "2025-11-27",
-          "supply_usd": 273192008670.0
+          "supply_usd": 273200446476.0
         },
         {
           "date": "2025-11-28",
-          "supply_usd": 273412918970.0
+          "supply_usd": 273421362888.0
         },
         {
           "date": "2025-11-29",
-          "supply_usd": 273907218100.0
+          "supply_usd": 273915689187.0
         },
         {
           "date": "2025-11-30",
-          "supply_usd": 273930267114.0
+          "supply_usd": 273938783940.0
         },
         {
           "date": "2025-12-01",
-          "supply_usd": 273773407061.0
+          "supply_usd": 273781931101.0
         },
         {
           "date": "2025-12-02",
-          "supply_usd": 274716285453.0
+          "supply_usd": 274724743973.0
         },
         {
           "date": "2025-12-03",
-          "supply_usd": 275142642622.0
+          "supply_usd": 275151088336.0
         },
         {
           "date": "2025-12-04",
-          "supply_usd": 275878116070.0
+          "supply_usd": 275886503740.0
         },
         {
           "date": "2025-12-05",
-          "supply_usd": 276048927185.0
+          "supply_usd": 276057307199.0
         },
         {
           "date": "2025-12-06",
-          "supply_usd": 276300596144.0
+          "supply_usd": 276309028416.0
         },
         {
           "date": "2025-12-07",
-          "supply_usd": 276174321463.0
+          "supply_usd": 276182773429.0
         },
         {
           "date": "2025-12-08",
-          "supply_usd": 276154636525.0
+          "supply_usd": 276163097741.0
         },
         {
           "date": "2025-12-09",
-          "supply_usd": 276570247834.0
+          "supply_usd": 276578720670.0
         },
         {
           "date": "2025-12-10",
-          "supply_usd": 277102334253.0
+          "supply_usd": 277110810182.0
         },
         {
           "date": "2025-12-11",
-          "supply_usd": 277069716558.0
+          "supply_usd": 277078190734.0
         },
         {
           "date": "2025-12-12",
-          "supply_usd": 277703535304.0
+          "supply_usd": 277712002765.0
         },
         {
           "date": "2025-12-13",
-          "supply_usd": 277622038228.0
+          "supply_usd": 277630513279.0
         },
         {
           "date": "2025-12-14",
-          "supply_usd": 277559331387.0
+          "supply_usd": 277567823055.0
         },
         {
           "date": "2025-12-15",
-          "supply_usd": 277440899144.0
+          "supply_usd": 277449392408.0
         },
         {
           "date": "2025-12-16",
-          "supply_usd": 277441684056.0
+          "supply_usd": 277450180009.0
         },
         {
           "date": "2025-12-17",
-          "supply_usd": 277403995134.0
+          "supply_usd": 277412381951.0
         },
         {
           "date": "2025-12-18",
-          "supply_usd": 277192068841.0
+          "supply_usd": 277200426929.0
         },
         {
           "date": "2025-12-19",
-          "supply_usd": 276498798178.0
+          "supply_usd": 276507185341.0
         },
         {
           "date": "2025-12-20",
-          "supply_usd": 276435270414.0
+          "supply_usd": 276443620236.0
         },
         {
           "date": "2025-12-21",
-          "supply_usd": 276830279070.0
+          "supply_usd": 276838640719.0
         },
         {
           "date": "2025-12-22",
-          "supply_usd": 276774390178.0
+          "supply_usd": 276782796186.0
         },
         {
           "date": "2025-12-23",
-          "supply_usd": 276881701603.0
+          "supply_usd": 276890083881.0
         },
         {
           "date": "2025-12-24",
-          "supply_usd": 276600196820.0
+          "supply_usd": 276608571460.0
         },
         {
           "date": "2025-12-25",
-          "supply_usd": 276048396389.0
+          "supply_usd": 276056756490.0
         },
         {
           "date": "2025-12-26",
-          "supply_usd": 275950604100.0
+          "supply_usd": 275958959753.0
         },
         {
           "date": "2025-12-27",
-          "supply_usd": 275783122336.0
+          "supply_usd": 275791499629.0
         },
         {
           "date": "2025-12-28",
-          "supply_usd": 275647261724.0
+          "supply_usd": 275655657246.0
         },
         {
           "date": "2025-12-29",
-          "supply_usd": 275568324794.0
+          "supply_usd": 275576713877.0
         },
         {
           "date": "2025-12-30",
-          "supply_usd": 275711463048.0
+          "supply_usd": 275719849961.0
         },
         {
           "date": "2025-12-31",
-          "supply_usd": 275636154170.0
+          "supply_usd": 275644531839.0
         },
         {
           "date": "2026-01-01",
-          "supply_usd": 274743083551.0
+          "supply_usd": 274751476311.0
         },
         {
           "date": "2026-01-02",
-          "supply_usd": 274420560962.0
+          "supply_usd": 274428984781.0
         },
         {
           "date": "2026-01-03",
-          "supply_usd": 275101866456.0
+          "supply_usd": 275110247630.0
         },
         {
           "date": "2026-01-04",
-          "supply_usd": 275036739481.0
+          "supply_usd": 275045106327.0
         },
         {
           "date": "2026-01-05",
-          "supply_usd": 275154894975.0
+          "supply_usd": 275163266949.0
         },
         {
           "date": "2026-01-06",
-          "supply_usd": 275736261144.0
+          "supply_usd": 275744605547.0
         },
         {
           "date": "2026-01-07",
-          "supply_usd": 275358209581.0
+          "supply_usd": 275366570576.0
         },
         {
           "date": "2026-01-08",
-          "supply_usd": 275007850643.0
+          "supply_usd": 275016163967.0
         },
         {
           "date": "2026-01-09",
-          "supply_usd": 274080307199.0
+          "supply_usd": 274088672821.0
         },
         {
           "date": "2026-01-10",
-          "supply_usd": 274401413595.0
+          "supply_usd": 274409752146.0
         },
         {
           "date": "2026-01-11",
-          "supply_usd": 274457319782.0
+          "supply_usd": 274465640022.0
         },
         {
           "date": "2026-01-12",
-          "supply_usd": 274300082288.0
+          "supply_usd": 274308374168.0
         },
         {
           "date": "2026-01-13",
-          "supply_usd": 273679713419.0
+          "supply_usd": 273688024856.0
         },
         {
           "date": "2026-01-14",
-          "supply_usd": 274372347499.0
+          "supply_usd": 274380663024.0
         },
         {
           "date": "2026-01-15",
-          "supply_usd": 275181324509.0
+          "supply_usd": 275189642762.0
         },
         {
           "date": "2026-01-16",
-          "supply_usd": 275989240320.0
+          "supply_usd": 275990241710.0
         },
         {
           "date": "2026-01-17",
-          "supply_usd": 276463490683.0
+          "supply_usd": 276464963838.0
         },
         {
           "date": "2026-01-18",
-          "supply_usd": 276374060807.0
+          "supply_usd": 276375590995.0
         },
         {
           "date": "2026-01-19",
-          "supply_usd": 276405118062.0
+          "supply_usd": 276407421673.0
         },
         {
           "date": "2026-01-20",
-          "supply_usd": 276448418190.0
+          "supply_usd": 276450456040.0
         },
         {
           "date": "2026-01-21",
-          "supply_usd": 274463629214.0
+          "supply_usd": 274471847865.0
         },
         {
           "date": "2026-01-22",
-          "supply_usd": 273855773265.0
+          "supply_usd": 273863981104.0
         },
         {
           "date": "2026-01-23",
-          "supply_usd": 273382554863.0
+          "supply_usd": 273390758131.0
         },
         {
           "date": "2026-01-24",
-          "supply_usd": 272649577793.0
+          "supply_usd": 272657771531.0
         },
         {
           "date": "2026-01-25",
-          "supply_usd": 272228127861.0
+          "supply_usd": 272236322389.0
         },
         {
           "date": "2026-01-26",
-          "supply_usd": 272048036582.0
+          "supply_usd": 272056235558.0
         },
         {
           "date": "2026-01-27",
-          "supply_usd": 271215466923.0
+          "supply_usd": 271223638770.0
         },
         {
           "date": "2026-01-28",
-          "supply_usd": 270673526669.0
+          "supply_usd": 270681698974.0
         },
         {
           "date": "2026-01-29",
-          "supply_usd": 270326852100.0
+          "supply_usd": 270334989045.0
         },
         {
           "date": "2026-01-30",
-          "supply_usd": 268880343117.0
+          "supply_usd": 268888488425.0
         },
         {
           "date": "2026-01-31",
-          "supply_usd": 268403988623.0
+          "supply_usd": 268412129400.0
         },
         {
           "date": "2026-02-01",
-          "supply_usd": 268222980559.0
+          "supply_usd": 268231157064.0
         },
         {
           "date": "2026-02-02",
-          "supply_usd": 268503386536.0
+          "supply_usd": 268511533930.0
         },
         {
           "date": "2026-02-03",
-          "supply_usd": 268737266483.0
+          "supply_usd": 268745456301.0
         },
         {
           "date": "2026-02-04",
-          "supply_usd": 268872650994.0
+          "supply_usd": 268880821449.0
         },
         {
           "date": "2026-02-05",
-          "supply_usd": 269273387612.0
+          "supply_usd": 269281520740.0
         },
         {
           "date": "2026-02-06",
-          "supply_usd": 268574267448.0
+          "supply_usd": 268582433284.0
         },
         {
           "date": "2026-02-07",
-          "supply_usd": 269012449770.0
+          "supply_usd": 269020566417.0
         },
         {
           "date": "2026-02-08",
-          "supply_usd": 269083246355.0
+          "supply_usd": 269091366701.0
         },
         {
           "date": "2026-02-09",
-          "supply_usd": 270278339515.0
+          "supply_usd": 270286478324.0
         },
         {
           "date": "2026-02-10",
-          "supply_usd": 270462470140.0
+          "supply_usd": 270470581372.0
         },
         {
           "date": "2026-02-11",
-          "supply_usd": 270480960307.0
+          "supply_usd": 270489078682.0
         },
         {
           "date": "2026-02-12",
-          "supply_usd": 270316592491.0
+          "supply_usd": 270324781140.0
         },
         {
           "date": "2026-02-13",
-          "supply_usd": 270122934854.0
+          "supply_usd": 270131123218.0
         },
         {
           "date": "2026-02-14",
-          "supply_usd": 270297561907.0
+          "supply_usd": 270305737930.0
         },
         {
           "date": "2026-02-15",
-          "supply_usd": 270337340853.0
+          "supply_usd": 270345499570.0
         },
         {
           "date": "2026-02-16",
-          "supply_usd": 270435273196.0
+          "supply_usd": 270443409585.0
         },
         {
           "date": "2026-02-17",
-          "supply_usd": 270540742247.0
+          "supply_usd": 270548870256.0
         },
         {
           "date": "2026-02-18",
-          "supply_usd": 270365475200.0
+          "supply_usd": 270373618730.0
         },
         {
           "date": "2026-02-19",
-          "supply_usd": 270452457733.0
+          "supply_usd": 270460585687.0
         },
         {
           "date": "2026-02-20",
-          "supply_usd": 270598495397.0
+          "supply_usd": 270606612382.0
         },
         {
           "date": "2026-02-21",
-          "supply_usd": 270206612925.0
+          "supply_usd": 270214735365.0
         },
         {
           "date": "2026-02-22",
-          "supply_usd": 270125065636.0
+          "supply_usd": 270133203502.0
         },
         {
           "date": "2026-02-23",
-          "supply_usd": 271088299236.0
+          "supply_usd": 271096433721.0
         },
         {
           "date": "2026-02-24",
-          "supply_usd": 271367652357.0
+          "supply_usd": 271375797201.0
         },
         {
           "date": "2026-02-25",
-          "supply_usd": 271595626325.0
+          "supply_usd": 271603774318.0
         },
         {
           "date": "2026-02-26",
-          "supply_usd": 272110454639.0
+          "supply_usd": 272118551396.0
         },
         {
           "date": "2026-02-27",
-          "supply_usd": 271793651960.0
+          "supply_usd": 271801756802.0
         },
         {
           "date": "2026-02-28",
-          "supply_usd": 271884055504.0
+          "supply_usd": 271892177719.0
         },
         {
           "date": "2026-03-01",
-          "supply_usd": 272118919799.0
+          "supply_usd": 272127068481.0
         },
         {
           "date": "2026-03-02",
-          "supply_usd": 271943906459.0
+          "supply_usd": 271952051774.0
         },
         {
           "date": "2026-03-03",
-          "supply_usd": 272680247121.0
+          "supply_usd": 272688385736.0
         },
         {
           "date": "2026-03-04",
-          "supply_usd": 272767836372.0
+          "supply_usd": 272775976917.0
         },
         {
           "date": "2026-03-05",
-          "supply_usd": 273588725124.0
+          "supply_usd": 273596865162.0
         },
         {
           "date": "2026-03-06",
-          "supply_usd": 274740581952.0
+          "supply_usd": 274748724185.0
         },
         {
           "date": "2026-03-07",
-          "supply_usd": 274831640992.0
+          "supply_usd": 274839799246.0
         },
         {
           "date": "2026-03-08",
-          "supply_usd": 274941326683.0
+          "supply_usd": 274949481300.0
         },
         {
           "date": "2026-03-09",
-          "supply_usd": 274916982032.0
+          "supply_usd": 274925131902.0
         },
         {
           "date": "2026-03-10",
-          "supply_usd": 276202090076.0
+          "supply_usd": 276210217389.0
         },
         {
           "date": "2026-03-11",
-          "supply_usd": 276464094570.0
+          "supply_usd": 276472210160.0
         },
         {
           "date": "2026-03-12",
-          "supply_usd": 276600772358.0
+          "supply_usd": 276608891350.0
         },
         {
           "date": "2026-03-13",
-          "supply_usd": 276796481263.0
+          "supply_usd": 276804580690.0
         },
         {
           "date": "2026-03-14",
-          "supply_usd": 277209503581.0
+          "supply_usd": 277217616473.0
         },
         {
           "date": "2026-03-15",
-          "supply_usd": 277495668080.0
+          "supply_usd": 277503781607.0
         },
         {
           "date": "2026-03-16",
-          "supply_usd": 277168337045.0
+          "supply_usd": 277176447353.0
         },
         {
           "date": "2026-03-17",
-          "supply_usd": 277303349041.0
+          "supply_usd": 277311490402.0
         },
         {
           "date": "2026-03-18",
-          "supply_usd": 277652118775.0
+          "supply_usd": 277660225019.0
         },
         {
           "date": "2026-03-19",
-          "supply_usd": 276963308582.0
+          "supply_usd": 276971418770.0
         },
         {
           "date": "2026-03-20",
-          "supply_usd": 277543085798.0
+          "supply_usd": 277551202439.0
         },
         {
           "date": "2026-03-21",
-          "supply_usd": 277425646674.0
+          "supply_usd": 277433745145.0
         },
         {
           "date": "2026-03-22",
-          "supply_usd": 277656296961.0
+          "supply_usd": 277664398576.0
         },
         {
           "date": "2026-03-23",
-          "supply_usd": 277486890426.0
+          "supply_usd": 277495008723.0
         },
         {
           "date": "2026-03-24",
-          "supply_usd": 277118092087.0
+          "supply_usd": 277126208529.0
         },
         {
           "date": "2026-03-25",
-          "supply_usd": 277184508150.0
+          "supply_usd": 277192627608.0
         },
         {
           "date": "2026-03-26",
-          "supply_usd": 277173156052.0
+          "supply_usd": 277181341771.0
         },
         {
           "date": "2026-03-27",
-          "supply_usd": 276426464455.0
+          "supply_usd": 276434603374.0
         },
         {
           "date": "2026-03-28",
-          "supply_usd": 275974156430.0
+          "supply_usd": 275982239835.0
         },
         {
           "date": "2026-03-29",
-          "supply_usd": 275920038295.0
+          "supply_usd": 275928146542.0
         },
         {
           "date": "2026-03-30",
-          "supply_usd": 275993609174.0
+          "supply_usd": 276001696958.0
         },
         {
           "date": "2026-03-31",
-          "supply_usd": 275960406256.0
+          "supply_usd": 275968482862.0
         },
         {
           "date": "2026-04-01",
-          "supply_usd": 276161052492.0
+          "supply_usd": 276169144728.0
         },
         {
           "date": "2026-04-02",
-          "supply_usd": 275963795493.0
+          "supply_usd": 275971894278.0
         },
         {
           "date": "2026-04-03",
-          "supply_usd": 275961109194.0
+          "supply_usd": 275969164506.0
         },
         {
           "date": "2026-04-04",
-          "supply_usd": 276444581670.0
+          "supply_usd": 276452666846.0
         },
         {
           "date": "2026-04-05",
-          "supply_usd": 276389393728.0
+          "supply_usd": 276397461771.0
         },
         {
           "date": "2026-04-06",
-          "supply_usd": 276431444865.0
+          "supply_usd": 276439500112.0
         },
         {
           "date": "2026-04-07",
-          "supply_usd": 276180804972.0
+          "supply_usd": 276188862953.0
         },
         {
           "date": "2026-04-08",
-          "supply_usd": 276830565641.0
+          "supply_usd": 276838632455.0
         },
         {
           "date": "2026-04-09",
-          "supply_usd": 276808669856.0
+          "supply_usd": 276816759876.0
         },
         {
           "date": "2026-04-10",
-          "supply_usd": 277021283062.0
+          "supply_usd": 277029350249.0
         },
         {
           "date": "2026-04-11",
-          "supply_usd": 277580567440.0
+          "supply_usd": 277588619329.0
         },
         {
           "date": "2026-04-12",
-          "supply_usd": 277642126125.0
+          "supply_usd": 277650165571.0
         },
         {
           "date": "2026-04-13",
-          "supply_usd": 277715241520.0
+          "supply_usd": 277723283988.0
         },
         {
           "date": "2026-04-14",
-          "supply_usd": 277836312419.0
+          "supply_usd": 277844393079.0
         },
         {
           "date": "2026-04-15",
-          "supply_usd": 278759179953.0
+          "supply_usd": 278767251208.0
         },
         {
           "date": "2026-04-16",
-          "supply_usd": 278534554648.0
+          "supply_usd": 278542612713.0
         },
         {
           "date": "2026-04-17",
-          "supply_usd": 279021660380.0
+          "supply_usd": 279029733789.0
         },
         {
           "date": "2026-04-18",
-          "supply_usd": 279692848079.0
+          "supply_usd": 279700902039.0
         },
         {
           "date": "2026-04-19",
-          "supply_usd": 279701029654.0
+          "supply_usd": 279709104501.0
         },
         {
           "date": "2026-04-20",
-          "supply_usd": 278998754802.0
+          "supply_usd": 279006838636.0
         },
         {
           "date": "2026-04-21",
-          "supply_usd": 279533447305.0
+          "supply_usd": 279541526551.0
         },
         {
           "date": "2026-04-22",
-          "supply_usd": 280022549868.0
+          "supply_usd": 280030635292.0
         },
         {
           "date": "2026-04-23",
-          "supply_usd": 279685854004.0
+          "supply_usd": 279693947102.0
         },
         {
           "date": "2026-04-24",
-          "supply_usd": 280017160666.0
+          "supply_usd": 280025217991.0
         },
         {
           "date": "2026-04-25",
-          "supply_usd": 279682175750.0
+          "supply_usd": 279690258436.0
         },
         {
           "date": "2026-04-26",
-          "supply_usd": 279695275768.0
+          "supply_usd": 279703356270.0
         },
         {
           "date": "2026-04-27",
-          "supply_usd": 279726386577.0
+          "supply_usd": 279734481539.0
         },
         {
           "date": "2026-04-28",
-          "supply_usd": 279496707365.0
+          "supply_usd": 279504789020.0
         },
         {
           "date": "2026-04-29",
-          "supply_usd": 279418287271.0
+          "supply_usd": 279426368077.0
         },
         {
           "date": "2026-04-30",
-          "supply_usd": 278566910540.0
+          "supply_usd": 278574942924.0
         },
         {
           "date": "2026-05-01",
-          "supply_usd": 279158755827.0
+          "supply_usd": 279166802918.0
         },
         {
           "date": "2026-05-02",
-          "supply_usd": 279251977840.0
+          "supply_usd": 279260012321.0
         },
         {
           "date": "2026-05-03",
-          "supply_usd": 279577459636.0
+          "supply_usd": 279585507712.0
         },
         {
           "date": "2026-05-04",
-          "supply_usd": 279618183052.0
+          "supply_usd": 279626229464.0
         },
         {
           "date": "2026-05-05",
-          "supply_usd": 280053704135.0
+          "supply_usd": 280061738967.0
         },
         {
           "date": "2026-05-06",
-          "supply_usd": 280432706087.0
+          "supply_usd": 280440728492.0
         },
         {
           "date": "2026-05-07",
-          "supply_usd": 280583331865.0
+          "supply_usd": 280591362704.0
         },
         {
           "date": "2026-05-08",
-          "supply_usd": 280886477430.0
+          "supply_usd": 280894533755.0
         },
         {
           "date": "2026-05-09",
-          "supply_usd": 279548788595.0
+          "supply_usd": 279556808865.0
         },
         {
           "date": "2026-05-10",
-          "supply_usd": 280271095290.0
+          "supply_usd": 280279187622.0
         },
         {
           "date": "2026-05-11",
-          "supply_usd": 280424424897.0
+          "supply_usd": 280432517229.0
         },
         {
           "date": "2026-05-12",
-          "supply_usd": 280077727491.0
+          "supply_usd": 280085872963.0
         },
         {
           "date": "2026-05-13",
-          "supply_usd": 279670495442.0
+          "supply_usd": 279678663919.0
         },
         {
           "date": "2026-05-14",
-          "supply_usd": 279418615938.0
+          "supply_usd": 279426758276.0
         },
         {
           "date": "2026-05-15",
-          "supply_usd": 279478122555.0
+          "supply_usd": 279486225733.0
         },
         {
           "date": "2026-05-16",
-          "supply_usd": 279908086144.0
+          "supply_usd": 279916171352.0
         },
         {
           "date": "2026-05-17",
-          "supply_usd": 279983134341.0
+          "supply_usd": 279991245972.0
         },
         {
           "date": "2026-05-18",
-          "supply_usd": 279953545694.0
+          "supply_usd": 279961672375.0
         },
         {
           "date": "2026-05-19",
-          "supply_usd": 280073016261.0
+          "supply_usd": 280081127430.0
         },
         {
           "date": "2026-05-20",
@@ -7287,439 +7311,439 @@
         },
         {
           "date": "2026-05-21",
-          "supply_usd": 278916043299.0
+          "supply_usd": 278924108355.0
         },
         {
           "date": "2026-05-22",
-          "supply_usd": 279670900903.0
+          "supply_usd": 279678950777.0
         },
         {
           "date": "2026-05-23",
-          "supply_usd": 279643822245.0
+          "supply_usd": 279651860453.0
         },
         {
           "date": "2026-05-24",
-          "supply_usd": 279551961222.0
+          "supply_usd": 279559992684.0
         },
         {
           "date": "2026-05-25",
-          "supply_usd": 279433348607.0
+          "supply_usd": 279441385295.0
         },
         {
           "date": "2026-05-26",
-          "supply_usd": 279531764397.0
+          "supply_usd": 279539845146.0
         },
         {
           "date": "2026-05-27",
-          "supply_usd": 279403298833.0
+          "supply_usd": 279411377288.0
         },
         {
           "date": "2026-05-28",
-          "supply_usd": 279125929650.0
+          "supply_usd": 279134009706.0
         },
         {
           "date": "2026-05-29",
-          "supply_usd": 278535025113.0
+          "supply_usd": 278543043074.0
         },
         {
           "date": "2026-05-30",
-          "supply_usd": 277914141442.0
+          "supply_usd": 277922157395.0
         },
         {
           "date": "2026-05-31",
-          "supply_usd": 277705785445.0
+          "supply_usd": 277713805895.0
         },
         {
           "date": "2026-06-01",
-          "supply_usd": 277443446288.0
+          "supply_usd": 277451450730.0
         },
         {
           "date": "2026-06-02",
-          "supply_usd": 277533211533.0
+          "supply_usd": 277541250856.0
         },
         {
           "date": "2026-06-03",
-          "supply_usd": 277355236183.0
+          "supply_usd": 277363268134.0
         },
         {
           "date": "2026-06-04",
-          "supply_usd": 276903242917.0
+          "supply_usd": 276911266947.0
         },
         {
           "date": "2026-06-05",
-          "supply_usd": 276183567237.0
+          "supply_usd": 276191603341.0
         },
         {
           "date": "2026-06-06",
-          "supply_usd": 275971795227.0
+          "supply_usd": 275979807905.0
         },
         {
           "date": "2026-06-07",
-          "supply_usd": 275528505296.0
+          "supply_usd": 275536499012.0
         },
         {
           "date": "2026-06-08",
-          "supply_usd": 275468695524.0
+          "supply_usd": 275476706763.0
         },
         {
           "date": "2026-06-09",
-          "supply_usd": 276023634505.0
+          "supply_usd": 276031651836.0
         },
         {
           "date": "2026-06-10",
-          "supply_usd": 275021920478.0
+          "supply_usd": 275029927303.0
         },
         {
           "date": "2026-06-11",
-          "supply_usd": 274838241822.0
+          "supply_usd": 274846404498.0
         },
         {
           "date": "2026-06-12",
-          "supply_usd": 274697767838.0
+          "supply_usd": 274705874338.0
         },
         {
           "date": "2026-06-13",
-          "supply_usd": 274462935241.0
+          "supply_usd": 274470979850.0
         },
         {
           "date": "2026-06-14",
-          "supply_usd": 274412237991.0
+          "supply_usd": 274420276858.0
         },
         {
           "date": "2026-06-15",
-          "supply_usd": 274338301760.0
+          "supply_usd": 274346326100.0
         },
         {
           "date": "2026-06-16",
-          "supply_usd": 274530206681.0
+          "supply_usd": 274538208361.0
         },
         {
           "date": "2026-06-17",
-          "supply_usd": 274285236837.0
+          "supply_usd": 274293254037.0
         },
         {
           "date": "2026-06-18",
-          "supply_usd": 274085561426.0
+          "supply_usd": 274093567406.0
         },
         {
           "date": "2026-06-19",
-          "supply_usd": 273977113082.0
+          "supply_usd": 273985162724.0
         },
         {
           "date": "2026-06-20",
-          "supply_usd": 274050662807.0
+          "supply_usd": 274058682629.0
         },
         {
           "date": "2026-06-21",
-          "supply_usd": 273998227784.0
+          "supply_usd": 274006252709.0
         },
         {
           "date": "2026-06-22",
-          "supply_usd": 273995915864.0
+          "supply_usd": 274003929414.0
         },
         {
           "date": "2026-06-23",
-          "supply_usd": 273533931540.0
+          "supply_usd": 273541934242.0
         },
         {
           "date": "2026-06-24",
-          "supply_usd": 273156869504.0
+          "supply_usd": 273164839127.0
         },
         {
           "date": "2026-06-25",
-          "supply_usd": 272796472730.0
+          "supply_usd": 272804426676.0
         },
         {
           "date": "2026-06-26",
-          "supply_usd": 272771666336.0
+          "supply_usd": 272779631094.0
         },
         {
           "date": "2026-06-27",
-          "supply_usd": 271753829056.0
+          "supply_usd": 271761786474.0
         },
         {
           "date": "2026-06-28",
-          "supply_usd": 271741463868.0
+          "supply_usd": 271749423043.0
         },
         {
           "date": "2026-06-29",
-          "supply_usd": 271650144009.0
+          "supply_usd": 271658097002.0
         },
         {
           "date": "2026-06-30",
-          "supply_usd": 271116601079.0
+          "supply_usd": 271124551837.0
         },
         {
           "date": "2026-07-01",
-          "supply_usd": 270472693901.0
+          "supply_usd": 270480640816.0
         },
         {
           "date": "2026-07-02",
-          "supply_usd": 270375752280.0
+          "supply_usd": 270383672057.0
         },
         {
           "date": "2026-07-03",
-          "supply_usd": 270044518575.0
+          "supply_usd": 270052456584.0
         },
         {
           "date": "2026-07-04",
-          "supply_usd": 269830350259.0
+          "supply_usd": 269838289138.0
         },
         {
           "date": "2026-07-05",
-          "supply_usd": 269779117534.0
+          "supply_usd": 269787061200.0
         },
         {
           "date": "2026-07-06",
-          "supply_usd": 269800423938.0
+          "supply_usd": 269808360364.0
         },
         {
           "date": "2026-07-07",
-          "supply_usd": 269467506471.0
+          "supply_usd": 269475453595.0
         },
         {
           "date": "2026-07-08",
-          "supply_usd": 268572746699.0
+          "supply_usd": 268580672688.0
         },
         {
           "date": "2026-07-09",
-          "supply_usd": 268729809995.0
+          "supply_usd": 268737740372.0
         },
         {
           "date": "2026-07-10",
-          "supply_usd": 269487424086.0
+          "supply_usd": 269495353876.0
         },
         {
           "date": "2026-07-11",
-          "supply_usd": 269315435708.0
+          "supply_usd": 269323348061.0
         },
         {
           "date": "2026-07-12",
-          "supply_usd": 269317285040.0
+          "supply_usd": 269325190756.0
         },
         {
           "date": "2026-07-13",
-          "supply_usd": 269358245289.0
+          "supply_usd": 269366158171.0
         },
         {
           "date": "2026-07-14",
-          "supply_usd": 268012501443.0
+          "supply_usd": 268020420190.0
         },
         {
           "date": "2026-07-15",
-          "supply_usd": 268162895762.0
+          "supply_usd": 268170821058.0
         },
         {
           "date": "2026-07-16",
-          "supply_usd": 268041616055.0
+          "supply_usd": 268049544156.0
         },
         {
           "date": "2026-07-17",
-          "supply_usd": 268125205841.0
+          "supply_usd": 268133106222.0
         },
         {
           "date": "2026-07-18",
-          "supply_usd": 268269860765.0
+          "supply_usd": 268277774742.0
         },
         {
           "date": "2026-07-19",
-          "supply_usd": 268303421039.0
+          "supply_usd": 268311336863.0
         },
         {
           "date": "2026-07-20",
-          "supply_usd": 268271105441.0
+          "supply_usd": 268279027989.0
         },
         {
           "date": "2026-07-21",
-          "supply_usd": 268209264913.0
+          "supply_usd": 268217184622.0
         },
         {
           "date": "2026-07-22",
-          "supply_usd": 268321229740.0
+          "supply_usd": 268329138096.0
         },
         {
           "date": "2026-07-23",
-          "supply_usd": 267997989508.0
+          "supply_usd": 268004821501.0
         },
         {
           "date": "2026-07-24",
-          "supply_usd": 268731816619.0
+          "supply_usd": 268738649593.0
         },
         {
           "date": "2026-07-25",
-          "supply_usd": 268748691212.0
+          "supply_usd": 268755524360.0
         },
         {
           "date": "2026-07-26",
-          "supply_usd": 268653381428.0
+          "supply_usd": 268660208181.0
         },
         {
           "date": "2026-07-27",
-          "supply_usd": 268217523538.0
+          "supply_usd": 268224343856.0
         },
         {
           "date": "2026-07-28",
-          "supply_usd": 267113496070.0
+          "supply_usd": 267121385907.0
         },
         {
           "date": "2026-07-29",
-          "supply_usd": 266941799528.0
+          "supply_usd": 266949714466.0
         },
         {
           "date": "2026-07-30",
-          "supply_usd": 266685520926.0
+          "supply_usd": 266693447742.0
         },
         {
           "date": "2026-07-31",
-          "supply_usd": 265918053002.0
+          "supply_usd": 265925974979.0
         },
         {
           "date": "2026-08-01",
-          "supply_usd": 266001549097.0
+          "supply_usd": 266009494324.0
         },
         {
           "date": "2026-08-02",
-          "supply_usd": 265935560240.0
+          "supply_usd": 265943496036.0
         },
         {
           "date": "2026-08-03",
-          "supply_usd": 265795260475.0
+          "supply_usd": 265803186260.0
         },
         {
           "date": "2026-08-04",
-          "supply_usd": 265899107462.0
+          "supply_usd": 265907008443.0
         },
         {
           "date": "2026-08-05",
-          "supply_usd": 266096213925.0
+          "supply_usd": 266104091098.0
         },
         {
           "date": "2026-08-06",
-          "supply_usd": 265948594810.0
+          "supply_usd": 265956487411.0
         },
         {
           "date": "2026-08-07",
-          "supply_usd": 266063850641.0
+          "supply_usd": 266071748351.0
         },
         {
           "date": "2026-08-08",
-          "supply_usd": 266116759466.0
+          "supply_usd": 266124652794.0
         },
         {
           "date": "2026-08-09",
-          "supply_usd": 266125362692.0
+          "supply_usd": 266133265132.0
         },
         {
           "date": "2026-08-10",
-          "supply_usd": 266185350361.0
+          "supply_usd": 266193228372.0
         },
         {
           "date": "2026-08-11",
-          "supply_usd": 265050552935.0
+          "supply_usd": 265058450778.0
         },
         {
           "date": "2026-08-12",
-          "supply_usd": 265929764400.0
+          "supply_usd": 265937641270.0
         },
         {
           "date": "2026-08-13",
-          "supply_usd": 265963303898.0
+          "supply_usd": 265971179994.0
         },
         {
           "date": "2026-08-14",
-          "supply_usd": 265864657578.0
+          "supply_usd": 265872538504.0
         },
         {
           "date": "2026-08-15",
-          "supply_usd": 265891664383.0
+          "supply_usd": 265899534608.0
         },
         {
           "date": "2026-08-16",
-          "supply_usd": 265792039885.0
+          "supply_usd": 265799901469.0
         },
         {
           "date": "2026-08-17",
-          "supply_usd": 265770472247.0
+          "supply_usd": 265778329214.0
         },
         {
           "date": "2026-08-18",
-          "supply_usd": 265802217174.0
+          "supply_usd": 265810062574.0
         },
         {
           "date": "2026-08-19",
-          "supply_usd": 265795742605.0
+          "supply_usd": 265803577509.0
         },
         {
           "date": "2026-08-20",
-          "supply_usd": 266334349360.0
+          "supply_usd": 266342185753.0
         },
         {
           "date": "2026-08-21",
-          "supply_usd": 267233700872.0
+          "supply_usd": 267241578896.0
         },
         {
           "date": "2026-08-22",
-          "supply_usd": 267528698572.0
+          "supply_usd": 267536573075.0
         },
         {
           "date": "2026-08-23",
-          "supply_usd": 267587118906.0
+          "supply_usd": 267594956419.0
         },
         {
           "date": "2026-08-24",
-          "supply_usd": 267645641375.0
+          "supply_usd": 267653478908.0
         },
         {
           "date": "2026-08-25",
-          "supply_usd": 267715336416.0
+          "supply_usd": 267723147703.0
         },
         {
           "date": "2026-08-26",
-          "supply_usd": 267764530276.0
+          "supply_usd": 267772333050.0
         },
         {
           "date": "2026-08-27",
-          "supply_usd": 268074777392.0
+          "supply_usd": 268082593888.0
         },
         {
           "date": "2026-08-28",
-          "supply_usd": 268039978836.0
+          "supply_usd": 268047789089.0
         },
         {
           "date": "2026-08-29",
-          "supply_usd": 268318613414.0
+          "supply_usd": 268326433393.0
         },
         {
           "date": "2026-08-30",
-          "supply_usd": 268199936167.0
+          "supply_usd": 268207804532.0
         },
         {
           "date": "2026-08-31",
-          "supply_usd": 268316474198.0
+          "supply_usd": 268324327480.0
         },
         {
           "date": "2026-09-01",
-          "supply_usd": 267836636708.0
+          "supply_usd": 267844455004.0
         },
         {
           "date": "2026-09-02",
-          "supply_usd": 267912585599.0
+          "supply_usd": 267920400841.0
         },
         {
           "date": "2026-09-03",
-          "supply_usd": 268148141356.0
+          "supply_usd": 268155979803.0
         },
         {
           "date": "2026-09-04",
-          "supply_usd": 268739694612.0
+          "supply_usd": 268747528221.0
         },
         {
           "date": "2026-09-05",
-          "supply_usd": 269066779713.0
+          "supply_usd": 269074612915.0
         },
         {
           "date": "2026-09-06",
-          "supply_usd": 269049640834.0
+          "supply_usd": 269057497628.0
         },
         {
           "date": "2026-09-07",
@@ -7743,267 +7767,267 @@
         },
         {
           "date": "2026-09-12",
-          "supply_usd": 268995072212.0
+          "supply_usd": 269002909481.0
         },
         {
           "date": "2026-09-13",
-          "supply_usd": 269000604516.0
+          "supply_usd": 269008440727.0
         },
         {
           "date": "2026-09-14",
-          "supply_usd": 268826931877.0
+          "supply_usd": 268834749681.0
         },
         {
           "date": "2026-09-15",
-          "supply_usd": 269017597942.0
+          "supply_usd": 269025391937.0
         },
         {
           "date": "2026-09-16",
-          "supply_usd": 268273876551.0
+          "supply_usd": 268281663065.0
         },
         {
           "date": "2026-09-17",
-          "supply_usd": 268424581420.0
+          "supply_usd": 268432387369.0
         },
         {
           "date": "2026-09-18",
-          "supply_usd": 268615775259.0
+          "supply_usd": 268623565617.0
         },
         {
           "date": "2026-09-19",
-          "supply_usd": 269128029846.0
+          "supply_usd": 269135826501.0
         },
         {
           "date": "2026-09-20",
-          "supply_usd": 269076127063.0
+          "supply_usd": 269083918687.0
         },
         {
           "date": "2026-09-21",
-          "supply_usd": 269246263234.0
+          "supply_usd": 269254057738.0
         },
         {
           "date": "2026-09-22",
-          "supply_usd": 269768122943.0
+          "supply_usd": 269775924664.0
         },
         {
           "date": "2026-09-23",
-          "supply_usd": 270239266900.0
+          "supply_usd": 270247075422.0
         },
         {
           "date": "2026-09-24",
-          "supply_usd": 270371885887.0
+          "supply_usd": 270379724910.0
         },
         {
           "date": "2026-09-25",
-          "supply_usd": 270673940350.0
+          "supply_usd": 270681744639.0
         },
         {
           "date": "2026-09-26",
-          "supply_usd": 270772930742.0
+          "supply_usd": 270780737342.0
         },
         {
           "date": "2026-09-27",
-          "supply_usd": 270667839342.0
+          "supply_usd": 270675629351.0
         },
         {
           "date": "2026-09-28",
-          "supply_usd": 270579096856.0
+          "supply_usd": 270586886157.0
         },
         {
           "date": "2026-09-29",
-          "supply_usd": 270212466008.0
+          "supply_usd": 270220253498.0
         },
         {
           "date": "2026-09-30",
-          "supply_usd": 270005799959.0
+          "supply_usd": 270013569547.0
         },
         {
           "date": "2026-10-01",
-          "supply_usd": 269543047023.0
+          "supply_usd": 269550872218.0
         },
         {
           "date": "2026-10-02",
-          "supply_usd": 269699763810.0
+          "supply_usd": 269707539344.0
         },
         {
           "date": "2026-10-03",
-          "supply_usd": 269870375458.0
+          "supply_usd": 269878124997.0
         },
         {
           "date": "2026-10-04",
-          "supply_usd": 269896381028.0
+          "supply_usd": 269904113479.0
         },
         {
           "date": "2026-10-05",
-          "supply_usd": 269897118989.0
+          "supply_usd": 269904839205.0
         },
         {
           "date": "2026-10-06",
-          "supply_usd": 270249691380.0
+          "supply_usd": 270257397670.0
         },
         {
           "date": "2026-10-07",
-          "supply_usd": 270336282125.0
+          "supply_usd": 270344022474.0
         },
         {
           "date": "2026-10-08",
-          "supply_usd": 269990032797.0
+          "supply_usd": 269997764196.0
         },
         {
           "date": "2026-10-09",
-          "supply_usd": 269407779445.0
+          "supply_usd": 269415542539.0
         },
         {
           "date": "2026-10-10",
-          "supply_usd": 268845025897.0
+          "supply_usd": 268852844367.0
         },
         {
           "date": "2026-10-11",
-          "supply_usd": 268958274937.0
+          "supply_usd": 268966134542.0
         },
         {
           "date": "2026-10-12",
-          "supply_usd": 268837745596.0
+          "supply_usd": 268845471024.0
         },
         {
           "date": "2026-10-13",
-          "supply_usd": 268775301609.0
+          "supply_usd": 268783095938.0
         },
         {
           "date": "2026-10-14",
-          "supply_usd": 269022382285.0
+          "supply_usd": 269030158722.0
         },
         {
           "date": "2026-10-15",
-          "supply_usd": 268448268421.0
+          "supply_usd": 268456035477.0
         },
         {
           "date": "2026-10-16",
-          "supply_usd": 268288792561.0
+          "supply_usd": 268296555343.0
         },
         {
           "date": "2026-10-17",
-          "supply_usd": 267972718124.0
+          "supply_usd": 267980474984.0
         },
         {
           "date": "2026-10-18",
-          "supply_usd": 267729240372.0
+          "supply_usd": 267736991323.0
         },
         {
           "date": "2026-10-19",
-          "supply_usd": 267703463575.0
+          "supply_usd": 267711205273.0
         },
         {
           "date": "2026-10-20",
-          "supply_usd": 266833045713.0
+          "supply_usd": 266840741775.0
         },
         {
           "date": "2026-10-21",
-          "supply_usd": 266554681580.0
+          "supply_usd": 266562398934.0
         },
         {
           "date": "2026-10-22",
-          "supply_usd": 266844225679.0
+          "supply_usd": 266851927070.0
         },
         {
           "date": "2026-10-23",
-          "supply_usd": 266328720714.0
+          "supply_usd": 266336451452.0
         },
         {
           "date": "2026-10-24",
-          "supply_usd": 265807724396.0
+          "supply_usd": 265815433352.0
         },
         {
           "date": "2026-10-25",
-          "supply_usd": 265690040692.0
+          "supply_usd": 265697762494.0
         },
         {
           "date": "2026-10-26",
-          "supply_usd": 265456634328.0
+          "supply_usd": 265464354665.0
         },
         {
           "date": "2026-10-27",
-          "supply_usd": 264637223234.0
+          "supply_usd": 264644916335.0
         },
         {
           "date": "2026-10-28",
-          "supply_usd": 264535095977.0
+          "supply_usd": 264542789731.0
         },
         {
           "date": "2026-10-29",
-          "supply_usd": 263531567958.0
+          "supply_usd": 263539254110.0
         },
         {
           "date": "2026-10-30",
-          "supply_usd": 263009919856.0
+          "supply_usd": 263017612894.0
         },
         {
           "date": "2026-10-31",
-          "supply_usd": 262976014018.0
+          "supply_usd": 262983685448.0
         },
         {
           "date": "2026-11-01",
-          "supply_usd": 262568187192.0
+          "supply_usd": 262575844487.0
         },
         {
           "date": "2026-11-02",
-          "supply_usd": 262036341604.0
+          "supply_usd": 262043980195.0
         },
         {
           "date": "2026-11-03",
-          "supply_usd": 261136880888.0
+          "supply_usd": 261144614253.0
         },
         {
           "date": "2026-11-04",
-          "supply_usd": 260419929477.0
+          "supply_usd": 260427629330.0
         },
         {
           "date": "2026-11-05",
-          "supply_usd": 260133349563.0
+          "supply_usd": 260141013948.0
         },
         {
           "date": "2026-11-06",
-          "supply_usd": 259289099844.0
+          "supply_usd": 259296771806.0
         },
         {
           "date": "2026-11-07",
-          "supply_usd": 258113160852.0
+          "supply_usd": 258120829850.0
         },
         {
           "date": "2026-11-08",
-          "supply_usd": 258186155635.0
+          "supply_usd": 258193767922.0
         },
         {
           "date": "2026-11-09",
-          "supply_usd": 257975797679.0
+          "supply_usd": 257983416506.0
         },
         {
           "date": "2026-11-10",
-          "supply_usd": 257231511603.0
+          "supply_usd": 257239150216.0
         },
         {
           "date": "2026-11-11",
-          "supply_usd": 256347862125.0
+          "supply_usd": 256355511637.0
         },
         {
           "date": "2026-11-12",
-          "supply_usd": 256023153906.0
+          "supply_usd": 256030873830.0
         },
         {
           "date": "2026-11-13",
-          "supply_usd": 255447132811.0
+          "supply_usd": 255454943980.0
         },
         {
           "date": "2026-11-14",
-          "supply_usd": 254854208069.0
+          "supply_usd": 254861993421.0
         },
         {
           "date": "2026-11-15",
-          "supply_usd": 254995955907.0
+          "supply_usd": 255003748737.0
         },
         {
           "date": "2026-11-16",
-          "supply_usd": 255061090295.96002
+          "supply_usd": 255068906019.87
         }
       ]
     },
@@ -8026,17 +8050,17 @@
         },
         {
           "date": "2026-11-16",
-          "observed_at": "2026-11-16T12:23:26.227694+00:00",
-          "usdt_supply_usd": 175325413948.6759,
-          "usdt_dominance_pct": 8.099462689135375,
-          "total_crypto_market_cap_usd": 2164062911130.9568
+          "observed_at": "2026-11-16T23:35:58.482017+00:00",
+          "usdt_supply_usd": 175289306141.79404,
+          "usdt_dominance_pct": 7.891506613552465,
+          "total_crypto_market_cap_usd": 2221665394641.43
         }
       ],
       "signals": {
         "1d": {
-          "status": "warning",
-          "dominance_change_pp": 0.11808771970104903,
-          "supply_change_usd": -64926889.79800415
+          "status": "normal",
+          "dominance_change_pp": -0.08986835588186093,
+          "supply_change_usd": -101034696.6798706
         },
         "7d": {
           "status": "insufficient_data",
@@ -8050,18 +8074,12 @@
         }
       }
     },
-    "alerts": [
-      {
-        "type": "liquidity_contraction",
-        "period": "1d",
-        "message": "USDT dominansı yükselirken arzı azalıyor: likidite daralması uyarısı."
-      }
-    ],
+    "alerts": [],
     "reading": "İzlenen dört stablecoin'in 7 günlük arzı daralıyor; kripto likiditesi için baskı göstergesi.",
     "methodology": "Arz, $1 nominal değerle gösterilir; borsa net akışı veya BTC hareketinin kanıtlanmış nedeni değildir. Dominans günlük UTC gözlemleridir; geçmiş toplam piyasa değeri uydurulmaz. Peg uyarısı ≥%0,5, kritik ≥%1."
   },
   "coinalyze_all_exchange_count": 16,
-  "generated_at": "2026-11-16T12:23:03.372736+00:00",
+  "generated_at": "2026-11-16T23:35:40.373979+00:00",
   "sector_rotation": {
     "method": "ALPHA equal-weight representative basket; every constituent normalized to 100 at the common start date, then averaged.",
     "window_days": 31,
@@ -8205,10 +8223,10 @@
           },
           {
             "date": "2026-11-16",
-            "value": 74.11473890829033
+            "value": 74.55847765508315
           }
         ],
-        "return_pct": -25.885261091709665
+        "return_pct": -25.441522344916848
       },
       "L1": {
         "label": "L1",
@@ -8347,10 +8365,10 @@
           },
           {
             "date": "2026-11-16",
-            "value": 70.67359990648298
+            "value": 70.99270531229777
           }
         ],
-        "return_pct": -29.326400093517023
+        "return_pct": -29.007294687702228
       },
       "L2": {
         "label": "L2",
@@ -8484,10 +8502,10 @@
           },
           {
             "date": "2026-11-16",
-            "value": 68.2976651754711
+            "value": 68.33378342763534
           }
         ],
-        "return_pct": -31.702334824528904
+        "return_pct": -31.66621657236466
       },
       "DEFI": {
         "label": "DEFI",
@@ -8625,10 +8643,10 @@
           },
           {
             "date": "2026-11-16",
-            "value": 69.83236391118226
+            "value": 70.17014362777215
           }
         ],
-        "return_pct": -30.167636088817744
+        "return_pct": -29.82985637222785
       },
       "MEME": {
         "label": "MEME",
@@ -8763,10 +8781,10 @@
           },
           {
             "date": "2026-11-16",
-            "value": 77.65670231627736
+            "value": 78.93907718542258
           }
         ],
-        "return_pct": -22.34329768372264
+        "return_pct": -21.060922814577424
       },
       "AI": {
         "label": "AI",
@@ -8899,10 +8917,10 @@
           },
           {
             "date": "2026-11-16",
-            "value": 69.37071194555605
+            "value": 70.04719810573162
           }
         ],
-        "return_pct": -30.629288054443947
+        "return_pct": -29.952801894268376
       },
       "DEPIN": {
         "label": "DEPIN",
@@ -9035,10 +9053,10 @@
           },
           {
             "date": "2026-11-16",
-            "value": 65.23760903755452
+            "value": 65.51902437415747
           }
         ],
-        "return_pct": -34.76239096244548
+        "return_pct": -34.48097562584253
       }
     },
     "unsupported": [
@@ -9684,5 +9702,5 @@
     "method": "Exchange netflow = labeled-wallet inflow - labeled-wallet outflow. Positive = net coins moving to exchanges; negative = net coins leaving exchanges.",
     "note": null
   },
-  "crypto_intelligence_ext_generated_at": "2026-11-16T12:27:05.115775+00:00"
+  "crypto_intelligence_ext_generated_at": "2026-11-16T23:39:23.789207+00:00"
 }
