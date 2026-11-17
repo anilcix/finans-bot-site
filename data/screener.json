@@ -1,56 +1,5 @@
 {
-  "movers": [
-    {
-      "symbol": "AERO",
-      "name": "Aero",
-      "coingecko_id": "aero",
-      "exchange": "ana piyasa",
-      "exchange_symbol": "AEROUSDT",
-      "price": 0.435884,
-      "change_24h": 0.36827,
-      "volume_zscore_15m": 2.6922907985599056,
-      "pine_z_delta_15m": 2.395757157647789,
-      "pine_raw_delta_15m_base": 25263.699999999997,
-      "pine_delta_mean_20": 3968.8399999999997,
-      "pine_delta_stdev_20": 8888.572004062295,
-      "zscore_length": 20,
-      "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 37665.5,
-      "base_volume_mean_20": 10684.55,
-      "base_volume_stdev_20": 10021.558597768113,
-      "volume_15m_usd": 16562.90696,
-      "buyer_share_pct": 88.11968089447022,
-      "taker_buy_15m_usd": 14595.18076,
-      "taker_sell_15m_usd": 1967.726200000001,
-      "spot_delta_15m_usd": 12627.454559999998,
-      "price_change_15m_pct": -0.636363636363646,
-      "price_candle_green": false,
-      "cvd_last3": [
-        {
-          "ts": 1794869100000,
-          "delta_usd": -2592.88235,
-          "green": false
-        },
-        {
-          "ts": 1794870000000,
-          "delta_usd": -1950.4471199999996,
-          "green": false
-        },
-        {
-          "ts": 1794870900000,
-          "delta_usd": 12627.454559999998,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 1,
-      "cvd_green_streak": 1,
-      "cvd_45m_delta_usd": 8084.125089999999,
-      "cvd_note": "✅ Pine Z-Delta + true Spot CVD aynı yönde",
-      "signal_score": 9.250016045654716,
-      "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-11-16T23:15:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "15m",
   "rule": "Top 200 → Vol Z >= 2.0 + Pine Z-Delta >= 1.0 + taker alıcı payı >= %65 + true Spot CVD > 0",
   "scan_meta": {
@@ -59,7 +8,7 @@
     "binance_spot_matched": 103,
     "scanned": 103,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 0,
     "max_results": 10,
     "universe_mode": "coingecko_market_cap_top200",
     "coingecko_cache_hours": 6,
@@ -69,5 +18,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-11-16T23:35:40.373979+00:00"
+  "generated_at": "2026-11-17T05:49:23.804185+00:00"
 }
