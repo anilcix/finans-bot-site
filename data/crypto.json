@@ -1,62 +1,62 @@
 {
   "btc": {
-    "price": 63664,
-    "change_24h": -2.127203901949743
+    "price": 64359,
+    "change_24h": -0.5346017051151601
   },
   "eth": {
-    "price": 1786.09,
-    "change_24h": -2.036388006365599
+    "price": 1804.04,
+    "change_24h": -0.8160182723728364
   },
   "global": {
-    "total_usd": 2191557131292.5774,
-    "total2_usd": 912914212352.6699,
-    "total3_usd": 694880842031.8253,
-    "btc_dominance": 58.34403770189489,
-    "eth_dominance": 9.948787882716472
+    "total_usd": 2210204580073.5537,
+    "total2_usd": 919575018517.7218,
+    "total3_usd": 699796771550.6528,
+    "btc_dominance": 58.394122118454796,
+    "eth_dominance": 9.943796558405241
   },
-  "usdt_market_cap_usd": 175315979540.78003,
-  "usdt_dominance": 7.99960799732284,
-  "stablecoin_supply_usd": 288678430587,
-  "stablecoin_market_cap_usd": 287055408774.4142,
-  "stablecoin_7d_change_pct": -1.3462652157547383,
+  "usdt_market_cap_usd": 175299594920.4755,
+  "usdt_dominance": 7.931374158795819,
+  "stablecoin_supply_usd": 288738599768,
+  "stablecoin_market_cap_usd": 287086961526.9284,
+  "stablecoin_7d_change_pct": -1.0382340049312488,
   "defi": {
     "ok": true,
-    "total_tvl_usd": 70528909633.26833,
+    "total_tvl_usd": 71494280226.38313,
     "chains": {
-      "Ethereum": 36942993781.6584,
-      "Base": 5117128741.463033,
-      "Arbitrum": 1286660420.459479,
-      "BSC": 4489884035.329448,
-      "Solana": 4758548524.294634,
-      "Bitcoin": 3208150479.1179557
+      "Arbitrum": 1304129929.9133842,
+      "Base": 5216159305.545998,
+      "BSC": 4539554413.856562,
+      "Ethereum": 37390709869.31823,
+      "Solana": 4820394009.771019,
+      "Bitcoin": 3267309626.389861
     },
-    "stablecoin_market_cap_usd": 287055408774.4142,
-    "stablecoin_7d_change_pct": -1.3462652157547383,
+    "stablecoin_market_cap_usd": 287086961526.9284,
+    "stablecoin_7d_change_pct": -1.0382340049312488,
     "errors": []
   },
   "network": {
     "ok": true,
     "btc": {
-      "date": "2026-11-16",
-      "active_addresses": 680165.0,
-      "active_addresses_3d_change_pct": -1.331985197585539,
-      "active_addresses_7d_change_pct": 0.583390020999075,
-      "active_addresses_14d_change_pct": -1.5821177573690615,
-      "transactions": 792334.0,
-      "transactions_3d_change_pct": 88.01082030230405,
-      "transactions_7d_change_pct": 92.56600261021093,
-      "transactions_14d_change_pct": 99.24008871499052
+      "date": "2026-11-17",
+      "active_addresses": 669751.0,
+      "active_addresses_3d_change_pct": 6.461263100001102,
+      "active_addresses_7d_change_pct": -4.708441702568422,
+      "active_addresses_14d_change_pct": -2.063428001555867,
+      "transactions": 664867.0,
+      "transactions_3d_change_pct": 39.25578550737994,
+      "transactions_7d_change_pct": 14.661895317754592,
+      "transactions_14d_change_pct": 8.586234717309015
     },
     "eth": {
-      "date": "2026-11-16",
-      "active_addresses": 1122315.0,
-      "active_addresses_3d_change_pct": 35.4791864838895,
-      "active_addresses_7d_change_pct": 38.939061000897524,
-      "active_addresses_14d_change_pct": 46.87064877144862,
-      "transactions": 2057185.0,
-      "transactions_3d_change_pct": -2.036243806385407,
-      "transactions_7d_change_pct": 2.770815713078889,
-      "transactions_14d_change_pct": 9.139925280093554
+      "date": "2026-11-17",
+      "active_addresses": 1158734.0,
+      "active_addresses_3d_change_pct": 12.204862035741426,
+      "active_addresses_7d_change_pct": 30.82780283032289,
+      "active_addresses_14d_change_pct": 47.391062667665615,
+      "transactions": null,
+      "transactions_3d_change_pct": null,
+      "transactions_7d_change_pct": null,
+      "transactions_14d_change_pct": null
     },
     "error": null
   },
@@ -68,7 +68,7 @@
       "days": [
         {
           "date": "2026-11-17",
-          "total_usd_m": 0.0,
+          "total_usd_m": -30.4,
           "funds_usd_m": {}
         },
         {
@@ -97,16 +97,40 @@
         {
           "date": "2026-11-16",
           "total_usd_m": -8.4,
-          "funds_usd_m": {}
+          "funds_usd_m": {
+            "ETHA": 0.0,
+            "ETHB": 0.0,
+            "FETH": -5.0,
+            "ETHW": 0.0,
+            "TETH": 0.0,
+            "ETHV": 0.0,
+            "QETH": 0.0,
+            "EZET": 0.0,
+            "MSSE": 0.0,
+            "ETHE": -4.4,
+            "ETH": 1.0
+          }
         },
         {
           "date": "2026-11-13",
           "total_usd_m": 2.3,
-          "funds_usd_m": {}
+          "funds_usd_m": {
+            "ETHA": 0.0,
+            "ETHB": 0.0,
+            "FETH": 11.6,
+            "ETHW": 0.0,
+            "TETH": 0.0,
+            "ETHV": 0.0,
+            "QETH": 0.0,
+            "EZET": 0.0,
+            "MSSE": 0.0,
+            "ETHE": 0.0,
+            "ETH": -9.3
+          }
         }
       ],
       "ok": true,
-      "transport": "direct"
+      "transport": "mmflow"
     },
     "ok": true,
     "method": "Latest 3 completed US spot ETF trading-day net flows in US$m. Primary transport mmflow; source data Farside Investors."
@@ -120,51 +144,51 @@
         "exchange_code": "A",
         "symbol": "BTCUSDT_PERP.A",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 5874472713.0116005,
-        "open_interest_24h_ago_usd": 6045913617.212,
-        "open_interest_change_24h_pct": -2.8356492509639453,
-        "funding_pct": 0.003565,
-        "long_short_ratio": 2.592,
-        "long_liquidations_24h_usd": 19479222.5199,
-        "short_liquidations_24h_usd": 12559854.695,
-        "total_liquidations_24h_usd": 32039077.214900002
+        "open_interest_usd": 5954386644.486,
+        "open_interest_24h_ago_usd": 5995990530.3132,
+        "open_interest_change_24h_pct": -0.6938617667400893,
+        "funding_pct": 0.006014,
+        "long_short_ratio": 2.659,
+        "long_liquidations_24h_usd": 20471472.9776,
+        "short_liquidations_24h_usd": 14490850.3189,
+        "total_liquidations_24h_usd": 34962323.2965
       },
       {
         "exchange": "vadeli piyasa",
         "exchange_code": "6",
         "symbol": "BTCUSDT.6",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 4400436972.365,
-        "open_interest_24h_ago_usd": 4540133294.87,
-        "open_interest_change_24h_pct": -3.0769211701966115,
-        "funding_pct": 0.004982,
-        "long_short_ratio": 2.675119441381845,
-        "long_liquidations_24h_usd": 8475324.5631,
-        "short_liquidations_24h_usd": 5677649.9037999995,
-        "total_liquidations_24h_usd": 14152974.4669
+        "open_interest_usd": 4462721677.388801,
+        "open_interest_24h_ago_usd": 4540631833.952,
+        "open_interest_change_24h_pct": -1.715843948867113,
+        "funding_pct": 0.004624,
+        "long_short_ratio": 2.595828838547285,
+        "long_liquidations_24h_usd": 8222643.215800001,
+        "short_liquidations_24h_usd": 4890568.7999,
+        "total_liquidations_24h_usd": 13113212.015700001
       },
       {
         "exchange": "vadeli piyasa",
         "exchange_code": "3",
         "symbol": "BTCUSDT_PERP.3",
         "symbol_on_exchange": "BTC-USDT-SWAP",
-        "open_interest_usd": 1983684943.0530086,
-        "open_interest_24h_ago_usd": 2026830813.6244075,
-        "open_interest_change_24h_pct": -2.128735673514104,
-        "funding_pct": 0.00245412274936,
+        "open_interest_usd": 1983634840.3704894,
+        "open_interest_24h_ago_usd": 1961992875.3490188,
+        "open_interest_change_24h_pct": 1.103060326741545,
+        "funding_pct": -2.903947009e-05,
         "long_short_ratio": null,
-        "long_liquidations_24h_usd": 3534827.4409099994,
-        "short_liquidations_24h_usd": 3319622.2748799995,
-        "total_liquidations_24h_usd": 6854449.715789999
+        "long_liquidations_24h_usd": 3615813.5742899994,
+        "short_liquidations_24h_usd": 3707699.6223799996,
+        "total_liquidations_24h_usd": 7323513.1966699995
       },
       {
         "exchange": "vadeli piyasa",
         "exchange_code": "H",
         "symbol": "BTC.H",
         "symbol_on_exchange": "BTC",
-        "open_interest_usd": 2407718154.04416,
-        "open_interest_24h_ago_usd": 2344926890.39856,
-        "open_interest_change_24h_pct": 2.677749310765387,
+        "open_interest_usd": 2486245417.3401537,
+        "open_interest_24h_ago_usd": 2430331168.5320935,
+        "open_interest_change_24h_pct": 2.300684348373472,
         "funding_pct": 0.00125,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
@@ -176,10 +200,10 @@
         "exchange_code": "K",
         "symbol": "pf_xbtusd.K",
         "symbol_on_exchange": "pf_xbtusd",
-        "open_interest_usd": 149276904.92549998,
-        "open_interest_24h_ago_usd": 147037908.9884,
-        "open_interest_change_24h_pct": 1.5227337987216538,
-        "funding_pct": 0.0018587858333333,
+        "open_interest_usd": 143449397.7152,
+        "open_interest_24h_ago_usd": 146035541.0002,
+        "open_interest_change_24h_pct": -1.7708999242838086,
+        "funding_pct": -3.14420833333e-05,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -190,9 +214,9 @@
         "exchange_code": "2",
         "symbol": "BTC_USDC-PERPETUAL.2",
         "symbol_on_exchange": "BTC_USDC-PERPETUAL",
-        "open_interest_usd": 130268902.8246,
-        "open_interest_24h_ago_usd": 140796684.04686,
-        "open_interest_change_24h_pct": -7.477293441624056,
+        "open_interest_usd": 136337848.255,
+        "open_interest_24h_ago_usd": 143070732.51524,
+        "open_interest_change_24h_pct": -4.705982937162101,
         "funding_pct": 0.0,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
@@ -207,7 +231,7 @@
         "open_interest_usd": null,
         "open_interest_24h_ago_usd": null,
         "open_interest_change_24h_pct": null,
-        "funding_pct": 0.00358,
+        "funding_pct": 0.008216,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -220,51 +244,51 @@
         "exchange_code": "A",
         "symbol": "BTCUSDT_PERP.A",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 5874472713.0116005,
-        "open_interest_24h_ago_usd": 6045913617.212,
-        "open_interest_change_24h_pct": -2.8356492509639453,
-        "funding_pct": 0.003565,
-        "long_short_ratio": 2.592,
-        "long_liquidations_24h_usd": 19479222.5199,
-        "short_liquidations_24h_usd": 12559854.695,
-        "total_liquidations_24h_usd": 32039077.214900002
+        "open_interest_usd": 5954386644.486,
+        "open_interest_24h_ago_usd": 5995990530.3132,
+        "open_interest_change_24h_pct": -0.6938617667400893,
+        "funding_pct": 0.006014,
+        "long_short_ratio": 2.659,
+        "long_liquidations_24h_usd": 20471472.9776,
+        "short_liquidations_24h_usd": 14490850.3189,
+        "total_liquidations_24h_usd": 34962323.2965
       },
       "Bybit": {
         "exchange": "vadeli piyasa",
         "exchange_code": "6",
         "symbol": "BTCUSDT.6",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 4400436972.365,
-        "open_interest_24h_ago_usd": 4540133294.87,
-        "open_interest_change_24h_pct": -3.0769211701966115,
-        "funding_pct": 0.004982,
-        "long_short_ratio": 2.675119441381845,
-        "long_liquidations_24h_usd": 8475324.5631,
-        "short_liquidations_24h_usd": 5677649.9037999995,
-        "total_liquidations_24h_usd": 14152974.4669
+        "open_interest_usd": 4462721677.388801,
+        "open_interest_24h_ago_usd": 4540631833.952,
+        "open_interest_change_24h_pct": -1.715843948867113,
+        "funding_pct": 0.004624,
+        "long_short_ratio": 2.595828838547285,
+        "long_liquidations_24h_usd": 8222643.215800001,
+        "short_liquidations_24h_usd": 4890568.7999,
+        "total_liquidations_24h_usd": 13113212.015700001
       },
       "OKX": {
         "exchange": "vadeli piyasa",
         "exchange_code": "3",
         "symbol": "BTCUSDT_PERP.3",
         "symbol_on_exchange": "BTC-USDT-SWAP",
-        "open_interest_usd": 1983684943.0530086,
-        "open_interest_24h_ago_usd": 2026830813.6244075,
-        "open_interest_change_24h_pct": -2.128735673514104,
-        "funding_pct": 0.00245412274936,
+        "open_interest_usd": 1983634840.3704894,
+        "open_interest_24h_ago_usd": 1961992875.3490188,
+        "open_interest_change_24h_pct": 1.103060326741545,
+        "funding_pct": -2.903947009e-05,
         "long_short_ratio": null,
-        "long_liquidations_24h_usd": 3534827.4409099994,
-        "short_liquidations_24h_usd": 3319622.2748799995,
-        "total_liquidations_24h_usd": 6854449.715789999
+        "long_liquidations_24h_usd": 3615813.5742899994,
+        "short_liquidations_24h_usd": 3707699.6223799996,
+        "total_liquidations_24h_usd": 7323513.1966699995
       },
       "Hyperliquid": {
         "exchange": "vadeli piyasa",
         "exchange_code": "H",
         "symbol": "BTC.H",
         "symbol_on_exchange": "BTC",
-        "open_interest_usd": 2407718154.04416,
-        "open_interest_24h_ago_usd": 2344926890.39856,
-        "open_interest_change_24h_pct": 2.677749310765387,
+        "open_interest_usd": 2486245417.3401537,
+        "open_interest_24h_ago_usd": 2430331168.5320935,
+        "open_interest_change_24h_pct": 2.300684348373472,
         "funding_pct": 0.00125,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
@@ -276,10 +300,10 @@
         "exchange_code": "K",
         "symbol": "pf_xbtusd.K",
         "symbol_on_exchange": "pf_xbtusd",
-        "open_interest_usd": 149276904.92549998,
-        "open_interest_24h_ago_usd": 147037908.9884,
-        "open_interest_change_24h_pct": 1.5227337987216538,
-        "funding_pct": 0.0018587858333333,
+        "open_interest_usd": 143449397.7152,
+        "open_interest_24h_ago_usd": 146035541.0002,
+        "open_interest_change_24h_pct": -1.7708999242838086,
+        "funding_pct": -3.14420833333e-05,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -290,9 +314,9 @@
         "exchange_code": "2",
         "symbol": "BTC_USDC-PERPETUAL.2",
         "symbol_on_exchange": "BTC_USDC-PERPETUAL",
-        "open_interest_usd": 130268902.8246,
-        "open_interest_24h_ago_usd": 140796684.04686,
-        "open_interest_change_24h_pct": -7.477293441624056,
+        "open_interest_usd": 136337848.255,
+        "open_interest_24h_ago_usd": 143070732.51524,
+        "open_interest_change_24h_pct": -4.705982937162101,
         "funding_pct": 0.0,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
@@ -307,7 +331,7 @@
         "open_interest_usd": null,
         "open_interest_24h_ago_usd": null,
         "open_interest_change_24h_pct": null,
-        "funding_pct": 0.00358,
+        "funding_pct": 0.008216,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -319,29 +343,29 @@
       "exchange_code": "A",
       "symbol": "BTCUSDT_PERP.A",
       "symbol_on_exchange": "BTCUSDT",
-      "open_interest_usd": 5874472713.0116005,
-      "open_interest_24h_ago_usd": 6045913617.212,
-      "open_interest_change_24h_pct": -2.8356492509639453,
-      "funding_pct": 0.003565,
-      "long_short_ratio": 2.592,
-      "long_liquidations_24h_usd": 19479222.5199,
-      "short_liquidations_24h_usd": 12559854.695,
-      "total_liquidations_24h_usd": 32039077.214900002
+      "open_interest_usd": 5954386644.486,
+      "open_interest_24h_ago_usd": 5995990530.3132,
+      "open_interest_change_24h_pct": -0.6938617667400893,
+      "funding_pct": 0.006014,
+      "long_short_ratio": 2.659,
+      "long_liquidations_24h_usd": 20471472.9776,
+      "short_liquidations_24h_usd": 14490850.3189,
+      "total_liquidations_24h_usd": 34962323.2965
     },
     "binance_available": true,
-    "aggregate_oi_usd": 16298254840.104872,
-    "oi_change_24h_pct": -1.9663368311682694,
-    "oi_weighted_funding_pct": 0.00387464267598303,
+    "aggregate_oi_usd": 16523350987.717314,
+    "oi_change_24h_pct": -0.336947552875122,
+    "oi_weighted_funding_pct": 0.003999626134914595,
     "liquidations_24h": {
-      "long_usd": 31489374.523910005,
-      "short_usd": 21557126.87368,
-      "total_usd": 53046501.397590004,
+      "long_usd": 32309929.767690003,
+      "short_usd": 23089118.74118,
+      "total_usd": 55399048.508870006,
       "dominant_side": "long"
     },
-    "long_short_ratio_avg": 2.6335597206909225,
+    "long_short_ratio_avg": 2.6274144192736424,
     "total_all_exchanges": {
-      "aggregate_oi_usd": 16298254840.104872,
-      "oi_weighted_funding_pct": 0.00387464267598303,
+      "aggregate_oi_usd": 16523350987.717314,
+      "oi_weighted_funding_pct": 0.003999626134914595,
       "exchange_count": 16,
       "market_count": 16,
       "markets": [
@@ -350,28 +374,28 @@
           "symbol": "BTCUSDT.S",
           "symbol_on_exchange": "BTCUSDT",
           "open_interest_usd": null,
-          "funding_pct": 0.00358
+          "funding_pct": 0.008216
         },
         {
           "exchange": "ana piyasa",
           "symbol": "BTCUSDT_PERP.A",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 5874472713.0116005,
-          "funding_pct": 0.003565
+          "open_interest_usd": 5954386644.486,
+          "funding_pct": 0.006014
         },
         {
           "exchange": "Bitfinex",
           "symbol": "BTCUSDT_PERP.F",
           "symbol_on_exchange": "BTCF0:USTF0",
-          "open_interest_usd": 566416264.396523,
-          "funding_pct": 0.00791
+          "open_interest_usd": 570070670.0620698,
+          "funding_pct": 0.008231
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT.6",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 4400436972.365,
-          "funding_pct": 0.004982
+          "open_interest_usd": 4462721677.388801,
+          "funding_pct": 0.004624
         },
         {
           "exchange": "Coinbase",
@@ -384,7 +408,7 @@
           "exchange": "opsiyon veri sağlayıcısı",
           "symbol": "BTC_USDC-PERPETUAL.2",
           "symbol_on_exchange": "BTC_USDC-PERPETUAL",
-          "open_interest_usd": 130268902.8246,
+          "open_interest_usd": 136337848.255,
           "funding_pct": 0.0
         },
         {
@@ -392,28 +416,28 @@
           "symbol": "BTC_USDT.Y",
           "symbol_on_exchange": "BTC_USDT",
           "open_interest_usd": null,
-          "funding_pct": 0.0036
+          "funding_pct": -0.0016
         },
         {
           "exchange": "Huobi",
           "symbol": "BTCUSDT_PERP.4",
           "symbol_on_exchange": "BTC-USDT",
-          "open_interest_usd": 758642849.0504999,
-          "funding_pct": 0.01
+          "open_interest_usd": 758915852.7258,
+          "funding_pct": 0.002387609162024
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTC.H",
           "symbol_on_exchange": "BTC",
-          "open_interest_usd": 2407718154.04416,
+          "open_interest_usd": 2486245417.3401537,
           "funding_pct": 0.00125
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "pf_xbtusd.K",
           "symbol_on_exchange": "pf_xbtusd",
-          "open_interest_usd": 149276904.92549998,
-          "funding_pct": 0.0018587858333333
+          "open_interest_usd": 143449397.7152,
+          "funding_pct": -3.14420833333e-05
         },
         {
           "exchange": "Lighter",
@@ -426,15 +450,15 @@
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT_PERP.3",
           "symbol_on_exchange": "BTC-USDT-SWAP",
-          "open_interest_usd": 1983684943.0530086,
-          "funding_pct": 0.00245412274936
+          "open_interest_usd": 1983634840.3704894,
+          "funding_pct": -2.903947009e-05
         },
         {
           "exchange": "Phemex",
           "symbol": "BTCUSD.7",
           "symbol_on_exchange": "BTCUSD",
           "open_interest_usd": null,
-          "funding_pct": 0.009649
+          "funding_pct": 0.01
         },
         {
           "exchange": "Polymarket",
@@ -447,22 +471,22 @@
           "exchange": "WOO X",
           "symbol": "PERP_BTC_USDT.W",
           "symbol_on_exchange": "PERP_BTC_USDT",
-          "open_interest_usd": 14279761.36188,
-          "funding_pct": 0.003565
+          "open_interest_usd": 14495273.6838,
+          "funding_pct": 0.005973
         },
         {
           "exchange": "dYdX",
           "symbol": "BTC-USD.8",
           "symbol_on_exchange": "BTC-USD",
-          "open_interest_usd": 13057375.0721,
-          "funding_pct": 0.000875
+          "open_interest_usd": 13093365.690000001,
+          "funding_pct": 0.0004125
         }
       ],
       "definition": "Her desteklenen borsadan bir ana BTC perpetual kontratı; OI USD olarak toplanır, funding OI-ağırlıklı ortalamadır."
     },
     "core_exchanges": {
-      "aggregate_oi_usd": 12258594628.42961,
-      "oi_weighted_funding_pct": 0.0038938948559255043,
+      "aggregate_oi_usd": 12400743162.24529,
+      "oi_weighted_funding_pct": 0.004547122851737103,
       "exchange_count": 3,
       "market_count": 3,
       "markets": [
@@ -470,22 +494,22 @@
           "exchange": "ana piyasa",
           "symbol": "BTCUSDT_PERP.A",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 5874472713.0116005,
-          "funding_pct": 0.003565
+          "open_interest_usd": 5954386644.486,
+          "funding_pct": 0.006014
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT.6",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 4400436972.365,
-          "funding_pct": 0.004982
+          "open_interest_usd": 4462721677.388801,
+          "funding_pct": 0.004624
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT_PERP.3",
           "symbol_on_exchange": "BTC-USDT-SWAP",
-          "open_interest_usd": 1983684943.0530086,
-          "funding_pct": 0.00245412274936
+          "open_interest_usd": 1983634840.3704894,
+          "funding_pct": -2.903947009e-05
         }
       ],
       "exchanges": [
@@ -530,11 +554,11 @@
     "market_count": 7,
     "all_exchange_count": 16
   },
-  "funding_pct": 0.00387464267598303,
+  "funding_pct": 0.003999626134914595,
   "open_interest_btc": null,
-  "open_interest_usd": 16298254840.104872,
-  "core3_open_interest_usd": 12258594628.42961,
-  "core3_funding_pct": 0.0038938948559255043,
+  "open_interest_usd": 16523350987.717314,
+  "core3_open_interest_usd": 12400743162.24529,
+  "core3_funding_pct": 0.004547122851737103,
   "core3_exchanges": [
     "ana piyasa",
     "vadeli piyasa",
@@ -549,36 +573,32 @@
     "ok_count": 5,
     "grade": "A"
   },
-  "stablecoin_top50_market_cap_usd": 288678430587,
+  "stablecoin_top50_market_cap_usd": 288738599768,
   "btc_liquidity": {
     "ok": true,
-    "fetched_at": "2026-11-17T18:53:10.848978+00:00",
+    "fetched_at": "2026-11-18T01:58:23.681448+00:00",
     "coins": {
       "USDT": {
         "id": "1",
-        "supply_usd": 175223909832.6158,
-        "price_usd": 0.9989202239999999,
-        "peg_deviation_pct": -0.1079776,
+        "supply_usd": 175236659099.5422,
+        "price_usd": 0.999025064,
+        "peg_deviation_pct": -0.0974936,
         "peg_status": "normal",
         "changes": {
           "1d": {
-            "usd": -71456356.52877808,
-            "pct": -0.040763402982180175
+            "usd": -5641065.5652771,
+            "pct": -0.003219009086252722
           },
           "7d": {
-            "usd": -1035461105.3861389,
-            "pct": -0.5874644280617347
+            "usd": -524716430.72924805,
+            "pct": -0.29853910117975113
           },
           "30d": {
-            "usd": -8130104721.264893,
-            "pct": -4.434102378966875
+            "usd": -8166969428.075806,
+            "pct": -4.453003189544846
           }
         },
         "history": [
-          {
-            "date": "2025-11-16",
-            "supply_usd": 184028106512.0
-          },
           {
             "date": "2025-11-17",
             "supply_usd": 184020604843.0
@@ -2041,35 +2061,35 @@
           },
           {
             "date": "2026-11-17",
-            "supply_usd": 175413316922.65
+            "supply_usd": 175413316923.0
+          },
+          {
+            "date": "2026-11-18",
+            "supply_usd": 175407670352.04
           }
         ]
       },
       "USDC": {
         "id": "2",
-        "supply_usd": 69416684689.77875,
-        "price_usd": 0.999829037,
-        "peg_deviation_pct": -0.0170963,
+        "supply_usd": 69319449072.15749,
+        "price_usd": 0.9998092079999998,
+        "peg_deviation_pct": -0.0190792,
         "peg_status": "normal",
         "changes": {
           "1d": {
-            "usd": 87347348.62562561,
-            "pct": 0.12598901413958252
+            "usd": -130905129.35292053,
+            "pct": -0.18848734590050098
           },
           "7d": {
-            "usd": -972819235.2698822,
-            "pct": -1.3820515574392345
+            "usd": -827891272.9915619,
+            "pct": -1.1802176232456607
           },
           "30d": {
-            "usd": -3210168376.1380005,
-            "pct": -4.420084638975652
+            "usd": -3270108662.613861,
+            "pct": -4.504929861347584
           }
         },
         "history": [
-          {
-            "date": "2025-11-16",
-            "supply_usd": 74395085838.0
-          },
           {
             "date": "2025-11-17",
             "supply_usd": 74353200515.0
@@ -3532,35 +3552,35 @@
           },
           {
             "date": "2026-11-17",
-            "supply_usd": 69463607302.07
+            "supply_usd": 69463607302.0
+          },
+          {
+            "date": "2026-11-18",
+            "supply_usd": 69332677192.3
           }
         ]
       },
       "USDe": {
         "id": "146",
-        "supply_usd": 4832878862.058293,
-        "price_usd": 0.999529358,
-        "peg_deviation_pct": -0.0470642,
+        "supply_usd": 4826694914.445689,
+        "price_usd": 0.9996094059999999,
+        "peg_deviation_pct": -0.0390594,
         "peg_status": "normal",
         "changes": {
           "1d": {
-            "usd": -51604050.97583294,
-            "pct": -1.0564895382913275
+            "usd": -29298934.14186859,
+            "pct": -0.6033560802468974
           },
           "7d": {
-            "usd": -146058343.06560135,
-            "pct": -2.933524506300067
+            "usd": -116981620.12500477,
+            "pct": -2.36628790955401
           },
           "30d": {
-            "usd": 150595959.77069855,
-            "pct": 3.21629348147936
+            "usd": 144012186.91826153,
+            "pct": 3.0754205505249654
           }
         },
         "history": [
-          {
-            "date": "2025-11-16",
-            "supply_usd": 8042673115.0
-          },
           {
             "date": "2025-11-17",
             "supply_usd": 7957296543.0
@@ -5023,35 +5043,35 @@
           },
           {
             "date": "2026-11-17",
-            "supply_usd": 4857891311.79
+            "supply_usd": 4857891312.0
+          },
+          {
+            "date": "2026-11-18",
+            "supply_usd": 4828580929.19
           }
         ]
       },
       "USDS": {
         "id": "209",
-        "supply_usd": 5249165976.517047,
-        "price_usd": 0.999829037,
-        "peg_deviation_pct": -0.0170963,
+        "supply_usd": 5242090761.371954,
+        "price_usd": 1.0,
+        "peg_deviation_pct": 0.0,
         "peg_status": "normal",
         "changes": {
           "1d": {
-            "usd": -105998874.99800682,
-            "pct": -1.9793765072987135
+            "usd": 1368005.6328639984,
+            "pct": 0.02610337727493306
           },
           "7d": {
-            "usd": -156341048.39445686,
-            "pct": -2.892255022034984
+            "usd": -74187319.16037273,
+            "pct": -1.3954747670562817
           },
           "30d": {
-            "usd": -1610683227.4777145,
-            "pct": -23.479863471922236
+            "usd": -1598582333.4730873,
+            "pct": -23.36878712531576
           }
         },
         "history": [
-          {
-            "date": "2025-11-16",
-            "supply_usd": 5746480942.0
-          },
           {
             "date": "2025-11-17",
             "supply_usd": 5746946832.0
@@ -6514,33 +6534,33 @@
           },
           {
             "date": "2026-11-17",
-            "supply_usd": 5240722755.74
+            "supply_usd": 5240722756.0
+          },
+          {
+            "date": "2026-11-18",
+            "supply_usd": 5242090761.37
           }
         ]
       }
     },
     "total": {
       "label": "USDT + USDC + USDe + USDS",
-      "supply_usd": 254722639360.9699,
+      "supply_usd": 254624893847.51733,
       "changes": {
         "1d": {
-          "usd": -141711933.87698364,
-          "pct": -0.05560288567506566
+          "usd": -164477123.42721558,
+          "pct": -0.06455415420212329
         },
         "7d": {
-          "usd": -2310679732.116089,
-          "pct": -0.8989806225391583
+          "usd": -1543776643.006195,
+          "pct": -0.6026406898431813
         },
         "30d": {
-          "usd": -12800360365.109924,
-          "pct": -4.7847700490112555
+          "usd": -12891648237.244507,
+          "pct": -4.81900974675421
         }
       },
       "history": [
-        {
-          "date": "2025-11-16",
-          "supply_usd": 272212346407.0
-        },
         {
           "date": "2025-11-17",
           "supply_usd": 272078048733.0
@@ -8003,7 +8023,11 @@
         },
         {
           "date": "2026-11-17",
-          "supply_usd": 254975538292.25
+          "supply_usd": 254975538293.0
+        },
+        {
+          "date": "2026-11-18",
+          "supply_usd": 254811019234.90002
         }
       ]
     },
@@ -8037,13 +8061,20 @@
           "usdt_supply_usd": 175223909832.6158,
           "usdt_dominance_pct": 7.99960799732284,
           "total_crypto_market_cap_usd": 2191557131292.5774
+        },
+        {
+          "date": "2026-11-18",
+          "observed_at": "2026-11-18T01:58:23.681448+00:00",
+          "usdt_supply_usd": 175236659099.5422,
+          "usdt_dominance_pct": 7.931374158795819,
+          "total_crypto_market_cap_usd": 2210204580073.5537
         }
       ],
       "signals": {
         "1d": {
-          "status": "warning",
-          "dominance_change_pp": 0.10810138377037415,
-          "supply_change_usd": -65396309.178222656
+          "status": "normal",
+          "dominance_change_pp": -0.06823383852702047,
+          "supply_change_usd": 12749266.926391602
         },
         "7d": {
           "status": "insufficient_data",
@@ -8057,18 +8088,12 @@
         }
       }
     },
-    "alerts": [
-      {
-        "type": "liquidity_contraction",
-        "period": "1d",
-        "message": "USDT dominansı yükselirken arzı azalıyor: likidite daralması uyarısı."
-      }
-    ],
+    "alerts": [],
     "reading": "İzlenen dört stablecoin'in 7 günlük arzı daralıyor; kripto likiditesi için baskı göstergesi.",
     "methodology": "Arz, $1 nominal değerle gösterilir; borsa net akışı veya BTC hareketinin kanıtlanmış nedeni değildir. Dominans günlük UTC gözlemleridir; geçmiş toplam piyasa değeri uydurulmaz. Peg uyarısı ≥%0,5, kritik ≥%1."
   },
   "coinalyze_all_exchange_count": 16,
-  "generated_at": "2026-11-17T18:52:39.532237+00:00",
+  "generated_at": "2026-11-18T01:57:56.151202+00:00",
   "sector_rotation": {
     "method": "ALPHA equal-weight representative basket; every constituent normalized to 100 at the common start date, then averaged.",
     "window_days": 31,
@@ -8091,131 +8116,131 @@
         ],
         "points": [
           {
-            "date": "2026-10-18",
+            "date": "2026-10-19",
             "value": 100.0
           },
           {
-            "date": "2026-10-19",
-            "value": 100.15856761149665
-          },
-          {
             "date": "2026-10-20",
-            "value": 102.20580669298143
+            "value": 102.04528269847661
           },
           {
             "date": "2026-10-21",
-            "value": 102.83866508732702
+            "value": 102.67557984628479
           },
           {
             "date": "2026-10-22",
-            "value": 98.6404452671595
+            "value": 98.47758412444914
           },
           {
             "date": "2026-10-23",
-            "value": 98.23324760445668
+            "value": 98.06694452115975
           },
           {
             "date": "2026-10-24",
-            "value": 97.33943091905233
+            "value": 97.17449672077863
           },
           {
             "date": "2026-10-25",
-            "value": 96.48879339703878
+            "value": 96.32204804310796
           },
           {
             "date": "2026-10-26",
-            "value": 96.814934539031
+            "value": 96.64873469863487
           },
           {
             "date": "2026-10-27",
-            "value": 98.02821899175008
+            "value": 97.85261410642683
           },
           {
             "date": "2026-10-28",
-            "value": 98.76962655480031
+            "value": 98.5916195328238
           },
           {
             "date": "2026-10-29",
-            "value": 92.0522462688122
+            "value": 91.88415498391402
           },
           {
             "date": "2026-10-30",
-            "value": 94.33889387515357
+            "value": 94.1630473317865
           },
           {
             "date": "2026-10-31",
-            "value": 93.99099752535722
+            "value": 93.81967070010207
           },
           {
             "date": "2026-11-01",
-            "value": 94.01244367786556
+            "value": 93.84366248011624
           },
           {
             "date": "2026-11-02",
-            "value": 91.92934239527635
+            "value": 91.76487795596312
           },
           {
             "date": "2026-11-03",
-            "value": 92.68291669097108
+            "value": 92.52049926130769
           },
           {
             "date": "2026-11-04",
-            "value": 95.90874931942818
+            "value": 95.7419604611227
           },
           {
             "date": "2026-11-05",
-            "value": 89.4181517735446
+            "value": 89.25595209706307
           },
           {
             "date": "2026-11-06",
-            "value": 89.9597894208298
+            "value": 89.80173730434274
           },
           {
             "date": "2026-11-07",
-            "value": 89.00776824826376
+            "value": 88.85455340367969
           },
           {
             "date": "2026-11-08",
-            "value": 85.81063938203097
+            "value": 85.66250369230511
           },
           {
             "date": "2026-11-09",
-            "value": 87.25279904405392
+            "value": 87.1124944302263
           },
           {
             "date": "2026-11-10",
-            "value": 84.79152392578006
+            "value": 84.65420894044446
           },
           {
             "date": "2026-11-11",
-            "value": 84.63620401171333
+            "value": 84.50382083625395
           },
           {
             "date": "2026-11-12",
-            "value": 83.27032649828936
+            "value": 83.14156008739509
           },
           {
             "date": "2026-11-13",
-            "value": 80.83177119510411
+            "value": 80.70696969100466
           },
           {
             "date": "2026-11-14",
-            "value": 72.78526391310218
+            "value": 72.66450495341974
           },
           {
             "date": "2026-11-15",
-            "value": 75.63995206755412
+            "value": 75.51570035705154
           },
           {
             "date": "2026-11-16",
-            "value": 74.44226695448144
+            "value": 74.31862112696011
           },
           {
             "date": "2026-11-17",
-            "value": 73.99608974663518
+            "value": 75.77231802623066
+          },
+          {
+            "date": "2026-11-18",
+            "value": 74.5663745117679
           }
         ],
-        "return_pct": -26.003910253364822
+        "return_pct": -25.433625488232096
       },
       "L1": {
         "label": "L1",
@@ -8233,131 +8258,131 @@
         ],
         "points": [
           {
-            "date": "2026-10-18",
+            "date": "2026-10-19",
             "value": 100.0
           },
           {
-            "date": "2026-10-19",
-            "value": 99.49903166344544
-          },
-          {
             "date": "2026-10-20",
-            "value": 101.52909429219272
+            "value": 102.04412774403835
           },
           {
             "date": "2026-10-21",
-            "value": 102.24808263273289
+            "value": 102.77478810508401
           },
           {
             "date": "2026-10-22",
-            "value": 97.40731160979377
+            "value": 97.8889233429543
           },
           {
             "date": "2026-10-23",
-            "value": 96.3710497529439
+            "value": 96.83527079065426
           },
           {
             "date": "2026-10-24",
-            "value": 94.69015035884298
+            "value": 95.1556574653338
           },
           {
             "date": "2026-10-25",
-            "value": 93.86284455043685
+            "value": 94.32819847102566
           },
           {
             "date": "2026-10-26",
-            "value": 93.66348463299319
+            "value": 94.12894937236824
           },
           {
             "date": "2026-10-27",
-            "value": 93.8467268204236
+            "value": 94.31417240924637
           },
           {
             "date": "2026-10-28",
-            "value": 94.28076457598692
+            "value": 94.74404545617008
           },
           {
             "date": "2026-10-29",
-            "value": 86.33264919221152
+            "value": 86.74484766418274
           },
           {
             "date": "2026-10-30",
-            "value": 88.6039647013627
+            "value": 89.03757636941968
           },
           {
             "date": "2026-10-31",
-            "value": 88.17282422794169
+            "value": 88.621143532255
           },
           {
             "date": "2026-11-01",
-            "value": 87.63947207049443
+            "value": 88.08858813922187
           },
           {
             "date": "2026-11-02",
-            "value": 84.72880021385774
+            "value": 85.14975114230248
           },
           {
             "date": "2026-11-03",
-            "value": 85.30485517855395
+            "value": 85.73241658246044
           },
           {
             "date": "2026-11-04",
-            "value": 89.08347860041917
+            "value": 89.52818002801503
           },
           {
             "date": "2026-11-05",
-            "value": 82.52876824151814
+            "value": 82.9414402210206
           },
           {
             "date": "2026-11-06",
-            "value": 84.74598275201944
+            "value": 85.16366263738163
           },
           {
             "date": "2026-11-07",
-            "value": 83.81048529663452
+            "value": 84.22661905851032
           },
           {
             "date": "2026-11-08",
-            "value": 80.3546044528967
+            "value": 80.76093835895995
           },
           {
             "date": "2026-11-09",
-            "value": 82.34405268940742
+            "value": 82.7598230459653
           },
           {
             "date": "2026-11-10",
-            "value": 80.59900269703962
+            "value": 80.99642318561226
           },
           {
             "date": "2026-11-11",
-            "value": 80.35380403602895
+            "value": 80.75372385610578
           },
           {
             "date": "2026-11-12",
-            "value": 79.3695656155558
+            "value": 79.74572903105975
           },
           {
             "date": "2026-11-13",
-            "value": 77.25037110105589
+            "value": 77.62567198599146
           },
           {
             "date": "2026-11-14",
-            "value": 69.17187953023134
+            "value": 69.49830601400014
           },
           {
             "date": "2026-11-15",
-            "value": 72.01112001966544
+            "value": 72.35550392485166
           },
           {
             "date": "2026-11-16",
-            "value": 71.04825099479159
+            "value": 71.37525064830314
           },
           {
             "date": "2026-11-17",
-            "value": 70.16817556919678
+            "value": 72.81845017573555
+          },
+          {
+            "date": "2026-11-18",
+            "value": 71.65747003486653
           }
         ],
-        "return_pct": -29.831824430803223
+        "return_pct": -28.342529965133465
       },
       "L2": {
         "label": "L2",
@@ -8370,131 +8395,131 @@
         ],
         "points": [
           {
-            "date": "2026-10-18",
+            "date": "2026-10-19",
             "value": 100.0
           },
           {
-            "date": "2026-10-19",
-            "value": 100.47541754056297
-          },
-          {
             "date": "2026-10-20",
-            "value": 100.49772526392692
+            "value": 100.06889997896039
           },
           {
             "date": "2026-10-21",
-            "value": 100.90232340364646
+            "value": 100.46849737857015
           },
           {
             "date": "2026-10-22",
-            "value": 93.48646307263309
+            "value": 93.05749349222816
           },
           {
             "date": "2026-10-23",
-            "value": 90.36188467969036
+            "value": 89.91806404559883
           },
           {
             "date": "2026-10-24",
-            "value": 88.61455216761784
+            "value": 88.14612292717186
           },
           {
             "date": "2026-10-25",
-            "value": 87.59024096663714
+            "value": 87.10425714782123
           },
           {
             "date": "2026-10-26",
-            "value": 88.75642180074757
+            "value": 88.287490635652
           },
           {
             "date": "2026-10-27",
-            "value": 88.39763685032253
+            "value": 87.9186587006134
           },
           {
             "date": "2026-10-28",
-            "value": 89.02365484419488
+            "value": 88.53649506375584
           },
           {
             "date": "2026-10-29",
-            "value": 81.49258568214105
+            "value": 81.03809512693121
           },
           {
             "date": "2026-10-30",
-            "value": 88.29519083786803
+            "value": 87.82081293848208
           },
           {
             "date": "2026-10-31",
-            "value": 88.65747871874393
+            "value": 88.15707847752493
           },
           {
             "date": "2026-11-01",
-            "value": 88.20937330719161
+            "value": 87.68715175800901
           },
           {
             "date": "2026-11-02",
-            "value": 85.27284046788135
+            "value": 84.77567333118256
           },
           {
             "date": "2026-11-03",
-            "value": 86.81382670902413
+            "value": 86.31090800318272
           },
           {
             "date": "2026-11-04",
-            "value": 90.29773810440595
+            "value": 89.74806861544121
           },
           {
             "date": "2026-11-05",
-            "value": 85.13820898541363
+            "value": 84.5796785448022
           },
           {
             "date": "2026-11-06",
-            "value": 87.68839549194053
+            "value": 87.10822582774281
           },
           {
             "date": "2026-11-07",
-            "value": 86.8029892302736
+            "value": 86.19352333942757
           },
           {
             "date": "2026-11-08",
-            "value": 82.55641439067946
+            "value": 81.93105252824422
           },
           {
             "date": "2026-11-09",
-            "value": 84.53055194900477
+            "value": 83.87652478760126
           },
           {
             "date": "2026-11-10",
-            "value": 82.36242383092981
+            "value": 81.77561212910751
           },
           {
             "date": "2026-11-11",
-            "value": 80.31875820938302
+            "value": 79.76914525887263
           },
           {
             "date": "2026-11-12",
-            "value": 79.53307311779048
+            "value": 79.00888855936236
           },
           {
             "date": "2026-11-13",
-            "value": 77.2195425962334
+            "value": 76.732000745007
           },
           {
             "date": "2026-11-14",
-            "value": 69.47486562954508
+            "value": 69.0309429003406
           },
           {
             "date": "2026-11-15",
-            "value": 72.0574139084825
+            "value": 71.59198249309159
           },
           {
             "date": "2026-11-16",
-            "value": 70.1832061479785
+            "value": 69.73483278319577
           },
           {
             "date": "2026-11-17",
-            "value": 69.98518455337947
+            "value": 71.42174132417233
+          },
+          {
+            "date": "2026-11-18",
+            "value": 69.89990556817152
           }
         ],
-        "return_pct": -30.01481544662053
+        "return_pct": -30.10009443182848
       },
       "DEFI": {
         "label": "DEFI",
@@ -8511,131 +8536,131 @@
         ],
         "points": [
           {
-            "date": "2026-10-18",
+            "date": "2026-10-19",
             "value": 100.0
           },
           {
-            "date": "2026-10-19",
-            "value": 101.29706395021428
-          },
-          {
             "date": "2026-10-20",
-            "value": 107.86401937319373
+            "value": 106.46161819130076
           },
           {
             "date": "2026-10-21",
-            "value": 110.30169490698101
+            "value": 108.86138208941117
           },
           {
             "date": "2026-10-22",
-            "value": 103.47561751819909
+            "value": 102.1368696582843
           },
           {
             "date": "2026-10-23",
-            "value": 102.71458114359682
+            "value": 101.38888383222144
           },
           {
             "date": "2026-10-24",
-            "value": 101.5063757264405
+            "value": 100.17967708449035
           },
           {
             "date": "2026-10-25",
-            "value": 99.56962153254193
+            "value": 98.28285986376973
           },
           {
             "date": "2026-10-26",
-            "value": 100.38597326348089
+            "value": 99.0933603311941
           },
           {
             "date": "2026-10-27",
-            "value": 99.38773717432876
+            "value": 98.10406677811017
           },
           {
             "date": "2026-10-28",
-            "value": 100.45122894835494
+            "value": 99.1571268435746
           },
           {
             "date": "2026-10-29",
-            "value": 88.96669198814942
+            "value": 87.81377280094677
           },
           {
             "date": "2026-10-30",
-            "value": 91.83120969006951
+            "value": 90.67441780747288
           },
           {
             "date": "2026-10-31",
-            "value": 91.9279438757875
+            "value": 90.78225471879429
           },
           {
             "date": "2026-11-01",
-            "value": 91.74679874719955
+            "value": 90.60551096465593
           },
           {
             "date": "2026-11-02",
-            "value": 87.83470142112934
+            "value": 86.73705157380361
           },
           {
             "date": "2026-11-03",
-            "value": 88.04873031517
+            "value": 86.95848251954361
           },
           {
             "date": "2026-11-04",
-            "value": 91.70172521288443
+            "value": 90.56584354417875
           },
           {
             "date": "2026-11-05",
-            "value": 84.9862455098603
+            "value": 83.94976337381378
           },
           {
             "date": "2026-11-06",
-            "value": 86.6984365728465
+            "value": 85.63503475338103
           },
           {
             "date": "2026-11-07",
-            "value": 86.65131335251766
+            "value": 85.58568796169864
           },
           {
             "date": "2026-11-08",
-            "value": 82.78367372765477
+            "value": 81.76770202941644
           },
           {
             "date": "2026-11-09",
-            "value": 85.0979490805342
+            "value": 84.06019199766115
           },
           {
             "date": "2026-11-10",
-            "value": 82.82501191437387
+            "value": 81.80792984698543
           },
           {
             "date": "2026-11-11",
-            "value": 80.69374095704931
+            "value": 79.70536064020521
           },
           {
             "date": "2026-11-12",
-            "value": 79.09587210532077
+            "value": 78.11155079459357
           },
           {
             "date": "2026-11-13",
-            "value": 76.53791431076638
+            "value": 75.5862966319707
           },
           {
             "date": "2026-11-14",
-            "value": 68.48020575318843
+            "value": 67.63092924064902
           },
           {
             "date": "2026-11-15",
-            "value": 71.07372622683754
+            "value": 70.206293721967
           },
           {
             "date": "2026-11-16",
-            "value": 70.08660905885229
+            "value": 69.23078186914746
           },
           {
             "date": "2026-11-17",
-            "value": 69.65407535320345
+            "value": 70.60601792242113
+          },
+          {
+            "date": "2026-11-18",
+            "value": 69.26393139107307
           }
         ],
-        "return_pct": -30.345924646796547
+        "return_pct": -30.736068608926928
       },
       "MEME": {
         "label": "MEME",
@@ -8649,131 +8674,131 @@
         ],
         "points": [
           {
-            "date": "2026-10-18",
+            "date": "2026-10-19",
             "value": 100.0
           },
           {
-            "date": "2026-10-19",
-            "value": 101.29620285343452
-          },
-          {
             "date": "2026-10-20",
-            "value": 105.51543569431675
+            "value": 104.13811889415392
           },
           {
             "date": "2026-10-21",
-            "value": 107.16037379663021
+            "value": 105.76155007081174
           },
           {
             "date": "2026-10-22",
-            "value": 101.88221475911848
+            "value": 100.5547970062869
           },
           {
             "date": "2026-10-23",
-            "value": 102.69574240302302
+            "value": 101.34440071944682
           },
           {
             "date": "2026-10-24",
-            "value": 101.72568811106937
+            "value": 100.38978392677286
           },
           {
             "date": "2026-10-25",
-            "value": 98.41563872041895
+            "value": 97.13481461401517
           },
           {
             "date": "2026-10-26",
-            "value": 99.5128914412379
+            "value": 98.21818199433908
           },
           {
             "date": "2026-10-27",
-            "value": 101.2110169359305
+            "value": 99.87151785706637
           },
           {
             "date": "2026-10-28",
-            "value": 104.75255190911254
+            "value": 103.33296169120256
           },
           {
             "date": "2026-10-29",
-            "value": 95.97355739409271
+            "value": 94.68007018170765
           },
           {
             "date": "2026-10-30",
-            "value": 101.80404800473286
+            "value": 100.41420292508656
           },
           {
             "date": "2026-10-31",
-            "value": 100.16253068994841
+            "value": 98.78044366676284
           },
           {
             "date": "2026-11-01",
-            "value": 99.97337133995835
+            "value": 98.60650045089274
           },
           {
             "date": "2026-11-02",
-            "value": 96.87939670313962
+            "value": 95.5504245429596
           },
           {
             "date": "2026-11-03",
-            "value": 98.30039590926059
+            "value": 96.9508864616095
           },
           {
             "date": "2026-11-04",
-            "value": 100.52246896117516
+            "value": 99.14615812674391
           },
           {
             "date": "2026-11-05",
-            "value": 94.55206901829386
+            "value": 93.24257117496495
           },
           {
             "date": "2026-11-06",
-            "value": 96.41059218030585
+            "value": 95.06338478934187
           },
           {
             "date": "2026-11-07",
-            "value": 95.1543120327052
+            "value": 93.83131620049865
           },
           {
             "date": "2026-11-08",
-            "value": 92.67902219875414
+            "value": 91.36536004071074
           },
           {
             "date": "2026-11-09",
-            "value": 94.73122504493993
+            "value": 93.38312359605881
           },
           {
             "date": "2026-11-10",
-            "value": 95.81880519141505
+            "value": 94.43023233509034
           },
           {
             "date": "2026-11-11",
-            "value": 90.93304854658719
+            "value": 89.68339958342297
           },
           {
             "date": "2026-11-12",
-            "value": 90.06378330890351
+            "value": 88.81957259877812
           },
           {
             "date": "2026-11-13",
-            "value": 88.00301733211637
+            "value": 86.79064452301645
           },
           {
             "date": "2026-11-14",
-            "value": 77.7615655074267
+            "value": 76.69098960588533
           },
           {
             "date": "2026-11-15",
-            "value": 79.8885611078111
+            "value": 78.80198539927673
           },
           {
             "date": "2026-11-16",
-            "value": 79.23945709422067
+            "value": 78.1531390988326
           },
           {
             "date": "2026-11-17",
-            "value": 77.59190399747591
+            "value": 78.61804110601453
+          },
+          {
+            "date": "2026-11-18",
+            "value": 77.45855778162836
           }
         ],
-        "return_pct": -22.40809600252409
+        "return_pct": -22.541442218371643
       },
       "AI": {
         "label": "AI",
@@ -8785,131 +8810,131 @@
         ],
         "points": [
           {
-            "date": "2026-10-18",
+            "date": "2026-10-19",
             "value": 100.0
           },
           {
-            "date": "2026-10-19",
-            "value": 100.29483350446617
-          },
-          {
             "date": "2026-10-20",
-            "value": 102.70556710292769
+            "value": 102.4020090156089
           },
           {
             "date": "2026-10-21",
-            "value": 103.38794907575519
+            "value": 103.08387616735384
           },
           {
             "date": "2026-10-22",
-            "value": 97.18693893831987
+            "value": 96.89882734462066
           },
           {
             "date": "2026-10-23",
-            "value": 95.72190689879062
+            "value": 95.44062404243121
           },
           {
             "date": "2026-10-24",
-            "value": 94.369822369653
+            "value": 94.09251281106748
           },
           {
             "date": "2026-10-25",
-            "value": 93.94461940337402
+            "value": 93.67691055269317
           },
           {
             "date": "2026-10-26",
-            "value": 93.51249375743889
+            "value": 93.245001465322
           },
           {
             "date": "2026-10-27",
-            "value": 95.1362314298852
+            "value": 94.85548751006272
           },
           {
             "date": "2026-10-28",
-            "value": 95.43363563024018
+            "value": 95.15282499031301
           },
           {
             "date": "2026-10-29",
-            "value": 85.84169039657363
+            "value": 85.59401835270566
           },
           {
             "date": "2026-10-30",
-            "value": 88.84912137631694
+            "value": 88.58850629597899
           },
           {
             "date": "2026-10-31",
-            "value": 86.96864233181702
+            "value": 86.72048989037134
           },
           {
             "date": "2026-11-01",
-            "value": 87.53400782295768
+            "value": 87.27824842060838
           },
           {
             "date": "2026-11-02",
-            "value": 84.02682415373243
+            "value": 83.7768396165228
           },
           {
             "date": "2026-11-03",
-            "value": 84.3756444963526
+            "value": 84.12353751829133
           },
           {
             "date": "2026-11-04",
-            "value": 87.83479602034461
+            "value": 87.57940139491973
           },
           {
             "date": "2026-11-05",
-            "value": 80.8683957269949
+            "value": 80.63900695942883
           },
           {
             "date": "2026-11-06",
-            "value": 83.40774913640364
+            "value": 83.17844721534543
           },
           {
             "date": "2026-11-07",
-            "value": 82.8892637884617
+            "value": 82.6626278687538
           },
           {
             "date": "2026-11-08",
-            "value": 79.78275506754665
+            "value": 79.57234040441422
           },
           {
             "date": "2026-11-09",
-            "value": 82.36769733569176
+            "value": 82.15064152994468
           },
           {
             "date": "2026-11-10",
-            "value": 81.72838364061653
+            "value": 81.51398312418308
           },
           {
             "date": "2026-11-11",
-            "value": 81.13282366499217
+            "value": 80.90926626998896
           },
           {
             "date": "2026-11-12",
-            "value": 80.25501682737855
+            "value": 80.02795501835014
           },
           {
             "date": "2026-11-13",
-            "value": 80.04689841396842
+            "value": 79.82874343659064
           },
           {
             "date": "2026-11-14",
-            "value": 69.14311274776696
+            "value": 68.95810786679536
           },
           {
             "date": "2026-11-15",
-            "value": 72.21807965171142
+            "value": 72.02754919422615
           },
           {
             "date": "2026-11-16",
-            "value": 71.0194487915889
+            "value": 70.83107773213217
           },
           {
             "date": "2026-11-17",
-            "value": 69.51728599661968
+            "value": 73.29513304974267
+          },
+          {
+            "date": "2026-11-18",
+            "value": 71.62667928386331
           }
         ],
-        "return_pct": -30.482714003380323
+        "return_pct": -28.37332071613669
       },
       "DEPIN": {
         "label": "DEPIN",
@@ -8921,131 +8946,131 @@
         ],
         "points": [
           {
-            "date": "2026-10-18",
+            "date": "2026-10-19",
             "value": 100.0
           },
           {
-            "date": "2026-10-19",
-            "value": 99.54420682724661
-          },
-          {
             "date": "2026-10-20",
-            "value": 103.52015853312508
+            "value": 103.98329697985216
           },
           {
             "date": "2026-10-21",
-            "value": 103.95818321219242
+            "value": 104.43484416987548
           },
           {
             "date": "2026-10-22",
-            "value": 97.43507459801161
+            "value": 97.87832633386675
           },
           {
             "date": "2026-10-23",
-            "value": 96.1889862097118
+            "value": 96.62211551328146
           },
           {
             "date": "2026-10-24",
-            "value": 94.54734229564863
+            "value": 94.97093482877825
           },
           {
             "date": "2026-10-25",
-            "value": 92.98119090142819
+            "value": 93.39999339154917
           },
           {
             "date": "2026-10-26",
-            "value": 92.43881107250411
+            "value": 92.85031190479941
           },
           {
             "date": "2026-10-27",
-            "value": 92.68717219600327
+            "value": 93.09085750966067
           },
           {
             "date": "2026-10-28",
-            "value": 92.61640895673757
+            "value": 93.0228042667804
           },
           {
             "date": "2026-10-29",
-            "value": 83.15811867226213
+            "value": 83.5271311475934
           },
           {
             "date": "2026-10-30",
-            "value": 85.66814775500566
+            "value": 86.05900604285961
           },
           {
             "date": "2026-10-31",
-            "value": 84.56727834900211
+            "value": 84.96085220458326
           },
           {
             "date": "2026-11-01",
-            "value": 84.72615816409534
+            "value": 85.12637096049863
           },
           {
             "date": "2026-11-02",
-            "value": 81.83036494949711
+            "value": 82.22752222347893
           },
           {
             "date": "2026-11-03",
-            "value": 82.19329050214371
+            "value": 82.57798750805935
           },
           {
             "date": "2026-11-04",
-            "value": 86.022279038543
+            "value": 86.41002983968778
           },
           {
             "date": "2026-11-05",
-            "value": 78.4015578792466
+            "value": 78.75245652004097
           },
           {
             "date": "2026-11-06",
-            "value": 82.37585003872103
+            "value": 82.73879918170458
           },
           {
             "date": "2026-11-07",
-            "value": 80.84393575365121
+            "value": 81.19098504063646
           },
           {
             "date": "2026-11-08",
-            "value": 77.28687447537727
+            "value": 77.61414754318565
           },
           {
             "date": "2026-11-09",
-            "value": 80.26964261712683
+            "value": 80.60251106637365
           },
           {
             "date": "2026-11-10",
-            "value": 80.65672023578031
+            "value": 80.98558972233899
           },
           {
             "date": "2026-11-11",
-            "value": 78.74318261168182
+            "value": 79.07444350307738
           },
           {
             "date": "2026-11-12",
-            "value": 77.53625564150347
+            "value": 77.8656403220123
           },
           {
             "date": "2026-11-13",
-            "value": 76.80305978522388
+            "value": 77.11561984443449
           },
           {
             "date": "2026-11-14",
-            "value": 67.71838286496748
+            "value": 67.99288073245184
           },
           {
             "date": "2026-11-15",
-            "value": 68.89347642839536
+            "value": 69.16848308589147
           },
           {
             "date": "2026-11-16",
-            "value": 67.61108349101994
+            "value": 67.88381956362721
           },
           {
             "date": "2026-11-17",
-            "value": 66.1266556584353
+            "value": 70.08513882519601
+          },
+          {
+            "date": "2026-11-18",
+            "value": 68.63465420271348
           }
         ],
-        "return_pct": -33.8733443415647
+        "return_pct": -31.365345797286523
       }
     },
     "unsupported": [
@@ -9057,53 +9082,46 @@
     "ok": true,
     "points": [
       {
-        "date": "2026-08-19",
-        "inflow_btc": 28280.09508818,
-        "outflow_btc": 35336.14125978,
-        "netflow_btc": -7056.046171599999,
-        "ma7_btc": -7056.046171599999
-      },
-      {
         "date": "2026-08-20",
         "inflow_btc": 31441.28890682,
         "outflow_btc": 50555.20323531,
         "netflow_btc": -19113.914328490002,
-        "ma7_btc": -13084.980250045
+        "ma7_btc": -19113.914328490002
       },
       {
         "date": "2026-08-21",
         "inflow_btc": 44593.21111191,
         "outflow_btc": 44534.58007658,
         "netflow_btc": 58.63103532999958,
-        "ma7_btc": -8703.776488253334
+        "ma7_btc": -9527.641646580001
       },
       {
         "date": "2026-08-22",
         "inflow_btc": 19439.57718069,
         "outflow_btc": 16684.13543387,
         "netflow_btc": 2755.441746820001,
-        "ma7_btc": -5838.971929485
+        "ma7_btc": -5433.280515446667
       },
       {
         "date": "2026-08-23",
         "inflow_btc": 9268.07223511,
         "outflow_btc": 13150.07529867,
         "netflow_btc": -3882.0030635600015,
-        "ma7_btc": -5447.5781563
+        "ma7_btc": -5045.461152475001
       },
       {
         "date": "2026-08-24",
         "inflow_btc": 25421.5455594,
         "outflow_btc": 34158.22105624,
         "netflow_btc": -8736.675496839998,
-        "ma7_btc": -5995.761046390001
+        "ma7_btc": -5783.704021348
       },
       {
         "date": "2026-08-25",
         "inflow_btc": 26812.93213473,
         "outflow_btc": 27543.59351411,
         "netflow_btc": -730.6613793800025,
-        "ma7_btc": -5243.6039511028575
+        "ma7_btc": -4941.530247686667
       },
       {
         "date": "2026-08-26",
@@ -9685,11 +9703,18 @@
         "outflow_btc": 26181.76489357,
         "netflow_btc": 2560.98630891,
         "ma7_btc": -441.5293645228568
+      },
+      {
+        "date": "2026-11-17",
+        "inflow_btc": 28667.92253367,
+        "outflow_btc": 33042.6716084,
+        "netflow_btc": -4374.74907473,
+        "ma7_btc": -2026.7402206785712
       }
     ],
     "error": null,
     "method": "Exchange netflow = labeled-wallet inflow - labeled-wallet outflow. Positive = net coins moving to exchanges; negative = net coins leaving exchanges.",
     "note": null
   },
-  "crypto_intelligence_ext_generated_at": "2026-11-17T18:56:40.675555+00:00"
+  "crypto_intelligence_ext_generated_at": "2026-11-18T02:01:41.706276+00:00"
 }
