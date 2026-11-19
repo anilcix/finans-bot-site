@@ -1,13 +1,13 @@
 {
-  "market_score": 34.7,
+  "market_score": 34.4,
   "stance": "Temkinli Risk-Off",
   "confidence": 75.0,
   "component_scores": {
     "macro": 34.2,
     "credit": 5,
     "options": 32,
-    "crypto": 41.9,
-    "crypto_derivatives": 33,
+    "crypto": 39.5,
+    "crypto_derivatives": 31,
     "equities": 35.3,
     "news": 50
   },
@@ -19,32 +19,62 @@
   "news_analysis": {
     "score": 50,
     "tone": "Karışık / Nötr",
-    "summary": "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 0 risk artırıcı, 13 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
+    "summary": "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 0 risk artırıcı, 12 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
     "positive_count": 0,
     "negative_count": 0,
-    "neutral_count": 13,
-    "headline_count": 13,
-    "unique_story_count": 13,
+    "neutral_count": 12,
+    "headline_count": 12,
+    "unique_story_count": 12,
     "article_context_count": 0,
     "topic_summaries": [
       {
         "topic": "Bitcoin",
         "tone": "karışık",
         "count": 10,
-        "digest": "A $1.5 billion crypto startup is taking on vadeli piyasa with a Wall Street playbook | Crypto Long & Short: Crypto exchanges shouldn’t double as the vault",
+        "digest": "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal | Payward, the owner of crypto exchange vadeli piyasa, is buying its CEO’s venture capital business, Tribe",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-3.2; çoklu-borsa OI 24s %+2.0; OI-ağırlıklı funding %+0.0038."
+        "data_confirmation": "BTC 24s %-1.3; çoklu-borsa OI 24s %+0.3; OI-ağırlıklı funding %+0.0047."
       },
       {
         "topic": "Makro / Fed / Hazine",
         "tone": "karışık",
-        "count": 3,
+        "count": 2,
         "digest": "Çalışma İstatistikleri Bürosu, çalışma ekonomisi ve istatistiklerinin geniş alanında Federal Hükümetin başlıca bilgi toplama kurumudur. 2025 yılında işverenler, özel sektörde 2024'e göre yüzde 3,0 düşüşle 2,4 milyon yaralanma ve hastalık vakası bildirdi. | Ekonomik Analiz Bürosu, ülke, 50 eyaletin tamamı ve Columbia Bölgesi için açık hava rekreasyon ekonomisini ölçen yeni istatistikler yayınladı. Yeni veriler, açık hava rekreasyon ekonomisinin katma değerinin, 2025 yılında ülkenin cari dolar cinsinden gayri safi yurt içi hasılasının (GSYH) yüzde…",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
         "data_confirmation": "Makro skor 34/100; 30Y değişim +0.03 puan."
       }
     ],
     "important_news": [
+      {
+        "title": "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
+        "link": "https://www.coindesk.com/markets/2026/11/19/bitcoin-miner-that-sold-its-last-btc-warns-it-may-run-short-of-cash-for-usd1-2-billion-ai-deal",
+        "published_at": "2026-11-19T04:46:10+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
+        "summary_mode": "headline_only",
+        "read_mode": "trusted_feed_headline",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.3; çoklu-borsa OI 24s %+0.3; OI-ağırlıklı funding %+0.0047.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %-1.3; çoklu-borsa OI 24s %+0.3; OI-ağırlıklı funding %+0.0047."
+      },
+      {
+        "title": "Payward, the owner of crypto exchange vadeli piyasa, is buying its CEO’s venture capital business, Tribe",
+        "link": "https://www.coindesk.com/business/2026/11/18/payward-the-owner-of-crypto-exchange-kraken-is-buying-its-ceo-s-venture-capital-business-tribe",
+        "published_at": "2026-11-18T22:30:00+00:00",
+        "topic": "Bitcoin",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Payward, the owner of crypto exchange vadeli piyasa, is buying its CEO’s venture capital business, Tribe",
+        "summary_mode": "headline_only",
+        "read_mode": "trusted_feed_headline",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.3; çoklu-borsa OI 24s %+0.3; OI-ağırlıklı funding %+0.0047.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %-1.3; çoklu-borsa OI 24s %+0.3; OI-ağırlıklı funding %+0.0047."
+      },
       {
         "title": "A $1.5 billion crypto startup is taking on vadeli piyasa with a Wall Street playbook",
         "link": "https://www.coindesk.com/business/2026/11/18/a-usd1-5-billion-crypto-startup-is-taking-on-hyperliquid-with-a-wall-street-playbook",
@@ -56,9 +86,9 @@
         "brief_summary": "A $1.5 billion crypto startup is taking on vadeli piyasa with a Wall Street playbook",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.2; çoklu-borsa OI 24s %+2.0; OI-ağırlıklı funding %+0.0038.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.3; çoklu-borsa OI 24s %+0.3; OI-ağırlıklı funding %+0.0047.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-3.2; çoklu-borsa OI 24s %+2.0; OI-ağırlıklı funding %+0.0038."
+        "data_confirmation": "BTC 24s %-1.3; çoklu-borsa OI 24s %+0.3; OI-ağırlıklı funding %+0.0047."
       },
       {
         "title": "Crypto Long & Short: Crypto exchanges shouldn’t double as the vault",
@@ -71,9 +101,9 @@
         "brief_summary": "Crypto Long & Short: Crypto exchanges shouldn’t double as the vault",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.2; çoklu-borsa OI 24s %+2.0; OI-ağırlıklı funding %+0.0038.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.3; çoklu-borsa OI 24s %+0.3; OI-ağırlıklı funding %+0.0047.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-3.2; çoklu-borsa OI 24s %+2.0; OI-ağırlıklı funding %+0.0038."
+        "data_confirmation": "BTC 24s %-1.3; çoklu-borsa OI 24s %+0.3; OI-ağırlıklı funding %+0.0047."
       },
       {
         "title": "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
@@ -86,9 +116,9 @@
         "brief_summary": "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.2; çoklu-borsa OI 24s %+2.0; OI-ağırlıklı funding %+0.0038.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.3; çoklu-borsa OI 24s %+0.3; OI-ağırlıklı funding %+0.0047.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-3.2; çoklu-borsa OI 24s %+2.0; OI-ağırlıklı funding %+0.0038."
+        "data_confirmation": "BTC 24s %-1.3; çoklu-borsa OI 24s %+0.3; OI-ağırlıklı funding %+0.0047."
       },
       {
         "title": "Hong Kong wants banks to use AI to catch crypto crime before money disappears",
@@ -101,9 +131,9 @@
         "brief_summary": "Hong Kong wants banks to use AI to catch crypto crime before money disappears",
         "summary_mode": "headline_only",
         "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.2; çoklu-borsa OI 24s %+2.0; OI-ağırlıklı funding %+0.0038.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.3; çoklu-borsa OI 24s %+0.3; OI-ağırlıklı funding %+0.0047.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-3.2; çoklu-borsa OI 24s %+2.0; OI-ağırlıklı funding %+0.0038."
+        "data_confirmation": "BTC 24s %-1.3; çoklu-borsa OI 24s %+0.3; OI-ağırlıklı funding %+0.0047."
       },
       {
         "title": "Major Economic Indicators Latest Numbers",
@@ -119,43 +149,12 @@
         "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 34/100; 30Y değişim +0.03 puan.",
         "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
         "data_confirmation": "Makro skor 34/100; 30Y değişim +0.03 puan."
-      },
-      {
-        "title": "Outdoor Recreation Economic Statistics, U.S. and States, 2025",
-        "link": "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2025",
-        "published_at": "2026-11-18T15:00:00+00:00",
-        "topic": "Makro / Fed / Hazine",
-        "theme": "macro",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Ekonomik Analiz Bürosu, ülke, 50 eyaletin tamamı ve Columbia Bölgesi için açık hava rekreasyon ekonomisini ölçen yeni istatistikler yayınladı. Yeni veriler, açık hava rekreasyon ekonomisinin katma değerinin, 2025 yılında ülkenin cari dolar cinsinden gayri safi yurt içi hasılasının (GSYH) yüzde…",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur. Veri teyidi: Makro skor 34/100; 30Y değişim +0.03 puan.",
-        "interpretation": "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler.",
-        "data_confirmation": "Makro skor 34/100; 30Y değişim +0.03 puan."
-      },
-      {
-        "title": "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans",
-        "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-miner-mara-raises-usd185-million-in-debt-after-selling-usd1-billion-btc-to-repay-loans",
-        "published_at": "2026-11-18T12:53:34+00:00",
-        "topic": "Bitcoin",
-        "theme": "crypto",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans",
-        "summary_mode": "headline_only",
-        "read_mode": "trusted_feed_headline",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-3.2; çoklu-borsa OI 24s %+2.0; OI-ağırlıklı funding %+0.0038.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-3.2; çoklu-borsa OI 24s %+2.0; OI-ağırlıklı funding %+0.0038."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
   },
   "supportive_factors": [
-    "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
-    "vadeli piyasa ve vadeli piyasa funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü."
+    "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor."
   ],
   "risk_factors": [
     "Enflasyon seviyesi hâlâ makro rahatlama alanını sınırlıyor.",
@@ -163,13 +162,13 @@
     "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük.",
     "Kredi döngüsü Contraction (Kriz); kredi rejimi risk iştahını sınırlıyor.",
     "CCC spreadi %13.29 ve son 3 ayda +2.94 puan genişledi; düşük kaliteli kredide gizli stres var.",
-    "Stablecoin piyasa değeri 7 günde %-1.17; kripto içi likidite daralıyor.",
-    "Kripto opsiyon IV Rank %100; oynaklık tarihsel olarak yüksek, yükselişi kovalamak riskli."
+    "Stablecoin piyasa değeri 7 günde %-1.23; kripto içi likidite daralıyor.",
+    "Kripto opsiyon IV Rank %99; oynaklık tarihsel olarak yüksek, yükselişi kovalamak riskli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %-3.2, ETH %-2.5.",
+    "Kriptoda spot momentum: BTC 24s %-1.3, ETH %-0.1.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 0 risk artırıcı, 13 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
+    "Son 96 saatte haber akışı karışık / nötr: 0 destekleyici, 0 risk artırıcı, 12 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
   "investment_view": {
@@ -364,7 +363,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-11-18T22:29:59.167970+00:00"
+    "generated_at": "2026-11-19T05:14:06.285637+00:00"
   },
   "buyback_news": [],
   "agent_status": {
@@ -379,5 +378,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-11-18T22:26:21.027705+00:00"
+  "generated_at": "2026-11-19T05:10:16.739812+00:00"
 }
