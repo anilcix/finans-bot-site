@@ -1,51 +1,51 @@
 {
   "btc": {
-    "price": 61223,
-    "change_24h": 1.7601458367671785
+    "price": 61129,
+    "change_24h": 0.7802366659820109
   },
   "eth": {
-    "price": 1719.69,
-    "change_24h": 2.2890180232855806
+    "price": 1719.49,
+    "change_24h": 1.1061229106520911
   },
   "global": {
-    "total_usd": 2081257309355.6545,
-    "total2_usd": 855631149110.907,
-    "total3_usd": 646142298194.0865,
-    "btc_dominance": 58.888737818977056,
-    "eth_dominance": 10.065495024335885
+    "total_usd": 2090608210828.8496,
+    "total2_usd": 861170488692.3031,
+    "total3_usd": 650879812987.7114,
+    "btc_dominance": 58.807657779604696,
+    "eth_dominance": 10.058827599324273
   },
-  "usdt_market_cap_usd": 174615912502.89694,
-  "usdt_dominance": 8.38992428845605,
-  "stablecoin_supply_usd": 285140167847,
-  "stablecoin_market_cap_usd": 283722437085.5367,
-  "stablecoin_7d_change_pct": -1.427919407534295,
+  "usdt_market_cap_usd": 174706502837.7235,
+  "usdt_dominance": 8.356730923220605,
+  "stablecoin_supply_usd": 284898277232,
+  "stablecoin_market_cap_usd": 284572709757.32806,
+  "stablecoin_7d_change_pct": -1.1885905167084432,
   "defi": {
     "ok": true,
-    "total_tvl_usd": 69351956214.53363,
+    "total_tvl_usd": 69717573477.54175,
     "chains": {
-      "Arbitrum": 1247649663.0314972,
-      "Ethereum": 36261563767.92253,
-      "Base": 5115440590.907769,
-      "BSC": 4336979541.728651,
-      "Solana": 4627696294.351939,
-      "Bitcoin": 3043235935.1850605
+      "Base": 5145030707.689719,
+      "Ethereum": 36392518312.49527,
+      "Arbitrum": 1256502568.7003968,
+      "BSC": 4311046505.798453,
+      "Solana": 4712572919.439365,
+      "Bitcoin": 3062351952.4124217
     },
-    "stablecoin_market_cap_usd": 283722437085.5367,
-    "stablecoin_7d_change_pct": -1.427919407534295,
+    "stablecoin_market_cap_usd": 284572709757.32806,
+    "stablecoin_7d_change_pct": -1.1885905167084432,
     "errors": []
   },
   "network": {
     "ok": true,
     "btc": {
-      "date": "2026-11-21",
-      "active_addresses": 702867.0,
-      "active_addresses_3d_change_pct": 2.1974426902642508,
-      "active_addresses_7d_change_pct": 11.725265973934306,
-      "active_addresses_14d_change_pct": 14.75510740530912,
-      "transactions": 632365.0,
-      "transactions_3d_change_pct": -5.569808142590915,
-      "transactions_7d_change_pct": 32.44827131196813,
-      "transactions_14d_change_pct": 3.8915485691942253
+      "date": "2026-11-22",
+      "active_addresses": 565564.0,
+      "active_addresses_3d_change_pct": -20.934751640191074,
+      "active_addresses_7d_change_pct": 0.32693477801961635,
+      "active_addresses_14d_change_pct": -8.69694367133973,
+      "transactions": 713397.0,
+      "transactions_3d_change_pct": 11.11652799107825,
+      "transactions_7d_change_pct": -26.18101558959204,
+      "transactions_14d_change_pct": 63.90963105243568
     },
     "eth": {
       "date": "2026-11-22",
@@ -53,10 +53,10 @@
       "active_addresses_3d_change_pct": 34.04459672660267,
       "active_addresses_7d_change_pct": -9.493151074807582,
       "active_addresses_14d_change_pct": -13.7015642869604,
-      "transactions": null,
-      "transactions_3d_change_pct": null,
-      "transactions_7d_change_pct": null,
-      "transactions_14d_change_pct": null
+      "transactions": 1646141.0,
+      "transactions_3d_change_pct": -8.5962677600119,
+      "transactions_7d_change_pct": -13.187374749499003,
+      "transactions_14d_change_pct": -9.924525844686194
     },
     "error": null
   },
@@ -67,41 +67,67 @@
       "unit": "US$m",
       "days": [
         {
-          "date": "2026-11-20",
-          "total_usd_m": -124.5,
+          "date": "2026-11-23",
+          "total_usd_m": 0.0,
           "funds_usd_m": {}
+        },
+        {
+          "date": "2026-11-20",
+          "total_usd_m": -669.2,
+          "funds_usd_m": {
+            "IBIT": -544.7,
+            "FBTC": -72.4,
+            "BITB": -7.0,
+            "ARKB": 0.0,
+            "BTCO": 0.0,
+            "EZBC": -1.7,
+            "BRRR": 0.0,
+            "HODL": 0.0,
+            "BTCW": 0.0,
+            "MSBT": 2.3,
+            "GBTC": -32.8,
+            "BTC": -12.9
+          }
         },
         {
           "date": "2026-11-19",
           "total_usd_m": -582.3,
-          "funds_usd_m": {}
-        },
-        {
-          "date": "2026-11-18",
-          "total_usd_m": -306.5,
-          "funds_usd_m": {}
+          "funds_usd_m": {
+            "IBIT": -541.1,
+            "FBTC": -45.9,
+            "BITB": 0.0,
+            "ARKB": -31.3,
+            "BTCO": 0.0,
+            "EZBC": 0.0,
+            "BRRR": 0.0,
+            "HODL": 0.0,
+            "BTCW": 0.3,
+            "MSBT": 49.6,
+            "GBTC": -13.9,
+            "BTC": 0.0
+          }
         }
       ],
       "ok": true,
-      "transport": "direct"
+      "transport": "mmflow"
     },
     "eth": {
       "asset": "Ethereum",
       "unit": "US$m",
       "days": [
         {
+          "date": "2026-11-23",
+          "total_usd_m": 0.0,
+          "funds_usd_m": {}
+        },
+        {
           "date": "2026-11-20",
-          "total_usd_m": -13.2,
+          "total_usd_m": -97.3,
           "funds_usd_m": {}
         },
         {
           "date": "2026-11-19",
           "total_usd_m": -131.2,
-          "funds_usd_m": {}
-        },
-        {
-          "date": "2026-11-18",
-          "total_usd_m": -39.8,
           "funds_usd_m": {}
         }
       ],
@@ -120,52 +146,52 @@
         "exchange_code": "A",
         "symbol": "BTCUSDT_PERP.A",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 5717177679.0072,
-        "open_interest_24h_ago_usd": 5524750534.516999,
-        "open_interest_change_24h_pct": 3.4830015090812516,
-        "funding_pct": 0.002072,
-        "long_short_ratio": 2.1008,
-        "long_liquidations_24h_usd": 11142919.361800002,
-        "short_liquidations_24h_usd": 29188174.282300003,
-        "total_liquidations_24h_usd": 40331093.6441
+        "open_interest_usd": 5699764748.5968,
+        "open_interest_24h_ago_usd": 5727318606.125,
+        "open_interest_change_24h_pct": -0.48109524584040164,
+        "funding_pct": 0.00357,
+        "long_short_ratio": 2.0349,
+        "long_liquidations_24h_usd": 12285784.656299999,
+        "short_liquidations_24h_usd": 15794646.1765,
+        "total_liquidations_24h_usd": 28080430.8328
       },
       {
         "exchange": "vadeli piyasa",
         "exchange_code": "6",
         "symbol": "BTCUSDT.6",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 4171724993.6879997,
-        "open_interest_24h_ago_usd": 4099111244.4359,
-        "open_interest_change_24h_pct": 1.7714510517533588,
-        "funding_pct": -0.000161,
-        "long_short_ratio": 2.2938076416337285,
-        "long_liquidations_24h_usd": 4252995.7820999995,
-        "short_liquidations_24h_usd": 10448643.9139,
-        "total_liquidations_24h_usd": 14701639.695999999
+        "open_interest_usd": 4149914294.1088,
+        "open_interest_24h_ago_usd": 4155231246.0669,
+        "open_interest_change_24h_pct": -0.1279580279228143,
+        "funding_pct": 0.002046,
+        "long_short_ratio": 2.2733224222585924,
+        "long_liquidations_24h_usd": 2264980.4867,
+        "short_liquidations_24h_usd": 7877476.8278,
+        "total_liquidations_24h_usd": 10142457.3145
       },
       {
         "exchange": "vadeli piyasa",
         "exchange_code": "3",
         "symbol": "BTCUSDT_PERP.3",
         "symbol_on_exchange": "BTC-USDT-SWAP",
-        "open_interest_usd": 1950859660.9554992,
-        "open_interest_24h_ago_usd": 1891347503.312967,
-        "open_interest_change_24h_pct": 3.14654803193426,
-        "funding_pct": 0.0016698376438099999,
+        "open_interest_usd": 1942093155.9104776,
+        "open_interest_24h_ago_usd": 1939161449.972208,
+        "open_interest_change_24h_pct": 0.15118421100581703,
+        "funding_pct": 0.00162867834518,
         "long_short_ratio": null,
-        "long_liquidations_24h_usd": 3860049.6601099996,
-        "short_liquidations_24h_usd": 8451772.507920003,
-        "total_liquidations_24h_usd": 12311822.168030001
+        "long_liquidations_24h_usd": 1727321.0500099997,
+        "short_liquidations_24h_usd": 2785211.8757000007,
+        "total_liquidations_24h_usd": 4512532.92571
       },
       {
         "exchange": "vadeli piyasa",
         "exchange_code": "H",
         "symbol": "BTC.H",
         "symbol_on_exchange": "BTC",
-        "open_interest_usd": 2381258733.9803996,
-        "open_interest_24h_ago_usd": 2239090608.15018,
-        "open_interest_change_24h_pct": 6.349369039052499,
-        "funding_pct": 0.00092041,
+        "open_interest_usd": 2316448256.028,
+        "open_interest_24h_ago_usd": 2409798940.630066,
+        "open_interest_change_24h_pct": -3.873795569752325,
+        "funding_pct": 0.00125,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -176,10 +202,10 @@
         "exchange_code": "K",
         "symbol": "pf_xbtusd.K",
         "symbol_on_exchange": "pf_xbtusd",
-        "open_interest_usd": 122134517.1774,
-        "open_interest_24h_ago_usd": 128604088.36429998,
-        "open_interest_change_24h_pct": -5.030610822086368,
-        "funding_pct": 0.0007600220833333,
+        "open_interest_usd": 118019889.1442,
+        "open_interest_24h_ago_usd": 117891848.1969,
+        "open_interest_change_24h_pct": 0.10860882177887721,
+        "funding_pct": -0.0002303175,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -190,9 +216,9 @@
         "exchange_code": "2",
         "symbol": "BTC_USDC-PERPETUAL.2",
         "symbol_on_exchange": "BTC_USDC-PERPETUAL",
-        "open_interest_usd": 129311064.84745999,
-        "open_interest_24h_ago_usd": 129325232.93895,
-        "open_interest_change_24h_pct": -0.010955396072398482,
+        "open_interest_usd": 131798284.22417001,
+        "open_interest_24h_ago_usd": 131136368.46338,
+        "open_interest_change_24h_pct": 0.50475376781145,
         "funding_pct": 0.0,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
@@ -207,7 +233,7 @@
         "open_interest_usd": null,
         "open_interest_24h_ago_usd": null,
         "open_interest_change_24h_pct": null,
-        "funding_pct": 0.003251,
+        "funding_pct": 0.01,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -220,52 +246,52 @@
         "exchange_code": "A",
         "symbol": "BTCUSDT_PERP.A",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 5717177679.0072,
-        "open_interest_24h_ago_usd": 5524750534.516999,
-        "open_interest_change_24h_pct": 3.4830015090812516,
-        "funding_pct": 0.002072,
-        "long_short_ratio": 2.1008,
-        "long_liquidations_24h_usd": 11142919.361800002,
-        "short_liquidations_24h_usd": 29188174.282300003,
-        "total_liquidations_24h_usd": 40331093.6441
+        "open_interest_usd": 5699764748.5968,
+        "open_interest_24h_ago_usd": 5727318606.125,
+        "open_interest_change_24h_pct": -0.48109524584040164,
+        "funding_pct": 0.00357,
+        "long_short_ratio": 2.0349,
+        "long_liquidations_24h_usd": 12285784.656299999,
+        "short_liquidations_24h_usd": 15794646.1765,
+        "total_liquidations_24h_usd": 28080430.8328
       },
       "Bybit": {
         "exchange": "vadeli piyasa",
         "exchange_code": "6",
         "symbol": "BTCUSDT.6",
         "symbol_on_exchange": "BTCUSDT",
-        "open_interest_usd": 4171724993.6879997,
-        "open_interest_24h_ago_usd": 4099111244.4359,
-        "open_interest_change_24h_pct": 1.7714510517533588,
-        "funding_pct": -0.000161,
-        "long_short_ratio": 2.2938076416337285,
-        "long_liquidations_24h_usd": 4252995.7820999995,
-        "short_liquidations_24h_usd": 10448643.9139,
-        "total_liquidations_24h_usd": 14701639.695999999
+        "open_interest_usd": 4149914294.1088,
+        "open_interest_24h_ago_usd": 4155231246.0669,
+        "open_interest_change_24h_pct": -0.1279580279228143,
+        "funding_pct": 0.002046,
+        "long_short_ratio": 2.2733224222585924,
+        "long_liquidations_24h_usd": 2264980.4867,
+        "short_liquidations_24h_usd": 7877476.8278,
+        "total_liquidations_24h_usd": 10142457.3145
       },
       "OKX": {
         "exchange": "vadeli piyasa",
         "exchange_code": "3",
         "symbol": "BTCUSDT_PERP.3",
         "symbol_on_exchange": "BTC-USDT-SWAP",
-        "open_interest_usd": 1950859660.9554992,
-        "open_interest_24h_ago_usd": 1891347503.312967,
-        "open_interest_change_24h_pct": 3.14654803193426,
-        "funding_pct": 0.0016698376438099999,
+        "open_interest_usd": 1942093155.9104776,
+        "open_interest_24h_ago_usd": 1939161449.972208,
+        "open_interest_change_24h_pct": 0.15118421100581703,
+        "funding_pct": 0.00162867834518,
         "long_short_ratio": null,
-        "long_liquidations_24h_usd": 3860049.6601099996,
-        "short_liquidations_24h_usd": 8451772.507920003,
-        "total_liquidations_24h_usd": 12311822.168030001
+        "long_liquidations_24h_usd": 1727321.0500099997,
+        "short_liquidations_24h_usd": 2785211.8757000007,
+        "total_liquidations_24h_usd": 4512532.92571
       },
       "Hyperliquid": {
         "exchange": "vadeli piyasa",
         "exchange_code": "H",
         "symbol": "BTC.H",
         "symbol_on_exchange": "BTC",
-        "open_interest_usd": 2381258733.9803996,
-        "open_interest_24h_ago_usd": 2239090608.15018,
-        "open_interest_change_24h_pct": 6.349369039052499,
-        "funding_pct": 0.00092041,
+        "open_interest_usd": 2316448256.028,
+        "open_interest_24h_ago_usd": 2409798940.630066,
+        "open_interest_change_24h_pct": -3.873795569752325,
+        "funding_pct": 0.00125,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -276,10 +302,10 @@
         "exchange_code": "K",
         "symbol": "pf_xbtusd.K",
         "symbol_on_exchange": "pf_xbtusd",
-        "open_interest_usd": 122134517.1774,
-        "open_interest_24h_ago_usd": 128604088.36429998,
-        "open_interest_change_24h_pct": -5.030610822086368,
-        "funding_pct": 0.0007600220833333,
+        "open_interest_usd": 118019889.1442,
+        "open_interest_24h_ago_usd": 117891848.1969,
+        "open_interest_change_24h_pct": 0.10860882177887721,
+        "funding_pct": -0.0002303175,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -290,9 +316,9 @@
         "exchange_code": "2",
         "symbol": "BTC_USDC-PERPETUAL.2",
         "symbol_on_exchange": "BTC_USDC-PERPETUAL",
-        "open_interest_usd": 129311064.84745999,
-        "open_interest_24h_ago_usd": 129325232.93895,
-        "open_interest_change_24h_pct": -0.010955396072398482,
+        "open_interest_usd": 131798284.22417001,
+        "open_interest_24h_ago_usd": 131136368.46338,
+        "open_interest_change_24h_pct": 0.50475376781145,
         "funding_pct": 0.0,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
@@ -307,7 +333,7 @@
         "open_interest_usd": null,
         "open_interest_24h_ago_usd": null,
         "open_interest_change_24h_pct": null,
-        "funding_pct": 0.003251,
+        "funding_pct": 0.01,
         "long_short_ratio": null,
         "long_liquidations_24h_usd": 0,
         "short_liquidations_24h_usd": 0,
@@ -319,29 +345,29 @@
       "exchange_code": "A",
       "symbol": "BTCUSDT_PERP.A",
       "symbol_on_exchange": "BTCUSDT",
-      "open_interest_usd": 5717177679.0072,
-      "open_interest_24h_ago_usd": 5524750534.516999,
-      "open_interest_change_24h_pct": 3.4830015090812516,
-      "funding_pct": 0.002072,
-      "long_short_ratio": 2.1008,
-      "long_liquidations_24h_usd": 11142919.361800002,
-      "short_liquidations_24h_usd": 29188174.282300003,
-      "total_liquidations_24h_usd": 40331093.6441
+      "open_interest_usd": 5699764748.5968,
+      "open_interest_24h_ago_usd": 5727318606.125,
+      "open_interest_change_24h_pct": -0.48109524584040164,
+      "funding_pct": 0.00357,
+      "long_short_ratio": 2.0349,
+      "long_liquidations_24h_usd": 12285784.656299999,
+      "short_liquidations_24h_usd": 15794646.1765,
+      "total_liquidations_24h_usd": 28080430.8328
     },
     "binance_available": true,
-    "aggregate_oi_usd": 15686525283.406685,
-    "oi_change_24h_pct": 3.2845411745886954,
-    "oi_weighted_funding_pct": 0.003175200033816399,
+    "aggregate_oi_usd": 15524940963.005554,
+    "oi_change_24h_pct": -0.8459618527653978,
+    "oi_weighted_funding_pct": 0.004856917643830874,
     "liquidations_24h": {
-      "long_usd": 19255964.80401,
-      "short_usd": 48088590.70412,
-      "total_usd": 67344555.50813,
+      "long_usd": 16278086.193009999,
+      "short_usd": 26457334.88,
+      "total_usd": 42735421.07301,
       "dominant_side": "short"
     },
-    "long_short_ratio_avg": 2.197303820816864,
+    "long_short_ratio_avg": 2.154111211129296,
     "total_all_exchanges": {
-      "aggregate_oi_usd": 15686525283.406685,
-      "oi_weighted_funding_pct": 0.003175200033816399,
+      "aggregate_oi_usd": 15524940963.005554,
+      "oi_weighted_funding_pct": 0.004856917643830874,
       "exchange_count": 16,
       "market_count": 16,
       "markets": [
@@ -350,28 +376,28 @@
           "symbol": "BTCUSDT.S",
           "symbol_on_exchange": "BTCUSDT",
           "open_interest_usd": null,
-          "funding_pct": 0.003251
+          "funding_pct": 0.01
         },
         {
           "exchange": "ana piyasa",
           "symbol": "BTCUSDT_PERP.A",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 5717177679.0072,
-          "funding_pct": 0.002072
+          "open_interest_usd": 5699764748.5968,
+          "funding_pct": 0.00357
         },
         {
           "exchange": "Bitfinex",
           "symbol": "BTCUSDT_PERP.F",
           "symbol_on_exchange": "BTCF0:USTF0",
-          "open_interest_usd": 625623996.3286467,
-          "funding_pct": 0.043755
+          "open_interest_usd": 590485829.7321868,
+          "funding_pct": 0.065314
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT.6",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 4171724993.6879997,
-          "funding_pct": -0.000161
+          "open_interest_usd": 4149914294.1088,
+          "funding_pct": 0.002046
         },
         {
           "exchange": "Coinbase",
@@ -384,7 +410,7 @@
           "exchange": "opsiyon veri sağlayıcısı",
           "symbol": "BTC_USDC-PERPETUAL.2",
           "symbol_on_exchange": "BTC_USDC-PERPETUAL",
-          "open_interest_usd": 129311064.84745999,
+          "open_interest_usd": 131798284.22417001,
           "funding_pct": 0.0
         },
         {
@@ -392,49 +418,49 @@
           "symbol": "BTC_USDT.Y",
           "symbol_on_exchange": "BTC_USDT",
           "open_interest_usd": null,
-          "funding_pct": 0.00631
+          "funding_pct": 0.00325
         },
         {
           "exchange": "Huobi",
           "symbol": "BTCUSDT_PERP.4",
           "symbol_on_exchange": "BTC-USDT",
-          "open_interest_usd": 561964486.4219999,
-          "funding_pct": 0.01
+          "open_interest_usd": 550012342.7826,
+          "funding_pct": 0.0034537912699083998
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTC.H",
           "symbol_on_exchange": "BTC",
-          "open_interest_usd": 2381258733.9803996,
-          "funding_pct": 0.00092041
+          "open_interest_usd": 2316448256.028,
+          "funding_pct": 0.00125
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "pf_xbtusd.K",
           "symbol_on_exchange": "pf_xbtusd",
-          "open_interest_usd": 122134517.1774,
-          "funding_pct": 0.0007600220833333
+          "open_interest_usd": 118019889.1442,
+          "funding_pct": -0.0002303175
         },
         {
           "exchange": "Lighter",
           "symbol": "1.T",
           "symbol_on_exchange": "1",
           "open_interest_usd": null,
-          "funding_pct": -0.0004
+          "funding_pct": 0.0009
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT_PERP.3",
           "symbol_on_exchange": "BTC-USDT-SWAP",
-          "open_interest_usd": 1950859660.9554992,
-          "funding_pct": 0.0016698376438099999
+          "open_interest_usd": 1942093155.9104776,
+          "funding_pct": 0.00162867834518
         },
         {
           "exchange": "Phemex",
           "symbol": "BTCUSD.7",
           "symbol_on_exchange": "BTCUSD",
           "open_interest_usd": null,
-          "funding_pct": -0.005771
+          "funding_pct": 0.002314
         },
         {
           "exchange": "Polymarket",
@@ -447,22 +473,22 @@
           "exchange": "WOO X",
           "symbol": "PERP_BTC_USDT.W",
           "symbol_on_exchange": "PERP_BTC_USDT",
-          "open_interest_usd": 14035965.10948,
-          "funding_pct": 0.002252
+          "open_interest_usd": 14076087.98282,
+          "funding_pct": 0.00357
         },
         {
           "exchange": "dYdX",
           "symbol": "BTC-USD.8",
           "symbol_on_exchange": "BTC-USD",
-          "open_interest_usd": 12434185.890600001,
-          "funding_pct": 0.0053
+          "open_interest_usd": 12328074.4955,
+          "funding_pct": 0.0013125
         }
       ],
       "definition": "Her desteklenen borsadan bir ana BTC perpetual kontratı; OI USD olarak toplanır, funding OI-ağırlıklı ortalamadır."
     },
     "core_exchanges": {
-      "aggregate_oi_usd": 11839762333.6507,
-      "oi_weighted_funding_pct": 0.0012189402894984525,
+      "aggregate_oi_usd": 11791772198.616077,
+      "oi_weighted_funding_pct": 0.002713920293452304,
       "exchange_count": 3,
       "market_count": 3,
       "markets": [
@@ -470,22 +496,22 @@
           "exchange": "ana piyasa",
           "symbol": "BTCUSDT_PERP.A",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 5717177679.0072,
-          "funding_pct": 0.002072
+          "open_interest_usd": 5699764748.5968,
+          "funding_pct": 0.00357
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT.6",
           "symbol_on_exchange": "BTCUSDT",
-          "open_interest_usd": 4171724993.6879997,
-          "funding_pct": -0.000161
+          "open_interest_usd": 4149914294.1088,
+          "funding_pct": 0.002046
         },
         {
           "exchange": "vadeli piyasa",
           "symbol": "BTCUSDT_PERP.3",
           "symbol_on_exchange": "BTC-USDT-SWAP",
-          "open_interest_usd": 1950859660.9554992,
-          "funding_pct": 0.0016698376438099999
+          "open_interest_usd": 1942093155.9104776,
+          "funding_pct": 0.00162867834518
         }
       ],
       "exchanges": [
@@ -530,11 +556,11 @@
     "market_count": 7,
     "all_exchange_count": 16
   },
-  "funding_pct": 0.003175200033816399,
+  "funding_pct": 0.004856917643830874,
   "open_interest_btc": null,
-  "open_interest_usd": 15686525283.406685,
-  "core3_open_interest_usd": 11839762333.6507,
-  "core3_funding_pct": 0.0012189402894984525,
+  "open_interest_usd": 15524940963.005554,
+  "core3_open_interest_usd": 11791772198.616077,
+  "core3_funding_pct": 0.002713920293452304,
   "core3_exchanges": [
     "ana piyasa",
     "vadeli piyasa",
@@ -549,29 +575,29 @@
     "ok_count": 5,
     "grade": "A"
   },
-  "stablecoin_top50_market_cap_usd": 285140167847,
+  "stablecoin_top50_market_cap_usd": 284898277232,
   "btc_liquidity": {
     "ok": true,
-    "fetched_at": "2026-11-23T00:32:42.268576+00:00",
+    "fetched_at": "2026-11-23T13:53:36.550318+00:00",
     "coins": {
       "USDT": {
         "id": "1",
-        "supply_usd": 174505416589.97836,
-        "price_usd": 0.99827,
-        "peg_deviation_pct": -0.173,
+        "supply_usd": 174638019581.82706,
+        "price_usd": 0.99886,
+        "peg_deviation_pct": -0.114,
         "peg_status": "normal",
         "changes": {
           "1d": {
-            "usd": 34590054.27050781,
-            "pct": 0.0198256951934761
+            "usd": 24272297.544708252,
+            "pct": 0.013900565059854486
           },
           "7d": {
-            "usd": -660130507.3818359,
-            "pct": -0.3768609286019742
+            "usd": -646778207.6799011,
+            "pct": -0.368987051835834
           },
           "30d": {
-            "usd": -7880747698.52182,
-            "pct": -4.320913118199021
+            "usd": -7768955695.644501,
+            "pct": -4.259133009484217
           }
         },
         "history": [
@@ -2037,28 +2063,32 @@
           },
           {
             "date": "2026-11-22",
-            "supply_usd": 174813034143.21
+            "supply_usd": 174813034143.0
+          },
+          {
+            "date": "2026-11-23",
+            "supply_usd": 174807834143.05
           }
         ]
       },
       "USDC": {
         "id": "2",
-        "supply_usd": 68667186722.39638,
-        "price_usd": 0.9998423246,
-        "peg_deviation_pct": -0.01576754,
+        "supply_usd": 68773949910.8132,
+        "price_usd": 0.9998687721249999,
+        "peg_deviation_pct": -0.01312279,
         "peg_status": "normal",
         "changes": {
           "1d": {
-            "usd": -22265801.84564972,
-            "pct": -0.032415168599275734
+            "usd": 48579353.67425537,
+            "pct": 0.07068620115167068
           },
           "7d": {
-            "usd": -623752324.0196686,
-            "pct": -0.9001932036190707
+            "usd": -558142711.2764282,
+            "pct": -0.8050279317526332
           },
           "30d": {
-            "usd": -3581598410.865616,
-            "pct": -4.957312990466766
+            "usd": -3083193495.3110504,
+            "pct": -4.290726501449371
           }
         },
         "history": [
@@ -3524,28 +3554,32 @@
           },
           {
             "date": "2026-11-22",
-            "supply_usd": 68734390425.13
+            "supply_usd": 68734390425.0
+          },
+          {
+            "date": "2026-11-23",
+            "supply_usd": 68685099626.17
           }
         ]
       },
       "USDe": {
         "id": "146",
-        "supply_usd": 4870037122.82219,
-        "price_usd": 0.9993831135000001,
-        "peg_deviation_pct": -0.06168865,
+        "supply_usd": 4864285249.669772,
+        "price_usd": 0.9998737662499999,
+        "peg_deviation_pct": -0.01262338,
         "peg_status": "normal",
         "changes": {
           "1d": {
-            "usd": -7333635.963498116,
-            "pct": -0.1503604365177269
+            "usd": -14773300.871649742,
+            "pct": -0.3027899894747166
           },
           "7d": {
-            "usd": -36217556.472803116,
-            "pct": -0.7381915297965613
+            "usd": -21880711.689816475,
+            "pct": -0.4478094248711928
           },
           "30d": {
-            "usd": 241855166.91892433,
-            "pct": 5.225705670677816
+            "usd": 268719362.5977144,
+            "pct": 5.847361765689363
           }
         },
         "history": [
@@ -5011,28 +5045,32 @@
           },
           {
             "date": "2026-11-22",
-            "supply_usd": 4879674530.16
+            "supply_usd": 4879674530.0
+          },
+          {
+            "date": "2026-11-23",
+            "supply_usd": 4876017171.91
           }
         ]
       },
       "USDS": {
         "id": "209",
-        "supply_usd": 3260420546.9537015,
-        "price_usd": 1.000100912615956,
-        "peg_deviation_pct": 0.01009126,
+        "supply_usd": 3273453533.757641,
+        "price_usd": 0.9999237075,
+        "peg_deviation_pct": -0.00762925,
         "peg_status": "normal",
         "changes": {
           "1d": {
-            "usd": 149116562.64495897,
-            "pct": 4.792735245318336
+            "usd": 166439530.52013636,
+            "pct": 5.356896697173119
           },
           "7d": {
-            "usd": -2063607346.8664021,
-            "pct": -38.76026549864148
+            "usd": -2082218380.5804691,
+            "pct": -38.87875160922369
           },
           "30d": {
-            "usd": -3483254629.509662,
-            "pct": -51.65217093591408
+            "usd": -3463588857.21669,
+            "pct": -51.41111865136677
           }
         },
         "history": [
@@ -6498,26 +6536,30 @@
           },
           {
             "date": "2026-11-22",
-            "supply_usd": 3107251063.19
+            "supply_usd": 3107251063.0
+          },
+          {
+            "date": "2026-11-23",
+            "supply_usd": 3258140493.2
           }
         ]
       }
     },
     "total": {
       "label": "USDT + USDC + USDe + USDS",
-      "supply_usd": 251303060982.15063,
+      "supply_usd": 251549708276.06766,
       "changes": {
         "1d": {
-          "usd": 154107179.10632324,
-          "pct": 0.06136086842996047
+          "usd": 224517880.86746216,
+          "pct": 0.08933361614664737
         },
         "7d": {
-          "usd": -3383707734.7407227,
-          "pct": -1.328576176841767
+          "usd": -3309020011.2266235,
+          "pct": -1.2983742143986787
         },
         "30d": {
-          "usd": -14703745571.97818,
-          "pct": -5.527582456423408
+          "usd": -14047018685.574524,
+          "pct": -5.288852331227412
         }
       },
       "history": [
@@ -7983,7 +8025,11 @@
         },
         {
           "date": "2026-11-22",
-          "supply_usd": 251534350161.69
+          "supply_usd": 251534350161.0
+        },
+        {
+          "date": "2026-11-23",
+          "supply_usd": 251627091434.33
         }
       ]
     },
@@ -8055,22 +8101,22 @@
         },
         {
           "date": "2026-11-23",
-          "observed_at": "2026-11-23T00:32:42.268576+00:00",
-          "usdt_supply_usd": 174505416589.97836,
-          "usdt_dominance_pct": 8.38992428845605,
-          "total_crypto_market_cap_usd": 2081257309355.6545
+          "observed_at": "2026-11-23T13:53:36.550318+00:00",
+          "usdt_supply_usd": 174638019581.82706,
+          "usdt_dominance_pct": 8.356730923220605,
+          "total_crypto_market_cap_usd": 2090608210828.8496
         }
       ],
       "signals": {
         "1d": {
           "status": "normal",
-          "dominance_change_pp": -0.013303375710783882,
-          "supply_change_usd": -68175055.36758423
+          "dominance_change_pp": -0.04649674094623002,
+          "supply_change_usd": 64427936.48110962
         },
         "7d": {
           "status": "warning",
-          "dominance_change_pp": 0.49841767490358535,
-          "supply_change_usd": -783889551.8156738
+          "dominance_change_pp": 0.4652243096681392,
+          "supply_change_usd": -651286559.96698
         },
         "30d": {
           "status": "insufficient_data",
@@ -8090,7 +8136,7 @@
     "methodology": "Arz, $1 nominal değerle gösterilir; borsa net akışı veya BTC hareketinin kanıtlanmış nedeni değildir. Dominans günlük UTC gözlemleridir; geçmiş toplam piyasa değeri uydurulmaz. Peg uyarısı ≥%0,5, kritik ≥%1."
   },
   "coinalyze_all_exchange_count": 16,
-  "generated_at": "2026-11-23T00:32:24.617738+00:00",
+  "generated_at": "2026-11-23T13:53:14.971776+00:00",
   "sector_rotation": {
     "method": "ALPHA equal-weight representative basket; every constituent normalized to 100 at the common start date, then averaged.",
     "window_days": 31,
@@ -8234,10 +8280,10 @@
           },
           {
             "date": "2026-11-23",
-            "value": 72.24882005584608
+            "value": 74.76874163729677
           }
         ],
-        "return_pct": -27.751179944153918
+        "return_pct": -25.23125836270323
       },
       "L1": {
         "label": "L1",
@@ -8376,10 +8422,10 @@
           },
           {
             "date": "2026-11-23",
-            "value": 70.14127485435255
+            "value": 73.64696782777767
           }
         ],
-        "return_pct": -29.858725145647455
+        "return_pct": -26.353032172222328
       },
       "L2": {
         "label": "L2",
@@ -8513,10 +8559,10 @@
           },
           {
             "date": "2026-11-23",
-            "value": 72.98823000766632
+            "value": 74.90111082536234
           }
         ],
-        "return_pct": -27.011769992333683
+        "return_pct": -25.098889174637662
       },
       "DEFI": {
         "label": "DEFI",
@@ -8654,10 +8700,10 @@
           },
           {
             "date": "2026-11-23",
-            "value": 62.37261231198673
+            "value": 64.64746700841346
           }
         ],
-        "return_pct": -37.62738768801327
+        "return_pct": -35.35253299158654
       },
       "MEME": {
         "label": "MEME",
@@ -8792,10 +8838,10 @@
           },
           {
             "date": "2026-11-23",
-            "value": 69.64937394961254
+            "value": 72.96450441811922
           }
         ],
-        "return_pct": -30.35062605038746
+        "return_pct": -27.03549558188078
       },
       "AI": {
         "label": "AI",
@@ -8928,10 +8974,10 @@
           },
           {
             "date": "2026-11-23",
-            "value": 68.48758995261618
+            "value": 70.85880804101338
           }
         ],
-        "return_pct": -31.512410047383824
+        "return_pct": -29.141191958986624
       },
       "DEPIN": {
         "label": "DEPIN",
@@ -9064,10 +9110,10 @@
           },
           {
             "date": "2026-11-23",
-            "value": 66.65589024471825
+            "value": 69.18449929381204
           }
         ],
-        "return_pct": -33.34410975528175
+        "return_pct": -30.81550070618796
       }
     },
     "unsupported": [
@@ -9076,11 +9122,642 @@
     ]
   },
   "exchange_netflow": {
-    "ok": false,
-    "points": [],
-    "error": "CoinMetrics: HTTPSConnectionPool(host='community-api.coinmetrics.io', port=443): Read timed out. (read timeout=20)",
+    "ok": true,
+    "points": [
+      {
+        "date": "2026-08-25",
+        "inflow_btc": 26812.93213473,
+        "outflow_btc": 27543.59351411,
+        "netflow_btc": -730.6613793800025,
+        "ma7_btc": -730.6613793800025
+      },
+      {
+        "date": "2026-08-26",
+        "inflow_btc": 21100.56506186,
+        "outflow_btc": 25141.75321478,
+        "netflow_btc": -4041.18815292,
+        "ma7_btc": -2385.9247661500012
+      },
+      {
+        "date": "2026-08-27",
+        "inflow_btc": 21593.55205304,
+        "outflow_btc": 28132.00985346,
+        "netflow_btc": -6538.457800420001,
+        "ma7_btc": -3770.102444240001
+      },
+      {
+        "date": "2026-08-28",
+        "inflow_btc": 31601.84487968,
+        "outflow_btc": 27045.12960767,
+        "netflow_btc": 4556.715272010002,
+        "ma7_btc": -1688.3980151775004
+      },
+      {
+        "date": "2026-08-29",
+        "inflow_btc": 9155.11521959,
+        "outflow_btc": 9888.31927916,
+        "netflow_btc": -733.20405957,
+        "ma7_btc": -1497.3592240560004
+      },
+      {
+        "date": "2026-08-30",
+        "inflow_btc": 9159.69253612,
+        "outflow_btc": 11804.97874318,
+        "netflow_btc": -2645.2862070600004,
+        "ma7_btc": -1688.6803878900002
+      },
+      {
+        "date": "2026-08-31",
+        "inflow_btc": 26633.79969871,
+        "outflow_btc": 26306.03112552,
+        "netflow_btc": 327.7685731900019,
+        "ma7_btc": -1400.616250592857
+      },
+      {
+        "date": "2026-09-01",
+        "inflow_btc": 23464.38438523,
+        "outflow_btc": 22650.54726226,
+        "netflow_btc": 813.8371229700024,
+        "ma7_btc": -1179.9736073999993
+      },
+      {
+        "date": "2026-09-02",
+        "inflow_btc": 17936.73317105,
+        "outflow_btc": 17057.04121201,
+        "netflow_btc": 879.6919590399993,
+        "ma7_btc": -476.99073426285656
+      },
+      {
+        "date": "2026-09-03",
+        "inflow_btc": 24436.35509568,
+        "outflow_btc": 27482.8810388,
+        "netflow_btc": -3046.5259431199993,
+        "ma7_btc": 21.856673922858004
+      },
+      {
+        "date": "2026-09-04",
+        "inflow_btc": 23413.18188385,
+        "outflow_btc": 26585.22210847,
+        "netflow_btc": -3172.040224619999,
+        "ma7_btc": -1082.2512541671422
+      },
+      {
+        "date": "2026-09-05",
+        "inflow_btc": 7360.36493117,
+        "outflow_btc": 8310.24487066,
+        "netflow_btc": -949.8799394900007,
+        "ma7_btc": -1113.204951298571
+      },
+      {
+        "date": "2026-09-06",
+        "inflow_btc": 13205.63501585,
+        "outflow_btc": 16889.96245139,
+        "netflow_btc": -3684.327435540001,
+        "ma7_btc": -1261.6394125099994
+      },
+      {
+        "date": "2026-09-07",
+        "inflow_btc": 13535.23040593,
+        "outflow_btc": 11748.92429749,
+        "netflow_btc": 1786.3061084399997,
+        "ma7_btc": -1053.2769074742855
+      },
+      {
+        "date": "2026-09-08",
+        "inflow_btc": 20142.20164691,
+        "outflow_btc": 23689.22951893,
+        "netflow_btc": -3547.0278720199967,
+        "ma7_btc": -1676.2576210442853
+      },
+      {
+        "date": "2026-09-09",
+        "inflow_btc": 16133.86603051,
+        "outflow_btc": 18244.1278987,
+        "netflow_btc": -2110.2618681900003,
+        "ma7_btc": -2103.3938820771427
+      },
+      {
+        "date": "2026-09-10",
+        "inflow_btc": 20312.30347017,
+        "outflow_btc": 25386.16137084,
+        "netflow_btc": -5073.857900669998,
+        "ma7_btc": -2393.0127331557137
+      },
+      {
+        "date": "2026-09-11",
+        "inflow_btc": 23384.47366595,
+        "outflow_btc": 23681.57119808,
+        "netflow_btc": -297.0975321299993,
+        "ma7_btc": -1982.306634228571
+      },
+      {
+        "date": "2026-09-12",
+        "inflow_btc": 10591.20118324,
+        "outflow_btc": 10300.75849294,
+        "netflow_btc": 290.4426903000003,
+        "ma7_btc": -1805.1176871157136
+      },
+      {
+        "date": "2026-09-13",
+        "inflow_btc": 10704.6370724,
+        "outflow_btc": 12892.13384048,
+        "netflow_btc": -2187.49676808,
+        "ma7_btc": -1591.2847346214278
+      },
+      {
+        "date": "2026-09-14",
+        "inflow_btc": 16625.43250438,
+        "outflow_btc": 19800.56354858,
+        "netflow_btc": -3175.1310441999995,
+        "ma7_btc": -2300.061470712856
+      },
+      {
+        "date": "2026-09-15",
+        "inflow_btc": 30402.44301216,
+        "outflow_btc": 24869.8946116,
+        "netflow_btc": 5532.548400560001,
+        "ma7_btc": -1002.9791460585709
+      },
+      {
+        "date": "2026-09-16",
+        "inflow_btc": 23005.0435735,
+        "outflow_btc": 25111.95609172,
+        "netflow_btc": -2106.9125182200005,
+        "ma7_btc": -1002.5006674914281
+      },
+      {
+        "date": "2026-09-17",
+        "inflow_btc": 21766.37576865,
+        "outflow_btc": 22768.27672937,
+        "netflow_btc": -1001.9009607200023,
+        "ma7_btc": -420.79253321285717
+      },
+      {
+        "date": "2026-09-18",
+        "inflow_btc": 26956.79244258,
+        "outflow_btc": 28008.10103786,
+        "netflow_btc": -1051.3085952799993,
+        "ma7_btc": -528.5369708057143
+      },
+      {
+        "date": "2026-09-19",
+        "inflow_btc": 13920.30109519,
+        "outflow_btc": 15406.49176817,
+        "netflow_btc": -1486.1906729800012,
+        "ma7_btc": -782.3417369885717
+      },
+      {
+        "date": "2026-09-20",
+        "inflow_btc": 12118.44914273,
+        "outflow_btc": 12143.14716736,
+        "netflow_btc": -24.698024630000873,
+        "ma7_btc": -473.37048792428607
+      },
+      {
+        "date": "2026-09-21",
+        "inflow_btc": 39392.93389089,
+        "outflow_btc": 43259.91376965,
+        "netflow_btc": -3866.979878759994,
+        "ma7_btc": -572.206035718571
+      },
+      {
+        "date": "2026-09-22",
+        "inflow_btc": 26788.45880433,
+        "outflow_btc": 43695.27229361,
+        "netflow_btc": -16906.813489280004,
+        "ma7_btc": -3777.8291628385714
+      },
+      {
+        "date": "2026-09-23",
+        "inflow_btc": 22387.64642336,
+        "outflow_btc": 32444.54357449,
+        "netflow_btc": -10056.897151129997,
+        "ma7_btc": -4913.541253254285
+      },
+      {
+        "date": "2026-09-24",
+        "inflow_btc": 19032.13718045,
+        "outflow_btc": 26693.48630287,
+        "netflow_btc": -7661.349122419997,
+        "ma7_btc": -5864.8909906399995
+      },
+      {
+        "date": "2026-09-25",
+        "inflow_btc": 22970.33807703,
+        "outflow_btc": 30130.29185566,
+        "netflow_btc": -7159.9537786300025,
+        "ma7_btc": -6737.554588261429
+      },
+      {
+        "date": "2026-09-26",
+        "inflow_btc": 11569.65959523,
+        "outflow_btc": 17514.58441606,
+        "netflow_btc": -5944.92482083,
+        "ma7_btc": -7374.516609382857
+      },
+      {
+        "date": "2026-09-27",
+        "inflow_btc": 12578.79961035,
+        "outflow_btc": 16041.30577493,
+        "netflow_btc": -3462.5061645799997,
+        "ma7_btc": -7865.632057947142
+      },
+      {
+        "date": "2026-09-28",
+        "inflow_btc": 28047.13379977,
+        "outflow_btc": 30287.65789306,
+        "netflow_btc": -2240.5240932900015,
+        "ma7_btc": -7633.2812314514285
+      },
+      {
+        "date": "2026-09-29",
+        "inflow_btc": 28302.36254991,
+        "outflow_btc": 26433.32263442,
+        "netflow_btc": 1869.0399154900006,
+        "ma7_btc": -4951.016459341428
+      },
+      {
+        "date": "2026-09-30",
+        "inflow_btc": 20094.33904693,
+        "outflow_btc": 24558.19711266,
+        "netflow_btc": -4463.858065730001,
+        "ma7_btc": -4152.010875712857
+      },
+      {
+        "date": "2026-10-01",
+        "inflow_btc": 25840.51639189,
+        "outflow_btc": 30196.19744482,
+        "netflow_btc": -4355.681052930002,
+        "ma7_btc": -3679.7725800714293
+      },
+      {
+        "date": "2026-10-02",
+        "inflow_btc": 29853.0066675,
+        "outflow_btc": 33160.62756788,
+        "netflow_btc": -3307.6209003799995,
+        "ma7_btc": -3129.4393117500003
+      },
+      {
+        "date": "2026-10-03",
+        "inflow_btc": 11665.42695857,
+        "outflow_btc": 16605.95507745,
+        "netflow_btc": -4940.528118879998,
+        "ma7_btc": -2985.954068614286
+      },
+      {
+        "date": "2026-10-04",
+        "inflow_btc": 13724.1910604,
+        "outflow_btc": 15887.16637805,
+        "netflow_btc": -2162.97531765,
+        "ma7_btc": -2800.306804767143
+      },
+      {
+        "date": "2026-10-05",
+        "inflow_btc": 28848.83966341,
+        "outflow_btc": 31831.56558725,
+        "netflow_btc": -2982.72592384,
+        "ma7_btc": -2906.335637702857
+      },
+      {
+        "date": "2026-10-06",
+        "inflow_btc": 22456.81796446,
+        "outflow_btc": 36668.00869235,
+        "netflow_btc": -14211.19072789,
+        "ma7_btc": -5203.511443900001
+      },
+      {
+        "date": "2026-10-07",
+        "inflow_btc": 30978.63673684,
+        "outflow_btc": 28172.34522535,
+        "netflow_btc": 2806.291511489999,
+        "ma7_btc": -4164.918647154286
+      },
+      {
+        "date": "2026-10-08",
+        "inflow_btc": 28184.93440716,
+        "outflow_btc": 27937.59643243,
+        "netflow_btc": 247.33797472999868,
+        "ma7_btc": -3507.344500345714
+      },
+      {
+        "date": "2026-10-09",
+        "inflow_btc": 27171.07520562,
+        "outflow_btc": 22909.79804952,
+        "netflow_btc": 4261.277156100001,
+        "ma7_btc": -2426.07334942
+      },
+      {
+        "date": "2026-10-10",
+        "inflow_btc": 16827.33541212,
+        "outflow_btc": 16100.93017414,
+        "netflow_btc": 726.4052379799996,
+        "ma7_btc": -1616.5114412971432
+      },
+      {
+        "date": "2026-10-11",
+        "inflow_btc": 17953.20412985,
+        "outflow_btc": 16818.31002403,
+        "netflow_btc": 1134.8941058199998,
+        "ma7_btc": -1145.387237944286
+      },
+      {
+        "date": "2026-10-12",
+        "inflow_btc": 23968.52936936,
+        "outflow_btc": 25384.54235105,
+        "netflow_btc": -1416.0129816900007,
+        "ma7_btc": -921.571103351429
+      },
+      {
+        "date": "2026-10-13",
+        "inflow_btc": 21662.00877498,
+        "outflow_btc": 22054.06566782,
+        "netflow_btc": -392.0568928399989,
+        "ma7_btc": 1052.5908730842855
+      },
+      {
+        "date": "2026-10-14",
+        "inflow_btc": 26131.99712154,
+        "outflow_btc": 26862.70298889,
+        "netflow_btc": -730.7058673499996,
+        "ma7_btc": 547.3055332499999
+      },
+      {
+        "date": "2026-10-15",
+        "inflow_btc": 27949.43921641,
+        "outflow_btc": 27449.69599033,
+        "netflow_btc": 499.74322607999784,
+        "ma7_btc": 583.3634262999998
+      },
+      {
+        "date": "2026-10-16",
+        "inflow_btc": 21875.55039989,
+        "outflow_btc": 23600.30263574,
+        "netflow_btc": -1724.7522358500028,
+        "ma7_btc": -271.7836296928578
+      },
+      {
+        "date": "2026-10-17",
+        "inflow_btc": 14233.64345633,
+        "outflow_btc": 12183.16576428,
+        "netflow_btc": 2050.4776920500008,
+        "ma7_btc": -82.63042196857194
+      },
+      {
+        "date": "2026-10-18",
+        "inflow_btc": 11526.63036975,
+        "outflow_btc": 11689.56055471,
+        "netflow_btc": -162.93018495999968,
+        "ma7_btc": -268.03389208000044
+      },
+      {
+        "date": "2026-10-19",
+        "inflow_btc": 16537.623759,
+        "outflow_btc": 15578.30498151,
+        "netflow_btc": 959.318777489998,
+        "ma7_btc": 71.29921637428508
+      },
+      {
+        "date": "2026-10-20",
+        "inflow_btc": 22038.19511327,
+        "outflow_btc": 21755.98488709,
+        "netflow_btc": 282.2102261800028,
+        "ma7_btc": 167.6230905199996
+      },
+      {
+        "date": "2026-10-21",
+        "inflow_btc": 21794.38351302,
+        "outflow_btc": 28909.50930171,
+        "netflow_btc": -7115.125788690002,
+        "ma7_btc": -744.4368982428579
+      },
+      {
+        "date": "2026-10-22",
+        "inflow_btc": 25125.7582324,
+        "outflow_btc": 27725.52509547,
+        "netflow_btc": -2599.766863069999,
+        "ma7_btc": -1187.2240538357146
+      },
+      {
+        "date": "2026-10-23",
+        "inflow_btc": 25783.91355793,
+        "outflow_btc": 19527.95953612,
+        "netflow_btc": 6255.954021809997,
+        "ma7_btc": -47.123159884286
+      },
+      {
+        "date": "2026-10-24",
+        "inflow_btc": 7322.05098439,
+        "outflow_btc": 7117.40648214,
+        "netflow_btc": 204.6445022500002,
+        "ma7_btc": -310.81361557000037
+      },
+      {
+        "date": "2026-10-25",
+        "inflow_btc": 6159.20159186,
+        "outflow_btc": 5137.092119,
+        "netflow_btc": 1022.1094728600001,
+        "ma7_btc": -141.52223588142897
+      },
+      {
+        "date": "2026-10-26",
+        "inflow_btc": 21742.56149944,
+        "outflow_btc": 18227.37424432,
+        "netflow_btc": 3515.1872551199995,
+        "ma7_btc": 223.60183235142838
+      },
+      {
+        "date": "2026-10-27",
+        "inflow_btc": 14289.82595766,
+        "outflow_btc": 31552.57248481,
+        "netflow_btc": -17262.74652715,
+        "ma7_btc": -2282.820560981429
+      },
+      {
+        "date": "2026-10-28",
+        "inflow_btc": 19977.30379767,
+        "outflow_btc": 16140.15849883,
+        "netflow_btc": 3837.1452988399997,
+        "ma7_btc": -718.2104056200004
+      },
+      {
+        "date": "2026-10-29",
+        "inflow_btc": 22395.0010732,
+        "outflow_btc": 45975.99422625,
+        "netflow_btc": -23580.993153049996,
+        "ma7_btc": -3715.5284470457145
+      },
+      {
+        "date": "2026-10-30",
+        "inflow_btc": 32430.50050448,
+        "outflow_btc": 26836.13366726,
+        "netflow_btc": 5594.366837219997,
+        "ma7_btc": -3810.040901987143
+      },
+      {
+        "date": "2026-10-31",
+        "inflow_btc": 6752.51383059,
+        "outflow_btc": 10502.36064078,
+        "netflow_btc": -3749.84681019,
+        "ma7_btc": -4374.968232335714
+      },
+      {
+        "date": "2026-11-01",
+        "inflow_btc": 21580.95300312,
+        "outflow_btc": 38240.95299233,
+        "netflow_btc": -16659.99998921,
+        "ma7_btc": -6900.983869774286
+      },
+      {
+        "date": "2026-11-02",
+        "inflow_btc": 30013.43210155,
+        "outflow_btc": 33052.70579597,
+        "netflow_btc": -3039.273694420004,
+        "ma7_btc": -7837.335433994286
+      },
+      {
+        "date": "2026-11-03",
+        "inflow_btc": 36822.52614642,
+        "outflow_btc": 30823.08442392,
+        "netflow_btc": 5999.4417225,
+        "ma7_btc": -4514.1656840442865
+      },
+      {
+        "date": "2026-11-04",
+        "inflow_btc": 22712.21360601,
+        "outflow_btc": 25114.12373372,
+        "netflow_btc": -2401.9101277100017,
+        "ma7_btc": -5405.459316408572
+      },
+      {
+        "date": "2026-11-05",
+        "inflow_btc": 33709.52852119,
+        "outflow_btc": 32377.31110132,
+        "netflow_btc": 1332.2174198699977,
+        "ma7_btc": -1846.4292345628585
+      },
+      {
+        "date": "2026-11-06",
+        "inflow_btc": 28120.79400943,
+        "outflow_btc": 32971.95688402,
+        "netflow_btc": -4851.162874590002,
+        "ma7_btc": -3338.64776482143
+      },
+      {
+        "date": "2026-11-07",
+        "inflow_btc": 6641.34869167,
+        "outflow_btc": 11182.56835336,
+        "netflow_btc": -4541.21966169,
+        "ma7_btc": -3451.70102932143
+      },
+      {
+        "date": "2026-11-08",
+        "inflow_btc": 8802.98297358,
+        "outflow_btc": 13424.35614962,
+        "netflow_btc": -4621.3731760400005,
+        "ma7_btc": -1731.897198868573
+      },
+      {
+        "date": "2026-11-09",
+        "inflow_btc": 19946.56037107,
+        "outflow_btc": 24537.90578269,
+        "netflow_btc": -4591.345411619997,
+        "ma7_btc": -1953.6217298971435
+      },
+      {
+        "date": "2026-11-10",
+        "inflow_btc": 38720.90334823,
+        "outflow_btc": 31999.17642987,
+        "netflow_btc": 6721.72691836,
+        "ma7_btc": -1850.438130488572
+      },
+      {
+        "date": "2026-11-11",
+        "inflow_btc": 28624.0113968,
+        "outflow_btc": 22570.2060881,
+        "netflow_btc": 6053.805308700001,
+        "ma7_btc": -642.4787824300001
+      },
+      {
+        "date": "2026-11-12",
+        "inflow_btc": 26241.01539526,
+        "outflow_btc": 27150.66820532,
+        "netflow_btc": -909.6528100599971,
+        "ma7_btc": -962.7459581342852
+      },
+      {
+        "date": "2026-11-13",
+        "inflow_btc": 26738.33235975,
+        "outflow_btc": 28867.8143521,
+        "netflow_btc": -2129.48199235,
+        "ma7_btc": -573.9344035285706
+      },
+      {
+        "date": "2026-11-14",
+        "inflow_btc": 16820.47263778,
+        "outflow_btc": 20196.63332078,
+        "netflow_btc": -3376.160683000002,
+        "ma7_btc": -407.49740657285656
+      },
+      {
+        "date": "2026-11-15",
+        "inflow_btc": 17218.70427819,
+        "outflow_btc": 29230.63288041,
+        "netflow_btc": -12011.92860222,
+        "ma7_btc": -1463.291038884285
+      },
+      {
+        "date": "2026-11-16",
+        "inflow_btc": 28742.75120248,
+        "outflow_btc": 26181.76489357,
+        "netflow_btc": 2560.98630891,
+        "ma7_btc": -441.5293645228568
+      },
+      {
+        "date": "2026-11-17",
+        "inflow_btc": 28667.92253367,
+        "outflow_btc": 33042.6716084,
+        "netflow_btc": -4374.74907473,
+        "ma7_btc": -2026.7402206785712
+      },
+      {
+        "date": "2026-11-18",
+        "inflow_btc": 27468.9288749,
+        "outflow_btc": 32775.82715839,
+        "netflow_btc": -5306.898283489998,
+        "ma7_btc": -3649.697876705714
+      },
+      {
+        "date": "2026-11-19",
+        "inflow_btc": 23176.95922337,
+        "outflow_btc": 25023.05976972,
+        "netflow_btc": -1846.1005463500005,
+        "ma7_btc": -3783.476124747143
+      },
+      {
+        "date": "2026-11-20",
+        "inflow_btc": 41305.47709901,
+        "outflow_btc": 41820.85523016,
+        "netflow_btc": -515.3781311499988,
+        "ma7_btc": -3552.8898588614284
+      },
+      {
+        "date": "2026-11-21",
+        "inflow_btc": 37664.01451948,
+        "outflow_btc": 49689.46367749,
+        "netflow_btc": -12025.44915801,
+        "ma7_btc": -4788.50249814857
+      },
+      {
+        "date": "2026-11-22",
+        "inflow_btc": 14441.80912391,
+        "outflow_btc": 13517.36748175,
+        "netflow_btc": 924.4416421599999,
+        "ma7_btc": -2940.449606094285
+      }
+    ],
+    "error": null,
     "method": "Exchange netflow = labeled-wallet inflow - labeled-wallet outflow. Positive = net coins moving to exchanges; negative = net coins leaving exchanges.",
-    "note": "No trustworthy labeled-wallet exchange-flow series was available in this run; no proxy is substituted."
+    "note": null
   },
-  "crypto_intelligence_ext_generated_at": "2026-11-23T00:36:04.601466+00:00"
+  "crypto_intelligence_ext_generated_at": "2026-11-23T13:57:11.327521+00:00"
 }
