@@ -1,54 +1,54 @@
 {
   "movers": [
     {
-      "symbol": "币安人生",
-      "name": "币安人生 (BinanceLife)",
-      "coingecko_id": "bianrensheng",
+      "symbol": "DOT",
+      "name": "Polkadot",
+      "coingecko_id": "polkadot",
       "exchange": "ana piyasa",
-      "exchange_symbol": "币安人生USDT",
-      "price": 0.474265,
-      "change_24h": -0.20471,
-      "volume_zscore_15m": 2.300688448752047,
-      "pine_z_delta_15m": 1.9619606902613032,
-      "pine_raw_delta_15m_base": 16233.8,
-      "pine_delta_mean_20": 1382.24,
-      "pine_delta_stdev_20": 7569.754110630014,
+      "exchange_symbol": "DOTUSDT",
+      "price": 0.651456,
+      "change_24h": -3.05681,
+      "volume_zscore_15m": 3.1690613080169783,
+      "pine_z_delta_15m": 3.38514362980554,
+      "pine_raw_delta_15m_base": 65815.51,
+      "pine_delta_mean_20": 17934.5115,
+      "pine_delta_stdev_20": 14144.451088697388,
       "zscore_length": 20,
       "zscore_volume_type": "base_asset_volume",
-      "base_volume_15m": 28567.399999999998,
-      "base_volume_mean_20": 12161.8,
-      "base_volume_stdev_20": 7130.735154035662,
-      "volume_15m_usd": 13548.62686,
-      "buyer_share_pct": 95.07518542731495,
-      "taker_buy_15m_usd": 12881.382109999999,
-      "taker_sell_15m_usd": 667.2447500000017,
-      "spot_delta_15m_usd": 12214.137359999997,
-      "price_change_15m_pct": 0.1690974424011671,
+      "base_volume_15m": 73863.25,
+      "base_volume_mean_20": 25916.9435,
+      "base_volume_stdev_20": 15129.497930099094,
+      "volume_15m_usd": 48291.73085,
+      "buyer_share_pct": 90.3035019089609,
+      "taker_buy_15m_usd": 43609.124090000005,
+      "taker_sell_15m_usd": 4682.606759999995,
+      "spot_delta_15m_usd": 38926.51733000001,
+      "price_change_15m_pct": 0.15313935681469104,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1795527000000,
-          "delta_usd": -3040.3515199999997,
-          "green": false
-        },
-        {
-          "ts": 1795527900000,
-          "delta_usd": 2812.97448,
+          "ts": 1795560300000,
+          "delta_usd": 2993.3350899999987,
           "green": true
         },
         {
-          "ts": 1795528800000,
-          "delta_usd": 12214.137359999997,
+          "ts": 1795561200000,
+          "delta_usd": -5015.260589999998,
+          "green": false
+        },
+        {
+          "ts": 1795562100000,
+          "delta_usd": 38926.51733000001,
           "green": true
         }
       ],
       "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_45m_delta_usd": 11986.760319999998,
-      "cvd_note": "✅ Pine Z-Delta + true Spot CVD teyitli · son 2×15dk CVD yeşil",
-      "signal_score": 9.470167681744844,
+      "cvd_green_streak": 1,
+      "cvd_45m_delta_usd": 36904.59183000001,
+      "cvd_note": "✅ Pine Z-Delta + true Spot CVD aynı yönde",
+      "signal_score": 10.934555128718609,
       "signal": "Pine Z-Delta + gerçek taker alıcı akışı",
-      "signal_time_utc": "2026-11-24T14:00:00+00:00"
+      "signal_time_utc": "2026-11-24T23:15:00+00:00"
     }
   ],
   "window": "15m",
@@ -69,5 +69,5 @@
   "zscore_formula": "z = (X_current - mean(X_last20_including_current)) / population_stdev(X_last20_including_current)",
   "pine_delta_formula": "raw_delta_15m = sum(1m volume * (+1 if close>=open else -1)); z_delta = zscore(raw_delta_15m, 20)",
   "cvd_rule": "True Spot CVD = taker-buy quote - taker-sell quote; Pine Z-Delta ile karıştırılmaz, ek teyit olarak kullanılır.",
-  "generated_at": "2026-11-24T14:25:53.515417+00:00"
+  "generated_at": "2026-11-24T23:41:52.283499+00:00"
 }
